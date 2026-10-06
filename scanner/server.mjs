@@ -61,9 +61,10 @@ async function check(u) {
 const mime = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".json": "application/json", ".jpg": "image/jpeg", ".png": "image/png", ".css": "text/css" };
 const staticOk = (p) => p === "/" || p === "/index.html" || p.startsWith("/vendor/") || p.startsWith("/data/");
 
+const originAllowed = (o) => allowedOrigins.includes(o) || /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(o);
 function cors(req, res) {
   const o = req.headers.origin;
-  if (o && (allowedOrigins.includes(o) || /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(o))) {
+  if (o && originAllowed(o)) {
     res.setHeader("Access-Control-Allow-Origin", o);
     res.setHeader("Vary", "Origin");
     res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
@@ -74,6 +75,11 @@ function cors(req, res) {
 
 const server = http.createServer(async (req, res) => {
   cors(req, res);
+  // حماية من مواقع أخرى تحاول استخدام الخادم (CSRF / DNS rebinding): المضيف محلي، والمصدر مسموح، وPOST بصيغة JSON فقط
+  const o = req.headers.origin;
+  const bad = !/^(localhost|127\.0\.0\.1)(:\d+)?$/.test(req.headers.host || "") || (o && !originAllowed(o)) ||
+    (req.method === "POST" && !/^application\/json/i.test(req.headers["content-type"] || ""));
+  if (bad) { res.writeHead(403); return res.end("forbidden"); }
   const url = new URL(req.url, "http://x");
   if (req.method === "OPTIONS") { res.writeHead(204); return res.end(); }
 
