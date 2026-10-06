@@ -1,5 +1,5 @@
-# الفحص الآلي الدوري ثم نشر الموقع على GitHub Pages
-name: Scan and deploy
+# جلب الأخبار دورياً ثم نشر الموقع على GitHub Pages
+name: Fetch news and deploy
 
 on:
   push:
@@ -7,11 +7,6 @@ on:
   schedule:
     - cron: "17 */6 * * *"     # كل 6 ساعات
   workflow_dispatch:
-    inputs:
-      max:
-        description: "أقصى عدد نطاقات للفحص في هذه الدورة"
-        required: false
-        default: "40"
 
 permissions:
   contents: write
@@ -23,7 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scan:
+  news:
     # لا يعمل عند push (حتى لا تتكرر الدورة)، فقط جدولة أو تشغيل يدوي
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
@@ -36,15 +31,10 @@ jobs:
           cache-dependency-path: scanner/package-lock.json
       - name: Install
         working-directory: scanner
-        run: |
-          npm ci
-          npx playwright install --with-deps chromium
-      - name: Test classifier
+        run: npm ci
+      - name: Test news filters
         working-directory: scanner
         run: npm test
-      - name: Scan
-        working-directory: scanner
-        run: node scan.mjs --max "${{ github.event.inputs.max || '40' }}"
       - name: Fetch news
         if: ${{ !cancelled() }}
         working-directory: scanner
@@ -61,9 +51,9 @@ jobs:
           fi
 
   deploy:
-    needs: scan
+    needs: news
     # يعمل بعد الفحص الناجح، أو عند تخطيه (push)
-    if: ${{ !cancelled() && (needs.scan.result == 'success' || needs.scan.result == 'skipped') }}
+    if: ${{ !cancelled() && (needs.news.result == 'success' || needs.news.result == 'skipped') }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages

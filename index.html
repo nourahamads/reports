@@ -138,7 +138,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 
 <section id="sites" role="tabpanel" hidden>
   <h2>فحص المواقع</h2>
-  <p class="sub">إجراءان للفحص: بلاغات أصحاب الحقوق (قائمة مواقع من ملف Excel)، والفحص الآلي للنطاقات السعودية. افتح الموقع للتحقق ثم اضغط «إصدار تقرير».</p>
+  <p class="sub">إجراءان للفحص: بلاغات أصحاب الحقوق (قائمة مواقع من ملف Excel)، والتفتيش الاستباقي (سحب من جدول حسب التاريخ). افتح الموقع للتحقق ثم اضغط «إصدار تقرير».</p>
 
   <div class="proc" id="proc1">
     <h3><span class="num">1</span>بلاغات أصحاب الحقوق (رفع ملف Excel)</h3>
@@ -162,16 +162,8 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     <div class="actions"><button class="btn" id="cx-more" hidden>عرض المزيد</button></div>
   </div>
 
-  <div class="proc" id="proc2">
-    <h3><span class="num">2</span>الفحص الآلي</h3>
-    <p class="sub">نتائج الفحص الدوري للنطاقات السعودية (.sa والمتاجر السعودية) ونطاقاتها البديلة. الدرجة الأولى: بث مباشر / IPTV ويُعدّ مخالفاً.</p>
-    <div class="notice" id="scan-status">جارٍ تحميل نتائج الفحص…</div>
-    <div class="filters"><span id="site-filters" class="filters" style="margin:0"></span><input class="search" id="site-q" type="search" placeholder="بحث بالنطاق أو العنوان" aria-label="بحث"></div>
-    <div class="grid" id="site-list"></div>
-  </div>
-
   <div class="proc" id="proc3">
-    <h3><span class="num">3</span>التفتيش الاستباقي (سحب من Google Sheet)</h3>
+    <h3><span class="num">2</span>التفتيش الاستباقي (سحب من Google Sheet)</h3>
     <p class="sub">اسحب المواقع من جدول Google حسب تاريخ تحدده، فتظهر في بطاقات وتُصدر عنها تقارير مصنفة «تفتيش استباقي».</p>
     <div class="card">
       <div class="row2" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;align-items:end">
@@ -205,7 +197,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     <div class="card chart ratio"><h3>المواقع حسب النتيجة</h3><p class="sub">نسبة المواقع المخالفة إلى غير المخالفة.</p>
       <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div id="ratio"></div></div>
-    <div class="card chart"><h3>المواقع حسب الإجراء</h3><p class="sub">بلاغات أصحاب الحقوق، والتفتيش الاستباقي، والفحص الآلي (يتأثر بالفترة فقط).</p>
+    <div class="card chart"><h3>المواقع حسب الإجراء</h3><p class="sub">بلاغات أصحاب الحقوق والتفتيش الاستباقي (يتأثر بالفترة فقط).</p>
       <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div class="bars" id="bysrc"></div></div>
     <div class="card chart"><h3>المواقع حسب نوع المواد</h3><p class="sub">قد يُحسب الموقع الواحد في أكثر من نوع.</p>
@@ -237,8 +229,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
       <label><input type="radio" name="r" value="غير مخالف"> غير مخالف</label>
     </fieldset>
     <fieldset><legend>صورة الموقع المخالف</legend>
-      <div id="d-shot-auto" hidden><small>لقطة الشاشة المحفوظة آلياً وقت الفحص:</small><img class="shot-prev" id="d-shot-img" alt="لقطة شاشة للموقع"></div>
-      <div id="d-shot-manual" hidden>
+      <div id="d-shot-manual">
         <label>الصق صورة الموقع المخالف (Ctrl+V)</label>
         <div class="paste" id="d-paste" tabindex="0"><span id="d-paste-hint">انقر هنا ثم اضغط Ctrl+V للصق لقطة الشاشة</span><img id="d-paste-img" alt="الصورة الملصقة" hidden></div>
         <div class="actions" style="margin-top:8px"><button class="btn sm" type="button" id="d-paste-btn">لصق من الحافظة</button><button class="btn sm danger" type="button" id="d-paste-clear" hidden>إزالة الصورة</button></div>
@@ -327,7 +318,7 @@ const store={
  },
  async reportImage(rep){if(!CLOUD||!rep.id)return null;const r=await sb.req("reports?id=eq."+encodeURIComponent(rep.id)+"&select=image");return r?.[0]?.image||null}
 };
-let auto=[], pro=[], updated=null, siteFilter="الكل", siteQ="";
+let pro=[];
 
 /* ===== التبويبات ===== */
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
@@ -372,31 +363,18 @@ $("#news-more").onclick=()=>{nLimit+=30;renderNews()};
 $("#news-q").oninput=e=>{newsQ=e.target.value;nLimit=30;renderNews()};
 
 /* ===== الإجراءان: بلاغات أصحاب الحقوق (Excel) + الفحص الآلي ===== */
-const SRC_C="بلاغ من أصحاب الحقوق", SRC_A="فحص آلي", SRC_P="تفتيش استباقي";
+const SRC_C="بلاغ من أصحاب الحقوق", SRC_P="تفتيش استباقي";
 const CATS=["بث مباشر للمباريات","أفلام ومسلسلات","بث مشفّر (IPTV)","صوتيات","أخرى"];
 const catType=c=>c==="أفلام ومسلسلات"?["مسلسلات وأفلام"]:(c&&c!=="أخرى")?[c]:[];
 const hostOf=u=>{try{return new URL(u).host}catch{return u}};
-const allItems=()=>[...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:fixMojibake(m.name),tier:0,verdict:null,types:catType(m.cat),kind:"manual"})),...pro.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:fixMojibake(m.name),tier:0,verdict:null,types:catType(m.cat),kind:"proactive",sheetDate:m.sheetDate}))];
-const tierLabel=i=>i.kind==="manual"?"بلاغ أصحاب الحقوق":i.kind==="proactive"?"تفتيش استباقي":i.tier===1?"درجة أولى · مخالف":"درجة ثانية · للمراجعة";
-const tierClass=i=>i.tier===1?"bad":i.tier===2?"none":"ok";
-async function loadFindings(){
- try{
-  const r=await fetch("data/findings.json?v="+Date.now());if(!r.ok)throw 0;
-  const d=await r.json();auto=d.findings||[];updated=d.updated;
-  $("#scan-status").textContent=updated?`آخر فحص آلي: ${fmtT(updated)} · عدد النتائج: ${auto.length}`:"لم يُجرَ فحص آلي بعد.";
- }catch{$("#scan-status").textContent="لم تُنشر نتائج الفحص الآلي بعد."}
- renderSites();
-}
+const allItems=()=>[...manual.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:fixMojibake(m.name),tier:0,verdict:null,types:catType(m.cat),kind:"manual"})),...pro.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:fixMojibake(m.name),tier:0,verdict:null,types:catType(m.cat),kind:"proactive",sheetDate:m.sheetDate}))];
+const tierLabel=i=>i.kind==="manual"?"بلاغ أصحاب الحقوق":"تفتيش استباقي";
 function cardHtml(s){
  const r=reports.find(r=>r.siteId===s.id);
  const rb=r?`<div class="meta"><span class="badge ${r.result==="مخالف"?"bad":"ok"}">آخر تقرير: ${r.result}</span> · ${fmt(r.date)}</div>`:"";
- const th=s.screenshot?`<a href="${esc(s.screenshot)}" target="_blank" rel="noopener"><img class="thumb" loading="lazy" src="${esc(s.screenshot)}" alt="لقطة شاشة ${esc(s.host)}"></a>`:"";
- const kws=(s.matched||[]).slice(0,4).map(m=>esc(m.term)).join("، ");
- const al=(s.aliases||[]).length?`<div class="kw"><b>نطاقات بديلة:</b> <span dir="ltr">${s.aliases.map(esc).join(" · ")}</span></div>`:"";
- return `<article class="card"><span class="tag"><span class="badge ${s.kind==="manual"?"none":s.kind==="proactive"?"pro":tierClass(s)}">${tierLabel(s)}</span></span>${(s.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
- <h3>${esc(s.title||s.host)}</h3><div class="site-url">${esc(showUrl(s.url))}</div>${th}
- ${kws?`<div class="kw"><b>كلمات مطابقة:</b> ${kws}</div>`:""}${al}${s.scope?`<div class="kw"><b>النطاق:</b> ${esc(s.scope)}</div>`:""}
- ${s.sheetDate?`<div class="meta">تاريخ الجدول: ${esc(s.sheetDate)}</div>`:""}${s.lastSeen?`<div class="meta">آخر رصد: ${fmtT(s.lastSeen)}</div>`:""}${rb}
+ return `<article class="card"><span class="tag"><span class="badge ${s.kind==="manual"?"none":"pro"}">${tierLabel(s)}</span></span>${(s.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
+ <h3>${esc(s.title||s.host)}</h3><div class="site-url">${esc(showUrl(s.url))}</div>
+ ${s.sheetDate?`<div class="meta">تاريخ الجدول: ${esc(s.sheetDate)}</div>`:""}${rb}
  <div class="actions"><a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">فتح الموقع ↗</a><button class="btn primary" data-rep="${esc(s.id)}">إصدار تقرير</button>${s.kind==="manual"?`<button class="btn danger sm" data-del="${esc(s.id)}">حذف</button>`:""}</div></article>`;
 }
 function bindCards(sel){
@@ -476,19 +454,7 @@ $("#cx-file").onchange=async e=>{
 $("#add-site").onsubmit=async e=>{e.preventDefault();
  try{await store.addSites([{name:$("#f-name").value.trim(),url:$("#f-url").value.trim(),cat:$("#f-cat").value}]);e.target.reset()}catch(err){alert("تعذر الحفظ: "+err.message)}
  renderSites()};
-/* الإجراء 2: الفحص الآلي */
-function renderAuto(){
- const cats=["الكل","مخالف","للمراجعة"];
- const match=(i,c)=>c==="الكل"||(c==="مخالف"&&i.tier===1)||(c==="للمراجعة"&&i.tier===2);
- $("#site-filters").innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c===siteFilter}" data-c="${c}">${c} (${auto.filter(i=>match(i,c)).length})</button>`).join("");
- $("#site-filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{siteFilter=b.dataset.c;renderAuto()});
- const q=siteQ.trim().toLowerCase();
- const shown=auto.map(f=>({...f,kind:"auto"})).filter(i=>match(i,siteFilter)&&(!q||(i.host+" "+i.title).toLowerCase().includes(q)));
- $("#site-list").innerHTML=shown.length?shown.map(cardHtml).join(""):`<div class="empty">لا توجد نتائج.</div>`;
- bindCards("#site-list");
-}
-$("#site-q").oninput=e=>{siteQ=e.target.value;renderAuto()};
-function renderSites(){renderComplaints();renderAuto();renderPro()}
+function renderSites(){renderComplaints();renderPro()}
 
 /* الإجراء 3: التفتيش الاستباقي (Google Sheet حسب التاريخ) */
 let pLimit=30,pQ="";
@@ -597,8 +563,6 @@ function openDlg(id){
  $("#d-site").textContent=cur.title||cur.host;$("#d-url").textContent=showUrl(cur.url);
  document.querySelectorAll("[name=t]").forEach(c=>c.checked=(cur.types||[]).includes(c.value));
  if(cur.tier===1)document.querySelector('[name=r][value="مخالف"]').checked=true;
- $("#d-shot-auto").hidden=!cur.screenshot;$("#d-shot-manual").hidden=!!cur.screenshot;
- if(cur.screenshot)$("#d-shot-img").src=cur.screenshot;
  try{$("#d-name").value=localStorage.getItem("ipw_inspector")||""}catch{}
  $("#dlg").showModal();
 }
@@ -609,8 +573,8 @@ $("#rep-form").onsubmit=async e=>{
  if(!result){e.preventDefault();return}
  const inspector=$("#d-name").value.trim();
  try{localStorage.setItem("ipw_inspector",inspector)}catch{}
- const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:(cur.screenshot&&!cur.screenshot.startsWith("data:"))?cur.screenshot:null,inspector,source:cur.kind==="auto"?SRC_A:cur.kind==="proactive"?SRC_P:SRC_C};
- const img=uploaded||(cur.screenshot?.startsWith("data:")?cur.screenshot:null);
+ const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:null,inspector,source:cur.kind==="proactive"?SRC_P:SRC_C};
+ const img=uploaded;
  let saved=rep;
  try{saved=await store.addReport(rep,img)}catch(err){alert("تعذر حفظ التقرير في القاعدة المشتركة: "+err.message+"\nسيُنزَّل ملف PDF فقط.")}
  renderSites();renderReports();
@@ -619,7 +583,7 @@ $("#rep-form").onsubmit=async e=>{
 
 /* ===== PDF ===== */
 function reportHtml(r,img){
- const src=img||r.screenshot;
+ const src=img;
  return `<div class="pdf"><h1>تقرير رصد انتهاك الملكية الفكرية</h1><div class="s">تاريخ الرصد: ${fmt(r.date)}</div>
 <table><tr><th>اسم الموقع</th><td>${esc(r.site)}</td></tr>
 <tr><th>رابط الموقع المخالف</th><td dir="ltr" style="text-align:left">${esc(r.url)}</td></tr>
@@ -692,7 +656,7 @@ function renderDash(){
  const ranges=[[0,"كل الفترات"],[7,"آخر 7 أيام"],[30,"آخر 30 يوماً"],[90,"آخر 90 يوماً"]];
  $("#dash-filters").replaceChildren(...ranges.map(([d,t])=>{const b=el("button","chip",t);b.setAttribute("aria-pressed",d===dashRange);b.onclick=()=>{dashRange=d;renderDash()};return b}));
  const base=dashData();
- const srcs=["الكل",...[SRC_C,SRC_P,SRC_A,"غير محدد"].filter(k=>k==="غير محدد"?base.some(r=>srcOf(r)==="غير محدد"):true)];
+ const srcs=["الكل",...[SRC_C,SRC_P,"فحص آلي","غير محدد"].filter(k=>k===SRC_C||k===SRC_P||base.some(r=>srcOf(r)===k))];
  if(!srcs.includes(dashSrc))dashSrc="الكل";
  $("#dash-src-filters").replaceChildren(...srcs.map(k=>{const c=k==="الكل"?base.length:base.filter(r=>srcOf(r)===k).length;const b=el("button","chip",`${k} (${c})`);b.setAttribute("aria-pressed",k===dashSrc);b.onclick=()=>{dashSrc=k;renderDash()};return b}));
  const data=dashSrc==="الكل"?base:base.filter(r=>srcOf(r)===dashSrc), bad=data.filter(r=>r.result==="مخالف").length, ok=data.length-bad;
@@ -757,7 +721,7 @@ async function cloudStart(){
  try{await store.load();await maybeImportLocal()}catch(err){if(sb.sess)alert("تعذر تحميل البيانات المشتركة: "+err.message)}
  renderSites();renderReports();
 }
-renderNews();renderSites();renderReports();loadFindings();loadNews();
+renderNews();renderSites();renderReports();loadNews();
 if(CLOUD){sb.sess?cloudStart():showLogin();document.addEventListener("visibilitychange",()=>{if(!document.hidden&&sb.sess)store.load().then(()=>{renderSites();renderReports()}).catch(()=>{})})}
 </script>
 </body>
