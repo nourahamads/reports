@@ -91,7 +91,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 #pdf-root{position:fixed;inset-inline-start:-10000px;top:0;width:794px}
 .pdf{background:#fff;color:#111;padding:40px 48px;font-family:Tajawal,Arial,sans-serif;direction:rtl;min-height:1060px}
 .pdf h1{text-align:center;font-size:24px;margin:0 0 4px}.pdf .s{text-align:center;color:#555;margin-bottom:28px;font-size:14px}
-.pdf table{margin-bottom:28px}.pdf th{width:30%;background:#f1f3f6;font-size:15px}.pdf td{font-size:15px}
+.pdf table{margin-bottom:28px;table-layout:fixed;width:100%}.pdf td{overflow-wrap:anywhere;word-break:break-all}.pdf th{width:30%;background:#f1f3f6;font-size:15px}.pdf td{font-size:15px}
 .pdf th,.pdf td{border:1px solid #cfd4dc;padding:10px 12px}
 .pdf .res{font-weight:800;font-size:18px}
 .pdf .shot{display:block;max-width:100%;max-height:330px;margin:0 auto 6px;border:1px solid #cfd4dc}.pdf .cap{text-align:center;font-size:12px;color:#666;margin-bottom:22px}
@@ -624,15 +624,37 @@ function reportHtml(r,img){
 ${src?`<img class="shot" src="${esc(src)}" alt=""><div class="cap">لقطة شاشة للموقع</div>`:""}
 <div class="sig"><div>اسم الفاحص:<i>${esc(r.inspector||"")}</i></div><div>التوقيع:<i></i></div></div>
 <div class="ft">صدر عن منصة الرصد والتحكم في الفضاء الرقمي</div></div>`}
+/* رسم التقرير بمحرك المتصفح نفسه (SVG) فيبقى النص العربي بمسافاته وتشكيل حروفه سليماً */
+async function toDataUrl(src){
+ if(src.startsWith("data:"))return src;
+ const b=await (await fetch(src)).blob();
+ return await new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.readAsDataURL(b)});
+}
+async function reportCanvas(el){
+ const W=794,S=2,H=Math.max(1122,Math.ceil(el.scrollHeight));
+ for(const im of el.querySelectorAll("img")){try{im.src=await toDataUrl(im.getAttribute("src"));await im.decode()}catch{im.remove()}}
+ const css=[...document.styleSheets].flatMap(sh=>{try{return [...sh.cssRules]}catch{return []}}).map(r=>r.cssText).join("\n");
+ const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${W*S}" height="${H*S}"><g transform="scale(${S})"><foreignObject x="0" y="0" width="${W}" height="${H}"><style>${css}</style>${new XMLSerializer().serializeToString(el)}</foreignObject></g></svg>`;
+ const im=new Image();im.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg);await im.decode();
+ const c=document.createElement("canvas");c.width=W*S;c.height=H*S;
+ const g=c.getContext("2d");g.fillStyle="#fff";g.fillRect(0,0,c.width,c.height);g.drawImage(im,0,0);
+ c.toDataURL("image/jpeg",.5); // يفشل إن كانت اللوحة ملوّثة (tainted) فننتقل للمسار الاحتياطي
+ return c;
+}
 async function makePdf(r,img){
- const root=$("#pdf-root");root.innerHTML=reportHtml(r,img);
- const name=`report-${r.site.replace(/[^\w\u0600-\u06FF]+/g,"_")}-${r.date.slice(0,10)}.pdf`;
+ const y0=window.scrollY,root=$("#pdf-root");root.innerHTML=reportHtml(r,img);
+ const name=`report-${r.site.replace(/[^\w؀-ۿ]+/g,"_")}-${r.date.slice(0,10)}.pdf`;
+ const opt={margin:0,filename:name,image:{type:"jpeg",quality:.96},jsPDF:{unit:"mm",format:"a4"}};
  try{
   if(!window.html2pdf)throw 0;
   if(document.fonts)await document.fonts.ready;
   await Promise.all([...root.querySelectorAll("img")].map(i=>i.decode().catch(()=>{})));
-  await html2pdf().set({margin:0,filename:name,image:{type:"jpeg",quality:.96},html2canvas:{scale:2,useCORS:true},jsPDF:{unit:"mm",format:"a4"}}).from(root.firstElementChild).save();
- }catch{window.print()} /* بديل: الطباعة ثم «حفظ بصيغة PDF» */
+  window.scrollTo(0,0); // التقاط التقرير يتأثر بمكان التمرير: نثبّته في الأعلى ثم نعيده
+  let canvas=null;try{canvas=await reportCanvas(root.firstElementChild)}catch{}
+  if(canvas)await html2pdf().set(opt).from(canvas,"canvas").save();
+  else await html2pdf().set({...opt,html2canvas:{scale:2,useCORS:true,scrollX:0,scrollY:0}}).from(root.firstElementChild).save();
+ }catch{window.print()} /* بديل أخير: الطباعة ثم «حفظ بصيغة PDF» */
+ finally{window.scrollTo(0,y0)}
 }
 
 /* ===== لوحة الإحصائيات ===== */
