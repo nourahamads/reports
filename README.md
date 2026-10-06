@@ -17,3 +17,17 @@ cd scanner && npm ci && npx playwright install chromium
 npm test
 node scan.mjs --max 10
 ```
+
+## التخزين المشترك (Supabase)
+بدون إعداد يعمل الموقع محلياً (البيانات في متصفح كل موظف). لمشاركة قوائم المواقع والتقارير والإحصائيات بين الموظفين:
+
+1. أنشئ مشروعاً في [supabase.com](https://supabase.com).
+2. من **SQL Editor** الصق محتوى `supabase/schema.sql` ونفّذه (ينشئ الجدولين ويفعّل الحماية RLS).
+3. **Authentication → Providers → Email**: عطّل «Allow new users to sign up»، ثم أضف حسابات الموظفين من **Authentication → Users → Add user** (بريد + كلمة مرور).
+4. من **Project Settings → API** انسخ `Project URL` و`anon public` وضعهما في `config.js`:
+   ```js
+   window.CFG = { supabaseUrl: "https://xxxx.supabase.co", anonKey: "eyJ..." };
+   ```
+5. ادفع التعديل؛ ستظهر شاشة تسجيل دخول، وتُحفظ القوائم والتقارير للجميع.
+
+مفتاح `anon` عام بطبيعته؛ الحماية من تسجيل الدخول وسياسات RLS: غير المسجّل لا يرى شيئاً، والمسجّل يقرأ ويضيف، ولا يمكن تعديل أو حذف التقارير.

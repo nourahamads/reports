@@ -71,7 +71,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir _site
-          cp -r index.html vendor data _site/
+          cp -r index.html config.js vendor data _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

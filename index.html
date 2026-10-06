@@ -40,7 +40,7 @@ h2{margin:0 0 4px;font-size:1.5rem}.sub{color:var(--muted);margin:0 0 20px}
 .badge{font-weight:700;font-size:.82rem}.badge.bad{color:var(--bad)}.badge.ok{color:var(--ok)}.badge.none{color:var(--warn)}
 form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;align-items:end;margin-bottom:20px}
 label{display:block;font-size:.88rem;font-weight:500;margin-bottom:4px}
-input[type=text],input[type=url],select{width:100%;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+input[type=text],input[type=url],input[type=email],select{width:100%;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
 dialog{border:1px solid var(--line);border-radius:14px;background:var(--card);color:var(--ink);max-width:520px;width:calc(100% - 32px);padding:22px}
 dialog::backdrop{background:rgba(0,0,0,.5)}
 fieldset{border:1px solid var(--line);border-radius:10px;margin:0 0 14px;padding:10px 14px}
@@ -101,6 +101,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 <body>
 <header><div class="bar">
   <div class="brand">الرصد والتحكم في الفضاء الرقمي<span>.</span></div>
+  <span id="whoami" class="meta" hidden></span><button class="btn sm" id="logout" hidden>خروج</button>
   <nav role="tablist" aria-label="أقسام الموقع">
     <button role="tab" aria-selected="true" data-tab="news">الأخبار والتحليلات</button>
     <button role="tab" aria-selected="false" data-tab="sites">فحص المواقع</button>
@@ -203,9 +204,20 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     <div class="actions" style="margin:0"><button class="btn primary" value="go" id="d-go">تنزيل التقرير PDF</button><button class="btn" value="cancel" formnovalidate>إلغاء</button></div>
   </form>
 </dialog>
+<dialog id="login">
+  <form id="login-form" method="dialog">
+    <h3 style="margin-top:0">تسجيل الدخول</h3>
+    <p class="sub" style="margin:0 0 12px;font-size:.9rem">الدخول للموظفين المصرّح لهم فقط.</p>
+    <label for="l-email">البريد الإلكتروني</label><input type="email" id="l-email" dir="ltr" required autocomplete="username">
+    <label for="l-pw" style="margin-top:10px">كلمة المرور</label><input type="password" id="l-pw" dir="ltr" required autocomplete="current-password" style="width:100%;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)">
+    <div class="meta" id="l-err" style="color:var(--bad);min-height:1.4em"></div>
+    <div class="actions" style="margin:0"><button class="btn primary" id="l-go">دخول</button></div>
+  </form>
+</dialog>
 <div id="tip" role="tooltip"></div>
 <div id="pdf-root" aria-hidden="true"></div>
 
+<script src="config.js"></script>
 <script src="vendor/html2pdf.bundle.min.js" defer></script>
 <script src="vendor/xlsx.full.min.js" defer></script>
 <script>
@@ -223,7 +235,57 @@ const save=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch{}};
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt=d=>new Date(d).toLocaleDateString("ar-SA-u-ca-gregory-nu-latn",{year:"numeric",month:"long",day:"numeric"});
 const fmtT=d=>new Date(d).toLocaleString("ar-SA-u-ca-gregory-nu-latn",{dateStyle:"medium",timeStyle:"short"});
-let manual=load("ipw_sites",[]).filter(s=>!/^https?:\/\/example\./.test(s.url)), reports=load("ipw_reports",[]), newsCat="الكل";
+const CFG=window.CFG||{}, CLOUD=!!(CFG.supabaseUrl&&CFG.anonKey);
+let manual=CLOUD?[]:load("ipw_sites",[]).filter(s=>!/^https?:\/\/example\./.test(s.url)), reports=CLOUD?[]:load("ipw_reports",[]), newsCat="الكل";
+
+/* ===== طبقة البيانات: محلي (localStorage) أو مشترك (Supabase) ===== */
+const sb={
+ sess:load("ipw_sess",null),
+ H(t){return {apikey:CFG.anonKey,authorization:"Bearer "+t,"content-type":"application/json"}},
+ setSess(d){this.sess={access_token:d.access_token,refresh_token:d.refresh_token,exp:Date.now()+(d.expires_in||3600)*1000,email:d.user?.email||this.sess?.email||""};save("ipw_sess",this.sess)},
+ clear(){this.sess=null;try{localStorage.removeItem("ipw_sess")}catch{}},
+ async login(email,pw){
+  const r=await fetch(CFG.supabaseUrl+"/auth/v1/token?grant_type=password",{method:"POST",headers:{apikey:CFG.anonKey,"content-type":"application/json"},body:JSON.stringify({email,password:pw})});
+  const d=await r.json().catch(()=>({}));if(!r.ok)throw new Error(d.error_description||d.msg||"بيانات الدخول غير صحيحة");this.setSess(d);
+ },
+ async refresh(){
+  try{const r=await fetch(CFG.supabaseUrl+"/auth/v1/token?grant_type=refresh_token",{method:"POST",headers:{apikey:CFG.anonKey,"content-type":"application/json"},body:JSON.stringify({refresh_token:this.sess.refresh_token})});
+   if(!r.ok)throw 0;this.setSess(await r.json())}catch{this.clear()}
+ },
+ async token(){if(this.sess&&this.sess.exp-Date.now()<60000)await this.refresh();return this.sess?.access_token||null},
+ async req(path,{method="GET",body,prefer}={}){
+  const t=await this.token();if(!t){showLogin();throw new Error("يلزم تسجيل الدخول")}
+  const r=await fetch(CFG.supabaseUrl+"/rest/v1/"+path,{method,headers:{...this.H(t),...(prefer?{prefer}:{})},body:body?JSON.stringify(body):undefined});
+  if(r.status===401){this.clear();showLogin();throw new Error("انتهت الجلسة، سجّل الدخول من جديد")}
+  if(!r.ok)throw new Error((await r.json().catch(()=>({}))).message||("HTTP "+r.status));
+  return r.status===204?null:r.json();
+ }
+};
+const mapSite=r=>({id:r.id,name:r.name,url:r.url,cat:r.cat||"",file:r.file||"",addedAt:r.created_at});
+const mapRep=r=>({id:r.id,siteId:r.site_id,site:r.site,url:r.url,types:r.types||[],result:r.result,source:r.source,inspector:r.inspector||"",screenshot:r.screenshot||null,date:r.created_at});
+const store={
+ async load(){
+  if(!CLOUD)return;
+  const [a,b]=await Promise.all([
+   sb.req("sites?select=id,name,url,cat,file,created_at&order=created_at.desc&limit=5000"),
+   sb.req("reports?select=id,site_id,site,url,types,result,source,inspector,screenshot,created_at&order=created_at.desc&limit=5000")]);
+  manual=a.map(mapSite);reports=b.map(mapRep);
+ },
+ async addSites(list){ // list: [{name,url,cat,file}] => المضاف فعلاً (بدون المكرر)
+  if(!CLOUD){const now=Date.now();const add=list.map((r,i)=>({id:"c"+now+"-"+i,name:r.name,url:r.url,cat:r.cat||"",file:r.file||"",addedAt:new Date().toISOString()}));
+   manual=[...add,...manual];save("ipw_sites",manual);return add}
+  const rows=await sb.req("sites?on_conflict=url",{method:"POST",body:list.map(r=>({name:r.name,url:r.url,cat:r.cat||"",file:r.file||""})),prefer:"resolution=ignore-duplicates,return=representation"});
+  const add=(rows||[]).map(mapSite);manual=[...add,...manual];return add;
+ },
+ async delSite(id){if(CLOUD)await sb.req("sites?id=eq."+encodeURIComponent(id),{method:"DELETE"});manual=manual.filter(s=>s.id!==id);if(!CLOUD)save("ipw_sites",manual)},
+ async clearSites(){if(CLOUD)await sb.req("sites?id=not.is.null",{method:"DELETE"});manual=[];if(!CLOUD)save("ipw_sites",manual)},
+ async addReport(rep,image){
+  if(!CLOUD){reports.unshift(rep);save("ipw_reports",reports);return rep}
+  const row=await sb.req("reports",{method:"POST",prefer:"return=representation",body:{site_id:rep.siteId,site:rep.site,url:rep.url,types:rep.types,result:rep.result,source:rep.source,inspector:rep.inspector,screenshot:rep.screenshot,image:image&&image.startsWith("data:")?image:null}});
+  const saved=mapRep(row[0]);reports.unshift(saved);return saved;
+ },
+ async reportImage(rep){if(!CLOUD||!rep.id)return null;const r=await sb.req("reports?id=eq."+encodeURIComponent(rep.id)+"&select=image");return r?.[0]?.image||null}
+};
 let auto=[], updated=null, siteFilter="الكل", siteQ="";
 
 /* ===== التبويبات ===== */
@@ -270,7 +332,7 @@ function cardHtml(s){
 }
 function bindCards(sel){
  document.querySelectorAll(sel+" [data-rep]").forEach(b=>b.onclick=()=>openDlg(b.dataset.rep));
- document.querySelectorAll(sel+" [data-del]").forEach(b=>b.onclick=()=>{if(confirm("حذف الموقع من القائمة؟")){manual=manual.filter(s=>s.id!==b.dataset.del);save("ipw_sites",manual);renderSites()}});
+ document.querySelectorAll(sel+" [data-del]").forEach(b=>b.onclick=async()=>{if(!confirm("حذف الموقع من القائمة؟"))return;try{await store.delSite(b.dataset.del)}catch(err){alert("تعذر الحذف: "+err.message)}renderSites()});
 }
 /* الإجراء 1: بلاغات أصحاب الحقوق */
 let cLimit=30,cQ="";
@@ -285,7 +347,7 @@ function renderComplaints(){
 }
 $("#cx-more").onclick=()=>{cLimit+=30;renderComplaints()};
 $("#cx-q").oninput=e=>{cQ=e.target.value;cLimit=30;renderComplaints()};
-$("#cx-clear").onclick=()=>{if(confirm("مسح كل المواقع من القائمة؟ (التقارير المُصدرة تبقى في السجل)")){manual=[];save("ipw_sites",manual);$("#cx-msg").textContent="تم مسح القائمة.";renderSites()}};
+$("#cx-clear").onclick=async()=>{if(!confirm(CLOUD?"سيُمسح كل المواقع من القائمة المشتركة لجميع الموظفين. متابعة؟ (التقارير تبقى في السجل)":"مسح كل المواقع من القائمة؟ (التقارير المُصدرة تبقى في السجل)"))return;try{await store.clearSites();$("#cx-msg").textContent="تم مسح القائمة."}catch(err){$("#cx-msg").textContent="تعذر المسح: "+err.message}renderSites()};
 const URLRE=/https?:\/\/[^\s"'<>)\]]+|(?<![@\w.-])(?:[a-z0-9-]+\.)+[a-z]{2,24}(?:\/[^\s"'<>)\]]*)?(?![\w-])/gi;
 function normUrl(x){x=String(x).trim().replace(/[\s.,;،]+$/,"");if(!x)return null;if(!/^https?:\/\//i.test(x))x="https://"+x;try{const u=new URL(x);return u.hostname.includes(".")?u.href:null}catch{return null}}
 function parseSheet(wb){
@@ -311,20 +373,19 @@ $("#cx-file").onchange=async e=>{
   if(!window.XLSX)throw new Error("مكتبة Excel لم تُحمَّل");
   const rows=parseSheet(XLSX.read(await f.arrayBuffer(),{type:"array"}));
   const have=new Set(manual.map(m=>m.url.replace(/\/$/,"").toLowerCase()));
-  const fresh=rows.filter(r=>!have.has(r.url.replace(/\/$/,"").toLowerCase()))
-   .map((r,i)=>({id:"c"+Date.now()+"-"+i,name:r.name,url:r.url,cat:r.cat,file:f.name,addedAt:new Date().toISOString()}));
+  const fresh=rows.filter(r=>!have.has(r.url.replace(/\/$/,"").toLowerCase())).map(r=>({name:r.name,url:r.url,cat:r.cat,file:f.name}));
   if(!rows.length){$("#cx-msg").textContent="لم يُعثر على روابط في الملف.";}
   else{
-   manual=[...fresh,...manual];cLimit=30;
-   let saved=true;try{localStorage.setItem("ipw_sites",JSON.stringify(manual))}catch{saved=false}
-   $("#cx-msg").textContent=`تمت إضافة ${fresh.length} موقع من «${f.name}»`+(rows.length-fresh.length?` (${rows.length-fresh.length} مكرر تم تجاهله)`:"")+(saved?"":" — تعذر الحفظ في المتصفح (الحجم كبير)، ستختفي القائمة عند إعادة التحميل.");
+   $("#cx-msg").textContent="جارٍ الحفظ…";cLimit=30;
+   const added=fresh.length?await store.addSites(fresh):[];
+   $("#cx-msg").textContent=`تمت إضافة ${added.length} موقع من «${f.name}»`+(rows.length-added.length?` (${rows.length-added.length} مكرر تم تجاهله)`:"")+(CLOUD?" في القائمة المشتركة.":".");
   }
  }catch(err){$("#cx-msg").textContent="تعذرت قراءة الملف: "+err.message}
  e.target.value="";renderSites();
 };
-$("#add-site").onsubmit=e=>{e.preventDefault();
- manual.unshift({id:"m"+Date.now(),name:$("#f-name").value.trim(),url:$("#f-url").value.trim(),cat:$("#f-cat").value});
- save("ipw_sites",manual);e.target.reset();renderSites()};
+$("#add-site").onsubmit=async e=>{e.preventDefault();
+ try{await store.addSites([{name:$("#f-name").value.trim(),url:$("#f-url").value.trim(),cat:$("#f-cat").value}]);e.target.reset()}catch(err){alert("تعذر الحفظ: "+err.message)}
+ renderSites()};
 /* الإجراء 2: الفحص الآلي */
 function renderAuto(){
  const cats=["الكل","مخالف","للمراجعة"];
@@ -377,8 +438,11 @@ $("#rep-form").onsubmit=async e=>{
  const inspector=$("#d-name").value.trim();
  try{localStorage.setItem("ipw_inspector",inspector)}catch{}
  const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:(cur.screenshot&&!cur.screenshot.startsWith("data:"))?cur.screenshot:null,inspector,source:cur.kind==="auto"?SRC_A:SRC_C};
- reports.unshift(rep);save("ipw_reports",reports);renderSites();renderReports();
- makePdf(rep,uploaded||(cur.screenshot?.startsWith("data:")?cur.screenshot:null));
+ const img=uploaded||(cur.screenshot?.startsWith("data:")?cur.screenshot:null);
+ let saved=rep;
+ try{saved=await store.addReport(rep,img)}catch(err){alert("تعذر حفظ التقرير في القاعدة المشتركة: "+err.message+"\nسيُنزَّل ملف PDF فقط.")}
+ renderSites();renderReports();
+ makePdf(saved,img);
 };
 
 /* ===== PDF ===== */
@@ -458,10 +522,37 @@ function renderDash(){
 /* ===== السجل ===== */
 function renderReports(){
  $("#rep-body").innerHTML=reports.length?reports.map((r,i)=>`<tr><td>${fmt(r.date)}</td><td>${esc(r.site)}</td><td>${r.types.map(esc).join("، ")||"—"}</td><td><span class="badge ${r.result==="مخالف"?"bad":"ok"}">${r.result}</span></td><td>${esc(r.source||"—")}</td><td><button class="btn sm" data-re="${i}">تنزيل مجدداً</button></td></tr>`).join(""):`<tr><td colspan="6" class="empty">لم تُصدر أي تقارير بعد.</td></tr>`;
- document.querySelectorAll("[data-re]").forEach(b=>b.onclick=()=>makePdf(reports[b.dataset.re]));
+ document.querySelectorAll("[data-re]").forEach(b=>b.onclick=async()=>{const r=reports[b.dataset.re];let img=null;try{img=await store.reportImage(r)}catch{}makePdf(r,img)});
  renderDash();
 }
+/* ===== تسجيل الدخول والبدء ===== */
+function showLogin(){const d=$("#login");if(!d.open){$("#l-err").textContent="";d.showModal()}}
+$("#login").addEventListener("cancel",e=>e.preventDefault());
+function whoami(){const on=CLOUD&&sb.sess;$("#whoami").hidden=$("#logout").hidden=!on;if(on)$("#whoami").textContent=sb.sess.email}
+$("#login-form").onsubmit=async e=>{
+ e.preventDefault();$("#l-err").textContent="";$("#l-go").disabled=true;
+ try{await sb.login($("#l-email").value.trim(),$("#l-pw").value);$("#login").close();$("#l-pw").value="";await cloudStart()}
+ catch(err){$("#l-err").textContent=err.message}
+ $("#l-go").disabled=false;
+};
+$("#logout").onclick=()=>{sb.clear();manual=[];reports=[];renderSites();renderReports();whoami();showLogin()};
+async function maybeImportLocal(){
+ const ls=load("ipw_sites",[]).filter(s=>!/^https?:\/\/example\./.test(s.url)),lr=load("ipw_reports",[]);
+ if(load("ipw_imported",false)||(!ls.length&&!lr.length))return;
+ if(!confirm(`وُجدت بيانات محلية في هذا المتصفح (${ls.length} موقع، ${lr.length} تقرير). هل تستوردها إلى القاعدة المشتركة؟`)){save("ipw_imported",true);return}
+ try{
+  if(ls.length)await store.addSites(ls.map(s=>({name:s.name,url:s.url,cat:s.cat,file:s.file})));
+  for(const r of lr.slice().reverse())await sb.req("reports",{method:"POST",body:{site_id:r.siteId,site:r.site,url:r.url,types:r.types||[],result:r.result,source:r.source||null,inspector:r.inspector||"",screenshot:r.screenshot||null,created_at:r.date}});
+  save("ipw_imported",true);await store.load();
+ }catch(err){alert("تعذر الاستيراد: "+err.message)}
+}
+async function cloudStart(){
+ whoami();
+ try{await store.load();await maybeImportLocal()}catch(err){if(sb.sess)alert("تعذر تحميل البيانات المشتركة: "+err.message)}
+ renderSites();renderReports();
+}
 renderNews();renderSites();renderReports();loadFindings();
+if(CLOUD){sb.sess?cloudStart():showLogin();document.addEventListener("visibilitychange",()=>{if(!document.hidden&&sb.sess)store.load().then(()=>{renderSites();renderReports()}).catch(()=>{})})}
 </script>
 </body>
 </html>
