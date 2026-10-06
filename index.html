@@ -11,6 +11,7 @@
 :root{--bg:#f5f6f8;--card:#fff;--ink:#14213d;--muted:#5b6478;--line:#e2e5ec;--accent:#0f6b5c;--accent-ink:#fff;--bad:#b42318;--ok:#067647;--warn:#b54708;--shadow:0 1px 3px rgba(20,33,61,.08)}
 @media(prefers-color-scheme:dark){:root{--bg:#0e1424;--card:#172036;--ink:#e8ecf5;--muted:#9aa5bd;--line:#26314d;--accent:#2fb59c;--accent-ink:#06211c;--bad:#f97066;--ok:#47cd89;--warn:#fdb022;--shadow:none}}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Tajawal,system-ui,sans-serif;line-height:1.7}
 header{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
 .bar{max-width:1100px;margin:auto;padding:12px 16px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
@@ -79,6 +80,11 @@ table{width:100%;border-collapse:collapse}th,td{text-align:start;padding:10px;bo
 #tip{position:fixed;z-index:50;pointer-events:none;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:.85rem;box-shadow:0 4px 14px rgba(0,0,0,.18);display:none}
 #tip b{font-size:1rem}
 details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
+.proc{margin:0 0 28px}.proc>h3{margin:0 0 2px;font-size:1.2rem}.proc>.sub{margin:0 0 14px;font-size:.92rem}
+.num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:.9rem;margin-inline-end:8px}
+.paste{border:2px dashed var(--line);border-radius:10px;padding:16px;text-align:center;color:var(--muted);background:var(--bg);cursor:text}
+.paste:focus{outline:2px solid var(--accent);border-color:var(--accent)}
+.paste img{max-width:100%;max-height:200px;border-radius:6px;display:block;margin:0 auto}
 /* PDF template (rendered off-screen) */
 #pdf-root{position:fixed;inset-inline-start:-10000px;top:0;width:794px}
 .pdf{background:#fff;color:#111;padding:40px 48px;font-family:Tajawal,Arial,sans-serif;direction:rtl;min-height:1060px}
@@ -97,7 +103,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
   <div class="brand">الرصد والتحكم في الفضاء الرقمي<span>.</span></div>
   <nav role="tablist" aria-label="أقسام الموقع">
     <button role="tab" aria-selected="true" data-tab="news">الأخبار والتحليلات</button>
-    <button role="tab" aria-selected="false" data-tab="sites">المواقع المنتهكة</button>
+    <button role="tab" aria-selected="false" data-tab="sites">فحص المواقع</button>
     <button role="tab" aria-selected="false" data-tab="reports">سجل التقارير</button>
   </nav>
 </div></header>
@@ -112,19 +118,38 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 </section>
 
 <section id="sites" role="tabpanel" hidden>
-  <h2>المواقع والمتاجر المرصودة</h2>
-  <p class="sub">نتائج الفحص الآلي للنطاقات السعودية (.sa والمتاجر السعودية) ونطاقاتها البديلة. الدرجة الأولى: بث مباشر / IPTV ويُعدّ مخالفاً. افتح الموقع للتحقق، ثم اضغط «إصدار تقرير».</p>
-  <div class="notice" id="scan-status">جارٍ تحميل نتائج الفحص…</div>
-  <div class="filters"><span id="site-filters" class="filters" style="margin:0"></span><input class="search" id="site-q" type="search" placeholder="بحث بالنطاق أو العنوان" aria-label="بحث"></div>
-  <details class="notice"><summary>إضافة موقع يدوياً</summary>
-  <form class="add" id="add-site" style="margin:12px 0 0">
-    <div><label for="f-name">اسم الموقع</label><input id="f-name" type="text" required></div>
-    <div><label for="f-url">الرابط</label><input id="f-url" type="url" placeholder="https://" required dir="ltr"></div>
-    <div><label for="f-cat">التصنيف</label>
-      <select id="f-cat"><option>بث مباشر للمباريات</option><option>أفلام ومسلسلات</option><option>بث مشفّر (IPTV)</option><option>صوتيات</option><option>أخرى</option></select></div>
-    <div><button class="btn primary" type="submit">إضافة إلى السجل</button></div>
-  </form></details>
-  <div class="grid" id="site-list"></div>
+  <h2>فحص المواقع</h2>
+  <p class="sub">إجراءان للفحص: بلاغات أصحاب الحقوق (قائمة مواقع من ملف Excel)، والفحص الآلي للنطاقات السعودية. افتح الموقع للتحقق ثم اضغط «إصدار تقرير».</p>
+
+  <div class="proc" id="proc1">
+    <h3><span class="num">1</span>بلاغات أصحاب الحقوق (رفع ملف Excel)</h3>
+    <p class="sub">ارفع ملف Excel يحتوي المواقع المبلَّغ عنها، فتُقرأ الروابط وتظهر هنا في بطاقات. يُستخرج الرابط من أي عمود، والاسم من أول نص في نفس الصف (إن وُجد).</p>
+    <div class="card">
+      <div class="row2" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;align-items:end">
+        <div><label for="cx-file">ملف Excel أو CSV</label><input type="file" id="cx-file" accept=".xlsx,.xls,.xlsm,.csv,.ods"></div>
+        <div><span class="meta" id="cx-msg">لم يُرفع ملف بعد.</span></div>
+      </div>
+      <details style="margin-top:12px"><summary>إضافة رابط واحد يدوياً</summary>
+      <form class="add" id="add-site" style="margin:12px 0 0">
+        <div><label for="f-name">اسم الموقع</label><input id="f-name" type="text" required></div>
+        <div><label for="f-url">الرابط</label><input id="f-url" type="url" placeholder="https://" required dir="ltr"></div>
+        <div><label for="f-cat">التصنيف</label>
+          <select id="f-cat"><option>بث مباشر للمباريات</option><option>أفلام ومسلسلات</option><option>بث مشفّر (IPTV)</option><option>صوتيات</option><option>أخرى</option></select></div>
+        <div><button class="btn primary" type="submit">إضافة</button></div>
+      </form></details>
+    </div>
+    <div class="filters" style="margin:16px 0 12px"><span class="meta" id="cx-count"></span><input class="search" id="cx-q" type="search" placeholder="بحث بالنطاق أو الاسم" aria-label="بحث"><button class="btn danger sm" id="cx-clear" hidden>مسح القائمة</button></div>
+    <div class="grid" id="cx-list"></div>
+    <div class="actions"><button class="btn" id="cx-more" hidden>عرض المزيد</button></div>
+  </div>
+
+  <div class="proc" id="proc2">
+    <h3><span class="num">2</span>الفحص الآلي</h3>
+    <p class="sub">نتائج الفحص الدوري للنطاقات السعودية (.sa والمتاجر السعودية) ونطاقاتها البديلة. الدرجة الأولى: بث مباشر / IPTV ويُعدّ مخالفاً.</p>
+    <div class="notice" id="scan-status">جارٍ تحميل نتائج الفحص…</div>
+    <div class="filters"><span id="site-filters" class="filters" style="margin:0"></span><input class="search" id="site-q" type="search" placeholder="بحث بالنطاق أو العنوان" aria-label="بحث"></div>
+    <div class="grid" id="site-list"></div>
+  </div>
 </section>
 
 <section id="reports" role="tabpanel" hidden>
@@ -142,7 +167,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     <details class="card tbl chart"><summary>عرض البيانات كجدول</summary><div style="overflow-x:auto;margin-top:10px"><table><thead><tr><th>نوع المواد</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table"></tbody></table></div></details>
   </div>
   <h3 style="margin:24px 0 10px">سجل التقارير</h3>
-  <div class="card" style="overflow-x:auto"><table><thead><tr><th>التاريخ</th><th>الموقع</th><th>المواد</th><th>النتيجة</th><th></th></tr></thead><tbody id="rep-body"></tbody></table></div>
+  <div class="card" style="overflow-x:auto"><table><thead><tr><th>التاريخ</th><th>الموقع</th><th>المواد</th><th>النتيجة</th><th>الإجراء</th><th></th></tr></thead><tbody id="rep-body"></tbody></table></div>
 </section>
 </main>
 
@@ -165,7 +190,11 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     </fieldset>
     <fieldset><legend>صورة الموقع المخالف</legend>
       <div id="d-shot-auto" hidden><small>لقطة الشاشة المحفوظة آلياً وقت الفحص:</small><img class="shot-prev" id="d-shot-img" alt="لقطة شاشة للموقع"></div>
-      <div id="d-shot-manual" hidden><label for="d-file">لا توجد لقطة آلية، ارفع صورة (اختياري)</label><input type="file" id="d-file" accept="image/*"></div>
+      <div id="d-shot-manual" hidden>
+        <label>الصق صورة الموقع المخالف (Ctrl+V)</label>
+        <div class="paste" id="d-paste" tabindex="0"><span id="d-paste-hint">انقر هنا ثم اضغط Ctrl+V للصق لقطة الشاشة</span><img id="d-paste-img" alt="الصورة الملصقة" hidden></div>
+        <div class="actions" style="margin-top:8px"><button class="btn sm" type="button" id="d-paste-btn">لصق من الحافظة</button><button class="btn sm danger" type="button" id="d-paste-clear" hidden>إزالة الصورة</button></div>
+      </div>
     </fieldset>
     <fieldset><legend>الفاحص</legend>
       <label for="d-name" style="display:block">اسم الفاحص (اتركه فارغاً ليُكتب يدوياً)</label><input type="text" id="d-name" autocomplete="name">
@@ -178,6 +207,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 <div id="pdf-root" aria-hidden="true"></div>
 
 <script src="vendor/html2pdf.bundle.min.js" defer></script>
+<script src="vendor/xlsx.full.min.js" defer></script>
 <script>
 /* ===== البيانات (نماذج توضيحية قابلة للتعديل) ===== */
 const NEWS=[
@@ -210,51 +240,126 @@ function renderNews(){
  $("#news-list").innerHTML=NEWS.filter(n=>newsCat==="الكل"||n.cat===newsCat).map(n=>`<article class="card"><span class="tag">${esc(n.cat)}</span><h3>${esc(n.title)}</h3><p>${esc(n.sum)}</p><div class="meta">${fmt(n.date)}</div></article>`).join("");
 }
 
-/* ===== المواقع (نتائج الفحص الآلي + الإضافات اليدوية) ===== */
-const allItems=()=>[...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:m.url.replace(/^https?:\/\//,"").split("/")[0],url:m.url,title:m.name,tier:0,verdict:null,types:[m.cat],kind:"manual"}))];
-const tierLabel=i=>i.kind==="manual"?"يدوي":i.tier===1?"درجة أولى · مخالف":"درجة ثانية · للمراجعة";
+/* ===== الإجراءان: بلاغات أصحاب الحقوق (Excel) + الفحص الآلي ===== */
+const SRC_C="بلاغ من أصحاب الحقوق", SRC_A="فحص آلي";
+const CATS=["بث مباشر للمباريات","أفلام ومسلسلات","بث مشفّر (IPTV)","صوتيات","أخرى"];
+const catType=c=>c==="أفلام ومسلسلات"?["مسلسلات وأفلام"]:(c&&c!=="أخرى")?[c]:[];
+const hostOf=u=>{try{return new URL(u).host}catch{return u}};
+const allItems=()=>[...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:m.name,tier:0,verdict:null,types:catType(m.cat),kind:"manual"}))];
+const tierLabel=i=>i.kind==="manual"?"بلاغ أصحاب الحقوق":i.tier===1?"درجة أولى · مخالف":"درجة ثانية · للمراجعة";
 const tierClass=i=>i.tier===1?"bad":i.tier===2?"none":"ok";
 async function loadFindings(){
  try{
   const r=await fetch("data/findings.json?v="+Date.now());if(!r.ok)throw 0;
   const d=await r.json();auto=d.findings||[];updated=d.updated;
   $("#scan-status").textContent=updated?`آخر فحص آلي: ${fmtT(updated)} · عدد النتائج: ${auto.length}`:"لم يُجرَ فحص آلي بعد.";
- }catch{$("#scan-status").textContent="لم تُنشر نتائج الفحص الآلي بعد (data/findings.json). يمكنك إضافة المواقع يدوياً."}
+ }catch{$("#scan-status").textContent="لم تُنشر نتائج الفحص الآلي بعد."}
  renderSites();
 }
-function renderSites(){
- const items=allItems();
- const cats=["الكل","مخالف","للمراجعة","يدوي"];
- const match=(i,c)=>c==="الكل"||(c==="مخالف"&&i.kind==="auto"&&i.tier===1)||(c==="للمراجعة"&&i.kind==="auto"&&i.tier===2)||(c==="يدوي"&&i.kind==="manual");
- $("#site-filters").innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c===siteFilter}" data-c="${c}">${c} (${items.filter(i=>match(i,c)).length})</button>`).join("");
- $("#site-filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{siteFilter=b.dataset.c;renderSites()});
- const q=siteQ.trim().toLowerCase();
- const shown=items.filter(i=>match(i,siteFilter)&&(!q||(i.host+" "+i.title).toLowerCase().includes(q)));
- $("#site-list").innerHTML=shown.length?shown.map(s=>{const r=reports.find(r=>r.siteId===s.id);
-  const rb=r?`<div class="meta"><span class="badge ${r.result==="مخالف"?"bad":"ok"}">آخر تقرير: ${r.result}</span> · ${fmt(r.date)}</div>`:"";
-  const th=s.screenshot?`<a href="${esc(s.screenshot)}" target="_blank" rel="noopener"><img class="thumb" loading="lazy" src="${esc(s.screenshot)}" alt="لقطة شاشة ${esc(s.host)}"></a>`:"";
-  const kws=(s.matched||[]).slice(0,4).map(m=>esc(m.term)).join("، ");
-  const al=(s.aliases||[]).length?`<div class="kw"><b>نطاقات بديلة:</b> <span dir="ltr">${s.aliases.map(esc).join(" · ")}</span></div>`:"";
-  return `<article class="card"><span class="tag"><span class="badge ${s.kind==="manual"?"none":tierClass(s)}">${tierLabel(s)}</span></span>${(s.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
-  <h3>${esc(s.title||s.host)}</h3><div class="site-url">${esc(s.url)}</div>${th}
-  ${kws?`<div class="kw"><b>كلمات مطابقة:</b> ${kws}</div>`:""}${al}${s.scope?`<div class="kw"><b>النطاق:</b> ${esc(s.scope)}</div>`:""}
-  ${s.lastSeen?`<div class="meta">آخر رصد: ${fmtT(s.lastSeen)}</div>`:""}${rb}
-  <div class="actions"><a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">فتح الموقع ↗</a><button class="btn primary" data-rep="${esc(s.id)}">إصدار تقرير</button>${s.kind==="manual"?`<button class="btn danger sm" data-del="${esc(s.id)}">حذف</button>`:""}</div></article>`}).join(""):`<div class="empty">لا توجد نتائج.</div>`;
- document.querySelectorAll("[data-rep]").forEach(b=>b.onclick=()=>openDlg(b.dataset.rep));
- document.querySelectorAll("[data-del]").forEach(b=>b.onclick=()=>{if(confirm("حذف الموقع من السجل؟")){manual=manual.filter(s=>s.id!==b.dataset.del);save("ipw_sites",manual);renderSites()}});
+function cardHtml(s){
+ const r=reports.find(r=>r.siteId===s.id);
+ const rb=r?`<div class="meta"><span class="badge ${r.result==="مخالف"?"bad":"ok"}">آخر تقرير: ${r.result}</span> · ${fmt(r.date)}</div>`:"";
+ const th=s.screenshot?`<a href="${esc(s.screenshot)}" target="_blank" rel="noopener"><img class="thumb" loading="lazy" src="${esc(s.screenshot)}" alt="لقطة شاشة ${esc(s.host)}"></a>`:"";
+ const kws=(s.matched||[]).slice(0,4).map(m=>esc(m.term)).join("، ");
+ const al=(s.aliases||[]).length?`<div class="kw"><b>نطاقات بديلة:</b> <span dir="ltr">${s.aliases.map(esc).join(" · ")}</span></div>`:"";
+ return `<article class="card"><span class="tag"><span class="badge ${s.kind==="manual"?"none":tierClass(s)}">${tierLabel(s)}</span></span>${(s.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
+ <h3>${esc(s.title||s.host)}</h3><div class="site-url">${esc(s.url)}</div>${th}
+ ${kws?`<div class="kw"><b>كلمات مطابقة:</b> ${kws}</div>`:""}${al}${s.scope?`<div class="kw"><b>النطاق:</b> ${esc(s.scope)}</div>`:""}
+ ${s.lastSeen?`<div class="meta">آخر رصد: ${fmtT(s.lastSeen)}</div>`:""}${rb}
+ <div class="actions"><a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">فتح الموقع ↗</a><button class="btn primary" data-rep="${esc(s.id)}">إصدار تقرير</button>${s.kind==="manual"?`<button class="btn danger sm" data-del="${esc(s.id)}">حذف</button>`:""}</div></article>`;
 }
-$("#site-q").oninput=e=>{siteQ=e.target.value;renderSites()};
+function bindCards(sel){
+ document.querySelectorAll(sel+" [data-rep]").forEach(b=>b.onclick=()=>openDlg(b.dataset.rep));
+ document.querySelectorAll(sel+" [data-del]").forEach(b=>b.onclick=()=>{if(confirm("حذف الموقع من القائمة؟")){manual=manual.filter(s=>s.id!==b.dataset.del);save("ipw_sites",manual);renderSites()}});
+}
+/* الإجراء 1: بلاغات أصحاب الحقوق */
+let cLimit=30,cQ="";
+function renderComplaints(){
+ const q=cQ.trim().toLowerCase();
+ const list=allItems().filter(i=>i.kind==="manual"&&(!q||(i.host+" "+i.title).toLowerCase().includes(q)));
+ $("#cx-count").textContent=manual.length?`${manual.length} موقع في القائمة`+(q?` · ${list.length} نتيجة`:""):"";
+ $("#cx-clear").hidden=!manual.length;
+ $("#cx-list").innerHTML=list.length?list.slice(0,cLimit).map(cardHtml).join(""):`<div class="empty">${manual.length?"لا توجد نتائج.":"ارفع ملف Excel ليظهر المواقع هنا."}</div>`;
+ $("#cx-more").hidden=list.length<=cLimit;$("#cx-more").textContent=`عرض المزيد (${list.length-cLimit})`;
+ bindCards("#cx-list");
+}
+$("#cx-more").onclick=()=>{cLimit+=30;renderComplaints()};
+$("#cx-q").oninput=e=>{cQ=e.target.value;cLimit=30;renderComplaints()};
+$("#cx-clear").onclick=()=>{if(confirm("مسح كل المواقع من القائمة؟ (التقارير المُصدرة تبقى في السجل)")){manual=[];save("ipw_sites",manual);$("#cx-msg").textContent="تم مسح القائمة.";renderSites()}};
+const URLRE=/https?:\/\/[^\s"'<>)\]]+|(?<![@\w.-])(?:[a-z0-9-]+\.)+[a-z]{2,24}(?:\/[^\s"'<>)\]]*)?(?![\w-])/gi;
+function normUrl(x){x=String(x).trim().replace(/[\s.,;،]+$/,"");if(!x)return null;if(!/^https?:\/\//i.test(x))x="https://"+x;try{const u=new URL(x);return u.hostname.includes(".")?u.href:null}catch{return null}}
+function parseSheet(wb){
+ const out=[],seen=new Set();
+ for(const n of wb.SheetNames){const ws=wb.Sheets[n];if(!ws["!ref"])continue;const rg=XLSX.utils.decode_range(ws["!ref"]);
+  for(let r=rg.s.r;r<=rg.e.r;r++){
+   const urls=[],texts=[];
+   for(let c=rg.s.c;c<=rg.e.c;c++){const cell=ws[XLSX.utils.encode_cell({r,c})];if(!cell)continue;
+    const linked=cell.l&&cell.l.Target;if(linked)urls.push(cell.l.Target);
+    const v=String(cell.w??cell.v??"").trim();if(!v)continue;
+    const m=v.match(URLRE);if(m)urls.push(...m);else if(!linked)texts.push(v)}
+   if(!urls.length)continue;
+   const name=texts.find(t=>t.length<=80&&!/^[\d.,\s]+$/.test(t)&&!CATS.includes(t));
+   const cat=texts.find(t=>CATS.includes(t))||"";
+   for(const raw of urls){const u=normUrl(raw);if(!u)continue;const key=u.replace(/\/$/,"").toLowerCase();if(seen.has(key))continue;seen.add(key);out.push({url:u,name:name||hostOf(u).replace(/^www\./,""),cat})}
+   if(out.length>=2000)return out;
+  }}
+ return out;
+}
+$("#cx-file").onchange=async e=>{
+ const f=e.target.files[0];if(!f)return;
+ try{
+  if(!window.XLSX)throw new Error("مكتبة Excel لم تُحمَّل");
+  const rows=parseSheet(XLSX.read(await f.arrayBuffer(),{type:"array"}));
+  const have=new Set(manual.map(m=>m.url.replace(/\/$/,"").toLowerCase()));
+  const fresh=rows.filter(r=>!have.has(r.url.replace(/\/$/,"").toLowerCase()))
+   .map((r,i)=>({id:"c"+Date.now()+"-"+i,name:r.name,url:r.url,cat:r.cat,file:f.name,addedAt:new Date().toISOString()}));
+  if(!rows.length){$("#cx-msg").textContent="لم يُعثر على روابط في الملف.";}
+  else{
+   manual=[...fresh,...manual];cLimit=30;
+   let saved=true;try{localStorage.setItem("ipw_sites",JSON.stringify(manual))}catch{saved=false}
+   $("#cx-msg").textContent=`تمت إضافة ${fresh.length} موقع من «${f.name}»`+(rows.length-fresh.length?` (${rows.length-fresh.length} مكرر تم تجاهله)`:"")+(saved?"":" — تعذر الحفظ في المتصفح (الحجم كبير)، ستختفي القائمة عند إعادة التحميل.");
+  }
+ }catch(err){$("#cx-msg").textContent="تعذرت قراءة الملف: "+err.message}
+ e.target.value="";renderSites();
+};
 $("#add-site").onsubmit=e=>{e.preventDefault();
  manual.unshift({id:"m"+Date.now(),name:$("#f-name").value.trim(),url:$("#f-url").value.trim(),cat:$("#f-cat").value});
  save("ipw_sites",manual);e.target.reset();renderSites()};
+/* الإجراء 2: الفحص الآلي */
+function renderAuto(){
+ const cats=["الكل","مخالف","للمراجعة"];
+ const match=(i,c)=>c==="الكل"||(c==="مخالف"&&i.tier===1)||(c==="للمراجعة"&&i.tier===2);
+ $("#site-filters").innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c===siteFilter}" data-c="${c}">${c} (${auto.filter(i=>match(i,c)).length})</button>`).join("");
+ $("#site-filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{siteFilter=b.dataset.c;renderAuto()});
+ const q=siteQ.trim().toLowerCase();
+ const shown=auto.map(f=>({...f,kind:"auto"})).filter(i=>match(i,siteFilter)&&(!q||(i.host+" "+i.title).toLowerCase().includes(q)));
+ $("#site-list").innerHTML=shown.length?shown.map(cardHtml).join(""):`<div class="empty">لا توجد نتائج.</div>`;
+ bindCards("#site-list");
+}
+$("#site-q").oninput=e=>{siteQ=e.target.value;renderAuto()};
+function renderSites(){renderComplaints();renderAuto()}
 
 /* ===== نافذة التقرير ===== */
 let cur=null, uploaded=null;
 const other=$("#d-other");
 document.querySelector('[value="__other"]').onchange=e=>{other.hidden=!e.target.checked;if(e.target.checked)other.focus()};
-$("#d-file").onchange=e=>{const f=e.target.files[0];uploaded=null;if(!f)return;const fr=new FileReader();fr.onload=()=>uploaded=fr.result;fr.readAsDataURL(f)};
+/* لصق الصورة بدل رفعها */
+function setPasted(d){uploaded=d||null;$("#d-paste-img").src=d||"";$("#d-paste-img").hidden=!d;$("#d-paste-hint").hidden=!!d;$("#d-paste-clear").hidden=!d}
+function shrink(blob){return new Promise(res=>{const u=URL.createObjectURL(blob),im=new Image();
+ im.onload=()=>{const k=Math.min(1,1400/im.width),c=document.createElement("canvas");c.width=im.width*k;c.height=im.height*k;c.getContext("2d").drawImage(im,0,0,c.width,c.height);URL.revokeObjectURL(u);res(c.toDataURL("image/jpeg",.85))};
+ im.onerror=()=>res(null);im.src=u})}
+$("#dlg").addEventListener("paste",async e=>{
+ const it=[...(e.clipboardData?.items||[])].find(i=>i.type.startsWith("image/"));
+ if(!it)return;e.preventDefault();const d=await shrink(it.getAsFile());if(d)setPasted(d);
+});
+$("#d-paste").onclick=()=>$("#d-paste").focus();
+$("#d-paste-btn").onclick=async()=>{
+ try{for(const it of await navigator.clipboard.read()){const t=it.types.find(t=>t.startsWith("image/"));if(t){const d=await shrink(await it.getType(t));if(d)setPasted(d);return}}alert("لا توجد صورة في الحافظة.")}
+ catch{alert("تعذرت القراءة من الحافظة. انقر داخل المربع ثم اضغط Ctrl+V.")}
+};
+$("#d-paste-clear").onclick=()=>setPasted(null);
 function openDlg(id){
- cur=allItems().find(s=>s.id===id);uploaded=null;
+ cur=allItems().find(s=>s.id===id);setPasted(null);
  $("#rep-form").reset();other.hidden=true;
  $("#d-site").textContent=cur.title||cur.host;$("#d-url").textContent=cur.url;
  document.querySelectorAll("[name=t]").forEach(c=>c.checked=(cur.types||[]).includes(c.value));
@@ -271,7 +376,7 @@ $("#rep-form").onsubmit=async e=>{
  if(!result){e.preventDefault();return}
  const inspector=$("#d-name").value.trim();
  try{localStorage.setItem("ipw_inspector",inspector)}catch{}
- const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:(cur.screenshot&&!cur.screenshot.startsWith("data:"))?cur.screenshot:null,inspector};
+ const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:(cur.screenshot&&!cur.screenshot.startsWith("data:"))?cur.screenshot:null,inspector,source:cur.kind==="auto"?SRC_A:SRC_C};
  reports.unshift(rep);save("ipw_reports",reports);renderSites();renderReports();
  makePdf(rep,uploaded||(cur.screenshot?.startsWith("data:")?cur.screenshot:null));
 };
@@ -283,7 +388,8 @@ function reportHtml(r,img){
 <table><tr><th>اسم الموقع</th><td>${esc(r.site)}</td></tr>
 <tr><th>رابط الموقع المخالف</th><td dir="ltr" style="text-align:left">${esc(r.url)}</td></tr>
 <tr><th>نوع المواد المبثوثة</th><td>${r.types.length?r.types.map(esc).join(" ، "):"—"}</td></tr>
-<tr><th>النتيجة</th><td class="res">${esc(r.result)}</td></tr></table>
+<tr><th>النتيجة</th><td class="res">${esc(r.result)}</td></tr>
+<tr><th>الإجراء</th><td>${esc(r.source||"—")}</td></tr></table>
 ${src?`<img class="shot" src="${esc(src)}" alt=""><div class="cap">لقطة شاشة للموقع</div>`:""}
 <div class="sig"><div>اسم الفاحص:<i>${esc(r.inspector||"")}</i></div><div>التوقيع:<i></i></div></div>
 <div class="ft">صدر عن منصة الرصد والتحكم في الفضاء الرقمي</div></div>`}
@@ -351,7 +457,7 @@ function renderDash(){
 
 /* ===== السجل ===== */
 function renderReports(){
- $("#rep-body").innerHTML=reports.length?reports.map((r,i)=>`<tr><td>${fmt(r.date)}</td><td>${esc(r.site)}</td><td>${r.types.map(esc).join("، ")||"—"}</td><td><span class="badge ${r.result==="مخالف"?"bad":"ok"}">${r.result}</span></td><td><button class="btn sm" data-re="${i}">تنزيل مجدداً</button></td></tr>`).join(""):`<tr><td colspan="5" class="empty">لم تُصدر أي تقارير بعد.</td></tr>`;
+ $("#rep-body").innerHTML=reports.length?reports.map((r,i)=>`<tr><td>${fmt(r.date)}</td><td>${esc(r.site)}</td><td>${r.types.map(esc).join("، ")||"—"}</td><td><span class="badge ${r.result==="مخالف"?"bad":"ok"}">${r.result}</span></td><td>${esc(r.source||"—")}</td><td><button class="btn sm" data-re="${i}">تنزيل مجدداً</button></td></tr>`).join(""):`<tr><td colspan="6" class="empty">لم تُصدر أي تقارير بعد.</td></tr>`;
  document.querySelectorAll("[data-re]").forEach(b=>b.onclick=()=>makePdf(reports[b.dataset.re]));
  renderDash();
 }
