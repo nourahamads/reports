@@ -69,13 +69,13 @@ table{width:100%;border-collapse:collapse}th,td{text-align:start;padding:10px;bo
 @media(max-width:560px){.brow{grid-template-columns:100px 1fr}}
 .brow .nm{font-size:.9rem;color:var(--muted)}
 .bwrap{display:flex;align-items:center;gap:8px}
-.bar{display:flex;gap:2px;height:24px}
+.cbar{display:flex;gap:2px;height:24px}
 .seg{display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;min-width:6px;cursor:default;outline-offset:2px}
 .seg.bad{background:var(--c-bad);color:var(--on-bad)}.seg.ok{background:var(--c-ok);color:var(--on-ok)}
 .seg:last-child{border-start-end-radius:4px;border-end-end-radius:4px}
 .seg:hover,.seg:focus-visible{filter:brightness(1.12)}
 .tot{font-size:.88rem;font-weight:700}
-.ratio .bar{height:34px}.ratio .seg{font-size:.9rem}
+.ratio .cbar{height:34px}.ratio .seg{font-size:.9rem}
 #tip{position:fixed;z-index:50;pointer-events:none;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:.85rem;box-shadow:0 4px 14px rgba(0,0,0,.18);display:none}
 #tip b{font-size:1rem}
 details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
@@ -315,7 +315,7 @@ function bindTip(node,name,n){
  node.onfocus=()=>{const b=node.getBoundingClientRect();show(b.left,b.bottom)};node.onblur=()=>tip.style.display="none";
 }
 function segs(bad,ok,labelMin,total){
- const bar=el("div","bar");
+ const bar=el("div","cbar");
  for(const [k,n,name] of [["bad",bad,"مخالف"],["ok",ok,"غير مخالف"]]){
   if(!n)continue;
   const sg=el("div","seg "+k, n/total>=labelMin?String(n):"");
