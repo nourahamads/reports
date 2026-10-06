@@ -371,7 +371,7 @@ const SRC_C="بلاغ من أصحاب الحقوق", SRC_A="فحص آلي", SRC_
 const CATS=["بث مباشر للمباريات","أفلام ومسلسلات","بث مشفّر (IPTV)","صوتيات","أخرى"];
 const catType=c=>c==="أفلام ومسلسلات"?["مسلسلات وأفلام"]:(c&&c!=="أخرى")?[c]:[];
 const hostOf=u=>{try{return new URL(u).host}catch{return u}};
-const allItems=()=>[...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:m.name,tier:0,verdict:null,types:catType(m.cat),kind:"manual"})),...pro.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:m.name,tier:0,verdict:null,types:catType(m.cat),kind:"proactive",sheetDate:m.sheetDate}))];
+const allItems=()=>[...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:fixMojibake(m.name),tier:0,verdict:null,types:catType(m.cat),kind:"manual"})),...pro.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:fixMojibake(m.name),tier:0,verdict:null,types:catType(m.cat),kind:"proactive",sheetDate:m.sheetDate}))];
 const tierLabel=i=>i.kind==="manual"?"بلاغ أصحاب الحقوق":i.kind==="proactive"?"تفتيش استباقي":i.tier===1?"درجة أولى · مخالف":"درجة ثانية · للمراجعة";
 const tierClass=i=>i.tier===1?"bad":i.tier===2?"none":"ok";
 async function loadFindings(){
@@ -389,7 +389,7 @@ function cardHtml(s){
  const kws=(s.matched||[]).slice(0,4).map(m=>esc(m.term)).join("، ");
  const al=(s.aliases||[]).length?`<div class="kw"><b>نطاقات بديلة:</b> <span dir="ltr">${s.aliases.map(esc).join(" · ")}</span></div>`:"";
  return `<article class="card"><span class="tag"><span class="badge ${s.kind==="manual"?"none":s.kind==="proactive"?"pro":tierClass(s)}">${tierLabel(s)}</span></span>${(s.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
- <h3>${esc(s.title||s.host)}</h3><div class="site-url">${esc(s.url)}</div>${th}
+ <h3>${esc(s.title||s.host)}</h3><div class="site-url">${esc(showUrl(s.url))}</div>${th}
  ${kws?`<div class="kw"><b>كلمات مطابقة:</b> ${kws}</div>`:""}${al}${s.scope?`<div class="kw"><b>النطاق:</b> ${esc(s.scope)}</div>`:""}
  ${s.sheetDate?`<div class="meta">تاريخ الجدول: ${esc(s.sheetDate)}</div>`:""}${s.lastSeen?`<div class="meta">آخر رصد: ${fmtT(s.lastSeen)}</div>`:""}${rb}
  <div class="actions"><a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">فتح الموقع ↗</a><button class="btn primary" data-rep="${esc(s.id)}">إصدار تقرير</button>${s.kind==="manual"?`<button class="btn danger sm" data-del="${esc(s.id)}">حذف</button>`:""}</div></article>`;
@@ -414,6 +414,24 @@ $("#cx-q").oninput=e=>{cQ=e.target.value;cLimit=30;renderComplaints()};
 $("#cx-clear").onclick=async()=>{if(!confirm(CLOUD?"سيُمسح كل المواقع من القائمة المشتركة لجميع الموظفين. متابعة؟ (التقارير تبقى في السجل)":"مسح كل المواقع من القائمة؟ (التقارير المُصدرة تبقى في السجل)"))return;try{await store.clearSites();$("#cx-msg").textContent="تم مسح القائمة."}catch(err){$("#cx-msg").textContent="تعذر المسح: "+err.message}renderSites()};
 const URLRE=/https?:\/\/[^\s"'<>)\]]+|(?<![@\w.-])(?:[a-z0-9-]+\.)+[a-z]{2,24}(?:\/[^\s"'<>)\]]*)?(?![\w-])/gi;
 function normUrl(x){x=String(x).trim().replace(/[\s.,;،]+$/,"");if(!x)return null;if(!/^https?:\/\//i.test(x))x="https://"+x;try{const u=new URL(x);return u.hostname.includes(".")?u.href:null}catch{return null}}
+/* قراءة الملفات بترميز صحيح: CSV كنص UTF-8 (وإلا Windows-1256 العربي القديم)، وExcel كبايتات */
+async function csvText(f){
+ const buf=await f.arrayBuffer();
+ try{return new TextDecoder("utf-8",{fatal:true}).decode(buf).replace(/^\uFEFF/,"")}
+ catch{return new TextDecoder("windows-1256").decode(buf)}
+}
+async function readWorkbook(f,opts){
+ if(!window.XLSX)throw new Error("مكتبة Excel لم تُحمَّل");
+ return /\.(csv|txt)$/i.test(f.name)?XLSX.read(await csvText(f),{type:"string",raw:true}):XLSX.read(await f.arrayBuffer(),{type:"array",...opts});
+}
+/* إصلاح أسماء تالفة سبق حفظها (UTF-8 فُسِّر كترميز غربي) */
+const REV=(()=>{const m={},d=new TextDecoder("windows-1252");for(let b=0;b<256;b++)m[d.decode(Uint8Array.of(b))]=b;return m})();
+function fixMojibake(t){
+ t=String(t||"");if(!/[ØÙ]/.test(t))return t;
+ const bytes=[];for(const ch of t){const c=ch.codePointAt(0),b=c<256?c:REV[ch];if(b===undefined)return t;bytes.push(b)}
+ try{const u=new TextDecoder("utf-8",{fatal:true}).decode(Uint8Array.from(bytes));return /[\u0600-\u06FF]/.test(u)?u:t}catch{return t}
+}
+const showUrl=u=>{try{return decodeURI(u)}catch{return u}};
 function rowSites(urls,texts,out,seen,extra){
  const name=texts.find(t=>t.length<=80&&!/^[\d.,\s]+$/.test(t)&&!CATS.includes(t));
  const cat=texts.find(t=>CATS.includes(t))||"";
@@ -438,7 +456,7 @@ $("#cx-file").onchange=async e=>{
  const f=e.target.files[0];if(!f)return;
  try{
   if(!window.XLSX)throw new Error("مكتبة Excel لم تُحمَّل");
-  const rows=parseSheet(XLSX.read(await f.arrayBuffer(),{type:"array"}));
+  const rows=parseSheet(await readWorkbook(f));
   const have=new Set(manual.map(m=>m.url.replace(/\/$/,"").toLowerCase()));
   const fresh=rows.filter(r=>!have.has(r.url.replace(/\/$/,"").toLowerCase())).map(r=>({name:r.name,url:r.url,cat:r.cat,file:f.name}));
   if(!rows.length){$("#cx-msg").textContent="لم يُعثر على روابط في الملف.";}
@@ -518,10 +536,7 @@ const todayIso=()=>{const d=new Date();return new Date(d.getTime()-d.getTimezone
 $("#gs-from").value=$("#gs-to").value=todayIso();
 $("#gs-url").value=load("ipw_sheet",CFG.sheetUrl||"");
 async function rowsFromFile(f){
- if(!window.XLSX)throw new Error("مكتبة القراءة لم تُحمَّل");
- if(/\.csv$/i.test(f.name)){const wb=XLSX.read(await f.text(),{type:"string",raw:true});return XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""})}
- const wb=XLSX.read(await f.arrayBuffer(),{type:"array",cellDates:true});
- const p2=n=>String(n).padStart(2,"0");
+ const csv=/\.(csv|txt)$/i.test(f.name),wb=await readWorkbook(f,csv?{}:{cellDates:true}),p2=n=>String(n).padStart(2,"0");
  return XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""})
   .map(r=>r.map(c=>c instanceof Date?`${c.getFullYear()}-${p2(c.getMonth()+1)}-${p2(c.getDate())}`:c));
 }
@@ -574,7 +589,7 @@ $("#d-paste-clear").onclick=()=>setPasted(null);
 function openDlg(id){
  cur=allItems().find(s=>s.id===id);setPasted(null);
  $("#rep-form").reset();other.hidden=true;
- $("#d-site").textContent=cur.title||cur.host;$("#d-url").textContent=cur.url;
+ $("#d-site").textContent=cur.title||cur.host;$("#d-url").textContent=showUrl(cur.url);
  document.querySelectorAll("[name=t]").forEach(c=>c.checked=(cur.types||[]).includes(c.value));
  if(cur.tier===1)document.querySelector('[name=r][value="مخالف"]').checked=true;
  $("#d-shot-auto").hidden=!cur.screenshot;$("#d-shot-manual").hidden=!!cur.screenshot;
