@@ -52,6 +52,33 @@ table{width:100%;border-collapse:collapse}th,td{text-align:start;padding:10px;bo
 .search{max-width:260px}
 .shot-prev{max-width:100%;max-height:180px;border:1px solid var(--line);border-radius:8px;display:block;margin-top:6px}
 .dlg-meta{font-size:.85rem;color:var(--muted);margin:0 0 12px;direction:ltr;text-align:left;word-break:break-all}
+/* لوحة الإحصائيات: أحمر = مخالف، أزرق = غير مخالف (يجتاز فحص عمى الألوان) */
+:root{--c-bad:#d03b3b;--c-ok:#2a78d6;--on-bad:#fff;--on-ok:#fff}
+@media(prefers-color-scheme:dark){:root{--c-ok:#3987e5;--on-ok:#0b0b0b}}
+.kpis{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:12px;margin-bottom:16px}
+@media(max-width:760px){.kpis{grid-template-columns:1fr 1fr}.kpis .hero{grid-column:1/-1}}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px}
+.kpi .l{color:var(--muted);font-size:.88rem}.kpi .v{font-size:1.9rem;font-weight:700;line-height:1.2}
+.kpi.hero .v{font-size:3.2rem;font-weight:800}
+.kpi .sw{display:inline-block;width:10px;height:10px;border-radius:2px;margin-inline-end:6px}
+.chart{margin-bottom:16px}.chart h3{margin:0 0 2px;font-size:1.05rem}.chart .sub{margin:0 0 14px;font-size:.85rem}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.88rem;color:var(--muted);margin-bottom:12px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-inline-end:6px}
+.bars{display:flex;flex-direction:column;gap:10px}
+.brow{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center}
+@media(max-width:560px){.brow{grid-template-columns:100px 1fr}}
+.brow .nm{font-size:.9rem;color:var(--muted)}
+.bwrap{display:flex;align-items:center;gap:8px}
+.bar{display:flex;gap:2px;height:24px}
+.seg{display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;min-width:6px;cursor:default;outline-offset:2px}
+.seg.bad{background:var(--c-bad);color:var(--on-bad)}.seg.ok{background:var(--c-ok);color:var(--on-ok)}
+.seg:last-child{border-start-end-radius:4px;border-end-end-radius:4px}
+.seg:hover,.seg:focus-visible{filter:brightness(1.12)}
+.tot{font-size:.88rem;font-weight:700}
+.ratio .bar{height:34px}.ratio .seg{font-size:.9rem}
+#tip{position:fixed;z-index:50;pointer-events:none;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:.85rem;box-shadow:0 4px 14px rgba(0,0,0,.18);display:none}
+#tip b{font-size:1rem}
+details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 /* PDF template (rendered off-screen) */
 #pdf-root{position:fixed;inset-inline-start:-10000px;top:0;width:794px}
 .pdf{background:#fff;color:#111;padding:40px 48px;font-family:Tajawal,Arial,sans-serif;direction:rtl;min-height:1060px}
@@ -102,7 +129,19 @@ table{width:100%;border-collapse:collapse}th,td{text-align:start;padding:10px;bo
 
 <section id="reports" role="tabpanel" hidden>
   <h2>سجل التقارير</h2>
-  <p class="sub">التقارير التي أُصدرت من هذا المتصفح.</p>
+  <p class="sub">إحصائيات المواقع المفحوصة والتقارير التي أُصدرت من هذا المتصفح.</p>
+  <div class="filters" id="dash-filters" aria-label="الفترة الزمنية"></div>
+  <div id="dash">
+    <div class="kpis" id="kpis"></div>
+    <div class="card chart ratio"><h3>المواقع حسب النتيجة</h3><p class="sub">نسبة المواقع المخالفة إلى غير المخالفة.</p>
+      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
+      <div id="ratio"></div></div>
+    <div class="card chart"><h3>المواقع حسب نوع المواد</h3><p class="sub">قد يُحسب الموقع الواحد في أكثر من نوع.</p>
+      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
+      <div class="bars" id="bytype"></div></div>
+    <details class="card tbl chart"><summary>عرض البيانات كجدول</summary><div style="overflow-x:auto;margin-top:10px"><table><thead><tr><th>نوع المواد</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table"></tbody></table></div></details>
+  </div>
+  <h3 style="margin:24px 0 10px">سجل التقارير</h3>
   <div class="card" style="overflow-x:auto"><table><thead><tr><th>التاريخ</th><th>الموقع</th><th>المواد</th><th>النتيجة</th><th></th></tr></thead><tbody id="rep-body"></tbody></table></div>
 </section>
 </main>
@@ -135,6 +174,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:start;padding:10px;bo
     <div class="actions" style="margin:0"><button class="btn primary" value="go" id="d-go">تنزيل التقرير PDF</button><button class="btn" value="cancel" formnovalidate>إلغاء</button></div>
   </form>
 </dialog>
+<div id="tip" role="tooltip"></div>
 <div id="pdf-root" aria-hidden="true"></div>
 
 <script src="vendor/html2pdf.bundle.min.js" defer></script>
@@ -258,10 +298,62 @@ async function makePdf(r,img){
  }catch{window.print()} /* بديل: الطباعة ثم «حفظ بصيغة PDF» */
 }
 
+/* ===== لوحة الإحصائيات ===== */
+let dashRange=0;
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
+const typeKey=t=>t.startsWith("غير ذلك")?"غير ذلك":t;
+function dashData(){
+ const cut=dashRange?Date.now()-dashRange*864e5:0, latest=new Map();
+ for(const r of reports){if(new Date(r.date)>=cut&&!latest.has(r.url))latest.set(r.url,r)} // reports الأحدث أولاً: يُحتسب كل موقع مرة بآخر نتيجة
+ return [...latest.values()];
+}
+const tip=$("#tip");
+function bindTip(node,name,n){
+ node.tabIndex=0;node.setAttribute("aria-label",`${name}: ${n}`);
+ const show=(x,y)=>{tip.replaceChildren(el("b",null,String(n)),document.createTextNode(" موقع · "+name));tip.style.display="block";tip.style.left=Math.min(x+12,innerWidth-tip.offsetWidth-8)+"px";tip.style.top=(y+14)+"px"};
+ node.onpointermove=e=>show(e.clientX,e.clientY);node.onpointerleave=()=>tip.style.display="none";
+ node.onfocus=()=>{const b=node.getBoundingClientRect();show(b.left,b.bottom)};node.onblur=()=>tip.style.display="none";
+}
+function segs(bad,ok,labelMin,total){
+ const bar=el("div","bar");
+ for(const [k,n,name] of [["bad",bad,"مخالف"],["ok",ok,"غير مخالف"]]){
+  if(!n)continue;
+  const sg=el("div","seg "+k, n/total>=labelMin?String(n):"");
+  sg.style.flex=`${n} 0 0`;bindTip(sg,name,n);bar.append(sg);
+ }
+ return bar;
+}
+function renderDash(){
+ const ranges=[[0,"كل الفترات"],[7,"آخر 7 أيام"],[30,"آخر 30 يوماً"],[90,"آخر 90 يوماً"]];
+ $("#dash-filters").replaceChildren(...ranges.map(([d,t])=>{const b=el("button","chip",t);b.setAttribute("aria-pressed",d===dashRange);b.onclick=()=>{dashRange=d;renderDash()};return b}));
+ const data=dashData(), bad=data.filter(r=>r.result==="مخالف").length, ok=data.length-bad;
+ const pct=data.length?Math.round(bad/data.length*100):0;
+ const tile=(l,v,cls,sw)=>{const k=el("div","kpi "+(cls||""));const lab=el("div","l");if(sw){const i=el("span","sw");i.style.background=sw;lab.append(i)}lab.append(document.createTextNode(l));k.append(lab,el("div","v",v));return k};
+ $("#kpis").replaceChildren(tile("المواقع المفحوصة",String(data.length),"hero"),tile("مخالف",String(bad),"","var(--c-bad)"),tile("غير مخالف",String(ok),"","var(--c-ok)"),tile("نسبة المخالفة",pct+"%"));
+ const ratio=$("#ratio"),bt=$("#bytype"),tb=$("#dash-table");
+ if(!data.length){const m=el("div","empty","لا توجد بيانات في هذه الفترة. أصدر تقارير لتظهر الإحصائيات.");ratio.replaceChildren(m.cloneNode(true));bt.replaceChildren();tb.replaceChildren();return}
+ // النسبة العامة
+ const rb=segs(bad,ok,.15,data.length);
+ rb.querySelectorAll(".seg").forEach(sg=>{const n=+sg.style.flex.split(" ")[0];if(sg.textContent)sg.textContent=`${n} · ${Math.round(n/data.length*100)}%`});
+ ratio.replaceChildren(rb);
+ // حسب النوع
+ const by=new Map();
+ for(const r of data){const ts=new Set((r.types||[]).map(typeKey));if(!ts.size)ts.add("غير محدد");
+  for(const t of ts){const o=by.get(t)||{bad:0,ok:0};r.result==="مخالف"?o.bad++:o.ok++;by.set(t,o)}}
+ const rows=[...by].map(([t,o])=>({t,...o,tot:o.bad+o.ok})).sort((a,b)=>b.tot-a.tot||a.t.localeCompare(b.t));
+ const max=rows[0].tot;
+ bt.replaceChildren(...rows.map(r=>{
+  const row=el("div","brow"),wrap=el("div","bwrap"),bar=segs(r.bad,r.ok,.12,max);
+  bar.style.width=`calc((100% - 40px) * ${r.tot/max})`;
+  wrap.append(bar,el("span","tot",String(r.tot)));row.append(el("div","nm",r.t),wrap);return row}));
+ tb.replaceChildren(...rows.map(r=>{const tr=el("tr");for(const v of [r.t,r.bad,r.ok,r.tot])tr.append(el("td",null,String(v)));return tr}));
+}
+
 /* ===== السجل ===== */
 function renderReports(){
  $("#rep-body").innerHTML=reports.length?reports.map((r,i)=>`<tr><td>${fmt(r.date)}</td><td>${esc(r.site)}</td><td>${r.types.map(esc).join("، ")||"—"}</td><td><span class="badge ${r.result==="مخالف"?"bad":"ok"}">${r.result}</span></td><td><button class="btn sm" data-re="${i}">تنزيل مجدداً</button></td></tr>`).join(""):`<tr><td colspan="5" class="empty">لم تُصدر أي تقارير بعد.</td></tr>`;
  document.querySelectorAll("[data-re]").forEach(b=>b.onclick=()=>makePdf(reports[b.dataset.re]));
+ renderDash();
 }
 renderNews();renderSites();renderReports();loadFindings();
 </script>
