@@ -10,7 +10,7 @@ import dns from "node:dns/promises";
 import net from "node:net";
 import { fileURLToPath } from "node:url";
 import { createInspector } from "./inspector.mjs";
-import { classify, isSaHost, looksSaudi } from "./lib.mjs";
+import { classify, isSaHost, looksSaudi, extractUrlsFromText } from "./lib.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, "..");
@@ -78,6 +78,25 @@ const server = http.createServer(async (req, res) => {
   if (req.method === "OPTIONS") { res.writeHead(204); return res.end(); }
 
   if (url.pathname === "/api/ping") { res.writeHead(200, { "content-type": "application/json" }); return res.end(JSON.stringify({ ok: true, max: MAX_URLS })); }
+
+  if (url.pathname === "/api/sheet" && req.method === "POST") {
+    let body = "";
+    for await (const c of req) { body += c; if (body.length > 1e5) { res.writeHead(413); return res.end(); } }
+    const json = (code, o) => { res.writeHead(code, { "content-type": "application/json; charset=utf-8" }); res.end(JSON.stringify(o)); };
+    let link;
+    try { link = String(JSON.parse(body).url || ""); } catch { return json(400, { error: "طلب غير صالح" }); }
+    const id = link.match(/\/spreadsheets\/d\/([\w-]+)/)?.[1];
+    const gid = link.match(/[#&?]gid=(\d+)/)?.[1];
+    if (!id || !/^https:\/\/docs\.google\.com\//.test(link)) return json(400, { error: "الرابط ليس رابط Google Sheet" });
+    const base = process.env.SHEET_BASE || "https://docs.google.com";
+    try {
+      const r = await fetch(`${base}/spreadsheets/d/${id}/export?format=csv${gid ? "&gid=" + gid : ""}`, { redirect: "follow", signal: AbortSignal.timeout(20000) });
+      const text = await r.text();
+      if (!r.ok || /^\s*<(!doctype|html)/i.test(text)) return json(403, { error: "تعذر قراءة الجدول. اجعل المشاركة «أي شخص لديه الرابط: عارض»." });
+      const urls = extractUrlsFromText(text);
+      return json(200, { urls, count: urls.length });
+    } catch (e) { return json(502, { error: "تعذر الاتصال بـ Google Sheets" }); }
+  }
 
   if (url.pathname === "/api/check" && req.method === "POST") {
     let body = "";

@@ -124,6 +124,10 @@ npm run serve</pre>
       <div><label for="xl-file">ملف Excel أو CSV</label><input type="file" id="xl-file" accept=".xlsx,.xls,.xlsm,.csv,.ods"></div>
       <div><span id="xl-count" class="meta">لم يُرفع ملف بعد.</span></div>
     </div>
+    <div class="row2">
+      <div><label for="gs-url">أو رابط Google Sheet (مشاركة: أي شخص لديه الرابط، عارض)</label><input type="text" id="gs-url" dir="ltr" placeholder="https://docs.google.com/spreadsheets/d/…"></div>
+      <div><button class="btn" id="gs-go" type="button">سحب الروابط من الجدول</button></div>
+    </div>
     <details id="xl-list-wrap" hidden><summary>عرض الروابط المستخرجة</summary><textarea id="xl-list" rows="6" dir="ltr" style="width:100%;margin-top:8px;font-family:ui-monospace,monospace;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px"></textarea><small>يمكنك تعديل القائمة قبل الفحص (رابط في كل سطر).</small></details>
     <div class="actions"><button class="btn primary" id="xl-go" disabled>بدء الفحص</button><button class="btn" id="xl-stop" hidden>إيقاف</button><button class="btn" id="xl-export" hidden>تصدير النتائج (Excel)</button></div>
     <div id="xl-prog" hidden style="margin-top:14px"><progress id="xl-bar" value="0" max="1"></progress><div class="meta" id="xl-prog-t"></div></div>
@@ -322,6 +326,19 @@ $("#xl-file").onchange=async e=>{
  }catch{urls=[];alert("تعذرت قراءة الملف.")}
  $("#xl-list").value=urls.join("\n");$("#xl-list-wrap").hidden=!urls.length;
  $("#xl-count").textContent=urls.length?`تم استخراج ${urls.length} رابط من «${f.name}».`:"لم يُعثر على روابط في الملف.";
+ syncGo();
+};
+$("#gs-go").onclick=async()=>{
+ const link=$("#gs-url").value.trim();
+ if(!srv){alert("خادم الفحص غير متصل.");return}
+ if(!link)return;
+ $("#xl-count").textContent="جارٍ سحب الروابط من Google Sheet…";
+ try{
+  const r=await fetch(srv+"/api/sheet",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({url:link})});
+  const d=await r.json();if(!r.ok)throw new Error(d.error||("HTTP "+r.status));
+  urls=d.urls;$("#xl-list").value=urls.join("\n");$("#xl-list-wrap").hidden=!urls.length;
+  $("#xl-count").textContent=urls.length?`تم سحب ${urls.length} رابط من Google Sheet (التبويب المحدد في الرابط، أو الأول).`:"لم يُعثر على روابط في الجدول.";
+ }catch(e){urls=[];$("#xl-count").textContent="تعذر السحب: "+e.message}
  syncGo();
 };
 $("#xl-list").oninput=e=>{urls=e.target.value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);$("#xl-count").textContent=`${urls.length} رابط للفحص.`;syncGo()};
