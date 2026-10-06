@@ -1,0 +1,13 @@
+{
+  "name": "digital-space-scanner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scan": "node scan.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1",
+    "tldts": "^6.1.50"
+  }
+}
