@@ -199,15 +199,20 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
   <h2>سجل التقارير</h2>
   <p class="sub">إحصائيات المواقع المفحوصة والتقارير التي أُصدرت من هذا المتصفح.</p>
   <div class="filters" id="dash-filters" aria-label="الفترة الزمنية"></div>
+  <div class="filters" id="dash-src-filters" aria-label="الإجراء"></div>
   <div id="dash">
     <div class="kpis" id="kpis"></div>
     <div class="card chart ratio"><h3>المواقع حسب النتيجة</h3><p class="sub">نسبة المواقع المخالفة إلى غير المخالفة.</p>
       <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div id="ratio"></div></div>
+    <div class="card chart"><h3>المواقع حسب الإجراء</h3><p class="sub">بلاغات أصحاب الحقوق، والتفتيش الاستباقي، والفحص الآلي (يتأثر بالفترة فقط).</p>
+      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
+      <div class="bars" id="bysrc"></div></div>
     <div class="card chart"><h3>المواقع حسب نوع المواد</h3><p class="sub">قد يُحسب الموقع الواحد في أكثر من نوع.</p>
       <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div class="bars" id="bytype"></div></div>
-    <details class="card tbl chart"><summary>عرض البيانات كجدول</summary><div style="overflow-x:auto;margin-top:10px"><table><thead><tr><th>نوع المواد</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table"></tbody></table></div></details>
+    <details class="card tbl chart"><summary>عرض البيانات كجدول</summary><div style="overflow-x:auto;margin-top:10px"><table><thead><tr><th>نوع المواد</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table"></tbody></table>
+      <table style="margin-top:14px"><thead><tr><th>الإجراء</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-src"></tbody></table></div></details>
   </div>
   <h3 style="margin:24px 0 10px">سجل التقارير</h3>
   <div class="card" style="overflow-x:auto"><table><thead><tr><th>التاريخ</th><th>الموقع</th><th>المواد</th><th>النتيجة</th><th>الإجراء</th><th></th></tr></thead><tbody id="rep-body"></tbody></table></div>
@@ -658,7 +663,8 @@ async function makePdf(r,img){
 }
 
 /* ===== لوحة الإحصائيات ===== */
-let dashRange=0;
+let dashRange=0, dashSrc="الكل";
+const srcOf=r=>r.source||"غير محدد";
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e};
 const typeKey=t=>t.startsWith("غير ذلك")?"غير ذلك":t;
 function dashData(){
@@ -685,16 +691,27 @@ function segs(bad,ok,labelMin,total){
 function renderDash(){
  const ranges=[[0,"كل الفترات"],[7,"آخر 7 أيام"],[30,"آخر 30 يوماً"],[90,"آخر 90 يوماً"]];
  $("#dash-filters").replaceChildren(...ranges.map(([d,t])=>{const b=el("button","chip",t);b.setAttribute("aria-pressed",d===dashRange);b.onclick=()=>{dashRange=d;renderDash()};return b}));
- const data=dashData(), bad=data.filter(r=>r.result==="مخالف").length, ok=data.length-bad;
+ const base=dashData();
+ const srcs=["الكل",...[SRC_C,SRC_P,SRC_A,"غير محدد"].filter(k=>k==="غير محدد"?base.some(r=>srcOf(r)==="غير محدد"):true)];
+ if(!srcs.includes(dashSrc))dashSrc="الكل";
+ $("#dash-src-filters").replaceChildren(...srcs.map(k=>{const c=k==="الكل"?base.length:base.filter(r=>srcOf(r)===k).length;const b=el("button","chip",`${k} (${c})`);b.setAttribute("aria-pressed",k===dashSrc);b.onclick=()=>{dashSrc=k;renderDash()};return b}));
+ const data=dashSrc==="الكل"?base:base.filter(r=>srcOf(r)===dashSrc), bad=data.filter(r=>r.result==="مخالف").length, ok=data.length-bad;
  const pct=data.length?Math.round(bad/data.length*100):0;
  const tile=(l,v,cls,sw)=>{const k=el("div","kpi "+(cls||""));const lab=el("div","l");if(sw){const i=el("span","sw");i.style.background=sw;lab.append(i)}lab.append(document.createTextNode(l));k.append(lab,el("div","v",v));return k};
  $("#kpis").replaceChildren(tile("المواقع المفحوصة",String(data.length),"hero"),tile("مخالف",String(bad),"","var(--c-bad)"),tile("غير مخالف",String(ok),"","var(--c-ok)"),tile("نسبة المخالفة",pct+"%"));
  const ratio=$("#ratio"),bt=$("#bytype"),tb=$("#dash-table");
- if(!data.length){const m=el("div","empty","لا توجد بيانات في هذه الفترة. أصدر تقارير لتظهر الإحصائيات.");ratio.replaceChildren(m.cloneNode(true));bt.replaceChildren();tb.replaceChildren();return}
+ if(!data.length){const m=el("div","empty","لا توجد بيانات في هذه الفترة. أصدر تقارير لتظهر الإحصائيات.");ratio.replaceChildren(m.cloneNode(true));bt.replaceChildren();tb.replaceChildren();$("#bysrc").replaceChildren();$("#dash-table-src").replaceChildren();return}
  // النسبة العامة
  const rb=segs(bad,ok,.15,data.length);
  rb.querySelectorAll(".seg").forEach(sg=>{const n=+sg.style.flex.split(" ")[0];if(sg.textContent)sg.textContent=`${n} · ${Math.round(n/data.length*100)}%`});
  ratio.replaceChildren(rb);
+
+ // حسب الإجراء (يتأثر بالفترة فقط)
+ const bs=new Map();for(const r of base){const k=srcOf(r),o=bs.get(k)||{bad:0,ok:0};r.result==="مخالف"?o.bad++:o.ok++;bs.set(k,o)}
+ const srows=[...bs].map(([t,o])=>({t,...o,tot:o.bad+o.ok})).sort((a,b)=>b.tot-a.tot||a.t.localeCompare(b.t));
+ const smax=srows[0].tot;
+ $("#bysrc").replaceChildren(...srows.map(r=>{const row=el("div","brow"),wrap=el("div","bwrap"),bar=segs(r.bad,r.ok,.12,smax);bar.style.width=`calc((100% - 40px) * ${r.tot/smax})`;wrap.append(bar,el("span","tot",String(r.tot)));row.append(el("div","nm",r.t),wrap);return row}));
+ $("#dash-table-src").replaceChildren(...srows.map(r=>{const tr=el("tr");for(const v of [r.t,r.bad,r.ok,r.tot])tr.append(el("td",null,String(v)));return tr}));
  // حسب النوع
  const by=new Map();
  for(const r of data){const ts=new Set((r.types||[]).map(typeKey));if(!ts.size)ts.add("غير محدد");
