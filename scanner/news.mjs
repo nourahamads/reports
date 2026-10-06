@@ -55,22 +55,35 @@ async function fetchText(url) {
   throw err;
 }
 
+/** هل الخبر ذو صلة؟ (الموضوع + النطاق المحلي) */
+export function makeFilters(cfg) {
+  const re = (x) => new RegExp(normalize(x), "i");
+  const topics = Object.fromEntries(Object.entries(cfg.topics).map(([k, v]) => [k, { inc: re(v.match), exc: v.exclude ? re(v.exclude) : null }]));
+  const saudi = re(cfg.localMarkers), weak = re(cfg.localWeak || "$^"), pub = re(cfg.localSources || "$^"), other = cfg.localExclude ? re(cfg.localExclude) : null;
+  return (item, scope, topic) => {
+    const hay = normalize(`${item.title} ${item.summary}`), t = topics[topic];
+    if (!t.inc.test(hay) || (t.exc && t.exc.test(hay))) return false;
+    if (scope !== "محلي") return true;
+    if (saudi.test(hay)) return true;                                   // يذكر السعودية صراحة
+    if (other && other.test(normalize(item.title))) return false;       // خبر عن دولة أخرى
+    if (weak.test(hay)) return true;                                    // «المملكة» دون بلد آخر في العنوان
+    return pub.test(normalize(`${item.source} ${item.sourceUrl}`));     // ناشر سعودي
+  };
+}
+
 export async function build(cfg, fetcher = fetchText, now = Date.now()) {
   const maxAge = (cfg.maxAgeDays || 60) * 864e5;
-  const localRe = new RegExp(normalize(cfg.localMarkers), "i");
+  const relevant = makeFilters(cfg);
   const items = new Map(), feeds = [];
   for (const f of cfg.feeds) {
     const topic = cfg.topics[f.topic];
-    const topicRe = new RegExp(normalize(topic.match), "i");
     try {
       const raw = parseFeed(await fetcher(feedUrl(f)));
       let kept = 0;
       for (const r of raw) {
         const t = Date.parse(r.date);
         if (!r.title || !/^https?:\/\//.test(r.url) || !Number.isFinite(t) || now - t > maxAge || t > now + 864e5) continue;
-        const hay = normalize(`${r.title} ${r.summary}`);
-        if (!topicRe.test(hay)) continue;                                     // صلة بالموضوع
-        if (f.scope === "محلي" && !localRe.test(hay + " " + normalize(r.source + " " + r.sourceUrl))) continue; // صلة بالسعودية
+        if (!relevant(r, f.scope, f.topic)) continue;
         const key = normalize(r.title).replace(/[^\p{L}\p{N}]+/gu, " ").trim();
         if (items.has(key)) continue;
         items.set(key, { id: crypto.createHash("sha1").update(r.url).digest("hex").slice(0, 12), title: r.title, url: r.url, source: r.source || "", sourceUrl: r.sourceUrl || hostOf(r.url), scope: f.scope, topic: f.topic, topicName: topic.name, date: new Date(t).toISOString(), summary: r.summary });

@@ -5,7 +5,8 @@
   "topics": {
     "ip": {
       "name": "الملكية الفكرية",
-      "match": "ملكيه فكريه|حقوق المؤلف|حقوق النشر|قرصنه|علامه تجاريه|علامات تجاريه|براءه|براءات|الهيئه السعوديه للملكيه|saip|intellectual property|copyright|piracy|pirate|iptv|trademark|patent|wipo|counterfeit|infring"
+      "match": "ملكية فكرية|الملكية الفكرية|حقوق المؤلف|حقوق النشر|علامة تجارية|علامات تجارية|براءة اختراع|براءات الاختراع|براءات|قرصنة المحتوى|قرصنة البث|قرصنة رقمية|القرصنة الرقمية|مكافحة القرصنة|بث غير مرخص|المحتوى المقرصن|تقليد تجاري|الغش التجاري|الهيئة السعودية للملكية|saip|intellectual property|copyright|trademark|patent|wipo|iptv|digital piracy|content piracy|sports piracy|streaming piracy|online piracy|illegal streaming|anti-piracy|counterfeit goods|counterfeit products|brand protection|trade secret",
+      "exclude": "حوثي|هاكر|سيبراني|اختراق|hack|ransomware|somali|maritime|pirates of"
     },
     "labor": {
       "name": "وزارة الموارد البشرية (العمل)",
@@ -16,7 +17,7 @@
       "match": "النيابه العامه|النائب العام|نيابه|الادعاء العام|public prosecution|prosecutor"
     }
   },
-  "localMarkers": "السعود|المملكه|الرياض|جده|مكه|المدينه|الدمام|سعودي|saudi|ksa|spa\\.gov|okaz|alriyadh|aleqt|argaam|sabq|alyaum|alwatan|al-madina|almadina",
+  "localMarkers": "السعود|سعودي|saudi|ksa|الرياض|جدة|جده|مكة|الدمام|الخبر|ساما|هيئة الخبراء|saip",
   "feeds": [
     {
       "id": "ip-local-saip",
@@ -49,7 +50,7 @@
       "id": "ip-global-piracy",
       "scope": "عالمي",
       "topic": "ip",
-      "query": "(piracy OR IPTV OR \"live sports piracy\" OR counterfeit) when:14d",
+      "query": "(\"digital piracy\" OR \"content piracy\" OR \"sports piracy\" OR \"illegal streaming\" OR IPTV OR \"counterfeit goods\") when:14d",
       "hl": "en",
       "gl": "US",
       "ceid": "US:en"
@@ -81,5 +82,8 @@
       "gl": "SA",
       "ceid": "SA:ar"
     }
-  ]
+  ],
+  "localSources": "الرياض|عكاظ|سبق|المدينة|اليوم|الاقتصادية|أرقام|ارقام|العربية|الوطن|واس|وكالة الأنباء السعودية|الشرق الأوسط|البلاد|المواطن|تواصل|الجزيرة|اقرأ|أخبار السعودية|عين اليوم|spa\\.gov|okaz|alriyadh|aleqt|argaam|sabq|alyaum|alwatan|almadina|arabnews|saudigazette|akhbaralsaudi|alarabiya|aawsat|alsaudi|درة",
+  "localExclude": "مصر|مصري|الأردن|أردني|اليمن|يمني|حوثي|العراق|لبنان|سوريا|الجزائر|المغرب|تونس|ليبيا|السودان|فلسطين|غزة",
+  "localWeak": "المملكة|المملكه"
 }

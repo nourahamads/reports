@@ -48,3 +48,18 @@ test("build: يرشّح بالصلة والعمر والتكرار ويحفظ ا
   assert.ok(r.feeds.some((f) => !f.ok), "الفشل الجزئي يُسجَّل ولا يوقف الباقي");
   assert.ok(r.items.every((i, k, a) => k === 0 || a[k - 1].date >= i.date), "الأحدث أولاً");
 });
+
+test("فلاتر الضجيج: عملات مزيفة وقرصنة بحرية وهاكرز وأخبار دول أخرى تُستبعد، والسعودية تبقى", async () => {
+  const D = "Mon, 05 Oct 2026 10:00:00 GMT";
+  const item = (t, s, su) => ({ t: `${t} - ${s}`, l: "https://n/" + encodeURIComponent(t), d: D, s, su });
+  const fetcher = async (url) => {
+    const q = new URL(url).searchParams.get("q");
+    if (q.includes("digital piracy")) return rss([item("Counterfeit cash is at an 8-year high", "ABC", "https://abc.net.au"), item("Resurgence in Somali piracy at sea", "Soufan", "https://soufan.org"), item("Streaming sites hit by new anti-piracy ruling", "TorrentFreak", "https://torrentfreak.com")]);
+    if (q.includes("الهيئة السعودية للملكية الفكرية")) return rss([item("مجموعة قرصنة حوثية تزعم نشر بيانات", "الأردن", "https://jo.example"), item("مصر.. تحرك قانوني لحماية حقوق المؤلفين", "عكاظ", "https://okaz.com.sa"), item("جامعة تسجل براءة اختراع جديدة", "وكالة الأنباء السعودية", "https://spa.gov.sa")]);
+    if (q.includes("النيابة العامة")) return rss([item("النائب العام يمثل المملكة في الاجتماع", "موقع صغير", "https://x.example"), item("النائب العام اليمني يلتقي وفداً", "قناة المملكة", "https://almamlaka.jo")]);
+    return rss([]);
+  };
+  const titles = (await build(cfg, fetcher, NOW)).items.map((i) => i.title);
+  for (const bad of ["Counterfeit cash", "Somali piracy", "حوثية", "مصر..", "النائب العام اليمني"]) assert.ok(!titles.some((t) => t.includes(bad)), "يجب استبعاد: " + bad);
+  for (const good of ["anti-piracy ruling", "براءة اختراع", "يمثل المملكة"]) assert.ok(titles.some((t) => t.includes(good)), "يجب بقاء: " + good);
+});
