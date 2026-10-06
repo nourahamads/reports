@@ -81,6 +81,7 @@ table{width:100%;border-collapse:collapse}th,td{text-align:start;padding:10px;bo
 #tip b{font-size:1rem}
 details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 .proc{margin:0 0 28px}.proc>h3{margin:0 0 2px;font-size:1.2rem}.proc>.sub{margin:0 0 14px;font-size:.92rem}
+.badge.pro{color:var(--accent)}
 .num{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:.9rem;margin-inline-end:8px}
 .paste{border:2px dashed var(--line);border-radius:10px;padding:16px;text-align:center;color:var(--muted);background:var(--bg);cursor:text}
 .paste:focus{outline:2px solid var(--accent);border-color:var(--accent)}
@@ -150,6 +151,29 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     <div class="notice" id="scan-status">جارٍ تحميل نتائج الفحص…</div>
     <div class="filters"><span id="site-filters" class="filters" style="margin:0"></span><input class="search" id="site-q" type="search" placeholder="بحث بالنطاق أو العنوان" aria-label="بحث"></div>
     <div class="grid" id="site-list"></div>
+  </div>
+
+  <div class="proc" id="proc3">
+    <h3><span class="num">3</span>التفتيش الاستباقي (سحب من Google Sheet)</h3>
+    <p class="sub">اسحب المواقع من جدول Google حسب تاريخ تحدده، فتظهر في بطاقات وتُصدر عنها تقارير مصنفة «تفتيش استباقي».</p>
+    <div class="card">
+      <div class="row2" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;align-items:end">
+        <div style="grid-column:1/-1"><label for="gs-url">رابط الجدول</label><input type="text" id="gs-url" dir="ltr" placeholder="https://docs.google.com/spreadsheets/d/…" autocomplete="off"></div>
+        <div><label for="gs-from">من تاريخ</label><input type="date" id="gs-from"></div>
+        <div><label for="gs-to">إلى تاريخ (اتركه مثل «من» ليوم واحد)</label><input type="date" id="gs-to"></div>
+        <div><button class="btn primary" id="gs-go" type="button">سحب البيانات</button></div>
+      </div>
+      <div class="meta" id="gs-msg" style="margin-top:10px">أدخل رابط الجدول وحدد التاريخ ثم اضغط «سحب البيانات».</div>
+      <details style="margin-top:8px"><summary>شروط الجدول</summary>
+        <ul style="margin:8px 0 0;padding-inline-start:20px;color:var(--muted);font-size:.9rem">
+          <li>مشاركة الجدول: «أي شخص لديه الرابط: عارض»، أو انشره من ملف ← مشاركة ← نشر على الويب بصيغة CSV وألصق رابط النشر.</li>
+          <li>يجب أن يحتوي عمود تاريخ (يُكتشف تلقائياً من العنوان «تاريخ/date»)، بصيغة 2026-10-06 أو 06/10/2026.</li>
+          <li>يُستخرج الرابط من أي عمود، والاسم من أول نص في الصف. يُسحب التبويب المذكور في الرابط (gid) أو الأول.</li>
+        </ul></details>
+    </div>
+    <div class="filters" style="margin:16px 0 12px"><span class="meta" id="pro-count"></span><input class="search" id="pro-q" type="search" placeholder="بحث بالنطاق أو الاسم" aria-label="بحث"></div>
+    <div class="grid" id="pro-list"></div>
+    <div class="actions"><button class="btn" id="pro-more" hidden>عرض المزيد</button></div>
   </div>
 </section>
 
@@ -286,7 +310,7 @@ const store={
  },
  async reportImage(rep){if(!CLOUD||!rep.id)return null;const r=await sb.req("reports?id=eq."+encodeURIComponent(rep.id)+"&select=image");return r?.[0]?.image||null}
 };
-let auto=[], updated=null, siteFilter="الكل", siteQ="";
+let auto=[], pro=[], updated=null, siteFilter="الكل", siteQ="";
 
 /* ===== التبويبات ===== */
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
@@ -303,12 +327,12 @@ function renderNews(){
 }
 
 /* ===== الإجراءان: بلاغات أصحاب الحقوق (Excel) + الفحص الآلي ===== */
-const SRC_C="بلاغ من أصحاب الحقوق", SRC_A="فحص آلي";
+const SRC_C="بلاغ من أصحاب الحقوق", SRC_A="فحص آلي", SRC_P="تفتيش استباقي";
 const CATS=["بث مباشر للمباريات","أفلام ومسلسلات","بث مشفّر (IPTV)","صوتيات","أخرى"];
 const catType=c=>c==="أفلام ومسلسلات"?["مسلسلات وأفلام"]:(c&&c!=="أخرى")?[c]:[];
 const hostOf=u=>{try{return new URL(u).host}catch{return u}};
-const allItems=()=>[...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:m.name,tier:0,verdict:null,types:catType(m.cat),kind:"manual"}))];
-const tierLabel=i=>i.kind==="manual"?"بلاغ أصحاب الحقوق":i.tier===1?"درجة أولى · مخالف":"درجة ثانية · للمراجعة";
+const allItems=()=>[...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:m.name,tier:0,verdict:null,types:catType(m.cat),kind:"manual"})),...pro.map(m=>({id:m.id,host:hostOf(m.url),url:m.url,title:m.name,tier:0,verdict:null,types:catType(m.cat),kind:"proactive",sheetDate:m.sheetDate}))];
+const tierLabel=i=>i.kind==="manual"?"بلاغ أصحاب الحقوق":i.kind==="proactive"?"تفتيش استباقي":i.tier===1?"درجة أولى · مخالف":"درجة ثانية · للمراجعة";
 const tierClass=i=>i.tier===1?"bad":i.tier===2?"none":"ok";
 async function loadFindings(){
  try{
@@ -324,10 +348,10 @@ function cardHtml(s){
  const th=s.screenshot?`<a href="${esc(s.screenshot)}" target="_blank" rel="noopener"><img class="thumb" loading="lazy" src="${esc(s.screenshot)}" alt="لقطة شاشة ${esc(s.host)}"></a>`:"";
  const kws=(s.matched||[]).slice(0,4).map(m=>esc(m.term)).join("، ");
  const al=(s.aliases||[]).length?`<div class="kw"><b>نطاقات بديلة:</b> <span dir="ltr">${s.aliases.map(esc).join(" · ")}</span></div>`:"";
- return `<article class="card"><span class="tag"><span class="badge ${s.kind==="manual"?"none":tierClass(s)}">${tierLabel(s)}</span></span>${(s.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
+ return `<article class="card"><span class="tag"><span class="badge ${s.kind==="manual"?"none":s.kind==="proactive"?"pro":tierClass(s)}">${tierLabel(s)}</span></span>${(s.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
  <h3>${esc(s.title||s.host)}</h3><div class="site-url">${esc(s.url)}</div>${th}
  ${kws?`<div class="kw"><b>كلمات مطابقة:</b> ${kws}</div>`:""}${al}${s.scope?`<div class="kw"><b>النطاق:</b> ${esc(s.scope)}</div>`:""}
- ${s.lastSeen?`<div class="meta">آخر رصد: ${fmtT(s.lastSeen)}</div>`:""}${rb}
+ ${s.sheetDate?`<div class="meta">تاريخ الجدول: ${esc(s.sheetDate)}</div>`:""}${s.lastSeen?`<div class="meta">آخر رصد: ${fmtT(s.lastSeen)}</div>`:""}${rb}
  <div class="actions"><a class="btn" href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">فتح الموقع ↗</a><button class="btn primary" data-rep="${esc(s.id)}">إصدار تقرير</button>${s.kind==="manual"?`<button class="btn danger sm" data-del="${esc(s.id)}">حذف</button>`:""}</div></article>`;
 }
 function bindCards(sel){
@@ -350,6 +374,11 @@ $("#cx-q").oninput=e=>{cQ=e.target.value;cLimit=30;renderComplaints()};
 $("#cx-clear").onclick=async()=>{if(!confirm(CLOUD?"سيُمسح كل المواقع من القائمة المشتركة لجميع الموظفين. متابعة؟ (التقارير تبقى في السجل)":"مسح كل المواقع من القائمة؟ (التقارير المُصدرة تبقى في السجل)"))return;try{await store.clearSites();$("#cx-msg").textContent="تم مسح القائمة."}catch(err){$("#cx-msg").textContent="تعذر المسح: "+err.message}renderSites()};
 const URLRE=/https?:\/\/[^\s"'<>)\]]+|(?<![@\w.-])(?:[a-z0-9-]+\.)+[a-z]{2,24}(?:\/[^\s"'<>)\]]*)?(?![\w-])/gi;
 function normUrl(x){x=String(x).trim().replace(/[\s.,;،]+$/,"");if(!x)return null;if(!/^https?:\/\//i.test(x))x="https://"+x;try{const u=new URL(x);return u.hostname.includes(".")?u.href:null}catch{return null}}
+function rowSites(urls,texts,out,seen,extra){
+ const name=texts.find(t=>t.length<=80&&!/^[\d.,\s]+$/.test(t)&&!CATS.includes(t));
+ const cat=texts.find(t=>CATS.includes(t))||"";
+ for(const raw of urls){const u=normUrl(raw);if(!u)continue;const key=u.replace(/\/$/,"").toLowerCase();if(seen.has(key))continue;seen.add(key);out.push({url:u,name:name||hostOf(u).replace(/^www\./,""),cat,...extra})}
+}
 function parseSheet(wb){
  const out=[],seen=new Set();
  for(const n of wb.SheetNames){const ws=wb.Sheets[n];if(!ws["!ref"])continue;const rg=XLSX.utils.decode_range(ws["!ref"]);
@@ -360,9 +389,7 @@ function parseSheet(wb){
     const v=String(cell.w??cell.v??"").trim();if(!v)continue;
     const m=v.match(URLRE);if(m)urls.push(...m);else if(!linked)texts.push(v)}
    if(!urls.length)continue;
-   const name=texts.find(t=>t.length<=80&&!/^[\d.,\s]+$/.test(t)&&!CATS.includes(t));
-   const cat=texts.find(t=>CATS.includes(t))||"";
-   for(const raw of urls){const u=normUrl(raw);if(!u)continue;const key=u.replace(/\/$/,"").toLowerCase();if(seen.has(key))continue;seen.add(key);out.push({url:u,name:name||hostOf(u).replace(/^www\./,""),cat})}
+   rowSites(urls,texts,out,seen);
    if(out.length>=2000)return out;
   }}
  return out;
@@ -398,7 +425,80 @@ function renderAuto(){
  bindCards("#site-list");
 }
 $("#site-q").oninput=e=>{siteQ=e.target.value;renderAuto()};
-function renderSites(){renderComplaints();renderAuto()}
+function renderSites(){renderComplaints();renderAuto();renderPro()}
+
+/* الإجراء 3: التفتيش الاستباقي (Google Sheet حسب التاريخ) */
+let pLimit=30,pQ="";
+function renderPro(){
+ const q=pQ.trim().toLowerCase();
+ const list=allItems().filter(i=>i.kind==="proactive"&&(!q||(i.host+" "+i.title).toLowerCase().includes(q)));
+ $("#pro-count").textContent=pro.length?`${pro.length} موقع تم سحبه`+(q?` · ${list.length} نتيجة`:""):"";
+ $("#pro-list").innerHTML=list.length?list.slice(0,pLimit).map(cardHtml).join(""):`<div class="empty">${pro.length?"لا توجد نتائج.":"لم تُسحب بيانات بعد."}</div>`;
+ $("#pro-more").hidden=list.length<=pLimit;$("#pro-more").textContent=`عرض المزيد (${list.length-pLimit})`;
+ bindCards("#pro-list");
+}
+$("#pro-more").onclick=()=>{pLimit+=30;renderPro()};
+$("#pro-q").oninput=e=>{pQ=e.target.value;pLimit=30;renderPro()};
+const AR_DIGITS="٠١٢٣٤٥٦٧٨٩";
+const latinDigits=t=>String(t).replace(/[٠-٩]/g,d=>AR_DIGITS.indexOf(d));
+function dayKey(v){ // يرجع رقم اليوم (UTC) أو null
+ v=latinDigits(v).trim();let m,y,mo,d;
+ if(m=v.match(/^(\d{4})[-\/.](\d{1,2})[-\/.](\d{1,2})/)){y=+m[1];mo=+m[2];d=+m[3]}
+ else if(m=v.match(/^(\d{1,2})[-\/.](\d{1,2})[-\/.](\d{4})/)){y=+m[3];d=+m[1];mo=+m[2];if(mo>12){[d,mo]=[mo,d]}}
+ else return null;
+ if(mo<1||mo>12||d<1||d>31)return null;
+ return Date.UTC(y,mo-1,d);
+}
+const isoDay=k=>new Date(k).toISOString().slice(0,10);
+function sheetCsvUrl(link){
+ link=link.trim();const base=(CFG.sheetBase||"https://docs.google.com");
+ if(/output=csv|\/pub\?/.test(link))return link;
+ const id=link.match(/\/spreadsheets\/d\/([\w-]+)/)?.[1];if(!id)return null;
+ const gid=link.match(/[#&?]gid=(\d+)/)?.[1];
+ return `${base}/spreadsheets/d/${id}/gviz/tq?tqx=out:csv${gid?"&gid="+gid:""}`;
+}
+function pullFromRows(rows,fromK,toK){
+ rows=rows.filter(r=>r.some(c=>String(c).trim()));
+ if(!rows.length)throw new Error("الجدول فارغ");
+ const head=rows[0].map(c=>String(c).trim());
+ let col=head.findIndex(h=>/تاريخ|date|^يوم$|day/i.test(h));
+ if(col<0){let best=0;const n=Math.max(...rows.map(r=>r.length));
+  for(let c=0;c<n;c++){const vals=rows.map(r=>String(r[c]??"").trim()).filter(Boolean);if(!vals.length)continue;const ok=vals.filter(v=>dayKey(v)!=null).length/vals.length;if(ok>best&&ok>=.5){best=ok;col=c}}}
+ if(col<0)throw new Error("لم يُعثر على عمود تاريخ في الجدول");
+ const out=[],seen=new Set();let matched=0;
+ for(const r of rows){
+  const k=dayKey(r[col]??"");if(k==null||k<fromK||k>toK)continue;matched++;
+  const urls=[],texts=[];
+  r.forEach((c,i)=>{if(i===col)return;const v=String(c??"").trim();if(!v)return;const m=v.match(URLRE);if(m)urls.push(...m);else texts.push(v)});
+  rowSites(urls,texts,out,seen,{sheetDate:isoDay(k)});
+ }
+ return {sites:out,matched};
+}
+const todayIso=()=>{const d=new Date();return new Date(d.getTime()-d.getTimezoneOffset()*6e4).toISOString().slice(0,10)};
+$("#gs-from").value=$("#gs-to").value=todayIso();
+$("#gs-url").value=load("ipw_sheet",CFG.sheetUrl||"");
+$("#gs-go").onclick=async()=>{
+ const link=$("#gs-url").value.trim(),msg=$("#gs-msg");
+ const f=$("#gs-from").value,t=$("#gs-to").value||f;
+ if(!link){msg.textContent="أدخل رابط الجدول.";return}
+ if(!f){msg.textContent="حدد التاريخ.";return}
+ const fromK=dayKey(f),toK=dayKey(t);if(toK<fromK){msg.textContent="تاريخ «إلى» قبل «من».";return}
+ const url=sheetCsvUrl(link);if(!url){msg.textContent="الرابط ليس رابط Google Sheet.";return}
+ save("ipw_sheet",link);$("#gs-go").disabled=true;msg.textContent="جارٍ السحب…";
+ try{
+  let r;try{r=await fetch(url,{cache:"no-store"})}catch{throw new Error("تعذر الاتصال بالجدول. تأكد من المشاركة (أي شخص لديه الرابط: عارض) أو استخدم رابط «نشر على الويب».")}
+  const text=await r.text();
+  if(!r.ok||/^\s*<(!doctype|html)/i.test(text))throw new Error("لا يمكن قراءة الجدول. اجعل المشاركة «أي شخص لديه الرابط: عارض» أو انشره على الويب.");
+  if(!window.XLSX)throw new Error("مكتبة القراءة لم تُحمَّل");
+  const wb=XLSX.read(text,{type:"string",raw:true});
+  const rows=XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""});
+  const {sites,matched}=pullFromRows(rows,fromK,toK);
+  pro=sites.map(x=>({...x,id:"p-"+x.url}));pLimit=30;
+  const when=f===t?f:`${f} → ${t}`;
+  msg.textContent=pro.length?`تم سحب ${pro.length} موقع من ${matched} صف بتاريخ ${when}.`:(matched?`وُجدت ${matched} صف بتاريخ ${when} لكن بدون روابط.`:`لا توجد صفوف بتاريخ ${when}.`);
+ }catch(err){pro=[];msg.textContent=err.message}
+ $("#gs-go").disabled=false;renderPro();
+};
 
 /* ===== نافذة التقرير ===== */
 let cur=null, uploaded=null;
@@ -437,7 +537,7 @@ $("#rep-form").onsubmit=async e=>{
  if(!result){e.preventDefault();return}
  const inspector=$("#d-name").value.trim();
  try{localStorage.setItem("ipw_inspector",inspector)}catch{}
- const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:(cur.screenshot&&!cur.screenshot.startsWith("data:"))?cur.screenshot:null,inspector,source:cur.kind==="auto"?SRC_A:SRC_C};
+ const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:(cur.screenshot&&!cur.screenshot.startsWith("data:"))?cur.screenshot:null,inspector,source:cur.kind==="auto"?SRC_A:cur.kind==="proactive"?SRC_P:SRC_C};
  const img=uploaded||(cur.screenshot?.startsWith("data:")?cur.screenshot:null);
  let saved=rep;
  try{saved=await store.addReport(rep,img)}catch(err){alert("تعذر حفظ التقرير في القاعدة المشتركة: "+err.message+"\nسيُنزَّل ملف PDF فقط.")}
