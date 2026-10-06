@@ -159,6 +159,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     <div class="card">
       <div class="row2" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;align-items:end">
         <div style="grid-column:1/-1"><label for="gs-url">رابط الجدول</label><input type="text" id="gs-url" dir="ltr" placeholder="https://docs.google.com/spreadsheets/d/…" autocomplete="off"></div>
+        <div style="grid-column:1/-1"><label for="gs-file">أو ملف الجدول (للجداول الحساسة غير المشاركة)</label><input type="file" id="gs-file" accept=".xlsx,.xls,.xlsm,.csv,.ods"><div class="meta">نزّله من Google Sheets: ملف ← تنزيل ← Microsoft Excel (.xlsx). يُقرأ داخل متصفحك فقط ولا يُرسل لأي جهة. إن اخترتَ ملفاً يُستخدم بدل الرابط.</div></div>
         <div><label for="gs-from">من تاريخ</label><input type="date" id="gs-from"></div>
         <div><label for="gs-to">إلى تاريخ (اتركه مثل «من» ليوم واحد)</label><input type="date" id="gs-to"></div>
         <div><button class="btn primary" id="gs-go" type="button">سحب البيانات</button></div>
@@ -166,7 +167,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
       <div class="meta" id="gs-msg" style="margin-top:10px">أدخل رابط الجدول وحدد التاريخ ثم اضغط «سحب البيانات».</div>
       <details style="margin-top:8px"><summary>شروط الجدول</summary>
         <ul style="margin:8px 0 0;padding-inline-start:20px;color:var(--muted);font-size:.9rem">
-          <li>مشاركة الجدول: «أي شخص لديه الرابط: عارض»، أو انشره من ملف ← مشاركة ← نشر على الويب بصيغة CSV وألصق رابط النشر.</li>
+          <li>بالرابط: يجب أن يكون الجدول مشاركاً «أي شخص لديه الرابط: عارض» (أو منشوراً CSV). للبيانات الحساسة استخدم رفع الملف.</li>
           <li>يجب أن يحتوي عمود تاريخ (يُكتشف تلقائياً من العنوان «تاريخ/date»)، بصيغة 2026-10-06 أو 06/10/2026.</li>
           <li>يُستخرج الرابط من أي عمود، والاسم من أول نص في الصف. يُسحب التبويب المذكور في الرابط (gid) أو الأول.</li>
         </ul></details>
@@ -477,25 +478,37 @@ function pullFromRows(rows,fromK,toK){
 const todayIso=()=>{const d=new Date();return new Date(d.getTime()-d.getTimezoneOffset()*6e4).toISOString().slice(0,10)};
 $("#gs-from").value=$("#gs-to").value=todayIso();
 $("#gs-url").value=load("ipw_sheet",CFG.sheetUrl||"");
+async function rowsFromFile(f){
+ if(!window.XLSX)throw new Error("مكتبة القراءة لم تُحمَّل");
+ if(/\.csv$/i.test(f.name)){const wb=XLSX.read(await f.text(),{type:"string",raw:true});return XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""})}
+ const wb=XLSX.read(await f.arrayBuffer(),{type:"array",cellDates:true});
+ const p2=n=>String(n).padStart(2,"0");
+ return XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""})
+  .map(r=>r.map(c=>c instanceof Date?`${c.getFullYear()}-${p2(c.getMonth()+1)}-${p2(c.getDate())}`:c));
+}
 $("#gs-go").onclick=async()=>{
- const link=$("#gs-url").value.trim(),msg=$("#gs-msg");
+ const link=$("#gs-url").value.trim(),msg=$("#gs-msg"),file=$("#gs-file").files[0];
  const f=$("#gs-from").value,t=$("#gs-to").value||f;
- if(!link){msg.textContent="أدخل رابط الجدول.";return}
+ if(!link&&!file){msg.textContent="أدخل رابط الجدول أو اختر ملفاً.";return}
  if(!f){msg.textContent="حدد التاريخ.";return}
  const fromK=dayKey(f),toK=dayKey(t);if(toK<fromK){msg.textContent="تاريخ «إلى» قبل «من».";return}
- const url=sheetCsvUrl(link);if(!url){msg.textContent="الرابط ليس رابط Google Sheet.";return}
- save("ipw_sheet",link);$("#gs-go").disabled=true;msg.textContent="جارٍ السحب…";
+ const url=file?null:sheetCsvUrl(link);if(!file&&!url){msg.textContent="الرابط ليس رابط Google Sheet.";return}
+ if(!file)save("ipw_sheet",link);$("#gs-go").disabled=true;msg.textContent="جارٍ السحب…";
  try{
-  let r;try{r=await fetch(url,{cache:"no-store"})}catch{throw new Error("تعذر الاتصال بالجدول. تأكد من المشاركة (أي شخص لديه الرابط: عارض) أو استخدم رابط «نشر على الويب».")}
-  const text=await r.text();
-  if(!r.ok||/^\s*<(!doctype|html)/i.test(text))throw new Error("لا يمكن قراءة الجدول. اجعل المشاركة «أي شخص لديه الرابط: عارض» أو انشره على الويب.");
-  if(!window.XLSX)throw new Error("مكتبة القراءة لم تُحمَّل");
-  const wb=XLSX.read(text,{type:"string",raw:true});
-  const rows=XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""});
+  let rows;
+  if(file)rows=await rowsFromFile(file);
+  else{
+   let r;try{r=await fetch(url,{cache:"no-store"})}catch{throw new Error("تعذر الاتصال بالجدول. تأكد من المشاركة (أي شخص لديه الرابط: عارض) أو ارفع الجدول كملف.")}
+   const text=await r.text();
+   if(!r.ok||/^\s*<(!doctype|html)/i.test(text))throw new Error("لا يمكن قراءة الجدول. اجعل المشاركة «أي شخص لديه الرابط: عارض»، أو نزّله وارفعه كملف.");
+   if(!window.XLSX)throw new Error("مكتبة القراءة لم تُحمَّل");
+   const wb=XLSX.read(text,{type:"string",raw:true});
+   rows=XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""});
+  }
   const {sites,matched}=pullFromRows(rows,fromK,toK);
   pro=sites.map(x=>({...x,id:"p-"+x.url}));pLimit=30;
-  const when=f===t?f:`${f} → ${t}`;
-  msg.textContent=pro.length?`تم سحب ${pro.length} موقع من ${matched} صف بتاريخ ${when}.`:(matched?`وُجدت ${matched} صف بتاريخ ${when} لكن بدون روابط.`:`لا توجد صفوف بتاريخ ${when}.`);
+  const when=f===t?f:`${f} → ${t}`,src=file?` من الملف «${file.name}»`:"";
+  msg.textContent=pro.length?`تم سحب ${pro.length} موقع من ${matched} صف بتاريخ ${when}${src}.`:(matched?`وُجدت ${matched} صف بتاريخ ${when} لكن بدون روابط.`:`لا توجد صفوف بتاريخ ${when}.`);
  }catch(err){pro=[];msg.textContent=err.message}
  $("#gs-go").disabled=false;renderPro();
 };
