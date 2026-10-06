@@ -25,7 +25,8 @@ h2{margin:0 0 4px;font-size:1.5rem}.sub{color:var(--muted);margin:0 0 20px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:var(--shadow)}
 .tag{display:inline-block;font-size:.78rem;padding:2px 10px;border-radius:99px;background:var(--bg);border:1px solid var(--line);color:var(--muted);margin-inline-end:6px}
-.card h3{margin:10px 0 6px;font-size:1.1rem}.card p{margin:0;color:var(--muted);font-size:.95rem}
+.card h3{margin:10px 0 6px;font-size:1.1rem}
+.card h3 a{text-decoration:none}.card h3 a:hover{text-decoration:underline}.card p{margin:0;color:var(--muted);font-size:.95rem}
 .meta{margin-top:12px;font-size:.82rem;color:var(--muted)}
 .notice{background:var(--card);border:1px dashed var(--line);border-radius:10px;padding:10px 14px;color:var(--muted);font-size:.9rem;margin-bottom:16px}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
@@ -104,7 +105,7 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
   <div class="brand">الرصد والتحكم في الفضاء الرقمي<span>.</span></div>
   <span id="whoami" class="meta" hidden></span><button class="btn sm" id="logout" hidden>خروج</button>
   <nav role="tablist" aria-label="أقسام الموقع">
-    <button role="tab" aria-selected="true" data-tab="news">الأخبار والتحليلات</button>
+    <button role="tab" aria-selected="true" data-tab="news">مرصد الإنفاذ</button>
     <button role="tab" aria-selected="false" data-tab="sites">فحص المواقع</button>
     <button role="tab" aria-selected="false" data-tab="reports">سجل التقارير</button>
   </nav>
@@ -112,11 +113,27 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 
 <main>
 <section id="news" role="tabpanel">
-  <h2>أبرز الأخبار والتحليلات</h2>
-  <p class="sub">متابعة متخصصة لقضايا إنفاذ حقوق الملكية الفكرية والقرصنة الرقمية.</p>
-  <div class="notice">المواد أدناه نماذج توضيحية. لتحديثها عدّل المصفوفة <code>NEWS</code> في أعلى سكربت الصفحة.</div>
-  <div class="filters" id="news-filters"></div>
+  <h2>مرصد الإنفاذ</h2>
+  <p class="sub">أخبار محلية وعالمية عن أنظمة الملكية الفكرية، ووزارة الموارد البشرية (العمل)، والنيابة العامة. لكل خبر رابط لمصدره الأصلي.</p>
+  <div class="notice" id="news-status">جارٍ تحميل الأخبار…</div>
+  <div class="filters" id="news-topics" aria-label="الموضوع"></div>
+  <div class="filters"><span id="news-scopes" class="filters" style="margin:0"></span><input class="search" id="news-q" type="search" placeholder="بحث في الأخبار" aria-label="بحث"></div>
   <div class="grid" id="news-list"></div>
+  <div class="actions"><button class="btn" id="news-more" hidden>عرض المزيد</button></div>
+  <details class="card" style="margin-top:20px"><summary>مصادر الأخبار والمواقع الرسمية</summary>
+    <p class="meta" style="margin:10px 0 6px">مواقع رسمية للمتابعة المباشرة:</p>
+    <ul id="official" style="margin:0 0 12px;padding-inline-start:20px;line-height:2">
+      <li><a href="https://www.saip.gov.sa" target="_blank" rel="noopener noreferrer">الهيئة السعودية للملكية الفكرية (SAIP)</a></li>
+      <li><a href="https://www.hrsd.gov.sa" target="_blank" rel="noopener noreferrer">وزارة الموارد البشرية والتنمية الاجتماعية</a></li>
+      <li><a href="https://www.pp.gov.sa" target="_blank" rel="noopener noreferrer">النيابة العامة</a></li>
+      <li><a href="https://www.spa.gov.sa" target="_blank" rel="noopener noreferrer">وكالة الأنباء السعودية (واس)</a></li>
+      <li><a href="https://laws.boe.gov.sa" target="_blank" rel="noopener noreferrer">هيئة الخبراء بمجلس الوزراء (الأنظمة واللوائح)</a></li>
+      <li><a href="https://www.wipo.int" target="_blank" rel="noopener noreferrer">المنظمة العالمية للملكية الفكرية (WIPO)</a></li>
+    </ul>
+    <p class="meta" style="margin:0 0 6px">الناشرون الذين وردت منهم أخبار حالياً:</p>
+    <div id="news-sources" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+    <p class="meta" style="margin:12px 0 0">تُجمع الأخبار تلقائياً كل 6 ساعات من بحث أخبار Google (ومصادر RSS إن أُضيفت) وتُعرض العناوين وروابطها فقط. تُعدَّل المصادر والكلمات من <span dir="ltr">scanner/config/news-sources.json</span>.</p>
+  </details>
 </section>
 
 <section id="sites" role="tabpanel" hidden>
@@ -247,12 +264,6 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 <script src="vendor/xlsx.full.min.js" defer></script>
 <script>
 /* ===== البيانات (نماذج توضيحية قابلة للتعديل) ===== */
-const NEWS=[
- {cat:"تحليل",title:"كيف تتطور أساليب قرصنة البث المباشر للمباريات؟",sum:"قراءة في انتقال المنتهكين من المواقع المفتوحة إلى خدمات IPTV المشفّرة وقنوات المراسلة.",date:"2026-09-28"},
- {cat:"أخبار",title:"تشديد إجراءات حجب المواقع المخالفة في عدد من الدول",sum:"استعراض لأبرز أوامر الحجب القضائية والإدارية الصادرة مؤخراً بحق مواقع القرصنة.",date:"2026-09-21"},
- {cat:"تشريعات",title:"مستجدات أنظمة حماية حقوق المؤلف والحقوق المجاورة",sum:"أبرز التعديلات التنظيمية المؤثرة على عمل جهات الإنفاذ ومنصات المحتوى.",date:"2026-09-14"},
- {cat:"تحليل",title:"التحقق من الانتهاك: ما الأدلة الكافية لإعداد تقرير رصد؟",sum:"دليل عملي لتوثيق الانتهاك: لقطات الشاشة، وقت الرصد، وتحديد المادة المحمية.",date:"2026-09-07"}
-];
 /* ===== أدوات ===== */
 const $=s=>document.querySelector(s);
 const load=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))||d}catch{return d}};
@@ -261,7 +272,7 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"
 const fmt=d=>new Date(d).toLocaleDateString("ar-SA-u-ca-gregory-nu-latn",{year:"numeric",month:"long",day:"numeric"});
 const fmtT=d=>new Date(d).toLocaleString("ar-SA-u-ca-gregory-nu-latn",{dateStyle:"medium",timeStyle:"short"});
 const CFG=window.CFG||{}, CLOUD=!!(CFG.supabaseUrl&&CFG.anonKey);
-let manual=CLOUD?[]:load("ipw_sites",[]).filter(s=>!/^https?:\/\/example\./.test(s.url)), reports=CLOUD?[]:load("ipw_reports",[]), newsCat="الكل";
+let manual=CLOUD?[]:load("ipw_sites",[]).filter(s=>!/^https?:\/\/example\./.test(s.url)), reports=CLOUD?[]:load("ipw_reports",[]);
 
 /* ===== طبقة البيانات: محلي (localStorage) أو مشترك (Supabase) ===== */
 const sb={
@@ -319,13 +330,41 @@ document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
  ["news","sites","reports"].forEach(id=>$("#"+id).hidden=id!==b.dataset.tab);
 });
 
-/* ===== الأخبار ===== */
-function renderNews(){
- const cats=["الكل",...new Set(NEWS.map(n=>n.cat))];
- $("#news-filters").innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c===newsCat}" data-c="${esc(c)}">${esc(c)}</button>`).join("");
- $("#news-filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{newsCat=b.dataset.c;renderNews()});
- $("#news-list").innerHTML=NEWS.filter(n=>newsCat==="الكل"||n.cat===newsCat).map(n=>`<article class="card"><span class="tag">${esc(n.cat)}</span><h3>${esc(n.title)}</h3><p>${esc(n.sum)}</p><div class="meta">${fmt(n.date)}</div></article>`).join("");
+/* ===== مرصد الإنفاذ (أخبار من data/news.json) ===== */
+let news=[], newsTopics={}, newsTopic="الكل", newsScope="الكل", newsQ="", nLimit=30;
+async function loadNews(){
+ try{
+  const r=await fetch("data/news.json?v="+Date.now());if(!r.ok)throw 0;
+  const d=await r.json();news=d.items||[];newsTopics=d.topics||{};
+  const ok=(d.feeds||[]).filter(f=>f.ok).length,tot=(d.feeds||[]).length;
+  $("#news-status").textContent=d.updated?`آخر تحديث: ${fmtT(d.updated)} · ${news.length} خبر · مصادر ناجحة ${ok}/${tot}`:"لم تُجلب الأخبار بعد.";
+ }catch{$("#news-status").textContent="لم تُجلب الأخبار بعد. تُحدَّث تلقائياً كل 6 ساعات، وتجد المواقع الرسمية في أسفل الصفحة."}
+ renderNews();
 }
+function renderNews(){
+ const topics=["الكل",...Object.keys(newsTopics).filter(k=>news.some(n=>n.topic===k))];
+ $("#news-topics").replaceChildren(...topics.map(k=>{const t=k==="الكل"?"الكل":newsTopics[k];const c=news.filter(n=>k==="الكل"||n.topic===k).length;
+  const b=el("button","chip",`${t} (${c})`);b.setAttribute("aria-pressed",k===newsTopic);b.onclick=()=>{newsTopic=k;nLimit=30;renderNews()};return b}));
+ $("#news-scopes").replaceChildren(...["الكل","محلي","عالمي"].map(k=>{const c=news.filter(n=>(newsTopic==="الكل"||n.topic===newsTopic)&&(k==="الكل"||n.scope===k)).length;
+  const b=el("button","chip",`${k} (${c})`);b.setAttribute("aria-pressed",k===newsScope);b.onclick=()=>{newsScope=k;nLimit=30;renderNews()};return b}));
+ const q=newsQ.trim().toLowerCase();
+ const list=news.filter(n=>(newsTopic==="الكل"||n.topic===newsTopic)&&(newsScope==="الكل"||n.scope===newsScope)&&(!q||(n.title+" "+n.source).toLowerCase().includes(q)));
+ const grid=$("#news-list");
+ if(!list.length){grid.replaceChildren(el("div","empty",news.length?"لا توجد أخبار مطابقة.":"لا توجد أخبار بعد."))}
+ else grid.replaceChildren(...list.slice(0,nLimit).map(n=>{
+  const c=el("article","card"),tags=el("div");tags.append(el("span","tag",n.topicName||newsTopics[n.topic]||""),el("span","tag",n.scope));
+  const h=el("h3");const a=el("a",null,n.title);a.href=n.url;a.target="_blank";a.rel="noopener noreferrer";a.style.color="inherit";h.append(a);
+  c.append(tags,h);if(n.summary)c.append(el("p",null,n.summary));
+  const m=el("div","meta");m.append(document.createTextNode((n.source?n.source+" · ":"")+fmt(n.date)));c.append(m);
+  const act=el("div","actions");const r=el("a","btn sm","قراءة الخبر ↗");r.href=n.url;r.target="_blank";r.rel="noopener noreferrer";act.append(r);
+  if(n.sourceUrl){const s2=el("a","btn sm","موقع المصدر ↗");s2.href=n.sourceUrl;s2.target="_blank";s2.rel="noopener noreferrer";act.append(s2)}
+  c.append(act);return c}));
+ $("#news-more").hidden=list.length<=nLimit;$("#news-more").textContent=`عرض المزيد (${list.length-nLimit})`;
+ const src=new Map();for(const n of news)if(n.source){const o=src.get(n.source)||{c:0,u:n.sourceUrl};o.c++;src.set(n.source,o)}
+ $("#news-sources").replaceChildren(...[...src].sort((a,b)=>b[1].c-a[1].c).map(([name,o])=>{const a=el("a","tag",`${name} (${o.c})`);if(o.u&&/^https?:/.test(o.u)){a.href=o.u;a.target="_blank";a.rel="noopener noreferrer"}return a}));
+}
+$("#news-more").onclick=()=>{nLimit+=30;renderNews()};
+$("#news-q").oninput=e=>{newsQ=e.target.value;nLimit=30;renderNews()};
 
 /* ===== الإجراءان: بلاغات أصحاب الحقوق (Excel) + الفحص الآلي ===== */
 const SRC_C="بلاغ من أصحاب الحقوق", SRC_A="فحص آلي", SRC_P="تفتيش استباقي";
@@ -664,7 +703,7 @@ async function cloudStart(){
  try{await store.load();await maybeImportLocal()}catch(err){if(sb.sess)alert("تعذر تحميل البيانات المشتركة: "+err.message)}
  renderSites();renderReports();
 }
-renderNews();renderSites();renderReports();loadFindings();
+renderNews();renderSites();renderReports();loadFindings();loadNews();
 if(CLOUD){sb.sess?cloudStart():showLogin();document.addEventListener("visibilitychange",()=>{if(!document.hidden&&sb.sess)store.load().then(()=>{renderSites();renderReports()}).catch(()=>{})})}
 </script>
 </body>

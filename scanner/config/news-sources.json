@@ -1,0 +1,85 @@
+{
+  "_doc": "مصادر الأخبار. كل مصدر إما بحث أخبار Google (query) أو خلاصة RSS/Atom مباشرة (url). scope: محلي/عالمي. topic: ip / labor / prosecution.",
+  "maxAgeDays": 60,
+  "maxPerGroup": 25,
+  "topics": {
+    "ip": {
+      "name": "الملكية الفكرية",
+      "match": "ملكيه فكريه|حقوق المؤلف|حقوق النشر|قرصنه|علامه تجاريه|علامات تجاريه|براءه|براءات|الهيئه السعوديه للملكيه|saip|intellectual property|copyright|piracy|pirate|iptv|trademark|patent|wipo|counterfeit|infring"
+    },
+    "labor": {
+      "name": "وزارة الموارد البشرية (العمل)",
+      "match": "وزاره الموارد البشريه|وزاره العمل|الموارد البشريه|نظام العمل|عقد العمل|العمال|العماله|سعوده الوظائف|نطاقات|hrsd|labor law|labour law|saudization|nitaqat"
+    },
+    "prosecution": {
+      "name": "النيابة العامة",
+      "match": "النيابه العامه|النائب العام|نيابه|الادعاء العام|public prosecution|prosecutor"
+    }
+  },
+  "localMarkers": "السعود|المملكه|الرياض|جده|مكه|المدينه|الدمام|سعودي|saudi|ksa|spa\\.gov|okaz|alriyadh|aleqt|argaam|sabq|alyaum|alwatan|al-madina|almadina",
+  "feeds": [
+    {
+      "id": "ip-local-saip",
+      "scope": "محلي",
+      "topic": "ip",
+      "query": "\"الهيئة السعودية للملكية الفكرية\" OR \"الملكية الفكرية\" السعودية when:30d",
+      "hl": "ar",
+      "gl": "SA",
+      "ceid": "SA:ar"
+    },
+    {
+      "id": "ip-local-piracy",
+      "scope": "محلي",
+      "topic": "ip",
+      "query": "(قرصنة OR \"حقوق المؤلف\" OR \"العلامات التجارية\" OR \"التقليد التجاري\") السعودية when:30d",
+      "hl": "ar",
+      "gl": "SA",
+      "ceid": "SA:ar"
+    },
+    {
+      "id": "ip-global-enf",
+      "scope": "عالمي",
+      "topic": "ip",
+      "query": "(\"intellectual property\" OR copyright OR trademark) enforcement when:14d",
+      "hl": "en",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "ip-global-piracy",
+      "scope": "عالمي",
+      "topic": "ip",
+      "query": "(piracy OR IPTV OR \"live sports piracy\" OR counterfeit) when:14d",
+      "hl": "en",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "ip-global-wipo",
+      "scope": "عالمي",
+      "topic": "ip",
+      "query": "WIPO OR \"World Intellectual Property Organization\" when:30d",
+      "hl": "en",
+      "gl": "US",
+      "ceid": "US:en"
+    },
+    {
+      "id": "labor-local",
+      "scope": "محلي",
+      "topic": "labor",
+      "query": "(\"وزارة الموارد البشرية والتنمية الاجتماعية\" OR \"نظام العمل\" OR \"وزارة العمل\") السعودية when:14d",
+      "hl": "ar",
+      "gl": "SA",
+      "ceid": "SA:ar"
+    },
+    {
+      "id": "prosecution-local",
+      "scope": "محلي",
+      "topic": "prosecution",
+      "query": "(\"النيابة العامة\" OR \"النائب العام\") السعودية when:14d",
+      "hl": "ar",
+      "gl": "SA",
+      "ceid": "SA:ar"
+    }
+  ]
+}
