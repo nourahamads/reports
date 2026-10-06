@@ -52,12 +52,6 @@ table{width:100%;border-collapse:collapse}th,td{text-align:start;padding:10px;bo
 .search{max-width:260px}
 .shot-prev{max-width:100%;max-height:180px;border:1px solid var(--line);border-radius:8px;display:block;margin-top:6px}
 .dlg-meta{font-size:.85rem;color:var(--muted);margin:0 0 12px;direction:ltr;text-align:left;word-break:break-all}
-.stat{display:inline-block;padding:2px 10px;border-radius:99px;font-size:.78rem;font-weight:700;border:1px solid var(--line)}
-.stat.bad{color:var(--bad)}.stat.ok{color:var(--ok)}.stat.none{color:var(--warn)}
-progress{width:100%;height:10px;accent-color:var(--accent)}
-.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--warn);margin-inline-end:6px}.dot.on{background:var(--ok)}
-.mini{width:84px;height:48px;object-fit:cover;object-position:top;border-radius:4px;border:1px solid var(--line);display:block}
-.row2{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;align-items:end;margin-bottom:12px}
 /* PDF template (rendered off-screen) */
 #pdf-root{position:fixed;inset-inline-start:-10000px;top:0;width:794px}
 .pdf{background:#fff;color:#111;padding:40px 48px;font-family:Tajawal,Arial,sans-serif;direction:rtl;min-height:1060px}
@@ -77,7 +71,6 @@ progress{width:100%;height:10px;accent-color:var(--accent)}
   <nav role="tablist" aria-label="أقسام الموقع">
     <button role="tab" aria-selected="true" data-tab="news">الأخبار والتحليلات</button>
     <button role="tab" aria-selected="false" data-tab="sites">المواقع المنتهكة</button>
-    <button role="tab" aria-selected="false" data-tab="batch">فحص ملف Excel</button>
     <button role="tab" aria-selected="false" data-tab="reports">سجل التقارير</button>
   </nav>
 </div></header>
@@ -105,35 +98,6 @@ progress{width:100%;height:10px;accent-color:var(--accent)}
     <div><button class="btn primary" type="submit">إضافة إلى السجل</button></div>
   </form></details>
   <div class="grid" id="site-list"></div>
-</section>
-
-<section id="batch" role="tabpanel" hidden>
-  <h2>فحص ملف Excel</h2>
-  <p class="sub">ارفع ملف Excel فيه روابط، ويفحص النظام كل رابط ويحدد: مخالف / للمراجعة / غير مخالف، مع لقطة شاشة للمخالفين وزر إصدار التقرير.</p>
-  <div class="notice"><span class="dot" id="srv-dot"></span><span id="srv-status">جارٍ البحث عن خادم الفحص…</span>
-    <details style="margin-top:8px"><summary>إعداد خادم الفحص</summary>
-      <p style="margin:8px 0">الفحص يحتاج متصفحاً حقيقياً لذلك يعمل على جهازك. شغّله مرة واحدة:</p>
-      <pre dir="ltr" style="background:var(--bg);padding:10px;border-radius:8px;overflow:auto;margin:0">cd scanner
-npm ci &amp;&amp; npx playwright install chromium
-npm run serve</pre>
-      <p style="margin:8px 0 4px">ثم افتح <b dir="ltr">http://localhost:8787</b> (أو اترك هذه الصفحة وأدخل العنوان هنا):</p>
-      <input type="text" id="srv-url" dir="ltr" value="http://localhost:8787" aria-label="عنوان خادم الفحص">
-    </details></div>
-  <div class="card">
-    <div class="row2">
-      <div><label for="xl-file">ملف Excel أو CSV</label><input type="file" id="xl-file" accept=".xlsx,.xls,.xlsm,.csv,.ods"></div>
-      <div><span id="xl-count" class="meta">لم يُرفع ملف بعد.</span></div>
-    </div>
-    <div class="row2">
-      <div><label for="gs-url">أو رابط Google Sheet (مشاركة: أي شخص لديه الرابط، عارض)</label><input type="text" id="gs-url" dir="ltr" placeholder="https://docs.google.com/spreadsheets/d/…"></div>
-      <div><button class="btn" id="gs-go" type="button">سحب الروابط من الجدول</button></div>
-    </div>
-    <details id="xl-list-wrap" hidden><summary>عرض الروابط المستخرجة</summary><textarea id="xl-list" rows="6" dir="ltr" style="width:100%;margin-top:8px;font-family:ui-monospace,monospace;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px"></textarea><small>يمكنك تعديل القائمة قبل الفحص (رابط في كل سطر).</small></details>
-    <div class="actions"><button class="btn primary" id="xl-go" disabled>بدء الفحص</button><button class="btn" id="xl-stop" hidden>إيقاف</button><button class="btn" id="xl-export" hidden>تصدير النتائج (Excel)</button></div>
-    <div id="xl-prog" hidden style="margin-top:14px"><progress id="xl-bar" value="0" max="1"></progress><div class="meta" id="xl-prog-t"></div></div>
-  </div>
-  <div class="filters" id="xl-filters" style="margin-top:18px"></div>
-  <div class="card" style="overflow-x:auto"><table><thead><tr><th>الرابط</th><th>النتيجة</th><th>المواد</th><th>الدرجة</th><th>لقطة</th><th></th></tr></thead><tbody id="xl-body"><tr><td colspan="6" class="empty">لا توجد نتائج بعد.</td></tr></tbody></table></div>
 </section>
 
 <section id="reports" role="tabpanel" hidden>
@@ -174,7 +138,6 @@ npm run serve</pre>
 <div id="pdf-root" aria-hidden="true"></div>
 
 <script src="vendor/html2pdf.bundle.min.js" defer></script>
-<script src="vendor/xlsx.full.min.js" defer></script>
 <script>
 /* ===== البيانات (نماذج توضيحية قابلة للتعديل) ===== */
 const NEWS=[
@@ -191,12 +154,12 @@ const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"
 const fmt=d=>new Date(d).toLocaleDateString("ar-SA-u-ca-gregory-nu-latn",{year:"numeric",month:"long",day:"numeric"});
 const fmtT=d=>new Date(d).toLocaleString("ar-SA-u-ca-gregory-nu-latn",{dateStyle:"medium",timeStyle:"short"});
 let manual=load("ipw_sites",[]).filter(s=>!/^https?:\/\/example\./.test(s.url)), reports=load("ipw_reports",[]), newsCat="الكل";
-let auto=[], updated=null, siteFilter="الكل", siteQ="", batch=[];
+let auto=[], updated=null, siteFilter="الكل", siteQ="";
 
 /* ===== التبويبات ===== */
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
  document.querySelectorAll("nav button").forEach(x=>x.setAttribute("aria-selected",x===b));
- ["news","sites","batch","reports"].forEach(id=>$("#"+id).hidden=id!==b.dataset.tab);
+ ["news","sites","reports"].forEach(id=>$("#"+id).hidden=id!==b.dataset.tab);
 });
 
 /* ===== الأخبار ===== */
@@ -208,7 +171,7 @@ function renderNews(){
 }
 
 /* ===== المواقع (نتائج الفحص الآلي + الإضافات اليدوية) ===== */
-const allItems=()=>[...batch.filter(b=>b.ok).map((b,i)=>({...b,id:b.id,host:b.host,title:b.title||b.host,kind:"batch"})),...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:m.url.replace(/^https?:\/\//,"").split("/")[0],url:m.url,title:m.name,tier:0,verdict:null,types:[m.cat],kind:"manual"}))];
+const allItems=()=>[...auto.map(f=>({...f,kind:"auto"})),...manual.map(m=>({id:m.id,host:m.url.replace(/^https?:\/\//,"").split("/")[0],url:m.url,title:m.name,tier:0,verdict:null,types:[m.cat],kind:"manual"}))];
 const tierLabel=i=>i.kind==="manual"?"يدوي":i.tier===1?"درجة أولى · مخالف":"درجة ثانية · للمراجعة";
 const tierClass=i=>i.tier===1?"bad":i.tier===2?"none":"ok";
 async function loadFindings(){
@@ -220,7 +183,7 @@ async function loadFindings(){
  renderSites();
 }
 function renderSites(){
- const items=allItems().filter(i=>i.kind!=="batch");
+ const items=allItems();
  const cats=["الكل","مخالف","للمراجعة","يدوي"];
  const match=(i,c)=>c==="الكل"||(c==="مخالف"&&i.kind==="auto"&&i.tier===1)||(c==="للمراجعة"&&i.kind==="auto"&&i.tier===2)||(c==="يدوي"&&i.kind==="manual");
  $("#site-filters").innerHTML=cats.map(c=>`<button class="chip" aria-pressed="${c===siteFilter}" data-c="${c}">${c} (${items.filter(i=>match(i,c)).length})</button>`).join("");
@@ -294,92 +257,6 @@ async function makePdf(r,img){
   await html2pdf().set({margin:0,filename:name,image:{type:"jpeg",quality:.96},html2canvas:{scale:2,useCORS:true},jsPDF:{unit:"mm",format:"a4"}}).from(root.firstElementChild).save();
  }catch{window.print()} /* بديل: الطباعة ثم «حفظ بصيغة PDF» */
 }
-
-/* ===== فحص ملف Excel ===== */
-let srv=null, urls=[], ctrl=null, bFilter="الكل";
-const isLocalPage=/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
-$("#srv-url").value=isLocalPage?location.origin:(load("ipw_srv","http://localhost:8787"));
-async function pingSrv(){
- const u=$("#srv-url").value.trim().replace(/\/$/,"");
- try{const r=await fetch(u+"/api/ping",{cache:"no-store"});if(!r.ok)throw 0;srv=u;save("ipw_srv",u);
-  $("#srv-dot").className="dot on";$("#srv-status").textContent="خادم الفحص متصل: "+u;}
- catch{srv=null;$("#srv-dot").className="dot";$("#srv-status").textContent="خادم الفحص غير متصل. شغّله على جهازك (انظر «إعداد خادم الفحص»).";}
- syncGo();
-}
-$("#srv-url").onchange=pingSrv;
-const syncGo=()=>$("#xl-go").disabled=!(srv&&urls.length&&!ctrl);
-
-function extractUrls(wb){
- const set=new Set();
- const re=/https?:\/\/[^\s"'<>)\]]+|(?<![@\w.-])(?:[a-z0-9-]+\.)+[a-z]{2,24}(?:\/[^\s"'<>)\]]*)?(?![\w-])/gi;
- for(const n of wb.SheetNames){const ws=wb.Sheets[n];
-  for(const a in ws){if(a[0]==="!")continue;const c=ws[a];
-   if(c.l&&c.l.Target)set.add(c.l.Target);
-   const v=c.w??c.v;if(typeof v==="string"){for(const m of v.match(re)||[])set.add(m.replace(/[.,;،]+$/,""))}}}
- return [...set];
-}
-$("#xl-file").onchange=async e=>{
- const f=e.target.files[0];if(!f)return;
- try{
-  const wb=XLSX.read(await f.arrayBuffer(),{type:"array"});
-  urls=extractUrls(wb);
- }catch{urls=[];alert("تعذرت قراءة الملف.")}
- $("#xl-list").value=urls.join("\n");$("#xl-list-wrap").hidden=!urls.length;
- $("#xl-count").textContent=urls.length?`تم استخراج ${urls.length} رابط من «${f.name}».`:"لم يُعثر على روابط في الملف.";
- syncGo();
-};
-$("#gs-go").onclick=async()=>{
- const link=$("#gs-url").value.trim();
- if(!srv){alert("خادم الفحص غير متصل.");return}
- if(!link)return;
- $("#xl-count").textContent="جارٍ سحب الروابط من Google Sheet…";
- try{
-  const r=await fetch(srv+"/api/sheet",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({url:link})});
-  const d=await r.json();if(!r.ok)throw new Error(d.error||("HTTP "+r.status));
-  urls=d.urls;$("#xl-list").value=urls.join("\n");$("#xl-list-wrap").hidden=!urls.length;
-  $("#xl-count").textContent=urls.length?`تم سحب ${urls.length} رابط من Google Sheet (التبويب المحدد في الرابط، أو الأول).`:"لم يُعثر على روابط في الجدول.";
- }catch(e){urls=[];$("#xl-count").textContent="تعذر السحب: "+e.message}
- syncGo();
-};
-$("#xl-list").oninput=e=>{urls=e.target.value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);$("#xl-count").textContent=`${urls.length} رابط للفحص.`;syncGo()};
-
-const vClass=v=>v==="مخالف"?"bad":v==="للمراجعة"?"none":v==="غير مخالف"?"ok":"none";
-function renderBatch(){
- const cats=["الكل","مخالف","للمراجعة","غير مخالف","تعذر الفحص"];
- $("#xl-filters").innerHTML=batch.length?cats.map(c=>`<button class="chip" aria-pressed="${c===bFilter}" data-c="${c}">${c} (${batch.filter(b=>c==="الكل"||b.verdict===c).length})</button>`).join(""):"";
- $("#xl-filters").querySelectorAll("button").forEach(b=>b.onclick=()=>{bFilter=b.dataset.c;renderBatch()});
- const rows=batch.filter(b=>bFilter==="الكل"||b.verdict===bFilter);
- $("#xl-body").innerHTML=rows.length?rows.map(b=>`<tr><td class="site-url">${esc(b.url)}${b.error?`<div class="meta">${esc(b.error)}</div>`:""}</td>
- <td><span class="stat ${vClass(b.verdict)}">${esc(b.verdict)}</span></td><td>${(b.types||[]).map(esc).join("، ")||"—"}</td><td>${b.ok?(b.tier?("درجة "+(b.tier===1?"أولى":"ثانية")):"—"):"—"}</td>
- <td>${b.screenshot?`<a href="${b.screenshot}" target="_blank"><img class="mini" src="${b.screenshot}" alt=""></a>`:"—"}</td>
- <td>${b.tier?`<button class="btn primary sm" data-brep="${esc(b.id)}">إصدار تقرير</button>`:""}</td></tr>`).join(""):`<tr><td colspan="6" class="empty">${batch.length?"لا نتائج في هذا التصنيف.":"لا توجد نتائج بعد."}</td></tr>`;
- document.querySelectorAll("[data-brep]").forEach(b=>b.onclick=()=>openDlg(b.dataset.brep));
-}
-$("#xl-go").onclick=async()=>{
- if(!srv||!urls.length)return;
- batch=[];bFilter="الكل";renderBatch();
- ctrl=new AbortController();$("#xl-go").disabled=true;$("#xl-stop").hidden=false;$("#xl-export").hidden=true;$("#xl-prog").hidden=false;
- let total=urls.length,done=0;$("#xl-bar").max=total;$("#xl-bar").value=0;$("#xl-prog-t").textContent="جارٍ الفحص…";
- try{
-  const r=await fetch(srv+"/api/check",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({urls}),signal:ctrl.signal});
-  if(!r.ok||!r.body)throw new Error("HTTP "+r.status);
-  const rd=r.body.getReader(),dec=new TextDecoder();let buf="";
-  for(;;){const {value,done:d}=await rd.read();if(d)break;buf+=dec.decode(value,{stream:true});
-   let i;while((i=buf.indexOf("\n"))>=0){const line=buf.slice(0,i);buf=buf.slice(i+1);if(!line.trim())continue;
-    const m=JSON.parse(line);
-    if(m.type==="start"){total=m.total;$("#xl-bar").max=total}
-    else if(m.type==="result"){m.id="b"+batch.length+"-"+Date.now();batch.push(m);done++;$("#xl-bar").value=done;$("#xl-prog-t").textContent=`${done} / ${total}`;renderBatch()}}}
-  $("#xl-prog-t").textContent=`اكتمل الفحص: ${done} رابط · مخالف: ${batch.filter(b=>b.verdict==="مخالف").length} · للمراجعة: ${batch.filter(b=>b.verdict==="للمراجعة").length}`;
- }catch(e){$("#xl-prog-t").textContent=e.name==="AbortError"?"أُوقف الفحص.":"انقطع الاتصال بخادم الفحص: "+e.message}
- ctrl=null;$("#xl-stop").hidden=true;$("#xl-export").hidden=!batch.length;syncGo();renderSites();
-};
-$("#xl-stop").onclick=()=>ctrl&&ctrl.abort();
-$("#xl-export").onclick=()=>{
- const rows=batch.map(b=>({"الرابط":b.url,"النتيجة":b.verdict,"الدرجة":b.tier||"","المواد":(b.types||[]).join("، "),"العنوان":b.title||"","كلمات مطابقة":(b.matched||[]).join("، "),"سعودي":b.saudi?"نعم":"","ملاحظة":b.error||"","وقت الفحص":b.checkedAt}));
- const wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(rows),"النتائج");
- XLSX.writeFile(wb,"scan-results-"+new Date().toISOString().slice(0,10)+".xlsx");
-};
-pingSrv();
 
 /* ===== السجل ===== */
 function renderReports(){

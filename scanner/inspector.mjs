@@ -1,7 +1,7 @@
 import { chromium } from "playwright";
 
-/** متصفح بلا واجهة مشترك بين الفحص الدوري وخادم فحص الملفات */
-export async function createInspector(cfg, kw, { allowLocal = false, shotQuality = 70 } = {}) {
+/** متصفح بلا واجهة مشترك للفحص الدوري */
+export async function createInspector(cfg, kw, { shotQuality = 70 } = {}) {
   const browser = await chromium.launch();
   const context = await browser.newContext({ userAgent: cfg.userAgent, viewport: { width: 1366, height: 768 }, locale: "ar-SA", acceptDownloads: false, ignoreHTTPSErrors: true });
   context.on("page", async (p) => { if (await p.opener().catch(() => null)) p.close().catch(() => {}); }); // منع النوافذ المنبثقة

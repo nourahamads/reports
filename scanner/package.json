@@ -4,7 +4,6 @@
   "type": "module",
   "scripts": {
     "scan": "node scan.mjs",
-    "serve": "node server.mjs",
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {

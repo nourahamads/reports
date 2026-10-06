@@ -90,11 +90,3 @@ export function fetchable(host, allowLocal) {
 }
 
 export const safeName = (s) => s.toLowerCase().replace(/[^a-z0-9.-]+/g, "_");
-
-/* استخراج الروابط والنطاقات من نص حر (CSV مثلاً) */
-export function extractUrlsFromText(text) {
-  const re = /https?:\/\/[^\s"'<>)\],]+|(?<![@\w.-])(?:[a-z0-9-]+\.)+[a-z]{2,24}(?:\/[^\s"'<>)\],]*)?(?![\w-])/gi;
-  const out = new Set();
-  for (const m of String(text).match(re) || []) out.add(m.replace(/[.,;،]+$/, ""));
-  return [...out];
-}
