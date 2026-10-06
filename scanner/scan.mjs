@@ -5,7 +5,7 @@
  * 2) يفتح كل موقع بمتصفح بلا واجهة ويصنّفه بالكلمات المفتاحية (درجة أولى: بث مباشر / IPTV => مخالف).
  * 3) يحفظ لقطة شاشة للمخالف ويكتب النتائج في data/findings.json.
  */
-import { chromium } from "playwright";
+import { createInspector } from "./inspector.mjs";
 import { promises as dns } from "node:dns";
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -57,49 +57,12 @@ queue = queue.slice(0, cfg.maxPerRun);
 console.log(`المستهدف في هذه الدورة: ${queue.length} نطاق`);
 
 /* ---------- الفحص ---------- */
-const browser = await chromium.launch();
-const context = await browser.newContext({ userAgent: cfg.userAgent, viewport: { width: 1366, height: 768 }, locale: "ar-SA", acceptDownloads: false, ignoreHTTPSErrors: true });
-context.on("page", async (p) => { if (await p.opener().catch(() => null)) p.close().catch(() => {}); }); // منع النوافذ المنبثقة
+const insp = await createInspector(cfg, kw, { allowLocal });
 
 async function inspect(host) {
-  const page = await context.newPage();
-  let streamRequests = 0;
-  await page.route("**/*", (route) => {
-    const req = route.request();
-    const url = req.url();
-    if (new RegExp(kw.streamRequestPattern, "i").test(url)) { streamRequests++; return route.abort(); }
-    if (req.resourceType() === "media") return route.abort(); // لا نحمّل الوسائط
-    return route.continue();
-  });
-  try {
-    let resp, err;
-    for (const proto of allowLocal && host.includes(":") ? ["http"] : ["https", "http"]) {
-      try { resp = await page.goto(`${proto}://${host}/`, { waitUntil: "domcontentloaded", timeout: cfg.pageTimeoutMs }); break; } catch (e) { err = e; }
-    }
-    if (!resp) throw err || new Error("تعذر الاتصال");
-    await page.waitForTimeout(cfg.settleMs);
-    const info = await page.evaluate(() => {
-      const txt = (sel) => [...document.querySelectorAll(sel)].map((e) => e.textContent.trim()).join(" ");
-      const m = (n) => document.querySelector(`meta[name="${n}"],meta[property="${n}"]`)?.content || "";
-      return {
-        title: document.title,
-        headings: txt("h1,h2"),
-        meta: [m("description"), m("keywords"), m("og:title"), m("og:description")].join(" "),
-        text: (document.body?.innerText || "").slice(0, 30000),
-        lang: document.documentElement.getAttribute("lang") || "",
-        canonical: document.querySelector('link[rel="canonical"]')?.href || "",
-        hasPlayer: !!document.querySelector("video,iframe[src*='player'],iframe[src*='embed'],script[src*='hls'],script[src*='jwplayer'],script[src*='video']"),
-        links: [...document.querySelectorAll("a[href]")].map((a) => a.href).filter((h) => /^https?:/i.test(h)),
-      };
-    });
-    const finalUrl = page.url();
-    const buf = Buffer.from(await page.screenshot({ type: "jpeg", quality: 70 }));
-    return { ok: true, info: { ...info, streamRequests }, finalUrl, shot: buf, status: resp.status() };
-  } catch (e) {
-    return { ok: false, error: String(e.message || e).split("\n")[0].slice(0, 160) };
-  } finally {
-    await page.close().catch(() => {});
-  }
+  const urls = allowLocal && host.includes(":") ? [`http://${host}/`] : [`https://${host}/`, `http://${host}/`];
+  const r = await insp.inspect(urls);
+  return r;
 }
 
 async function probeAlternates(host) {
@@ -179,7 +142,7 @@ let i = 0;
 await Promise.all(Array.from({ length: cfg.concurrency }, async () => {
   while (i < queue.length) await handle(queue[i++]).catch((e) => console.log("خطأ غير متوقع:", e.message));
 }));
-await browser.close();
+await insp.close();
 
 /* ---------- حفظ ---------- */
 const list = [...findings.values()].sort((a, b) => a.tier - b.tier || b.score - a.score);
