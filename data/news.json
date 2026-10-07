@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T19:39:35.188Z",
+ "updated": "2026-10-07T05:55:45.032Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,26 +9,26 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 52,
-   "kept": 12
+   "fetched": 51,
+   "kept": 11
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 51,
-   "kept": 1
+   "fetched": 56,
+   "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 59,
-   "kept": 40
+   "fetched": 63,
+   "kept": 44
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 86,
-   "kept": 58
+   "fetched": 85,
+   "kept": 57
   },
   {
    "id": "ip-global-wipo",
@@ -39,17 +39,113 @@
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 58,
+   "fetched": 59,
    "kept": 11
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 56,
+   "fetched": 54,
    "kept": 17
   }
  ],
  "items": [
+  {
+   "id": "f6ae1ceacf76",
+   "title": "Adidas Launches Federal Court Trademark Action Against Australian Retailer White Fox Over Four-Stripe Apparel",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNODlFVnJzUFBURjl1QnZmQmp4dVFPN1d1bmtvb1BDRFlPbkZrMVdhQ296NmxnNEJFUDdxVzBKNERiRWFMNjJqSi1VQUlGTjhRZDRkYVRoYWp1TlpNaTFXb3lBc0Jua1FVU1ltNHVrcWlXdjlHaWtNM242UEN1VEtvT0JlTmhLSlFNaTUtdktuZkp0UmFzSWZjODNsQVdUenZVQUVWcFNuZlNRdGE1eHpGQnllZVBraWpZNXp6eFpmd1dKX3lfNlFBX0FKZE1oVHNsTWJKSw?oc=5",
+   "source": "Ministry of Sport",
+   "sourceUrl": "https://ministryofsport.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-07T00:12:05.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7e9b38c233ce",
+   "title": "Top 5 Best IPTV Providers in the UK for 2026",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91d196ZV8zZExjejdTSlpHM2RsSENkdW9kc3hrNVF6TGlZREVGUllKSFlhakU0ZW5XSTBiQkxOZmw3OXNCZ2czQjJ6UVdNZXZXV3ZEOXRhSEdfekNtd21rY0FFLVpYUzdiRGhnN0l2MjllM2U3UnRpTw?oc=5",
+   "source": "TyN Magazine",
+   "sourceUrl": "https://tynmagazine.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T23:46:09.000Z",
+   "summary": ""
+  },
+  {
+   "id": "290a2703d74d",
+   "title": "Top 5 Best IPTV Services in the UK for 2026",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9FQkhkdWlyS282QkdsT0dodE5Dd1lna0hkMFRzb2RNU1lETlo1aXdWaHBGWEkzTm9QT1hJbVQ2YVFxU3VKams2S0E3LUhOMnNSbjV5STZMdndoMERqVWM0M0RfUjU5QVZMbHVTb3JkcHBLY3lrYkpV?oc=5",
+   "source": "TyN Magazine",
+   "sourceUrl": "https://tynmagazine.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T23:46:07.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9ffb3b425c1c",
+   "title": "New Developments in U.S. Trademark and Unfair Competition Law",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUlluX3FPMVJtOTQ4TWdvbThrQXMwRGNNX3pYWWUzampGYmFxWUdnX2N2LXhwbjF5dGxsblNBanRYeGxURTkxNlBBOWZWRjIzMUk5MXl4V0d5Yks0WkVsdC1BUmkxYVZ3eXR3eVV6OHQwX3lYUmh1b2YxMlVPbzRSTWxpQ2tsRkk?oc=5",
+   "source": "JDSupra",
+   "sourceUrl": "https://www.jdsupra.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T21:38:14.000Z",
+   "summary": ""
+  },
+  {
+   "id": "1ecb193fe4d8",
+   "title": "وزارة العمل تعلن عن فرص عمل برواتب تصل لـ16 ألف جنيه.. اعرف الشروط",
+   "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxPWmNpUk8tbEc1TjBIc0QzZGY5aDNTdmNzeVNmLWtzQmdwa0Vmak9sdzBqLVdzbGt2NW5scDd3VVoxQWxObVdvSVEzdmxXU0JOeUszaUlUTElhV3EtVGR5UGFvZ0VSNURzUmhGZlhUTlZtQUROVGxwWU5vTFE3aHhUUmJ4dW1OYnBva3BTMnVNbTUxRFBEbGJvZVdQV290WEFvY1l6UlYxSnRiN3NRYkQ5TDNpT1hTZXNCLVJaOEd5Snd6SnJQamg3Z3o5cHpFYi15MlBMd0JnUEV5Q2hRU0FjWU9SS1VDOElLNjVXalQwTFVsMURWX1hCQnlsVFFZemU3OFhMR3JuQzBhNU1SandTc1lYSEd6VmVnOTlCNjU4N0Y1emUzejVucThXVXdzSXFDdmVpRXEwMGZKbGdYejA2NkxYbTNlemgwVGp6M0E4R2N5NTdTM0JJVjNzSmh5bDVWMjRUQVBNTnJTRElhUVVEeWtHUDhDc3ozbEl3U0pMMDNud3lFdkc1VNIBgwNBVV95cUxON0VpRzdDZnJObms4cG5TLU50SGx1dUl4UF91QjBVcFNqWnlMWHlIbXZ4Szd0c2tnNkV2SzI0bEFvdUxjeVdmbU54ajcyYk9na2dQV1hianpFMDJCZTZfMk1KYWlIM0NCTEZQemc2YmREZEtPelZsc3UwMXRqaEtaM3VLRS1jTnh1Sjd1MkM4OHVNUVJ2dXA3V2ZQTmdfRGJVYlEybHhxTGN6TUtRMm5LT0ZnU25XeU5hQjc2YXFpQlNRekNaWnVLci1vRlNjUS1MRG9XbDJIdUtOdFlFOGhOUnFqQlVSWDJ6SUlIQ0ktVndoU2tScEE4MFIzU3ZzOTV5NGp3QjFzVFhZTldFeDVIUlJVT2Q2N2FIMzFZekMySHpUY2x4TmN5N091VjFIc3BHUmhHMkxxeVVnUENubFhQSXRCZGhqS1pYeHB1WDBsaXRrU0RyWS0wVjNuM25vZkNoWDA1WHlvNEQ3VTNDb1BJQzVuUHhWZ0pfUktzMHdSVU1Nak0?oc=5",
+   "source": "اليوم السابع",
+   "sourceUrl": "https://www.youm7.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-06T21:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "1163cb94ace2",
+   "title": "Adidas Sues Independent Australian Brand for Trademark Infringement",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSW4zUWtnUXJydGRjZDJmUjd4bVQ2aHZBUDZveVBzYThyZVRVbkZmbUFnLVJUdndHVm55akcwMkFpRUhIX3pjaXMzUVJtTW0tZmJKc3djNW9Nbl9DNGJLcjU1VVpVY2VucVJhQWp4Z0xmUU9fc1I1YlgyTEJQajEtTlBqc3pEMU9Dak52VnVQXy1RMElpNGxfbzJQZ2g3UQ?oc=5",
+   "source": "Daily Front Row",
+   "sourceUrl": "https://fashionweekdaily.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T19:48:30.000Z",
+   "summary": ""
+  },
+  {
+   "id": "d302416818da",
+   "title": "WIPO, IPOPHL to expand partnership to bring IP support to 500,000 Filipino MSMEs",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWd6ZlU2LVF1QzZhREIzUVNnSThOUUJGQy1Ubm12RTNVOU13TWgweng0LWFEQldoYS04X0JLSGd2ZmNXMHJFQ1RDeFNkaHdPUlllVmszMVVUQ0NqOHl4OVhTcXZ0amlGY2JfQ1dqTlg2UTFQTk9OaFFaWTE0b2lVcERXNnJudmMwUTduS3FHYTVVUlJrLXZDcklSZWhBdG8td2hmbnlxSTg2LTFyckd3T2ttSXBlMEk?oc=5",
+   "source": "Daily Guardian",
+   "sourceUrl": "https://www.dailyguardian.com.ph",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T19:29:11.000Z",
+   "summary": ""
+  },
+  {
+   "id": "b343f1b0ad09",
+   "title": "IPTV USA: Xtreme HD IPTV And The Shift Beyond Cable",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKY2lMZ3pueldtdkJfaHd3UlJxLV8tdEZ4NnI3NHhxang2VmJsLXpNZm1tSzd3TGNMQ18xTGc5cFY0VDhpdnVvNUtrSG5mbEladk93NFhQNExSNXpXeEhXWXZyM1RpZWJrYkMzQQ?oc=5",
+   "source": "Geek Vibes Nation",
+   "sourceUrl": "https://geekvibesnation.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T19:21:10.000Z",
+   "summary": ""
+  },
   {
    "id": "cc921f4b2b4b",
    "title": "السعودية تشهد قفزة في براءات الاختراع: 5,867 طلباً بنمو 19% خلال 2026",
@@ -63,33 +159,9 @@
    "summary": ""
   },
   {
-   "id": "b343f1b0ad09",
-   "title": "IPTV USA: Xtreme HD IPTV And The Shift Beyond Cable",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKY2lMZ3pueldtdkJfaHd3UlJxLV8tdEZ4NnI3NHhxang2VmJsLXpNZm1tSzd3TGNMQ18xTGc5cFY0VDhpdnVvNUtrSG5mbEladk93NFhQNExSNXpXeEhXWXZyM1RpZWJrYkMzQQ?oc=5",
-   "source": "Geek Vibes Nation",
-   "sourceUrl": "https://geekvibesnation.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T16:12:39.000Z",
-   "summary": ""
-  },
-  {
-   "id": "dc3688b3905b",
-   "title": "WIPO, IPOPHL to expand partnership to bring IP support to 500K Filipino MSMEs",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZDFWNTZXbkVRRFp5VVR0STNqZVpSYWxobm9kd0ZYNVFJYUVxbkV2ZWtfSURkSVlqMTVsem1Id1plY1RpUGlZdFdJMkZEckE4Z1dTUkhoeXB3Smk4NjVRMlRGR3M2YnRGT2hGWFJ0NVJVZzI4dnVUeUJIRGJCYWE0dll2UGd4ZXl2RmxKcGxLdXgwbnQ2V1ljb1FIUDYtUUU2M21MT3R3?oc=5",
-   "source": "Panay News",
-   "sourceUrl": "https://www.panaynews.net",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T16:05:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7a91fe5da697",
+   "id": "7dfab5dfb546",
    "title": "Philippine IP office, WIPO target 500,000 entrepreneurs in IP push",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUFpaZHJjTFlGMTBfd19tY0hiblNfRHlUX1VXemwxWlJESHBaLUhldWlfbkRpTklJZzVrX1BxSDVKNERmQ2M2UlBqTnZ3bGZEOVMzLVJ5d2xYTk9pWDBQaV9HVng4dHZqNlJxcWJKSzB5Sl9iaFZiMzA0Y1A4MmtrY05GWU9MZmVPZDRQTjQwUndqX1JnZzl6RDhjTF9hNTNzUFlOTG5QSGczWEYtUGxaMl9LVGtFTjBJaFBkZmhxVU40ZGVnSzl3QWFESHh3SlhQOFHSAdIBQVVfeXFMTlBaWmRyY0xZRjEwX3dfbWNIYm5TX0R5VF9VV3psMVpSREhwWi1IZXVpX25EaU5JSWc1a19QcUg1SjREZkNjNlJQak52d2xmRDlTMy1SeXdsWE5PaVgwUGlfR1Z4OHR2ajZScXFiSksweUpfYmhWYjMwNGNQODJra2NORllPTGZlT2Q0UE40MFJ3al9SZ2c5ekQ4Y0xfYTUzc1BZTkxuUEhnM1hGLVBsWjJfS1RrRU4wSWhQZGZocVVONGRlZ0s5d0FhREh4d0pYUDhR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcnJIZ2tXb2R1WUlsenZVUHJENnBYR0w2elNmcWx2VURMWHIzSTVRaG4yRkFEbFVzMnVJUXJlem55X1MyamRELVAwQWJKNllUTEw5TURhTElDdExKaHMyZGQxWWd4dGN2TS13Q3hfMU1FMXUtUVphNTJVN3J4NnVHZVYzSlhmU2RLcUZZdGdRNmp4emZPX1lwc1EtUFFSMURCWGItSVVPWDVsVUNpZ1A4ODVBZkpGd3c3d0Zv0gHSAUFVX3lxTE5QWlpkcmNMWUYxMF93X21jSGJuU19EeVRfVVd6bDFaUkRIcFotSGV1aV9uRGlOSUlnNWtfUHFINUo0RGZDYzZSUGpOdndsZkQ5UzMtUnl3bFhOT2lYMFBpX0dWeDh0dmo2UnFxYkpLMHlKX2JoVmIzMDRjUDgya2tjTkZZT0xmZU9kNFBONDBSd2pfUmdnOXpEOGNMX2E1M3NQWU5MblBIZzNYRi1QbFoyX0tUa0VOMEloUGRmaHFVTjRkZWdLOXdBYURIeHdKWFA4UQ?oc=5",
    "source": "Philstar.com",
    "sourceUrl": "https://www.philstar.com",
    "scope": "عالمي",
@@ -108,18 +180,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-06T15:23:14.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c0d658817068",
-   "title": "Globecast relies on Enensys to monitor IPTV feeds",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXlpTHk3S3RGcDJkUmZ6ZVJNSnVnM1FENGViVDJwQXVjSDlxbll2UktCZl9vZG1SVUVqQWdpTjBBbkJCX1lNakx3SGNWdllMb0lIaDlfdVh2QUluUkRTNjJQOGc3UEdkOHdpeEtRSEhsUS1JYnBpVnJsQmg4bFl1X29qR0Y5YnB5VlNLOUx6MktWU3ZiT2Jj?oc=5",
-   "source": "Telecompaper",
-   "sourceUrl": "https://www.telecompaper.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T14:19:26.000Z",
    "summary": ""
   },
   {
@@ -203,7 +263,7 @@
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T12:09:40.000Z",
+   "date": "2026-10-06T12:09:41.000Z",
    "summary": ""
   },
   {
@@ -423,18 +483,6 @@
    "summary": ""
   },
   {
-   "id": "ac145666aa63",
-   "title": "Nollywood star Ruth Kadiri raises alarm after buying fake product, says counterfeit goods are destroying Nigerian lives",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQVhDS2NCdGF3eVZYZnBkMG42N3N0aHFETTFXT0pfS1d6U1FjQlUyNlE2VS14MVhZT19GeVFDU1d6YTJkaGpRcV8ybFh3V0ptZlA0WEVfQS16Zmk1emlpeV9XdVRKTHkwZDRac19BcldZd09jNFY3NEo4V01iWkVKaFZlWWZ3TmNzZ0dDQWVjYw?oc=5",
-   "source": "Pulse Nigeria",
-   "sourceUrl": "https://www.pulse.ng",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-05T18:02:36.000Z",
-   "summary": ""
-  },
-  {
    "id": "2ffe93b72adb",
    "title": "أسمنت الشمالية: رفع دعوى ضد أسمنت الصفوة لوقف انتهاك براءة اختراع إنتاج الأسمنت الأبيض",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50VnlRWDVuUVNSWjltdVFkbk9OMk83amlEb2J0M3B2bk5LbnQ1eUE3NUhjbVhGSlNmVVJOMmhldGNyY2FWdlZIdXdsN0RpaG1Ec0FMUm1XeDY5c3FaWFRuLWRqYmlmQk5XWlE?oc=5",
@@ -444,42 +492,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-05T18:00:47.000Z",
-   "summary": ""
-  },
-  {
-   "id": "13361eef98ff",
-   "title": "Huawei and Qualcomm Announce Broad Patent License Agreement",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSVQtTmpTMV9mX0k0UlFMNDRBRjFXeEJRNVdwT1FtTTZMd0w0NlJsdHlPYU0xVWRrXzVGU0ctdnJRWjZZZmh0YXE4MGNmNnJvVS15MkJ3NkRUdkF5Z19WcDJHSGNnMlA3QnJ3dlZuWlBLWDhCTm0xVjRJOHY1dW1weWFFb1o0Vm5aTTU5T1AzMlZWNlo4T0RsZG0tQjB0SGhRSEh4bQ?oc=5",
-   "source": "NewswireToday",
-   "sourceUrl": "https://www.newswiretoday.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-05T17:44:15.000Z",
-   "summary": ""
-  },
-  {
-   "id": "3165345e2bc8",
-   "title": "When Federal Court Is Too Much: Copyright Small Claims and the Case for Registration",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcWs2UnBYWDMyNjI4OEJnSlFVaTBYMVRReW9nVjRJX2tBZWtUaFJjSzdlbzFyMWxiMUNVTVJRdC0zaGtLb19yYzFjdXgyVFV4ZkowbGxwWC1sOUFKeURDdUFPZE4ycVBNTFBSVFAzRTlQSFdob2JJVWxJVUU1R1pFUHNEd0M2Wl9ZR3VDRjZvZ0p3MEFqNjNRVzRfWlZ4enozSzBKSl9CQVFZakFrZjFzT2VMMUd1Z0oyTmo4Yw?oc=5",
-   "source": "Ward and Smith, P.A.",
-   "sourceUrl": "https://www.wardandsmith.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-05T17:26:19.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7b87a2b31bea",
-   "title": "OpenAI sued for trademark infringement over 'Astra' AI model",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcW56VDk1TEhMTEdHUmg1RlB0cVIza055bEQ1OWJsLTk3OEFySUJNTzhSQ0Q0bTloYnBGN2VXaTBQUmxnNEd0UUtuc0NEeDR1UjZjWERWeEZURlpNOHVfQUo3TnBKaVF6ekJ4SDktZEdUQW5XUThabHMwdXVlRWl2ZHd0OVNHdDF2UmlRZ2ZWVjREeXhmZ3l3RXZUV3Z2MnNZQlFrOEdaUllrdkNGWmNv?oc=5",
-   "source": "Reuters",
-   "sourceUrl": "https://www.reuters.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-05T17:09:34.000Z",
    "summary": ""
   },
   {
@@ -555,6 +567,18 @@
    "summary": ""
   },
   {
+   "id": "d5e6b544e4eb",
+   "title": "ثقافي / \"الملكية الفكرية\" تصدر التقرير الإحصائي لمعلومات الملكية الفكرية للنصف الأول من عام 2026م",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBSV3FrZEdhWGFzYUExczVpWFFxSnZaeHY3TlprZUdEU0NudXk5ZlFmTkp6d1ZLMmVrcFVWVDBLLUU4eW1Manc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-04T10:31:53.000Z",
+   "summary": ""
+  },
+  {
    "id": "3b88827ac4c7",
    "title": "النائب العام: السعودية تعزز حماية القاصرين من مخاطر الجرائم الإلكترونية",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DNFJGaGxzTGczUV9hTHBDcXA2eEJtY1BMaDF6eWVHVU5TTmpEbGtKQkJMamFNa0o0R0ZKNk4zcXZrSjdKSVhzbk4wVW1jSEhjQ2fSAVRBVV95cUxNRHcyVmROVjFDZURaQlN1QXdtOFFoYlozRW9nYldrWWhqWHE1Skd4MUtlTDBjWFFlVTk2UWxVMFJwdF91RUFfRy00bWJVRzRranZuRkQ?oc=5",
@@ -624,18 +648,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-01T14:26:52.000Z",
-   "summary": ""
-  },
-  {
-   "id": "632d6304a4fa",
-   "title": "جامعة أم القرى تُنظّم ورشة \"تسجيل براءات الاختراع\"",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5zaHN3VXVSX25uaFZlcHMtcEppbEFQWjRmeEhrVVVSQ0pBRTRiaWp1TkluQ3VSM3FSTzc5S2tvQjc5T3g0eC13TUJ0aHN2UVJuN2VB?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-01T14:24:01.000Z",
    "summary": ""
   },
   {
@@ -768,18 +780,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-09-27T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "75781e52f156",
-   "title": "«الموارد البشرية»: توطين مهن التسويق والمهن الإدارية المساندة.. وتوفير 12 ألف وظيفة",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hTGNnUmVWNW5MZDRzZG96TnJDS2lIZExFb2Q5dGZsY0NWVUlZN1lFZnFsb0VwZlRiSnpibm9heVhhdTViRGVuSTJvSGJtZDV1NktZNNIBVEFVX3lxTE8zUHZjNFJfSFZhaDE0WHNQQ09GdzJ0Z2x6aXUtT245aWZ0T0RhVE0zS0xzTzYxQzdvdnJhQTl2LUxmTWFJWDhmSU1ScHItck5oZ3ZIMg?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-09-25T07:53:21.000Z",
    "summary": ""
   },
   {
