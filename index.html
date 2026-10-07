@@ -114,14 +114,11 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 <main>
 <section id="news" role="tabpanel">
   <h2>مرصد الإنفاذ</h2>
-  <p class="sub">أخبار محلية وعالمية عن أنظمة الملكية الفكرية، ووزارة الموارد البشرية (العمل)، والنيابة العامة. لكل خبر رابط لمصدره الأصلي.</p>
-  <div class="notice" id="news-status">جارٍ تحميل الأخبار…</div>
   <div class="filters" id="news-topics" aria-label="الموضوع"></div>
   <div class="filters"><span id="news-scopes" class="filters" style="margin:0"></span><input class="search" id="news-q" type="search" placeholder="بحث في الأخبار" aria-label="بحث"></div>
   <div class="grid" id="news-list"></div>
   <div class="actions"><button class="btn" id="news-more" hidden>عرض المزيد</button></div>
   <details class="card" style="margin-top:20px"><summary>مصادر الأخبار والمواقع الرسمية</summary>
-    <p class="meta" style="margin:10px 0 6px">مواقع رسمية للمتابعة المباشرة:</p>
     <ul id="official" style="margin:0 0 12px;padding-inline-start:20px;line-height:2">
       <li><a href="https://www.saip.gov.sa" target="_blank" rel="noopener noreferrer">الهيئة السعودية للملكية الفكرية (SAIP)</a></li>
       <li><a href="https://www.hrsd.gov.sa" target="_blank" rel="noopener noreferrer">وزارة الموارد البشرية والتنمية الاجتماعية</a></li>
@@ -130,23 +127,19 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
       <li><a href="https://laws.boe.gov.sa" target="_blank" rel="noopener noreferrer">هيئة الخبراء بمجلس الوزراء (الأنظمة واللوائح)</a></li>
       <li><a href="https://www.wipo.int" target="_blank" rel="noopener noreferrer">المنظمة العالمية للملكية الفكرية (WIPO)</a></li>
     </ul>
-    <p class="meta" style="margin:0 0 6px">الناشرون الذين وردت منهم أخبار حالياً:</p>
     <div id="news-sources" style="display:flex;flex-wrap:wrap;gap:6px"></div>
-    <p class="meta" style="margin:12px 0 0">تُجمع الأخبار تلقائياً كل 6 ساعات من بحث أخبار Google (ومصادر RSS إن أُضيفت) وتُعرض العناوين وروابطها فقط. تُعدَّل المصادر والكلمات من <span dir="ltr">scanner/config/news-sources.json</span>.</p>
   </details>
 </section>
 
 <section id="sites" role="tabpanel" hidden>
   <h2>فحص المواقع</h2>
-  <p class="sub">إجراءان للفحص: بلاغات أصحاب الحقوق (قائمة مواقع من ملف Excel)، والتفتيش الاستباقي (سحب من جدول حسب التاريخ). افتح الموقع للتحقق ثم اضغط «إصدار تقرير».</p>
 
   <div class="proc" id="proc1">
     <h3><span class="num">1</span>بلاغات أصحاب الحقوق (رفع ملف Excel)</h3>
-    <p class="sub">ارفع ملف Excel يحتوي المواقع المبلَّغ عنها، فتُقرأ الروابط وتظهر هنا في بطاقات. يُستخرج الرابط من أي عمود، والاسم من أول نص في نفس الصف (إن وُجد).</p>
     <div class="card">
       <div class="row2" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;align-items:end">
         <div><label for="cx-file">ملف Excel أو CSV</label><input type="file" id="cx-file" accept=".xlsx,.xls,.xlsm,.csv,.ods"></div>
-        <div><span class="meta" id="cx-msg">لم يُرفع ملف بعد.</span></div>
+        <div><span class="meta" id="cx-msg"></span></div>
       </div>
       <details style="margin-top:12px"><summary>إضافة رابط واحد يدوياً</summary>
       <form class="add" id="add-site" style="margin:12px 0 0">
@@ -164,22 +157,15 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 
   <div class="proc" id="proc3">
     <h3><span class="num">2</span>التفتيش الاستباقي (سحب من Google Sheet)</h3>
-    <p class="sub">اسحب المواقع من جدول Google حسب تاريخ تحدده، فتظهر في بطاقات وتُصدر عنها تقارير مصنفة «تفتيش استباقي».</p>
     <div class="card">
       <div class="row2" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;align-items:end">
         <div style="grid-column:1/-1"><label for="gs-url">رابط الجدول</label><input type="text" id="gs-url" dir="ltr" placeholder="https://docs.google.com/spreadsheets/d/…" autocomplete="off"></div>
-        <div style="grid-column:1/-1"><label for="gs-file">أو ملف الجدول (للجداول الحساسة غير المشاركة)</label><input type="file" id="gs-file" accept=".xlsx,.xls,.xlsm,.csv,.ods"><div class="meta">نزّله من Google Sheets: ملف ← تنزيل ← Microsoft Excel (.xlsx). يُقرأ داخل متصفحك فقط ولا يُرسل لأي جهة. إن اخترتَ ملفاً يُستخدم بدل الرابط.</div></div>
+        <div style="grid-column:1/-1"><label for="gs-file">أو ملف الجدول</label><input type="file" id="gs-file" accept=".xlsx,.xls,.xlsm,.csv,.ods"></div>
         <div><label for="gs-from">من تاريخ</label><input type="date" id="gs-from"></div>
-        <div><label for="gs-to">إلى تاريخ (اتركه مثل «من» ليوم واحد)</label><input type="date" id="gs-to"></div>
+        <div><label for="gs-to">إلى تاريخ</label><input type="date" id="gs-to"></div>
         <div><button class="btn primary" id="gs-go" type="button">سحب البيانات</button></div>
       </div>
-      <div class="meta" id="gs-msg" style="margin-top:10px">أدخل رابط الجدول وحدد التاريخ ثم اضغط «سحب البيانات».</div>
-      <details style="margin-top:8px"><summary>شروط الجدول</summary>
-        <ul style="margin:8px 0 0;padding-inline-start:20px;color:var(--muted);font-size:.9rem">
-          <li>بالرابط: يجب أن يكون الجدول مشاركاً «أي شخص لديه الرابط: عارض» (أو منشوراً CSV). للبيانات الحساسة استخدم رفع الملف.</li>
-          <li>يجب أن يحتوي عمود تاريخ (يُكتشف تلقائياً من العنوان «تاريخ/date»)، بصيغة 2026-10-06 أو 06/10/2026.</li>
-          <li>يُستخرج الرابط من أي عمود، والاسم من أول نص في الصف. يُسحب التبويب المذكور في الرابط (gid) أو الأول.</li>
-        </ul></details>
+      <div class="meta" id="gs-msg" style="margin-top:10px"></div>
     </div>
     <div class="filters" style="margin:16px 0 12px"><span class="meta" id="pro-count"></span><input class="search" id="pro-q" type="search" placeholder="بحث بالنطاق أو الاسم" aria-label="بحث"></div>
     <div class="grid" id="pro-list"></div>
@@ -189,19 +175,15 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 
 <section id="reports" role="tabpanel" hidden>
   <h2>سجل التقارير</h2>
-  <p class="sub">إحصائيات المواقع المفحوصة والتقارير التي أُصدرت من هذا المتصفح.</p>
   <div class="filters" id="dash-filters" aria-label="الفترة الزمنية"></div>
   <div class="filters" id="dash-src-filters" aria-label="الإجراء"></div>
   <div id="dash">
     <div class="kpis" id="kpis"></div>
-    <div class="card chart ratio"><h3>المواقع حسب النتيجة</h3><p class="sub">نسبة المواقع المخالفة إلى غير المخالفة.</p>
-      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
+    <div class="card chart ratio"><h3>المواقع حسب النتيجة</h3>      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div id="ratio"></div></div>
-    <div class="card chart"><h3>المواقع حسب الإجراء</h3><p class="sub">بلاغات أصحاب الحقوق والتفتيش الاستباقي (يتأثر بالفترة فقط).</p>
-      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
+    <div class="card chart"><h3>المواقع حسب الإجراء</h3>      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div class="bars" id="bysrc"></div></div>
-    <div class="card chart"><h3>المواقع حسب نوع المواد</h3><p class="sub">قد يُحسب الموقع الواحد في أكثر من نوع.</p>
-      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
+    <div class="card chart"><h3>المواقع حسب نوع المواد</h3>      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div class="bars" id="bytype"></div></div>
     <details class="card tbl chart"><summary>عرض البيانات كجدول</summary><div style="overflow-x:auto;margin-top:10px"><table><thead><tr><th>نوع المواد</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table"></tbody></table>
       <table style="margin-top:14px"><thead><tr><th>الإجراء</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-src"></tbody></table></div></details>
@@ -230,14 +212,12 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     </fieldset>
     <fieldset><legend>صورة الموقع المخالف</legend>
       <div id="d-shot-manual">
-        <label>الصق صورة الموقع المخالف (Ctrl+V)</label>
-        <div class="paste" id="d-paste" tabindex="0"><span id="d-paste-hint">انقر هنا ثم اضغط Ctrl+V للصق لقطة الشاشة</span><img id="d-paste-img" alt="الصورة الملصقة" hidden></div>
+        <div class="paste" id="d-paste" tabindex="0"><span id="d-paste-hint">الصق الصورة هنا (Ctrl+V)</span><img id="d-paste-img" alt="الصورة الملصقة" hidden></div>
         <div class="actions" style="margin-top:8px"><button class="btn sm" type="button" id="d-paste-btn">لصق من الحافظة</button><button class="btn sm danger" type="button" id="d-paste-clear" hidden>إزالة الصورة</button></div>
       </div>
     </fieldset>
     <fieldset><legend>الفاحص</legend>
-      <label for="d-name" style="display:block">اسم الفاحص (اتركه فارغاً ليُكتب يدوياً)</label><input type="text" id="d-name" autocomplete="name">
-      <small>يبقى حقل التوقيع في التقرير فارغاً للتوقيع بخط اليد.</small>
+      <label for="d-name" style="display:block">اسم الفاحص</label><input type="text" id="d-name" autocomplete="name">
     </fieldset>
     <div class="actions" style="margin:0"><button class="btn primary" value="go" id="d-go">تنزيل التقرير PDF</button><button class="btn" value="cancel" formnovalidate>إلغاء</button></div>
   </form>
@@ -245,7 +225,6 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 <dialog id="login">
   <form id="login-form" method="dialog">
     <h3 style="margin-top:0">تسجيل الدخول</h3>
-    <p class="sub" style="margin:0 0 12px;font-size:.9rem">الدخول للموظفين المصرّح لهم فقط.</p>
     <label for="l-email">البريد الإلكتروني</label><input type="email" id="l-email" dir="ltr" required autocomplete="username">
     <label for="l-pw" style="margin-top:10px">كلمة المرور</label><input type="password" id="l-pw" dir="ltr" required autocomplete="current-password" style="width:100%;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)">
     <div class="meta" id="l-err" style="color:var(--bad);min-height:1.4em"></div>
@@ -332,9 +311,7 @@ async function loadNews(){
  try{
   const r=await fetch("data/news.json?v="+Date.now());if(!r.ok)throw 0;
   const d=await r.json();news=d.items||[];newsTopics=d.topics||{};
-  const ok=(d.feeds||[]).filter(f=>f.ok).length,tot=(d.feeds||[]).length;
-  $("#news-status").textContent=d.updated?`آخر تحديث: ${fmtT(d.updated)} · ${news.length} خبر · مصادر ناجحة ${ok}/${tot}`:"لم تُجلب الأخبار بعد.";
- }catch{$("#news-status").textContent="لم تُجلب الأخبار بعد. تُحدَّث تلقائياً كل 6 ساعات، وتجد المواقع الرسمية في أسفل الصفحة."}
+ }catch{}
  renderNews();
 }
 function renderNews(){
@@ -388,7 +365,7 @@ function renderComplaints(){
  const list=allItems().filter(i=>i.kind==="manual"&&(!q||(i.host+" "+i.title).toLowerCase().includes(q)));
  $("#cx-count").textContent=manual.length?`${manual.length} موقع في القائمة`+(q?` · ${list.length} نتيجة`:""):"";
  $("#cx-clear").hidden=!manual.length;
- $("#cx-list").innerHTML=list.length?list.slice(0,cLimit).map(cardHtml).join(""):`<div class="empty">${manual.length?"لا توجد نتائج.":"ارفع ملف Excel ليظهر المواقع هنا."}</div>`;
+ $("#cx-list").innerHTML=list.length?list.slice(0,cLimit).map(cardHtml).join(""):`<div class="empty">${manual.length?"لا توجد نتائج.":"لا توجد مواقع."}</div>`;
  $("#cx-more").hidden=list.length<=cLimit;$("#cx-more").textContent=`عرض المزيد (${list.length-cLimit})`;
  bindCards("#cx-list");
 }
@@ -664,7 +641,7 @@ function renderDash(){
  const tile=(l,v,cls,sw)=>{const k=el("div","kpi "+(cls||""));const lab=el("div","l");if(sw){const i=el("span","sw");i.style.background=sw;lab.append(i)}lab.append(document.createTextNode(l));k.append(lab,el("div","v",v));return k};
  $("#kpis").replaceChildren(tile("المواقع المفحوصة",String(data.length),"hero"),tile("مخالف",String(bad),"","var(--c-bad)"),tile("غير مخالف",String(ok),"","var(--c-ok)"),tile("نسبة المخالفة",pct+"%"));
  const ratio=$("#ratio"),bt=$("#bytype"),tb=$("#dash-table");
- if(!data.length){const m=el("div","empty","لا توجد بيانات في هذه الفترة. أصدر تقارير لتظهر الإحصائيات.");ratio.replaceChildren(m.cloneNode(true));bt.replaceChildren();tb.replaceChildren();$("#bysrc").replaceChildren();$("#dash-table-src").replaceChildren();return}
+ if(!data.length){const m=el("div","empty","لا توجد بيانات.");ratio.replaceChildren(m.cloneNode(true));bt.replaceChildren();tb.replaceChildren();$("#bysrc").replaceChildren();$("#dash-table-src").replaceChildren();return}
  // النسبة العامة
  const rb=segs(bad,ok,.15,data.length);
  rb.querySelectorAll(".seg").forEach(sg=>{const n=+sg.style.flex.split(" ")[0];if(sg.textContent)sg.textContent=`${n} · ${Math.round(n/data.length*100)}%`});
