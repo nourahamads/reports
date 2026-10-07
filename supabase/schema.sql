@@ -1,4 +1,4 @@
--- الرصد والتحكم في الفضاء الرقمي — مخطط قاعدة البيانات (Supabase)
+-- التحكم والرصد في الفضاء الرقمي — مخطط قاعدة البيانات (Supabase)
 -- الصقه في: Supabase > SQL Editor > New query > Run
 
 create table if not exists public.sites (
