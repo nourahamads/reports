@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T05:55:45.032Z",
+ "updated": "2026-10-07T13:18:45.908Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,107 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 51,
+   "fetched": 53,
    "kept": 11
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 56,
+   "fetched": 58,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 63,
-   "kept": 44
+   "fetched": 59,
+   "kept": 40
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 85,
-   "kept": 57
+   "fetched": 79,
+   "kept": 53
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 100,
-   "kept": 53
+   "fetched": 99,
+   "kept": 50
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 59,
-   "kept": 11
+   "fetched": 61,
+   "kept": 10
   },
   {
    "id": "prosecution-local",
    "ok": true,
    "fetched": 54,
-   "kept": 17
+   "kept": 19
   }
  ],
  "items": [
+  {
+   "id": "77dec8912146",
+   "title": "شرطة الرياض تضبط امرأة نشرت محتوى يمس الثوابت الدينية وتحيلها للنيابة العامة",
+   "url": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxPWEIwOUVXNk1zdDRzT3M5ZUZtNUtMYjMwVmtMMU9US2RVUGppbVFPZXVxMm5vMlY2LWZFQzhOaXRuNzRuRUxfc1ZiSzVNalJOaDNEX1VVNU5UYm1aNDRWYUFuY0hGRVRhSHZrejA3WXlSaFlmaG5nLW8wNDRQQTU0eUMtQ1E5bGZfYWRiczdvdW5FN0toWUcycW5lRzlzZUZ1R21neDB5SHViZUlYRTZOeFlKRmhUa1JUNTBmdXlvQmw3S0dCeUV6Zy1sR2h1MW9mS3RMdFJ1bDdIcE52eU5tV0UyWnFMRkwteUY0RGg5QkxpRFg4bjlvODFVelQ4akhwVF9OSUg0NEo0VEdDbmlNSXpPajNkcGNMUFgwbEd5TDg4UlhTVE1WNHpub1hlbGh3N09JLTBiWE1TZzRmTGRuX2d5bXY3bEF3SWQ3eVM2NTVSYkt0UDBpb19scHd4aGJPUWJFTnFWek1fRFNoRjhNOVFqMDhudHpFQkZxQ0hFeXUwcDVOY2h5TWRybGtleHhFZWROcXJUc3pGRXNyQVlZWEcyQ2R3R3ZUYTNUTGZEc1dvazR2MjN2V1MyWXV3eEFTUXdlQjQwM1BjQmFyYnU2VzV2bTNseFpPbG1iLXpReWhvNjJRblZsSThGdFpDMmNFSTBMcmxNUDU5Y0Vld3Y0NmZla1RVUlczanlLNkZDOUZSVjlNUmlZUm5ZRmQ0b29sZ21aNmRoQi1obU81Q3YzMU9YS1B6MzhPVWhleUNSVlFjMzhVZ2loRVdWSkVLanVwRVB5bkt1c3dkX3pJVE1XbDdyRlNQNGJ1?oc=5",
+   "source": "جريدة الشرق",
+   "sourceUrl": "https://al-sharq.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-07T12:20:29.000Z",
+   "summary": ""
+  },
+  {
+   "id": "05a0b1fcc127",
+   "title": "IPTV Smarters Pro Explained: How the Popular Player App Works and How to Set It Up on Any Device",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc1k1NmxwLVU1eEVFWUlkSjlmSzZYZElsUFBCUmJzQTNJZmVKMlVPUW96M2pFNnQyZ0NqV0ZSZzF6YTJKTDBMMkxhWFhGZWR0NjRad25YYU9DMjlwMzducEcxLW5CX0lVaGM5Z282T3RVNG9wTTRaQUJ0djNhLW94cHJDelcyOS02YXg0ZUoydHU0dmVYQTFGX2xFQTcxc3kxdDlUNmtMcVNDMDAtWWVRVDdlY1FpdVNsSU5tQg?oc=5",
+   "source": "TechBullion",
+   "sourceUrl": "https://techbullion.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-07T11:06:51.000Z",
+   "summary": ""
+  },
+  {
+   "id": "70c616e020f6",
+   "title": "Vietnam strengthens copyright enforcement role of the “New Copyright Office”",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ0d0Z2ZTUHhxZHZ4NkJ3dU4wZEZVRlU0U1hveDJLQXhXRUZadkdEOGd1QzBLLUdFN0lKVkVxbG43Sk9FTEsxZXBaRDRmWnNoVjFzb2hFSWFwX09iSjJZMjZ0b0NLUHkyMTZqVjhBTEw3T2NmaXp0bGd2TUVxd1ZlT2hkWG0wN2dMVDdick5EVmtIZ3lWRjBJbkhNTXg5eEVMVkRmNExYSzBOWk9tVVJQNw?oc=5",
+   "source": "Rouse International",
+   "sourceUrl": "https://rouse.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-07T09:49:33.000Z",
+   "summary": ""
+  },
+  {
+   "id": "fb644635ae21",
+   "title": "Best IPTV Service in 2026: What to Check Before You Subscribe",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd3R1NUJMT3VpRzU5U2FIcnNUeGMwUDNiVjc0M1BUSWEtTXVndnNwRnVIQkR1VVBJaTFyYjVEYWJTYVJaV3EybGlFQVZoUjdKcjZ4TlVXLTI3aFpISkpYQzN4NmswTVc1cHB4TlpsZk54UFczSXl0b3FxTklBNWhadTdhUS1xU0V1U1JfazVwWm95TUJHZXFjYzZOc04?oc=5",
+   "source": "openPR.com",
+   "sourceUrl": "https://www.openpr.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-07T09:20:05.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f074c2d0c969",
+   "title": "Why Multi-Connection IPTV Is Growing With Multi-Device Households",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSzNXUFNJQUZmdDhBVncwTDVsRDdCbktiYTFZWXJQQ2o4MGhWVUhGNDAwNDhCY3JOZEtlUTlZNmlRZHpXQ1FkYzhXTG12SkVOVm95SVRXT3BtWGp6NXlsODNaTTVxUEtlT2djWDBfWXFrWWxDSHpXemc1YVpjR3F2aE0wdUlqdldaOF9uSkt5bDFlX3F2?oc=5",
+   "source": "TechBullion",
+   "sourceUrl": "https://techbullion.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-07T09:15:35.000Z",
+   "summary": ""
+  },
   {
    "id": "f6ae1ceacf76",
    "title": "Adidas Launches Federal Court Trademark Action Against Australian Retailer White Fox Over Four-Stripe Apparel",
@@ -123,18 +183,6 @@
    "summary": ""
   },
   {
-   "id": "d302416818da",
-   "title": "WIPO, IPOPHL to expand partnership to bring IP support to 500,000 Filipino MSMEs",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSWd6ZlU2LVF1QzZhREIzUVNnSThOUUJGQy1Ubm12RTNVOU13TWgweng0LWFEQldoYS04X0JLSGd2ZmNXMHJFQ1RDeFNkaHdPUlllVmszMVVUQ0NqOHl4OVhTcXZ0amlGY2JfQ1dqTlg2UTFQTk9OaFFaWTE0b2lVcERXNnJudmMwUTduS3FHYTVVUlJrLXZDcklSZWhBdG8td2hmbnlxSTg2LTFyckd3T2ttSXBlMEk?oc=5",
-   "source": "Daily Guardian",
-   "sourceUrl": "https://www.dailyguardian.com.ph",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T19:29:11.000Z",
-   "summary": ""
-  },
-  {
    "id": "b343f1b0ad09",
    "title": "IPTV USA: Xtreme HD IPTV And The Shift Beyond Cable",
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKY2lMZ3pueldtdkJfaHd3UlJxLV8tdEZ4NnI3NHhxang2VmJsLXpNZm1tSzd3TGNMQ18xTGc5cFY0VDhpdnVvNUtrSG5mbEladk93NFhQNExSNXpXeEhXWXZyM1RpZWJrYkMzQQ?oc=5",
@@ -159,9 +207,9 @@
    "summary": ""
   },
   {
-   "id": "7dfab5dfb546",
+   "id": "275423f6d60e",
    "title": "Philippine IP office, WIPO target 500,000 entrepreneurs in IP push",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcnJIZ2tXb2R1WUlsenZVUHJENnBYR0w2elNmcWx2VURMWHIzSTVRaG4yRkFEbFVzMnVJUXJlem55X1MyamRELVAwQWJKNllUTEw5TURhTElDdExKaHMyZGQxWWd4dGN2TS13Q3hfMU1FMXUtUVphNTJVN3J4NnVHZVYzSlhmU2RLcUZZdGdRNmp4emZPX1lwc1EtUFFSMURCWGItSVVPWDVsVUNpZ1A4ODVBZkpGd3c3d0Zv0gHSAUFVX3lxTE5QWlpkcmNMWUYxMF93X21jSGJuU19EeVRfVVd6bDFaUkRIcFotSGV1aV9uRGlOSUlnNWtfUHFINUo0RGZDYzZSUGpOdndsZkQ5UzMtUnl3bFhOT2lYMFBpX0dWeDh0dmo2UnFxYkpLMHlKX2JoVmIzMDRjUDgya2tjTkZZT0xmZU9kNFBONDBSd2pfUmdnOXpEOGNMX2E1M3NQWU5MblBIZzNYRi1QbFoyX0tUa0VOMEloUGRmaHFVTjRkZWdLOXdBYURIeHdKWFA4UQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMUctcFdzb1VuRGNMZVdqR2ZTRElNdnIzUU5tQzJZTXJMTUVsM1VOT1NLRU9FVWl4SmdRMHNKNHItalQtMTNWMWU5T3ctRUtpcnNLUVNiRWhhQXY4b3I3cWRJUndIb1YzUmlNZXV1M18tQ2tiWnBEdGFweTNlZG9xTzE4Z2J4cDlyQ2toYk9TXzRtRFM1Qzd3b3FnRGdsODBrUXBpQXlnYldObldGdGVnOWJ5WXA2bURWSlU3UkVYNndVQVhFbHBqQmdtONIB0gFBVV95cUxOUFpaZHJjTFlGMTBfd19tY0hiblNfRHlUX1VXemwxWlJESHBaLUhldWlfbkRpTklJZzVrX1BxSDVKNERmQ2M2UlBqTnZ3bGZEOVMzLVJ5d2xYTk9pWDBQaV9HVng4dHZqNlJxcWJKSzB5Sl9iaFZiMzA0Y1A4MmtrY05GWU9MZmVPZDRQTjQwUndqX1JnZzl6RDhjTF9hNTNzUFlOTG5QSGczWEYtUGxaMl9LVGtFTjBJaFBkZmhxVU40ZGVnSzl3QWFESHh3SlhQOFE?oc=5",
    "source": "Philstar.com",
    "sourceUrl": "https://www.philstar.com",
    "scope": "عالمي",
@@ -447,42 +495,6 @@
    "summary": ""
   },
   {
-   "id": "f62a86f8d6c7",
-   "title": "Germany Is Cutting the Cable: How IPTV Is Turning Television Into a Software Service",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd09TZkJzWXFzWVhURzJuT3Zhdk9qRGd6eTk1Y05DcU1RMjJHSjhnZ0Fxd2lRUm1OYklpWlNUWmRVLVk2b20tell5ODU0YVFyZVVfVWNCV0hCV1ZGOEo1b1IydFo4ZUdHdUNIN3A5RUJoenJyUDVxa0NQZ29pbmtQN2RuNzNnb0RQeFJtYzdQUWZMNWtRWGZUdnNXUWotQl84MHlWRjhBb3oxRXdI?oc=5",
-   "source": "TechBullion",
-   "sourceUrl": "https://techbullion.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-05T19:34:43.000Z",
-   "summary": ""
-  },
-  {
-   "id": "504838e4ffea",
-   "title": "IPOPHL, WIPO deepen push for global IP markets",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZHVnUW1mSXlyUUMyRURTRkhndmhHNTRTeEJPald4eFliZGtCRGxBNUtsZ2J4V3F2aUcwZUtvdFo0dkw4ZWJwRTlvS2VkVXMxbFdoZ1lIcDBmNEd0U2UxX21yNUlwcGhrMjV1Sjl1LTJFQ0tuUDlGTl9NREYxTkx6MTVSdU9va21uTEZz?oc=5",
-   "source": "Daily Guardian",
-   "sourceUrl": "https://www.dailyguardian.com.ph",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-05T19:27:09.000Z",
-   "summary": ""
-  },
-  {
-   "id": "0bebe714e88a",
-   "title": "Italy PM Giorgia Meloni Seeks EU Trademark for Her Voice as AI Deepfake Risks Grow",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWYnhxc0ZibEptR19hYVJNT1E0bzV3MXpfZjh1YnpmWThmVmQzdkxjSHNtUTNwNDd4MWJVampuZDdtMjZfOWRWdnN6NDBSQi0zLVZQQVRQcGNhZ1dLZk9VamlZUVFZVHVEZWVaWF9ZNFFxQQ?oc=5",
-   "source": "The420.in",
-   "sourceUrl": "https://the420.in",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-05T18:51:25.000Z",
-   "summary": ""
-  },
-  {
    "id": "2ffe93b72adb",
    "title": "أسمنت الشمالية: رفع دعوى ضد أسمنت الصفوة لوقف انتهاك براءة اختراع إنتاج الأسمنت الأبيض",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50VnlRWDVuUVNSWjltdVFkbk9OMk83amlEb2J0M3B2bk5LbnQ1eUE3NUhjbVhGSlNmVVJOMmhldGNyY2FWdlZIdXdsN0RpaG1Ec0FMUm1XeDY5c3FaWFRuLWRqYmlmQk5XWlE?oc=5",
@@ -627,18 +639,6 @@
    "summary": ""
   },
   {
-   "id": "1b85471f336c",
-   "title": "وزارة العمل تحذر من صفحة وهمية تنتحل صفة الوزير محمد حيدر",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qdjJRcFp4eHVHZ0pteVpBYmVGdHpzWi1fLWNUbVVXNDdiOFA1a184MlpHbi03bHU5X1NqYXdrZGZaNGo1cG1NS1RvRmh5NFFETHg0?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-02T18:29:45.000Z",
-   "summary": ""
-  },
-  {
    "id": "a70ef25741d4",
    "title": "النائب العام يلتقي المدعي العام الروسي على هامش اجتماع \"شنغهاي\"",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBrYng4UVFtVW9UV011ajJVWGhMY1N1bkRHb1pIV29seG9ZbUM1NEh1TnVwN2sybEYxOGZ0RTRvdlNvQ3NRLTdn?oc=5",
@@ -768,6 +768,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-09-27T11:36:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "705f4b0f8b60",
+   "title": "النائب العام يلتقي المدعي العام للاتحاد السويسري في بيرن",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBrcG8xR2dWTm9NUHNRN0xtS1Z6dUNKNnU1QnpzQm1acjdKakk5ZVVEa1JVZ2VHMnN0LWJN?oc=5",
+   "source": "صحيفة درة الالكترونية",
+   "sourceUrl": "https://dora.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-09-27T07:09:50.000Z",
    "summary": ""
   },
   {
