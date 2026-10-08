@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T23:03:24.257Z",
+ "updated": "2026-10-08T05:59:43.866Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -10,37 +10,37 @@
    "id": "ip-local-saip",
    "ok": true,
    "fetched": 57,
-   "kept": 12
+   "kept": 11
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 59,
+   "fetched": 60,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 57,
-   "kept": 41
+   "fetched": 59,
+   "kept": 42
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 80,
-   "kept": 54
+   "fetched": 82,
+   "kept": 55
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 100,
+   "fetched": 99,
    "kept": 50
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 58,
-   "kept": 6
+   "fetched": 60,
+   "kept": 7
   },
   {
    "id": "prosecution-local",
@@ -51,6 +51,30 @@
  ],
  "items": [
   {
+   "id": "4b14a45f4122",
+   "title": "Indonesia proposes global royalty standards to WIPO",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdXRTN2RkRjU5ZlJTeUZwVU1uWllqbzZ2bWJaTUNZWmlqTmthdE8yMDE0YmlscHNzSFUzWTU3NDNadFo3SWhXNDFHRWhUZmFIYnd2NzByWHJIelV0cWJJQktZWWRzM1BjRG0wY2dQczFJRGJSVzZRUGxvQnlreHhKX3dvZFc0VVF2UVRGbTJLLUdBdTJfZGtxT9IBmAFBVV95cUxNdXRTN2RkRjU5ZlJTeUZwVU1uWllqbzZ2bWJaTUNZWmlqTmthdE8yMDE0YmlscHNzSFUzWTU3NDNadFo3SWhXNDFHRWhUZmFIYnd2NzByWHJIelV0cWJJQktZWWRzM1BjRG0wY2dQczFJRGJSVzZRUGxvQnlreHhKX3dvZFc0VVF2UVRGbTJLLUdBdTJfZGtxTw?oc=5",
+   "source": "ANTARA News",
+   "sourceUrl": "https://en.antaranews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T02:22:16.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f282735ad757",
+   "title": "Copyright law: NCC moves to protect Nigeria’s creative industry",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVEpEcmtWSU55M2pUQ0VHU25COXJxbVA4ajVWbDZLQ3NjWnJubnhhS0NsR1pCSlk5dDR5bTdfVFNyRFc0LUQ1aS04SV9EZm5SNjNNbThoS0h0WUEtWmhrQmJrOG9uR0dHX18wSGFXSTZLUVppM2paQ0J1NXVNOUo4NUNqSDZuNkFJZ2piY3pUYk42QWQ3T1AyV0QzQXhHak9J?oc=5",
+   "source": "PM News Nigeria",
+   "sourceUrl": "https://pmnewsnigeria.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-07T22:07:16.000Z",
+   "summary": ""
+  },
+  {
    "id": "77dec8912146",
    "title": "شرطة الرياض تضبط امرأة نشرت محتوى يمس الثوابت الدينية وتحيلها للنيابة العامة",
    "url": "https://news.google.com/rss/articles/CBMi6ARBVV95cUxPWEIwOUVXNk1zdDRzT3M5ZUZtNUtMYjMwVmtMMU9US2RVUGppbVFPZXVxMm5vMlY2LWZFQzhOaXRuNzRuRUxfc1ZiSzVNalJOaDNEX1VVNU5UYm1aNDRWYUFuY0hGRVRhSHZrejA3WXlSaFlmaG5nLW8wNDRQQTU0eUMtQ1E5bGZfYWRiczdvdW5FN0toWUcycW5lRzlzZUZ1R21neDB5SHViZUlYRTZOeFlKRmhUa1JUNTBmdXlvQmw3S0dCeUV6Zy1sR2h1MW9mS3RMdFJ1bDdIcE52eU5tV0UyWnFMRkwteUY0RGg5QkxpRFg4bjlvODFVelQ4akhwVF9OSUg0NEo0VEdDbmlNSXpPajNkcGNMUFgwbEd5TDg4UlhTVE1WNHpub1hlbGh3N09JLTBiWE1TZzRmTGRuX2d5bXY3bEF3SWQ3eVM2NTVSYkt0UDBpb19scHd4aGJPUWJFTnFWek1fRFNoRjhNOVFqMDhudHpFQkZxQ0hFeXUwcDVOY2h5TWRybGtleHhFZWROcXJUc3pGRXNyQVlZWEcyQ2R3R3ZUYTNUTGZEc1dvazR2MjN2V1MyWXV3eEFTUXdlQjQwM1BjQmFyYnU2VzV2bTNseFpPbG1iLXpReWhvNjJRblZsSThGdFpDMmNFSTBMcmxNUDU5Y0Vld3Y0NmZla1RVUlczanlLNkZDOUZSVjlNUmlZUm5ZRmQ0b29sZ21aNmRoQi1obU81Q3YzMU9YS1B6MzhPVWhleUNSVlFjMzhVZ2loRVdWSkVLanVwRVB5bkt1c3dkX3pJVE1XbDdyRlNQNGJ1?oc=5",
@@ -59,7 +83,7 @@
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-07T18:11:15.000Z",
+   "date": "2026-10-07T18:36:28.000Z",
    "summary": ""
   },
   {
@@ -71,19 +95,31 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T17:33:44.000Z",
+   "date": "2026-10-07T17:38:23.000Z",
    "summary": ""
   },
   {
-   "id": "77d552100eb0",
-   "title": "‘I am Giorgia Meloni’: Can a trademark protect politicians from AI deepfakes?",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR2s5bGVRcDl0WXM0dGVtRzJWWXZ6NXFPMkxtWFhWXzBRUVZTVjVZWmttX1hkazkxMFVlMy03cDR2Q1VxOWRTX082WUNlTWl3UG1EQkZVY0xiRWc4UEhLSGtDNmliUXVaZHBuUXBjMXhJLU5MM1M0SHZLMnBDSkJxN2Nmek1nVUZmVDB6cVpCNTA2aThtdndWRnMxanVseDhqbkxUU09XbEpESk40S19NSkg5WQ?oc=5",
-   "source": "World IP Review",
-   "sourceUrl": "https://www.worldipreview.com",
+   "id": "4e01832128cf",
+   "title": "إجراء مهم في السعودية يخص العمالة المنزلية خلال أول 90 يومًا.. وهذه الشروط المطلوبة",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1sZGdlZkxPRjAtMWZsTEZsM1hQWEdPVUNlbzVKWTRaZW9DM3czaEdEOTdhVFY1WVViTWVxRmhxT1hRMWxMTXJzSHIycFlmeGVPWlR3NHhzcjRycDlJYXlWOTVBbHNQaWdtZXFVRlRZaw?oc=5",
+   "source": "صحيفة اخبارنا",
+   "sourceUrl": "https://www.akhbrna.ae",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-07T16:52:48.000Z",
+   "summary": ""
+  },
+  {
+   "id": "fa6571538567",
+   "title": "South Korea launches ‘K-brand’ scheme to fight counterfeit goods",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNjljcXBYbFFYVWV3WmFMZktjc0x6dzd2MHhNSmdRTEVuVUJGcWJRRGVsckNXalVsMDM3QVBMRUN6MGY3LWZGY01NcEkxWE0yTm44QVp5OFZ6QV9ZQ1B3azFSeHpEejRTektrcmdzdHFyMTFoMDJjaUhJbmlFRGxJVkxqRkxUNWxJaVVvOVV5WkNPd3gxYVVQNW9BZE1iUHItWTNMMHFYamdHeEowVlZTaXJ5eU9KUQ?oc=5",
+   "source": "Manila Standard",
+   "sourceUrl": "https://manilastandard.net",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T15:27:06.000Z",
+   "date": "2026-10-07T15:47:58.000Z",
    "summary": ""
   },
   {
@@ -315,18 +351,6 @@
    "summary": ""
   },
   {
-   "id": "de91af0bcf04",
-   "title": "السعودية تسجل نموا غير مسبوق في تسجيل براءات الاختراع حيث يتجاوز عدد الطلبات خمسة آلاف خلال عام 2026",
-   "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNQkYyRXJIa0k4UnFCTi1pUW1vUnpOR1FQR1NvYnQ3NVp2TTZnSVFnVGUtMnNTNlNQWGxmamdCZkZqSXI5M1FvbUtpVjRHN0lNMHMxb2xzOVZiWVcwUENOdTVraXJlTmQ3X1NQX042VjlXbV94VHJwMVViNjRqQlhhTFdZNDA3R3NTOHpZT1R6UGVjbUZHZWpQSGpvekZRNjhGbmNib1FWWGZlcGZfZFJpVmsxZlVCOGxDRWZyUlRQZ1dzTGZBcjFpdVVkN0FkSzNUR2NWWGRfM1lWR0J2aXBIODNLNnNzNFFDZ0oxZ1VfYXdJeGJpY1hEVU5ucXhhRFdkUnpRdGNVa1l4Umhuc3J2ZU1kUUVVVTkzWHZubXFBT2c2RUY2VEJqX3lWNzV5UWhpTEo1N2JGczV5cExQTXl5aVlDMUNPS3hScFE?oc=5",
-   "source": "اقرأ 24",
-   "sourceUrl": "https://iqraa24.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T14:00:44.000Z",
-   "summary": ""
-  },
-  {
    "id": "5c27d7653e1f",
    "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
    "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
@@ -420,30 +444,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-06T11:00:43.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f747efc04d14",
-   "title": "IPISC Calls Attention to the Intellectual Property Blind Spot in Commercial Insurance Reviews",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QdExKWmV6TjVtZElMNkpicklPajUwcmlLNkJKUjVaZkFnZm1hMFhOWl9UUkV4MTZzdVZ4XzItemEzd1VtckZrSDNQQ0llNHp3X3J3QVpkS1VhSkoyc2R5cWpKRlNMellqaEF6VlBycG9vczF6NVl5TlJ2ZmE?oc=5",
-   "source": "Insurance Journal",
-   "sourceUrl": "https://www.insurancejournal.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T10:00:44.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ad3099413e0f",
-   "title": "Italy’s Giorgia Meloni moves to trademark her voice as AI deepfakes spread",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObWRGc1dWRkdjQzgzbTBaWkJqWTFOLWpEQmpnTlAzald6UU9GVW9rTHZUT2lHUWw2cFZoeHZhNklkenBMU0lUd2hiSHBUWUxQYUZyVWlwdy0wUXBuUWF0ZW9TZE1zUHN0SU1HQjhYRTgyOEZlYUVyOHBxZ0RxMnJuV0VxUE1yUi1VUjRQWkNRR1NteDhlOHdVX2M5ejlXX0xfRUZDczQzMmhveFdzWENINzhYelJwcDdXSGFycDc4dmczQ3JPd3Rzbk5GQdIB0AFBVV95cUxNOWdJZHF6UlhIeldHdmcycGx5RHh2NEhaYURoRi11ZEZNR2c1OXNQWnVuS3VHeWRsVW9NQ2tuTUw2cnh3YjhXRWhkMGt2YkFjbHlVTkktdXQ1aTRXYjRqZkIxUDZQem95MXBETkt6Wmp1WDhGRXJhRm1QT1hmMVZrNHIwN0FuUXZQMXJiYnRiRE5wbFEtNW1LazdMUDVNRHhGQ1FINEFmOGd4Y2l0SHBMUDJEODdOMjhMSEdPdEVjdURaVGZ4T0swTktKcmhEdHBu?oc=5",
-   "source": "Moneycontrol.com",
-   "sourceUrl": "https://www.moneycontrol.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T08:29:17.000Z",
    "summary": ""
   },
   {
