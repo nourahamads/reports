@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T06:05:03.512Z",
+ "updated": "2026-10-09T13:12:57.642Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,7 +9,7 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 56,
+   "fetched": 58,
    "kept": 11
   },
   {
@@ -21,20 +21,20 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 65,
-   "kept": 44
+   "fetched": 62,
+   "kept": 43
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 78,
-   "kept": 52
+   "fetched": 80,
+   "kept": 55
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 94,
-   "kept": 51
+   "fetched": 98,
+   "kept": 52
   },
   {
    "id": "labor-local",
@@ -45,11 +45,107 @@
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 59,
+   "fetched": 58,
    "kept": 22
   }
  ],
  "items": [
+  {
+   "id": "378d7422cbc1",
+   "title": "TRAI Proposes DRM Audit Rules, IPTV Compliance Checks Set For Greater Clarity",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS1VqeWZsdUo1WnloaHBCeF9FV1NTSTBJZ0cyeWRDVk5IY0FIMlM2MEZtZmpnSmo1WmJtS0tiSndseHg5dDM4U2JGZFg5T1NkLThiOUVWV2pPS0lhVlAtRUZ5U20yN0ZQTXE5bmhmY2VndTZVMlFvd3FpV0FKM0c1RDg3MGNDSFM2dWJKTF9wcGwyYUhqb3JHazhkX3JGV3dRbFhpQWxQa3h1am1yaVg3YVEzb0RQcG5q0gG-AUFVX3lxTE94ZnNGT1p4bWRkVndFRm4wU0VjMkttOE9QTXR0VzZ5aWktU1ZFMDZ5UHJQNmF6OFl1NDgtSUt5eTZnTFRYbzZKdENUVlJIVWFjMHZFZ2szdlFIZ19RdU13NmlmRnk0dERRYWpvb1VwUnJhOWNwUHZYWWZILUZDbXJPR0xLV2hEMEw2UWhSelFXcTFoWmFHYjEyc2ZJVnNIWmJhRVdHWFFaSzNxcW5ya0RCbGdmWlc1aFRhLXNQWlE?oc=5",
+   "source": "Free Press Journal",
+   "sourceUrl": "https://www.freepressjournal.in",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T10:02:16.000Z",
+   "summary": ""
+  },
+  {
+   "id": "bed4d4597c35",
+   "title": "Sara Landry sues former managers over alleged trademark infringement · News ⟋ RA",
+   "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE8wRHVvZHJrdUdleW5jbDgwc3Jwa3g5cnF5NHBsbUNKd0dmSVVnc3Y0V2Yzckd3OWhZUFd1YQ?oc=5",
+   "source": "Resident Advisor",
+   "sourceUrl": "https://ra.co",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T09:47:49.000Z",
+   "summary": ""
+  },
+  {
+   "id": "28af9b5a8cf5",
+   "title": "TRAI Proposes Standard Audit Checks for IPTV Subscriber Records and Content Protection",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSlYyUE40Nm5hWUVJV3dUeVk1eExmS3RBYmpqYnhEMEF5aWo4Qk81ekkyWnNTa3VkSmhQbVpMSHE0bU01ZG9obGVlaUJnWGhONVZtSnM5N1ljMWUwSDIwc2RpZ0Y3Y1lCczhXM0RqdG9mSkpjSE1aeWFXRTFZeXdoUTNRWVQzbW13Zk5SWTgtV09tQkFMbVp2Zmg0d25uUndVb0EyT1F3QVAwY2phazVWTzVlZ0M?oc=5",
+   "source": "The Policy Edge",
+   "sourceUrl": "https://www.policyedge.in",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T09:40:39.000Z",
+   "summary": ""
+  },
+  {
+   "id": "281cf1a34f50",
+   "title": "TRAI draft gives broadcasters sharper IPTV audit trail on subscribers and piracy",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY0JCdkJrNkVVTU5obDhrN2xLbEVoU3F6ZDVWTDh0a3pRdUNVXzJKb1ozUVhwbERaYS1lLUFVMWxjOVdPaVBkcEpyak80eXRQd1VnTDBBdkhESVpkdHFSQTQ3RThPOFpObFh0c0dRcGdZZ0N4QnBfdF85YkJpM3FUenVOaGJDN0dsZWRMRmdGVDMzdlR0S2hjWFBRNThLRHFIVDRMMmN3WnpoYTRzNGJOUVdiT19tSWRyenZXYjJtSGdGVW9vdVBsdHF4SWtDcVpHWnfSAdIBQVVfeXFMTWNCQnZCazZFVU1OaGw4azdsS2xFaFNxemQ1Vkw4dGt6UXVDVV8ySm9aM1FYcGxEWmEtZS1BVTFsYzlXT2lQZHBKcmpPNHl0UHdVZ0wwQXZIRElaZHRxUkE0N0U4TzhaTmxYdHNHUXBnWWdDeEJwX3RfOWJCaTNxVHp1TmhiQzdHbGVkTEZnRlQzM3ZUdEtoY1hQUTU4S0RxSFQ0TDJjd1p6aGE0czRiTlFXYk9fbUlkcnp2V2IybUhnRlVvb3VQbHRxeElrQ3FaR1p3?oc=5",
+   "source": "BMI",
+   "sourceUrl": "https://bestmediainfo.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T08:07:56.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ad8b035b3a8e",
+   "title": "Counterfeit goods operation shuts down illicit traders in Sunnyside and Marabastad",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOOGJ5X21paDlHa3VrOGVoZEU2Smx4RVpBcUlNUnh2X01BeXdQbFdrbHp2RUllMmljaVVyX1A5bnZzdDFneHJta0o5UmJKc0Z3NVVXaWNBOHB1Z1lKQ3hYZDFVVlZ1RjRGUzhPWWF3aC1iS2hUanZibm45azI2TTVKczloN3BrZ18wM2ZwcWZzSno1MWwxeXRBdGtWTWl2YWtrV2xydWZ0YndqckZkT1ZSQWtBQ01YNkNheUJkSzVjVW5TR3BNZU1XSUdRVVBxNmY1LVlDUFJEWnlTTndwU3Bub3dCZUcwQllSYXFLLUo3b0s?oc=5",
+   "source": "The Citizen",
+   "sourceUrl": "https://www.citizen.co.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T08:06:04.000Z",
+   "summary": ""
+  },
+  {
+   "id": "351c6816f0d3",
+   "title": "TRAI proposes dedicated DRM audits for IPTV apps, draws line with OTT",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeExJT3RpaFl0c1RJOE1JTmktbkUxR09JcXY1bWFvWGt6TG9CWjZKc1dfVjZuMl9xNjcxOXRsYlJiNUxQSk1weHZUZXNnYTJ5enVmT3pvS1hoX0RJbEN1YmQ3a2R4RTU5cGwyZEx5b1ZDUXFpQnVrNmo3OHpPSFpaZ2x6SWNCTGphemNzYkNtQVdEc3dFdzlNQjZweEJHOFY3THFOS2hzN0tPTkU3YVg0a3pwYVY3dUFxMjZERVNiSUlRQdIBwgFBVV95cUxPeExJT3RpaFl0c1RJOE1JTmktbkUxR09JcXY1bWFvWGt6TG9CWjZKc1dfVjZuMl9xNjcxOXRsYlJiNUxQSk1weHZUZXNnYTJ5enVmT3pvS1hoX0RJbEN1YmQ3a2R4RTU5cGwyZEx5b1ZDUXFpQnVrNmo3OHpPSFpaZ2x6SWNCTGphemNzYkNtQVdEc3dFdzlNQjZweEJHOFY3THFOS2hzN0tPTkU3YVg0a3pwYVY3dUFxMjZERVNiSUlRQQ?oc=5",
+   "source": "BMI",
+   "sourceUrl": "https://bestmediainfo.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T07:48:50.000Z",
+   "summary": ""
+  },
+  {
+   "id": "a655e3e7c6e5",
+   "title": "TRAI proposes detailed audit framework for IPTV systems, tightens subscriber data checks",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUzY1b2tGSXdoLWtZZTBNdmlOcEdBSDhMdEVfdWlZdENhOWVmQkEwNVpaRnNndURmcnNJU1RyN0tGcXlscVpKMHJFWkpvTW5jZWFEcVNRWEpUbWRDWlVnVXptN2taQk9mZC1wNUxFalQzSEE2cW1zcjlzWWluZjRvZXVPM0hiMnowcXJfRVZKX2lBSEx1TW93MER5eGgzYXE1X0VmOFp6cnNCU2JCU2RfOXJwcGgyUmhKbmxoU25PdUhvRkRRaWRHbXo5V09FeURwMnJiSDhIcjNoWWhm?oc=5",
+   "source": "Exchange4Media",
+   "sourceUrl": "https://www.exchange4media.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T07:08:40.000Z",
+   "summary": ""
+  },
+  {
+   "id": "de1173987405",
+   "title": "TRAI releases draft DRM audit manual for IPTV distribution systems, seeks comments by October 30",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZlIwX0tDMGF6Sy1BZ0NIOXp6Nm1aSXRyU0JGX25fSHRKYnlnb19md2syQndyZ0thLUg3elQwVFJJTVhmbUI4bWNRV3dFLWFTNkMwRlppanBWdTBtTkZta21QdklUd0R5WEhYU2hRTUhVZmg4cjRPX0hVUkFSRHlWdzczR0t0UjdoVXVwVmlHak5salllTmtqSC1YX09KVUtpNHVPUkd3b0tNSGhNTHFJcF9raDNjOENxa1h5VGppLUR5U2toc0dqSHBpVHFZVU3SAdQBQVVfeXFMTmdISm1zcVEteVVIU2c0ZFpyQUpGNmFLLXRVM2FfLWd6VTlrbGJ4R1lHMllpRVRKS1FjTFQ4aEwwMHZDSGtYWHlCVjdyTlMtZGpJelpiQ0FSSHhKZWRnbmFMTGFhTERBTjkyVFBOcEIyWUFyVnRPVGVybHJGeTRVS2ZNRkE3NTB4WTlyMUpSZ0ZRNDlrbEVXbDM0Sk96YzVoajZXU2lGTFFDR2hkaGc2X1FaVGlvSkxERGUzQWQzN1IwaWFRNjZsNnFZZ2k3R2tNNk1vMXE?oc=5",
+   "source": "StoryBoard 18",
+   "sourceUrl": "https://www.storyboard18.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T06:59:50.000Z",
+   "summary": ""
+  },
   {
    "id": "adde0ea79625",
    "title": "OpenAI, Anthropic Face Copyright Backlash as Australian Music Industry Warns of AI Exploitation",
@@ -207,18 +303,6 @@
    "summary": ""
   },
   {
-   "id": "d592c2eea077",
-   "title": "Nutriband Files New Patent Application to Strengthen Intellectual Property Protection of Its Transdermal Abuse Deterrent Technology",
-   "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPSV8xa2ZDYmh6UzFwRnhSVFI2RHJhRzlxZDRUZWNNQUdtZVgwNVYwUF9QcWsyam5MRmdyVDBZaWtrQXZUbE9Vc0VZZU1Bb1VTUTM2bWc1VUR5MjZwNE9EWDZhemNBaUJXT2djTU9JVFg3ZEdGM2RJaE84RlF1NWlpbmJUUV9QOXlEZGwwYWZZTmN3VlN3aDdsTzlmenBMS2RvVU5MWnc3bmU3MnlDTnIwNlV6S3FSSGlXcXVfTDlPbUFDZU9PcDJfMlp0MmVYQ3NaTGVlOUxLOEJFOHp1MXgybnFCMzBTc0FPX3ZPeVdINXdXUzZ5T01wMVlpZUZZQ0tjd3d4d0R0cUFPWDVOS2RKN2tTSy1RQzR3ZWR6Y0FqVDhkbGh1OW9IQ1Y0Zmh5UdIBswJBVV95cUxOeG1YNlcwQ3I0UXdMSzBJRlVVckYzSTNveEdNLUdidkVEbnFSY0hHeE5MMDBYWEVBV3lFS0dsWjFmcTJSOE5KcUhnTWRpd2ZlX0otOW5JdFpsTlVfUjhLRHZoRWVWVWQySEF3SU5jcXE1c1NHbjM5Q2pldXVoejJmUTctMFN2dkNVSFhDcDFtZ3RSWk5CZm0tYlVhUW96ejR0eVd4cG4zRW1pQVQ0di1jQUI3T2J4LVlROGlQR0xRZDhUVFJPNi1kN216aExyNUx6WjBlZEp1dUhmYkNlQjkyaHFvandNMjJSUzQ3aWM4ak9xa1FIZk0yYnd0UEtyaDlOM2hHZGdfSTA0eW1PN0VqMS01Sk00Skl4amRZdlc2WVYwVUR4dWdEMTc1V29lUk53RWR3?oc=5",
-   "source": "The Manila Times",
-   "sourceUrl": "https://www.manilatimes.net",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-08T11:04:47.000Z",
-   "summary": ""
-  },
-  {
    "id": "871252d5f06f",
    "title": "Dublin’s new casual trading rules blasted for ‘stigmatising’ language on counterfeit goods",
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWlM4WGNxVjhTT2JjSEFCZDlYME55QW9CeTNHdExHUTd6djBlX1lqVlhZSnNQazg3c3hPV1NYVkJjcUpwT0NZYU5nZDdtTURLTzBlXzBoVHdQOTZmcXlPMTQySnhkQzhkZlFfR2pfSmJQUGlkLW53bmhPdk02a21tRzNBdUdtTTFPalpBVGl4aHBpN1g0NUdPNDREelh0MHVpejYxSHVZVlFGTE9XTHZrYkJlbFhkeE1lOFdPZ1BvM05HenRyaXpEZGhUNE1vR3FDenhEUzJtUU00dw?oc=5",
@@ -240,6 +324,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-08T09:22:12.000Z",
+   "summary": ""
+  },
+  {
+   "id": "13b8a0a9d5fb",
+   "title": "7 Ways Content Piracy is Reshaping Africa’s Entertainment Industry",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMkR5ckcwenhUYV9xWFlta0xoemZzTjJ2VHZwaUJYOFlEWlR5NGRtcG94MmZ1Vmo3bDN5WWNnWlN1ZVMwQzZHaVZrMU9zNTFzR2xjMEZqV19DRUJ1d2pTNjV0YzNTc0dYT3loeHF2c2g1ejlzMW95TVpYcE1JUzRnb090RnpBSllLdms1SlI2VFUxSG1TNmEw?oc=5",
+   "source": "Weekend Post",
+   "sourceUrl": "https://weekendpost.co.bw",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T07:21:45.000Z",
    "summary": ""
   },
   {
@@ -291,15 +387,15 @@
    "summary": ""
   },
   {
-   "id": "f282735ad757",
-   "title": "Copyright law: NCC moves to protect Nigeria’s creative industry",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVEpEcmtWSU55M2pUQ0VHU25COXJxbVA4ajVWbDZLQ3NjWnJubnhhS0NsR1pCSlk5dDR5bTdfVFNyRFc0LUQ1aS04SV9EZm5SNjNNbThoS0h0WUEtWmhrQmJrOG9uR0dHX18wSGFXSTZLUVppM2paQ0J1NXVNOUo4NUNqSDZuNkFJZ2piY3pUYk42QWQ3T1AyV0QzQXhHak9J?oc=5",
-   "source": "PM News Nigeria",
-   "sourceUrl": "https://pmnewsnigeria.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T22:07:16.000Z",
+   "id": "b218066e5851",
+   "title": "حتى سن 45 عامًا.. وزارة العمل تطرح فرصًا وظيفية جديدة للمهندسين والفنيين",
+   "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxOUUJkeHVWU05wR2dDdHlDd1FkUzFGNkFnZHRjWlFMckkxZHRPUERYZ2JITHJoOGh6WlpfNFh1MmdFbTdRdGNpazN4VmxZTlc5ZUFmbHJuRHRfU3BmbzFJVllSOUhOeVNFZXRlX1BmOG5ySHpFbmZCM3I0clFITERQLVQ3OGFIUm9heUhrLXZzaGwxcUx4TjVtcElnc2lpeFA2NmpzMGNfTENRNFI4SmVKWklIQlM1RnloOUR1VUJyZzlwSVFJYWhmS2MtOWlJVnZHM0hLaDJtSWRld2l3MXNpWDVaMExXcldNb1ZrYVNtSjVIelhUZ3lmRHlyOUFJRjdUOXdxY1BFUTN1VWVxbm45Vi1paGxVajgydzhzLW92aEwySmJFdmlvdGZKNk42eXZSSHBwbkZSNVhoYjF4MjBFb1l3Z3lRa3hHMjlDZDVQQ0NPMFZUazdXOVVocGFpWl83ak11ckhoN2hGRlVMMk9BZzZLamxKZXk3cVpOSnVqdk8xZ0VZZlhlZGNKOG9LbTF6dHo4aWZkVi1kZTN3RWNhZkZuWXA0eEVS0gGjA0FVX3lxTE9BVkV6WmpGLThLOGZTMEtHTUhVcHFyNlo4S2RiZm9rM1ZPYldEZjVCbXhOd2w3SW5MY1k2TGtSVHhVUXVtWkJzUkRPdTNBNG1FMkJ2X2VTWXRxQlJXejRubGFudTYxdzVZeVFSMXh5RzVmU2VxOHBONTFDRkhRNzByUEY4cENzalpLVFFDNUlVeERKamN6cHZWQnJ4ZEFuWGxnUjlXcS1NOWVDSnA5NWViY1piM3MtWTBnUW00aERsMXVjQXptZTNlcDg4eTYzRWRuR3paZG1qOXRjTzM2emdQTDRyWjFPSy1HTXdPemNBcXNKai1OeE9GSmVDbDhLTlhoYlEtY2NPcS1uUHl2cFQ1OXI3U0haNkRiZlhXdTNISkV2Z0dfdGV5UWNqYjFYUXJxRHJUSEw2aHU2NVQwVEswdEZpSDF0TnV0SkE3UGo2UGFMX2NJQmFIOWotM1V6ZENyLVJSWTlHQzhHRFNvdHBCMXdKTXpNaHdsaWM0aU5udko4SFlTbFRUQW0ySVpsMWpLbjE0YjN1SXJyTndIcE1aWTNB?oc=5",
+   "source": "اليوم السابع",
+   "sourceUrl": "https://www.youm7.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-07T20:14:00.000Z",
    "summary": ""
   },
   {
@@ -315,90 +411,6 @@
    "summary": ""
   },
   {
-   "id": "051fd2d4c052",
-   "title": "How NRI Families Celebrate Diwali and Holi with IPTV in the USA",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNckwycHhpbmxrc1VwbXZBd09mVVNUSS14UloxOUV0eng4Q3MzOGRDZGVOZGJ1d1N5bkdpUEpPeDdBcndYeUNxZ0d2akFaUGc4N1hISnQwYUlUUXZ0YmVjdWlWMy1OcFV6LXpnQ1FBSFFtZkJ0WGlPNFZtVk1yOFdheXIwQ29wSWlweWRLeGhicW90MTFLZUhaNXFB?oc=5",
-   "source": "PC Tech Magazine",
-   "sourceUrl": "https://pctechmag.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T17:38:23.000Z",
-   "summary": ""
-  },
-  {
-   "id": "fa6571538567",
-   "title": "South Korea launches ‘K-brand’ scheme to fight counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNjljcXBYbFFYVWV3WmFMZktjc0x6dzd2MHhNSmdRTEVuVUJGcWJRRGVsckNXalVsMDM3QVBMRUN6MGY3LWZGY01NcEkxWE0yTm44QVp5OFZ6QV9ZQ1B3azFSeHpEejRTektrcmdzdHFyMTFoMDJjaUhJbmlFRGxJVkxqRkxUNWxJaVVvOVV5WkNPd3gxYVVQNW9BZE1iUHItWTNMMHFYamdHeEowVlZTaXJ5eU9KUQ?oc=5",
-   "source": "Manila Standard",
-   "sourceUrl": "https://manilastandard.net",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T15:47:58.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c803894ff9e8",
-   "title": "Enforcement of Copyright Act reducing piracy, says NCC",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84NU5qdnhndDZWcnRxZThQTmNtTG5SU1lKVUZYUll4c004YWhOeklFLTY0ZC1yb3VHblRpdjJrS18wXzBqNHA3WlJuSkFXVGVKQUt0UEJkeEU3MG5EZk94UGlSd3AwaFM5czVBTDJNNDliOEdRb28tSlZpcjI3eUE?oc=5",
-   "source": "Punch Newspapers",
-   "sourceUrl": "https://punchng.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T15:18:32.000Z",
-   "summary": ""
-  },
-  {
-   "id": "273437aadf3e",
-   "title": "Enforcement of Copyright Act reducing piracy in Nigeria, says NCC",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMjVIa0RvWjEtVzBieGdwX3pRUFV4UkNaaEZPVkRIRWdSVGsyMVg0bUJBZ0xFT21yblloUTJQVFA5aGFNRFl3SUMzaEY2OHp5Rm1MeFB2U2U1MG9ROHh5QmZHLUN4NTgyUW9pZU43NHpZZnhtLXQ2TTZUUS1DTHBmdTFyQ055c2dTTUtZWFhUeHlFNUk?oc=5",
-   "source": "Punch Newspapers",
-   "sourceUrl": "https://punchng.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T14:46:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "787b3090b932",
-   "title": "Best IPTV for Tamil, Telugu & Malayalam Channels in the USA",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbG9RdlZTREVPQXVuQnNoUVZoM2VockJja2VlX3lMRnhIcTJESVkyeUNfamktdnpPLWZwd1A5MmZNQ1VpUlEwa0hTT0pFcW91c3RaRVNpdTU2eEVoaG0wWURITFpQbjdIUnlEN3pkWTc0MkdfRG5QM1VoYjdKYW14VC0yNDU1N2dKZVQ2WDkzdVo?oc=5",
-   "source": "PC Tech Magazine",
-   "sourceUrl": "https://pctechmag.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T14:16:36.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f4e364393f07",
-   "title": "Third Circuit Affirms Copyright Protection for Westlaw Headnotes and Rejects Fair Use Defense in AI Training Case",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XOGd5Wm56X1ktdWtONGVoTzFkNV91WnZtQTBpd2o5UHhrS012cEZNYk1sZEZuMXpwNHhEd0VmWm9ua3ZtMjFwanJQMV9Oa2tJN2VVeUxIcS1IT0c3YnZwcnBaMXZ5OEpjTHBFNGpXZVlZQ285SmNqcEhYTzFHTmc?oc=5",
-   "source": "JDSupra",
-   "sourceUrl": "https://www.jdsupra.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T14:01:51.000Z",
-   "summary": ""
-  },
-  {
-   "id": "8b5742a9c758",
-   "title": "Suspected counterfeit goods seized across South Buckinghamshire",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVUgxX2Nvb1d2Z0tFWl8zZ01tdUJvVlk5T0V4RXN6a0l1RlF6RnpZbmhjMG9qbXVtcXF0RFpaQndZZVhnWUhvLTdCWFBtd0w3NTdpMlZKTWp3U3VEMnF1OVNKQ2V6WVVRVjI4ZndKR3lIdWpNUXdWTHAyT3FQZFpZU1BuT21WaXF3enVsTWRNRDN4NHR6YmlKd0gtd0xqaHpYQUNZUHJEa3UzWFU?oc=5",
-   "source": "Bucks Free Press",
-   "sourceUrl": "https://www.bucksfreepress.co.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T13:17:57.000Z",
-   "summary": ""
-  },
-  {
    "id": "35ca1145303d",
    "title": "منوعات - أحالت أفراداً ومنشآت للنيابة العامة في السعودية بسبب البيانات الكاذبة والتضليل",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BWGNFenFMNFVRZ08yaTU2QjJ6QmJGamtXYjdkcnE0bkRZMDlHdVkzWVp4Z24ybzRJaEFMSzFFLXNTcFJ2X3RUbnB2VQ?oc=5",
@@ -408,6 +420,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-07T11:04:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "18e762c6329a",
+   "title": "وزارة العمل: 100 فرصة عمل موسمية بالزراعة في إسبانيا براتب 64 ألف جنيه شهريا",
+   "url": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxNTl92ZGpYUUh4YkNiNlJSSXFiWXB3OXdhbElid1J5SHBoU3NMTWItX1VoLXZ3N295WFotT190ZHAxdFhwQkJoUjdnWkJYalAwcXozekNGU1JFYUpKVUhCa3gzbGNrN1ZRZ2VaZ3dEMzVESUJiY3Y2Qmo0QXh2ZzQyb1pLUTlLa0JPYjQ1bV9GRzdIWFNNY0dPMFBpWDRBazZQbnFRb0FvWDdiQl83bkNtaENPSmNkZFNSTF9ocGdTamIzRk4tdklpRWVyZ1NFekJGN2NuNFRCNWZpb2ZrTU5WWi1sMkh5NjdVUkJSNERQNkhFcU84N0txdE1GaEcxSk80cEkwcVE4S0JuSXdpbkJvU01IamVvTW43bUEwbG5hUEZBRzNmMlMtNHRHMERaUFBHbXExelpsQkkxX28td3pHdjRNZzNmaHQ3cDNBNm1iNTRhc2pHbm5NbEZJeWpZVTAyN1pDYmVmTEszMFphOU1xTmdDQkdRekRNcUxSMW83bGYyRnpxOGFzcm5yODY5R3hWMHJybFl5VVVnU0Q0cFFnZkJObUdBSzNvM0kxSmtRQ3ZROVRwaGdnZFZETldLQWV6ZTI2UmtDa0htY09lN1d1SFd30gHMA0FVX3lxTE1Vbi1pT3NRLUZjcWlLTi1uNzhoV3lqMk1sV0VwX0JndmZSUGpaRlhiYURSYkZBWTdYTlA4YWxhS3k4U2lTaF9GanhFbnIzcTh2SkY4TmdtY19adU56Z1FqNmRLeEhmZVBaTW9iLVZBZXVtcndSM2VUQkVEc3ZmVnZIX1FQdlBUUGZseUNIdUJzNTVRMDBNeGItQU5VRG82eXJDUF93SEFXXzlPV1ZfZS1fMlpLZjBjanhMZnR3Y3JMMVVkdWFQUkN5Wk5kRHZQUGtvdkROaExkV1Exd3NHb25LejN4Y2g2YWVYV0p1d3YtZ3BqcnpIUUVIQ0hCa2l2Z3NOZ1F3MDRwNTk3NGhKeFpSZDZLQ2lRQ0k4aUttZWhSNjNZQVVOZ1NWUUVqN2YyNW9qLXl6bTdsVkwwODNLbmJnSG9KZi1YVUF6YXg0MV9UeHRTcWV5RFV1SVNYSUNUNkFWZTYtWkp2ZGh5X1h0V1VvZ0VHWW4tN29rdTlPRTRfcWNneWdPR0dqaXdkREllYy1SZFpPeFhIcU9yeFk3NkQwMjh4ZHR4M2Y0NVoyRk5WRVpTVjFqbXdYRzFYQTE0dnlrMURrcmJTVHg2OEo?oc=5",
+   "source": "اليوم السابع",
+   "sourceUrl": "https://www.youm7.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-07T07:59:00.000Z",
    "summary": ""
   },
   {
@@ -435,6 +459,18 @@
    "summary": ""
   },
   {
+   "id": "1600dc77a473",
+   "title": "محافظ الجيزة يستقبل وكيل وزارة العمل الجديد ويؤكد دعم فرص التشغيل",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81ZC02NndaSTFEa3kzTzVTX0pOd0hkZ0E4VEJJVF9RZGVhRFlxSUs1MGdUZEgtRVlNNFozYWdoalpGNWZZQTZSeGUtcVBMcGh4LVdr?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-06T16:04:41.000Z",
+   "summary": ""
+  },
+  {
    "id": "77367e2600de",
    "title": "تقديراً لأثرها المجتمعي.. وزارة الموارد البشرية والتنمية الاجتماعية تمنح \"كاتريون\" جائزة المسؤولية الاجتماعية للشركات 2026",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1CN0xWRUc0a1doUXJMamNJajNSYmFNN2p2cWNuUkhrUDYwWktLX0RBa1FJclo4QVlrUkhLOXJkUXAyS3dZeE1n?oc=5",
@@ -459,15 +495,15 @@
    "summary": ""
   },
   {
-   "id": "98a51d5697ea",
+   "id": "fa56a2ce7cf4",
    "title": "علوم وتقنيات / جامعة أم القرى تسجّل براءة اختراع جديدة في مجال استخلاص أكسيد الحديد النانوي",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mYWRGd3k0em8tVlFvbzNmc3FvaHNZMkJuVF9HT0wtcUhiZ2hmYzlLY0JRUEFGWGIzWmpNeXlQR1BUUlM3V3c?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1mYjFQOHZDM0ppZ0ZoZ1Fnb25qN05mQzdaMWxFTDVQRXhMR2J2R1ZlSmk4ckVMRW04TzliRUJWTHRLN2ZRa2lzTg?oc=5",
    "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
+   "sourceUrl": "http://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T12:09:41.000Z",
+   "date": "2026-10-06T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -483,30 +519,6 @@
    "summary": ""
   },
   {
-   "id": "0a12eca76828",
-   "title": "توثيق عقد العمل في منصة قوى: هل يحمي حقوق العامل؟",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRlp0MG5FZGwxb1RMRkdTWGZLdjhucktXQXBPSmtMOTd2MkNoRXIzSF9kRUQzazR6ZFpEMjdHTGNvbDNJOWVKUWNrLTdDRGZLV0w2RHQ0RUNXQjhTYnVMWmZYaHBuVzNWZE1CemxxdV9Yc1prZEM3MkRSUENtTmdwaklFYURrOEJLRldLYmdWWlcwN1pTVF95bU1hbEtQM1YtSzNEVUtJelRoUzk3WWhjUC1lTWJ2QQ?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-05T21:24:56.000Z",
-   "summary": ""
-  },
-  {
-   "id": "828149eba3bf",
-   "title": "برواتب تصل 25 ألف جنيه.. وزارة العمل تعلن عن فرص عمل بالقاهرة",
-   "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxQZ1R2SXQ2SjBqa3dHLWZrMjhRU0RjZVFTdjBsMHg5U2FuOEJJclVtV3l1NE9ZT2pkVW1wUWN0R0RXV0dWakZST3VZbUpWeHZuNmVfNnBiNFNzVEU4ZWdmNmJxUWViNUF3ZmloVVBWNEJRNkczZEVzN09tZWN3bDc2Z1NqRzhydld2TldvMzZNWmQ5d0FsZjZQUjZ4eXVrRGVuVlhNQW1nbFJVZGdQTUxPWksyWG8xOXRNalhabnd0UnZEekFTWW5FaVFyRXJsLXhXUjVfM2s4T1MyamlvZGNMenJtX0doVFpfdXpFRmRiSTVqVVEzdk8tOEp2dzVFeUhEZXI5bmxwTlRfeDdJb0xRS243QkFXX2I4cnlmcmM1Y2MtV2F2SFY1ejBJc1RZVjNKWFlvQXIxV1BmdjV1LUdMcGN5TlBmSWFzOEw4YXc1X3lpYmFfSWw1RFhJS2lKTnVReGtPdEl4aU9GS3NTZmNwYkpiY3NJNTJ0NE04dDJUUmnSAfsCQVVfeXFMT2p3MkZkVF90SGlSbHVkUEROa2NYOWdodkc5VjF5RFo5VXpTVTJvVjlEYUh6RDk2MU44Um1PeW96alQyTWFocWRVei1ZeFktSEdhME5GcGVTdVI5U2RCTG5DVWpYME5iZy1VdnpBcm16bXplQ3htYzd3TmFRX1pHN19fMTZJbTJBSmM1RTluRHlmWmx2QWpTVWNtcEVmWTBEcHNzZTRmQW5jQW9kV2ZTSUFNQThCcm9wcHdYMlc2ZGZfMlVUc095bmoyeDVaWDJrT2RwM1lxQ1BvSjNfQTJVMW1vS2w0R1RhSmFDYWdaWUdkam5oVmxocWVYUEhLWW1NcEIxZlYxbG5Ld3lScHdkemlsM3hrR3ZMQ2hiRmIxdk1HUk5XM1dOcmZWbGQzN0U4dGNvZzdneEtaaHdGWVFMODA3TG11LVBQcERGamxZNklINGdHWVJlMTdWSlVjNWhpbHFCQkFqeDZtYU92X3V0YTBUOTV0d0dBMmJ1MA?oc=5",
-   "source": "اليوم السابع",
-   "sourceUrl": "https://www.youm7.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-05T19:54:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "ad78cb1bbbae",
    "title": "ثمن دعم ومتابعة القيادة.. النائب العام: السعودية تولي حماية الأسرة والنشء عناية خاصة",
    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNR3E0bmx1NnZ1TGxFeTFRbzJmZmlDNmViQXN4LVNfRjJ6M1M1MFdCWmg4YzJUME5nck80b1RmRkJVY1BhbVFvUEN6d0JwR1FpV0t0R0VjWGpITTVjcmlMc2hfSGwtSGRobkhFRFFodGRoMXF6YzRGTVk2M19VU0hKR2cxczJDN200NWptRGtEUzNlTFcxamg1RjZ1WTcyc2s1em1iTTBkcU40b3lpNHhZVmZ4ME5uMFBIc3hVQWhUYUI3SDJsRnZ5M1FRclQtSUNEZHdaRXhsTDFKU1VlM01iOFlRcElzNzZNa2VmQlRHcmdoM2htVzkwT1kyOTg0YzZWRTQxQmpVWVp1YzdrdDRHY21pWnNEdUJoTEQ5aFAzMDM2QW10VzljYXZISkUyaEptT0xFRm9fVDZod0ZiWmo5bm9fZWhNQlZKc1ZfdQ?oc=5",
@@ -516,18 +528,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-05T12:42:33.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f2d8aecd14b1",
-   "title": "وزارة العمل تعلن عن وظائف جديدة بقطاع تصنيع الأدوات برواتب تصل لـ15 ألف جنيه",
-   "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxOVFFnWFc4WTRzN3VLc2x1UU1CR2FPU0FPcXlhencydmlObmtNV0pYN0ViZkktZ01wUkVnMVRNU2lXU05scjRMbFJNUUtNcDJNbUhvbUpnT2trZlk4OG41ZG1VRmhPbjc0cDlNa3ZLbUhNNzBCYVplaDFrZzlocmF2RWpYdW8zTVVNLUk0UkxMVjVkZmhoenlVT3dZVzBUT3JudWpsYkhZRDJxRExJa21ReTRYZGxUNlRabXdLemNMREFUeGNaV1dlOG1KcjhEczRyWGFNTHZWcWVmQVhDZjFBdnM0VEM5aV9ZWVVDTFFaOTU2RnFRVjJuSlBWaEZhbzFZWjFPOVpJWWk0aGVsLTd1SVF5QmZSQXNZcWIxaEtxbzdlb3ZBdzllOXlsX0hTOThlSC1GSW5SNlhqU21XV0lYRTZ5U2FxUGR5bVM5dGRCb2g2YlpLb0dzMnVjblh1YWdSSHBQTGpsdWVxX3cxb0VfN3dONjZwQTRqYWR0UGhjYkxTdTlzS2hOZE9qeXJTMkxsYWlnX3pxTUd4NjM4UnYwY29heldYNDhCNnpCVmZScF9zZEZWRzJYd2xtQXIxZjlzRVFzRjJtcTRvbzJKYldsck4yVl95Vkp3UnJSd01nUXpMTzJ6Rlp5bi02ci1DQdIB6ANBVV95cUxQN25ZZ08xM3dGRXRTdEFieVhpcE5YRUJlUXlXTFZZaE0yZ21lUEZWLTVfZmhLTmhuQl9PeUJGendSaVAzOXlXZ2J2alQybC1HUTF5MThhUUdLM24yRWNIbnpOa2hpYXNPeUNrWVFLS191T2hwX0psUUlzcVloZHlJZzdTSWFUVkQ5elE2UEpTY21ZcTg3TFNkeVl4VWgzUkh3RnQzUW5QS25kZ0pWM0pEWXVnLVVIcmdkdFB1TS0xLXFUMGwzNkRxbThTUk5FUEhacDNuTzVyeC1qM0o1YWVIZkZJSnUtN0JFU3k4UHBOdjA3blRkQmsyYXpJNWRvU2lNVGdIeFVpd0w2NGllamdkWmF3cXFLTDVwSVRMTG9vdXZtLXlmVXZ0STUxczB2eEdqZDlPWEJObnA2RTlQV3kwNEVhZ3k4b2h1WkxLY2VVZGdmOUFrQ0hWNzM0N3hfY0x4UmJEbDBLNGZrMFVVWS00QmZ5Q1pmblR2ZGJGQXQ1Y0hwdy10ZVV0V0hpVE15RnpVQ0ZJZkFmWVlEcElkN2E1Z19VT3Q5emxsOUtUNVV2WkZYTWVQQUFyYU5YUl9VOTRGd040MDNnMEZLdWVGbXJnRkoyQ182VC1BeU5JR0YzNmItekswbTB2OQ?oc=5",
-   "source": "اليوم السابع",
-   "sourceUrl": "https://www.youm7.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-05T04:00:00.000Z",
    "summary": ""
   },
   {
@@ -743,7 +743,7 @@
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-01T08:46:00.000Z",
+   "date": "2026-10-01T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -779,7 +779,7 @@
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-09-30T09:05:27.000Z",
+   "date": "2026-09-30T07:00:00.000Z",
    "summary": ""
   },
   {
