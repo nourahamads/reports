@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T23:19:04.915Z",
+ "updated": "2026-10-09T06:05:03.512Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,7 +9,7 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 57,
+   "fetched": 56,
    "kept": 11
   },
   {
@@ -21,8 +21,8 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 63,
-   "kept": 41
+   "fetched": 65,
+   "kept": 44
   },
   {
    "id": "ip-global-piracy",
@@ -33,23 +33,47 @@
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 93,
-   "kept": 49
+   "fetched": 94,
+   "kept": 51
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 55,
-   "kept": 9
+   "fetched": 53,
+   "kept": 10
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 58,
-   "kept": 21
+   "fetched": 59,
+   "kept": 22
   }
  ],
  "items": [
+  {
+   "id": "adde0ea79625",
+   "title": "OpenAI, Anthropic Face Copyright Backlash as Australian Music Industry Warns of AI Exploitation",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUXBZQnNBZlpMVlZDSGo0clowLWFKMVlvWGV6Wk5oakwtYlh6WXJjUjVjVjlZZnVfQU5OZGtBZjNNYnc1amVSQ0ZzcXN4QjRMQWF2bjRKb2YyZnFSOTdNRG12WE90TFJzX0tmdXk5SGdQa3p0SzdNeXd0M3NlS0s5VURiZlhtcW1NcmVkelpkY1E?oc=5",
+   "source": "Law Commentary",
+   "sourceUrl": "https://www.lawcommentary.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T23:44:55.000Z",
+   "summary": ""
+  },
+  {
+   "id": "86e5e5508ccf",
+   "title": "Dr. Luke and SD Broadcaster Copyright Case Enters Settlement",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXBabWVQck1tQkNwSGRvY1duVUhQNXV3QlR5RXVQOV9VUmk4MmF1RDZOQV9rckN6OWxvR1gzako2SmsxS01pQWQ3YjNfclJUc1pQQnBGOHlrSEc3ckRWcS0yOTdxSVJiQlBJNFd5bHF6Y3JCU01RQVV6SGFLa19YVDFNOVNxUXVtUTdfN19Vbw?oc=5",
+   "source": "Digital Music News",
+   "sourceUrl": "https://www.digitalmusicnews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T23:13:05.000Z",
+   "summary": ""
+  },
   {
    "id": "79190d51891b",
    "title": "AmCham Nepal and U.S. Embassy convene business roundtable with USPTO on Intellectual Property and Business Confidence",
@@ -60,6 +84,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-08T21:47:59.000Z",
+   "summary": ""
+  },
+  {
+   "id": "5c27d7653e1f",
+   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
+   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
+   "source": "الشرق الأوسط",
+   "sourceUrl": "https://aawsat.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T20:53:00.000Z",
    "summary": ""
   },
   {
@@ -95,7 +131,7 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-08T16:37:34.000Z",
+   "date": "2026-10-08T15:57:14.000Z",
    "summary": ""
   },
   {
@@ -147,6 +183,18 @@
    "summary": ""
   },
   {
+   "id": "a0444934d1d1",
+   "title": "WIPO Academy Director visits Kutaisi International University",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeFE0UktnQ0RfRnNtWlhoWWJUVThqaXpfSlZERG90NUlWcTYyeE84YkgyU09MOTRKcnZxM1ZDM2pVbGgzOU0yVy1yUExwUjZNRFBqcm9tOEZ0NWxVX2tNNDNXajRDR0FERUhrTGdjdWpCTl8waC1aSXpYYTJpNmhkbVVVbi0zZzkzM2JjVXFHMU1wZFQ0?oc=5",
+   "source": "1TV.GE",
+   "sourceUrl": "https://1tv.ge",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T12:28:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "b0e263616925",
    "title": "DBRANLU Sonepat To Host National Conference On Emerging Trends In Trademark Protection; Abstracts Invited",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQa3k3VXFCaUJHLUpsYk50bjNpWmRrZ1VTeFZnQVl5djJPNDk0R3NqSjl5MkUzbXpXTUpPVDBaLTRjb0ZKUFBHcjdCbWszWTY1cTdpX1YtR05uaFBUMm44VWRabV9NMEN6bjVZdk1renpxa2hzU2V4aDFqQlYyOHV2cmgxcUNORTROWnN2MUo3akVsRkNxWWVsRHVLYmFEaVpiVE4tWER1c3Y0V29nWXBhaFRtY3FiMjBwVmtmUm45ZmtRWXFrR2E0U3N2ZWI4eElaNGhsLVdWVVdUM0xGVzdfbmpn0gHiAUFVX3lxTFBreTdVcUJpQkctSmxiTnRuM2laZGtnVVN4VmdBWXl2Mk80OTRHc2pKOXkyRTNteldNSk9UMFotNGNvRkpQUEdyN0JtazNZNjVxN2lfVi1HTm5oUFQybjhVZFptX00wQ3puNVl2TWt6enFraHNTZXhoMWpCVjI4dXZyaDFxQ05FNE5ac3YxSjdqRWxGQ3FZZWxEdUtiYURpWmJUTi1YRHVzdjRXb2dZcGFoVG1jcWIyMHBWa2ZSbjlma1FZcWtHYTRTc3ZlYjh4SVo0aGwtV1ZVV1QzTEZXN19uamc?oc=5",
@@ -195,9 +243,9 @@
    "summary": ""
   },
   {
-   "id": "4b14a45f4122",
+   "id": "888b94b94499",
    "title": "Indonesia proposes global royalty standards to WIPO",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdXRTN2RkRjU5ZlJTeUZwVU1uWllqbzZ2bWJaTUNZWmlqTmthdE8yMDE0YmlscHNzSFUzWTU3NDNadFo3SWhXNDFHRWhUZmFIYnd2NzByWHJIelV0cWJJQktZWWRzM1BjRG0wY2dQczFJRGJSVzZRUGxvQnlreHhKX3dvZFc0VVF2UVRGbTJLLUdBdTJfZGtxT9IBmAFBVV95cUxNdXRTN2RkRjU5ZlJTeUZwVU1uWllqbzZ2bWJaTUNZWmlqTmthdE8yMDE0YmlscHNzSFUzWTU3NDNadFo3SWhXNDFHRWhUZmFIYnd2NzByWHJIelV0cWJJQktZWWRzM1BjRG0wY2dQczFJRGJSVzZRUGxvQnlreHhKX3dvZFc0VVF2UVRGbTJLLUdBdTJfZGtxTw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUEJMZ0ZMa0ItWWlxUVA0RzdSOXpJSVQxQW1VSDA3SEwyNERlTG9YRnRMeDZERUhwOEExR3RsX0hUb3lOcXJXQm93RWRha0RhV1g2dXl1WG9zbkNUMEh2c3NCNU9feXJSWDBWRmZWZ00wajZYNzU2dVlJai1MNmZmVDVsT2VOY0dWSnQxR1AwUkZ0cWPSAZgBQVVfeXFMTXV0UzdkZEY1OWZSU3lGcFVNblpZam82dm1iWk1DWVppak5rYXRPMjAxNGJpbHBzc0hVM1k1NzQzWnRaN0loVzQxR0VoVGZhSGJ3djcwclhySHpVdHFiSUJLWVlkczNQY0RtMGNnUHMxSURiUlc2UVBsb0J5a3h4Sl93b2RXNFVRdlFURm0ySy1HQXUyX2RrcU8?oc=5",
    "source": "ANTARA News",
    "sourceUrl": "https://en.antaranews.com",
    "scope": "عالمي",
@@ -216,6 +264,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-08T00:27:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "c0cc6a94de08",
+   "title": "China Retains 10th Spot in WIPO Ranking of World’s Most Innovative Economies",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRmltTmhPdWJBWDVtTk5RTVhlZWo2cm1LYWRnSzFRRExOM0IwTHRNb0poQ0NqaDlxTDhqQ3JwNW5fbFBJVGNVVldEOW9SN3JkZ3lnWEswZ0RRUlpwclBsZ2I0UHg3cGxsRmp2c0FxZlpCYmVSWlNxNWstTTZvV2FCVU8tclZIUU15eW5JYlEzWXl5ZUNXZzJYeWNtQkJEa2U4VXloZ01ZMEl1aklB?oc=5",
+   "source": "一财全球Yicai Global",
+   "sourceUrl": "https://www.yicaiglobal.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-07T23:26:19.000Z",
    "summary": ""
   },
   {
@@ -252,18 +312,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-07T18:36:28.000Z",
-   "summary": ""
-  },
-  {
-   "id": "5c27d7653e1f",
-   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
-   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
-   "source": "الشرق الأوسط",
-   "sourceUrl": "https://aawsat.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T18:13:51.000Z",
    "summary": ""
   },
   {
@@ -351,30 +399,6 @@
    "summary": ""
   },
   {
-   "id": "78a07400e031",
-   "title": "NCC Director-General Highlights the Role of the 2022 Act in Combating Digital Piracy",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ19hVjdsOEtmcmVyN2ZSN2FkUy0wc1JFYWxDOHZSRWJhdl81Um5vVWU0akUtUExhaUY1ZlpjT3c1V0JhZkNKd21TbGpOUlZ6OFJad1VWVHBXVExXM1hleTdZYlZvUVRRZWRSVExvMjUxZVR0NjdyM2xOWGRzYnlONU5KX3lOdktSallzeU5vUW50Nl9maVlobTRkVTA1ZDli?oc=5",
-   "source": "Head Topics",
-   "sourceUrl": "https://ng.headtopics.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T13:04:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "05a0b1fcc127",
-   "title": "IPTV Smarters Pro Explained: How the Popular Player App Works and How to Set It Up on Any Device",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc1k1NmxwLVU1eEVFWUlkSjlmSzZYZElsUFBCUmJzQTNJZmVKMlVPUW96M2pFNnQyZ0NqV0ZSZzF6YTJKTDBMMkxhWFhGZWR0NjRad25YYU9DMjlwMzducEcxLW5CX0lVaGM5Z282T3RVNG9wTTRaQUJ0djNhLW94cHJDelcyOS02YXg0ZUoydHU0dmVYQTFGX2xFQTcxc3kxdDlUNmtMcVNDMDAtWWVRVDdlY1FpdVNsSU5tQg?oc=5",
-   "source": "TechBullion",
-   "sourceUrl": "https://techbullion.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T11:40:35.000Z",
-   "summary": ""
-  },
-  {
    "id": "35ca1145303d",
    "title": "منوعات - أحالت أفراداً ومنشآت للنيابة العامة في السعودية بسبب البيانات الكاذبة والتضليل",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BWGNFenFMNFVRZ08yaTU2QjJ6QmJGamtXYjdkcnE0bkRZMDlHdVkzWVp4Z24ybzRJaEFMSzFFLXNTcFJ2X3RUbnB2VQ?oc=5",
@@ -384,30 +408,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-07T11:04:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "70c616e020f6",
-   "title": "Vietnam strengthens copyright enforcement role of the “New Copyright Office”",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ0d0Z2ZTUHhxZHZ4NkJ3dU4wZEZVRlU0U1hveDJLQXhXRUZadkdEOGd1QzBLLUdFN0lKVkVxbG43Sk9FTEsxZXBaRDRmWnNoVjFzb2hFSWFwX09iSjJZMjZ0b0NLUHkyMTZqVjhBTEw3T2NmaXp0bGd2TUVxd1ZlT2hkWG0wN2dMVDdick5EVmtIZ3lWRjBJbkhNTXg5eEVMVkRmNExYSzBOWk9tVVJQNw?oc=5",
-   "source": "Rouse International",
-   "sourceUrl": "https://rouse.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T09:48:57.000Z",
-   "summary": ""
-  },
-  {
-   "id": "fb644635ae21",
-   "title": "Best IPTV Service in 2026: What to Check Before You Subscribe",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd3R1NUJMT3VpRzU5U2FIcnNUeGMwUDNiVjc0M1BUSWEtTXVndnNwRnVIQkR1VVBJaTFyYjVEYWJTYVJaV3EybGlFQVZoUjdKcjZ4TlVXLTI3aFpISkpYQzN4NmswTVc1cHB4TlpsZk54UFczSXl0b3FxTklBNWhadTdhUS1xU0V1U1JfazVwWm95TUJHZXFjYzZOc04?oc=5",
-   "source": "openPR.com",
-   "sourceUrl": "https://www.openpr.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T09:20:05.000Z",
    "summary": ""
   },
   {
@@ -519,6 +519,18 @@
    "summary": ""
   },
   {
+   "id": "f2d8aecd14b1",
+   "title": "وزارة العمل تعلن عن وظائف جديدة بقطاع تصنيع الأدوات برواتب تصل لـ15 ألف جنيه",
+   "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxOVFFnWFc4WTRzN3VLc2x1UU1CR2FPU0FPcXlhencydmlObmtNV0pYN0ViZkktZ01wUkVnMVRNU2lXU05scjRMbFJNUUtNcDJNbUhvbUpnT2trZlk4OG41ZG1VRmhPbjc0cDlNa3ZLbUhNNzBCYVplaDFrZzlocmF2RWpYdW8zTVVNLUk0UkxMVjVkZmhoenlVT3dZVzBUT3JudWpsYkhZRDJxRExJa21ReTRYZGxUNlRabXdLemNMREFUeGNaV1dlOG1KcjhEczRyWGFNTHZWcWVmQVhDZjFBdnM0VEM5aV9ZWVVDTFFaOTU2RnFRVjJuSlBWaEZhbzFZWjFPOVpJWWk0aGVsLTd1SVF5QmZSQXNZcWIxaEtxbzdlb3ZBdzllOXlsX0hTOThlSC1GSW5SNlhqU21XV0lYRTZ5U2FxUGR5bVM5dGRCb2g2YlpLb0dzMnVjblh1YWdSSHBQTGpsdWVxX3cxb0VfN3dONjZwQTRqYWR0UGhjYkxTdTlzS2hOZE9qeXJTMkxsYWlnX3pxTUd4NjM4UnYwY29heldYNDhCNnpCVmZScF9zZEZWRzJYd2xtQXIxZjlzRVFzRjJtcTRvbzJKYldsck4yVl95Vkp3UnJSd01nUXpMTzJ6Rlp5bi02ci1DQdIB6ANBVV95cUxQN25ZZ08xM3dGRXRTdEFieVhpcE5YRUJlUXlXTFZZaE0yZ21lUEZWLTVfZmhLTmhuQl9PeUJGendSaVAzOXlXZ2J2alQybC1HUTF5MThhUUdLM24yRWNIbnpOa2hpYXNPeUNrWVFLS191T2hwX0psUUlzcVloZHlJZzdTSWFUVkQ5elE2UEpTY21ZcTg3TFNkeVl4VWgzUkh3RnQzUW5QS25kZ0pWM0pEWXVnLVVIcmdkdFB1TS0xLXFUMGwzNkRxbThTUk5FUEhacDNuTzVyeC1qM0o1YWVIZkZJSnUtN0JFU3k4UHBOdjA3blRkQmsyYXpJNWRvU2lNVGdIeFVpd0w2NGllamdkWmF3cXFLTDVwSVRMTG9vdXZtLXlmVXZ0STUxczB2eEdqZDlPWEJObnA2RTlQV3kwNEVhZ3k4b2h1WkxLY2VVZGdmOUFrQ0hWNzM0N3hfY0x4UmJEbDBLNGZrMFVVWS00QmZ5Q1pmblR2ZGJGQXQ1Y0hwdy10ZVV0V0hpVE15RnpVQ0ZJZkFmWVlEcElkN2E1Z19VT3Q5emxsOUtUNVV2WkZYTWVQQUFyYU5YUl9VOTRGd040MDNnMEZLdWVGbXJnRkoyQ182VC1BeU5JR0YzNmItekswbTB2OQ?oc=5",
+   "source": "اليوم السابع",
+   "sourceUrl": "https://www.youm7.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-05T04:00:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "0e18f437d1e9",
    "title": "سير السعودية تسجل براءة اختراع سياراتها في البحرين",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRdIBVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRQ?oc=5",
@@ -600,6 +612,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-04T06:49:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "1e9e62116921",
+   "title": "الأخبارية | النيابة العامة الإماراتية تعلن شروع مساعد طيار فلاي دبي في تنفيذ عملية إرهابية فوق السعودية",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NTFdHN3poM3hxVENBb1dLWE1MYmdKdjZibkpVU3VfRnVqNE1mZ3hQOGlJZWh3MTRPclYtdm0xLV9lcmtXdEZIYmxtVXl6WnZiS1JxYQ?oc=5",
+   "source": "عين عدن",
+   "sourceUrl": "https://ainaden.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-03T15:30:13.000Z",
    "summary": ""
   },
   {
