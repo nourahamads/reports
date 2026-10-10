@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T22:36:13.868Z",
+ "updated": "2026-10-10T05:48:44.459Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,8 +9,8 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 56,
-   "kept": 11
+   "fetched": 54,
+   "kept": 10
   },
   {
    "id": "ip-local-piracy",
@@ -21,7 +21,7 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 63,
+   "fetched": 64,
    "kept": 45
   },
   {
@@ -33,7 +33,7 @@
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 95,
+   "fetched": 94,
    "kept": 50
   },
   {
@@ -45,11 +45,47 @@
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 57,
+   "fetched": 58,
    "kept": 21
   }
  ],
  "items": [
+  {
+   "id": "9eeb3907bfd6",
+   "title": "النيابة العامة الإماراتية تكشف تفاصيل محاولة انتحارية بطائرة فلاي دبي",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54Vng2VTFTVVB3MjMtN252V3ZVbWVqZ2ZEeDgyV3ZfLVB0V0V4S2JCdU5iQ2dFdThOVTlHcVFWM2IyZ0RieVJLQnNKdGVJcE01TVB0MjRFUlRZRE0?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-10T03:00:30.000Z",
+   "summary": ""
+  },
+  {
+   "id": "bfa05d9e35f3",
+   "title": "Best IPTV Router and Wi-Fi Setup Tips for Buffer-Free Streaming",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hV0hSX1BhVE5iTjZIUW1aTDBRYW1NakpDMHNCekYwdHZaOFVkd1RlN0RyRGlva1NMN1FaMFRQV0pCeGJ1cnRTbjRDWkN0Vnh4SXE3SWlmSktOQWNmQ2lFWVNqaktYZw?oc=5",
+   "source": "SugerMint",
+   "sourceUrl": "https://sugermint.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T01:19:08.000Z",
+   "summary": ""
+  },
+  {
+   "id": "973525563528",
+   "title": "World Trademark Review Recognizes Morgan Lewis in Inaugural Copyright 1000 Rankings",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMFRUWmFDYVU1TlhhWlFjd2ZqYldrdkRzUHJzSWhWVnBuX0dSZUJFVWVhdzlIS0l4SlBFdjFCYlpNaGZTSklOdTZRTWhwUTMtZVpZM0xSTUUydXdvUm9hYWZTTzExbjJTOFpYYzlRX29iWlJ1TU0tUHQ5cWpTdUNBYk8xRlJ0dks2bHl4VlV3NVBPYTdwUnJnb1dOeTdKQ291OHEyVHJMZ1k3V3p4THlCVTViOUFFc3BnOEFYU0VoUk9NZw?oc=5",
+   "source": "Morgan Lewis",
+   "sourceUrl": "https://www.morganlewis.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T00:19:23.000Z",
+   "summary": ""
+  },
   {
    "id": "98f6b5cc73d9",
    "title": "Sapphire IPTV Subscription: A Complete Guide to Choosing the Right IPTV Plan",
@@ -59,19 +95,31 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-09T18:38:49.000Z",
+   "date": "2026-10-09T18:38:50.000Z",
    "summary": ""
   },
   {
-   "id": "e13dac60597b",
+   "id": "267506522ca4",
    "title": "جديد قضية \"فلاي دبي\".. النائب العام الإماراتي يكشف التفاصيل",
-   "url": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxPd3RKczlSUVRlRHpYYjZiSFRaaVdoTjhUTHBMc1djb2hTSGhxTU1URG96bFk2aVRmWm95RWs5VjBsQUFnLTRLeXYxbEEtUVp6VVh6QTh5ZnlQRWV3bzUzLXc1aTFjdFZTWjU1YTdCR0RpbFpuLVB2UUl4WWpkdk1QSnFzcU5xdEFrY05oWmpnTmVyNzY0WUZiN1RzSkFSSWdSZzBUNGJtNkFMMU9KREdhdWlacXpOZ0d1bnBjV0pfTU1EYUVrdG1uUUdTT19CQ21uWlVTdzJRZkx4dUwwVE53TzNiR3pjWW8wWDZWUEplTTNnTFBlT19yTEwyancxWmRJWERrX1JsS3NXa0ltVzN2cWNOM1FoOGxJX0RiTnRrVGY5MzMzTldBbHMzQVUzTk9qbkdXdXhCUXdocHloMUlJUl9LR1l1R1lGN2Jnc2VnODB3elc2clNjRGNXNDBnaE5mWkRPMUNpQTkwSWZXLU9zVVJqRXBkdWM5eHJRMEhOOUFVTV9jWWhHRlNwNVpoVWg2WHFSR01LSTVzT0ZYQWJOVkxSc0FPaC1SZHdlUlpQbDFHTERDaC1iOEM1X2NPYlp4ZGNzQWhPeTV5M2NDOUJLU2pzUzgxUGdOcTRfcEZNT29zdktnOGJ0Tnc4aGN5bXlyYWdF0gHzA0FVX3lxTE93dEpzOVJRVGVEelhiNmJIVFppV2hOOFRMcExzV2NvaFNIaHFNTVREb3psWTZpVGZab3lFazlWMGxBQWctNEt5djFsQS1RWnpVWHpBOHlmeVBFZXdvNTMtdzVpMWN0VlNaNTVhN0JHRGlsWm4tUHZRSXhZamR2TVBKcXNxTnF0QWtjTmhaamdOZXI3NjRZRmI3VHNKQVJJZ1JnMFQ0Ym02QUwxT0pER2F1aVpxek5nR3VucGNXSl9NTURhRWt0bW5RR1NPX0JDbW5aVVN3MlFmTHh1TDBUTndPM2JHemNZbzBYNlZQSmVNM2dMUGVPX3JMTDJqdzFaZElYRGtfUmxLc1drSW1XM3ZxY04zUWg4bElfRGJOdGtUZjkzMzNOV0FsczNBVTNOT2puR1d1eEJRd2hweWgxSUlSX0tHWXVHWUY3YmdzZWc4MHd6VzZyU2NEY1c0MGdoTmZaRE8xQ2lBOTBJZlctT3NVUmpFcGR1Yzl4clEwSE45QVVNX2NZaEdGU3A1WmhVaDZYcVJHTUtJNXNPRlhBYk5WTFJzQU9oLVJkd2VSWlBsMUdMRENoLWI4QzVfY09iWnhkY3NBaE95NXkzY0M5QktTanNTODFQZ05xNF9wRk1Pb3N2S2c4YnROdzhoY3lteXJhZ0U?oc=5",
-   "source": "العربية",
-   "sourceUrl": "https://www.alarabiya.net",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4VG5vQ0JKdmJycVZyWTJVNTFFZG9QMmUyWWIzb2Y0X3I5a1VOQUFuZF85bnpTVlRCOG0wNWpLNFBhblZIbUZ1Sy01UUtWYzRCT1NBa2lqSUlXeXJ4WEtpLUhfdnl0SG1BUEEtbmZsNVNsenY3ZmcyeVRHSQ?oc=5",
+   "source": "جريدة البلاد",
+   "sourceUrl": "https://www.albiladpress.com",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-09T16:16:00.000Z",
+   "date": "2026-10-09T16:58:55.000Z",
+   "summary": ""
+  },
+  {
+   "id": "2b1d59f16cbb",
+   "title": "Delhi HC orders suspension of 126 websites allegedly using Jio trademark",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUTcwalZteFcxNW5vdlJiOVNzb0E5RXVnTVZIa2VXTU9tSWM3bUh5aDVDU2lSeWZsWE40YmJLelhoMlYzMGdTaVdxVEgtajBhVkw2TjNnWUNLV3haYlFSc3pUR2RGRWJENVZ0cGF1UDZYLTlEUUE5ZXhFaHhzLWs3Y0NGc1lYN3V0VHg0aXZtRVduRkRrTmhXdjBjcmZwdnotU0NyekdnTkhXWTlKR0hXNlh2dFV6eU1pRERwcUNrakVCVHllX1QwN0ppQ1ZsX0N4WTFlSWluZXlscEt6OFHSAd4BQVVfeXFMTVE3MGpWbXhXMTVub3ZSYjlTc29BOUV1Z01WSGtlV01PbUljN21IeWg1Q1NpUnlmbFhONGJiS3pYaDJWMzBnU2lXcVRILWowYVZMNk4zZ1lDS1d4WmJRUnN6VEdkRkViRDVWdHBhdVA2WC05RFFBOWV4RWh4cy1rN2NDRnNZWDd1dFR4NGl2bUVXbkZEa05oV3YwY3JmcHZ6LVNDcnpHZ05IV1k5SkdIVzZYdnRVenlNaUREcHFDa2pFQlR5ZV9UMDdKaUNWbF9DeFkxZUlpbmV5bHBLejhR?oc=5",
+   "source": "ETLegalWorld.com",
+   "sourceUrl": "https://legal.economictimes.indiatimes.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T16:28:33.000Z",
    "summary": ""
   },
   {
@@ -351,30 +399,6 @@
    "summary": ""
   },
   {
-   "id": "4367be3ca12e",
-   "title": "IPTV Providers in 2026: How to Evaluate One on Technical Grounds",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSVNUVkg3c1ZhbjlYMmExWGI4NV9jTTE1dFR2bVRLeV9JNXEtZ1NCS1ZJV00tbjMxOXpRWkg4dVpXRGZyS2hIMTJCWTZ6VWNZbVp4V3hFdzRzc25jX3RUYTJxa3pteXFVVUhQWXpIdDM0LVpkWXRkV3p2QlA5SW9RUW0wa1pZQndxY1l0NGpLVHVSc3BUZXFlZkp4SllzT0lROTg0cg?oc=5",
-   "source": "Technology Org",
-   "sourceUrl": "https://www.technology.org",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-08T13:40:54.000Z",
-   "summary": ""
-  },
-  {
-   "id": "27c800e6d754",
-   "title": "How IPTV Streaming Works in 2026: M3U, HLS, Xtream, EPG and Multi-Device Delivery Explained",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdm94X1h2UVh2N0pYbzVBaXZVQnlEYkYzRXRZNGdxWDFkbW81YlVpdkYwUVp4dFhpTVFHdnQ0UjlqbGNOWnFXVkFxWmNNeU9vaGtlSlEzRnJScnhFcUxoZ01ZNUNiN1RFb2xEbkFpdmxBbEV6aGl3MEN1QlhrcDZvQ24teGQ3dG02UHJTZ3Z3R3BLWXZPdmxiZlJ1RFRudG5MV1BqeHNCQXNxdDg0M042Zm1iME1qSzhmajQyOUlmN21DQVpZ?oc=5",
-   "source": "Technology Org",
-   "sourceUrl": "https://www.technology.org",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-08T13:38:34.000Z",
-   "summary": ""
-  },
-  {
    "id": "471f224accc6",
    "title": "أمير القصيم يستقبل مدير فرع وزارة الموارد البشرية والتنمية الاجتماعية بالمنطقة",
    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE43Um9LVllKdzZLU3lDa1FyNVRjVjVITkM5VkE4SFd4QlVhZVY0SGF6dlNWVEtndzVWaEkw?oc=5",
@@ -384,18 +408,6 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-08T12:43:47.000Z",
-   "summary": ""
-  },
-  {
-   "id": "a0444934d1d1",
-   "title": "WIPO Academy Director visits Kutaisi International University",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeFE0UktnQ0RfRnNtWlhoWWJUVThqaXpfSlZERG90NUlWcTYyeE84YkgyU09MOTRKcnZxM1ZDM2pVbGgzOU0yVy1yUExwUjZNRFBqcm9tOEZ0NWxVX2tNNDNXajRDR0FERUhrTGdjdWpCTl8waC1aSXpYYTJpNmhkbVVVbi0zZzkzM2JjVXFHMU1wZFQ0?oc=5",
-   "source": "1TV.GE",
-   "sourceUrl": "https://1tv.ge",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-08T12:28:00.000Z",
    "summary": ""
   },
   {
@@ -483,15 +495,15 @@
    "summary": ""
   },
   {
-   "id": "98a51d5697ea",
+   "id": "fa56a2ce7cf4",
    "title": "علوم وتقنيات / جامعة أم القرى تسجّل براءة اختراع جديدة في مجال استخلاص أكسيد الحديد النانوي",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mYWRGd3k0em8tVlFvbzNmc3FvaHNZMkJuVF9HT0wtcUhiZ2hmYzlLY0JRUEFGWGIzWmpNeXlQR1BUUlM3V3c?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1mYjFQOHZDM0ppZ0ZoZ1Fnb25qN05mQzdaMWxFTDVQRXhMR2J2R1ZlSmk4ckVMRW04TzliRUJWTHRLN2ZRa2lzTg?oc=5",
    "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
+   "sourceUrl": "http://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T12:09:41.000Z",
+   "date": "2026-10-06T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -531,18 +543,6 @@
    "summary": ""
   },
   {
-   "id": "4c8c2c0377ab",
-   "title": "بمشاركة 20 دولة.. معالي النائب العام د. خالد اليوسف يمثل المملكة في الاجتماع الرابع والعشرين للنواب العموم للدول الأعضاء في منظمة \"شنغهاي للتعاون\" في روسيا الاتحادية",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE15QUEwc1EwRS01ZVZscUZGU3RmOWVqQkE3ekxvQlVIZ3I2VUlYcW9xUjI0STFnN2h1OTBJ?oc=5",
-   "source": "صحيفة درة الالكترونية",
-   "sourceUrl": "https://dora.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-04T12:32:31.000Z",
-   "summary": ""
-  },
-  {
    "id": "f80287265fe2",
    "title": "أمير جازان يطّلع على تقرير فرع الموارد البشرية لعام 2026",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYcW1FcGhpcVY5dElPZU1ta0tEem9GWmVmR1pSbV84YkNFRS1EeEpkU0tFWldsMzhaMWR6TFV4eDlqWlo2MFdiR2ZjNU9nVXEyMWfSAVRBVV95cUxNam5PRktOejVkekVSb01qNENJRzFHeTZXUWhOM0s2RzVEbzFEVzhKU0JIWWJKNlNrZm9NZ1RnaDdCaG1rbVJHbUxSWERxZmFTdmx4YUM?oc=5",
@@ -564,6 +564,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-04T10:31:53.000Z",
+   "summary": ""
+  },
+  {
+   "id": "b591d3366b1a",
+   "title": "عام / النائب العام يُمثِّل المملكة في الاجتماع الرابع والعشرين للنواب العموم للدول الأعضاء في منظمة \"شنغهاي للتعاون\" في روسيا الاتحادية",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1DbGU2dkx3LUdrcGFrclEybTNMUHYzdHpSWUh6WFhUU0x6dndxY0JwNDFmOGdLeWJaQ29CU3hfbjJCc2lzZVE?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-04T09:30:12.000Z",
    "summary": ""
   },
   {
@@ -639,6 +651,18 @@
    "summary": ""
   },
   {
+   "id": "1bb7f2b88a52",
+   "title": "النائب العام يلتقي المدعي العام الروسي في قازان",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wYzhwdk5XWWJfcGZfRnRZeUNtUVR2azU4Wld0S0NNV1VMbG0tWVBGemtqMV9TaDU2QXRGYUh2aEM2a1g1VVNDSGI1SFVEMWVZbUHSAVRBVV95cUxQQ3dvMTZ2QkJIUDlicGNSdHBvTU9JS2RhNGJLdjNHOEFPTTJ3dGc4QnVELTZjYXAyc1hVNlByWnRoN1NkWGZ0WkZkZkFzazFESGJ5ZnU?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-01T10:29:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "84badea921fd",
    "title": "النائب العام الإماراتي يأمر بالتحقيق في واقعة طائرة \"فلاي دبي\"",
    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQWVRELU1WV29IQXhqTW1Td1E5NUZoNUptbDRpV2NkUFpVVnhqSHIyN1p5cXV4M0tWR1pDSUMtZ0ZXMzdBR0tHZDl2TTRSY2tKT0ZuNHN1Z0lDZXBQdDZGekRrME5iTjlyODJ2VUgzMmFpQWtFMEFJY2ZSMEJVVHRjWDdFbEdTRzhpcE9xaTNDMmpEZGJiUkl4OXQwaHdrMmd3Y0c2TlpISFBkQTN2QkZkQm5hbmwxYlRrMnhIN2J3UEFTTU5KTDlWRUxRYVFzOHJkdDVtZGQ0MTF3RWd4RXQwQVRSQm9FQS1XSnUtMnFDenhpc3N1VkdWZ1NTY2Y2Y2lqaFR2Nk9PazBNN2hIZXJpckx4bEpUN284OUVPRF9DUHhDcnJNbjcxYzAxRThsc2E1M2Z3em5Ba2XSAb4CQVVfeXFMT3lPemUzWVQ0SnJkTlRhT2l1aGdHVHZyWHNmZ0tWdDZ1ZUNPbTZMZFo2ZV9hMkZLd0R0dFZOcUcwMTNhN1hObXZUV09uM01fcUhITnVkX2Q0MTZXUWVXZHRST1pJaUVTaDQ1Rm9iZ2p3bWc1YlBFRnpTOElFU2tTZEc5djRiUXR6RmhtWm9KSVF6RC1NRGJidkYyYV9WLXFJamxyejR4ajBfQm0teWYybmlrNzJnbmZDYk4zbGVFcFFGajFmVGJMSWlxUlZOeHB0dEs2WjBMb1B1UGNXSG5nWlZnc2Fub2lUOElCVGI1R2NKNWlQZ0xGenlkZEFROWFaRl9IT3Q5ay03ek5FM3lDY05aMXJ1YW80V19HU1NINUtrbWZ4OTQzYzRYMjFqdDhwMTZxSHp5cktIMjEzcU13?oc=5",
@@ -648,18 +672,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-01T10:23:03.000Z",
-   "summary": ""
-  },
-  {
-   "id": "dd5bb67ae453",
-   "title": "النائب العام يلتقي المدعي العام الروسي في قازان",
-   "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQM0ZMRjZpQXpSWmlfbHVuNTY5SC1nSDF4VkR3cExELWIwelhEVkxDUHhWUHY0YU5SWEFKQkpIUi1FVkpDT1lGSWpVOTQ3OGJoSEtTMGRDUGdPdUtZVC1TazN4alB0TThuQ0VNaXFBZGZDOUNkaXhUYjRoVDRLWF9HREFWT2MxS3M3ZzFGaTNvSmI2Uy13dHl5ZzdPZ3ZQcUxzSnlKTEVvZHNpWWtobmlMZ2FRRHY0dGh5NFRNS3JMd1RBRlVqVzlkX09ISEg3VUgtTnJtc1djZ09DTTBGamhiNGdoUXQ4aVZ5OVlLYU9fbFpfeTRkRzBIbnVicnh3TkVaZTBXU0FEclpqbS05bmtKbExTNDFId1E1S2Q1ZWxtTUFKcjJ6V2pQczNlNUNTaU9GdXYyOVJDaEtzd2J0clFaWDBSVnd1QndlZTlwdmJCQWJwTFNoSjU1Ukdxc0dSMHlYUFBEYVRpTHROdmdVcG9tVGRlQk82V3lWUjQ5TlVWTVhncXp5b0ZJOWhmQnYxY2trNzl5UWFpTnZIVEpFcEl5bXVHTXQ0Y2M1WnJqaXFJWDc2UmpRZHFZZHhSaGZhM3JWMVpnMV83bw?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-01T10:04:00.000Z",
    "summary": ""
   },
   {
@@ -711,21 +723,9 @@
    "summary": ""
   },
   {
-   "id": "846ba5e69440",
-   "title": "عام / النائب العام ينوّه بمضامين الخطاب الملكي ويؤكد أن العدل ركيزة راسخة في مسيرة الدولة السعودية",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE85M1NHcVZVYXdOZVZBam00RzN6OUdnR09WMVdubnBLMHlTOWk0bklnUEw3d09OcmZfVDloREhmWkVlbHdIQlE?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-01T02:44:50.000Z",
-   "summary": ""
-  },
-  {
-   "id": "435b79fb035f",
+   "id": "e6e4ee864c54",
    "title": "النائب العام ينوّه بمضامين الخطاب الملكي ويؤكد أن العدل ركيزة راسخة في مسيرة الدولة السعودية",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1paVpaeFJ1c3oyZ2lFbU1aNnZVMzNOSE5TS1NYSXoweXNvY1hWMGxJVnN2SnEtT0RKTzEybDFYNkswLVFHbUFvVWR4empFTTZURUdB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMigAZBVV95cUxOMjV3SzE4XzBlbzdNTWNJOFVxRFlQc25rTzRRVWtQcWhrM3ZrQUtyS3VBUmFVcU1pWk03UWZBdnZoVjR3d0VxMmlZcmVPM0dnd3RJeDJoNzNZWVRXYWk2NnFvVS1qM1JYdXhIMzZYN1JubXpLMXNTRHROWlZ6OVRNbGxwLUtLcmREUEhtTXFVRldmdVJIbWotSE0wS0xUTHQwMTNCSG9xZ3JKZlVYa1BrRGQwaTdIUW03aTk1TDBIZTU5UnFUOEpVZlRTTzI0VGlIYnI1czA5M095a1lVQU9DZ25hZ0pubVJPLU5fU1Frd0hySmJDZ0RUbG0tcU9tMlFrbzZZYm5YLXVuTGRjUmhZbHZrZG9Sd3VOOUxfdnRHOVk0eVZYOG5Mc215Tld0MktRRk44VWx0Vm8yR19aa2RGMG1VTmtnWU9Dck5BTzJWTm05a3dWVmRiWjViZkJLMzBHandYWUl0eWZEbnNqYks4UGNtamZtZHFmNURUcWlsU2wxYjN5TmRFcEJCcXVGa181b1RjdEpSamcxSzZkRmlFN1lVSkhEYXF0bWRSYWh6SXJJejY5YzRnR3pKMnptQ0pJSGhJb1JTS3hKenR2TEZtSE5jd0o5cEZOV0NXcm1RZFpHT1Y2ZXBmM0wzOElTVm5yRDhnRTlxUFlyeHY2RjJQZ3BWYUxuZGxSUWsxNktnbmFWWmtqeTZsUGpUZUZjU2k3bFZBR2JEMDhKWjJlVEUxQUVPSW5uMktPcGlZcHJTVm1oWW1DSzR3cFlBa3EybUd0enk5bnhSVzVSM01zQVlnVlBWNmI0eWhBam5XTk00X0pmc05aZFNzMkprRk1tcnFlc1NoVUdOMUpBbzhpRDJyY3gyMHlTZS03OGVHRFEzS2M1aG1CMlZfVDRtdFdXQU1PRVhncU9aNzJfX1FGdXFvbExjTTktX1lJdGdaN1o0NGxoQVpxdGw4VlZ1YjduUHJCcUFvSnpzSzZlNndENjh5a0s1NHBGdFUtYktIcW1QVXM?oc=5",
    "source": "جريدة المدينة",
    "sourceUrl": "https://www.al-madina.com",
    "scope": "محلي",
@@ -780,18 +780,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-09-27T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "95153a98aae3",
-   "title": "البراءات توسع حضور المخترعات السعوديات",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRVhqZ18tWUV6N3c4WkRHdy03QTMzc1A0a0k4MWx3dWVTWHo0NE5QSTdXU1NSaVBjVElJVEp3QUVadkFJNEQ2MTVDaU1wTUszSVFxUllpVFd0ZUQtZHJGSHAwT0pESE5zWU1XZC13X2dkY1FkVTZaVlB6UldlLU9PZVQzTUVkYWM?oc=5",
-   "source": "PressReader",
-   "sourceUrl": "https://www.pressreader.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-09-23T07:00:00.000Z",
    "summary": ""
   },
   {
