@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T12:10:13.932Z",
+ "updated": "2026-10-10T12:28:08.195Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,7 +9,7 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 53,
+   "fetched": 54,
    "kept": 11
   },
   {
@@ -21,8 +21,8 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 66,
-   "kept": 47
+   "fetched": 64,
+   "kept": 46
   },
   {
    "id": "ip-global-piracy",
@@ -33,8 +33,8 @@
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 89,
-   "kept": 48
+   "fetched": 91,
+   "kept": 51
   },
   {
    "id": "labor-local",
@@ -45,23 +45,11 @@
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 57,
+   "fetched": 58,
    "kept": 20
   }
  ],
  "items": [
-  {
-   "id": "f1f53812bf0c",
-   "title": "Religious Significance Of 'Annapurna' Does Not Bar Trademark Protection: Madras High Court",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN0hWVTNfcDN4NzRuU3p6RDN4cjlEZXpLaVVKVUVsREFyYXpuNkRxTFhBTERIb3lnVTV3WkQtd19UUXB6VkI0ZXZmMzZ1WmpLb0hBcEVSV2pMZk9JYVNEQ21OcmVyLS1fbVVaYkRVUWo0RzNQUjMtUUwyODExU0VjSTQ4bHJNdEJfZ1V5ZEpPLU1IUWJXUll6U0VTcXdFTEhfYjV3MUVIekdIeDU3cHNTR3ZpVExWQWNUS3Z5cXpXbk5ObldPdHFDUDJkbEduUVV30gHQAUFVX3lxTE83SFZVM19wM3g3NG5TenpEM3hyOURlektpVUpVRWxEQXJhem42RHFMWEFMREhveWdVNXdaRC13X1RRcHpWQjRldmYzNnVaaktvSEFwRVJXakxmT0lhU0RDbU5yZXItLV9tVVpiRFVRajRHM1BSMy1RTDI4MTFTRWNJNDhsck10Ql9nVXlkSk8tTUhRYldSWXpTRVNxd0VMSF9iNXcxRUh6R0h4NTdwc1NHdmlUTFZBY1RLdnlxelduTk5uV090cUNQMmRsR25RVXc?oc=5",
-   "source": "LiveLawBiz",
-   "sourceUrl": "https://www.livelawbiz.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T10:47:01.000Z",
-   "summary": ""
-  },
   {
    "id": "a5dc163bbbc1",
    "title": "جامعة حائل تنظم دورة عن الملكية الفكرية",
@@ -72,6 +60,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-10T10:41:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7d97f53f9b3e",
+   "title": "IPTV in 2026: The Future of Smart TV Streaming, 4K Entertainment, and Online Television",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGh2RHBRU3ZScDVzLVFGSXpOdjduSGhURjJqcVotVnd2bXlPYTFCbnFrOXY5RUZvclNualRFSDZTRE9iSFVmeFFLaDA2VDNrMW8yWWlBTTRna0FmdExrc0o2ZFZOS25KcUJKRmJkd1RvQ3hRQVFDUXZ2NG4wYVNjanc2TGcwNmJJYVg1MWNoZmZFUVFnNlpQc3dIRjN5TTNudjIxeXNUT1ZHWUkxSlE?oc=5",
+   "source": "TechBullion",
+   "sourceUrl": "https://techbullion.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T10:30:01.000Z",
    "summary": ""
   },
   {
@@ -111,9 +111,9 @@
    "summary": ""
   },
   {
-   "id": "67d24ebb328a",
+   "id": "bdf3f18e3fcc",
    "title": "Indonesia hosts ASEAN forum on journalistic copyright protection",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbElLUm5hcm9IM3VvUnEzUFdlZHluemxXOWwxeUwxQmVlSVRReXZ0VTMzWS1SR3R5ZGMtcWRWYmlaM0NGLTdTRlFKaXJma3dRY0toLW9sdkYtQzdxNHVSYTZvT3owNmtOYVpIOGxVRUxQVkZUWFQ5dUNvSlc3cDJUdmtRTDBOelNyZ0NLN3NaZHpPTmg3R0VYUkFJOTEwUkFSZ0tOWmtZX1hPd9IBqgFBVV95cUxNbElLUm5hcm9IM3VvUnEzUFdlZHluemxXOWwxeUwxQmVlSVRReXZ0VTMzWS1SR3R5ZGMtcWRWYmlaM0NGLTdTRlFKaXJma3dRY0toLW9sdkYtQzdxNHVSYTZvT3owNmtOYVpIOGxVRUxQVkZUWFQ5dUNvSlc3cDJUdmtRTDBOelNyZ0NLN3NaZHpPTmg3R0VYUkFJOTEwUkFSZ0tOWmtZX1hPdw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSmE1T0gycHpiSnVVVEZSbU9VM1JOZE8wSmRXV1F0YV9rMm1sWDFKbEJFdEIxa2dMeTBWVFN5RUc5OHRSVkZZMDIxWlc5RzNzYkhHQXgxa1ZxWVVSdEczMmNOUk40dk1rd01tcmxCYWdxa2t6VWdlLU82N3M2cUdHeTJMS1Z2TE5abnpVT3JBNFNHN2xLMkhQWkZjZ1l1ZnVyV1BxYdIBqgFBVV95cUxNbElLUm5hcm9IM3VvUnEzUFdlZHluemxXOWwxeUwxQmVlSVRReXZ0VTMzWS1SR3R5ZGMtcWRWYmlaM0NGLTdTRlFKaXJma3dRY0toLW9sdkYtQzdxNHVSYTZvT3owNmtOYVpIOGxVRUxQVkZUWFQ5dUNvSlc3cDJUdmtRTDBOelNyZ0NLN3NaZHpPTmg3R0VYUkFJOTEwUkFSZ0tOWmtZX1hPdw?oc=5",
    "source": "ANTARA News",
    "sourceUrl": "https://en.antaranews.com",
    "scope": "عالمي",
