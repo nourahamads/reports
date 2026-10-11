@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T21:40:53.616Z",
+ "updated": "2026-10-11T05:42:41.350Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,95 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 52,
-   "kept": 12
+   "fetched": 56,
+   "kept": 14
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 63,
+   "fetched": 65,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
    "fetched": 67,
-   "kept": 47
+   "kept": 49
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 76,
-   "kept": 56
+   "fetched": 80,
+   "kept": 58
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 87,
-   "kept": 47
+   "fetched": 90,
+   "kept": 50
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 59,
-   "kept": 6
+   "fetched": 58,
+   "kept": 9
   },
   {
    "id": "prosecution-local",
    "ok": true,
    "fetched": 59,
-   "kept": 19
+   "kept": 18
   }
  ],
  "items": [
+  {
+   "id": "ce9f7b4799ad",
+   "title": "حقوق الإجازة السنوية في نظام العمل ومدى جواز إسقاط رصيدها",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT29XVTdvV0RzUk9pYUVrYk5JN1lQclRiSElTV3BpbmR1emFQMHE2QnJCOU1QT0UtaXhJUWs4VlpoS2gxYzVCTEdIQWtJaWxSYmRBbHdyLVQtaW9zSkwzZ0tGZ1pvbzNacnB6Z0tyN3E1aDBWTngxaXBUM2ZtVkotdWg2ZWNFaW9sc25kakpxR0xjZEVzOFBOY2VLb2tjREQyQkFjaWMxbw?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-11T02:10:33.000Z",
+   "summary": ""
+  },
+  {
+   "id": "116090a11225",
+   "title": "Globecast relies on Enensys for large-scale IPTV monitoring",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY2dlNTFNQ2lUTnZnMWlhbzgxYmJNV1lvenpGMDI2dmJLMkI1RGZqbU13YlF6ZzRRVHFvdWRYYTRBVXViS3h0MjY3ZlhvX0dDS3NZeVQyLTZYS3hfUVZRVGllN2dIWEV2dWdVRG9rWU8zelJGMkpJblduZXNHdEZWSkc3ejdWUllabzFGT25KOUUxcm0zTjdzNGsyaXpFV3FBdFA4ekNR?oc=5",
+   "source": "Broadband TV News",
+   "sourceUrl": "https://www.broadbandtvnews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T22:25:49.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ff72f19f624d",
+   "title": "إلغاء رصيد الإجازات السنوية في نظام العمل السعودي",
+   "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxNODVPYUt3SUNDQWtGYnhJMXVjcnBfRDFnNnhfQmZobEpXVTRFQ0Z0U2JrNnZDT3BzSlp3NXZvZU4xTDlKXzBjVGFrekV3c3lZUEc0MHdKaFc1bVE5c2pOS1lzUHpueUVNcnRMOWJVdnVaNlg4dFd6cUQ0alZ3N2xnV0VTdTNnaV9lNWpXMktkdHNpZlZjVy1KYkJfNWYxRDhKdHk0WHZFcWQyZ3VQM1NWclpkNlc4U2dBeGJpQjdnRkJ4RTktWGlBbFhDLW9PcXhBUkd0OWpSdG1xQkNIdmd1RzRfNWFsQnpWVVdiRm9PT2gxRE9PMEVrSFhCU1RFUGJmaWd4Vjl4RVp2Z3ZjbERjWXdIYmN5WHhQdDRBV0h5UDk5c2tYemFWOE1DRnlPZE1GTzBQU1VxQmw5Z3pQNUVLT0psWlEyeVdoNjZCcVJjM1cyem1wWTk2WFdhZzJpWWdhSVRBM3VfSWxVN3BEMDhVLVRLWTFKSVN0SGYzNFMyanZHdFo1RnpkY2hiZzZtRUhLV3fSAZcDQVVfeXFMT2RlSVhKRFNnVEtZa05hVXRMOTB2YU1xamR1Y3dqN1BPUktMSnBNSDl4M2s1RllZNnIySFZJdW5hNEVuVlNuRExIN1huQVNFbmJxXzFLZmxlSTFtakhpbkhGak5OazRvN0Zvc3E1WVQ3OVZnZGtQN1RxTEZVSEc4d2NDdTVGT29tclBFWm9ZMGNxTFdpZHlaa2hfbU41djEtY2xRRTdjdktESXZGOWxZMHRuUzJKNDdnMUo2Y1ZxaU5iMEhSbkN1TjE1WDJNTWJUMW4wd0hKT3BtU0huVzB0QUZXbFVlWUpWXy1RRmR0b3NfRTBvaThFVWIzWWFGVnJUZ01mbXp5MXByc19kU05yLUcxcm1HbXpKOE1falpYNFVpVU10dVU3M1c0RjhJa1VLWERoSFBBcVc1TldESEg2QlBPYTdjRDRWSTdmX0h1WnpIcFBib1dXRHA1QzcwdTBzdFRhNWM4S1pVbklhZWo3WGFvWFZEbTkzbmZTSFk1Y0M3TTFYQUhldmFSVEgtQng1b2NzdDFWb2M?oc=5",
+   "source": "خليج نيوز",
+   "sourceUrl": "https://www.5lejnews.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-10T19:46:08.000Z",
+   "summary": ""
+  },
+  {
+   "id": "12560ecedf28",
+   "title": "إسقاط رصيد الإجازات السنوية في نظام العمل السعودي",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdEVrZFpRNmtBMnlqeHpBQTJHVjRFc3VOREJqd0VaOHlUbHMwa3RiRWxVSzJxSGRXS0RpV2x0WjdFSjE0cVJUX3R2YnpyQXk0cVRoV3BhQ3o1MmVPV2dOeC1zLXVrSHJBVTd6U2hUWUR2eGlxaWs4alpRX2pNcEVkdnRVWnJWOWl1bGdXTHlDcG9meERZTmhBeS1fTms5N0F0cDgtV3REdWk?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-10T19:13:27.000Z",
+   "summary": ""
+  },
   {
    "id": "5c27d7653e1f",
    "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
@@ -60,6 +108,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-10T17:33:16.000Z",
+   "summary": ""
+  },
+  {
+   "id": "25bb3722fc5d",
+   "title": "غدا. جامعة حائل تنظم دورة تدريبية بعنوان \"أخلاقيات البحث العلمي والملكية الفكرية\"",
+   "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNdzlfMTBmeWZweHJuR3JqRlFvZ05nZXQwMjZUMWpDdGdQRnIzRUdsUENuQ3FtSEdJM1VudG1sQkw0Z29mZkxHZlhkdHZCMUZuM0dHOEdNV0dpUEJWai1iTldXdVBIZEgxdC14ZWIyQ2JaakNyOHZMU01xY1M2QTlXSURJeXdqbXIwWUYtTzhPckROUnd0d1RlRVRub280Wm8wWG5RbHk4YzNzeWlwUkRxWVNyN0R3M2NFT1hTbEVHVHBkRXlyaXZJVHYzOHJkc0VhMldoNUJPWmNuMnVPNHY0OXpOSFBfYm1aTmZrenJsNWRUSUJtdUVPc1RRQk5uX2JSeXBvT0ZpMnpBVDhaQTVxQ3JMSU15WUM0azZnNllLR0dIOE0ySXFyMTA4M0lQTTFtUWlTbjZYS1o4MGNWbDV4NVdSMFF0VmdPR0E3Q1h3?oc=5",
+   "source": "صحيفة العروبة اليوم",
+   "sourceUrl": "https://www.al3robaalyoum.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T15:18:46.000Z",
    "summary": ""
   },
   {
@@ -387,18 +447,6 @@
    "summary": ""
   },
   {
-   "id": "aa801af09c5e",
-   "title": "TRADEMARK—S.D. Ga.: Furniture retailers can pursue cancellation of rival’s HOMETOWN marks and abuse-of-process claims",
-   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPY2pQVnFldFB6YWdCSEUzcVpINlRmQlFOa1BsS0doLWpVRnhLb2hHWHVVcW9QR0VpSGNrV0FfbmltMGhVSXRhVWMtNE5xZV9tM1BkX3g3VmFRUjRaeXlHZ2I2REZQeWx3WEZVOHRna1FIcVRBX1JOV1kzWldWNlV2YTdTMXhCd0Z3N2Y3STRxbmlFZlZZdnNXLVNsTFB4dkdqSkRZaEdNc0tVMU00YUdCODZkSy05WGRsaG8ySS1halBwZzZSbW5rb3dZR0ZUNnpkM01oZ3pfNFQtM3MwZU5fTjF4Mm4yYUt4N292b1pfVXE1bE9US01qdlRFYmxITU5oMGt2NWpQT1poOHl2Y3FF?oc=5",
-   "source": "VitalLaw.com",
-   "sourceUrl": "https://www.vitallaw.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-08T23:24:25.000Z",
-   "summary": ""
-  },
-  {
    "id": "86e5e5508ccf",
    "title": "Dr. Luke and SD Broadcaster Copyright Case Enters Settlement",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXBabWVQck1tQkNwSGRvY1duVUhQNXV3QlR5RXVQOV9VUmk4MmF1RDZOQV9rckN6OWxvR1gzako2SmsxS01pQWQ3YjNfclJUc1pQQnBGOHlrSEc3ckRWcS0yOTdxSVJiQlBJNFd5bHF6Y3JCU01RQVV6SGFLa19YVDFNOVNxUXVtUTdfN19Vbw?oc=5",
@@ -444,6 +492,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-08T12:43:47.000Z",
+   "summary": ""
+  },
+  {
+   "id": "3d0d840f2e0f",
+   "title": "الفاخرة تشتري 4 علامات تجارية بمبلغ 39.2 مليون ريال",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1paWFLVUlsZkhNOHF6dHAtOVpHOVZ2RVlMNkhrNldBdjVlLU43RkFKbm14d2ZBNFAydmNXOXFNYlJCNXAwWjBLNXVLcmNyUXh0QWo1X2ZxODNoWEhxVUlmS2J5OG1NTlhGY3c?oc=5",
+   "source": "ارقام",
+   "sourceUrl": "https://www.argaam.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T05:25:51.000Z",
    "summary": ""
   },
   {
@@ -498,7 +558,7 @@
    "id": "77367e2600de",
    "title": "تقديراً لأثرها المجتمعي.. وزارة الموارد البشرية والتنمية الاجتماعية تمنح \"كاتريون\" جائزة المسؤولية الاجتماعية للشركات 2026",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1CN0xWRUc0a1doUXJMamNJajNSYmFNN2p2cWNuUkhrUDYwWktLX0RBa1FJclo4QVlrUkhLOXJkUXAyS3dZeE1n?oc=5",
-   "source": "سبق",
+   "source": "صحيفة سبق الإلكترونية",
    "sourceUrl": "https://sabq.org",
    "scope": "محلي",
    "topic": "labor",
@@ -507,15 +567,15 @@
    "summary": ""
   },
   {
-   "id": "fa56a2ce7cf4",
+   "id": "98a51d5697ea",
    "title": "علوم وتقنيات / جامعة أم القرى تسجّل براءة اختراع جديدة في مجال استخلاص أكسيد الحديد النانوي",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1mYjFQOHZDM0ppZ0ZoZ1Fnb25qN05mQzdaMWxFTDVQRXhMR2J2R1ZlSmk4ckVMRW04TzliRUJWTHRLN2ZRa2lzTg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mYWRGd3k0em8tVlFvbzNmc3FvaHNZMkJuVF9HT0wtcUhiZ2hmYzlLY0JRUEFGWGIzWmpNeXlQR1BUUlM3V3c?oc=5",
    "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "http://www.spa.gov.sa",
+   "sourceUrl": "https://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T07:00:00.000Z",
+   "date": "2026-10-06T12:09:41.000Z",
    "summary": ""
   },
   {
@@ -636,18 +696,6 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-02T18:29:45.000Z",
-   "summary": ""
-  },
-  {
-   "id": "3195ad38f774",
-   "title": "النائب-العام-رئيس-مجلس-النيابة-العامة",
-   "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNTU9fUWo1MGhXb2JIbHBIS1VmdWpzcHdObkJsRmdTSkk4TDlKdXlZemlZQkh5bUdLWDZyUFhhRlRNWDlHcWpDbXhudFVic20wd1l3MWVGYi00RklyVExQTVNSR2Rhamsyd19CU18zc1M0MnFNRmNodjlqeDh0cW5QVHRPcWNxNmQ2Zy1fNmprQU1DLUFPN291TUQ3YlFoTC1ySzVQT2xOb1VLc3RHc05sN3NNYS1uUEo4ZTRpUlMtdnZWSDJKZFhoSWxDcERHdU9LWmo5X0pRLU8yMHA4UzRmSXVkTWFhNThMTG5RdFZqTFNNanViRzBUYmxuazkwYnp0LUtFOFR1SllsaU4ydG05dGJ5NmF5Q2ZzNHRJTWlzS0xQTFZZbWZPNmNWalJvSEhLaWlpeTI0SVA4eGVFMmxHQ1pQS2hncVJJZHc?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-01T11:08:40.000Z",
    "summary": ""
   },
   {
