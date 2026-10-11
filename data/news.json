@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T12:45:35.617Z",
+ "updated": "2026-10-11T21:55:26.273Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,7 +9,7 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 53,
+   "fetched": 54,
    "kept": 14
   },
   {
@@ -22,34 +22,106 @@
    "id": "ip-global-enf",
    "ok": true,
    "fetched": 67,
-   "kept": 48
+   "kept": 46
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 82,
-   "kept": 59
+   "fetched": 81,
+   "kept": 57
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 86,
+   "fetched": 87,
    "kept": 49
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 61,
-   "kept": 10
+   "fetched": 55,
+   "kept": 11
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 58,
+   "fetched": 54,
    "kept": 16
   }
  ],
  "items": [
+  {
+   "id": "7405016ed3f2",
+   "title": "الملكية الفكرية في السعودية تشكل 14% من الناتج المحلي",
+   "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxPOGt0akU2RTVBUWJMdGpsaVVwNkpvcEZwZld1NWtKelFtNXZZUmllQjRzc1ZCdkFtTVZBNnJxVTZkaEFvM0VZRUtMV2pFMGpKd2pfX0RSS1BSd09mdGVRQ2hySUI1MEtGSlpNMUVTdmdzQ0VUeU9rT0RoX201VnVLZkdidHYtd2g4M2s0UGRfRTN0Z0hucnFNUmVvUHpVaWZqT2F6N0dmdzFSZERITV80TThTaFB6dWlLay12QnhhWldrWnlyN3d5QjB2S0NCZzBBYkFGUDhiTzVCVGVJQUNaRkdfMlNiaXp1ZEFncEMzVGhOQ3lJRllPVEUtTGxhMG9mZ3Byb2tLelgwNTB2ZHhDM2xsbGVkNUdfRWFfWU1WZkxYenJyUlNobzJVUHQybEZqRFFibkVjVXRlSldKUXVBUG5HTXNWS2pxb05rRzJ2T0ZPWXlBeDFycXBKeWJrQVB1d3ZRVEg0N05vX1N6YVdneG90VVNQMVM5SW5TOWFvcjYzQkJ1N1BmNDJVdHUzZ2oyOGllVWJpVnNGWlAxZ0djc2tIbENIT2xFX3c1UHRiUGQyNVB0ajFnTV9Vd2tGSk1zNnhTeElfd1k3NUpCWEYwd2tvQTNUZUhT?oc=5",
+   "source": "الاقتصادية",
+   "sourceUrl": "https://www.aleqt.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-11T21:12:10.000Z",
+   "summary": ""
+  },
+  {
+   "id": "273c25041196",
+   "title": "Vietnam Opens First Copyright Infringement Case over Japanese Media",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPenhRbkU1SmNZRGtEWXhtVllmcGVpMHBCdXFjZEpRSE4tUVIwRVlkSjFfRFNhcDJxaTUyNnpYUnFpUFlBd3Z2ejRSSUhZb1pzSmV3RVJwcHhldUUwZ0h6NE1haXNOM1MtUy15X0FnSUxncWlfdUZXVzZGLUJ1TkM3SEpyV19PcEpENnZad1JES3pMV0pWNVE?oc=5",
+   "source": "Retail News Asia",
+   "sourceUrl": "https://retailnews.asia",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-11T19:20:42.000Z",
+   "summary": ""
+  },
+  {
+   "id": "c9dc8649e8c8",
+   "title": "عبر هذه المنصات.. بدء مهلة شهرين لتصحيح أوضاع العمالة اليمنية المخالفة في السعودية",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aVlpNVW1hVjQxblJiei1ySzFsU0FkcWZiTTFQNmZJaGJQQnZ2d0hSLV9nelpFZ0s5akI5cmZrQ2V0NXhidFpLNg?oc=5",
+   "source": "تهامة برس",
+   "sourceUrl": "https://www.tehamapress.net",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-11T17:18:08.000Z",
+   "summary": ""
+  },
+  {
+   "id": "859e2225322e",
+   "title": "عام / النائب العام يشارك في الحملة الوطنية للتبرع بالدم",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBRVTVyZnRLLWRhRVNCLXZBQkdPMWRGY0l3ZG55cVM4YktBZEdPVm5hQ1Fmb2o5UXJiVWlTR2RlVHJvRHlNTGc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-11T16:41:23.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9c5163fd3aaa",
+   "title": "4K IPTV in the USA (2026): What to Look For Before You Cut the Cable",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZXVDeGY0Y1NYMFBCaEJDSEVJNHhmYjh3NzB5V29FVXhlY0lmb0JGRlBrcXI3MmhqX29lc0c4eHNPQm9hbHhwYjJDOEhfQ1BiM0RxeVVXZ2hOaGVWZ0VzcV9NTTRWam1lSVZ1U2R3WVhSTkgzZEl2MUNtWkhvREN2QWZDWlJQQ09RQkMwcERMN241VWpw?oc=5",
+   "source": "TechBullion",
+   "sourceUrl": "https://techbullion.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-11T13:53:58.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7efead216b53",
+   "title": "How IPTV Is Changing Television in Canada: What Cord-Cutters Need to Know in 2026",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMWtxNGkyY1NiQlBlSHFfZlZHdFVOcml5enc2V3c4QmZlcEZUdnpsRVExajZoV1ZqVjM0ZVVMX3RCT2doY05JUl9rVnlERHQxbUQ3X2dkMVFDbDdRVjZwMm1YUzNESGIzWGowdHN1dVE4bWM5TDRMZ0FPbVhSWUM2SmpQZE9BU240SXNDWjJ6MEoyRmtYMW40LUVyRm9HUkgxVU53eEE0ck8?oc=5",
+   "source": "TechBullion",
+   "sourceUrl": "https://techbullion.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-11T11:48:28.000Z",
+   "summary": ""
+  },
   {
    "id": "ad9a56563aee",
    "title": "IPTV Subscription Checklist: 10 Things to Test During a Free IPTV Trial",
@@ -72,18 +144,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-11T11:38:28.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7efead216b53",
-   "title": "How IPTV Is Changing Television in Canada: What Cord-Cutters Need to Know in 2026",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMWtxNGkyY1NiQlBlSHFfZlZHdFVOcml5enc2V3c4QmZlcEZUdnpsRVExajZoV1ZqVjM0ZVVMX3RCT2doY05JUl9rVnlERHQxbUQ3X2dkMVFDbDdRVjZwMm1YUzNESGIzWGowdHN1dVE4bWM5TDRMZ0FPbVhSWUM2SmpQZE9BU240SXNDWjJ6MEoyRmtYMW40LUVyRm9HUkgxVU53eEE0ck8?oc=5",
-   "source": "TechBullion",
-   "sourceUrl": "https://techbullion.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-11T11:33:48.000Z",
    "summary": ""
   },
   {
@@ -207,6 +267,18 @@
    "summary": ""
   },
   {
+   "id": "5f625830a2b9",
+   "title": "Religious Significance Of 'Annapurna' Does Not Bar Trademark Protection: Madras High Court",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMllJSzRrb1ZGek12WExJeEFXNzMzU0dBbnNKaVhhS3FsVUZfS0o1V2JidjdhbkxPcDY4V0JsbmlOckg4M2FnX3JwX3U1ZXNRRi1UeEMxeGZsYmJiX25qaFBEbHRyeUE3eFB2Nlk5YWJkNDhReUtubFB1M3dyOU5WZmZZME5yclFvRldTLS1wazJadEdGU0NDcm5JdkM4alVWdFV0R0tnRGRGNE1qYkFwQjRsd05wUVJ1WUdMYlgyTHByeTl2VEhnT1B3TdIB0AFBVV95cUxPN0hWVTNfcDN4NzRuU3p6RDN4cjlEZXpLaVVKVUVsREFyYXpuNkRxTFhBTERIb3lnVTV3WkQtd19UUXB6VkI0ZXZmMzZ1WmpLb0hBcEVSV2pMZk9JYVNEQ21OcmVyLS1fbVVaYkRVUWo0RzNQUjMtUUwyODExU0VjSTQ4bHJNdEJfZ1V5ZEpPLU1IUWJXUll6U0VTcXdFTEhfYjV3MUVIekdIeDU3cHNTR3ZpVExWQWNUS3Z5cXpXbk5ObldPdHFDUDJkbEduUVV3?oc=5",
+   "source": "LiveLawBiz",
+   "sourceUrl": "https://www.livelawbiz.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T10:47:01.000Z",
+   "summary": ""
+  },
+  {
    "id": "ee4bff882f2f",
    "title": "الملكية الفكرية في المملكة العربية السعودية تمثل أكثر من 14 في المائة من الناتج المحلي الإجمالي وتعزز النمو الاقتصادي المستدام",
    "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQMzhSdTVMM0JFWXM5N21UekZta2s1Q29mZjJhT1JJU09Zc1NNbmxlbjEyYmtmNVhRcFBEa09ac0J2UlhEby1iLWlIX1gwUngtVUNYZWl6ZjNDSkxrZFphUzU1UGJFMkZXR1gwOFlFV3llXy01bGtNcl9HNHJwWUQ2bk1qOExFSXlRSEJaX1RIMnRnMHJLMUtoQ0NNMFdma3hDLVI5NDg2NjBoQ1o0b1JwdURHMS13UlF5ckRyQ1FGVGM0UmZ1S1VtU0NUYVJZNXA1bC1reUNSeldtTkUwbk9sY0N4MWNtNjA5VFEtXzhfTUVaUF9yR1YzQUlMNXBWUFJ0RGVoMmFUUzZvVXd0R09vdUJlZGk0Y19yTEhIOF9GclhUNzRhbnJLQVE5LVlpSnN2eWVqdVZLTFN1WktINzNraFJkVVhVRTg?oc=5",
@@ -216,18 +288,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-10T09:16:36.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7405016ed3f2",
-   "title": "الملكية الفكرية في السعودية تشكل 14% من الناتج المحلي",
-   "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxPOGt0akU2RTVBUWJMdGpsaVVwNkpvcEZwZld1NWtKelFtNXZZUmllQjRzc1ZCdkFtTVZBNnJxVTZkaEFvM0VZRUtMV2pFMGpKd2pfX0RSS1BSd09mdGVRQ2hySUI1MEtGSlpNMUVTdmdzQ0VUeU9rT0RoX201VnVLZkdidHYtd2g4M2s0UGRfRTN0Z0hucnFNUmVvUHpVaWZqT2F6N0dmdzFSZERITV80TThTaFB6dWlLay12QnhhWldrWnlyN3d5QjB2S0NCZzBBYkFGUDhiTzVCVGVJQUNaRkdfMlNiaXp1ZEFncEMzVGhOQ3lJRllPVEUtTGxhMG9mZ3Byb2tLelgwNTB2ZHhDM2xsbGVkNUdfRWFfWU1WZkxYenJyUlNobzJVUHQybEZqRFFibkVjVXRlSldKUXVBUG5HTXNWS2pxb05rRzJ2T0ZPWXlBeDFycXBKeWJrQVB1d3ZRVEg0N05vX1N6YVdneG90VVNQMVM5SW5TOWFvcjYzQkJ1N1BmNDJVdHUzZ2oyOGllVWJpVnNGWlAxZ0djc2tIbENIT2xFX3c1UHRiUGQyNVB0ajFnTV9Vd2tGSk1zNnhTeElfd1k3NUpCWEYwd2tvQTNUZUhT?oc=5",
-   "source": "الاقتصادية",
-   "sourceUrl": "https://www.aleqt.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T09:10:51.000Z",
    "summary": ""
   },
   {
@@ -267,18 +327,6 @@
    "summary": ""
   },
   {
-   "id": "bfa05d9e35f3",
-   "title": "Best IPTV Router and Wi-Fi Setup Tips for Buffer-Free Streaming",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hV0hSX1BhVE5iTjZIUW1aTDBRYW1NakpDMHNCekYwdHZaOFVkd1RlN0RyRGlva1NMN1FaMFRQV0pCeGJ1cnRTbjRDWkN0Vnh4SXE3SWlmSktOQWNmQ2lFWVNqaktYZw?oc=5",
-   "source": "SugerMint",
-   "sourceUrl": "https://sugermint.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T01:19:08.000Z",
-   "summary": ""
-  },
-  {
    "id": "973525563528",
    "title": "World Trademark Review Recognizes Morgan Lewis in Inaugural Copyright 1000 Rankings",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMFRUWmFDYVU1TlhhWlFjd2ZqYldrdkRzUHJzSWhWVnBuX0dSZUJFVWVhdzlIS0l4SlBFdjFCYlpNaGZTSklOdTZRTWhwUTMtZVpZM0xSTUUydXdvUm9hYWZTTzExbjJTOFpYYzlRX29iWlJ1TU0tUHQ5cWpTdUNBYk8xRlJ0dks2bHl4VlV3NVBPYTdwUnJnb1dOeTdKQ291OHEyVHJMZ1k3V3p4THlCVTViOUFFc3BnOEFYU0VoUk9NZw?oc=5",
@@ -288,6 +336,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-10T00:19:23.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ad8b035b3a8e",
+   "title": "Counterfeit goods operation shuts down illicit traders in Sunnyside and Marabastad",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOOGJ5X21paDlHa3VrOGVoZEU2Smx4RVpBcUlNUnh2X01BeXdQbFdrbHp2RUllMmljaVVyX1A5bnZzdDFneHJta0o5UmJKc0Z3NVVXaWNBOHB1Z1lKQ3hYZDFVVlZ1RjRGUzhPWWF3aC1iS2hUanZibm45azI2TTVKczloN3BrZ18wM2ZwcWZzSno1MWwxeXRBdGtWTWl2YWtrV2xydWZ0YndqckZkT1ZSQWtBQ01YNkNheUJkSzVjVW5TR3BNZU1XSUdRVVBxNmY1LVlDUFJEWnlTTndwU3Bub3dCZUcwQllSYXFLLUo3b0s?oc=5",
+   "source": "The Citizen",
+   "sourceUrl": "https://www.citizen.co.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T20:09:18.000Z",
    "summary": ""
   },
   {
@@ -303,18 +363,6 @@
    "summary": ""
   },
   {
-   "id": "267506522ca4",
-   "title": "جديد قضية \"فلاي دبي\".. النائب العام الإماراتي يكشف التفاصيل",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4VG5vQ0JKdmJycVZyWTJVNTFFZG9QMmUyWWIzb2Y0X3I5a1VOQUFuZF85bnpTVlRCOG0wNWpLNFBhblZIbUZ1Sy01UUtWYzRCT1NBa2lqSUlXeXJ4WEtpLUhfdnl0SG1BUEEtbmZsNVNsenY3ZmcyeVRHSQ?oc=5",
-   "source": "جريدة البلاد",
-   "sourceUrl": "https://www.albiladpress.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-09T16:58:55.000Z",
-   "summary": ""
-  },
-  {
    "id": "2b1d59f16cbb",
    "title": "Delhi HC orders suspension of 126 websites allegedly using Jio trademark",
    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNUTcwalZteFcxNW5vdlJiOVNzb0E5RXVnTVZIa2VXTU9tSWM3bUh5aDVDU2lSeWZsWE40YmJLelhoMlYzMGdTaVdxVEgtajBhVkw2TjNnWUNLV3haYlFSc3pUR2RGRWJENVZ0cGF1UDZYLTlEUUE5ZXhFaHhzLWs3Y0NGc1lYN3V0VHg0aXZtRVduRkRrTmhXdjBjcmZwdnotU0NyekdnTkhXWTlKR0hXNlh2dFV6eU1pRERwcUNrakVCVHllX1QwN0ppQ1ZsX0N4WTFlSWluZXlscEt6OFHSAd4BQVVfeXFMTVE3MGpWbXhXMTVub3ZSYjlTc29BOUV1Z01WSGtlV01PbUljN21IeWg1Q1NpUnlmbFhONGJiS3pYaDJWMzBnU2lXcVRILWowYVZMNk4zZ1lDS1d4WmJRUnN6VEdkRkViRDVWdHBhdVA2WC05RFFBOWV4RWh4cy1rN2NDRnNZWDd1dFR4NGl2bUVXbkZEa05oV3YwY3JmcHZ6LVNDcnpHZ05IV1k5SkdIVzZYdnRVenlNaUREcHFDa2pFQlR5ZV9UMDdKaUNWbF9DeFkxZUlpbmV5bHBLejhR?oc=5",
@@ -327,11 +375,23 @@
    "summary": ""
   },
   {
-   "id": "920233955fdf",
+   "id": "e13dac60597b",
+   "title": "جديد قضية \"فلاي دبي\".. النائب العام الإماراتي يكشف التفاصيل",
+   "url": "https://news.google.com/rss/articles/CBMi8wNBVV95cUxPd3RKczlSUVRlRHpYYjZiSFRaaVdoTjhUTHBMc1djb2hTSGhxTU1URG96bFk2aVRmWm95RWs5VjBsQUFnLTRLeXYxbEEtUVp6VVh6QTh5ZnlQRWV3bzUzLXc1aTFjdFZTWjU1YTdCR0RpbFpuLVB2UUl4WWpkdk1QSnFzcU5xdEFrY05oWmpnTmVyNzY0WUZiN1RzSkFSSWdSZzBUNGJtNkFMMU9KREdhdWlacXpOZ0d1bnBjV0pfTU1EYUVrdG1uUUdTT19CQ21uWlVTdzJRZkx4dUwwVE53TzNiR3pjWW8wWDZWUEplTTNnTFBlT19yTEwyancxWmRJWERrX1JsS3NXa0ltVzN2cWNOM1FoOGxJX0RiTnRrVGY5MzMzTldBbHMzQVUzTk9qbkdXdXhCUXdocHloMUlJUl9LR1l1R1lGN2Jnc2VnODB3elc2clNjRGNXNDBnaE5mWkRPMUNpQTkwSWZXLU9zVVJqRXBkdWM5eHJRMEhOOUFVTV9jWWhHRlNwNVpoVWg2WHFSR01LSTVzT0ZYQWJOVkxSc0FPaC1SZHdlUlpQbDFHTERDaC1iOEM1X2NPYlp4ZGNzQWhPeTV5M2NDOUJLU2pzUzgxUGdOcTRfcEZNT29zdktnOGJ0Tnc4aGN5bXlyYWdF0gHzA0FVX3lxTE93dEpzOVJRVGVEelhiNmJIVFppV2hOOFRMcExzV2NvaFNIaHFNTVREb3psWTZpVGZab3lFazlWMGxBQWctNEt5djFsQS1RWnpVWHpBOHlmeVBFZXdvNTMtdzVpMWN0VlNaNTVhN0JHRGlsWm4tUHZRSXhZamR2TVBKcXNxTnF0QWtjTmhaamdOZXI3NjRZRmI3VHNKQVJJZ1JnMFQ0Ym02QUwxT0pER2F1aVpxek5nR3VucGNXSl9NTURhRWt0bW5RR1NPX0JDbW5aVVN3MlFmTHh1TDBUTndPM2JHemNZbzBYNlZQSmVNM2dMUGVPX3JMTDJqdzFaZElYRGtfUmxLc1drSW1XM3ZxY04zUWg4bElfRGJOdGtUZjkzMzNOV0FsczNBVTNOT2puR1d1eEJRd2hweWgxSUlSX0tHWXVHWUY3YmdzZWc4MHd6VzZyU2NEY1c0MGdoTmZaRE8xQ2lBOTBJZlctT3NVUmpFcGR1Yzl4clEwSE45QVVNX2NZaEdGU3A1WmhVaDZYcVJHTUtJNXNPRlhBYk5WTFJzQU9oLVJkd2VSWlBsMUdMRENoLWI4QzVfY09iWnhkY3NBaE95NXkzY0M5QktTanNTODFQZ05xNF9wRk1Pb3N2S2c4YnROdzhoY3lteXJhZ0U?oc=5",
+   "source": "العربية",
+   "sourceUrl": "https://www.alarabiya.net",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-09T16:16:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "2b36c0d82adb",
    "title": "TRAI invites comments on draft DRM audit manual for IPTV services",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQnE0MXc2azNWQkUxdS1NZW9tM2s4bm1WcXJCYzNxMmxqX3NJYm1sa1Bhd3htaVlEWDZiaUlTQk1xenJNUGJrU1BocHA5UWI0NDZhNW96WnlvNGFVcVBDbHZhUWNpd18zbXo2MUJkVUhtVXFRMkRFSThrN2hGWm04MEdSMzVoUzdHSjFXaldUZTlCVnB0WTNWSW1KSXAtMWNGQUt3d1RseGhoREFPeFNsaDdNaUFoUXV3V0NsQlIwaU1VNEdtekl2U2FjMUVyNFNPcEZYSXBveUdnZENVZkHSAdcBQVVfeXFMTWJnaU5qVkRQNUtQOWJGLVQtbERFMW9MamZXTlJvVEYxVGstR094bTR0OGJLbGdZMVc4OEtIck9wTVlvbU9wMDNyM0VwLTJYM2hyVGZ2RmdBdkZpNDJNOVlYU1IyVlBJQzZhRzRrdkdmYmZnaE9MUUk2RjVIdmR6VE80dzU2N3prWmVKNG1zQzhIcUZ1S1NnYWptZjA5VFpMZlFRWDN5aUlpTjNIOUpGaUFzWllfWlNGRUJfeFhuM3VYaFZsUkp2LWdsR1VsTkNyTGNqR09rMjQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYTdxV0tjWEVxR2dEQkI1Y05wekhqLWVfRm92M3huR2dqY2NKS05IYzZ5SXZIVHVkR2VnalYzRV9rSXZ2c1JFTUNtR28wZmc4X1Q5Qjk4dkhCSUJjZ0ROd21jbGNDYmJOcTRRNXAydlZXcXg3RWhnb3hJM1IzZ2d3WWZCVUZpWl95M2pwTmJXQTl5d1NuLWZLTlNzZ2VmUTVjUmdJaVZnVTZlYnRkaXRnWExuUVBoTU9QN0FUdzZDb2tmUF9pT3AwY3Nxa0ZyRThxN1HSAdcBQVVfeXFMTWJnaU5qVkRQNUtQOWJGLVQtbERFMW9MamZXTlJvVEYxVGstR094bTR0OGJLbGdZMVc4OEtIck9wTVlvbU9wMDNyM0VwLTJYM2hyVGZ2RmdBdkZpNDJNOVlYU1IyVlBJQzZhRzRrdkdmYmZnaE9MUUk2RjVIdmR6VE80dzU2N3prWmVKNG1zQzhIcUZ1S1NnYWptZjA5VFpMZlFRWDN5aUlpTjNIOUpGaUFzWllfWlNGRUJfeFhuM3VYaFZsUkp2LWdsR1VsTkNyTGNqR09rMjQ?oc=5",
    "source": "The Economic Times",
-   "sourceUrl": "https://economictimes.indiatimes.com",
+   "sourceUrl": "https://m.economictimes.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
@@ -435,18 +495,6 @@
    "summary": ""
   },
   {
-   "id": "ad8b035b3a8e",
-   "title": "Counterfeit goods operation shuts down illicit traders in Sunnyside and Marabastad",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOOGJ5X21paDlHa3VrOGVoZEU2Smx4RVpBcUlNUnh2X01BeXdQbFdrbHp2RUllMmljaVVyX1A5bnZzdDFneHJta0o5UmJKc0Z3NVVXaWNBOHB1Z1lKQ3hYZDFVVlZ1RjRGUzhPWWF3aC1iS2hUanZibm45azI2TTVKczloN3BrZ18wM2ZwcWZzSno1MWwxeXRBdGtWTWl2YWtrV2xydWZ0YndqckZkT1ZSQWtBQ01YNkNheUJkSzVjVW5TR3BNZU1XSUdRVVBxNmY1LVlDUFJEWnlTTndwU3Bub3dCZUcwQllSYXFLLUo3b0s?oc=5",
-   "source": "The Citizen",
-   "sourceUrl": "https://www.citizen.co.za",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-09T08:05:51.000Z",
-   "summary": ""
-  },
-  {
    "id": "351c6816f0d3",
    "title": "TRAI proposes dedicated DRM audits for IPTV apps, draws line with OTT",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeExJT3RpaFl0c1RJOE1JTmktbkUxR09JcXY1bWFvWGt6TG9CWjZKc1dfVjZuMl9xNjcxOXRsYlJiNUxQSk1weHZUZXNnYTJ5enVmT3pvS1hoX0RJbEN1YmQ3a2R4RTU5cGwyZEx5b1ZDUXFpQnVrNmo3OHpPSFpaZ2x6SWNCTGphemNzYkNtQVdEc3dFdzlNQjZweEJHOFY3THFOS2hzN0tPTkU3YVg0a3pwYVY3dUFxMjZERVNiSUlRQdIBwgFBVV95cUxPeExJT3RpaFl0c1RJOE1JTmktbkUxR09JcXY1bWFvWGt6TG9CWjZKc1dfVjZuMl9xNjcxOXRsYlJiNUxQSk1weHZUZXNnYTJ5enVmT3pvS1hoX0RJbEN1YmQ3a2R4RTU5cGwyZEx5b1ZDUXFpQnVrNmo3OHpPSFpaZ2x6SWNCTGphemNzYkNtQVdEc3dFdzlNQjZweEJHOFY3THFOS2hzN0tPTkU3YVg0a3pwYVY3dUFxMjZERVNiSUlRQQ?oc=5",
@@ -456,30 +504,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-09T07:48:50.000Z",
-   "summary": ""
-  },
-  {
-   "id": "a655e3e7c6e5",
-   "title": "TRAI proposes detailed audit framework for IPTV systems, tightens subscriber data checks",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUzY1b2tGSXdoLWtZZTBNdmlOcEdBSDhMdEVfdWlZdENhOWVmQkEwNVpaRnNndURmcnNJU1RyN0tGcXlscVpKMHJFWkpvTW5jZWFEcVNRWEpUbWRDWlVnVXptN2taQk9mZC1wNUxFalQzSEE2cW1zcjlzWWluZjRvZXVPM0hiMnowcXJfRVZKX2lBSEx1TW93MER5eGgzYXE1X0VmOFp6cnNCU2JCU2RfOXJwcGgyUmhKbmxoU25PdUhvRkRRaWRHbXo5V09FeURwMnJiSDhIcjNoWWhm?oc=5",
-   "source": "Exchange4Media",
-   "sourceUrl": "https://www.exchange4media.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-09T07:08:40.000Z",
-   "summary": ""
-  },
-  {
-   "id": "de1173987405",
-   "title": "TRAI releases draft DRM audit manual for IPTV distribution systems, seeks comments by October 30",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZlIwX0tDMGF6Sy1BZ0NIOXp6Nm1aSXRyU0JGX25fSHRKYnlnb19md2syQndyZ0thLUg3elQwVFJJTVhmbUI4bWNRV3dFLWFTNkMwRlppanBWdTBtTkZta21QdklUd0R5WEhYU2hRTUhVZmg4cjRPX0hVUkFSRHlWdzczR0t0UjdoVXVwVmlHak5salllTmtqSC1YX09KVUtpNHVPUkd3b0tNSGhNTHFJcF9raDNjOENxa1h5VGppLUR5U2toc0dqSHBpVHFZVU3SAdQBQVVfeXFMTmdISm1zcVEteVVIU2c0ZFpyQUpGNmFLLXRVM2FfLWd6VTlrbGJ4R1lHMllpRVRKS1FjTFQ4aEwwMHZDSGtYWHlCVjdyTlMtZGpJelpiQ0FSSHhKZWRnbmFMTGFhTERBTjkyVFBOcEIyWUFyVnRPVGVybHJGeTRVS2ZNRkE3NTB4WTlyMUpSZ0ZRNDlrbEVXbDM0Sk96YzVoajZXU2lGTFFDR2hkaGc2X1FaVGlvSkxERGUzQWQzN1IwaWFRNjZsNnFZZ2k3R2tNNk1vMXE?oc=5",
-   "source": "Storyboard18",
-   "sourceUrl": "https://www.storyboard18.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-09T06:59:50.000Z",
    "summary": ""
   },
   {
@@ -504,6 +528,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-08T12:43:47.000Z",
+   "summary": ""
+  },
+  {
+   "id": "1d7cd2cabfdb",
+   "title": "سير السعودية تسجل براءة اختراع سياراتها في البحرين",
+   "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxOd2hRLUpnajZjek43MW1uRFh5Nm9xQ0FoMnJJdVR6bXU0aTNTLWo0V0JKcEhnMlZkdnNPTHNvVnJ5TlZSa3U2ekFmLXMxOGt2SDFmUnhDYVhxMElqcUR6LW1fbG9yUVNuQlhZeHVmdmZnTlJFZG1RYmxfcGd6ZzFHRmFzVlNIRXVMbW1WdGlxUWgwcENhbzgtc0ZTWG9SMGYtczZqR0c2aE90dnF6LXg4TXRWRUlCZFFBeEdxd3ZDY2xqTm9ZdFVKSUozSWxzX2Q5RTdUNlkyTjlqRnRRdFpjYUx6cm5pU082eXZ6X3E4SnhNOTBfM0EySUlnVVgxOU1MUjV6Wjk0R095WkJTX3BfUHIzUUlicVFVTGE5VmFxU1FMN01lMlJIb0FfRFBIT0JTSFFlb3FDMm9IZXFhX21NRTJBaVZzV2V6N2kzakdtVkJ1d2YxRWdYOTVvcXI2Q1IzYTFsNjZRUVdjbkR6Y1BPNVdWWUFfYmlvU002VnhpTjJFb2R3ZEZ5d0R3clBrckNGd1h2RlJKRUc0RUVDekR0dGU2d3c5ZDFOa0lfRXROc2IyUG9RWVF2WmxSN1NyZ9IBVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRQ?oc=5",
+   "source": "صحيفة الوطن",
+   "sourceUrl": "https://alwatannews.net",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T12:29:38.000Z",
    "summary": ""
   },
   {
@@ -615,30 +651,6 @@
    "summary": ""
   },
   {
-   "id": "0e18f437d1e9",
-   "title": "سير السعودية تسجل براءة اختراع سياراتها في البحرين",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRdIBVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRQ?oc=5",
-   "source": "صحيفة الوطن",
-   "sourceUrl": "https://alwatannews.net",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-04T13:14:01.000Z",
-   "summary": ""
-  },
-  {
-   "id": "4c8c2c0377ab",
-   "title": "بمشاركة 20 دولة.. معالي النائب العام د. خالد اليوسف يمثل المملكة في الاجتماع الرابع والعشرين للنواب العموم للدول الأعضاء في منظمة \"شنغهاي للتعاون\" في روسيا الاتحادية",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE15QUEwc1EwRS01ZVZscUZGU3RmOWVqQkE3ekxvQlVIZ3I2VUlYcW9xUjI0STFnN2h1OTBJ?oc=5",
-   "source": "صحيفة درة الالكترونية",
-   "sourceUrl": "https://dora.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-04T12:32:31.000Z",
-   "summary": ""
-  },
-  {
    "id": "f80287265fe2",
    "title": "أمير جازان يطّلع على تقرير فرع الموارد البشرية لعام 2026",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYcW1FcGhpcVY5dElPZU1ta0tEem9GWmVmR1pSbV84YkNFRS1EeEpkU0tFWldsMzhaMWR6TFV4eDlqWlo2MFdiR2ZjNU9nVXEyMWfSAVRBVV95cUxNam5PRktOejVkekVSb01qNENJRzFHeTZXUWhOM0s2RzVEbzFEVzhKU0JIWWJKNlNrZm9NZ1RnaDdCaG1rbVJHbUxSWERxZmFTdmx4YUM?oc=5",
@@ -660,6 +672,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-04T10:31:53.000Z",
+   "summary": ""
+  },
+  {
+   "id": "b591d3366b1a",
+   "title": "عام / النائب العام يُمثِّل المملكة في الاجتماع الرابع والعشرين للنواب العموم للدول الأعضاء في منظمة \"شنغهاي للتعاون\" في روسيا الاتحادية",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1DbGU2dkx3LUdrcGFrclEybTNMUHYzdHpSWUh6WFhUU0x6dndxY0JwNDFmOGdLeWJaQ29CU3hfbjJCc2lzZVE?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-04T09:30:12.000Z",
    "summary": ""
   },
   {
@@ -695,7 +719,7 @@
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-03T10:06:00.000Z",
+   "date": "2026-10-03T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -711,6 +735,18 @@
    "summary": ""
   },
   {
+   "id": "1bb7f2b88a52",
+   "title": "النائب العام يلتقي المدعي العام الروسي في قازان",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wYzhwdk5XWWJfcGZfRnRZeUNtUVR2azU4Wld0S0NNV1VMbG0tWVBGemtqMV9TaDU2QXRGYUh2aEM2a1g1VVNDSGI1SFVEMWVZbUHSAVRBVV95cUxQQ3dvMTZ2QkJIUDlicGNSdHBvTU9JS2RhNGJLdjNHOEFPTTJ3dGc4QnVELTZjYXAyc1hVNlByWnRoN1NkWGZ0WkZkZkFzazFESGJ5ZnU?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-01T10:29:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "84badea921fd",
    "title": "النائب العام الإماراتي يأمر بالتحقيق في واقعة طائرة \"فلاي دبي\"",
    "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQWVRELU1WV29IQXhqTW1Td1E5NUZoNUptbDRpV2NkUFpVVnhqSHIyN1p5cXV4M0tWR1pDSUMtZ0ZXMzdBR0tHZDl2TTRSY2tKT0ZuNHN1Z0lDZXBQdDZGekRrME5iTjlyODJ2VUgzMmFpQWtFMEFJY2ZSMEJVVHRjWDdFbEdTRzhpcE9xaTNDMmpEZGJiUkl4OXQwaHdrMmd3Y0c2TlpISFBkQTN2QkZkQm5hbmwxYlRrMnhIN2J3UEFTTU5KTDlWRUxRYVFzOHJkdDVtZGQ0MTF3RWd4RXQwQVRSQm9FQS1XSnUtMnFDenhpc3N1VkdWZ1NTY2Y2Y2lqaFR2Nk9PazBNN2hIZXJpckx4bEpUN284OUVPRF9DUHhDcnJNbjcxYzAxRThsc2E1M2Z3em5Ba2XSAb4CQVVfeXFMT3lPemUzWVQ0SnJkTlRhT2l1aGdHVHZyWHNmZ0tWdDZ1ZUNPbTZMZFo2ZV9hMkZLd0R0dFZOcUcwMTNhN1hObXZUV09uM01fcUhITnVkX2Q0MTZXUWVXZHRST1pJaUVTaDQ1Rm9iZ2p3bWc1YlBFRnpTOElFU2tTZEc5djRiUXR6RmhtWm9KSVF6RC1NRGJidkYyYV9WLXFJamxyejR4ajBfQm0teWYybmlrNzJnbmZDYk4zbGVFcFFGajFmVGJMSWlxUlZOeHB0dEs2WjBMb1B1UGNXSG5nWlZnc2Fub2lUOElCVGI1R2NKNWlQZ0xGenlkZEFROWFaRl9IT3Q5ay03ek5FM3lDY05aMXJ1YW80V19HU1NINUtrbWZ4OTQzYzRYMjFqdDhwMTZxSHp5cktIMjEzcU13?oc=5",
@@ -720,18 +756,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-01T10:23:03.000Z",
-   "summary": ""
-  },
-  {
-   "id": "dd5bb67ae453",
-   "title": "النائب العام يلتقي المدعي العام الروسي في قازان",
-   "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQM0ZMRjZpQXpSWmlfbHVuNTY5SC1nSDF4VkR3cExELWIwelhEVkxDUHhWUHY0YU5SWEFKQkpIUi1FVkpDT1lGSWpVOTQ3OGJoSEtTMGRDUGdPdUtZVC1TazN4alB0TThuQ0VNaXFBZGZDOUNkaXhUYjRoVDRLWF9HREFWT2MxS3M3ZzFGaTNvSmI2Uy13dHl5ZzdPZ3ZQcUxzSnlKTEVvZHNpWWtobmlMZ2FRRHY0dGh5NFRNS3JMd1RBRlVqVzlkX09ISEg3VUgtTnJtc1djZ09DTTBGamhiNGdoUXQ4aVZ5OVlLYU9fbFpfeTRkRzBIbnVicnh3TkVaZTBXU0FEclpqbS05bmtKbExTNDFId1E1S2Q1ZWxtTUFKcjJ6V2pQczNlNUNTaU9GdXYyOVJDaEtzd2J0clFaWDBSVnd1QndlZTlwdmJCQWJwTFNoSjU1Ukdxc0dSMHlYUFBEYVRpTHROdmdVcG9tVGRlQk82V3lWUjQ5TlVWTVhncXp5b0ZJOWhmQnYxY2trNzl5UWFpTnZIVEpFcEl5bXVHTXQ0Y2M1WnJqaXFJWDc2UmpRZHFZZHhSaGZhM3JWMVpnMV83bw?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-01T10:04:00.000Z",
    "summary": ""
   },
   {
@@ -780,18 +804,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-01T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "846ba5e69440",
-   "title": "عام / النائب العام ينوّه بمضامين الخطاب الملكي ويؤكد أن العدل ركيزة راسخة في مسيرة الدولة السعودية",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE85M1NHcVZVYXdOZVZBam00RzN6OUdnR09WMVdubnBLMHlTOWk0bklnUEw3d09OcmZfVDloREhmWkVlbHdIQlE?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-01T02:44:50.000Z",
    "summary": ""
   },
   {
