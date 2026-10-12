@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T21:55:26.273Z",
+ "updated": "2026-10-12T05:52:56.762Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,59 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 54,
+   "fetched": 58,
    "kept": 14
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 65,
+   "fetched": 66,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 67,
+   "fetched": 66,
    "kept": 46
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 81,
-   "kept": 57
+   "fetched": 80,
+   "kept": 56
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 87,
-   "kept": 49
+   "fetched": 92,
+   "kept": 53
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 55,
-   "kept": 11
+   "fetched": 52,
+   "kept": 12
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 54,
-   "kept": 16
+   "fetched": 55,
+   "kept": 19
   }
  ],
  "items": [
+  {
+   "id": "d4c2b7eaa527",
+   "title": "Vietnam has strengthened the protection of intellectual property rights by launching a criminal crac..",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuY0xsN0psZWdrZmpvQTZpcTlVRTdYWWl5VkliRjFITW44WmQ2VE9wNHVObmY2bWtZWkkya3YxYWw2dTVDT2ptUjNxX2Q4STg?oc=5",
+   "source": "매일경제",
+   "sourceUrl": "https://www.mk.co.kr",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-12T02:01:31.000Z",
+   "summary": ""
+  },
   {
    "id": "7405016ed3f2",
    "title": "الملكية الفكرية في السعودية تشكل 14% من الناتج المحلي",
@@ -75,6 +87,18 @@
    "summary": ""
   },
   {
+   "id": "5c69715cf83c",
+   "title": "وزارة الموارد البشرية السعودية تعلن بدء تصحيح أوضاع العمالة اليمنية عبر منصتي \"قوى\" و\"مساند\"",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TeWg4LTZUR3Y3elE5eGdIVzN6YngtOHBPVjJLMTFKbFg1SzktN1BLdV9BMm1fZTNEdC03STBmOWpKSFl0RDFYYjd0N1d0Qndq?oc=5",
+   "source": "https://www.sabanew.net/",
+   "sourceUrl": "https://www.sabanew.net",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-11T18:48:57.000Z",
+   "summary": ""
+  },
+  {
    "id": "c9dc8649e8c8",
    "title": "عبر هذه المنصات.. بدء مهلة شهرين لتصحيح أوضاع العمالة اليمنية المخالفة في السعودية",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aVlpNVW1hVjQxblJiei1ySzFsU0FkcWZiTTFQNmZJaGJQQnZ2d0hSLV9nelpFZ0s5akI5cmZrQ2V0NXhidFpLNg?oc=5",
@@ -96,6 +120,30 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-11T16:41:23.000Z",
+   "summary": ""
+  },
+  {
+   "id": "0ee6bed6fba3",
+   "title": "النائب العام يشارك في حملة التبرع بالدم تفاعلاً مع المبادرة الوطنية",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE04Z01JdE5weUFhaGJqOHp0dXNmQ0ZPUFBqbGVpQUZ3Y3I4ZGtsNjhsUXl5UkpGZERVYnlZckJFcGd5TDYtX3pr?oc=5",
+   "source": "صحيفة سبق الإلكترونية",
+   "sourceUrl": "https://sabq.org",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-11T15:52:05.000Z",
+   "summary": ""
+  },
+  {
+   "id": "6db908f25e4f",
+   "title": "وزارة الموارد البشرية السعودية تتيح تصحيح أوضاع العمالة اليمنية عبر منصتي \"قوى\" و\"مساند\"",
+   "url": "https://news.google.com/rss/articles/CBMikAVBVV95cUxOeXhGbzlsbFN0dlpzZHoyQjNQOGNYSFRweFJTdjJUdjhqdlJKYUttd21fMVdwQjlCUHpVZGFpME0tQlo0MnFOWVcxVEg5VS1vY1c2QWZKc2dwNEM4dlZDLWU5UTFPUlNEaVFacEprS1BiTW5oTHlicVFpOFNsa3hITV9KMFgxSS1LbE01SEhrZ2o1S21uVzdvMkFOYmZKTHpvZ05ndEFBU2ZkVE9GaS14eEc3RjUwWWd6R3JPRU94N3dZU25rdjN4QjZxdDQ4N1dFU0NlV1hBLWhYNjJaUHZBVzNUeUpHa2RUT3VzR05rV0lxRHUxQkxEV19DRExNZ2l3SW5HSFhleEdMRE0xaEhtRDZ6VGJjOVhyaW5vaE9TWmQ2VGR2V2kxVEw2SllCeG5tcVhRMGtnbWZNcWx2dnE1UzRNU0tpYmFvNzNHVmUwXy1DOC1FanQ5YXpQTDBEWWtRTi1PZnZUWFQ2SElBWmpCTFVsbWwwMEV3U0ZMX2dsSHplSTl3ZGhQUHlLMHhPWXFzZThwUXkyVEplYmxnSEdaYktrUFhrYnd4ZGRwczc5WEdkVEdNUFVFNkhGRWhKdzV1U0wzNXVRdlF0M04tOU91SkVCb0UwMDd2Z2Z3OUtuZzQ2M3o3RDJ5TWVMQ3VlRVhUWU5SMkxabG42M2I0c1FEYzZ2WHZrNzFSQTQ0NXNfNDJ0QjBSWVZoUnp1aWVnenRHTzVHXzFjUlNLRHdtbnJRemc0X2M3aEpBc01YaGw4bnB0Tk5YbnpLWkxicmlQLTFmY0xTdG51LTNKNjh4bWpaeE5aRTl1Y1JBdU9BR19zQkQ2SFozNXBCSUJhV0lsQ2lhdFRmUDJVczQ4YkJ5T2YzbA?oc=5",
+   "source": "بلقيس نت",
+   "sourceUrl": "https://belqees.net",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-11T14:19:05.000Z",
    "summary": ""
   },
   {
@@ -144,18 +192,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-11T11:38:28.000Z",
-   "summary": ""
-  },
-  {
-   "id": "5c27d7653e1f",
-   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
-   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
-   "source": "الشرق الأوسط",
-   "sourceUrl": "https://aawsat.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-11T07:18:31.000Z",
    "summary": ""
   },
   {
@@ -495,18 +531,6 @@
    "summary": ""
   },
   {
-   "id": "351c6816f0d3",
-   "title": "TRAI proposes dedicated DRM audits for IPTV apps, draws line with OTT",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeExJT3RpaFl0c1RJOE1JTmktbkUxR09JcXY1bWFvWGt6TG9CWjZKc1dfVjZuMl9xNjcxOXRsYlJiNUxQSk1weHZUZXNnYTJ5enVmT3pvS1hoX0RJbEN1YmQ3a2R4RTU5cGwyZEx5b1ZDUXFpQnVrNmo3OHpPSFpaZ2x6SWNCTGphemNzYkNtQVdEc3dFdzlNQjZweEJHOFY3THFOS2hzN0tPTkU3YVg0a3pwYVY3dUFxMjZERVNiSUlRQdIBwgFBVV95cUxPeExJT3RpaFl0c1RJOE1JTmktbkUxR09JcXY1bWFvWGt6TG9CWjZKc1dfVjZuMl9xNjcxOXRsYlJiNUxQSk1weHZUZXNnYTJ5enVmT3pvS1hoX0RJbEN1YmQ3a2R4RTU5cGwyZEx5b1ZDUXFpQnVrNmo3OHpPSFpaZ2x6SWNCTGphemNzYkNtQVdEc3dFdzlNQjZweEJHOFY3THFOS2hzN0tPTkU3YVg0a3pwYVY3dUFxMjZERVNiSUlRQQ?oc=5",
-   "source": "BMI",
-   "sourceUrl": "https://bestmediainfo.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-09T07:48:50.000Z",
-   "summary": ""
-  },
-  {
    "id": "ac7a63de3b00",
    "title": "النائب العام يوجّه بإقامة حملة للتبرع بالدم في فروع النيابة العامة بمناطق المملكة",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9GVTFSM2J4cVhVdUo1emQ5bndaSkNQdWtSZmpqT3NXUjhnaWFjYmpVaDdaemlVS2hRTnZ6N3Btc3JXSTZhaFJr?oc=5",
@@ -591,15 +615,15 @@
    "summary": ""
   },
   {
-   "id": "a9c2a0e05fe3",
-   "title": "عدن حرة / الوزير \"اليافعي\" يدعو العمالة اليمنية في السعودية إلى الاستفادة من المكرمة الملكية",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9KRDBkWmxYcS05aE5pemFBZTBEU1dXZko2dUE2QnJGMzdneE9FenYwX3lsTDNoSG85R2k5cS1WQ215VkN4dElPeXRVajFGVTQ?oc=5",
-   "source": "تطبيق نبض",
-   "sourceUrl": "https://nabdapp.com",
+   "id": "5c27d7653e1f",
+   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
+   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
+   "source": "الشرق الأوسط",
+   "sourceUrl": "https://aawsat.com",
    "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-07T06:58:01.000Z",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T13:57:06.000Z",
    "summary": ""
   },
   {
@@ -615,15 +639,15 @@
    "summary": ""
   },
   {
-   "id": "fa56a2ce7cf4",
+   "id": "98a51d5697ea",
    "title": "علوم وتقنيات / جامعة أم القرى تسجّل براءة اختراع جديدة في مجال استخلاص أكسيد الحديد النانوي",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1mYjFQOHZDM0ppZ0ZoZ1Fnb25qN05mQzdaMWxFTDVQRXhMR2J2R1ZlSmk4ckVMRW04TzliRUJWTHRLN2ZRa2lzTg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mYWRGd3k0em8tVlFvbzNmc3FvaHNZMkJuVF9HT0wtcUhiZ2hmYzlLY0JRUEFGWGIzWmpNeXlQR1BUUlM3V3c?oc=5",
    "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "http://www.spa.gov.sa",
+   "sourceUrl": "https://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T07:00:00.000Z",
+   "date": "2026-10-06T12:09:41.000Z",
    "summary": ""
   },
   {
@@ -651,6 +675,18 @@
    "summary": ""
   },
   {
+   "id": "4c8c2c0377ab",
+   "title": "بمشاركة 20 دولة.. معالي النائب العام د. خالد اليوسف يمثل المملكة في الاجتماع الرابع والعشرين للنواب العموم للدول الأعضاء في منظمة \"شنغهاي للتعاون\" في روسيا الاتحادية",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE15QUEwc1EwRS01ZVZscUZGU3RmOWVqQkE3ekxvQlVIZ3I2VUlYcW9xUjI0STFnN2h1OTBJ?oc=5",
+   "source": "صحيفة درة الالكترونية",
+   "sourceUrl": "https://dora.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-04T12:32:31.000Z",
+   "summary": ""
+  },
+  {
    "id": "f80287265fe2",
    "title": "أمير جازان يطّلع على تقرير فرع الموارد البشرية لعام 2026",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYcW1FcGhpcVY5dElPZU1ta0tEem9GWmVmR1pSbV84YkNFRS1EeEpkU0tFWldsMzhaMWR6TFV4eDlqWlo2MFdiR2ZjNU9nVXEyMWfSAVRBVV95cUxNam5PRktOejVkekVSb01qNENJRzFHeTZXUWhOM0s2RzVEbzFEVzhKU0JIWWJKNlNrZm9NZ1RnaDdCaG1rbVJHbUxSWERxZmFTdmx4YUM?oc=5",
@@ -672,18 +708,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-04T10:31:53.000Z",
-   "summary": ""
-  },
-  {
-   "id": "b591d3366b1a",
-   "title": "عام / النائب العام يُمثِّل المملكة في الاجتماع الرابع والعشرين للنواب العموم للدول الأعضاء في منظمة \"شنغهاي للتعاون\" في روسيا الاتحادية",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1DbGU2dkx3LUdrcGFrclEybTNMUHYzdHpSWUh6WFhUU0x6dndxY0JwNDFmOGdLeWJaQ29CU3hfbjJCc2lzZVE?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-04T09:30:12.000Z",
    "summary": ""
   },
   {
@@ -723,6 +747,18 @@
    "summary": ""
   },
   {
+   "id": "2b75f818ec6c",
+   "title": "فأس الطوارئ داخل قمرة القيادة.. النائب العام يكشف تفاصيل واقعة \"فلاي دبي\"",
+   "url": "https://news.google.com/rss/articles/CBMisAVBVV95cUxQVHAweDVFeUVmM2dGendhdGVyZ3NjUEFvWnRKaU5KUVdsY2dTLUNVd25ZSDI5YVQwTWNSNWh1WlRCYk9lc1JzY1VhdDVIZnhtU0xLbDNKZVdpTW1QZFM3SFhHM0FOVER3VHNSRndGZXcyY29XRVgyWWd2TUdBaGEwX09zX2JBNEVRaEJISHZrNmRkdGpGZWdGOXVaSUNJLXFnT0MyemgtZzlra19mS0dWZ09TUE5XbEg3S0FwNGpURGh4bmppNzBhVndsSWN3UmdIYTJpQWJVUUZPZGR5UnVxR0U4a1BMTldjenJEbGYzVVhzaWI5QlhfQllTbFdxVUR2ZnpjUy1QQjVkYklkRV9qQ2VBX0ptWjJ1OTRneEV4RVR5V3JOekg5UUk2NmladFp1end0NzFZRzJ2eWlKTXVrakRIMGppX1YtN2dBVllwdlBWMjg5T0p6Q05sZ0VRdDBNQmFxbHBUQmdVZmVDUUZ2QUdRcjlUaWFvTDFDeUpydUNSWV9ZTi1rOUtYSkFBQXB5U3FGRWpVRm9ucFVocU1IQUx0OVlqZUR3bE1vNkQ4Q0d5VVdEZVIzMXZsbkNmN0I1bkd1MkNWZDY1RXBzZzhsU0ZBU1EteWdiWktNaEtQZkU2ZW5zMEpoQ3NhQ2dqeVpFUEZDRVJ4bldLRHZTSWxJVkNVY3N4WENUNlY5bDBBZWFpeVlibW9rUGxDSXVSSU80OXdMUUtLMWozQi03bS1xbktwZlJSS05mcE9xVWVyZlBNb2NsUVc4NEpRSDIxNE80OVl6cEVpS2ZEbXZjV1FxR3BrbTdaZDBaVUdRRG1IOXNhUW1yaTEwY01XcXEzelVJdzRsdXZlTUlxazJhMXdKUEVfeWFqWnp2ajN2N29Lb1pIcnpwS2lyMzhlM0lXTDZv0gG2BUFVX3lxTE56VkVwTHJGdGVoTjVoelVMNi1XQUp3bEdNZHAweDQtWndRamNQY3RlM2dqa0owaF95dmFnVjV6OGhLZFczWUl4S3N2ZXZhR29fUmQwelM0R2ZiWmVhX1Nqdnh5aW5RVVJ6OEVHMWFIeGRHTGlROGJKcng0aENZLXVjeUFuZFo1X0drT08tdGdmZjhCN01RVVg3WTRKc0xkWjdtdzZ5bWN1aG5ZUUc0dm82cVJEa2s1X01TMUNSdEFiTjJHVEZmN3VqMjh2N2pCY2h4b25DRXhmc2tIbTF3NlN6bVV6aXU3VlFzTUV2amJ5Z1RHR3M4V0hITTZTY2RrdUdvQUFjY0hudG9Zc0gySDYybVJuX1JnYXVmTU9vQmxmSWdBelVMeFF6NkFNNmlYdXdpb3ZwcGhwNU9WZTJXekIyaFpHY00tdVEzNTFlMlM0WWNMaUh1QUlBVEs4dng0c28waW5wUS1QZU1CQ1pOb3lnQ2h1ZERJeFBkYTZSU2xwWnRiQzJPTERWVW1WQ09nNXU1eVBCYzhISGFKX2pOZXNqcWZIZkRNeGhVay1vX2dIR0NrOEpOdkRKVTlkZGQ3V1ZwRmZFZS1YVGtVeVROSG94T0p5bE1hdi1mRTZvQWl2WklNbXA4bVZxX3FTRWxISFVLdWFTYkFOcVdRNXlUNzcyT0l6TktQakYwMkhSWlY5aGxyd2tDeFZwT2VDRm9xWlh2XzhKdnBMVXRHeEpBd0tuWF9RakwzaVZwNm9Ea2tRcWphTVhSWndJM2k3S1pHUTNRbkNRQ2M4TnNkMG5GNElhRnFlTXhPRmRDWmp4WEpxbXB2LXFGbnZpUVNGTVZiZ1BnWm1UekY1aldrS0d0NEZRbkd4cVVra1ZuLXZNTkU2eGRvQmlUQXFiZEtLODhUZmtjV0NYSFE?oc=5",
+   "source": "العربية",
+   "sourceUrl": "https://www.alarabiya.net",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-03T06:06:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "1b85471f336c",
    "title": "وزارة العمل تحذر من صفحة وهمية تنتحل صفة الوزير محمد حيدر",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qdjJRcFp4eHVHZ0pteVpBYmVGdHpzWi1fLWNUbVVXNDdiOFA1a184MlpHbi03bHU5X1NqYXdrZGZaNGo1cG1NS1RvRmh5NFFETHg0?oc=5",
@@ -735,27 +771,15 @@
    "summary": ""
   },
   {
-   "id": "1bb7f2b88a52",
+   "id": "dd5bb67ae453",
    "title": "النائب العام يلتقي المدعي العام الروسي في قازان",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wYzhwdk5XWWJfcGZfRnRZeUNtUVR2azU4Wld0S0NNV1VMbG0tWVBGemtqMV9TaDU2QXRGYUh2aEM2a1g1VVNDSGI1SFVEMWVZbUHSAVRBVV95cUxQQ3dvMTZ2QkJIUDlicGNSdHBvTU9JS2RhNGJLdjNHOEFPTTJ3dGc4QnVELTZjYXAyc1hVNlByWnRoN1NkWGZ0WkZkZkFzazFESGJ5ZnU?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
+   "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQM0ZMRjZpQXpSWmlfbHVuNTY5SC1nSDF4VkR3cExELWIwelhEVkxDUHhWUHY0YU5SWEFKQkpIUi1FVkpDT1lGSWpVOTQ3OGJoSEtTMGRDUGdPdUtZVC1TazN4alB0TThuQ0VNaXFBZGZDOUNkaXhUYjRoVDRLWF9HREFWT2MxS3M3ZzFGaTNvSmI2Uy13dHl5ZzdPZ3ZQcUxzSnlKTEVvZHNpWWtobmlMZ2FRRHY0dGh5NFRNS3JMd1RBRlVqVzlkX09ISEg3VUgtTnJtc1djZ09DTTBGamhiNGdoUXQ4aVZ5OVlLYU9fbFpfeTRkRzBIbnVicnh3TkVaZTBXU0FEclpqbS05bmtKbExTNDFId1E1S2Q1ZWxtTUFKcjJ6V2pQczNlNUNTaU9GdXYyOVJDaEtzd2J0clFaWDBSVnd1QndlZTlwdmJCQWJwTFNoSjU1Ukdxc0dSMHlYUFBEYVRpTHROdmdVcG9tVGRlQk82V3lWUjQ5TlVWTVhncXp5b0ZJOWhmQnYxY2trNzl5UWFpTnZIVEpFcEl5bXVHTXQ0Y2M1WnJqaXFJWDc2UmpRZHFZZHhSaGZhM3JWMVpnMV83bw?oc=5",
+   "source": "جريدة المدينة",
+   "sourceUrl": "https://www.al-madina.com",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-01T10:29:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "84badea921fd",
-   "title": "النائب العام الإماراتي يأمر بالتحقيق في واقعة طائرة \"فلاي دبي\"",
-   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQWVRELU1WV29IQXhqTW1Td1E5NUZoNUptbDRpV2NkUFpVVnhqSHIyN1p5cXV4M0tWR1pDSUMtZ0ZXMzdBR0tHZDl2TTRSY2tKT0ZuNHN1Z0lDZXBQdDZGekRrME5iTjlyODJ2VUgzMmFpQWtFMEFJY2ZSMEJVVHRjWDdFbEdTRzhpcE9xaTNDMmpEZGJiUkl4OXQwaHdrMmd3Y0c2TlpISFBkQTN2QkZkQm5hbmwxYlRrMnhIN2J3UEFTTU5KTDlWRUxRYVFzOHJkdDVtZGQ0MTF3RWd4RXQwQVRSQm9FQS1XSnUtMnFDenhpc3N1VkdWZ1NTY2Y2Y2lqaFR2Nk9PazBNN2hIZXJpckx4bEpUN284OUVPRF9DUHhDcnJNbjcxYzAxRThsc2E1M2Z3em5Ba2XSAb4CQVVfeXFMT3lPemUzWVQ0SnJkTlRhT2l1aGdHVHZyWHNmZ0tWdDZ1ZUNPbTZMZFo2ZV9hMkZLd0R0dFZOcUcwMTNhN1hObXZUV09uM01fcUhITnVkX2Q0MTZXUWVXZHRST1pJaUVTaDQ1Rm9iZ2p3bWc1YlBFRnpTOElFU2tTZEc5djRiUXR6RmhtWm9KSVF6RC1NRGJidkYyYV9WLXFJamxyejR4ajBfQm0teWYybmlrNzJnbmZDYk4zbGVFcFFGajFmVGJMSWlxUlZOeHB0dEs2WjBMb1B1UGNXSG5nWlZnc2Fub2lUOElCVGI1R2NKNWlQZ0xGenlkZEFROWFaRl9IT3Q5ay03ek5FM3lDY05aMXJ1YW80V19HU1NINUtrbWZ4OTQzYzRYMjFqdDhwMTZxSHp5cktIMjEzcU13?oc=5",
-   "source": "الجزيرة نت",
-   "sourceUrl": "https://www.aljazeera.net",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-01T10:23:03.000Z",
+   "date": "2026-10-01T10:04:00.000Z",
    "summary": ""
   },
   {
@@ -795,6 +819,18 @@
    "summary": ""
   },
   {
+   "id": "84badea921fd",
+   "title": "النائب العام الإماراتي يأمر بالتحقيق في واقعة طائرة \"فلاي دبي\"",
+   "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQWVRELU1WV29IQXhqTW1Td1E5NUZoNUptbDRpV2NkUFpVVnhqSHIyN1p5cXV4M0tWR1pDSUMtZ0ZXMzdBR0tHZDl2TTRSY2tKT0ZuNHN1Z0lDZXBQdDZGekRrME5iTjlyODJ2VUgzMmFpQWtFMEFJY2ZSMEJVVHRjWDdFbEdTRzhpcE9xaTNDMmpEZGJiUkl4OXQwaHdrMmd3Y0c2TlpISFBkQTN2QkZkQm5hbmwxYlRrMnhIN2J3UEFTTU5KTDlWRUxRYVFzOHJkdDVtZGQ0MTF3RWd4RXQwQVRSQm9FQS1XSnUtMnFDenhpc3N1VkdWZ1NTY2Y2Y2lqaFR2Nk9PazBNN2hIZXJpckx4bEpUN284OUVPRF9DUHhDcnJNbjcxYzAxRThsc2E1M2Z3em5Ba2XSAb4CQVVfeXFMT3lPemUzWVQ0SnJkTlRhT2l1aGdHVHZyWHNmZ0tWdDZ1ZUNPbTZMZFo2ZV9hMkZLd0R0dFZOcUcwMTNhN1hObXZUV09uM01fcUhITnVkX2Q0MTZXUWVXZHRST1pJaUVTaDQ1Rm9iZ2p3bWc1YlBFRnpTOElFU2tTZEc5djRiUXR6RmhtWm9KSVF6RC1NRGJidkYyYV9WLXFJamxyejR4ajBfQm0teWYybmlrNzJnbmZDYk4zbGVFcFFGajFmVGJMSWlxUlZOeHB0dEs2WjBMb1B1UGNXSG5nWlZnc2Fub2lUOElCVGI1R2NKNWlQZ0xGenlkZEFROWFaRl9IT3Q5ay03ek5FM3lDY05aMXJ1YW80V19HU1NINUtrbWZ4OTQzYzRYMjFqdDhwMTZxSHp5cktIMjEzcU13?oc=5",
+   "source": "الجزيرة نت",
+   "sourceUrl": "https://www.aljazeera.net",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-01T07:00:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "87fd5c57dba0",
    "title": "النائب العام الإماراتي يأمر بالتحقيق في حادث طائرة «فلاي دبي»",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwc09CSXc5aW9uZ180ZXNnUkRRN1RwMWRMZmQ4dXVYSFJUTzkyamxiLWNyV1BvaW92ZUpUTmVrSVlvV2k2NElINXFzUmw0dVV2Nlo4aEtlcTRYckV3cENn?oc=5",
@@ -804,6 +840,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-01T07:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "846ba5e69440",
+   "title": "عام / النائب العام ينوّه بمضامين الخطاب الملكي ويؤكد أن العدل ركيزة راسخة في مسيرة الدولة السعودية",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE85M1NHcVZVYXdOZVZBam00RzN6OUdnR09WMVdubnBLMHlTOWk0bklnUEw3d09OcmZfVDloREhmWkVlbHdIQlE?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-01T02:44:50.000Z",
    "summary": ""
   },
   {
