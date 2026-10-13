@@ -7,6 +7,7 @@ create table if not exists public.sites (
   url         text not null unique,
   cat         text not null default '',
   file        text not null default '',
+  meta        jsonb not null default '{}',   -- المحتوى والرابط الفرعي والدليل والملاحظات
   created_at  timestamptz not null default now(),
   created_by  uuid default auth.uid()
 );
@@ -22,9 +23,14 @@ create table if not exists public.reports (
   inspector   text not null default '',
   screenshot  text,          -- مسار لقطة الفحص الآلي
   image       text,          -- الصورة الملصقة (data URL)
+  extra       jsonb not null default '{}',   -- تفاصيل البلاغ (محتوى/دليل/ملاحظات)
   created_at  timestamptz not null default now(),
   created_by  uuid default auth.uid()
 );
+
+-- للقواعد المنشأة سابقاً:
+alter table public.sites   add column if not exists meta  jsonb not null default '{}';
+alter table public.reports add column if not exists extra jsonb not null default '{}';
 
 create index if not exists sites_created_idx   on public.sites   (created_at desc);
 create index if not exists reports_created_idx on public.reports (created_at desc);
