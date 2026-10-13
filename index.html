@@ -87,6 +87,30 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 .paste{border:2px dashed var(--line);border-radius:10px;padding:16px;text-align:center;color:var(--muted);background:var(--bg);cursor:text}
 .paste:focus{outline:2px solid var(--accent);border-color:var(--accent)}
 .paste img{max-width:100%;max-height:200px;border-radius:6px;display:block;margin:0 auto}
+body.locked nav,body.locked main{display:none!important}
+#auth{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;background:var(--bg);padding:16px}
+#auth form{width:min(400px,100%);background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px;box-shadow:var(--shadow)}
+#auth .brand{font-size:1.15rem;margin-bottom:6px}#auth h3{margin:0 0 16px;font-size:1.3rem}
+#auth label,#acct label{margin-top:12px}
+#auth input,#acct input,#acct select{width:100%;font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+#a-err,#pw-msg{min-height:1.4em;margin-top:10px;font-size:.88rem;color:var(--bad)}
+#auth .btn.primary{width:100%;margin-top:6px;padding:10px}
+#acct{max-width:640px}#acct h3{margin:18px 0 8px}#acct h3:first-child{margin-top:0}
+#acct .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;align-items:end}
+.role{font-size:.75rem;padding:1px 8px;border-radius:99px;border:1px solid var(--line);color:var(--muted)}
+.intl{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:16px;margin-bottom:28px}
+.intl h2,.sec-h{margin:0 0 12px;font-size:1.25rem}
+.rcard h3{margin:0;font-size:1.15rem}.rcard .en{color:var(--muted);font-size:.85rem;direction:ltr;text-align:right}
+.rcard .pub a{color:var(--muted);font-size:.9rem}
+.cd{display:flex;align-items:baseline;gap:8px;margin:14px 0 6px}.cd .n{font-size:2.6rem;font-weight:800;line-height:1}.cd .u{color:var(--muted)}
+.when{font-size:.95rem}.when small{color:var(--muted)}
+.track{height:8px;border-radius:99px;background:var(--bg);border:1px solid var(--line);overflow:hidden;margin:10px 0 4px}
+.track i{display:block;height:100%;background:var(--accent);border-radius:99px}
+.ind{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
+.ind summary{cursor:pointer;font-weight:700}
+.ind dl{margin:10px 0 0}.ind dt{font-weight:700;margin-top:12px}.ind dt .en{font-weight:400;color:var(--muted);font-size:.8rem;margin-inline-start:6px;direction:ltr;display:inline-block}
+.ind dd{margin:2px 0 0;color:var(--muted);font-size:.92rem}
+.ind .grp{margin:14px 0 0;font-size:.8rem;color:var(--accent);font-weight:700}
 /* PDF template (rendered off-screen) */
 #pdf-root{position:fixed;inset-inline-start:-10000px;top:0;width:794px}
 .pdf{background:#fff;color:#111;padding:40px 48px;font-family:Tajawal,Arial,sans-serif;direction:rtl;min-height:1060px}
@@ -94,16 +118,17 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 .pdf table{margin-bottom:28px;table-layout:fixed;width:100%}.pdf td{overflow-wrap:anywhere;word-break:break-all}.pdf th{width:30%;background:#f1f3f6;font-size:15px}.pdf td{font-size:15px}
 .pdf th,.pdf td{border:1px solid #cfd4dc;padding:10px 12px}
 .pdf .res{font-weight:800;font-size:18px}
+.pdf .lh{text-align:center;margin-bottom:16px}.pdf .logo{max-height:78px;max-width:280px}
 .pdf .shot{display:block;max-width:100%;max-height:330px;margin:0 auto 6px;border:1px solid #cfd4dc}.pdf .cap{text-align:center;font-size:12px;color:#666;margin-bottom:22px}
 .pdf .sig{display:flex;gap:40px;margin-top:50px}.pdf .sig div{flex:1;font-size:15px}.pdf .sig i{display:block;border-bottom:1px solid #111;min-height:34px;margin-top:6px;font-style:normal;padding-top:6px}
 .pdf .ft{margin-top:36px;font-size:12px;color:#777;text-align:center}
 @media print{body>*:not(#pdf-root){display:none!important}#pdf-root{position:static;width:auto}}
 </style>
 </head>
-<body>
+<body class="locked">
 <header><div class="bar">
   <div class="brand">التحكم والرصد في الفضاء الرقمي<span>.</span></div>
-  <span id="whoami" class="meta" hidden></span><button class="btn sm" id="logout" hidden>خروج</button>
+  <button class="btn sm" id="acct-btn" hidden></button><button class="btn sm" id="logout" hidden>خروج</button>
   <nav role="tablist" aria-label="أقسام الموقع">
     <button role="tab" aria-selected="true" data-tab="news">مرصد الإنفاذ</button>
     <button role="tab" aria-selected="false" data-tab="sites">فحص المواقع</button>
@@ -114,6 +139,9 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
 <main>
 <section id="news" role="tabpanel">
   <h2>مرصد الإنفاذ</h2>
+  <h3 class="sec-h">التقارير الدولية للإنفاذ</h3>
+  <div class="intl" id="intl"></div>
+  <h3 class="sec-h">الأخبار</h3>
   <div class="filters" id="news-topics" aria-label="الموضوع"></div>
   <div class="filters"><span id="news-scopes" class="filters" style="margin:0"></span><input class="search" id="news-q" type="search" placeholder="بحث في الأخبار" aria-label="بحث"></div>
   <div class="grid" id="news-list"></div>
@@ -222,14 +250,44 @@ details.tbl summary{cursor:pointer;color:var(--muted);font-size:.9rem}
     <div class="actions" style="margin:0"><button class="btn primary" value="go" id="d-go">تنزيل التقرير PDF</button><button class="btn" value="cancel" formnovalidate>إلغاء</button></div>
   </form>
 </dialog>
-<dialog id="login">
-  <form id="login-form" method="dialog">
-    <h3 style="margin-top:0">تسجيل الدخول</h3>
-    <label for="l-email">البريد الإلكتروني</label><input type="email" id="l-email" dir="ltr" required autocomplete="username">
-    <label for="l-pw" style="margin-top:10px">كلمة المرور</label><input type="password" id="l-pw" dir="ltr" required autocomplete="current-password" style="width:100%;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)">
-    <div class="meta" id="l-err" style="color:var(--bad);min-height:1.4em"></div>
-    <div class="actions" style="margin:0"><button class="btn primary" id="l-go">دخول</button></div>
+<div id="auth" hidden>
+  <form id="auth-form">
+    <div class="brand">التحكم والرصد في الفضاء الرقمي<span>.</span></div>
+    <h3 id="a-title">تسجيل الدخول</h3>
+    <div id="a-name-row" hidden><label for="a-name">الاسم الكامل</label><input id="a-name" autocomplete="name"></div>
+    <label for="a-user" id="a-user-l">اسم المستخدم</label><input id="a-user" dir="ltr" autocomplete="username" required>
+    <label for="a-pw">كلمة المرور</label><input type="password" id="a-pw" dir="ltr" autocomplete="current-password" required>
+    <div id="a-pw2-row" hidden><label for="a-pw2">تأكيد كلمة المرور</label><input type="password" id="a-pw2" dir="ltr" autocomplete="new-password"></div>
+    <div id="a-err" role="alert"></div>
+    <button class="btn primary" id="a-go">دخول</button>
   </form>
+</div>
+<dialog id="acct">
+  <h3>حسابي</h3>
+  <div id="acct-me" style="margin-bottom:8px"></div>
+  <form id="pw-form" autocomplete="off">
+    <div class="row">
+      <div><label for="pw-cur">كلمة المرور الحالية</label><input type="password" id="pw-cur" dir="ltr" required></div>
+      <div><label for="pw-new">كلمة المرور الجديدة</label><input type="password" id="pw-new" dir="ltr" required></div>
+      <div><button class="btn primary" type="submit">تغيير</button></div>
+    </div>
+    <div id="pw-msg" role="status"></div>
+  </form>
+  <div id="users-sec" hidden>
+    <h3>المستخدمون</h3>
+    <div style="overflow-x:auto"><table><thead><tr><th>الاسم</th><th>اسم المستخدم</th><th>الدور</th><th></th></tr></thead><tbody id="users-body"></tbody></table></div>
+    <form id="user-add" autocomplete="off" style="margin-top:14px">
+      <div class="row">
+        <div><label for="u-name">الاسم الكامل</label><input id="u-name" required></div>
+        <div><label for="u-user">اسم المستخدم</label><input id="u-user" dir="ltr" required></div>
+        <div><label for="u-pw">كلمة المرور</label><input type="password" id="u-pw" dir="ltr" required></div>
+        <div><label for="u-role">الدور</label><select id="u-role"><option value="inspector">مفتش</option><option value="admin">مشرف</option></select></div>
+        <div><button class="btn primary" type="submit">إضافة</button></div>
+      </div>
+      <div id="u-msg" role="status" style="min-height:1.4em;margin-top:8px;font-size:.88rem;color:var(--bad)"></div>
+    </form>
+  </div>
+  <div class="actions"><button class="btn" id="acct-close" type="button">إغلاق</button></div>
 </dialog>
 <div id="tip" role="tooltip"></div>
 <div id="pdf-root" aria-hidden="true"></div>
@@ -339,6 +397,42 @@ function renderNews(){
 $("#news-more").onclick=()=>{nLimit+=30;renderNews()};
 $("#news-q").oninput=e=>{newsQ=e.target.value;nLimit=30;renderNews()};
 
+/* ===== التقارير الدولية للإنفاذ ===== */
+const DAY_MS=864e5;
+function nextRelease(r,now=new Date()){
+ const t=Date.UTC(now.getFullYear(),now.getMonth(),now.getDate());
+ let y=now.getFullYear(),d=Date.UTC(y,r.release.month-1,r.release.day);
+ if(d<t)d=Date.UTC(++y,r.release.month-1,r.release.day);
+ return {date:d,days:Math.round((d-t)/DAY_MS),year:y,prev:Date.UTC(y-1,r.release.month-1,r.release.day),today:t};
+}
+function untilText(days){
+ if(days===0)return ["اليوم",""];
+ return [String(days),days===1?"يوم":days<11?"أيام":"يوماً"];
+}
+function monthsDays(days){let m=Math.floor(days/30.4375),d=Math.round(days-m*30.4375);if(d>=30){m++;d=0}return m?`≈ ${m} ${m<11?"أشهر":"شهراً"}${d?` و${d} ${d<11?"أيام":"يوماً"}`:""}`:""}
+async function loadIntl(){
+ let d;try{const r=await fetch("data/intl-reports.json?v="+Date.now());if(!r.ok)throw 0;d=await r.json()}catch{return}
+ const wrap=$("#intl");wrap.replaceChildren();
+ for(const r of d.reports||[]){
+  const n=nextRelease(r),card=el("article","card rcard"),[num,unit]=untilText(n.days);
+  const h=el("h3");const a=el("a",null,r.name);a.href=r.url;a.target="_blank";a.rel="noopener noreferrer";a.style.color="inherit";h.append(a);
+  const pub=el("div","pub");const pa=el("a",null,r.publisher);pa.href=r.url;pa.target="_blank";pa.rel="noopener noreferrer";pub.append(pa);
+  const tags=el("div");tags.append(el("span","tag",r.cadence||""));if(r.release.approx)tags.append(el("span","tag","موعد تقديري"));
+  const cd=el("div","cd");cd.append(el("span","n",num));if(unit)cd.append(el("span","u",unit+" على الإصدار القادم"));else cd.append(el("span","u","موعد الإصدار المتوقع"));
+  const when=el("div","when");when.append(document.createTextNode(`${r.release.label} ${n.year}`));const md=monthsDays(n.days);if(md)when.append(el("small",null,"  ·  "+md));
+  const frac=Math.min(1,Math.max(0,(n.today-n.prev)/(n.date-n.prev)));
+  const tr=el("div","track");tr.setAttribute("role","progressbar");tr.setAttribute("aria-valuenow",Math.round(frac*100));tr.setAttribute("aria-label","نسبة المدة المنقضية منذ الإصدار السابق");const bar=el("i");bar.style.width=Math.round(frac*100)+"%";tr.append(bar);
+  const basis=el("div","meta",r.release.basis||"");
+  card.append(tags,h);if(r.nameEn)card.append(el("div","en",r.nameEn));card.append(pub,el("p",null,r.about||""),cd,when,tr,basis);
+  const det=el("details","ind");det.open=true;det.append(el("summary",null,`المؤشرات وتعريفها (${(r.indicators||[]).length})`));
+  const dl=el("dl");let g=null;
+  for(const i of r.indicators||[]){
+   if(i.group&&i.group!==g){g=i.group;dl.append(el("div","grp",g))}
+   const dt=el("dt",null,i.name);if(i.en)dt.append(el("span","en",i.en));dl.append(dt,el("dd",null,i.definition))}
+  det.append(dl);card.append(det);wrap.append(card);
+ }
+}
+
 /* ===== الإجراءان: بلاغات أصحاب الحقوق (Excel) + الفحص الآلي ===== */
 const SRC_C="بلاغ من أصحاب الحقوق", SRC_P="تفتيش استباقي";
 const CATS=["بث مباشر للمباريات","أفلام ومسلسلات","بث مشفّر (IPTV)","صوتيات","أخرى"];
@@ -371,7 +465,7 @@ function renderComplaints(){
 }
 $("#cx-more").onclick=()=>{cLimit+=30;renderComplaints()};
 $("#cx-q").oninput=e=>{cQ=e.target.value;cLimit=30;renderComplaints()};
-$("#cx-clear").onclick=async()=>{if(!confirm(CLOUD?"سيُمسح كل المواقع من القائمة المشتركة لجميع الموظفين. متابعة؟ (التقارير تبقى في السجل)":"مسح كل المواقع من القائمة؟ (التقارير المُصدرة تبقى في السجل)"))return;try{await store.clearSites();$("#cx-msg").textContent="تم مسح القائمة."}catch(err){$("#cx-msg").textContent="تعذر المسح: "+err.message}renderSites()};
+$("#cx-clear").onclick=async()=>{if($("#cx-clear").dataset.admin==="no"){alert("هذا الإجراء للمشرف فقط");return}if(!confirm(CLOUD?"سيُمسح كل المواقع من القائمة المشتركة لجميع الموظفين. متابعة؟ (التقارير تبقى في السجل)":"مسح كل المواقع من القائمة؟ (التقارير المُصدرة تبقى في السجل)"))return;try{await store.clearSites();$("#cx-msg").textContent="تم مسح القائمة."}catch(err){$("#cx-msg").textContent="تعذر المسح: "+err.message}renderSites()};
 const URLRE=/https?:\/\/[^\s"'<>)\]]+|(?<![@\w.-])(?:[a-z0-9-]+\.)+[a-z]{2,24}(?:\/[^\s"'<>)\]]*)?(?![\w-])/gi;
 function normUrl(x){x=String(x).trim().replace(/[\s.,;،]+$/,"");if(!x)return null;if(!/^https?:\/\//i.test(x))x="https://"+x;try{const u=new URL(x);return u.hostname.includes(".")?u.href:null}catch{return null}}
 /* قراءة الملفات بترميز صحيح: CSV كنص UTF-8 (وإلا Windows-1256 العربي القديم)، وExcel كبايتات */
@@ -540,7 +634,7 @@ function openDlg(id){
  $("#d-site").textContent=cur.title||cur.host;$("#d-url").textContent=showUrl(cur.url);
  document.querySelectorAll("[name=t]").forEach(c=>c.checked=(cur.types||[]).includes(c.value));
  if(cur.tier===1)document.querySelector('[name=r][value="مخالف"]').checked=true;
- try{$("#d-name").value=localStorage.getItem("ipw_inspector")||""}catch{}
+ try{$("#d-name").value=(AUTH.user&&AUTH.user.name)||localStorage.getItem("ipw_inspector")||""}catch{}
  $("#dlg").showModal();
 }
 $("#rep-form").onsubmit=async e=>{
@@ -561,7 +655,7 @@ $("#rep-form").onsubmit=async e=>{
 /* ===== PDF ===== */
 function reportHtml(r,img){
  const src=img;
- return `<div class="pdf"><h1>تقرير رصد انتهاك الملكية الفكرية</h1><div class="s">تاريخ الرصد: ${fmt(r.date)}</div>
+ return `<div class="pdf"><div class="lh"><img class="logo" src="${esc(CFG.reportLogo||"assets/saip-logo.png")}" alt="الهيئة السعودية للملكية الفكرية" onerror="this.parentNode.remove()"></div><h1>تقرير رصد انتهاك الملكية الفكرية</h1><div class="s">تاريخ الرصد: ${fmt(r.date)}</div>
 <table><tr><th>اسم الموقع</th><td>${esc(r.site)}</td></tr>
 <tr><th>رابط الموقع المخالف</th><td dir="ltr" style="text-align:left">${esc(r.url)}</td></tr>
 <tr><th>نوع المواد المبثوثة</th><td>${r.types.length?r.types.map(esc).join(" ، "):"—"}</td></tr>
@@ -578,7 +672,7 @@ async function toDataUrl(src){
 }
 async function reportCanvas(el){
  const W=794,S=2,H=Math.max(1122,Math.ceil(el.scrollHeight));
- for(const im of el.querySelectorAll("img")){try{im.src=await toDataUrl(im.getAttribute("src"));await im.decode()}catch{im.remove()}}
+ for(const im of el.querySelectorAll("img")){try{im.src=await toDataUrl(im.getAttribute("src"));await im.decode()}catch{(im.closest(".lh")||im).remove()}}
  const css=[...document.styleSheets].flatMap(sh=>{try{return [...sh.cssRules]}catch{return []}}).map(r=>r.cssText).join("\n");
  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${W*S}" height="${H*S}"><g transform="scale(${S})"><foreignObject x="0" y="0" width="${W}" height="${H}"><style>${css}</style>${new XMLSerializer().serializeToString(el)}</foreignObject></g></svg>`;
  const im=new Image();im.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg);await im.decode();
@@ -672,17 +766,133 @@ function renderReports(){
  document.querySelectorAll("[data-re]").forEach(b=>b.onclick=async()=>{const r=reports[b.dataset.re];let img=null;try{img=await store.reportImage(r)}catch{}makePdf(r,img)});
  renderDash();
 }
-/* ===== تسجيل الدخول والبدء ===== */
-function showLogin(){const d=$("#login");if(!d.open){$("#l-err").textContent="";d.showModal()}}
-$("#login").addEventListener("cancel",e=>e.preventDefault());
-function whoami(){const on=CLOUD&&sb.sess;$("#whoami").hidden=$("#logout").hidden=!on;if(on)$("#whoami").textContent=sb.sess.email}
-$("#login-form").onsubmit=async e=>{
- e.preventDefault();$("#l-err").textContent="";$("#l-go").disabled=true;
- try{await sb.login($("#l-email").value.trim(),$("#l-pw").value);$("#login").close();$("#l-pw").value="";await cloudStart()}
- catch(err){$("#l-err").textContent=err.message}
- $("#l-go").disabled=false;
+/* ===== المصادقة: حسابات محلية (بدون قاعدة بيانات) أو Supabase ===== */
+const AUTH={mode:CLOUD?"cloud":(CFG.requireLogin===false?"off":"local"),user:null,view:"login",idle:null};
+const USERS_KEY="ipw_users",SESS_KEY="ipw_session",ROLE_NAME={admin:"مشرف",inspector:"مفتش"};
+const b64=u=>btoa(String.fromCharCode(...u)),unb64=t=>Uint8Array.from(atob(t),c=>c.charCodeAt(0));
+const newSalt=()=>b64(crypto.getRandomValues(new Uint8Array(16)));
+async function hashPw(pw,salt){
+ const k=await crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveBits"]);
+ return b64(new Uint8Array(await crypto.subtle.deriveBits({name:"PBKDF2",hash:"SHA-256",salt:unb64(salt),iterations:150000},k,256)));
+}
+const getUsers=()=>load(USERS_KEY,[]);
+const putUsers=u=>{try{localStorage.setItem(USERS_KEY,JSON.stringify(u))}catch{throw new Error("تعذر الحفظ في المتصفح")}};
+const uKey=n=>String(n).trim().toLowerCase();
+async function makeUser({name,username,password,role}){
+ const salt=newSalt();return {id:"u"+Date.now()+Math.random().toString(36).slice(2,6),name:name.trim(),username:uKey(username),role,salt,hash:await hashPw(password,salt),disabled:false,created:new Date().toISOString()};
+}
+const sessGet=()=>{try{const x=JSON.parse(sessionStorage.getItem(SESS_KEY));return x&&x.exp>Date.now()?x:null}catch{return null}};
+const sessSet=u=>{try{sessionStorage.setItem(SESS_KEY,JSON.stringify({u,exp:Date.now()+8*36e5}))}catch{}};
+const sessClear=()=>{try{sessionStorage.removeItem(SESS_KEY)}catch{}};
+/* تقييد المحاولات: 5 أخطاء ثم انتظار 30 ثانية */
+const lock={get(){try{return JSON.parse(sessionStorage.getItem("ipw_lock"))||{n:0,until:0}}catch{return{n:0,until:0}}},set(v){try{sessionStorage.setItem("ipw_lock",JSON.stringify(v))}catch{}}};
+
+function authView(v){
+ AUTH.view=v;const setup=v==="setup",cloud=AUTH.mode==="cloud";
+ $("#a-title").textContent=setup?"إنشاء حساب المشرف":"تسجيل الدخول";
+ $("#a-name-row").hidden=!setup;$("#a-pw2-row").hidden=!setup;$("#a-name").required=$("#a-pw2").required=setup;
+ $("#a-user-l").textContent=cloud?"البريد الإلكتروني":"اسم المستخدم";$("#a-user").type=cloud?"email":"text";
+ $("#a-pw").autocomplete=setup?"new-password":"current-password";
+ $("#a-go").textContent=setup?"إنشاء الحساب":"دخول";$("#a-err").textContent="";
+}
+function showLogin(){
+ stopIdle();document.body.classList.add("locked");$("#auth").hidden=false;
+ authView(AUTH.mode==="local"&&!getUsers().length?"setup":"login");$("#a-pw").value=$("#a-pw2").value="";
+ setTimeout(()=>($("#a-name-row").hidden?$("#a-user"):$("#a-name")).focus(),0);
+}
+function applyAuthUI(){
+ const u=AUTH.user,on=AUTH.mode!=="off"&&u;
+ $("#acct-btn").hidden=$("#logout").hidden=!on;
+ if(on){$("#acct-btn").textContent=u.name+(u.role?" · "+(ROLE_NAME[u.role]||u.role):"")}
+ $("#cx-clear").dataset.admin=(AUTH.mode==="local"&&u&&u.role!=="admin")?"no":"yes";
+}
+function startIdle(){
+ stopIdle();if(AUTH.mode==="off")return;
+ const ms=(CFG.idleMinutes||30)*6e4,reset=()=>{clearTimeout(AUTH.idle);AUTH.idle=setTimeout(()=>doLogout(),ms)};
+ ["pointerdown","keydown","scroll"].forEach(e=>addEventListener(e,reset,{passive:true}));AUTH._reset=reset;reset();
+}
+function stopIdle(){clearTimeout(AUTH.idle);if(AUTH._reset)["pointerdown","keydown","scroll"].forEach(e=>removeEventListener(e,AUTH._reset));AUTH._reset=null}
+async function enterApp(user){
+ AUTH.user=user;document.body.classList.remove("locked");$("#auth").hidden=true;
+ applyAuthUI();startIdle();
+ if(AUTH.mode==="cloud")await cloudStart();else{renderSites();renderReports()}
+}
+function doLogout(){
+ sessClear();sb.clear();AUTH.user=null;
+ if(CLOUD){manual=[];reports=[]}
+ document.querySelectorAll("dialog[open]").forEach(d=>d.close());
+ renderSites();renderReports();applyAuthUI();showLogin();
+}
+$("#logout").onclick=doLogout;
+
+$("#auth-form").onsubmit=async e=>{
+ e.preventDefault();const err=$("#a-err");err.textContent="";
+ const user=$("#a-user").value.trim(),pw=$("#a-pw").value;
+ const L=lock.get();if(L.until>Date.now()){err.textContent=`محاولات كثيرة. انتظر ${Math.ceil((L.until-Date.now())/1000)} ثانية`;return}
+ $("#a-go").disabled=true;
+ try{
+  if(AUTH.mode==="cloud"){
+   try{await sb.login(user,pw)}catch(x){throw new Error(x.message)}
+   await enterApp({name:sb.sess.email,username:sb.sess.email,role:null});
+  }else if(AUTH.view==="setup"){
+   const name=$("#a-name").value.trim();
+   if(name.length<2)throw new Error("أدخل الاسم الكامل");
+   if(!/^[\w.\-@]{3,}$/.test(user))throw new Error("اسم المستخدم 3 أحرف أو أكثر (حروف لاتينية وأرقام)");
+   if(pw.length<8)throw new Error("كلمة المرور 8 أحرف على الأقل");
+   if(pw!==$("#a-pw2").value)throw new Error("كلمتا المرور غير متطابقتين");
+   const u=await makeUser({name,username:user,password:pw,role:"admin"});putUsers([u]);
+   sessSet(u.username);await enterApp(pubUser(u));
+  }else{
+   const u=getUsers().find(x=>x.username===uKey(user));
+   const ok=u&&!u.disabled&&(await hashPw(pw,u.salt))===u.hash;
+   if(!ok){const n=L.n+1;lock.set({n:n>=5?0:n,until:n>=5?Date.now()+3e4:0});throw new Error(u&&u.disabled?"الحساب موقوف":"اسم المستخدم أو كلمة المرور غير صحيحة")}
+   lock.set({n:0,until:0});sessSet(u.username);await enterApp(pubUser(u));
+  }
+  $("#a-pw").value=$("#a-pw2").value="";
+ }catch(x){err.textContent=x.message}
+ $("#a-go").disabled=false;
 };
-$("#logout").onclick=()=>{sb.clear();manual=[];reports=[];renderSites();renderReports();whoami();showLogin()};
+const pubUser=u=>({id:u.id,name:u.name,username:u.username,role:u.role});
+
+/* حسابي + إدارة المستخدمين */
+function renderAcct(){
+ const u=AUTH.user;if(!u)return;
+ $("#acct-me").textContent=`${u.name}${u.username?" · "+u.username:""}${u.role?" · "+ROLE_NAME[u.role]:""}`;
+ $("#pw-form").hidden=AUTH.mode!=="local";
+ const admin=AUTH.mode==="local"&&u.role==="admin";$("#users-sec").hidden=!admin;
+ if(!admin)return;
+ $("#users-body").replaceChildren(...getUsers().map(x=>{
+  const tr=el("tr");tr.append(el("td",null,x.name),el("td",null,x.username),(()=>{const t=el("td");t.append(el("span","role",ROLE_NAME[x.role]+(x.disabled?" · موقوف":"")));return t})());
+  const act=el("td"),mk=(t,f,c)=>{const b=el("button","btn sm"+(c?" danger":""),t);b.type="button";b.style.marginInlineStart="4px";b.onclick=f;act.append(b)};
+  mk("كلمة مرور جديدة",async()=>{const np=prompt("كلمة المرور الجديدة (8 أحرف على الأقل)");if(!np)return;if(np.length<8){alert("كلمة المرور قصيرة");return}
+   const us=getUsers(),t=us.find(y=>y.id===x.id);t.salt=newSalt();t.hash=await hashPw(np,t.salt);putUsers(us);renderAcct()});
+  if(x.id!==u.id){
+   mk(x.disabled?"تفعيل":"إيقاف",()=>{const us=getUsers(),t=us.find(y=>y.id===x.id);if(t.role==="admin"&&!t.disabled&&us.filter(y=>y.role==="admin"&&!y.disabled).length<2){alert("لا يمكن إيقاف آخر مشرف");return}t.disabled=!t.disabled;putUsers(us);renderAcct()});
+   mk("حذف",()=>{const us=getUsers();if(x.role==="admin"&&us.filter(y=>y.role==="admin"&&!y.disabled).length<2){alert("لا يمكن حذف آخر مشرف");return}if(!confirm("حذف المستخدم "+x.name+"؟"))return;putUsers(us.filter(y=>y.id!==x.id));renderAcct()},true);
+  }
+  tr.append(act);return tr}));
+}
+$("#acct-btn").onclick=()=>{$("#pw-msg").textContent="";$("#u-msg").textContent="";$("#pw-form").reset();renderAcct();$("#acct").showModal()};
+$("#acct-close").onclick=()=>$("#acct").close();
+$("#pw-form").onsubmit=async e=>{
+ e.preventDefault();const m=$("#pw-msg");m.style.color="var(--bad)";m.textContent="";
+ try{
+  const us=getUsers(),t=us.find(y=>y.id===AUTH.user.id),cur=$("#pw-cur").value,nw=$("#pw-new").value;
+  if(!t||(await hashPw(cur,t.salt))!==t.hash)throw new Error("كلمة المرور الحالية غير صحيحة");
+  if(nw.length<8)throw new Error("كلمة المرور الجديدة 8 أحرف على الأقل");
+  t.salt=newSalt();t.hash=await hashPw(nw,t.salt);putUsers(us);e.target.reset();m.style.color="var(--ok)";m.textContent="تم تغيير كلمة المرور";
+ }catch(x){m.textContent=x.message}
+};
+$("#user-add").onsubmit=async e=>{
+ e.preventDefault();const m=$("#u-msg");m.textContent="";
+ try{
+  const name=$("#u-name").value.trim(),un=uKey($("#u-user").value),pw=$("#u-pw").value;
+  if(!/^[\w.\-@]{3,}$/.test(un))throw new Error("اسم المستخدم 3 أحرف أو أكثر (حروف لاتينية وأرقام)");
+  if(pw.length<8)throw new Error("كلمة المرور 8 أحرف على الأقل");
+  const us=getUsers();if(us.some(y=>y.username===un))throw new Error("اسم المستخدم مستخدم مسبقاً");
+  us.push(await makeUser({name,username:un,password:pw,role:$("#u-role").value}));putUsers(us);e.target.reset();renderAcct();
+ }catch(x){m.textContent=x.message}
+};
 async function maybeImportLocal(){
  const ls=load("ipw_sites",[]).filter(s=>!/^https?:\/\/example\./.test(s.url)),lr=load("ipw_reports",[]);
  if(load("ipw_imported",false)||(!ls.length&&!lr.length))return;
@@ -694,12 +904,18 @@ async function maybeImportLocal(){
  }catch(err){alert("تعذر الاستيراد: "+err.message)}
 }
 async function cloudStart(){
- whoami();
+ applyAuthUI();
  try{await store.load();await maybeImportLocal()}catch(err){if(sb.sess)alert("تعذر تحميل البيانات المشتركة: "+err.message)}
  renderSites();renderReports();
 }
-renderNews();renderSites();renderReports();loadNews();
-if(CLOUD){sb.sess?cloudStart():showLogin();document.addEventListener("visibilitychange",()=>{if(!document.hidden&&sb.sess)store.load().then(()=>{renderSites();renderReports()}).catch(()=>{})})}
+renderNews();renderSites();renderReports();loadNews();loadIntl();
+(async()=>{
+ if(AUTH.mode==="off"){document.body.classList.remove("locked");return}
+ if(AUTH.mode==="cloud"){if(sb.sess)await enterApp({name:sb.sess.email,username:sb.sess.email,role:null});else showLogin();
+  document.addEventListener("visibilitychange",()=>{if(!document.hidden&&sb.sess)store.load().then(()=>{renderSites();renderReports()}).catch(()=>{})});return}
+ const ss=sessGet(),u=ss&&getUsers().find(x=>x.username===ss.u&&!x.disabled);
+ if(u)await enterApp(pubUser(u));else showLogin();
+})();
 </script>
 </body>
 </html>

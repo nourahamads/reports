@@ -63,3 +63,17 @@ test("فلاتر الضجيج: عملات مزيفة وقرصنة بحرية و�
   for (const bad of ["Counterfeit cash", "Somali piracy", "حوثية", "مصر..", "النائب العام اليمني"]) assert.ok(!titles.some((t) => t.includes(bad)), "يجب استبعاد: " + bad);
   for (const good of ["anti-piracy ruling", "براءة اختراع", "يمثل المملكة"]) assert.ok(titles.some((t) => t.includes(good)), "يجب بقاء: " + good);
 });
+
+test("العالمي: عناوين الملكية الفكرية فقط؛ إعلانات IPTV والقوائم الترويجية تُستبعد", async () => {
+  const D = "Mon, 05 Oct 2026 10:00:00 GMT";
+  const item = (t, s) => ({ t: `${t} - ${s}`, l: "https://g/" + encodeURIComponent(t), d: D, s, su: "https://x.example" });
+  const fetcher = async (url) => {
+    const q = new URL(url).searchParams.get("q");
+    if (q.includes("intellectual property")) return rss([item("Court issues Birkenstock copyright ruling", "WIPR"), item("Top 5 Best IPTV Providers in the UK for 2026", "TyN"), item("Digital payments are becoming more popular in Germany", "FB"), item("WIPO members adopt new treaty", "WIPO")]);
+    if (q.includes("digital piracy")) return rss([item("Illegal streaming sites blocked in new anti-piracy push", "TorrentFreak"), item("Somali piracy resurgence at sea", "Soufan"), item("Cord-cutting: how to pick an IPTV service", "Blog")]);
+    return rss([]);
+  };
+  const titles = (await build(cfg, fetcher, NOW)).items.map((i) => i.title);
+  for (const good of ["Birkenstock copyright", "WIPO members", "anti-piracy push"]) assert.ok(titles.some((t) => t.includes(good)), "يجب بقاء: " + good);
+  for (const bad of ["Best IPTV", "Digital payments", "Somali piracy", "IPTV service"]) assert.ok(!titles.some((t) => t.includes(bad)), "يجب استبعاد: " + bad);
+});

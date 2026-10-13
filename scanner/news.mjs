@@ -58,10 +58,18 @@ async function fetchText(url) {
 /** هل الخبر ذو صلة؟ (الموضوع + النطاق المحلي) */
 export function makeFilters(cfg) {
   const re = (x) => new RegExp(normalize(x), "i");
-  const topics = Object.fromEntries(Object.entries(cfg.topics).map(([k, v]) => [k, { inc: re(v.match), exc: v.exclude ? re(v.exclude) : null }]));
+  const topics = Object.fromEntries(Object.entries(cfg.topics).map(([k, v]) => [k, {
+    inc: re(v.match), exc: v.exclude ? re(v.exclude) : null,
+    ginc: v.globalMatch ? re(v.globalMatch) : null, gexc: v.globalExclude ? re(v.globalExclude) : null,
+  }]));
   const saudi = re(cfg.localMarkers), weak = re(cfg.localWeak || "$^"), pub = re(cfg.localSources || "$^"), other = cfg.localExclude ? re(cfg.localExclude) : null;
   return (item, scope, topic) => {
-    const hay = normalize(`${item.title} ${item.summary}`), t = topics[topic];
+    const t = topics[topic];
+    if (scope === "عالمي" && t.ginc) {                                   // العالمي: عنوان الخبر نفسه يجب أن يخص الموضوع صراحة
+      const title = normalize(item.title);
+      return t.ginc.test(title) && !(t.gexc && t.gexc.test(title)) && !(t.exc && t.exc.test(title));
+    }
+    const hay = normalize(`${item.title} ${item.summary}`);
     if (!t.inc.test(hay) || (t.exc && t.exc.test(hay))) return false;
     if (scope !== "محلي") return true;
     if (saudi.test(hay)) return true;                                   // يذكر السعودية صراحة
