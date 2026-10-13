@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T00:37:01.536Z",
+ "updated": "2026-10-13T08:30:00.074Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,63 +15,135 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 65,
+   "fetched": 64,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 65,
+   "fetched": 63,
    "kept": 44
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 81,
-   "kept": 58
+   "fetched": 80,
+   "kept": 20
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 56
+   "kept": 59
   },
   {
    "id": "labor-local",
    "ok": true,
    "fetched": 56,
-   "kept": 12
+   "kept": 11
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 59,
-   "kept": 20
+   "fetched": 58,
+   "kept": 22
   }
  ],
  "items": [
   {
-   "id": "1a4122031824",
-   "title": "Shanghai wins 1st WIPO City of Innovation award",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0zRS1ZWklpUmlXemNtdHdrVXVyMFZyX1RLVk95Y3hTLVN4Mjk5MjJkeGVCNmN1N2hIRUo3c1dyU2sxR2wxbmFGbUhqSW1tNThuTnhORHd4emNHcWI0dmh1dXhB?oc=5",
-   "source": "Global Times",
-   "sourceUrl": "https://www.globaltimes.cn",
+   "id": "918d94039408",
+   "title": "Counterfeit goods seized from 15 second-hand phone shops in Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUZOcC1kZUo4aE90LUhsYWJPaS1BYzFzZEp0MFFnSVlYSU16aVoyVFoxZ3VSdmk1YmRYUURCb0FaQlZ6Vi1NcDRlNzZtckpYckVZYlI4NE0wY2xrOTZab05wNWNsN0kxX1pZUDlvbnlhdDlNd0lObE8xMFl4YkR3Z1YxOWhFMkFXdUNGSVJMeUFmclB5X2pkcHZMTFJkNnAy?oc=5",
+   "source": "Enfield Dispatch",
+   "sourceUrl": "https://enfielddispatch.co.uk",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-12T23:41:00.000Z",
+   "date": "2026-10-13T06:45:00.000Z",
    "summary": ""
   },
   {
-   "id": "bac1bc4df2a0",
-   "title": "SWITZERLAND-GENEVA-SHANGHAI-1ST WIPO CITY INNOVATION AWARD",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONS1qdmR3UndZSy1OTGZDaE14RC11eWxEU2toRUV4eW9IeFNURkgxTkt0LThCMDdmYlowVFpEWVFtek9VWGhaRVBBcy13OC1KX290M1BsQ2ZfNjYwTGx0UXFlVDRaeE9oTnBza2ZFWkZlZjJ1eWJld2hqY2g1d1hTWlQ4VWxEbkRWWEs3c3VBcHVnYUVVUTdrRWNiYUg3Q0lFY0J1NEdXQQ?oc=5",
-   "source": "Big News Network.com",
-   "sourceUrl": "https://www.bignewsnetwork.com",
+   "id": "9c1ad05bde54",
+   "title": "Shanghai wins 1st WIPO City of Innovation award",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBva25CS08zV2xXZW1pc3N5bnZtbnEwM2xjWWJwU3AtNmVJekpZaFlVQUFzNVhVMlJBVTRZLW85eXBYRjlyWTZmSndSS2lWZEVnQjJ0bmhqRWNUSGFhUDl0ZXJBYWVlRjZHekZaU2FQRXlUZU9nYWUyMVlNQVE?oc=5",
+   "source": "Xinhua",
+   "sourceUrl": "https://english.news.cn",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-12T21:46:00.000Z",
+   "date": "2026-10-13T05:55:18.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7a9884332d28",
+   "title": "Xinhua News | Shanghai wins 1st WIPO City of Innovation award",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sWGtSVkdUUVRBdDZvOVpwUTBseEgtazB4ang3RlRjSkdJbmFyTHhzU2NhaGNDSElsVjNkNlJFclo2cndJX2RnVnN0VWhjcC1ZUDVIRU1DUUxoeGR2X0FJSUpTZE9TV2g5aGd3M2Q0MFBCNi1IX3VFTFBIcjk?oc=5",
+   "source": "Xinhua",
+   "sourceUrl": "https://english.news.cn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T04:54:15.000Z",
+   "summary": ""
+  },
+  {
+   "id": "c8583d13b9ca",
+   "title": "PH pilots WIPO program to help local brands expand overseas",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjNhaHM4NFF6dU9vNWY4N3lsRDFtQm1RajBZYzJVUDBzQzhvWjBLWVVfWFJBTkhiOVNTb0g5LXVvcWJ4ZC05NjhVemY4YUhBSGx1Y013RkppeDluNEZYTjNFS2EwdTctRVdWYWFURXV5RjFibWpPTFpwQlQ3VmxRbGF5Mm1Jb19jRFR2Z2ZQc2dJTFh0WXVF?oc=5",
+   "source": "Newsbytes.PH",
+   "sourceUrl": "https://newsbytes.ph",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T03:57:17.000Z",
+   "summary": ""
+  },
+  {
+   "id": "79d264d60df3",
+   "title": "Shanghai awarded WIPO's inaugural 'City of Innovation' honor",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0pOd1NhQ1RTeUhERVZhVlUwakJHbWpHVXZFT3Q1OFNlU1dVeXlRM1dMV3ZJSjI1Tld3b180bmFYTEFFRkU1U2U2bUMxMDRic1pXM19ZRlB2c0VMZzBkTnFUejBOaGxaTENfOWlsc0hGNHJPOWtuWXByWm8tN3FoaF9R?oc=5",
+   "source": "China Daily Global Edition",
+   "sourceUrl": "https://global.chinadaily.com.cn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T03:41:01.000Z",
+   "summary": ""
+  },
+  {
+   "id": "85d72b61f03f",
+   "title": "النيابة العامة تطلق خدمة الترجمة الفورية الرقمية متعددة اللغات لدعم التحقيقات",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXYVRWak9PTnZYRWl6RzUxZERQUGtKWW5PX3h6UEtlNW1YcTJNaVFLWG5tNm9wbXl5cVFrU2lFOEY5eXZkUXhPTW1KdGMyendX?oc=5",
+   "source": "alsaudi.news",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-13T03:00:17.000Z",
+   "summary": ""
+  },
+  {
+   "id": "2356a36553e2",
+   "title": "Shanghai wins first WIPO City of Innovation award",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRjBsdGFONDE1M0xfY052eUloa0RhbDRHTDQtZnF0amFfd01YSHc4Unp3Wl9WUkdMNl9GQnpGTnFtdlctalhGOXJwOENMeF9LRFgwTmlPZm5kYW1zRmlUdGZNVE4xVVk4THZuX3RqNzAycE5RYnlOSURiNDdta2RHSmxzYmQxd3k4akxfLTBySUllV1pCaDhlOVJXQnNiejM2cW9BU1N6RUZaUQ?oc=5",
+   "source": "CGTN",
+   "sourceUrl": "https://news.cgtn.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T01:51:13.000Z",
+   "summary": ""
+  },
+  {
+   "id": "81902e542988",
+   "title": "النائب العام: احتفاظ المملكة بالفئة الأولى في مكافحة الاتجار بالأشخاص يعكس التزامها بحماية حقوق الإنسان",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5weUhvYWZIbG95VEE1Q0tadXVPU3lZX1BOMnZENDRnazYwM2ZJbnZHd0NJRmJBVDMyLVI3TldfbHBvM0FLbnRnMHNXcGpzdl9Gb1hDSGdCVVFBbjFEMlE?oc=5",
+   "source": "أخبار الخليج",
+   "sourceUrl": "https://akhbar-alkhaleej.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-12T23:00:00.000Z",
    "summary": ""
   },
   {
@@ -111,15 +183,15 @@
    "summary": ""
   },
   {
-   "id": "0668f78c6133",
-   "title": "Arab League, WIPO, Japan Discuss Unified Arab Intellectual Property Registry",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVE0wQTZ1S1luN09kVEh4RWpHeXNacEUwQTdEcnM1YVJUeFBjMFgwdTBBWDRUeWxXLWVLTHl4SWExVVlNelBqcThRX0ZxUjcwM1A5STl0aExlWldrZDF0dGl1cnY2LVZlQnJsMjhpbXNHcXNlMzNVT0xZX3B1WUJiMk5kNGIyRS1JNnZad3dhenh5RngyeUE?oc=5",
-   "source": "Sada Elbalad English",
-   "sourceUrl": "https://see.news",
+   "id": "31e5d73388b7",
+   "title": "SWITZERLAND-GENEVA-SHANGHAI-1ST WIPO CITY INNOVATION AWARD",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUnZQaTV3NFJtMVpUYUtRUWp6ZkM5MDlHTGpmS2FlSG9XUHpxQkZUWEVtbmczamdPR1VnenpFd01faXAxTVN0MnhxeXRzUkFKS0tLeS1aT01jNXI1RzQyLUlieDVRZjY4aFg1MWdlUlZvV1ROc2x3bXZrdVR4UVBodUpSSENMVWJpcE0zbUNPc1lJMmhUeVNaTUxMS0pZVk9fSEpGNg?oc=5",
+   "source": "www.indiagazette.com",
+   "sourceUrl": "https://www.indiagazette.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-12T16:22:01.000Z",
+   "date": "2026-10-12T17:16:00.000Z",
    "summary": ""
   },
   {
@@ -144,18 +216,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-12T12:48:56.000Z",
-   "summary": ""
-  },
-  {
-   "id": "274c33faf2e6",
-   "title": "Shanghai wins first WIPO City of Innovation award",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeTd2ZVU2YmV3Tzcybm9IWjVlc3dKc3hoREIwZnZjenF5aWlzSkM0cmV6OW9LTzRPT0FSNnZoOGVLQmlvVXotNmtqTlJqdTBhUjhvZTBzOE5Kb00xYzNoZi04ZFRaYTd6dnRFNGU3UENrelNnaTkzbU9CY2dsaGxZRmc0b25OazVJdGYwR0hYTUlPMjNUU3Y0Q1VR?oc=5",
-   "source": "CGTN Radio",
-   "sourceUrl": "http://english.cri.cn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-12T11:58:07.000Z",
    "summary": ""
   },
   {
@@ -243,6 +303,18 @@
    "summary": ""
   },
   {
+   "id": "fa5e4eaf84c6",
+   "title": "Bombay High Court Dismisses Revision Against Copyright Infringement Prosecution — Registration of Copyright Not Mandatory for Criminal Action Under Copyright Act, 1957. Court holds that prior registration under Section 44 is not a prerequisite for launchin",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mcGo2S2pOOWpQb0I5ZlgzQnBCWlZwbTNNbmp1ZmFyUVhzdWpHYmR3TFVhRlNEUm9ZbjNFU1EtaHB2eFFDM29OY09EeTY1NkpqS2RJQkROS2JhaWNHa1FuM0RSVlg?oc=5",
+   "source": "Lawtext",
+   "sourceUrl": "https://lawtext.in",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-12T02:07:46.000Z",
+   "summary": ""
+  },
+  {
    "id": "d4c2b7eaa527",
    "title": "Vietnam has strengthened the protection of intellectual property rights by launching a criminal crac..",
    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuY0xsN0psZWdrZmpvQTZpcTlVRTdYWWl5VkliRjFITW44WmQ2VE9wNHVObmY2bWtZWkkya3YxYWw2dTVDT2ptUjNxX2Q4STg?oc=5",
@@ -324,30 +396,6 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-11T06:09:04.000Z",
-   "summary": ""
-  },
-  {
-   "id": "560c12ef29f0",
-   "title": "Vietnam Launches First Copyright Case Targeting Japanese Content Piracy",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOVR6ajgxbHlleTEtaWtwbXFFdHFPb0h5U1FUaUtCR3doWUZZVDRFLVRETkdIY1RJRmhYY0lMV1NQRVFDR2xiMmVlM0lYNGgtYXFkM1l6ZTVzZlA0eXdRNlNVVDEyU1I2bXlLQ0w1dTFQRjlpck5YNFdjby1PR3h3OFFtc3VyVTlHelNsYWhyNUNvQ2xBQUo5YWE3UGRCUXVqVmc?oc=5",
-   "source": "news.lavx.hu",
-   "sourceUrl": "https://news.lavx.hu",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-11T04:06:44.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ce9f7b4799ad",
-   "title": "حقوق الإجازة السنوية في نظام العمل ومدى جواز إسقاط رصيدها",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT29XVTdvV0RzUk9pYUVrYk5JN1lQclRiSElTV3BpbmR1emFQMHE2QnJCOU1QT0UtaXhJUWs4VlpoS2gxYzVCTEdIQWtJaWxSYmRBbHdyLVQtaW9zSkwzZ0tGZ1pvbzNacnB6Z0tyN3E1aDBWTngxaXBUM2ZtVkotdWg2ZWNFaW9sc25kakpxR0xjZEVzOFBOY2VLb2tjREQyQkFjaWMxbw?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-11T03:02:52.000Z",
    "summary": ""
   },
   {
@@ -447,6 +495,30 @@
    "summary": ""
   },
   {
+   "id": "973525563528",
+   "title": "World Trademark Review Recognizes Morgan Lewis in Inaugural Copyright 1000 Rankings",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMFRUWmFDYVU1TlhhWlFjd2ZqYldrdkRzUHJzSWhWVnBuX0dSZUJFVWVhdzlIS0l4SlBFdjFCYlpNaGZTSklOdTZRTWhwUTMtZVpZM0xSTUUydXdvUm9hYWZTTzExbjJTOFpYYzlRX29iWlJ1TU0tUHQ5cWpTdUNBYk8xRlJ0dks2bHl4VlV3NVBPYTdwUnJnb1dOeTdKQ291OHEyVHJMZ1k3V3p4THlCVTViOUFFc3BnOEFYU0VoUk9NZw?oc=5",
+   "source": "Morgan Lewis",
+   "sourceUrl": "https://www.morganlewis.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T00:19:23.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ad8b035b3a8e",
+   "title": "Counterfeit goods operation shuts down illicit traders in Sunnyside and Marabastad",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOOGJ5X21paDlHa3VrOGVoZEU2Smx4RVpBcUlNUnh2X01BeXdQbFdrbHp2RUllMmljaVVyX1A5bnZzdDFneHJta0o5UmJKc0Z3NVVXaWNBOHB1Z1lKQ3hYZDFVVlZ1RjRGUzhPWWF3aC1iS2hUanZibm45azI2TTVKczloN3BrZ18wM2ZwcWZzSno1MWwxeXRBdGtWTWl2YWtrV2xydWZ0YndqckZkT1ZSQWtBQ01YNkNheUJkSzVjVW5TR3BNZU1XSUdRVVBxNmY1LVlDUFJEWnlTTndwU3Bub3dCZUcwQllSYXFLLUo3b0s?oc=5",
+   "source": "The Citizen",
+   "sourceUrl": "https://www.citizen.co.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T20:09:18.000Z",
+   "summary": ""
+  },
+  {
    "id": "267506522ca4",
    "title": "جديد قضية \"فلاي دبي\".. النائب العام الإماراتي يكشف التفاصيل",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4VG5vQ0JKdmJycVZyWTJVNTFFZG9QMmUyWWIzb2Y0X3I5a1VOQUFuZF85bnpTVlRCOG0wNWpLNFBhblZIbUZ1Sy01UUtWYzRCT1NBa2lqSUlXeXJ4WEtpLUhfdnl0SG1BUEEtbmZsNVNsenY3ZmcyeVRHSQ?oc=5",
@@ -456,6 +528,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-09T16:58:55.000Z",
+   "summary": ""
+  },
+  {
+   "id": "94d3745617a4",
+   "title": "Buc-ee’s Settles Trademark Lawsuit Against Ohio Chain Mickey’s Convenience Stores",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR2xIT0V2ZGpQd3MtX3BhTmxXbXhiUk5xclFtNXpxeTNPcDNPN3h2UFc2cUZuTmE5S2FWMFhoVEoyNGtsRHgwWUVfb3dTY2d0OVpxWFZiZThWMmJRbE5tbEZkQlFfVndrVTBNXzdlRUY2ZWhMUEV1REZhR0k1QUZxRDFrTVdnclEtcFdVaTFEaWRvaWR6SVdNQUNnby1rcXZIOG85Zms4VVF2R2N2MXUxTHQwX3c5c013VjBFbE1Sa1VlUnUtV1ZaWllqSkpCak9HejRhS2x1Njh5SktjMGc?oc=5",
+   "source": "Advertising Specialty Institute",
+   "sourceUrl": "https://members.asicentral.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-09T14:40:51.000Z",
    "summary": ""
   },
   {
@@ -551,7 +635,7 @@
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T13:57:06.000Z",
+   "date": "2026-10-06T13:57:57.000Z",
    "summary": ""
   },
   {
