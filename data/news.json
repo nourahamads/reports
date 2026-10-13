@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T08:30:00.074Z",
+ "updated": "2026-10-13T14:07:39.641Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,50 +9,146 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 60,
-   "kept": 13
+   "fetched": 58,
+   "kept": 12
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 64,
+   "fetched": 63,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 63,
-   "kept": 44
+   "fetched": 64,
+   "kept": 47
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 80,
-   "kept": 20
+   "fetched": 83,
+   "kept": 21
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 59
+   "kept": 60
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 56,
-   "kept": 11
+   "fetched": 58,
+   "kept": 13
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 58,
+   "fetched": 59,
    "kept": 22
   }
  ],
  "items": [
   {
+   "id": "0e9ec036b8d9",
+   "title": "Two suspects arrested as police seize counterfeit goods worth R37,760 in Pretoria",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUWFzcUkyLUtWYlJHUDhQMUJQLXBnbGhwYmpVdjhteTMyNjh5c0M3Y08xSml5Q25fZEp6OExuMjNHbmt6T0p3dzlUSEs3dUFUVVVQRnJvQlNTMC1FNElHb0RSZ1hOel9qeGhiVm1uU2tmMlhuYTdfWlBVYTEwbDRSTjJtZVBIbXU4emJQM0hWcEp3R1RfYVA5Zk5Vcnc0MUxJWkVUTDdTSzh2anB3UTVnakVB?oc=5",
+   "source": "Joburg ETC",
+   "sourceUrl": "https://www.joburgetc.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T13:00:22.000Z",
+   "summary": ""
+  },
+  {
+   "id": "19691fbdcd63",
+   "title": "وظائف وزارة العمل 2026.. رواتب تصل إلى 16 ألف جنيه",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fdkstM3J0bHB0VUVhRGdLWlhJangtVGl2U2NSTGJYdmpNaVJiVk9jTXo2anBHNW1JNjV2dk1acTBGV3JUSGRlV1l3TGR4d2hOMHgw?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-13T11:17:41.000Z",
+   "summary": ""
+  },
+  {
+   "id": "e86363a9e41a",
+   "title": "The Ministry of Culture, Sports and Tourism - MPA promotes film cooperation and protects intellectual property rights.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLThNUkxON3ZCUXkySlFOaXhiQkY0MF9HRUc0ZmRsR0ZCSWtaU2VuQmtYdFJHZUFRcHJZX1dtMkNob1FGR3hENXBuekl2Vng1c21wd0lYQ3pZYkxjY3lTREZyT1VocndqeXYzZG1QRGltSTJGaklNV1pYdEV3aUxfazZBdUxOeHVMZW9Qbm1YZVRia2tHd2RLTw?oc=5",
+   "source": "Vietnam.vn",
+   "sourceUrl": "https://www.vietnam.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T11:01:09.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7ca918875792",
+   "title": "Uzbekistan moves to strengthen intellectual property protection",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYmJzZlpMMU5IcHhBM1JtUDJqVnV0UkU0YW5fM3hsR3BXX2RjVlZWcUpkSEZhQ1Zoa0M3NHpxYUcxcUtMUUV3V0RCN0pnSk5aUFdhcjV0Rlg2aV9MaHQ0VmR3M2Q0aWNRbGFyZG5iOWVxMmpmdDNTYnloZENQcFFQYUc3ZlNncnBnbVM1WnlVUjlDN0RW?oc=5",
+   "source": "UzDaily.uz",
+   "sourceUrl": "https://www.uzdaily.uz",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T10:45:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "17895cfecb84",
+   "title": "First WIPO Cross-Regional Forum for Women Creators and Entrepreneurs Concludes in the Philippines",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaTZFVjhGOFdldkthT0o5bU9mdWNlcUtaQk9yQ2cwT0xKZk5Zd2tBeGdEdml0YkJWWE5nZW5jb243eG5nQjhCQ1FHNmtwM3hYcGhGLVBYT0ozWGRvRWZ5RlBQWmo2ZXptS0FrLThBcGZ1bVJLUUhiSnFrbTZOWFJ1LUE1amJWeFhpVkVEdWFQMXU5NmluZWJ6UER1N3pNZkxhQ2ZHaTM0WWpNblExZ2NHdm84czJsMEFHSzBXTjZsQVQtbnJ3UEpNR2x0akVGVXFPcE4xall1LUJVNU9CQXh2anZOSQ?oc=5",
+   "source": "WIPO - World Intellectual Property Organization",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T10:36:15.000Z",
+   "summary": ""
+  },
+  {
+   "id": "0b61f6751d28",
+   "title": "Shanghai wins first WIPO ‘City of Innovation’ award; jury cites strong R&D base, ambitious pledges",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BUk55d1dFWXd0bHFfTTVjM1lWWVJNdTR5RDJwNG1wMUw2bzNTSDA1Nkg1elR0NkhCRXpQTmxTWS1PZ0poRTJrNHZ5ektuNzdfYVFQZmJ3Wl9QM0J4WnlNOEtn?oc=5",
+   "source": "Global Times",
+   "sourceUrl": "https://www.globaltimes.cn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T10:33:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "c6fa9bbf913f",
+   "title": "Liverpool, WIPO Launch UKs First Joint IP Masters",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORGJ0LXEwZ3haRmJnVjBYQlMzSnRXcXN2TmxWcHl4SWVyT3NEaHVmbGljUjBqYk1aekhuZ2JWMmdQS3lhOS14N2VxZHVYVHBJR0hlNExCZ3JEYmxsLVNCcndCZXdIam1DY1pVUnRUZG02cF91MkRSLWRCZGJnZ205a1gyYXRzMnFsVGFYSA?oc=5",
+   "source": "Mirage News",
+   "sourceUrl": "https://www.miragenews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T09:14:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "1eb9a843da52",
+   "title": "University joins forces with WIPO for first UK joint Master’s in intellectual property",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcnhpb3hWcVdCVzdfb19PZjZTM0xqb0UxclFyWi0xWFp4Vk5OVTdvZ1pYS1JGVkJIV21tN0R2Z054eEl0MDBSN2VPTUd4UE1CVzF0cGl1aDdMYmJSNFhWZnd4VzFzajF5YUVwVVhEc0ljMDBQSFhreWtjRlV0dE1LMjROWTFFOGZYaUdySXZQeF9CdDhHV3ZHdmgyN2dUbDZuZjhHX0JoYWxucFVRUmhzQXVPRHFqY2RSN2ZDRV9DTTFjTjJUWFZjWnB3?oc=5",
+   "source": "University of Liverpool",
+   "sourceUrl": "https://news.liverpool.ac.uk",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T09:13:36.000Z",
+   "summary": ""
+  },
+  {
    "id": "918d94039408",
-   "title": "Counterfeit goods seized from 15 second-hand phone shops in Edmonton",
+   "title": "Counterfeit goods seized from phone shops in Edmonton",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUZOcC1kZUo4aE90LUhsYWJPaS1BYzFzZEp0MFFnSVlYSU16aVoyVFoxZ3VSdmk1YmRYUURCb0FaQlZ6Vi1NcDRlNzZtckpYckVZYlI4NE0wY2xrOTZab05wNWNsN0kxX1pZUDlvbnlhdDlNd0lObE8xMFl4YkR3Z1YxOWhFMkFXdUNGSVJMeUFmclB5X2pkcHZMTFJkNnAy?oc=5",
    "source": "Enfield Dispatch",
    "sourceUrl": "https://enfielddispatch.co.uk",
@@ -75,11 +171,11 @@
    "summary": ""
   },
   {
-   "id": "7a9884332d28",
+   "id": "6e7e494c03df",
    "title": "Xinhua News | Shanghai wins 1st WIPO City of Innovation award",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sWGtSVkdUUVRBdDZvOVpwUTBseEgtazB4ang3RlRjSkdJbmFyTHhzU2NhaGNDSElsVjNkNlJFclo2cndJX2RnVnN0VWhjcC1ZUDVIRU1DUUxoeGR2X0FJSUpTZE9TV2g5aGd3M2Q0MFBCNi1IX3VFTFBIcjk?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGRk1udnhIampXa2p3eGlTZk9SN000TU5RWmRqcm4wRDlqbjhsVUY1b3VIV21GMVA5aTAzaFZPS09ma043UjlwbjAySEUtYzV0aDdRNmhkLUpENnBzeWlRbElacDQ3OTU3Z054TVZmeVlhVm9JLWJhNWN5UQ?oc=5",
    "source": "Xinhua",
-   "sourceUrl": "https://english.news.cn",
+   "sourceUrl": "http://english.news.cn",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
@@ -114,7 +210,7 @@
    "id": "85d72b61f03f",
    "title": "النيابة العامة تطلق خدمة الترجمة الفورية الرقمية متعددة اللغات لدعم التحقيقات",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXYVRWak9PTnZYRWl6RzUxZERQUGtKWW5PX3h6UEtlNW1YcTJNaVFLWG5tNm9wbXl5cVFrU2lFOEY5eXZkUXhPTW1KdGMyendX?oc=5",
-   "source": "alsaudi.news",
+   "source": "https://alsaudi.news/",
    "sourceUrl": "https://alsaudi.news",
    "scope": "محلي",
    "topic": "prosecution",
@@ -156,6 +252,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-12T19:35:45.000Z",
+   "summary": ""
+  },
+  {
+   "id": "fc78c845a0f8",
+   "title": "Copyright Bill to Regulate Royalties, Journalistic Works, and AI Creations",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORi1KTkh1N0g4M0ZOVXZrSVZDOG1SR0xzOXlZVlAxdHBrR04xY19tX3N2QU5ERk84RE12emtsMmZPYlBOb3h1YTRUZWV6MmdfeUZYN1U2UWdrSWxMSWdlX0ZZbGMzbG4tM2ZBR0ZGN0NFREVTNWd0SUt0a1MzOHZBZnpDN1BLMjFZN29TWVFqQkc2V3MwUENwdGlublBSLWt1ZzFqUXVtSzVmalJFRmY3dG51cU1JSWNvNHprWA?oc=5",
+   "source": "Kompas.com",
+   "sourceUrl": "https://go.kompas.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-12T19:01:17.000Z",
    "summary": ""
   },
   {
@@ -204,6 +312,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-12T14:32:03.000Z",
+   "summary": ""
+  },
+  {
+   "id": "4b7e7aead08b",
+   "title": "Creative sector leaders call for fair pay, stronger copyright protection",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTTZUdHRQcmZvenNhYWd1WmFEZjIxSWVGWmtIUGxxSnNzTXo1QVZQU3lNNFphRkNIYVhGY3FuT05odFlhcXlPRkxKVEtLb2g1ZlFoY1JFdGlMeGdoQ3h5dVBlVlhqanQ2cjVFRXFrZ09oLUR4eW5qTmkxX1JfZEZ2bzJnZXhZeDZIbEN2VVI0bUtVWnJEMm5NSXpMNzAxbzVCY0Z6d1k4OTRLZVlUSjRwSA?oc=5",
+   "source": "Citizen Digital",
+   "sourceUrl": "https://citizen.digital",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-12T13:39:19.000Z",
    "summary": ""
   },
   {
@@ -291,39 +411,15 @@
    "summary": ""
   },
   {
-   "id": "8aa81c17107f",
+   "id": "d37cc06b4fde",
    "title": "Economic Contribution of Korea's Copyright Industries Posted on WIPO Website",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DdVJENWdodzFUb0ZuenlsUldObHY0Vjh0UnhhWTgwYk16a1VvOHZKWTRDRVdjYXlySnFyRFVwN21keFdEUzA0UlJXQ1RQekRWb3BwNzJvdi1nUk5Vc2lIMWhOMWE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1WN3E5YVp5MDNNdTNxTVBTQUh5dzVjUnpnRHVFT2xOcEFHSTBpREpMbV9URGJtSC1PQ1JUNm90Rm8wSldvUVZ2RDJOV2FnbVlwYl9fZXI1NWtSWWwzU1J2U1pHODJ2bnlkdllST0Jkektzbmc1N2c?oc=5",
    "source": "아시아경제",
    "sourceUrl": "https://www.asiae.co.kr",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-12T06:41:54.000Z",
-   "summary": ""
-  },
-  {
-   "id": "fa5e4eaf84c6",
-   "title": "Bombay High Court Dismisses Revision Against Copyright Infringement Prosecution — Registration of Copyright Not Mandatory for Criminal Action Under Copyright Act, 1957. Court holds that prior registration under Section 44 is not a prerequisite for launchin",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mcGo2S2pOOWpQb0I5ZlgzQnBCWlZwbTNNbmp1ZmFyUVhzdWpHYmR3TFVhRlNEUm9ZbjNFU1EtaHB2eFFDM29OY09EeTY1NkpqS2RJQkROS2JhaWNHa1FuM0RSVlg?oc=5",
-   "source": "Lawtext",
-   "sourceUrl": "https://lawtext.in",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-12T02:07:46.000Z",
-   "summary": ""
-  },
-  {
-   "id": "d4c2b7eaa527",
-   "title": "Vietnam has strengthened the protection of intellectual property rights by launching a criminal crac..",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBuY0xsN0psZWdrZmpvQTZpcTlVRTdYWWl5VkliRjFITW44WmQ2VE9wNHVObmY2bWtZWkkya3YxYWw2dTVDT2ptUjNxX2Q4STg?oc=5",
-   "source": "매일경제",
-   "sourceUrl": "https://www.mk.co.kr",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-12T02:01:31.000Z",
    "summary": ""
   },
   {
@@ -339,15 +435,15 @@
    "summary": ""
   },
   {
-   "id": "273c25041196",
-   "title": "Vietnam Opens First Copyright Infringement Case over Japanese Media",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPenhRbkU1SmNZRGtEWXhtVllmcGVpMHBCdXFjZEpRSE4tUVIwRVlkSjFfRFNhcDJxaTUyNnpYUnFpUFlBd3Z2ejRSSUhZb1pzSmV3RVJwcHhldUUwZ0h6NE1haXNOM1MtUy15X0FnSUxncWlfdUZXVzZGLUJ1TkM3SEpyV19PcEpENnZad1JES3pMV0pWNVE?oc=5",
-   "source": "Retail News Asia",
-   "sourceUrl": "https://retailnews.asia",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-11T19:20:42.000Z",
+   "id": "c9dc8649e8c8",
+   "title": "عبر هذه المنصات.. بدء مهلة شهرين لتصحيح أوضاع العمالة اليمنية المخالفة في السعودية",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aVlpNVW1hVjQxblJiei1ySzFsU0FkcWZiTTFQNmZJaGJQQnZ2d0hSLV9nelpFZ0s5akI5cmZrQ2V0NXhidFpLNg?oc=5",
+   "source": "تهامة برس",
+   "sourceUrl": "https://www.tehamapress.net",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-11T17:18:08.000Z",
    "summary": ""
   },
   {
@@ -435,54 +531,6 @@
    "summary": ""
   },
   {
-   "id": "f1f53812bf0c",
-   "title": "Religious Significance Of 'Annapurna' Does Not Bar Trademark Protection: Madras High Court",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPN0hWVTNfcDN4NzRuU3p6RDN4cjlEZXpLaVVKVUVsREFyYXpuNkRxTFhBTERIb3lnVTV3WkQtd19UUXB6VkI0ZXZmMzZ1WmpLb0hBcEVSV2pMZk9JYVNEQ21OcmVyLS1fbVVaYkRVUWo0RzNQUjMtUUwyODExU0VjSTQ4bHJNdEJfZ1V5ZEpPLU1IUWJXUll6U0VTcXdFTEhfYjV3MUVIekdIeDU3cHNTR3ZpVExWQWNUS3Z5cXpXbk5ObldPdHFDUDJkbEduUVV30gHQAUFVX3lxTE83SFZVM19wM3g3NG5TenpEM3hyOURlektpVUpVRWxEQXJhem42RHFMWEFMREhveWdVNXdaRC13X1RRcHpWQjRldmYzNnVaaktvSEFwRVJXakxmT0lhU0RDbU5yZXItLV9tVVpiRFVRajRHM1BSMy1RTDI4MTFTRWNJNDhsck10Ql9nVXlkSk8tTUhRYldSWXpTRVNxd0VMSF9iNXcxRUh6R0h4NTdwc1NHdmlUTFZBY1RLdnlxelduTk5uV090cUNQMmRsR25RVXc?oc=5",
-   "source": "LiveLawBiz",
-   "sourceUrl": "https://www.livelawbiz.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T10:47:01.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ee4bff882f2f",
-   "title": "الملكية الفكرية في المملكة العربية السعودية تمثل أكثر من 14 في المائة من الناتج المحلي الإجمالي وتعزز النمو الاقتصادي المستدام",
-   "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQMzhSdTVMM0JFWXM5N21UekZta2s1Q29mZjJhT1JJU09Zc1NNbmxlbjEyYmtmNVhRcFBEa09ac0J2UlhEby1iLWlIX1gwUngtVUNYZWl6ZjNDSkxrZFphUzU1UGJFMkZXR1gwOFlFV3llXy01bGtNcl9HNHJwWUQ2bk1qOExFSXlRSEJaX1RIMnRnMHJLMUtoQ0NNMFdma3hDLVI5NDg2NjBoQ1o0b1JwdURHMS13UlF5ckRyQ1FGVGM0UmZ1S1VtU0NUYVJZNXA1bC1reUNSeldtTkUwbk9sY0N4MWNtNjA5VFEtXzhfTUVaUF9yR1YzQUlMNXBWUFJ0RGVoMmFUUzZvVXd0R09vdUJlZGk0Y19yTEhIOF9GclhUNzRhbnJLQVE5LVlpSnN2eWVqdVZLTFN1WktINzNraFJkVVhVRTg?oc=5",
-   "source": "اقرأ 24",
-   "sourceUrl": "https://iqraa24.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T09:16:36.000Z",
-   "summary": ""
-  },
-  {
-   "id": "48d9e88b3fd2",
-   "title": "Protecting intellectual property: Preserving resources for innovation.",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZE5KbG9UNUJYTEFydFZfajZEaGdSaUxnODdNckJuTUtlakJHZzBUQjNBd3diVjloTF9DUF9nNzB4cWE2bGdPczR5UDdUWVhER3pKVDh4T0E3UkZfNEVPYXVvWm1Mc2pweFBJV2liSzZjYk00Y2JqaS1ZQ0NnMTd6TEN5QTl1a091X2hz?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T07:14:47.000Z",
-   "summary": ""
-  },
-  {
-   "id": "bdf3f18e3fcc",
-   "title": "Indonesia hosts ASEAN forum on journalistic copyright protection",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSmE1T0gycHpiSnVVVEZSbU9VM1JOZE8wSmRXV1F0YV9rMm1sWDFKbEJFdEIxa2dMeTBWVFN5RUc5OHRSVkZZMDIxWlc5RzNzYkhHQXgxa1ZxWVVSdEczMmNOUk40dk1rd01tcmxCYWdxa2t6VWdlLU82N3M2cUdHeTJMS1Z2TE5abnpVT3JBNFNHN2xLMkhQWkZjZ1l1ZnVyV1BxYdIBqgFBVV95cUxNbElLUm5hcm9IM3VvUnEzUFdlZHluemxXOWwxeUwxQmVlSVRReXZ0VTMzWS1SR3R5ZGMtcWRWYmlaM0NGLTdTRlFKaXJma3dRY0toLW9sdkYtQzdxNHVSYTZvT3owNmtOYVpIOGxVRUxQVkZUWFQ5dUNvSlc3cDJUdmtRTDBOelNyZ0NLN3NaZHpPTmg3R0VYUkFJOTEwUkFSZ0tOWmtZX1hPdw?oc=5",
-   "source": "ANTARA News",
-   "sourceUrl": "https://en.antaranews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T05:26:41.000Z",
-   "summary": ""
-  },
-  {
    "id": "9eeb3907bfd6",
    "title": "النيابة العامة الإماراتية تكشف تفاصيل محاولة انتحارية بطائرة فلاي دبي",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54Vng2VTFTVVB3MjMtN252V3ZVbWVqZ2ZEeDgyV3ZfLVB0V0V4S2JCdU5iQ2dFdThOVTlHcVFWM2IyZ0RieVJLQnNKdGVJcE01TVB0MjRFUlRZRE0?oc=5",
@@ -495,30 +543,6 @@
    "summary": ""
   },
   {
-   "id": "973525563528",
-   "title": "World Trademark Review Recognizes Morgan Lewis in Inaugural Copyright 1000 Rankings",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMFRUWmFDYVU1TlhhWlFjd2ZqYldrdkRzUHJzSWhWVnBuX0dSZUJFVWVhdzlIS0l4SlBFdjFCYlpNaGZTSklOdTZRTWhwUTMtZVpZM0xSTUUydXdvUm9hYWZTTzExbjJTOFpYYzlRX29iWlJ1TU0tUHQ5cWpTdUNBYk8xRlJ0dks2bHl4VlV3NVBPYTdwUnJnb1dOeTdKQ291OHEyVHJMZ1k3V3p4THlCVTViOUFFc3BnOEFYU0VoUk9NZw?oc=5",
-   "source": "Morgan Lewis",
-   "sourceUrl": "https://www.morganlewis.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T00:19:23.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ad8b035b3a8e",
-   "title": "Counterfeit goods operation shuts down illicit traders in Sunnyside and Marabastad",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOOGJ5X21paDlHa3VrOGVoZEU2Smx4RVpBcUlNUnh2X01BeXdQbFdrbHp2RUllMmljaVVyX1A5bnZzdDFneHJta0o5UmJKc0Z3NVVXaWNBOHB1Z1lKQ3hYZDFVVlZ1RjRGUzhPWWF3aC1iS2hUanZibm45azI2TTVKczloN3BrZ18wM2ZwcWZzSno1MWwxeXRBdGtWTWl2YWtrV2xydWZ0YndqckZkT1ZSQWtBQ01YNkNheUJkSzVjVW5TR3BNZU1XSUdRVVBxNmY1LVlDUFJEWnlTTndwU3Bub3dCZUcwQllSYXFLLUo3b0s?oc=5",
-   "source": "The Citizen",
-   "sourceUrl": "https://www.citizen.co.za",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-09T20:09:18.000Z",
-   "summary": ""
-  },
-  {
    "id": "267506522ca4",
    "title": "جديد قضية \"فلاي دبي\".. النائب العام الإماراتي يكشف التفاصيل",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4VG5vQ0JKdmJycVZyWTJVNTFFZG9QMmUyWWIzb2Y0X3I5a1VOQUFuZF85bnpTVlRCOG0wNWpLNFBhblZIbUZ1Sy01UUtWYzRCT1NBa2lqSUlXeXJ4WEtpLUhfdnl0SG1BUEEtbmZsNVNsenY3ZmcyeVRHSQ?oc=5",
@@ -528,18 +552,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-09T16:58:55.000Z",
-   "summary": ""
-  },
-  {
-   "id": "94d3745617a4",
-   "title": "Buc-ee’s Settles Trademark Lawsuit Against Ohio Chain Mickey’s Convenience Stores",
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR2xIT0V2ZGpQd3MtX3BhTmxXbXhiUk5xclFtNXpxeTNPcDNPN3h2UFc2cUZuTmE5S2FWMFhoVEoyNGtsRHgwWUVfb3dTY2d0OVpxWFZiZThWMmJRbE5tbEZkQlFfVndrVTBNXzdlRUY2ZWhMUEV1REZhR0k1QUZxRDFrTVdnclEtcFdVaTFEaWRvaWR6SVdNQUNnby1rcXZIOG85Zms4VVF2R2N2MXUxTHQwX3c5c013VjBFbE1Sa1VlUnUtV1ZaWllqSkpCak9HejRhS2x1Njh5SktjMGc?oc=5",
-   "source": "Advertising Specialty Institute",
-   "sourceUrl": "https://members.asicentral.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-09T14:40:51.000Z",
    "summary": ""
   },
   {
