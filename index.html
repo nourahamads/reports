@@ -106,11 +106,26 @@ body.locked nav,body.locked main{display:none!important}
 .when{font-size:.95rem}.when small{color:var(--muted)}
 .track{height:8px;border-radius:99px;background:var(--bg);border:1px solid var(--line);overflow:hidden;margin:10px 0 4px}
 .track i{display:block;height:100%;background:var(--accent);border-radius:99px}
-.ind{margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
-.ind summary{cursor:pointer;font-weight:700}
-.ind dl{margin:10px 0 0}.ind dt{font-weight:700;margin-top:12px}.ind dt .en{font-weight:400;color:var(--muted);font-size:.8rem;margin-inline-start:6px;direction:ltr;display:inline-block}
-.ind dd{margin:2px 0 0;color:var(--muted);font-size:.92rem}
-.ind .grp{margin:14px 0 0;font-size:.8rem;color:var(--accent);font-weight:700}
+.detail dl{margin:10px 0 0}.detail dt{font-weight:700;margin-top:12px}.detail dt .en{font-weight:400;color:var(--muted);font-size:.8rem;margin-inline-start:6px;direction:ltr;display:inline-block}
+.detail dd{margin:2px 0 0;color:var(--muted);font-size:.92rem}
+.detail .grp{margin:14px 0 0;font-size:.8rem;color:var(--accent);font-weight:700}
+.rcard{position:relative}
+.info{position:absolute;inset-block-start:12px;inset-inline-end:12px;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer;font:inherit;font-weight:700;line-height:1;display:flex;align-items:center;justify-content:center}
+.info[aria-expanded=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.info:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.rcard .detail{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+.rcard .detail p{margin:0 0 8px;color:var(--muted);font-size:.92rem}
+.nlist{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.nrow{display:grid;grid-template-columns:1fr auto;gap:2px 14px;align-items:baseline;padding:9px 14px;border-bottom:1px solid var(--line)}
+.nrow:last-child{border-bottom:0}
+.nrow:hover{background:var(--bg)}
+.nrow .t{font-weight:600;line-height:1.5}.nrow .t a{color:var(--ink);text-decoration:none}.nrow .t a:hover{text-decoration:underline}
+.nrow .m{grid-column:1;color:var(--muted);font-size:.8rem;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.nrow .m a{color:var(--muted)}
+.nrow .tg{font-size:.72rem;padding:0 8px;border-radius:99px;border:1px solid var(--line)}
+.nrow .d{grid-column:2;grid-row:1;color:var(--muted);font-size:.8rem;white-space:nowrap}
+.nlist .empty{padding:24px}
+@media(max-width:560px){.nrow{grid-template-columns:1fr}.nrow .d{grid-column:1;grid-row:auto}}
 /* PDF template (rendered off-screen) */
 #pdf-root{position:fixed;inset-inline-start:-10000px;top:0;width:794px}
 .pdf{background:#fff;color:#111;padding:40px 48px;font-family:Tajawal,Arial,sans-serif;direction:rtl;min-height:1060px}
@@ -144,7 +159,7 @@ body.locked nav,body.locked main{display:none!important}
   <h3 class="sec-h">الأخبار</h3>
   <div class="filters" id="news-topics" aria-label="الموضوع"></div>
   <div class="filters"><span id="news-scopes" class="filters" style="margin:0"></span><input class="search" id="news-q" type="search" placeholder="بحث في الأخبار" aria-label="بحث"></div>
-  <div class="grid" id="news-list"></div>
+  <div class="nlist" id="news-list"></div>
   <div class="actions"><button class="btn" id="news-more" hidden>عرض المزيد</button></div>
   <details class="card" style="margin-top:20px"><summary>مصادر الأخبار والمواقع الرسمية</summary>
     <ul id="official" style="margin:0 0 12px;padding-inline-start:20px;line-height:2">
@@ -383,13 +398,10 @@ function renderNews(){
  const grid=$("#news-list");
  if(!list.length){grid.replaceChildren(el("div","empty",news.length?"لا توجد أخبار مطابقة.":"لا توجد أخبار بعد."))}
  else grid.replaceChildren(...list.slice(0,nLimit).map(n=>{
-  const c=el("article","card"),tags=el("div");tags.append(el("span","tag",n.topicName||newsTopics[n.topic]||""),el("span","tag",n.scope));
-  const h=el("h3");const a=el("a",null,n.title);a.href=n.url;a.target="_blank";a.rel="noopener noreferrer";a.style.color="inherit";h.append(a);
-  c.append(tags,h);if(n.summary)c.append(el("p",null,n.summary));
-  const m=el("div","meta");m.append(document.createTextNode((n.source?n.source+" · ":"")+fmt(n.date)));c.append(m);
-  const act=el("div","actions");const r=el("a","btn sm","قراءة الخبر ↗");r.href=n.url;r.target="_blank";r.rel="noopener noreferrer";act.append(r);
-  if(n.sourceUrl){const s2=el("a","btn sm","موقع المصدر ↗");s2.href=n.sourceUrl;s2.target="_blank";s2.rel="noopener noreferrer";act.append(s2)}
-  c.append(act);return c}));
+  const row=el("div","nrow"),t=el("div","t"),a=el("a",null,n.title);a.href=n.url;a.target="_blank";a.rel="noopener noreferrer";t.append(a);
+  const m=el("div","m");m.append(el("span","tg",n.topicName||newsTopics[n.topic]||""),el("span","tg",n.scope));
+  if(n.source){if(n.sourceUrl&&/^https?:/.test(n.sourceUrl)){const sa=el("a",null,n.source);sa.href=n.sourceUrl;sa.target="_blank";sa.rel="noopener noreferrer";m.append(sa)}else m.append(el("span",null,n.source))}
+  row.append(t,el("div","d",fmt(n.date)),m);return row}));
  $("#news-more").hidden=list.length<=nLimit;$("#news-more").textContent=`عرض المزيد (${list.length-nLimit})`;
  const src=new Map();for(const n of news)if(n.source){const o=src.get(n.source)||{c:0,u:n.sourceUrl};o.c++;src.set(n.source,o)}
  $("#news-sources").replaceChildren(...[...src].sort((a,b)=>b[1].c-a[1].c).map(([name,o])=>{const a=el("a","tag",`${name} (${o.c})`);if(o.u&&/^https?:/.test(o.u)){a.href=o.u;a.target="_blank";a.rel="noopener noreferrer"}return a}));
@@ -422,9 +434,12 @@ async function loadIntl(){
   const when=el("div","when");when.append(document.createTextNode(`${r.release.label} ${n.year}`));const md=monthsDays(n.days);if(md)when.append(el("small",null,"  ·  "+md));
   const frac=Math.min(1,Math.max(0,(n.today-n.prev)/(n.date-n.prev)));
   const tr=el("div","track");tr.setAttribute("role","progressbar");tr.setAttribute("aria-valuenow",Math.round(frac*100));tr.setAttribute("aria-label","نسبة المدة المنقضية منذ الإصدار السابق");const bar=el("i");bar.style.width=Math.round(frac*100)+"%";tr.append(bar);
-  const basis=el("div","meta",r.release.basis||"");
-  card.append(tags,h);if(r.nameEn)card.append(el("div","en",r.nameEn));card.append(pub,el("p",null,r.about||""),cd,when,tr,basis);
-  const det=el("details","ind");det.open=true;det.append(el("summary",null,`المؤشرات وتعريفها (${(r.indicators||[]).length})`));
+  const info=el("button","info","i");info.type="button";info.setAttribute("aria-label","تفاصيل التقرير ومؤشراته");info.setAttribute("aria-expanded","false");info.title="التفاصيل";
+  card.append(tags,h);if(r.nameEn)card.append(el("div","en",r.nameEn));card.append(pub,cd,when,tr,info);
+  const det=el("div","detail");det.hidden=true;
+  det.append(el("p",null,r.about||""));if(r.release.basis)det.append(el("p",null,"موعد الإصدار: "+r.release.basis));
+  det.append(el("div","grp","المؤشرات وتعريفها ("+(r.indicators||[]).length+")"));
+  info.onclick=()=>{det.hidden=!det.hidden;info.setAttribute("aria-expanded",String(!det.hidden))};
   const dl=el("dl");let g=null;
   for(const i of r.indicators||[]){
    if(i.group&&i.group!==g){g=i.group;dl.append(el("div","grp",g))}
