@@ -126,6 +126,15 @@ body.locked nav,body.locked main{display:none!important}
 .nrow .d{grid-column:2;grid-row:1;color:var(--muted);font-size:.8rem;white-space:nowrap}
 .nlist .empty{padding:24px}
 @media(max-width:560px){.nrow{grid-template-columns:1fr}.nrow .d{grid-column:1;grid-row:auto}}
+#prod-dlg{max-width:900px;width:calc(100% - 24px)}
+.steps{display:grid;gap:10px;margin-bottom:12px}.steps>div{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.sn{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:.8rem;font-weight:700}
+.steps .s3{align-items:flex-start}.steps textarea{flex:1;min-width:220px;font-family:ui-monospace,monospace;font-size:.8rem;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;padding:8px 4px}
+.pcard{border:1px solid var(--line);border-radius:8px;padding:6px;font-size:.8rem;background:var(--bg)}
+.pcard img{width:100%;height:90px;object-fit:contain;background:#fff;border-radius:4px;display:block;margin-bottom:4px}
+.pcard .pn{overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;line-height:1.4}.pcard .pp{font-weight:700;margin-top:2px}
+.pdf table.br{margin-bottom:12px}.pdf table.br th,.pdf table.br td{font-size:13px;padding:6px 8px;width:auto}.pdf table.br th{background:#e8ecf1;text-align:center}.pdf table.br td{text-align:center}.pdf table.br td:first-child{text-align:right;font-weight:700}
 /* PDF template (rendered off-screen) */
 #pdf-root{position:fixed;inset-inline-start:-10000px;top:0;width:794px}
 .pdf{background:#fff;color:#111;padding:40px 48px;font-family:Tajawal,Arial,sans-serif;direction:rtl;min-height:1000px}
@@ -191,6 +200,7 @@ body.locked nav,body.locked main{display:none!important}
         <div><label for="f-cat">التصنيف</label>
           <select id="f-cat"><option>بث مباشر للمباريات</option><option>أفلام ومسلسلات</option><option>بث مشفّر (IPTV)</option><option>صوتيات</option><option>أخرى</option></select></div>
         <div><button class="btn primary" type="submit">إضافة</button></div>
+        <div><button class="btn" type="button" id="prod-open">جمع منتجات المتجر</button></div>
       </form></details>
     </div>
     <div class="filters" style="margin:16px 0 12px"><span class="meta" id="cx-count"></span><input class="search" id="cx-q" type="search" placeholder="بحث بالنطاق أو الاسم" aria-label="بحث"><button class="btn danger sm" id="cx-clear" hidden>مسح القائمة</button></div>
@@ -303,6 +313,21 @@ body.locked nav,body.locked main{display:none!important}
     </form>
   </div>
   <div class="actions"><button class="btn" id="acct-close" type="button">إغلاق</button></div>
+</dialog>
+<dialog id="prod-dlg">
+  <h3 style="margin-top:0">جمع منتجات المتجر</h3>
+  <div class="steps">
+    <div><span class="sn">1</span><button class="btn sm" type="button" id="p-copy">نسخ السكربت</button><a class="btn sm" id="p-bm" href="#" draggable="true" title="اسحبها إلى شريط الإشارات">إشارة مرجعية ⇢ اسحب</a></div>
+    <div><span class="sn">2</span><a class="btn sm" id="p-open" target="_blank" rel="noopener noreferrer">فتح المتجر ↗</a><span class="meta">شغّل السكربت في وحدة التحكم (F12) على صفحة المنتجات</span></div>
+    <div class="s3"><span class="sn">3</span><textarea id="p-json" rows="3" dir="ltr" placeholder="الصق النتيجة هنا"></textarea><input type="file" id="p-file" accept=".json,application/json"><button class="btn primary sm" type="button" id="p-load">تحليل</button></div>
+  </div>
+  <div id="p-msg" role="status" class="meta"></div>
+  <div id="p-result" hidden>
+    <div class="kpis" id="p-kpis" style="grid-template-columns:repeat(3,1fr)"></div>
+    <div class="actions" style="margin:0 0 10px"><button class="btn primary" type="button" id="p-pdf">تقرير PDF</button><button class="btn" type="button" id="p-xlsx">تصدير Excel</button><button class="btn danger" type="button" id="p-clear">مسح</button></div>
+    <div style="overflow-x:auto"><table id="p-table"><thead><tr><th>العلامة التجارية</th><th>المنتجات</th><th>أقل سعر</th><th>المتوسط</th><th>أعلى سعر</th><th></th></tr></thead><tbody id="p-body"></tbody></table></div>
+  </div>
+  <div class="actions"><button class="btn" id="p-close" type="button">إغلاق</button></div>
 </dialog>
 <div id="tip" role="tooltip"></div>
 <div id="pdf-root" aria-hidden="true"></div>
@@ -447,6 +472,232 @@ async function loadIntl(){
   det.append(dl);card.append(det);wrap.append(card);
  }
 }
+
+/* ===== جمع منتجات المتجر ===== */
+/* تعمل داخل صفحة المتجر (تُنسخ كنص إلى وحدة التحكم أو إشارة مرجعية). لا ترسل أي بيانات؛ تقرأ الصفحة وتعرض النتيجة للنسخ. */
+async function collectProducts(BRANDS){
+ const D=document,W=window,AR="٠١٢٣٤٥٦٧٨٩",FA="۰۱۲۳۴۵۶۷۸۹";
+ const lat=s=>String(s==null?"":s).replace(/[٠-٩]/g,d=>AR.indexOf(d)).replace(/[۰-۹]/g,d=>FA.indexOf(d)).replace(/٬/g,",").replace(/٫/g,".");
+ const clean=s=>String(s==null?"":s).replace(/\s+/g," ").trim();
+ const norm=s=>lat(s).replace(/[\u064B-\u065F\u0640]/g,"").replace(/[أإآ]/g,"ا").replace(/ة/g,"ه").replace(/ى/g,"ي").toLowerCase();
+ const abs=u=>{try{return u?new URL(u,location.href).href:""}catch(e){return ""}};
+ const AL="(?<![\\u0600-\\u06FF])",AR_="(?![\\u0600-\\u06FF])";
+ const CUR={SAR:new RegExp("(\\bSAR\\b|\\bSR\\b|"+AL+"ر\\.?\\s?س\\.?"+AR_+"|ريال|﷼)","i"),USD:/(\bUSD\b|\$|دولار)/i,AED:new RegExp("(\\bAED\\b|درهم|"+AL+"د\\.?\\s?إ\\.?"+AR_+")","i"),EUR:/(\bEUR\b|€|يورو)/i,GBP:/(\bGBP\b|£)/i,KWD:/(\bKWD\b|دينار)/i,EGP:new RegExp("(\\bEGP\\b|"+AL+"ج\\.?\\s?م\\.?"+AR_+")","i")};
+ const curOf=t=>{for(const k in CUR)if(CUR[k].test(t))return k;return ""};
+ const parsePrice=t=>{
+  t=lat(t);const m=t.match(/\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:[.,]\d+)?/);if(!m)return null;
+  let n=m[0];n=/^\d{1,3}(,\d{3})+(\.\d+)?$/.test(n)?n.replace(/,/g,""):n.replace(",",".");
+  const v=parseFloat(n);return isFinite(v)&&v>0?{p:v,c:curOf(t)}:null;
+ };
+ const hasPrice=t=>{t=lat(t);return t.length<=48&&/\d/.test(t)&&!!curOf(t)};
+ const esc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+ const BR=(BRANDS||[]).map(b=>({n:b.name,cs:!!b.cs,a:[b.name].concat(b.aliases||[]).map(a=>({raw:a,re:b.cs?new RegExp("(^|[^\\p{L}\\p{N}])"+esc(a)+"($|[^\\p{L}\\p{N}])","u"):null,n:" "+norm(a).replace(/[^\p{L}\p{N}&']+/gu," ").trim()+" "}))}));
+ const matchBrand=text=>{
+  const raw=clean(text),nt=" "+norm(raw).replace(/[^\p{L}\p{N}&']+/gu," ")+" ";let best=null;
+  for(const b of BR)for(const a of b.a){
+   const ok=b.cs?a.re.test(raw):(a.n.length>3&&nt.includes(a.n));
+   if(ok&&(!best||a.raw.length>best.l))best={n:b.n,l:a.raw.length};
+  }
+  return best?best.n:"";
+ };
+ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+ let last=0,same=0;
+ for(let i=0;i<14&&same<2;i++){W.scrollTo(0,D.documentElement.scrollHeight);await sleep(700);const h=D.documentElement.scrollHeight;if(h===last)same++;else{same=0;last=h}}
+ W.scrollTo(0,0);
+ const items=[],seen=new Set();
+ const add=o=>{
+  if(!o||!o.n)return;o.n=clean(o.n).slice(0,200);if(o.n.length<2)return;
+  const key=o.u||(norm(o.n)+"|"+o.p);if(seen.has(key))return;seen.add(key);
+  const raw=clean(o.b0||"");let b=raw?(matchBrand(raw)||raw.slice(0,40)):"";let bs=raw?(o.bs||"schema"):"";
+  if(!b){b=matchBrand(o.n+" "+(o.alt||"")+" "+decodeURIComponent((o.u||"").replace(/%(?![0-9a-f]{2})/gi,"")));if(b)bs="dict"}
+  items.push({n:o.n,p:o.p==null?null:o.p,c:o.c||"",i:o.i||"",u:o.u||"",b:b,bs:bs});
+ };
+ /* 1) بيانات منظمة JSON-LD */
+ const walk=(x,d)=>{
+  if(!x||d>9)return;if(Array.isArray(x)){x.forEach(y=>walk(y,d+1));return}
+  if(typeof x!=="object")return;
+  if(/Product/i.test([].concat(x["@type"]||[]).join(","))){
+   let off=[].concat(x.offers||[])[0]||{};if(off.offers)off=[].concat(off.offers)[0]||off;
+   const pv=off.price!=null?off.price:(off.lowPrice!=null?off.lowPrice:off.highPrice),pr=pv!=null?parsePrice(String(pv)):null;
+   let img=[].concat(x.image||[])[0];if(img&&typeof img==="object")img=img.url||img.contentUrl;
+   add({n:x.name,p:pr?pr.p:null,c:off.priceCurrency||"",i:abs(img||""),u:abs(x.url||off.url||""),b0:x.brand?(typeof x.brand==="string"?x.brand:x.brand.name):"",bs:"schema"});
+  }
+  for(const k in x){if(k==="@context")continue;const v=x[k];if(v&&typeof v==="object")walk(v,d+1)}
+ };
+ D.querySelectorAll('script[type="application/ld+json"]').forEach(s=>{try{walk(JSON.parse(s.textContent),0)}catch(e){}});
+ /* 2) بطاقات المنتجات في الصفحة: حاويات فيها صورة وسعر */
+ const all=[...D.querySelectorAll("body *")].filter(e=>!/^(SCRIPT|STYLE|NOSCRIPT|IFRAME|SVG|PATH|HEAD)$/i.test(e.tagName));
+ const priceEls=all.filter(e=>{const t=e.textContent;if(!t||t.length>60||!hasPrice(t))return false;for(const c of e.children)if(hasPrice(c.textContent))return false;return true});
+ const hasImg=c=>c.querySelector("img,picture,[style*='background-image']");
+ let cards=[];
+ for(const pe of priceEls){
+  let c=pe,f=null;
+  for(let i=0;i<8&&c.parentElement&&c.parentElement!==D.body;i++){c=c.parentElement;if(hasImg(c)){f=c;break}}
+  if(!f||cards.includes(f)||priceEls.filter(x=>f.contains(x)).length>3||f.closest("header,footer,nav,[role=banner],[role=navigation]"))continue;
+  const r=f.getBoundingClientRect();if(r.width>760||r.height>1100)continue;
+  cards.push(f);
+ }
+ cards=cards.filter(c=>!cards.some(o=>o!==c&&c.contains(o)));
+ /* إن وُجدت بطاقات متكررة بنفس البنية فهي المنتجات؛ نستبعد العناصر المنفردة (بنرات، فلاتر) */
+ const sig=c=>c.tagName+"|"+[].slice.call(c.classList).sort().join(".");
+ const cnt={};cards.forEach(c=>{cnt[sig(c)]=(cnt[sig(c)]||0)+1});
+ if(Math.max(0,...Object.values(cnt))>=3)cards=cards.filter(c=>cnt[sig(c)]>=2);
+ const nameOf=c=>{
+  for(const e of c.querySelectorAll("h1,h2,h3,h4,h5,h6,[itemprop=name],[class*=title],[class*=Title],[class*=name],[class*=Name],a[title]")){
+   const t=clean(e.textContent)||(e.tagName==="A"?clean(e.getAttribute("title")):"");
+   if(t.length>=2&&t.length<=160&&!hasPrice(t)&&!/^[\d\s.,]+$/.test(t))return t;
+  }
+  const im=c.querySelector("img[alt]");if(im&&clean(im.alt).length>=2)return clean(im.alt);
+  let best="";c.querySelectorAll("a").forEach(a=>{const t=clean(a.textContent);if(t.length>best.length&&t.length<=160&&!hasPrice(t))best=t});return best;
+ };
+ const imgOf=c=>{
+  for(const im of c.querySelectorAll("img")){
+   const ss=im.getAttribute("srcset")||im.getAttribute("data-srcset")||"";
+   for(const u of [im.getAttribute("data-src"),im.getAttribute("data-lazy-src"),im.getAttribute("data-original"),ss.split(",")[0].trim().split(" ")[0],im.currentSrc,im.getAttribute("src")]){
+    if(u&&!/^data:/i.test(u))return abs(u);
+   }
+  }
+  const bg=c.querySelector("[style*='background-image']");if(bg){const m=(bg.getAttribute("style")||"").match(/url\(["']?([^"')]+)/);if(m)return abs(m[1])}
+  return "";
+ };
+ for(const c of cards){
+  const els=priceEls.filter(x=>c.contains(x));
+  const pick=els.find(x=>!x.closest("del,s,strike,[class*=old],[class*=before],[class*=was],[class*=compare],[class*=regular]"))||els[0];
+  const pr=pick?parsePrice(pick.textContent):null;
+  const a=c.matches("a[href]")?c:c.querySelector("a[href]");
+  const be=c.querySelector("[itemprop=brand],[class*=brand],[class*=Brand],[class*=vendor],[data-brand]");
+  const bt=be?clean(be.getAttribute("data-brand")||be.textContent):"";
+  const im=c.querySelector("img[alt]");
+  add({n:nameOf(c),p:pr?pr.p:null,c:pr?pr.c:"",i:imgOf(c),u:a?abs(a.getAttribute("href")):"",b0:bt.length&&bt.length<=40?bt:"",bs:"dom",alt:im?im.alt:""});
+ }
+ /* 3) صفحة منتج واحد */
+ if(!items.length){
+  const mt=n=>{const e=D.querySelector('meta[property="'+n+'"],meta[name="'+n+'"]');return e?e.getAttribute("content"):""};
+  const price=mt("product:price:amount")||mt("og:price:amount"),h1=D.querySelector("h1");
+  add({n:mt("og:title")||(h1?h1.textContent:D.title),p:price?(parsePrice(price)||{}).p:null,c:mt("product:price:currency")||mt("og:price:currency"),i:abs(mt("og:image")),u:location.href,b0:mt("product:brand")||mt("og:brand"),bs:"meta"});
+ }
+ const out={v:1,page:location.href,title:D.title,host:location.hostname,at:new Date().toISOString(),items:items};
+ W.__products=out;
+ /* لوحة النتيجة */
+ const json=JSON.stringify(out),nb=new Set(items.map(x=>x.b).filter(Boolean)).size;
+ const box=D.createElement("div");box.setAttribute("dir","rtl");
+ box.style.cssText="position:fixed;top:12px;right:12px;z-index:2147483647;background:#fff;color:#111;border:2px solid #0f6b5c;border-radius:10px;padding:12px 14px;font:14px/1.7 system-ui,sans-serif;max-width:320px;box-shadow:0 6px 24px rgba(0,0,0,.3)";
+ const t=D.createElement("div");t.style.fontWeight="700";t.textContent="تم جمع "+items.length+" منتج · "+nb+" علامة تجارية";box.appendChild(t);
+ const btn=(txt,fn)=>{const b=D.createElement("button");b.textContent=txt;b.style.cssText="margin:8px 6px 0 0;padding:6px 12px;border:1px solid #0f6b5c;border-radius:8px;background:#0f6b5c;color:#fff;cursor:pointer;font:inherit";b.onclick=fn;box.appendChild(b);return b};
+ const cp=btn("نسخ النتيجة",()=>{const done=()=>{cp.textContent="تم النسخ ✓"};
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(json).then(done,()=>fb());else fb();
+  function fb(){const ta=D.createElement("textarea");ta.value=json;ta.style.cssText="position:fixed;opacity:0";D.body.appendChild(ta);ta.select();try{D.execCommand("copy");done()}catch(e){cp.textContent="تعذر النسخ"}ta.remove()}});
+ btn("تنزيل",()=>{const a=D.createElement("a");a.href=URL.createObjectURL(new Blob([json],{type:"application/json"}));a.download="products-"+location.hostname+".json";D.body.appendChild(a);a.click();a.remove()});
+ btn("إغلاق",()=>box.remove());
+ D.body.appendChild(box);
+ return out;
+}
+let BRANDS_CACHE=null;
+async function getBrands(){
+ if(BRANDS_CACHE)return BRANDS_CACHE;
+ try{const r=await fetch("data/brands.json?v="+Date.now());BRANDS_CACHE=(await r.json()).brands}catch{BRANDS_CACHE=[]}
+ return BRANDS_CACHE;
+}
+async function buildCollectorScript(){return `(${collectProducts.toString()})(${JSON.stringify(await getBrands())});`}
+
+/* ----- تقرير PDF للعلامات التجارية ----- */
+function brandPagesHtml(an,meta){
+ const first=15,next=27,rows=an.rows.slice(),pages=[];
+ pages.push(rows.splice(0,first));while(rows.length)pages.push(rows.splice(0,next));
+ const lim=pages.length===1?first-7:next-8;if(pages[pages.length-1].length>lim){const last=pages[pages.length-1];pages.push(last.splice(lim))}
+ const logo=`<div class="lh"><img class="logo" src="${esc(CFG.reportLogo||"assets/saip-logo.png")}" alt="" onerror="this.parentNode.remove()"></div>`;
+ return pages.map((rs,i)=>{
+  const head=i===0?`${logo}<h1>تقرير العلامات التجارية المعروضة</h1><div class="s">تاريخ الرصد: ${fmt(meta.date)}</div>
+   <table><tr><th>المتجر</th><td>${esc(meta.title||meta.host||"")}</td></tr><tr><th>رابط المتجر</th><td dir="ltr" style="text-align:left">${esc(meta.page||"")}</td></tr>
+   <tr><th>عدد المنتجات المرصودة</th><td>${an.products}</td></tr><tr><th>عدد العلامات التجارية</th><td class="res">${an.brands}</td></tr></table>`
+   :`<h1 style="font-size:18px;margin-bottom:14px">تقرير العلامات التجارية المعروضة (تابع)</h1>`;
+  const tbl=`<table class="br"><tr><th>العلامة التجارية</th><th>المنتجات</th><th>أقل سعر</th><th>المتوسط</th><th>أعلى سعر</th></tr>${rs.map(r=>`<tr><td${r.unknown?' style="color:#777"':""}>${esc(r.brand)}</td><td>${r.count}</td><td>${esc(money(r.min,r.cur))}</td><td>${esc(money(r.avg,r.cur))}</td><td>${esc(money(r.max,r.cur))}</td></tr>`).join("")}</table>`;
+  const last=i===pages.length-1,sig=last?`<div class="sig"><div>اسم الفاحص:<i>${esc(meta.inspector||"")}</i></div><div>التوقيع:<i></i></div></div>`:"";
+  return `<div class="pdf" style="height:1122px;min-height:0;overflow:hidden;position:relative">${head}${tbl}${sig}<div class="ft" style="position:absolute;bottom:22px;left:0;right:0;margin:0">صفحة ${i+1} من ${pages.length} · صدر عن منصة التحكم والرصد في الفضاء الرقمي</div></div>`;
+ });
+}
+async function makeBrandPdf(){
+ if(!prodData)return;const an=prodData.an||analyzeProducts(prodData.items);
+ const meta={date:new Date().toISOString(),host:prodData.host,title:prodData.title,page:prodData.page,inspector:(AUTH.user&&AUTH.user.name)||""};
+ const htmls=brandPagesHtml(an,meta),root=$("#pdf-root"),W=794,H=1122,S=2,y0=window.scrollY;
+ try{
+  const tall=document.createElement("canvas");tall.width=W*S;tall.height=H*S*htmls.length;const g=tall.getContext("2d");
+  for(let i=0;i<htmls.length;i++){
+   root.innerHTML=htmls[i];await inlineImages(root.firstElementChild);
+   g.drawImage(await svgToCanvas(root.firstElementChild,W,H,S),0,i*H*S);
+  }
+  window.scrollTo(0,0);
+  await html2pdf().set({margin:0,filename:`brands-${(prodData.host||"store").replace(/[^\w.-]+/g,"_")}-${meta.date.slice(0,10)}.pdf`,image:{type:"jpeg",quality:.96},jsPDF:{unit:"mm",format:"a4"}}).from(tall,"canvas").save();
+ }catch(e){$("#p-msg").textContent="تعذر إنشاء PDF: "+(e.message||e)}
+ finally{window.scrollTo(0,y0)}
+}
+$("#p-pdf").onclick=makeBrandPdf;
+
+/* ----- التحليل: العلامات التجارية وأسعارها ----- */
+let prodData=null;
+function analyzeProducts(items){
+ const by=new Map();
+ for(const it of items){const k=it.b||"غير محدد";const o=by.get(k)||{brand:k,unknown:!it.b,items:[]};o.items.push(it);by.set(k,o)}
+ const rows=[...by.values()].map(o=>{
+  const cur={};o.items.forEach(i=>{if(i.p!=null)cur[i.c||""]=(cur[i.c||""]||0)+1});
+  const dom=(Object.entries(cur).sort((a,b)=>b[1]-a[1])[0]||[""])[0];
+  const ps=o.items.filter(i=>i.p!=null&&(i.c||"")===dom).map(i=>i.p);
+  return {brand:o.brand,unknown:o.unknown,count:o.items.length,priced:ps.length,cur:dom,min:ps.length?Math.min(...ps):null,avg:ps.length?ps.reduce((a,b)=>a+b,0)/ps.length:null,max:ps.length?Math.max(...ps):null,items:o.items};
+ }).sort((a,b)=>(a.unknown-b.unknown)||b.count-a.count||a.brand.localeCompare(b.brand));
+ return {rows,products:items.length,brands:rows.filter(r=>!r.unknown).length};
+}
+const CUR_AR={SAR:"ر.س",USD:"$",AED:"د.إ",EUR:"€",GBP:"£",KWD:"د.ك",EGP:"ج.م"};
+const money=(v,c)=>v==null?"—":v.toLocaleString("en-US",{maximumFractionDigits:2})+(c?" "+(CUR_AR[c]||c):"");
+function renderProd(){
+ const box=$("#p-result");if(!prodData||!prodData.items.length){box.hidden=true;return}
+ const an=analyzeProducts(prodData.items);prodData.an=an;box.hidden=false;
+ const tile=(l,v)=>{const k=el("div","kpi");k.append(el("div","l",l),el("div","v",String(v)));return k};
+ $("#p-kpis").replaceChildren(tile("المنتجات",an.products),tile("العلامات التجارية",an.brands),tile("منتجات بلا علامة",an.rows.filter(r=>r.unknown).reduce((a,r)=>a+r.count,0)));
+ const rows=[];
+ for(const r of an.rows){
+  const tr=el("tr"),b=el("td",null,r.brand);if(r.unknown)b.style.color="var(--muted)";tr.append(b,el("td",null,String(r.count)),el("td",null,money(r.min,r.cur)),el("td",null,money(r.avg,r.cur)),el("td",null,money(r.max,r.cur)));
+  const act=el("td"),tg=el("button","btn sm","المنتجات");tg.type="button";act.append(tg);tr.append(act);rows.push(tr);
+  const dr=el("tr");dr.hidden=true;const dc=el("td");dc.colSpan=6;const g=el("div","pgrid");
+  for(const it of r.items.slice(0,60)){const c=el("div","pcard");if(it.i){const im=document.createElement("img");im.loading="lazy";im.referrerPolicy="no-referrer";im.alt="";im.src=it.i;im.onerror=()=>im.remove();c.append(im)}
+   const nm=el("div","pn",it.n);nm.title=it.n;c.append(nm,el("div","pp",money(it.p,it.c)));if(it.u&&/^https?:/.test(it.u)){const a=el("a",null,"فتح ↗");a.href=it.u;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}g.append(c)}
+  dc.append(g);dr.append(dc);rows.push(dr);
+  tg.onclick=()=>{dr.hidden=!dr.hidden};
+ }
+ $("#p-body").replaceChildren(...rows);
+}
+function mergeProducts(data){
+ if(!data||data.v!==1||!Array.isArray(data.items))throw new Error("نتيجة غير صالحة");
+ if(!prodData)prodData={page:data.page,host:data.host,title:data.title,at:data.at,items:[]};
+ const seen=new Set(prodData.items.map(i=>i.u||(i.n+"|"+i.p)));let add=0;
+ for(const it of data.items){if(!it||!it.n)continue;const k=it.u||(it.n+"|"+it.p);if(seen.has(k))continue;seen.add(k);prodData.items.push({n:String(it.n).slice(0,200),p:typeof it.p==="number"?it.p:null,c:String(it.c||""),i:String(it.i||""),u:String(it.u||""),b:String(it.b||""),bs:String(it.bs||"")});add++}
+ return add;
+}
+async function prodOpen(){
+ const url=$("#f-url").value.trim(),sc=await buildCollectorScript();
+ $("#p-open").href=/^https?:\/\//i.test(url)?url:(url?"https://"+url:"#");$("#p-open").hidden=!url;
+ $("#p-bm").href="javascript:"+encodeURIComponent(sc);
+ $("#p-copy").onclick=async()=>{try{await navigator.clipboard.writeText(sc);$("#p-msg").textContent="تم نسخ السكربت."}catch{$("#p-msg").textContent="تعذر النسخ التلقائي.";$("#p-json").value=sc}};
+ $("#p-msg").textContent="";if(!$("#prod-dlg").open)$("#prod-dlg").showModal();renderProd();
+}
+$("#prod-open").onclick=prodOpen;
+$("#p-close").onclick=()=>$("#prod-dlg").close();
+$("#p-bm").onclick=e=>e.preventDefault();
+$("#p-load").onclick=async()=>{
+ const f=$("#p-file").files[0],txt=f?await f.text():$("#p-json").value.trim();
+ try{
+  if(!txt)throw new Error("الصق النتيجة أو اختر ملفاً");
+  const n=mergeProducts(JSON.parse(txt));
+  $("#p-msg").textContent=n?`تمت إضافة ${n} منتج.`:"لا منتجات جديدة.";$("#p-json").value="";$("#p-file").value="";renderProd();
+ }catch(e){$("#p-msg").textContent="تعذر التحليل: "+(e.message||"ملف غير صالح")}
+};
+$("#p-clear").onclick=()=>{prodData=null;$("#p-msg").textContent="";renderProd()};
+$("#p-xlsx").onclick=()=>{
+ if(!prodData)return;const an=prodData.an||analyzeProducts(prodData.items);
+ const wb=XLSX.utils.book_new();
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(an.rows.map(r=>({"العلامة التجارية":r.brand,"عدد المنتجات":r.count,"أقل سعر":r.min,"متوسط السعر":r.avg==null?null:Math.round(r.avg*100)/100,"أعلى سعر":r.max,"العملة":r.cur}))),"العلامات التجارية");
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(prodData.items.map(i=>({"العلامة التجارية":i.b||"غير محدد","اسم المنتج":i.n,"السعر":i.p,"العملة":i.c,"رابط المنتج":i.u,"رابط الصورة":i.i}))),"المنتجات");
+ XLSX.writeFile(wb,"brands-"+(prodData.host||"store")+"-"+new Date().toISOString().slice(0,10)+".xlsx");
+};
 
 /* ===== الإجراءان: بلاغات أصحاب الحقوق (Excel) + الفحص الآلي ===== */
 const SRC_C="بلاغ من أصحاب الحقوق", SRC_P="تفتيش استباقي";
@@ -768,9 +1019,10 @@ async function toDataUrl(src){
  const b=await (await fetch(src)).blob();
  return await new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.readAsDataURL(b)});
 }
-async function reportCanvas(el){
- const W=794,S=2,cb=Math.max(0,...[...el.children].map(k=>k.offsetTop+k.offsetHeight)),H=cb<=1114?1122:Math.ceil(cb+24);
+async function inlineImages(el){
  for(const im of el.querySelectorAll("img")){try{im.src=await toDataUrl(im.getAttribute("src"));await im.decode()}catch{(im.closest(".lh")||im).remove()}}
+}
+async function svgToCanvas(el,W,H,S){
  const css=[...document.styleSheets].flatMap(sh=>{try{return [...sh.cssRules]}catch{return []}}).map(r=>r.cssText).join("\n");
  const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="${W*S}" height="${H*S}"><g transform="scale(${S})"><foreignObject x="0" y="0" width="${W}" height="${H}"><style>${css}</style>${new XMLSerializer().serializeToString(el)}</foreignObject></g></svg>`;
  const im=new Image();im.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg);await im.decode();
@@ -778,6 +1030,11 @@ async function reportCanvas(el){
  const g=c.getContext("2d");g.fillStyle="#fff";g.fillRect(0,0,c.width,c.height);g.drawImage(im,0,0);
  c.toDataURL("image/jpeg",.5); // يفشل إن كانت اللوحة ملوّثة (tainted) فننتقل للمسار الاحتياطي
  return c;
+}
+async function reportCanvas(el){
+ const W=794,S=2,cb=Math.max(0,...[...el.children].map(k=>k.offsetTop+k.offsetHeight)),H=cb<=1114?1122:Math.ceil(cb+24);
+ await inlineImages(el);
+ return svgToCanvas(el,W,H,S);
 }
 async function makePdf(r,img){
  const y0=window.scrollY,root=$("#pdf-root");root.innerHTML=reportHtml(r,img);

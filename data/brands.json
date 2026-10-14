@@ -1,0 +1,831 @@
+{
+ "_doc": "قاموس العلامات التجارية الذي يضمَّن في سكربت جمع المنتجات. name الاسم المعتمد في التقرير، aliases مرادفات عربية/إنجليزية، cs=true مطابقة حساسة لحالة الأحرف (للكلمات الشائعة).",
+ "brands": [
+  {
+   "name": "Gucci",
+   "aliases": [
+    "غوتشي",
+    "قوتشي",
+    "جوتشي"
+   ]
+  },
+  {
+   "name": "Louis Vuitton",
+   "aliases": [
+    "لويس فيتون",
+    "لوي فيتون",
+    "LV"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Chanel",
+   "aliases": [
+    "شانيل",
+    "شنل"
+   ]
+  },
+  {
+   "name": "Dior",
+   "aliases": [
+    "ديور",
+    "كريستيان ديور",
+    "Christian Dior"
+   ]
+  },
+  {
+   "name": "Prada",
+   "aliases": [
+    "برادا"
+   ]
+  },
+  {
+   "name": "Hermès",
+   "aliases": [
+    "Hermes",
+    "هيرميس"
+   ]
+  },
+  {
+   "name": "Versace",
+   "aliases": [
+    "فيرساتشي",
+    "فرزاتشي"
+   ]
+  },
+  {
+   "name": "Burberry",
+   "aliases": [
+    "بربري",
+    "باربري"
+   ]
+  },
+  {
+   "name": "Fendi",
+   "aliases": [
+    "فندي"
+   ]
+  },
+  {
+   "name": "Balenciaga",
+   "aliases": [
+    "بالينسياغا",
+    "بالنسياغا"
+   ]
+  },
+  {
+   "name": "Givenchy",
+   "aliases": [
+    "جيفنشي",
+    "جيفانشي"
+   ]
+  },
+  {
+   "name": "Saint Laurent",
+   "aliases": [
+    "YSL",
+    "Yves Saint Laurent",
+    "سان لوران",
+    "ايف سان لوران"
+   ]
+  },
+  {
+   "name": "Cartier",
+   "aliases": [
+    "كارتييه",
+    "كارتير"
+   ]
+  },
+  {
+   "name": "Rolex",
+   "aliases": [
+    "رولكس"
+   ]
+  },
+  {
+   "name": "Omega",
+   "aliases": [
+    "اوميغا",
+    "أوميغا",
+    "اوميجا"
+   ]
+  },
+  {
+   "name": "Tiffany & Co.",
+   "aliases": [
+    "Tiffany",
+    "تيفاني"
+   ]
+  },
+  {
+   "name": "Bvlgari",
+   "aliases": [
+    "Bulgari",
+    "بولغري",
+    "بلغاري"
+   ]
+  },
+  {
+   "name": "Armani",
+   "aliases": [
+    "Giorgio Armani",
+    "Emporio Armani",
+    "ارماني",
+    "أرماني"
+   ]
+  },
+  {
+   "name": "Calvin Klein",
+   "aliases": [
+    "كالفن كلاين",
+    "CK"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Tommy Hilfiger",
+   "aliases": [
+    "تومي هيلفيغر",
+    "تومي هيلفيجر"
+   ]
+  },
+  {
+   "name": "Ralph Lauren",
+   "aliases": [
+    "Polo Ralph Lauren",
+    "رالف لورين"
+   ]
+  },
+  {
+   "name": "Lacoste",
+   "aliases": [
+    "لاكوست"
+   ]
+  },
+  {
+   "name": "Hugo Boss",
+   "aliases": [
+    "BOSS",
+    "هوغو بوس",
+    "هوجو بوس"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Michael Kors",
+   "aliases": [
+    "مايكل كورس"
+   ]
+  },
+  {
+   "name": "Coach",
+   "aliases": [
+    "كوتش"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Kate Spade",
+   "aliases": [
+    "كيت سبيد"
+   ]
+  },
+  {
+   "name": "Guess",
+   "aliases": [
+    "جيس"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Levi's",
+   "aliases": [
+    "Levis",
+    "ليفايس",
+    "ليفيز"
+   ]
+  },
+  {
+   "name": "Diesel",
+   "aliases": [
+    "ديزل"
+   ]
+  },
+  {
+   "name": "Tom Ford",
+   "aliases": [
+    "توم فورد"
+   ]
+  },
+  {
+   "name": "Nike",
+   "aliases": [
+    "نايكي",
+    "نايك"
+   ]
+  },
+  {
+   "name": "Adidas",
+   "aliases": [
+    "اديداس",
+    "أديداس"
+   ]
+  },
+  {
+   "name": "Puma",
+   "aliases": [
+    "بوما"
+   ]
+  },
+  {
+   "name": "Reebok",
+   "aliases": [
+    "ريبوك"
+   ]
+  },
+  {
+   "name": "New Balance",
+   "aliases": [
+    "نيو بالانس"
+   ]
+  },
+  {
+   "name": "Under Armour",
+   "aliases": [
+    "اندر ارمور",
+    "أندر أرمور"
+   ]
+  },
+  {
+   "name": "Converse",
+   "aliases": [
+    "كونفرس"
+   ]
+  },
+  {
+   "name": "Vans",
+   "aliases": [
+    "فانس"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Fila",
+   "aliases": [
+    "فيلا"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Skechers",
+   "aliases": [
+    "سكيتشرز",
+    "سكيتشر"
+   ]
+  },
+  {
+   "name": "Jordan",
+   "aliases": [
+    "Air Jordan",
+    "جوردن",
+    "جوردان"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Timberland",
+   "aliases": [
+    "تيمبرلاند",
+    "تمبرلاند"
+   ]
+  },
+  {
+   "name": "Dr. Martens",
+   "aliases": [
+    "Dr Martens",
+    "دكتور مارتنز"
+   ]
+  },
+  {
+   "name": "UGG",
+   "aliases": [],
+   "cs": true
+  },
+  {
+   "name": "The North Face",
+   "aliases": [
+    "North Face",
+    "نورث فيس",
+    "ذا نورث فيس"
+   ]
+  },
+  {
+   "name": "Champion",
+   "aliases": [
+    "شامبيون"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Off-White",
+   "aliases": [
+    "Off White",
+    "اوف وايت"
+   ]
+  },
+  {
+   "name": "Supreme",
+   "aliases": [
+    "سوبريم"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Stone Island",
+   "aliases": [
+    "ستون ايلاند"
+   ]
+  },
+  {
+   "name": "Moncler",
+   "aliases": [
+    "مونكلر"
+   ]
+  },
+  {
+   "name": "Canada Goose",
+   "aliases": [
+    "كندا غوس"
+   ]
+  },
+  {
+   "name": "Zara",
+   "aliases": [
+    "زارا"
+   ],
+   "cs": true
+  },
+  {
+   "name": "H&M",
+   "aliases": [
+    "اتش اند ام"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Apple",
+   "aliases": [
+    "ابل",
+    "آبل",
+    "أبل"
+   ],
+   "cs": true
+  },
+  {
+   "name": "iPhone",
+   "aliases": [
+    "ايفون",
+    "آيفون",
+    "أيفون"
+   ]
+  },
+  {
+   "name": "AirPods",
+   "aliases": [
+    "ايربودز",
+    "ايرباد",
+    "آيربودز"
+   ]
+  },
+  {
+   "name": "Apple Watch",
+   "aliases": [
+    "ابل ووتش",
+    "آبل ووتش"
+   ]
+  },
+  {
+   "name": "Samsung",
+   "aliases": [
+    "سامسونج",
+    "سامسونغ"
+   ]
+  },
+  {
+   "name": "Huawei",
+   "aliases": [
+    "هواوي"
+   ]
+  },
+  {
+   "name": "Xiaomi",
+   "aliases": [
+    "شاومي",
+    "MI"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Sony",
+   "aliases": [
+    "سوني"
+   ]
+  },
+  {
+   "name": "PlayStation",
+   "aliases": [
+    "PS5",
+    "PS4",
+    "بلايستيشن",
+    "بلاي ستيشن"
+   ]
+  },
+  {
+   "name": "JBL",
+   "aliases": [
+    "جي بي ال"
+   ]
+  },
+  {
+   "name": "Bose",
+   "aliases": [
+    "بوز"
+   ]
+  },
+  {
+   "name": "Beats",
+   "aliases": [
+    "Beats by Dre",
+    "بيتس"
+   ]
+  },
+  {
+   "name": "Dyson",
+   "aliases": [
+    "دايسون"
+   ]
+  },
+  {
+   "name": "Canon",
+   "aliases": [
+    "كانون"
+   ]
+  },
+  {
+   "name": "Nikon",
+   "aliases": [
+    "نيكون"
+   ]
+  },
+  {
+   "name": "GoPro",
+   "aliases": [
+    "جو برو"
+   ]
+  },
+  {
+   "name": "Philips",
+   "aliases": [
+    "فيليبس",
+    "فيلبس"
+   ]
+  },
+  {
+   "name": "LG",
+   "aliases": [
+    "ال جي"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Lenovo",
+   "aliases": [
+    "لينوفو"
+   ]
+  },
+  {
+   "name": "HP",
+   "aliases": [
+    "اتش بي"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Dell",
+   "aliases": [
+    "ديل"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Logitech",
+   "aliases": [
+    "لوجيتك"
+   ]
+  },
+  {
+   "name": "Anker",
+   "aliases": [
+    "انكر"
+   ]
+  },
+  {
+   "name": "Marshall",
+   "aliases": [
+    "مارشال"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Bang & Olufsen",
+   "aliases": [
+    "B&O",
+    "بانغ اند اولوفسن"
+   ]
+  },
+  {
+   "name": "Creed",
+   "aliases": [
+    "كريد"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Montale",
+   "aliases": [
+    "مونتال"
+   ]
+  },
+  {
+   "name": "Maison Margiela",
+   "aliases": [
+    "Margiela",
+    "ميزون مارجيلا"
+   ]
+  },
+  {
+   "name": "Jo Malone",
+   "aliases": [
+    "جو مالون"
+   ]
+  },
+  {
+   "name": "Lancôme",
+   "aliases": [
+    "Lancome",
+    "لانكوم"
+   ]
+  },
+  {
+   "name": "Estée Lauder",
+   "aliases": [
+    "Estee Lauder",
+    "استي لودر"
+   ]
+  },
+  {
+   "name": "MAC",
+   "aliases": [
+    "ماك"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Huda Beauty",
+   "aliases": [
+    "هدى بيوتي"
+   ]
+  },
+  {
+   "name": "Fenty Beauty",
+   "aliases": [
+    "فنتي بيوتي"
+   ]
+  },
+  {
+   "name": "Rare Beauty",
+   "aliases": [
+    "رير بيوتي"
+   ]
+  },
+  {
+   "name": "NARS",
+   "aliases": [
+    "نارس"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Charlotte Tilbury",
+   "aliases": [
+    "شارلوت تيلبري"
+   ]
+  },
+  {
+   "name": "Maybelline",
+   "aliases": [
+    "ميبيلين",
+    "مايبيلين"
+   ]
+  },
+  {
+   "name": "L'Oréal",
+   "aliases": [
+    "Loreal",
+    "L'Oreal",
+    "لوريال"
+   ]
+  },
+  {
+   "name": "Nivea",
+   "aliases": [
+    "نيفيا"
+   ]
+  },
+  {
+   "name": "Rasasi",
+   "aliases": [
+    "رصاصي"
+   ]
+  },
+  {
+   "name": "Ajmal",
+   "aliases": [
+    "اجمل",
+    "أجمل"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Arabian Oud",
+   "aliases": [
+    "العربية للعود"
+   ]
+  },
+  {
+   "name": "Swiss Arabian",
+   "aliases": [
+    "السويسري العربي"
+   ]
+  },
+  {
+   "name": "Al Haramain",
+   "aliases": [
+    "الحرمين"
+   ]
+  },
+  {
+   "name": "Casio",
+   "aliases": [
+    "كاسيو"
+   ]
+  },
+  {
+   "name": "G-Shock",
+   "aliases": [
+    "G Shock",
+    "جي شوك"
+   ]
+  },
+  {
+   "name": "Seiko",
+   "aliases": [
+    "سيكو"
+   ]
+  },
+  {
+   "name": "Tissot",
+   "aliases": [
+    "تيسو"
+   ]
+  },
+  {
+   "name": "Patek Philippe",
+   "aliases": [
+    "باتيك فيليب"
+   ]
+  },
+  {
+   "name": "Audemars Piguet",
+   "aliases": [
+    "اوديمار بيغيه",
+    "اوديمار بيجيه"
+   ]
+  },
+  {
+   "name": "Richard Mille",
+   "aliases": [
+    "ريتشارد ميل"
+   ]
+  },
+  {
+   "name": "Hublot",
+   "aliases": [
+    "هوبلو"
+   ]
+  },
+  {
+   "name": "Tag Heuer",
+   "aliases": [
+    "TAG Heuer",
+    "تاغ هوير"
+   ]
+  },
+  {
+   "name": "Fossil",
+   "aliases": [
+    "فوسيل"
+   ]
+  },
+  {
+   "name": "Daniel Wellington",
+   "aliases": [
+    "دانيال ولينغتون"
+   ]
+  },
+  {
+   "name": "Ray-Ban",
+   "aliases": [
+    "Ray Ban",
+    "راي بان"
+   ]
+  },
+  {
+   "name": "Oakley",
+   "aliases": [
+    "اوكلي",
+    "أوكلي"
+   ]
+  },
+  {
+   "name": "Pandora",
+   "aliases": [
+    "باندورا"
+   ]
+  },
+  {
+   "name": "Swarovski",
+   "aliases": [
+    "سواروفسكي"
+   ]
+  },
+  {
+   "name": "Lego",
+   "aliases": [
+    "ليغو",
+    "ليجو"
+   ]
+  },
+  {
+   "name": "Hot Wheels",
+   "aliases": [
+    "هوت ويلز"
+   ]
+  },
+  {
+   "name": "Barbie",
+   "aliases": [
+    "باربي"
+   ],
+   "cs": true
+  },
+  {
+   "name": "Nespresso",
+   "aliases": [
+    "نسبريسو"
+   ]
+  },
+  {
+   "name": "Rimowa",
+   "aliases": [
+    "ريموا"
+   ]
+  },
+  {
+   "name": "Samsonite",
+   "aliases": [
+    "سامسونايت"
+   ]
+  },
+  {
+   "name": "Victorinox",
+   "aliases": [
+    "فيكتورينوكس"
+   ]
+  },
+  {
+   "name": "Montblanc",
+   "aliases": [
+    "Mont Blanc",
+    "مون بلان"
+   ]
+  },
+  {
+   "name": "Parker",
+   "aliases": [
+    "باركر"
+   ],
+   "cs": true
+  }
+ ]
+}
