@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T11:48:05.798Z",
+ "updated": "2026-10-14T21:38:52.420Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,41 +15,149 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 64,
+   "fetched": 62,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 62,
-   "kept": 46
+   "fetched": 60,
+   "kept": 45
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 76,
-   "kept": 22
+   "fetched": 82,
+   "kept": 27
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 61
+   "kept": 62
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 59,
-   "kept": 17
+   "fetched": 62,
+   "kept": 15
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 61,
+   "fetched": 63,
    "kept": 21
   }
  ],
  "items": [
+  {
+   "id": "4ba244705519",
+   "title": "HK Customs seizes 7,000 suspected counterfeit goods worth HK$7.6m in 2-week operation targeting transshipment cargo",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYVlkRllqT0RCbVdNM2tUZl9qQm5felRPZWJhcWNtZHpsU0QwTlk0NFBYS0NyNklha25paWl2bC03UE01VDREdk5CUlAtYUFtUzRFYk1lLWswSG1YOXZBaDJLbEk5dko4V2FOamhPNFB3OEZaWlNDYmdubTZ0S2VvREtQcDBiZkkxc1pWQlJlUnFkZGt5eUowR1JBazF5QkZCTGg2cThJemRQUFQ2MDlHcnp5cHl0MkFMOVdSTHhVRTRTSVlXTklCU0RELTAtVDB6S1FhbVhiMGQ?oc=5",
+   "source": "Dimsum Daily",
+   "sourceUrl": "https://www.dimsumdaily.hk",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T20:44:03.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9fd2fd7e1034",
+   "title": "PH pilots first WIPO brand readiness program to take ‘Tatak Pinoy’ global",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGllcDUzd3FyODgyZHpkQzJBcFpOUDhSd3Q1RjdxbzRLaXN0c3RZRU0tMlVjRUVpSDFLb1dPdmxLdzU3YlY4d29ndFVtbDAyZ0FzdXhvNFhCbTRoY19VLUplcmpQQU56R1d3SmVEUENmTW0ybXZOQUxKb0YwWDl0SlhuRTlENGJ4ZjR1a3pYMl9BYmlpT3FER01XY0FVQjU5MGdveDFYODNwOU41TGc?oc=5",
+   "source": "Daily Guardian",
+   "sourceUrl": "https://www.dailyguardian.com.ph",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T19:45:49.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9d90c5f263ab",
+   "title": "Call to prevent counterfeit goods",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkZCMG5oZHA2NUg1bVZNbmQtTkxHQUIzWWFiaHQxSnh3MmJRN0NxLVB0QnR4RHJkWUdSZHptX1U2djV1Znc4SjJ5NnczRzQ0elUzZ1FHVzlNSUctS21nVnB5ZG1SUEIweTRtTWFTVkJKb1ozaGVRM1JBT0JNVlJON0VCZHM?oc=5",
+   "source": "New Age BD",
+   "sourceUrl": "https://www.newagebd.net",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T18:44:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "32a81bfe60e0",
+   "title": "Charleroi, Liverpool and Shanghai win WIPO’s first ‘City of Innovation’ awards",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEVtOGc3SDQzblF6TnA3RW9qSmt4RDhpbHYtYWZsUDBJVk9nUUtxTWRzd1hCWGp5VGVBUVRmbUZxOThIbUNoVkJSNWxXeGdCTmYyeDRTUEhMUzlXcl9Qbzd3VGsxYzdKVjR4Vk1NXzVKX1pHaThBWnc2WmtrWGpBRlBOMXNhVG0xbjVOdGVENUo1MF90UmtZUE8zOXQtVkx2V0xZT3pjNnJiV1VMOEpUXw?oc=5",
+   "source": "World IP Review",
+   "sourceUrl": "https://www.worldipreview.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T18:11:15.000Z",
+   "summary": ""
+  },
+  {
+   "id": "6d57264df379",
+   "title": "Over £340,000 worth of illegal vapes, and drugs seized as part of continued work to tackle counterfeit goods and drug supply in Bolton",
+   "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPN0Rpdm96bEdGU2RBMTNmZ3Nab05UanZuZGhDcXlGMm1XUWltUG9jSWo5b0RDamxYYXJoeGdyZEtQVTdibmpSYXdpY0g4U2xyNjBBNVhLSUMtX29vT1B6RHpSb05qcmVHVHp5eUxDNDJWV0ZCWFZWU19jR1ZEZnRYTUVLWllzREhEYWJWQ21yV2JkNVg0QkRTVEVia2ZLUkI5UHA1WnRXMWgtZ0J6ZC04Q0hqXy1SZ1VWb1k5aVNwbmR2SElPRFZKZmRLT0YyRDFfa0huZVFRa2pYZlJ3QTNaNDdITGhhTUNVaWlqb1FhZ1RnS29oM3VNVkdOb2Fnc0R6YTBHUWNBb3ZHQlg0VkNnLVdBSDJxOUFUNm1Zd2twTklKYXZEYmN2TlB0R2NYdw?oc=5",
+   "source": "Greater Manchester Police",
+   "sourceUrl": "https://www.gmp.police.uk",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T14:51:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "20d3e1433130",
+   "title": "NCC commences prosecution of Netnaija over alleged online copyright infringement",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPblg3aFpqa3hKWlppQkRzckRLMXhTZVFMTUhNZ3NDQmlXc09iMFVmYTBjaTF1a2xZNHpYbm9xRzY1dElsR0NYYkJPcldFR2ZjZTVBOVoxRmRuVjZqeWVDdU5oNVAzWDNiMnJiUkhFQnQ1UDBBZTE5a01XamVTSHZTT2VFM0ZPeGdPbExLZGM1dEhMNFRBUE9LaGZtdVpVR2lST3FWekVTOHNaVUd4cmllNGpn?oc=5",
+   "source": "- OGUN STATE TELEVISION",
+   "sourceUrl": "https://ogtv.com.ng",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T13:59:38.000Z",
+   "summary": ""
+  },
+  {
+   "id": "2bb7560f8af1",
+   "title": "Three shops fined for selling expired, counterfeit goods in Ctg",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IRUF3MWE2ZU02TFJOTVJvR2dYUklVeWd5c3R6VTR6c3pBc29CMU5iTGxpYnp6M01ObjFUaHNKdUdWWV9fVEVTalNCaHRkOXUz?oc=5",
+   "source": "Bangladesh Sangbad Sangstha (BSS)",
+   "sourceUrl": "https://www.bssnews.net",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T13:23:28.000Z",
+   "summary": ""
+  },
+  {
+   "id": "e837c13b0a60",
+   "title": "WIPO’s “Creators Learn Intellectual Property” (CLIP) Initiative Expands: Now Supporting Visual Artists in Understanding and Managing their Rights",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqSHRfRElTd1R0QnRZaEJCcDZkUnBGWnlpLUl0U29lNmVlSTdOVlhfTGxub05kdUtTbXl3bXMxQkw2VDhVU3U5WVc4d2lQWk8zVVhxUWRMcTFCdC11ZzdKdlJSNnRMd2VId3E4b0dDcFNscmc?oc=5",
+   "source": "WIPO",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T13:09:18.000Z",
+   "summary": ""
+  },
+  {
+   "id": "eccfdee8d198",
+   "title": "URSB Calls for Stronger Protection of Creators’ Rights as Uganda Prepares to Host ARIPO Continental Copyright Symposium",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxObHVtOGNTWUU4MlRkWGZRMlNlOFlxRFVMaVp3bndyeDhtdW5OaHpnQlJEYzVXd294bkE3ak1DM0laZ0IzYXNWMHhPQkM3RFg4UDdVaGpHN3pFWUVPb3VOVzlUYmVwQVFZVFFaajlhcU8yMkNONHlFbmhvRUpyY29VdkZDaF8tOHE1VmluWThONzk5MjZpNjZjRXhNRENCX2Q3R2RhOUpPUXVMNklMSnBMZDQwVGo4M2R2Ul9aellhbWRZQ21kNWxaWjJGMlZHZ0V5NFJ2SWpHR2x1aDZsMjk4Z3BoZ2pCTXNx0gHwAUFVX3lxTE5OYy1mMDB3U294a1BCcHd0YWFhdURacWNBTHNaSjNaV1JwUzllOV9SWW5yU0VPMFRhLXNmd21BbUNYWlhnSmVlT0hvOGc3elNtTWlHaGxwQ2puOWc0aXFacFV0RTAyczNIN2JRUndPczJGMXktY0ZiNmJPZFJrOVVCblFtQTBIQTZYd0RrN1dHV20wbGpyUnZQRnE4dkh2am8xeng3VUxfNlJiNVZ2dmtuN3VoN19wRUpXaXduWU1GVVB5bFBGdmQ4TmpqbHVUUG5GaVd6dUpHN0tyRVpOa3Y2QldlUTBaR2haaGlNZGhyRw?oc=5",
+   "source": "Nilepost",
+   "sourceUrl": "https://nilepost.co.ug",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T12:17:24.000Z",
+   "summary": ""
+  },
   {
    "id": "14737ca8154e",
    "title": "Hong Kong Customs Seizes $7.6 Million in Counterfeit Goods in Operation Time Shield",
@@ -84,6 +192,30 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-14T09:21:13.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7a2facf2521f",
+   "title": "Samarkand Bread Receives Trademark Protection in Uzbekistan",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPXzIwbk55RW94OVhOTERrVGViVWtPZk9xSjAyT2U0RlI1N2RNQkRzWE1ZYllhcmhDSjZ5YTNZQ0xTMFVZOWx0OWZSYVZSQ3N3U1o0WDlGcjdNbFR3TGZxMzdLSWtjaURYdUxTSXJTeW45VzBkRTR4amQwWGNQRG12SnAyd2hLZFlwMW1qRFlKbw?oc=5",
+   "source": "UzDaily.uz",
+   "sourceUrl": "https://www.uzdaily.uz",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T09:15:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "83e06631dd5e",
+   "title": "Counterfeit goods under the guise of well-known brands: ESBU completed the investigation in the Lviv region",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTHg0R1dzWlZpOFoybEtDejAxTnZZYWo0U3A0QTlBUXlRazhpUThzSHk0b1VQdVJJZTlnNzBFanJjSmE2dGlvYkVYbDZNU2hqck0zQ05hLTFuMjRwUl84bzdUanlpbVRoNzFUakR1NUdBMDVYVWQ5bmtKTFV5cXdYQThHSDExbXlZa2lqdWNqNEpvRGlZUVBtTFVYZURNRDcwMEVDS0dySm1zTmVWWHRNNHRrV3E1eUhjbkJXYXVncFRZZmY0d21uNjg4SzhQYTg?oc=5",
+   "source": "Бюро економічної безпеки України",
+   "sourceUrl": "https://esbu.gov.ua",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T09:00:00.000Z",
    "summary": ""
   },
   {
@@ -123,6 +255,18 @@
    "summary": ""
   },
   {
+   "id": "dc61d228853d",
+   "title": "Customs seizes 280,000 counterfeit goods in two-month crackdown",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rMkZrQnVMMHRfcTl5bmdGTjM3bldOX1BlUk5JSVdZRVJHWkg3MWRTWG50NjM5UHFsakNqYlVLM1IwQndkdl96NkJnZGQyV0dlaWVLWmh5RQ?oc=5",
+   "source": "헤럴드경제",
+   "sourceUrl": "https://mbiz.heraldcorp.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T05:05:54.000Z",
+   "summary": ""
+  },
+  {
    "id": "b0acebc4f59a",
    "title": "CIOs must rethink intellectual property protection in the age of AI coding",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdHFQTEhSNFVDWUpJT1dXMTVic3hkdm1ZeW5VdWtvSjFuTW9tYzJZZmVlRnUzdHhhWkNvdnEwV0J4T3VHV3FDY0FsbWF3a0pERThNNmhiaXdFN3BDbmRSRHZlTFl4bDRfY18zSjlUdWtjbXNONllpY2p3VVlfWWJ5V3F6d0F3QmRWZ3oxSlB3aEtGUDdZTFdNTDNVNExuaEFUYTh3Zm5vUHdnZm95X1h4SXhQd2FKRHlKWVoxZG82U0gwLTQ?oc=5",
@@ -144,30 +288,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-14T04:27:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "b8c0c661004c",
-   "title": "وزارة العمل تعلن عن توفر 200 وظيفة جديدة بالعاشر من رمضان مع تفاصيل إضافية",
-   "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxONG11bXNnQjNuV3M2QzNxM0pmVjh1Nm10T2ZGSDdQQ0ZoZ0dkSVRfTTJ5Nkt4VFpSd2s0QUV5TUN4NzlWODBFN2NmTjJpWGlPY1djNmpxaFJwZ1JsWm9NemVwekZkLTZzWjZiNnFkNHg1TU1VWHhKRm5VY0Jxc1hDcTBNcnI1N1pxQVhiNXdLeEZrYTBfQjR6dkhBNTA2VnNlb0NaN3h1b0RTZEZVYUYyUEY2Q1EwNmFCbnY4QldwSlBZS3BGclBpMml0bXRMeEtMNWx1WU5ZRmtrUkVValFTSWxjcUhxbDIxSHNHakk4dmJhYkpkU0dJRS03Wk41YmpCcmtmUjhsYVEyWlVJRkI3OWxQcjY4anc2Y2xOV0hraElWMlZERzhxSmY3U0VyNkd2TlBtRklmTkExd0RLMzF1dFQtbGZ4a196SC1vdHdR?oc=5",
-   "source": "الاستاد الرياضي",
-   "sourceUrl": "https://www.alestad.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-14T03:17:35.000Z",
-   "summary": ""
-  },
-  {
-   "id": "4d5c8696fc16",
-   "title": "وزارة العمل تعلن 103 فرص عمل بالعبور برواتب تصل إلى 20 ألف جنيه",
-   "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQZ0drMk5PNUlsaTVjQmNuNHFxc3NDNi00SVk5eWI0WmN6T29ZbWpOMTk0OHNfYUN4UEVXZjJBNFBkLWJxSUxoVzJJNGNhcGlMVTJzVFVYVG1pZWRTYlZzaV9rWjV5SHdkbEtOaWJ0d0ZHUDBubVhsX0x2WEN0cTVMamhsNERWN2NDN2ttSmlSaVBxaUlCLUdhMWg2dE5pYTdQSFdyRzFaNWlaZlBVcnZoREowaTEta2c0VEpQWmxSak9yTnpGUFJQS0xEdE1KM0kwa0l0bC1tbGJfa0VBTDk0OHhWeFdZTDd4V2dXUXRQMXV1OTVXYnROeUlkQlNPTlNVRzlRMmZxVVZBeFhvc0VWTzBrQWRzWkljUnU4Y1VRMV80dUNHZWlqc1RsVmZtQnU1ZjVDQU1pem9JWWMzM0pxemtQdTRFcTJrd2pRdHRKRFdwZGJ1MXJYVDlCWU1LR28zd3VTbGludWVUeDFJWDdjU2t0OHJXTWpGZ2RlWDdTa3pHMHJRVjZheTdSMk9feWtVR2tRWjZqbkw1YnY5NnRfMXQzd9IBngNBVV95cUxQMXhsbzlrRWQ5ZFRackJSaXpHamw1aGduQWpPUnMxX2tCYkptS3pZQUctZ0VQNDUtdXlsa1d3VFVaRHdXNnlrM2tEcnpERHRQOV9YcERxVjUwSWR1bGZBOXZ2dnplSXdNdVd4TUJ0MWtRV014T2VCRzlVZHpHQ2ktXzlnNjdadkpuT0Z4ZFdQSW1mUEFGRjhERUlydGFJZHpDblJQNnpDQTFYMXdNSWlKd1hCNk1CX0dsd3RsZTJRR0VLdmhTejRSdUludk1teHdNM1daSENUejI0cmk1aVE5Uy1fZmtDdEpQSXFGbEhZX2VZalFoLW5va3VRTzRBODM3aWEzT2NwNUYyVk9Zbjd1dHJ1VWpIRzRmb09LMkRaS0lzVkNIRTc4VmVEV2FETUstenVlV3lua3ZTaThCQzhrVmFRY0t1SDRyUVBTYnNuODBHa1VwMk50bENvUk1FRE5sN3E1a0RxVU5wWTlZY3ptRUlnVmQzdm9ndHpvM3FxcFRSblFSMlhQSm5ZeUcwMW1qU21ZRENXV280ZEsxOHc?oc=5",
-   "source": "اليوم السابع",
-   "sourceUrl": "https://www.youm7.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-14T02:00:00.000Z",
    "summary": ""
   },
   {
@@ -207,6 +327,18 @@
    "summary": ""
   },
   {
+   "id": "0b8c0c0e260e",
+   "title": "Ent. & Lifestyle: URSB Steps Up Copyright Protection Ahead o",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMDNBT0xabGI1WEF4d0JKT2E3N1R5eHRCSVAtVXcyRUlwQm5wVzR4VzRvYWZPVTA4WUNIM1ZLY0dVYXVWY3ZPZHB6eU5HZVAzS1g3cUdwODZyOWZyN0pOQzJrTlRNSXI2RHZKOU1JdHlYSUdWeDhFRlRPVjhLU2xZbDR4dmVZcDhTWkROSjlsaUJJMG0zZHBfcW9NRFZod3gwSlFzS0taRTNaTE1VOUpYTHhpdw?oc=5",
+   "source": "NewVision.co.ug",
+   "sourceUrl": "https://www.newvision.co.ug",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-13T14:00:05.000Z",
+   "summary": ""
+  },
+  {
    "id": "34cf8220d68e",
    "title": "Enhancing Vietnam-US cooperation in copyright protection and film development.",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkEtcEJCN2dRWjI1SkZKWjNRT2ZNNjFXUXFIU0JGSm9PZFpaTHpDeGlVMDZjc1NwalpwUGJGWk8xZ1RsOGhKSXlIZ3k3bkNULXoteWJoUHpWS3M2bk9GVGhlUzFzeTYtdkZ4MWcxX2V6NUI5X00xYzRLVm5mNFFaaWlmak5EakZzNkMtakpnRTJwd05DY2lhOEVISEoxMHlxN1Rab0ZMWVk1QQ?oc=5",
@@ -243,42 +375,6 @@
    "summary": ""
   },
   {
-   "id": "cb2541276415",
-   "title": "Uzbekistan’s parliament advances bill to strengthen intellectual property protection",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUGt5cFE0U093ajBPcWdpMWt3dDFMNmFZcVFMNVU5MkFrcFFFZWRoOXVhMy1SSlhrZmdaZ0R5M0VmSFRXRGJjSmxPbVZTX3BSVDE0QWV3d01xOF9oOGxoeXlYNEZDVGR3Z3EwUkpmZkhreEt5SzloVVpoNFB6a1VsY1BvRjMzclZETi1lR3RiMTUtTUhMMmFudERNSkVyWlQyLXFrV0R1RGpHaE05Wi1sbHN5NDdfVkEx?oc=5",
-   "source": "Kun.uz",
-   "sourceUrl": "https://kun.uz",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T13:23:47.000Z",
-   "summary": ""
-  },
-  {
-   "id": "0e9ec036b8d9",
-   "title": "Two suspects arrested as police seize counterfeit goods worth R37,760 in Pretoria",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUWFzcUkyLUtWYlJHUDhQMUJQLXBnbGhwYmpVdjhteTMyNjh5c0M3Y08xSml5Q25fZEp6OExuMjNHbmt6T0p3dzlUSEs3dUFUVVVQRnJvQlNTMC1FNElHb0RSZ1hOel9qeGhiVm1uU2tmMlhuYTdfWlBVYTEwbDRSTjJtZVBIbXU4emJQM0hWcEp3R1RfYVA5Zk5Vcnc0MUxJWkVUTDdTSzh2anB3UTVnakVB?oc=5",
-   "source": "Joburg ETC",
-   "sourceUrl": "https://www.joburgetc.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T13:00:22.000Z",
-   "summary": ""
-  },
-  {
-   "id": "3d5bc8922859",
-   "title": "Strengthening cooperation in protecting digital copyrights and developing the People's Police film industry.",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR2stRmx6VTBjYzBEUGNSOHZVTkVyZjBhOVo1QmZFbmQtSUEyRFYyTXFnZFZtdFJnTTlWRzFGS3N6dHN6TU1lb0ZIZmJjMnFDVHYxUGhCcnZXZ3NJdE41eV81eElwT2twYUxFTHZkX2hVT1VkRTRoMmxfVTNuNEZ5cGpIUlRfT19rOWhheU43bllFbjFXdUJpbFV0M1dfdnlUN2xv?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T12:41:47.000Z",
-   "summary": ""
-  },
-  {
    "id": "19691fbdcd63",
    "title": "وظائف وزارة العمل 2026.. رواتب تصل إلى 16 ألف جنيه",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fdkstM3J0bHB0VUVhRGdLWlhJangtVGl2U2NSTGJYdmpNaVJiVk9jTXo2anBHNW1JNjV2dk1acTBGV3JUSGRlV1l3TGR4d2hOMHgw?oc=5",
@@ -288,126 +384,6 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-13T11:17:41.000Z",
-   "summary": ""
-  },
-  {
-   "id": "e86363a9e41a",
-   "title": "The Ministry of Culture, Sports and Tourism - MPA promotes film cooperation and protects intellectual property rights.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLThNUkxON3ZCUXkySlFOaXhiQkY0MF9HRUc0ZmRsR0ZCSWtaU2VuQmtYdFJHZUFRcHJZX1dtMkNob1FGR3hENXBuekl2Vng1c21wd0lYQ3pZYkxjY3lTREZyT1VocndqeXYzZG1QRGltSTJGaklNV1pYdEV3aUxfazZBdUxOeHVMZW9Qbm1YZVRia2tHd2RLTw?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T11:01:09.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7ca918875792",
-   "title": "Uzbekistan moves to strengthen intellectual property protection",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYmJzZlpMMU5IcHhBM1JtUDJqVnV0UkU0YW5fM3hsR3BXX2RjVlZWcUpkSEZhQ1Zoa0M3NHpxYUcxcUtMUUV3V0RCN0pnSk5aUFdhcjV0Rlg2aV9MaHQ0VmR3M2Q0aWNRbGFyZG5iOWVxMmpmdDNTYnloZENQcFFQYUc3ZlNncnBnbVM1WnlVUjlDN0RW?oc=5",
-   "source": "UzDaily.uz",
-   "sourceUrl": "https://www.uzdaily.uz",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T10:45:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "86e95ad50347",
-   "title": "First WIPO Cross-Regional Forum for Women Creators and Entrepreneurs Concludes in the Philippines",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSHNmSXVIRklJcXVUNXVSWkQ2ZHpmei1ZWXIxWTlMY1ZXSTNuSXRma0VDOGhCX3plOTJpc1JENUY0dk1EdmZPUnNseDYzZXlQdDFwS01PclFQRXFoLXpaQ29uLXVWQnNVX01EbGlSS3pqdjY4TEMyRzhKUXdrVUl5UUc3YUpFeFQyZFczYm82R2YtRWJQQk1nejkyOGE0THY3Wnp2NVBhNDNGYXhCS3hKNVVlU0dGRG8xUDF0SGw5T0pYWTdnbkxSckNZZl9HWUhWOEZJTUhldzN5T2paVVZCVnZxNA?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T10:36:15.000Z",
-   "summary": ""
-  },
-  {
-   "id": "0b61f6751d28",
-   "title": "Shanghai wins first WIPO ‘City of Innovation’ award; jury cites strong R&D base, ambitious pledges",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BUk55d1dFWXd0bHFfTTVjM1lWWVJNdTR5RDJwNG1wMUw2bzNTSDA1Nkg1elR0NkhCRXpQTmxTWS1PZ0poRTJrNHZ5ektuNzdfYVFQZmJ3Wl9QM0J4WnlNOEtn?oc=5",
-   "source": "Global Times",
-   "sourceUrl": "https://www.globaltimes.cn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T10:33:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c6fa9bbf913f",
-   "title": "Liverpool, WIPO Launch UKs First Joint IP Masters",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORGJ0LXEwZ3haRmJnVjBYQlMzSnRXcXN2TmxWcHl4SWVyT3NEaHVmbGljUjBqYk1aekhuZ2JWMmdQS3lhOS14N2VxZHVYVHBJR0hlNExCZ3JEYmxsLVNCcndCZXdIam1DY1pVUnRUZG02cF91MkRSLWRCZGJnZ205a1gyYXRzMnFsVGFYSA?oc=5",
-   "source": "Mirage News",
-   "sourceUrl": "https://www.miragenews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T09:14:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1eb9a843da52",
-   "title": "University joins forces with WIPO for first UK joint Master’s in intellectual property",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcnhpb3hWcVdCVzdfb19PZjZTM0xqb0UxclFyWi0xWFp4Vk5OVTdvZ1pYS1JGVkJIV21tN0R2Z054eEl0MDBSN2VPTUd4UE1CVzF0cGl1aDdMYmJSNFhWZnd4VzFzajF5YUVwVVhEc0ljMDBQSFhreWtjRlV0dE1LMjROWTFFOGZYaUdySXZQeF9CdDhHV3ZHdmgyN2dUbDZuZjhHX0JoYWxucFVRUmhzQXVPRHFqY2RSN2ZDRV9DTTFjTjJUWFZjWnB3?oc=5",
-   "source": "University of Liverpool",
-   "sourceUrl": "https://news.liverpool.ac.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T09:13:36.000Z",
-   "summary": ""
-  },
-  {
-   "id": "da66ebf6f3c4",
-   "title": "Melodie Music Selected as Finalist in the 2026 WIPO Global Awards",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSDJyeUVmbUppb0lQZW45VWNLeVhqbEV0bFRFaTBySTRWeDk0OXBkby1tNExkc0lZejQ3aWx2enBncGJZNGxPYnJlZ0VBSDc1NmVlMTlTU2xqaHExYTQ1bkQ2UzJtTVJ6eGcwb1B6YUN1dXlLdVVFTjRjcnl5S1MwcW9nSVVBaVhZR3J5N1hLMzYtd3JCeko2eXBLZUNZZVppTHk2OXpzdkFpVkk?oc=5",
-   "source": "FilmInk",
-   "sourceUrl": "https://www.filmink.com.au",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T07:24:05.000Z",
-   "summary": ""
-  },
-  {
-   "id": "918d94039408",
-   "title": "Counterfeit goods seized from phone shops in Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUZOcC1kZUo4aE90LUhsYWJPaS1BYzFzZEp0MFFnSVlYSU16aVoyVFoxZ3VSdmk1YmRYUURCb0FaQlZ6Vi1NcDRlNzZtckpYckVZYlI4NE0wY2xrOTZab05wNWNsN0kxX1pZUDlvbnlhdDlNd0lObE8xMFl4YkR3Z1YxOWhFMkFXdUNGSVJMeUFmclB5X2pkcHZMTFJkNnAy?oc=5",
-   "source": "Enfield Dispatch",
-   "sourceUrl": "https://enfielddispatch.co.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T06:45:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "9c1ad05bde54",
-   "title": "Shanghai wins 1st WIPO City of Innovation award",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBva25CS08zV2xXZW1pc3N5bnZtbnEwM2xjWWJwU3AtNmVJekpZaFlVQUFzNVhVMlJBVTRZLW85eXBYRjlyWTZmSndSS2lWZEVnQjJ0bmhqRWNUSGFhUDl0ZXJBYWVlRjZHekZaU2FQRXlUZU9nYWUyMVlNQVE?oc=5",
-   "source": "Xinhua",
-   "sourceUrl": "https://english.news.cn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T05:55:18.000Z",
-   "summary": ""
-  },
-  {
-   "id": "6e7e494c03df",
-   "title": "Xinhua News | Shanghai wins 1st WIPO City of Innovation award",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGRk1udnhIampXa2p3eGlTZk9SN000TU5RWmRqcm4wRDlqbjhsVUY1b3VIV21GMVA5aTAzaFZPS09ma043UjlwbjAySEUtYzV0aDdRNmhkLUpENnBzeWlRbElacDQ3OTU3Z054TVZmeVlhVm9JLWJhNWN5UQ?oc=5",
-   "source": "Xinhua",
-   "sourceUrl": "http://english.news.cn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T04:54:15.000Z",
    "summary": ""
   },
   {
@@ -567,15 +543,15 @@
    "summary": ""
   },
   {
-   "id": "ff72f19f624d",
-   "title": "إلغاء رصيد الإجازات السنوية في نظام العمل السعودي",
-   "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxNODVPYUt3SUNDQWtGYnhJMXVjcnBfRDFnNnhfQmZobEpXVTRFQ0Z0U2JrNnZDT3BzSlp3NXZvZU4xTDlKXzBjVGFrekV3c3lZUEc0MHdKaFc1bVE5c2pOS1lzUHpueUVNcnRMOWJVdnVaNlg4dFd6cUQ0alZ3N2xnV0VTdTNnaV9lNWpXMktkdHNpZlZjVy1KYkJfNWYxRDhKdHk0WHZFcWQyZ3VQM1NWclpkNlc4U2dBeGJpQjdnRkJ4RTktWGlBbFhDLW9PcXhBUkd0OWpSdG1xQkNIdmd1RzRfNWFsQnpWVVdiRm9PT2gxRE9PMEVrSFhCU1RFUGJmaWd4Vjl4RVp2Z3ZjbERjWXdIYmN5WHhQdDRBV0h5UDk5c2tYemFWOE1DRnlPZE1GTzBQU1VxQmw5Z3pQNUVLT0psWlEyeVdoNjZCcVJjM1cyem1wWTk2WFdhZzJpWWdhSVRBM3VfSWxVN3BEMDhVLVRLWTFKSVN0SGYzNFMyanZHdFo1RnpkY2hiZzZtRUhLV3fSAZcDQVVfeXFMT2RlSVhKRFNnVEtZa05hVXRMOTB2YU1xamR1Y3dqN1BPUktMSnBNSDl4M2s1RllZNnIySFZJdW5hNEVuVlNuRExIN1huQVNFbmJxXzFLZmxlSTFtakhpbkhGak5OazRvN0Zvc3E1WVQ3OVZnZGtQN1RxTEZVSEc4d2NDdTVGT29tclBFWm9ZMGNxTFdpZHlaa2hfbU41djEtY2xRRTdjdktESXZGOWxZMHRuUzJKNDdnMUo2Y1ZxaU5iMEhSbkN1TjE1WDJNTWJUMW4wd0hKT3BtU0huVzB0QUZXbFVlWUpWXy1RRmR0b3NfRTBvaThFVWIzWWFGVnJUZ01mbXp5MXByc19kU05yLUcxcm1HbXpKOE1falpYNFVpVU10dVU3M1c0RjhJa1VLWERoSFBBcVc1TldESEg2QlBPYTdjRDRWSTdmX0h1WnpIcFBib1dXRHA1QzcwdTBzdFRhNWM4S1pVbklhZWo3WGFvWFZEbTkzbmZTSFk1Y0M3TTFYQUhldmFSVEgtQng1b2NzdDFWb2M?oc=5",
-   "source": "خليج نيوز",
-   "sourceUrl": "https://www.5lejnews.com",
+   "id": "ce9f7b4799ad",
+   "title": "حقوق الإجازة السنوية في نظام العمل ومدى جواز إسقاط رصيدها",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT29XVTdvV0RzUk9pYUVrYk5JN1lQclRiSElTV3BpbmR1emFQMHE2QnJCOU1QT0UtaXhJUWs4VlpoS2gxYzVCTEdIQWtJaWxSYmRBbHdyLVQtaW9zSkwzZ0tGZ1pvbzNacnB6Z0tyN3E1aDBWTngxaXBUM2ZtVkotdWg2ZWNFaW9sc25kakpxR0xjZEVzOFBOY2VLb2tjREQyQkFjaWMxbw?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-10T19:46:08.000Z",
+   "date": "2026-10-11T03:02:52.000Z",
    "summary": ""
   },
   {
