@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:38:52.420Z",
+ "updated": "2026-10-15T04:34:34.606Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,20 +15,20 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 62,
-   "kept": 1
+   "fetched": 60,
+   "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
    "fetched": 60,
-   "kept": 45
+   "kept": 43
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 82,
-   "kept": 27
+   "fetched": 86,
+   "kept": 25
   },
   {
    "id": "ip-global-wipo",
@@ -39,13 +39,13 @@
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 62,
-   "kept": 15
+   "fetched": 59,
+   "kept": 14
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 63,
+   "fetched": 64,
    "kept": 21
   }
  ],
@@ -59,7 +59,19 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-14T20:44:03.000Z",
+   "date": "2026-10-14T22:38:49.000Z",
+   "summary": ""
+  },
+  {
+   "id": "bac2491bada5",
+   "title": "Live, official, royaldutchshellplc.com website domain name as authorised by WIPO",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOXzl1RnZaQ0pJRXEtUVNmRnNyM1cySUpBV0hERWs1ZVM1V0JvUGdJZ2dub3Fnbmx3dS0xN3RFTWZwWFkyZXRJSzZfZWRlYkdfd0VLTFNIZWFZX0IzLUFOcTBpR1EzOU5lQzJWWEswTTBzZmQtZWVzcFRrd3RfRE5rNm0zd2RfWnR3LWNKRkp6SUh4OE1RRkx6TnY0bnk3Vks1NmlNMnYxSjhiZ2E0QVNKd1owQUlUN1VUellicHdB?oc=5",
+   "source": "Royal Dutch Shell Plc .com",
+   "sourceUrl": "https://royaldutchshellplc.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T22:01:50.000Z",
    "summary": ""
   },
   {
@@ -87,6 +99,18 @@
    "summary": ""
   },
   {
+   "id": "88ba1e999eff",
+   "title": "المملكة تسجل براءة اختراع لموازنة التيارات في شبكات الكهرباء",
+   "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNeGhRSlFFR19iMHA0NU9JSUFHWTE3ckE3WFA1WFkySW9EbU1NUi1MMVBfM0tNYW9SbDFhY3p3d1prbDBReHVCU3BJTUk5U0ttNnVpb0ZaZ1ZmeHdqZTFKc2xvaFljNVdrWkF6TkZ2ekdrYVVRN0g4VmVjakx6cGFGT3g2aUxvV2ZwSUV6WUxFbHZsc3o3dXRQTUVmelRYNEtPS1dkaG04ZFR6d1d6dFJFbXN5SmZNOE1zT3BnWHZKS0V3RW1sMjV5UDN5cXVfRTNqb3BUaXZnME5tWVllNzA4cGdOU0dVM1lyV3FZbF95QWpET0FxODNVS1Q0NGRwWWRRaFZVTGVTRTY0ZmNsN2w0UjdEcnkySjkxaTVvZWo3WHoyc0Q5NmpLV0J5NWxIZlRTQjlrbm51TEZFMERHay1zaU5VRWtpTnNF?oc=5",
+   "source": "25H",
+   "sourceUrl": "https://25h.app",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T18:26:37.000Z",
+   "summary": ""
+  },
+  {
    "id": "32a81bfe60e0",
    "title": "Charleroi, Liverpool and Shanghai win WIPO’s first ‘City of Innovation’ awards",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEVtOGc3SDQzblF6TnA3RW9qSmt4RDhpbHYtYWZsUDBJVk9nUUtxTWRzd1hCWGp5VGVBUVRmbUZxOThIbUNoVkJSNWxXeGdCTmYyeDRTUEhMUzlXcl9Qbzd3VGsxYzdKVjR4Vk1NXzVKX1pHaThBWnc2WmtrWGpBRlBOMXNhVG0xbjVOdGVENUo1MF90UmtZUE8zOXQtVkx2V0xZT3pjNnJiV1VMOEpUXw?oc=5",
@@ -95,7 +119,7 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-14T18:11:15.000Z",
+   "date": "2026-10-14T18:11:45.000Z",
    "summary": ""
   },
   {
@@ -108,6 +132,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-14T14:51:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "0b8c0c0e260e",
+   "title": "Ent. & Lifestyle: URSB Steps Up Copyright Protection Ahead o",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMDNBT0xabGI1WEF4d0JKT2E3N1R5eHRCSVAtVXcyRUlwQm5wVzR4VzRvYWZPVTA4WUNIM1ZLY0dVYXVWY3ZPZHB6eU5HZVAzS1g3cUdwODZyOWZyN0pOQzJrTlRNSXI2RHZKOU1JdHlYSUdWeDhFRlRPVjhLU2xZbDR4dmVZcDhTWkROSjlsaUJJMG0zZHBfcW9NRFZod3gwSlFzS0taRTNaTE1VOUpYTHhpdw?oc=5",
+   "source": "NewVision.co.ug",
+   "sourceUrl": "https://www.newvision.co.ug",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T14:00:05.000Z",
    "summary": ""
   },
   {
@@ -156,6 +192,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-14T12:17:24.000Z",
+   "summary": ""
+  },
+  {
+   "id": "e6cec4107d92",
+   "title": "NCC presents first witness in Netnaija copyright infringement trial",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdmdYMXU1d1FGUGlSalNkVUJpYWVFS3hoeC1vUWFUYWVlTVZiX2FISHQ1TWRHQk83US1pMjVneldzeUpJek83VmJFOV9wZ3ZWLUc5dHRtRmt3T09QOFBkaDhQcW9mMld3S3FiNkl0a29fQkxjT25xWm9JSHRHM1hsYU1xSndTNTRCRnAwV1BEbXV3RHp1NXBDRWpjcjJjZw?oc=5",
+   "source": "Head Topics",
+   "sourceUrl": "https://ng.headtopics.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T12:06:00.000Z",
    "summary": ""
   },
   {
@@ -255,18 +303,6 @@
    "summary": ""
   },
   {
-   "id": "dc61d228853d",
-   "title": "Customs seizes 280,000 counterfeit goods in two-month crackdown",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5rMkZrQnVMMHRfcTl5bmdGTjM3bldOX1BlUk5JSVdZRVJHWkg3MWRTWG50NjM5UHFsakNqYlVLM1IwQndkdl96NkJnZGQyV0dlaWVLWmh5RQ?oc=5",
-   "source": "헤럴드경제",
-   "sourceUrl": "https://mbiz.heraldcorp.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-14T05:05:54.000Z",
-   "summary": ""
-  },
-  {
    "id": "b0acebc4f59a",
    "title": "CIOs must rethink intellectual property protection in the age of AI coding",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdHFQTEhSNFVDWUpJT1dXMTVic3hkdm1ZeW5VdWtvSjFuTW9tYzJZZmVlRnUzdHhhWkNvdnEwV0J4T3VHV3FDY0FsbWF3a0pERThNNmhiaXdFN3BDbmRSRHZlTFl4bDRfY18zSjlUdWtjbXNONllpY2p3VVlfWWJ5V3F6d0F3QmRWZ3oxSlB3aEtGUDdZTFdNTDNVNExuaEFUYTh3Zm5vUHdnZm95X1h4SXhQd2FKRHlKWVoxZG82U0gwLTQ?oc=5",
@@ -288,6 +324,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-14T04:27:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "b8c0c661004c",
+   "title": "وزارة العمل تعلن عن توفر 200 وظيفة جديدة بالعاشر من رمضان مع تفاصيل إضافية",
+   "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxONG11bXNnQjNuV3M2QzNxM0pmVjh1Nm10T2ZGSDdQQ0ZoZ0dkSVRfTTJ5Nkt4VFpSd2s0QUV5TUN4NzlWODBFN2NmTjJpWGlPY1djNmpxaFJwZ1JsWm9NemVwekZkLTZzWjZiNnFkNHg1TU1VWHhKRm5VY0Jxc1hDcTBNcnI1N1pxQVhiNXdLeEZrYTBfQjR6dkhBNTA2VnNlb0NaN3h1b0RTZEZVYUYyUEY2Q1EwNmFCbnY4QldwSlBZS3BGclBpMml0bXRMeEtMNWx1WU5ZRmtrUkVValFTSWxjcUhxbDIxSHNHakk4dmJhYkpkU0dJRS03Wk41YmpCcmtmUjhsYVEyWlVJRkI3OWxQcjY4anc2Y2xOV0hraElWMlZERzhxSmY3U0VyNkd2TlBtRklmTkExd0RLMzF1dFQtbGZ4a196SC1vdHdR?oc=5",
+   "source": "الاستاد الرياضي",
+   "sourceUrl": "https://www.alestad.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-14T03:17:35.000Z",
    "summary": ""
   },
   {
@@ -324,30 +372,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-13T14:55:02.000Z",
-   "summary": ""
-  },
-  {
-   "id": "0b8c0c0e260e",
-   "title": "Ent. & Lifestyle: URSB Steps Up Copyright Protection Ahead o",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMDNBT0xabGI1WEF4d0JKT2E3N1R5eHRCSVAtVXcyRUlwQm5wVzR4VzRvYWZPVTA4WUNIM1ZLY0dVYXVWY3ZPZHB6eU5HZVAzS1g3cUdwODZyOWZyN0pOQzJrTlRNSXI2RHZKOU1JdHlYSUdWeDhFRlRPVjhLU2xZbDR4dmVZcDhTWkROSjlsaUJJMG0zZHBfcW9NRFZod3gwSlFzS0taRTNaTE1VOUpYTHhpdw?oc=5",
-   "source": "NewVision.co.ug",
-   "sourceUrl": "https://www.newvision.co.ug",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T14:00:05.000Z",
-   "summary": ""
-  },
-  {
-   "id": "34cf8220d68e",
-   "title": "Enhancing Vietnam-US cooperation in copyright protection and film development.",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkEtcEJCN2dRWjI1SkZKWjNRT2ZNNjFXUXFIU0JGSm9PZFpaTHpDeGlVMDZjc1NwalpwUGJGWk8xZ1RsOGhKSXlIZ3k3bkNULXoteWJoUHpWS3M2bk9GVGhlUzFzeTYtdkZ4MWcxX2V6NUI5X00xYzRLVm5mNFFaaWlmak5EakZzNkMtakpnRTJwd05DY2lhOEVISEoxMHlxN1Rab0ZMWVk1QQ?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-13T13:52:59.000Z",
    "summary": ""
   },
   {
@@ -396,18 +420,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-13T03:00:17.000Z",
-   "summary": ""
-  },
-  {
-   "id": "e67d6b2509ce",
-   "title": "معهد الإدارة العامة يحتفي بتخريج 1,055 خريجًا وخريجة في الرياض برعاية وزير الموارد البشرية",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoLWtrS2kxSkc4MUVGeWJLazRtNWVzTTNpR3dMYmZqNjJ5SjhOZ3RCWmk1QzNzQ3lWemRMWTc4a1JvSG5UWnJOYg?oc=5",
-   "source": "عاجل",
-   "sourceUrl": "https://ajel.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-12T23:33:00.000Z",
    "summary": ""
   },
   {
@@ -711,18 +723,6 @@
    "summary": ""
   },
   {
-   "id": "f80287265fe2",
-   "title": "أمير جازان يطّلع على تقرير فرع الموارد البشرية لعام 2026",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYcW1FcGhpcVY5dElPZU1ta0tEem9GWmVmR1pSbV84YkNFRS1EeEpkU0tFWldsMzhaMWR6TFV4eDlqWlo2MFdiR2ZjNU9nVXEyMWfSAVRBVV95cUxNam5PRktOejVkekVSb01qNENJRzFHeTZXUWhOM0s2RzVEbzFEVzhKU0JIWWJKNlNrZm9NZ1RnaDdCaG1rbVJHbUxSWERxZmFTdmx4YUM?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-04T12:31:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "b63d5f11b1a7",
    "title": "النائب العام يستعرض جهود المملكة لحماية القاصرين من الجرائم الإلكترونية",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xWWVEMDlWRGVGVDdBRldMY19uY1o4b1RxOFl4bERvQTlyU2J4MlF2Rm1qeTJhYXNWU3REVXFkeHJiQTZHQ1Y0?oc=5",
@@ -744,6 +744,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-04T10:31:53.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f80287265fe2",
+   "title": "أمير جازان يطّلع على تقرير فرع الموارد البشرية لعام 2026",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYcW1FcGhpcVY5dElPZU1ta0tEem9GWmVmR1pSbV84YkNFRS1EeEpkU0tFWldsMzhaMWR6TFV4eDlqWlo2MFdiR2ZjNU9nVXEyMWfSAVRBVV95cUxNam5PRktOejVkekVSb01qNENJRzFHeTZXUWhOM0s2RzVEbzFEVzhKU0JIWWJKNlNrZm9NZ1RnaDdCaG1rbVJHbUxSWERxZmFTdmx4YUM?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-04T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -795,15 +807,15 @@
    "summary": ""
   },
   {
-   "id": "1b85471f336c",
-   "title": "وزارة العمل تحذر من صفحة وهمية تنتحل صفة الوزير محمد حيدر",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qdjJRcFp4eHVHZ0pteVpBYmVGdHpzWi1fLWNUbVVXNDdiOFA1a184MlpHbi03bHU5X1NqYXdrZGZaNGo1cG1NS1RvRmh5NFFETHg0?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "id": "18beecf0e124",
+   "title": "مستشار عدلي بريطاني يطّلع على تجربة النيابة العامة وممارساتها المؤسسية",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBoYWgtdERjNGFEaDFQMlhzbXNvQ1M1WTdPbW5aVktLMXBoVWE2OVlVcmgyeWNJaDJBNHNEc1hIQU1sZTNla2hr?oc=5",
+   "source": "جريدة الرياض",
+   "sourceUrl": "https://www.alriyadh.com",
    "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-02T18:29:45.000Z",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-03T04:55:11.000Z",
    "summary": ""
   },
   {
@@ -831,6 +843,18 @@
    "summary": ""
   },
   {
+   "id": "8c04a76d9792",
+   "title": "عام / النائب العام يلتقي المدعي العام الروسي في قازان",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5aNlF0ODVfLUdZNmtoZHhNUFF1WkJickxGZHE3M2NPemdHNlhEdFBuZWltMm42WE1NVy1tSDNBRk5ESjRFZDFoUjln?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-01T07:00:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "ee14eae58ca9",
    "title": "النائب العام السعودي والمدعي العام الروسي يستعرضان التعاون بين النيابتين",
    "url": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxQRzZQc196eGZaT2pzM1RZOFJsODljcldkYkRlT2pHQ2tVNlptNmJiUTJ3OHpJVjRKb3E3NEtvZHlBdmt5NndHX2pYNG10SHg0eEhsOGYwWDBoT3BfMkpVZFlxWmVrRkxWUzJWV0VqVHFja194QV9pckozdmwyb1NHcHF1TWNXQWY5RlJIbGhwY0ROMGRpQ3dfeHFvWUxSUW9rc21FNUFxc3RDazFWQ1hCX052SzZGTnFsVWRCREpxOFJ2YmhoQU9fSmlsME5qTXdNOXVVeGlyQy1ZWm9FemVVR2FoS09XdmxiX0lyTWJUTW0xcXE0eV85eHozc0h2N3pwT3BralU0dllZTWhtMl9Ea3BJcGdRZXJNeVgzQ1pBc0N1bDBseXhuMURIZHIyOVdZLXQtaTJIZTlCNkQ4bDQ5RVQ0enlDR1NCaVVFRmZucmRMNFpCaE82c1BNazB6bXBGelpRVlZWYUVDbzNaMnFoZGJoR3FEUUJKOFItdzgyWDVybHoxNnUyZlNtWWV1cmkxWXQ5clFDN1ZGQ004QVJQT2dPUktXRlUxekxITEc5WWFLb1dJbTNvNXVKY3o1aUN3R1pwc3pfZVhQMlUxWmdzMVh4SGNQdVZaWGx6ZXE3amtRcEJKa0taVU1aSVVJRnk5T1FfSjh2NjdSTkxDY1ZLMGNUb2EtcDdsa1BqSEpTcEF3eHhVckFRaUl2d0hacHNnYUV6SERmR3dhRWhzejVsZTYxQ3JZOU1CTHNLU0VmUkduUDZacUxaTzQ1RWc5QUNURjVUXzNfT3lUcC1fZGJtUzZR0gHnBEFVX3lxTE1VaEF3SXRZMkp3VmdKdGVjQXRiYXhITmNyUmQwbmtsN2U1RXZldzRHeFI3MlZzXzh1T0pnZndYLXAtUmpWM1BUbnlrWG5KcmFpUmE0dURZek9oZ1pQdUVaeURUYnpPYXg0NXNPcFFNb0FudGNLUDAyOXpacUM2QUczamgxWGVkM1JNWlYzV1lqQjhnbUFtZWVzZnd1dW9BYktnRWJiUXktejZROFRyM3d0ck5NeVZ0WEN5akdpWGpKYUJaMFc1MGcyVlUwZ1FjdXFUMFB6d3htN2Y3N0FDV1JTZVlNN05LODBmM1AtOFJpcmZHN2V3Qi1Kb2hFcmZaQjRJejJieWlzMEo0bVlqUEFybUNaUmw0MHU4Q0x5azNha25Jb3JXNlpfdWxFUlVFR1dURHlJTG5kOVFsbEgzZ2x3ZmJpVF9HRkpMdmdGNmJhVl9SX2MwSTVOM29HcklNODBieG5iWm5CanZvWGNwLW1CQ2NkUTNaWkNBUHdBbTRlYU5IRG1DUWM2blhHdFZJczNpUmZkWGdyWk9JVU9pT0VzN3NyM1pZS1Jud0JPa0xlUkxnbEdhLW0xQkR2QjQ2S0pwN0RETGotengzN0FudE14VVowSXo3VkE0M09HeGZoX0dYZjl6cHpPM3BQcHZEcldSdlNJNF80b3hMSGVBOUdUbEs4N0pHNEhwTS1TWXJiQmI3dHVXX2txNFlVOXZFMHYtRGFGUWhxbkxmOWFqcFpnZmZiMW84X3dRZ3JHLTk5OG9Ycm45elIyU19fZjRoMW9IQTBWbGlncVJKVk9nR3U2b3pVNXU5OA?oc=5",
@@ -855,18 +879,6 @@
    "summary": ""
   },
   {
-   "id": "8c04a76d9792",
-   "title": "عام / النائب العام يلتقي المدعي العام الروسي في قازان",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5aNlF0ODVfLUdZNmtoZHhNUFF1WkJickxGZHE3M2NPemdHNlhEdFBuZWltMm42WE1NVy1tSDNBRk5ESjRFZDFoUjln?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-01T07:00:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "87fd5c57dba0",
    "title": "النائب العام الإماراتي يأمر بالتحقيق في حادث طائرة «فلاي دبي»",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwc09CSXc5aW9uZ180ZXNnUkRRN1RwMWRMZmQ4dXVYSFJUTzkyamxiLWNyV1BvaW92ZUpUTmVrSVlvV2k2NElINXFzUmw0dVV2Nlo4aEtlcTRYckV3cENn?oc=5",
@@ -876,18 +888,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-01T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "846ba5e69440",
-   "title": "عام / النائب العام ينوّه بمضامين الخطاب الملكي ويؤكد أن العدل ركيزة راسخة في مسيرة الدولة السعودية",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE85M1NHcVZVYXdOZVZBam00RzN6OUdnR09WMVdubnBLMHlTOWk0bklnUEw3d09OcmZfVDloREhmWkVlbHdIQlE?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-01T02:44:50.000Z",
    "summary": ""
   },
   {
