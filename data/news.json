@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T16:35:58.052Z",
+ "updated": "2026-10-16T21:04:18.659Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,7 +9,7 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 55,
+   "fetched": 60,
    "kept": 9
   },
   {
@@ -21,26 +21,26 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 58,
-   "kept": 49
+   "fetched": 61,
+   "kept": 52
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 100,
-   "kept": 27
+   "kept": 14
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 61
+   "kept": 62
   },
   {
    "id": "labor-local",
    "ok": true,
    "fetched": 59,
-   "kept": 23
+   "kept": 21
   },
   {
    "id": "prosecution-local",
@@ -50,6 +50,18 @@
   }
  ],
  "items": [
+  {
+   "id": "dd29ad169f10",
+   "title": "Indonesia, Denmark boost intellectual property protection cooperation",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNzN5NTBBaUhJdTZPbUZZN2JWUVdMYnMwRE9EZnF3VEZ1YXZVT3ZSMmpMd0p1Wk5GSWREOWFvOFA3YUNXNlZEQ0FTczBwQXVubGR3UXF3ZHZnWEs0dUMyMVlUdmQ0VFdKR3ozTlN4X1pEUGtvamhtM0p4eUJUdUwzY3VRVHdDb09Sa1ZoOXktVGZqRzZTZHRxUWxFRF9uYU43N2RFWHI3OVlqQksyRTNB0gGvAUFVX3lxTE03M3k1MEFpSEl1Nk9tRlk3YlZRV0xiczBET0RmcXdURnVhdlVPdlIyakx3SnVaTkZJZEQ5YW84UDdhQ1c2VkRDQVNzMHBBdW5sZHdRcXdkdmdYSzR1QzIxWVR2ZDRUV0pHejNOU3hfWkRQa29qaG0zSnh5QlR1TDNjdVFUd0NvT1JrVmg5eS1UZmpHNlNkdHFRbEVEX25hTjc3ZEVYcjc5WWpCSzJFM0E?oc=5",
+   "source": "ANTARA News",
+   "sourceUrl": "https://en.antaranews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-16T14:16:58.000Z",
+   "summary": ""
+  },
   {
    "id": "ec0f869721a6",
    "title": "£6,000 worth of counterfeit goods and stolen laptops recovered during operation",
@@ -267,6 +279,18 @@
    "summary": ""
   },
   {
+   "id": "8315451d627f",
+   "title": "وزارة الموارد البشرية والتنمية الاجتماعية تحصد المركز الأول في جوائز Webex Customer Awards 2026",
+   "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxOUTNwUy0tY0JsRlowYjZ2NTZrTHoyT1d4YUpCaWJiMG5kTVVvdkxQekRVZWQ3YXlzREhpZ01MS0tfY2d3a1hkSWFtZlpJRzRsa1NHcUpKd2dlSnBJYjBIQXhEZDNQbkFNRGotQVloN1piSUxsb1MyV3QyVnJVWWtudjJPRkZyUGhMOUlxZnFrVFNuWmVmYzRMdXZCSV92U21uX0VEV2dPNU9iQkRwcnNLNS12eGw5azhGczF4SEIxRVhIRE9zeUd5bXhoUVJIeWNxdzVKeHJNc041VGNrMkxyejhCS3pMT0dfWUkyMHRUdFpsd3dmbXZLdnFGbF9JZHNmc0Y1VEtNX2drS0N6WFlnT3N1ekV3S2Z0NzQtNW5YTV9yUklidVIyck9ZTnZTNmRqemNOTDd6d05xQk5Md2wwV1Q3a2V5dklOT3hBQ2RWZy10akE1UjQ5c29xLW56eGZsOTJ6SFVIeTFmTXZXam53Ym9xZ19KbmFKQ0dUVTFpSG94VDJ0SXlWSXFPTXBlUGZOV0hRWHJRMzZFSzNiWlpDM2R3eU15SVBLUnR6cy1ZbE1sM015UUltUUVXZ0Myc0FIWmhZenAtOWdGNE5PeS1NYWxhMUtNVnpjcl9EcWVvMTl4MDQzdDhoLURKaWFWUkFCeXBLUXl5cUk2YjRuWVA1SEhmTk5QczFRVVg5UmlMejZBYU1Jdk9pZFQtaDc1Wno5SUNsdXJqUHIycmFPcmZXZzFGMXhKYnlfRWpDbmtRY1FDY3I0Q01ES1FrWTBRaWYtTkM2TVg1UnMzVW5kYjFCWG5haEpyTEJoM1pPeG1hRTBDNWdwYXlEUVlQOFprY0tYT3dvaGJkTkRrUU5Ld2c?oc=5",
+   "source": "جريدة المدينة",
+   "sourceUrl": "https://www.al-madina.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-15T15:02:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "0b8c0c0e260e",
    "title": "Ent. & Lifestyle: URSB Steps Up Copyright Protection Ahead o",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMDNBT0xabGI1WEF4d0JKT2E3N1R5eHRCSVAtVXcyRUlwQm5wVzR4VzRvYWZPVTA4WUNIM1ZLY0dVYXVWY3ZPZHB6eU5HZVAzS1g3cUdwODZyOWZyN0pOQzJrTlRNSXI2RHZKOU1JdHlYSUdWeDhFRlRPVjhLU2xZbDR4dmVZcDhTWkROSjlsaUJJMG0zZHBfcW9NRFZod3gwSlFzS0taRTNaTE1VOUpYTHhpdw?oc=5",
@@ -375,30 +399,6 @@
    "summary": ""
   },
   {
-   "id": "7cb02631be37",
-   "title": "DCI, INTERPOL seize counterfeit goods worth KSh 62.7 million in nationwide crackdown",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPOWVVWERSS21IMVUtdVVsWU54M094Mms0SzgyampvTDc4OHBHc3o3bEFwLUsySERiSlkxbG40ZW14bGpudjBOcjdIb0xSWHFSZnVXdHJvc2RFRlg1OHhqaDJNZVZvZUVJU3J4ZWtkYjFQN1VqX2pJdXRuRm51ZW80ODNiYm93bDFULWUwZmlmUnk0SFhOMzhPT3BoV2NOU0c2SnlQRTY1LVdhM2pSM3BIMTlPN2FnLUdVZ0UzNDBCSE50V2Ztc2s0NW9vX2dyUQ?oc=5",
-   "source": "Radio47 - Hapa Ndipo",
-   "sourceUrl": "https://www.radio47.fm",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-15T05:39:46.000Z",
-   "summary": ""
-  },
-  {
-   "id": "74c83aed4be7",
-   "title": "29 Arrested, Counterfeit Goods Worth Ksh62.7 Million Seized in Joint Operation",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTnFuNk5wSGdFdW5nUWpfTUMtX2poM3BwcFdreFhDQzZQa0w4bmxTQUlVRmVEX1l1SXhnZ1FTZnVEWkFHNmt2UzA4NmxTV1N1RnBicy1URExRV3lfM3BSSUNYQm9FTWJ6RzhBNGNab3c1ZjQ2N3pHV1o5aVV3QTdpU21wT1RBbElKc2VvNWVReFYta1lvUjRyTWp4X1EtcHA5ekxkQmZtLXNydmxuNHdxa19MSWpaV3RVRjJ6VQ?oc=5",
-   "source": "Nairobi Leo",
-   "sourceUrl": "https://nairobileo.co.ke",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-15T05:24:08.000Z",
-   "summary": ""
-  },
-  {
    "id": "c94f4fe175af",
    "title": "DCI seizes Sh62.7 million in suspected counterfeit goods",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnNGQTBZTEhfS1NjR2tDdzlhbF94T1VBVzZQUWF3bmoyM3BzMU9rRXBXTkpPNnV5ckk4X2N0aXNaYnQwaWhRN3BvUnoyY3lXcFJZVGRlR3V4b292QVlrcWZOWjJlZnhxVWxvQ3BCMHVuSGNXeWIwdzlsSTV0ZkpjN1FFbWJyZU9fOTExVTh3?oc=5",
@@ -420,6 +420,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-15T00:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "bac2491bada5",
+   "title": "Live, official, royaldutchshellplc.com website domain name as authorised by WIPO",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOXzl1RnZaQ0pJRXEtUVNmRnNyM1cySUpBV0hERWs1ZVM1V0JvUGdJZ2dub3Fnbmx3dS0xN3RFTWZwWFkyZXRJSzZfZWRlYkdfd0VLTFNIZWFZX0IzLUFOcTBpR1EzOU5lQzJWWEswTTBzZmQtZWVzcFRrd3RfRE5rNm0zd2RfWnR3LWNKRkp6SUh4OE1RRkx6TnY0bnk3Vks1NmlNMnYxSjhiZ2E0QVNKd1owQUlUN1VUellicHdB?oc=5",
+   "source": "Royal Dutch Shell Plc .com",
+   "sourceUrl": "https://royaldutchshellplc.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T22:01:50.000Z",
    "summary": ""
   },
   {
@@ -468,6 +480,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-14T05:57:52.000Z",
+   "summary": ""
+  },
+  {
+   "id": "4d5c8696fc16",
+   "title": "وزارة العمل تعلن 103 فرص عمل بالعبور برواتب تصل إلى 20 ألف جنيه",
+   "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxQZ0drMk5PNUlsaTVjQmNuNHFxc3NDNi00SVk5eWI0WmN6T29ZbWpOMTk0OHNfYUN4UEVXZjJBNFBkLWJxSUxoVzJJNGNhcGlMVTJzVFVYVG1pZWRTYlZzaV9rWjV5SHdkbEtOaWJ0d0ZHUDBubVhsX0x2WEN0cTVMamhsNERWN2NDN2ttSmlSaVBxaUlCLUdhMWg2dE5pYTdQSFdyRzFaNWlaZlBVcnZoREowaTEta2c0VEpQWmxSak9yTnpGUFJQS0xEdE1KM0kwa0l0bC1tbGJfa0VBTDk0OHhWeFdZTDd4V2dXUXRQMXV1OTVXYnROeUlkQlNPTlNVRzlRMmZxVVZBeFhvc0VWTzBrQWRzWkljUnU4Y1VRMV80dUNHZWlqc1RsVmZtQnU1ZjVDQU1pem9JWWMzM0pxemtQdTRFcTJrd2pRdHRKRFdwZGJ1MXJYVDlCWU1LR28zd3VTbGludWVUeDFJWDdjU2t0OHJXTWpGZ2RlWDdTa3pHMHJRVjZheTdSMk9feWtVR2tRWjZqbkw1YnY5NnRfMXQzd9IBngNBVV95cUxQMXhsbzlrRWQ5ZFRackJSaXpHamw1aGduQWpPUnMxX2tCYkptS3pZQUctZ0VQNDUtdXlsa1d3VFVaRHdXNnlrM2tEcnpERHRQOV9YcERxVjUwSWR1bGZBOXZ2dnplSXdNdVd4TUJ0MWtRV014T2VCRzlVZHpHQ2ktXzlnNjdadkpuT0Z4ZFdQSW1mUEFGRjhERUlydGFJZHpDblJQNnpDQTFYMXdNSWlKd1hCNk1CX0dsd3RsZTJRR0VLdmhTejRSdUludk1teHdNM1daSENUejI0cmk1aVE5Uy1fZmtDdEpQSXFGbEhZX2VZalFoLW5va3VRTzRBODM3aWEzT2NwNUYyVk9Zbjd1dHJ1VWpIRzRmb09LMkRaS0lzVkNIRTc4VmVEV2FETUstenVlV3lua3ZTaThCQzhrVmFRY0t1SDRyUVBTYnNuODBHa1VwMk50bENvUk1FRE5sN3E1a0RxVU5wWTlZY3ptRUlnVmQzdm9ndHpvM3FxcFRSblFSMlhQSm5ZeUcwMW1qU21ZRENXV280ZEsxOHc?oc=5",
+   "source": "اليوم السابع",
+   "sourceUrl": "https://www.youm7.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-14T02:00:00.000Z",
    "summary": ""
   },
   {
@@ -543,6 +567,18 @@
    "summary": ""
   },
   {
+   "id": "85be1e1476f8",
+   "title": "النائب العام يستقبل رئيس وأعضاء نيابة الاتجار بالأشخاص بمناسبة احتفاظ المملكة بتصنيفها الدولي ضمن الفئة الأولى",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PdEZSV3FUZm8tTEhpcDY3M2VXWGpHZFZnRW5xdC1YVkh2Xy1WNWdROUFoQVpURmluY1VNNTl1V1RzS3RYSXRoSHRoNjl5M0owM3hQcDI5X1FSMzB2VUNWQkdTRQ?oc=5",
+   "source": "الأيام البحرينية",
+   "sourceUrl": "https://www.alayam.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-12T14:05:35.000Z",
+   "summary": ""
+  },
+  {
    "id": "ed32634553bc",
    "title": "قبل الغرامة.. خطوات سداد مخالفات المرور 2026 وتقديم التظلم من موقع النيابة العامة",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUTmlaaDdhM2xydFNaNUMwcWs4RTNnc1NOaXRwelpoOUxtd3RybGNoVU9McmhxcFpfS3F3aGZXX3JMXzFlWUhaVnFXbVNjZlVFZW01aGN3ME9Ldi1nNmlz?oc=5",
@@ -588,18 +624,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-11T15:52:05.000Z",
-   "summary": ""
-  },
-  {
-   "id": "6db908f25e4f",
-   "title": "وزارة الموارد البشرية السعودية تتيح تصحيح أوضاع العمالة اليمنية عبر منصتي \"قوى\" و\"مساند\"",
-   "url": "https://news.google.com/rss/articles/CBMikAVBVV95cUxOeXhGbzlsbFN0dlpzZHoyQjNQOGNYSFRweFJTdjJUdjhqdlJKYUttd21fMVdwQjlCUHpVZGFpME0tQlo0MnFOWVcxVEg5VS1vY1c2QWZKc2dwNEM4dlZDLWU5UTFPUlNEaVFacEprS1BiTW5oTHlicVFpOFNsa3hITV9KMFgxSS1LbE01SEhrZ2o1S21uVzdvMkFOYmZKTHpvZ05ndEFBU2ZkVE9GaS14eEc3RjUwWWd6R3JPRU94N3dZU25rdjN4QjZxdDQ4N1dFU0NlV1hBLWhYNjJaUHZBVzNUeUpHa2RUT3VzR05rV0lxRHUxQkxEV19DRExNZ2l3SW5HSFhleEdMRE0xaEhtRDZ6VGJjOVhyaW5vaE9TWmQ2VGR2V2kxVEw2SllCeG5tcVhRMGtnbWZNcWx2dnE1UzRNU0tpYmFvNzNHVmUwXy1DOC1FanQ5YXpQTDBEWWtRTi1PZnZUWFQ2SElBWmpCTFVsbWwwMEV3U0ZMX2dsSHplSTl3ZGhQUHlLMHhPWXFzZThwUXkyVEplYmxnSEdaYktrUFhrYnd4ZGRwczc5WEdkVEdNUFVFNkhGRWhKdzV1U0wzNXVRdlF0M04tOU91SkVCb0UwMDd2Z2Z3OUtuZzQ2M3o3RDJ5TWVMQ3VlRVhUWU5SMkxabG42M2I0c1FEYzZ2WHZrNzFSQTQ0NXNfNDJ0QjBSWVZoUnp1aWVnenRHTzVHXzFjUlNLRHdtbnJRemc0X2M3aEpBc01YaGw4bnB0Tk5YbnpLWkxicmlQLTFmY0xTdG51LTNKNjh4bWpaeE5aRTl1Y1JBdU9BR19zQkQ2SFozNXBCSUJhV0lsQ2lhdFRmUDJVczQ4YkJ5T2YzbA?oc=5",
-   "source": "بلقيس نت",
-   "sourceUrl": "https://belqees.net",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-11T14:19:05.000Z",
    "summary": ""
   },
   {
@@ -720,18 +744,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-07T11:04:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "b218066e5851",
-   "title": "حتى سن 45 عامًا.. وزارة العمل تطرح فرصًا وظيفية جديدة للمهندسين والفنيين",
-   "url": "https://news.google.com/rss/articles/CBMiqANBVV95cUxOUUJkeHVWU05wR2dDdHlDd1FkUzFGNkFnZHRjWlFMckkxZHRPUERYZ2JITHJoOGh6WlpfNFh1MmdFbTdRdGNpazN4VmxZTlc5ZUFmbHJuRHRfU3BmbzFJVllSOUhOeVNFZXRlX1BmOG5ySHpFbmZCM3I0clFITERQLVQ3OGFIUm9heUhrLXZzaGwxcUx4TjVtcElnc2lpeFA2NmpzMGNfTENRNFI4SmVKWklIQlM1RnloOUR1VUJyZzlwSVFJYWhmS2MtOWlJVnZHM0hLaDJtSWRld2l3MXNpWDVaMExXcldNb1ZrYVNtSjVIelhUZ3lmRHlyOUFJRjdUOXdxY1BFUTN1VWVxbm45Vi1paGxVajgydzhzLW92aEwySmJFdmlvdGZKNk42eXZSSHBwbkZSNVhoYjF4MjBFb1l3Z3lRa3hHMjlDZDVQQ0NPMFZUazdXOVVocGFpWl83ak11ckhoN2hGRlVMMk9BZzZLamxKZXk3cVpOSnVqdk8xZ0VZZlhlZGNKOG9LbTF6dHo4aWZkVi1kZTN3RWNhZkZuWXA0eEVS0gGjA0FVX3lxTE9BVkV6WmpGLThLOGZTMEtHTUhVcHFyNlo4S2RiZm9rM1ZPYldEZjVCbXhOd2w3SW5MY1k2TGtSVHhVUXVtWkJzUkRPdTNBNG1FMkJ2X2VTWXRxQlJXejRubGFudTYxdzVZeVFSMXh5RzVmU2VxOHBONTFDRkhRNzByUEY4cENzalpLVFFDNUlVeERKamN6cHZWQnJ4ZEFuWGxnUjlXcS1NOWVDSnA5NWViY1piM3MtWTBnUW00aERsMXVjQXptZTNlcDg4eTYzRWRuR3paZG1qOXRjTzM2emdQTDRyWjFPSy1HTXdPemNBcXNKai1OeE9GSmVDbDhLTlhoYlEtY2NPcS1uUHl2cFQ1OXI3U0haNkRiZlhXdTNISkV2Z0dfdGV5UWNqYjFYUXJxRHJUSEw2aHU2NVQwVEswdEZpSDF0TnV0SkE3UGo2UGFMX2NJQmFIOWotM1V6ZENyLVJSWTlHQzhHRFNvdHBCMXdKTXpNaHdsaWM0aU5udko4SFlTbFRUQW0ySVpsMWpLbjE0YjN1SXJyTndIcE1aWTNB?oc=5",
-   "source": "اليوم السابع",
-   "sourceUrl": "https://www.youm7.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-07T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -867,18 +879,6 @@
    "summary": ""
   },
   {
-   "id": "e2475b842bd8",
-   "title": "108 وظائف بقطاع التجارة برواتب تصل لـ20 ألف جنيه.. وزارة العمل تكشف التفاصيل",
-   "url": "https://news.google.com/rss/articles/CBMirANBVV95cUxNaDFHZWV1VHZXNVpIb0VFRkJaWjdpa3NsNXJfTExoNDNVTmtQX3JtbW0xY2pKRTUwWmkwbXlaWVpMZ3MtM0k1c3pXNTQ3YmFYMXl0LXh6TXNZMW1LWkZnbFRBVmxTclBRVW0ySU1vaEdVd2IwdkM5cXd2d2YySDF5ZU5WaTdTWE5hdXVSNjZJdHBLTklrdlFsWVd0ckRiRGpoaE9LUWpRZTNfd3piVk1uWE9mbFc3amxqTUFaaEsyR3diSC1NZUJsUXBaRHgtMlhVVFVOU1FPZ244SVdzbGpuZVRlZkowdGhJN3N0bzg2OTlrMGhRNjZsRHpsczdDNTRWcUxnd2hCVm16UFpLZEhmNFlqZXlNWFEweDlNVExlcVNpQmZwaWg1aW00endNcUE5NFpQS0MwdThsbHd3eXVkWENiQUpsVjV6VmFIUks2MzZEY0t5SkFROW1KM0YyekNZZ1dZbnVHOEJma2VsbXRDTTFBdERoeDBZR3ZoYms5VmJvXy1kVkxrM25RZGxnbzJOZWR1ZEhmbGdNeWVwVmNaa1A5eW1IV0pRZm5TX9IBpwNBVV95cUxOVXBYRmpzNkhlbzJpb3NfU0FVUVdQOGVkRzY2bGVDYjV4Vy1CeTVLOF9tV3FzNGpqQkNIaVRNNWVDMklpMGpPUXBaQlZRR3RxSDlYWjdqNUx0Z3VLaUN0ZHpWSnNCMGE4Q0tmTDBEcUh6b1ZTZFlIdWVKb3M1djhWX0ozcnlyM0xucko2NGJrdDBFS21sOVBwLWxRV1NKa1ZKSUhucWRldGUyNWxkSFhJTTB2YUNwVFNRbTFhX3ppWlFpbmd5dXNoYzd6a3FYRFFyME90cVVMUHE1cUFTQTd6R01INkVyeG40YzZlNkxVbm1aT3hLSEdGTGtCYVhKaUpOajRvUUp1Z1NEM2JFVlNIdEVTcGU1MlVpU1FqOU80U3cwclloWXJtV1B4OC00MUcwQmVJcy16YmtrakNqdnQzb1VOcUgtc3hmRVhiUmFMcXIyR0VDcmdFV2sxQVNzOFRrZldvQ2ZaWU5CcXVrTjFrLTJkX3dkRFZNLVYzRDIta3Ric3B1dklHNXdxeWVsakt1OTNDWUVwM0Jsa0kyNmtwbTZjcF9QVVE?oc=5",
-   "source": "اليوم السابع",
-   "sourceUrl": "https://www.youm7.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-04T07:00:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "3b88827ac4c7",
    "title": "النائب العام: السعودية تعزز حماية القاصرين من مخاطر الجرائم الإلكترونية",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DNFJGaGxzTGczUV9hTHBDcXA2eEJtY1BMaDF6eWVHVU5TTmpEbGtKQkJMamFNa0o0R0ZKNk4zcXZrSjdKSVhzbk4wVW1jSEhjQ2fSAVRBVV95cUxNRHcyVmROVjFDZURaQlN1QXdtOFFoYlozRW9nYldrWWhqWHE1Skd4MUtlTDBjWFFlVTk2UWxVMFJwdF91RUFfRy00bWJVRzRranZuRkQ?oc=5",
@@ -927,18 +927,6 @@
    "summary": ""
   },
   {
-   "id": "479556207797",
-   "title": "النائب العام الإماراتي: التخطيط والشروع في تنفيذ عمل إرهابي وراء واقعة رحلة فلاي دبي",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42R1p1NUd1aEFYbU5PV3lGdjJrV0EtREhfbmFseUJlVEdSaDk3Qk9jamtfdndZSkliMWlmdHdqLUZSZ3BpV1NoYkw3MXlFWW1kUzlj?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-03T07:00:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "18beecf0e124",
    "title": "مستشار عدلي بريطاني يطّلع على تجربة النيابة العامة وممارساتها المؤسسية",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBoYWgtdERjNGFEaDFQMlhzbXNvQ1M1WTdPbW5aVktLMXBoVWE2OVlVcmgyeWNJaDJBNHNEc1hIQU1sZTNla2hr?oc=5",
@@ -948,18 +936,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-03T04:55:11.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1b85471f336c",
-   "title": "وزارة العمل تحذر من صفحة وهمية تنتحل صفة الوزير محمد حيدر",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qdjJRcFp4eHVHZ0pteVpBYmVGdHpzWi1fLWNUbVVXNDdiOFA1a184MlpHbi03bHU5X1NqYXdrZGZaNGo1cG1NS1RvRmh5NFFETHg0?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-02T18:29:45.000Z",
    "summary": ""
   },
   {
