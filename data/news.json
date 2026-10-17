@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T10:39:39.932Z",
+ "updated": "2026-10-17T15:30:46.758Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -21,47 +21,35 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 62,
-   "kept": 53
+   "fetched": 64,
+   "kept": 54
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 100,
-   "kept": 15
+   "kept": 8
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 62
+   "kept": 63
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 66,
-   "kept": 14
+   "fetched": 65,
+   "kept": 15
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 69,
+   "fetched": 71,
    "kept": 18
   }
  ],
  "items": [
-  {
-   "id": "a9a2dca71ef3",
-   "title": "R160m in counterfeit goods seized in Joburg CBD crackdown",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOakR2YkpkbjdKcnRna0Joak1yQ0pfc0NnSVlCVDJqZDFXdllIZThDQXdKQmk2dHR1dXM4VFlQeDBFeU1GQjdoYU9GNTA0amlqUzZTZVBldWZ0RGtUcC13enBtS3BNV1Bpdllqamg1eUlNZ3p4ZXIzamNCTXN1UVEwT18wazdwZ01iZHQ4Njl3MFd2bXpLZmJR?oc=5",
-   "source": "SABC News",
-   "sourceUrl": "https://www.sabcnews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-17T04:40:47.000Z",
-   "summary": ""
-  },
   {
    "id": "0d1a6274a352",
    "title": "IndulgeRx Clears Historic Global Patent Milestone: WIPO Publishes Three 'Straight A' IRX FOODSCORE® Patents",
@@ -72,18 +60,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-17T01:05:25.000Z",
-   "summary": ""
-  },
-  {
-   "id": "9f76cb063a85",
-   "title": "Crocs sues Five Below over patent, copyright infringement",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ3VYMGdxT0t6eGx5RnNzRk9fZjV0UGRnUlJPZlNDaWdTRjZ4YWFJdms5bFlvX2laUGE5WG5peWlsUUVyd0VCX0ZHWktucjZILVlhc21tcUw1S0ItNEUyLUktSEhYVDV5ZkNnVGtwMWFRWFhNSjc4TmxITTd3WGRmQ1Nyd0JRYkY0Wk5HLU5UU1pDUHVUZnVlYw?oc=5",
-   "source": "WKRN News 2",
-   "sourceUrl": "https://www.wkrn.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-16T21:54:39.000Z",
    "summary": ""
   },
   {
@@ -120,30 +96,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-16T14:16:58.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ec0f869721a6",
-   "title": "£6,000 worth of counterfeit goods and stolen laptops recovered during operation",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOGh2NTdlb2pMTC1OQTF4ZzBQTllZeE9Sd3dCdGs0T3N1WU1zeGxzMlJKWkFhMGdQWENzYS0wQUZWT3A5X3g2STUwMm1sTng4WmtTWVdsRzc3Z0lMaDhUcHUtODBUYldEcnZ4TkxzM1BvU0tkQ2tUSHpzN05adU1kNnNSTk9aYlVGTGxobm9JMFhpYkFmSzktVVNRLWdvNHhFNVJVSVZuYUVldE5CQWZ6bUUtcmFvSDZJVk82MFpNTVNmOWlEcHBzMFJSQTc4TkZIclV0RHFB?oc=5",
-   "source": "Tower Hamlets Council",
-   "sourceUrl": "https://www.towerhamlets.gov.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-16T12:24:59.000Z",
-   "summary": ""
-  },
-  {
-   "id": "e4d0d4375c28",
-   "title": "Kenya calls for coordinated action against counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZTZuR1RDb0REUU1CbEc1d0RrUWJBb2ZQellzN3QwZ2RJa1JGMjRvaVhHc0Jha0Rvb3B3NWI4cmsySjJUaThaMTg5N2hROW5Nd2xINVVCS21MdXdSTW5lY3RjdHJQUS0xcHlMZzB0LUUtOFRRQmV2dkRWMFVQdEpLSHp1MnQzSm45d28wMnhsNzdUb3lUZDRndThMcjR1dw?oc=5",
-   "source": "People Daily",
-   "sourceUrl": "https://peopledaily.digital",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-16T11:57:56.000Z",
    "summary": ""
   },
   {
@@ -219,6 +171,30 @@
    "summary": ""
   },
   {
+   "id": "fbc6a31669f9",
+   "title": "وزارة العمل تعلن عن 36 فرصة عمل فى صناعة المواسير الصلب ببنى سويف",
+   "url": "https://news.google.com/rss/articles/CBMimgNBVV95cUxPc2p0dHB5UFRDWnJXX1QwRkp1TkxYQkxHOXFuU3ZTdmxvQ2hVNHptb2lra1lhY0tUajVnTWxWQWpET1dRWEszYWxDNC0xUjkxOE9GTE1TTzVhUnhmQnpSNFR2aXBPSjJKYm1rSzRXNlNMV0poX3NtN1p3ZmRLYklhU3FxREFzbWhLM0NsRW1zU01oRm9QYkVJRHh4WHpxbFVMQ2NlNFNaOU1wNjR1WkZwUllkX0Z0X0lObE1BMkZFdkpfMHNLQ0JTYmVIR1BSQnpiWjI3QTRMaDFKNHhGVnVwNk1lN1U0RWsyb0RmTGp6aXFCYW5qU3ZYOHNITmR2anFOamVRalNJeW9EOVpiLVM1d1NaUU05MHR1UEpsY3N3NU1XZE1BZ2RNTE5Ja1lCNk11azYwNDRWZWtFMzVQMXJ1bkNDQ2lNNDRoRHpPQXdiTFJIU1B3eEhTaTNDaFpKRkszbE53YlVlVGlvS05WY2JHUnVXQ2RqZUY2QTFwT0U2cjAxclJHank4bXJHQjNRUmMzbkdjbGdNVGZ2Z9IBlANBVV95cUxNSHIyRkFucFp1QkZlcmxXZ0JNN25oS24wRnM1QU9BN0VteTAydzQ2MlFmNUlId0tOQld0bW05c2p4N2pOeHZGYkswT2tpVEs3ejc5bnhjSjZZWDZjaTZPMWdkckNhT1lSMVkwTGttbHplcDgtNzJBN29tdTFSVVVoQW84dlNnRTRGaXhfOU1UUVk3dFdTS3kxY3FURGZWZGc5c1BQc3dES3pXcmFmb2wxdER4YUNLd1pkaEY2RThJbElWN2lkUnp3eGhXVTFlbEZqd2twUGhCN09nQXZ4V0dKZ2RRQlVURFBqZGhnanFOZnBHTXA0bEdRdG1USUJBdEc3aEx5VFRoUUlac19TQkpLdXdLYkhxMkplMFZ5S1hRWkRfa1o5QVVDaDFocmZ4TGItVEVhai1meG9HMTRqc1lrNVAtbHNEOUt3VkQ5djVkY1AtYUstT05UV2xhSGlJVXFzVC1xTVUwa0p2ZWpBX21sZHpVRVM5dEhva01TNmYxQUFJT2tZSlktTkwweFJhc1dpT2pHeA?oc=5",
+   "source": "اليوم السابع",
+   "sourceUrl": "https://www.youm7.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-16T02:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9f76cb063a85",
+   "title": "Crocs sues Five Below over patent, copyright infringement",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ3VYMGdxT0t6eGx5RnNzRk9fZjV0UGRnUlJPZlNDaWdTRjZ4YWFJdms5bFlvX2laUGE5WG5peWlsUUVyd0VCX0ZHWktucjZILVlhc21tcUw1S0ItNEUyLUktSEhYVDV5ZkNnVGtwMWFRWFhNSjc4TmxITTd3WGRmQ1Nyd0JRYkY0Wk5HLU5UU1pDUHVUZnVlYw?oc=5",
+   "source": "WKRN News 2",
+   "sourceUrl": "https://www.wkrn.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-16T00:25:50.000Z",
+   "summary": ""
+  },
+  {
    "id": "b7ca98eb409b",
    "title": "Crocs sues Five Below for alleged patent, trademark infringement",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQXdXSTE1RVBCc3JKOFZEVEZkalNWYXRZWWdBMDV3cVRzQUZrT2pocGtISEgxZzlabTF0RHRna0J4djdVN3JsRUlrVzcyRXRDT3hDTTVWanR3ejNLS2VIS2hfQktZbXZzMnB2Vk9mMUJGQ3poQnRiRUptSHJRZ0ZBZjYyb1RuVkd4Z3JmdXhLWDhsNXl2OXRR0gGcAUFVX3lxTE1KdGJCS0xobnB0Mll6SkRHN3h3WGh4TDVvWXE1NG5TMlBjSWt5SkVjbTZLeGhkYV9RcEFGeXhhUlJiM3YwR2R1dHczNVIwN0dNazNEMnc5VldPUlNYWlNDMHJOc2U0ajIxWDczbWR4NjNZZlhRdmtXX2t1U3lGMnd3SjN4LUVsbEdHRTU2RTBCcWpkX1NrWGdFRlFNNQ?oc=5",
@@ -252,6 +228,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-15T23:03:16.000Z",
+   "summary": ""
+  },
+  {
+   "id": "75781e52f156",
+   "title": "«الموارد البشرية»: توطين مهن التسويق والمهن الإدارية المساندة.. وتوفير 12 ألف وظيفة",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hTGNnUmVWNW5MZDRzZG96TnJDS2lIZExFb2Q5dGZsY0NWVUlZN1lFZnFsb0VwZlRiSnpibm9heVhhdTViRGVuSTJvSGJtZDV1NktZNNIBVEFVX3lxTE8zUHZjNFJfSFZhaDE0WHNQQ09GdzJ0Z2x6aXUtT245aWZ0T0RhVE0zS0xzTzYxQzdvdnJhQTl2LUxmTWFJWDhmSU1ScHItck5oZ3ZIMg?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-15T21:16:54.000Z",
    "summary": ""
   },
   {
@@ -408,6 +396,42 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-15T07:28:55.000Z",
+   "summary": ""
+  },
+  {
+   "id": "51041beb85a2",
+   "title": "Comprehensive Guide to Large Language Model Training Data Compliance: Copyright, Personal Information & Trade Secrets Risks and Practical Implementation Paths",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QY3ktUUh5aXo4UkExWHBMYVpaRkhHeG55dlZWbG9uTnB5SXhBUmo2UkhCWjNGRmlZd29RRzRmdUVrUzRXVkJYQ0ZMVTZRbjNPLVk4?oc=5",
+   "source": "36Kr",
+   "sourceUrl": "https://eu.36kr.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-15T06:42:09.000Z",
+   "summary": ""
+  },
+  {
+   "id": "bac2491bada5",
+   "title": "Live, official, royaldutchshellplc.com website domain name as authorised by WIPO",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOXzl1RnZaQ0pJRXEtUVNmRnNyM1cySUpBV0hERWs1ZVM1V0JvUGdJZ2dub3Fnbmx3dS0xN3RFTWZwWFkyZXRJSzZfZWRlYkdfd0VLTFNIZWFZX0IzLUFOcTBpR1EzOU5lQzJWWEswTTBzZmQtZWVzcFRrd3RfRE5rNm0zd2RfWnR3LWNKRkp6SUh4OE1RRkx6TnY0bnk3Vks1NmlNMnYxSjhiZ2E0QVNKd1owQUlUN1VUellicHdB?oc=5",
+   "source": "Royal Dutch Shell Plc .com",
+   "sourceUrl": "https://royaldutchshellplc.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T22:01:50.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9d90c5f263ab",
+   "title": "Call to prevent counterfeit goods",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkZCMG5oZHA2NUg1bVZNbmQtTkxHQUIzWWFiaHQxSnh3MmJRN0NxLVB0QnR4RHJkWUdSZHptX1U2djV1Znc4SjJ5NnczRzQ0elUzZ1FHVzlNSUctS21nVnB5ZG1SUEIweTRtTWFTVkJKb1ozaGVRM1JBT0JNVlJON0VCZHM?oc=5",
+   "source": "New Age BD",
+   "sourceUrl": "https://www.newagebd.net",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T18:44:00.000Z",
    "summary": ""
   },
   {
@@ -591,18 +615,6 @@
    "summary": ""
   },
   {
-   "id": "ff72f19f624d",
-   "title": "إلغاء رصيد الإجازات السنوية في نظام العمل السعودي",
-   "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxNODVPYUt3SUNDQWtGYnhJMXVjcnBfRDFnNnhfQmZobEpXVTRFQ0Z0U2JrNnZDT3BzSlp3NXZvZU4xTDlKXzBjVGFrekV3c3lZUEc0MHdKaFc1bVE5c2pOS1lzUHpueUVNcnRMOWJVdnVaNlg4dFd6cUQ0alZ3N2xnV0VTdTNnaV9lNWpXMktkdHNpZlZjVy1KYkJfNWYxRDhKdHk0WHZFcWQyZ3VQM1NWclpkNlc4U2dBeGJpQjdnRkJ4RTktWGlBbFhDLW9PcXhBUkd0OWpSdG1xQkNIdmd1RzRfNWFsQnpWVVdiRm9PT2gxRE9PMEVrSFhCU1RFUGJmaWd4Vjl4RVp2Z3ZjbERjWXdIYmN5WHhQdDRBV0h5UDk5c2tYemFWOE1DRnlPZE1GTzBQU1VxQmw5Z3pQNUVLT0psWlEyeVdoNjZCcVJjM1cyem1wWTk2WFdhZzJpWWdhSVRBM3VfSWxVN3BEMDhVLVRLWTFKSVN0SGYzNFMyanZHdFo1RnpkY2hiZzZtRUhLV3fSAZcDQVVfeXFMT2RlSVhKRFNnVEtZa05hVXRMOTB2YU1xamR1Y3dqN1BPUktMSnBNSDl4M2s1RllZNnIySFZJdW5hNEVuVlNuRExIN1huQVNFbmJxXzFLZmxlSTFtakhpbkhGak5OazRvN0Zvc3E1WVQ3OVZnZGtQN1RxTEZVSEc4d2NDdTVGT29tclBFWm9ZMGNxTFdpZHlaa2hfbU41djEtY2xRRTdjdktESXZGOWxZMHRuUzJKNDdnMUo2Y1ZxaU5iMEhSbkN1TjE1WDJNTWJUMW4wd0hKT3BtU0huVzB0QUZXbFVlWUpWXy1RRmR0b3NfRTBvaThFVWIzWWFGVnJUZ01mbXp5MXByc19kU05yLUcxcm1HbXpKOE1falpYNFVpVU10dVU3M1c0RjhJa1VLWERoSFBBcVc1TldESEg2QlBPYTdjRDRWSTdmX0h1WnpIcFBib1dXRHA1QzcwdTBzdFRhNWM4S1pVbklhZWo3WGFvWFZEbTkzbmZTSFk1Y0M3TTFYQUhldmFSVEgtQng1b2NzdDFWb2M?oc=5",
-   "source": "خليج نيوز",
-   "sourceUrl": "https://www.5lejnews.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-10T19:46:08.000Z",
-   "summary": ""
-  },
-  {
    "id": "65bad5f7a698",
    "title": "\"أخلاقيات البحث العلمي والملكية الفكرية\"..في دورة تدربية لـ\"جامعة حائل\"",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NWlNRVEo5SzZiSlFyM2FHRXBWRXZ3ZzhUUzAtMlcwbFNVSlc3T0lFVzQtcjNzOWtyZlVNZGlrUGRoTkxYWlVMSUhjRUI2QQ?oc=5",
@@ -759,11 +771,11 @@
    "summary": ""
   },
   {
-   "id": "f2d8aecd14b1",
-   "title": "وزارة العمل تعلن عن وظائف جديدة بقطاع تصنيع الأدوات برواتب تصل لـ15 ألف جنيه",
-   "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxOVFFnWFc4WTRzN3VLc2x1UU1CR2FPU0FPcXlhencydmlObmtNV0pYN0ViZkktZ01wUkVnMVRNU2lXU05scjRMbFJNUUtNcDJNbUhvbUpnT2trZlk4OG41ZG1VRmhPbjc0cDlNa3ZLbUhNNzBCYVplaDFrZzlocmF2RWpYdW8zTVVNLUk0UkxMVjVkZmhoenlVT3dZVzBUT3JudWpsYkhZRDJxRExJa21ReTRYZGxUNlRabXdLemNMREFUeGNaV1dlOG1KcjhEczRyWGFNTHZWcWVmQVhDZjFBdnM0VEM5aV9ZWVVDTFFaOTU2RnFRVjJuSlBWaEZhbzFZWjFPOVpJWWk0aGVsLTd1SVF5QmZSQXNZcWIxaEtxbzdlb3ZBdzllOXlsX0hTOThlSC1GSW5SNlhqU21XV0lYRTZ5U2FxUGR5bVM5dGRCb2g2YlpLb0dzMnVjblh1YWdSSHBQTGpsdWVxX3cxb0VfN3dONjZwQTRqYWR0UGhjYkxTdTlzS2hOZE9qeXJTMkxsYWlnX3pxTUd4NjM4UnYwY29heldYNDhCNnpCVmZScF9zZEZWRzJYd2xtQXIxZjlzRVFzRjJtcTRvbzJKYldsck4yVl95Vkp3UnJSd01nUXpMTzJ6Rlp5bi02ci1DQdIB6ANBVV95cUxQN25ZZ08xM3dGRXRTdEFieVhpcE5YRUJlUXlXTFZZaE0yZ21lUEZWLTVfZmhLTmhuQl9PeUJGendSaVAzOXlXZ2J2alQybC1HUTF5MThhUUdLM24yRWNIbnpOa2hpYXNPeUNrWVFLS191T2hwX0psUUlzcVloZHlJZzdTSWFUVkQ5elE2UEpTY21ZcTg3TFNkeVl4VWgzUkh3RnQzUW5QS25kZ0pWM0pEWXVnLVVIcmdkdFB1TS0xLXFUMGwzNkRxbThTUk5FUEhacDNuTzVyeC1qM0o1YWVIZkZJSnUtN0JFU3k4UHBOdjA3blRkQmsyYXpJNWRvU2lNVGdIeFVpd0w2NGllamdkWmF3cXFLTDVwSVRMTG9vdXZtLXlmVXZ0STUxczB2eEdqZDlPWEJObnA2RTlQV3kwNEVhZ3k4b2h1WkxLY2VVZGdmOUFrQ0hWNzM0N3hfY0x4UmJEbDBLNGZrMFVVWS00QmZ5Q1pmblR2ZGJGQXQ1Y0hwdy10ZVV0V0hpVE15RnpVQ0ZJZkFmWVlEcElkN2E1Z19VT3Q5emxsOUtUNVV2WkZYTWVQQUFyYU5YUl9VOTRGd040MDNnMEZLdWVGbXJnRkoyQ182VC1BeU5JR0YzNmItekswbTB2OQ?oc=5",
-   "source": "اليوم السابع",
-   "sourceUrl": "https://www.youm7.com",
+   "id": "0a12eca76828",
+   "title": "توثيق عقد العمل في منصة قوى: هل يحمي حقوق العامل؟",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRlp0MG5FZGwxb1RMRkdTWGZLdjhucktXQXBPSmtMOTd2MkNoRXIzSF9kRUQzazR6ZFpEMjdHTGNvbDNJOWVKUWNrLTdDRGZLV0w2RHQ0RUNXQjhTYnVMWmZYaHBuVzNWZE1CemxxdV9Yc1prZEM3MkRSUENtTmdwaklFYURrOEJLRldLYmdWWlcwN1pTVF95bU1hbEtQM1YtSzNEVUtJelRoUzk3WWhjUC1lTWJ2QQ?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
@@ -827,7 +839,7 @@
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-04T07:00:00.000Z",
+   "date": "2026-10-04T06:49:00.000Z",
    "summary": ""
   },
   {
