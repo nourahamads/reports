@@ -6,7 +6,7 @@ async function collectProducts(BRANDS,opts){
  const norm=s=>lat(s).replace(/[\u064B-\u065F\u0640]/g,"").replace(/[أإآ]/g,"ا").replace(/ة/g,"ه").replace(/ى/g,"ي").toLowerCase();
  const abs=u=>{try{return u?new URL(u,location.href).href:""}catch(e){return ""}};
  const AL="(?<![\\u0600-\\u06FF])",AR_="(?![\\u0600-\\u06FF])";
- const CUR={SAR:new RegExp("(\\bSAR\\b|\\bSR\\b|"+AL+"ر\\.?\\s?س\\.?"+AR_+"|ريال|﷼)","i"),USD:/(\bUSD\b|\$|دولار)/i,AED:new RegExp("(\\bAED\\b|درهم|"+AL+"د\\.?\\s?إ\\.?"+AR_+")","i"),EUR:/(\bEUR\b|€|يورو)/i,GBP:/(\bGBP\b|£)/i,KWD:/(\bKWD\b|دينار)/i,EGP:new RegExp("(\\bEGP\\b|"+AL+"ج\\.?\\s?م\\.?"+AR_+")","i")};
+ const CUR={SAR:new RegExp("(\\bSAR\\b|\\bSR\\b|\u20C1|"+AL+"ر\\.?\\s?س\\.?"+AR_+"|ريال|﷼)","i"),USD:/(\bUSD\b|\$|دولار)/i,AED:new RegExp("(\\bAED\\b|درهم|"+AL+"د\\.?\\s?إ\\.?"+AR_+")","i"),EUR:/(\bEUR\b|€|يورو)/i,GBP:/(\bGBP\b|£)/i,KWD:/(\bKWD\b|دينار)/i,EGP:new RegExp("(\\bEGP\\b|"+AL+"ج\\.?\\s?م\\.?"+AR_+")","i")};
  const curOf=t=>{for(const k in CUR)if(CUR[k].test(t))return k;return ""};
  const parsePrice=t=>{
   t=lat(t);const m=t.match(/\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:[.,]\d+)?/);if(!m)return null;
@@ -14,6 +14,7 @@ async function collectProducts(BRANDS,opts){
   const v=parseFloat(n);return isFinite(v)&&v>0?{p:v,c:curOf(t)}:null;
  };
  const hasPrice=t=>{t=lat(t);return t.length<=48&&/\d/.test(t)&&!!curOf(t)};
+ const numOnly=e=>/^\s*\d[\d,.\s]*$/.test(lat(e.textContent))&&!!e.closest("[class*=price i],[class*=Price],[class*=amount i],[itemprop=price]")&&!!e.querySelector("svg,img,i")||/^\s*\d[\d,.\s]*$/.test(lat(e.textContent))&&!!e.parentElement&&!!e.parentElement.querySelector(":scope>svg,:scope>img,:scope>i,:scope>[class*=currency i],:scope>[class*=riyal i],:scope>[class*=sar i]");
  const esc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
  const BR=(BRANDS||[]).map(b=>({n:b.name,cs:!!b.cs,a:[b.name].concat(b.aliases||[]).map(a=>({raw:a,re:b.cs?new RegExp("(^|[^\\p{L}\\p{N}])"+esc(a)+"($|[^\\p{L}\\p{N}])","u"):null,n:" "+norm(a).replace(/[^\p{L}\p{N}&']+/gu," ").trim()+" "}))}));
  const matchBrand=text=>{
@@ -51,7 +52,7 @@ async function collectProducts(BRANDS,opts){
  D.querySelectorAll('script[type="application/ld+json"]').forEach(s=>{try{walk(JSON.parse(s.textContent),0)}catch(e){}});
  /* 2) بطاقات المنتجات في الصفحة: حاويات فيها صورة وسعر */
  const all=[...D.querySelectorAll("body *")].filter(e=>!/^(SCRIPT|STYLE|NOSCRIPT|IFRAME|SVG|PATH|HEAD)$/i.test(e.tagName));
- const priceEls=all.filter(e=>{const t=e.textContent;if(!t||t.length>60||!hasPrice(t))return false;for(const c of e.children)if(hasPrice(c.textContent))return false;return true});
+ const priceEls=all.filter(e=>{const t=e.textContent;if(!t||t.length>60)return false;if(!hasPrice(t)&&!(![...e.children].some(c=>/\d/.test(c.textContent))&&numOnly(e)))return false;for(const c of e.children)if(hasPrice(c.textContent))return false;return true});
  const hasImg=c=>c.querySelector("img,picture,[style*='background-image']");
  let cards=[];
  for(const pe of priceEls){
