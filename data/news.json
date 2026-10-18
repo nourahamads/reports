@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T04:28:23.635Z",
+ "updated": "2026-10-18T08:24:10.742Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,7 +9,7 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 61,
+   "fetched": 62,
    "kept": 7
   },
   {
@@ -22,34 +22,46 @@
    "id": "ip-global-enf",
    "ok": true,
    "fetched": 64,
-   "kept": 53
+   "kept": 55
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 100,
-   "kept": 9
+   "kept": 15
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 63
+   "kept": 64
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 64,
-   "kept": 16
+   "fetched": 65,
+   "kept": 14
   },
   {
    "id": "prosecution-local",
    "ok": true,
    "fetched": 62,
-   "kept": 18
+   "kept": 16
   }
  ],
  "items": [
+  {
+   "id": "68b103de9354",
+   "title": "Massive police operation seizes over R160 million in counterfeit goods in Johannesburg",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRWUxWll4YjlNMUg3ZF9wWXlhVU1jMDRveFVoMTQ3bjB5Y0RHeXFFUXZ5MDdHODhiQ0dIU2pyTTR0NGFrVkxXbjE3d2xmQkpOa2JJY05oRzN0Y3dmUWlwUmJMblRPTGxGZlhLeDVOWFJFRjRfdEJPOXhaSkVLX1BjSENSRkhYWGdBUW9Fa1NqalF2WDIwY2JXbnFvNmUzSUs3Y2s0MkFJS1RzVmdkV0lFYlVWaG01cnBuYzJfSUloYk1jSnhmVnM0YVRXVFJmSWpkcmhLQWdB?oc=5",
+   "source": "IOL",
+   "sourceUrl": "https://iol.co.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-18T04:01:46.000Z",
+   "summary": ""
+  },
   {
    "id": "7a210110652d",
    "title": "There's a crackdown on sports piracy - but is it already out of control?",
@@ -144,6 +156,42 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-16T14:16:58.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ec0f869721a6",
+   "title": "£6,000 worth of counterfeit goods and stolen laptops recovered during operation",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOGh2NTdlb2pMTC1OQTF4ZzBQTllZeE9Sd3dCdGs0T3N1WU1zeGxzMlJKWkFhMGdQWENzYS0wQUZWT3A5X3g2STUwMm1sTng4WmtTWVdsRzc3Z0lMaDhUcHUtODBUYldEcnZ4TkxzM1BvU0tkQ2tUSHpzN05adU1kNnNSTk9aYlVGTGxobm9JMFhpYkFmSzktVVNRLWdvNHhFNVJVSVZuYUVldE5CQWZ6bUUtcmFvSDZJVk82MFpNTVNmOWlEcHBzMFJSQTc4TkZIclV0RHFB?oc=5",
+   "source": "Tower Hamlets Council",
+   "sourceUrl": "https://www.towerhamlets.gov.uk",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-16T12:24:59.000Z",
+   "summary": ""
+  },
+  {
+   "id": "e4d0d4375c28",
+   "title": "Kenya calls for coordinated action against counterfeit goods",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZTZuR1RDb0REUU1CbEc1d0RrUWJBb2ZQellzN3QwZ2RJa1JGMjRvaVhHc0Jha0Rvb3B3NWI4cmsySjJUaThaMTg5N2hROW5Nd2xINVVCS21MdXdSTW5lY3RjdHJQUS0xcHlMZzB0LUUtOFRRQmV2dkRWMFVQdEpLSHp1MnQzSm45d28wMnhsNzdUb3lUZDRndThMcjR1dw?oc=5",
+   "source": "People Daily",
+   "sourceUrl": "https://peopledaily.digital",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-16T11:57:56.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f4c244d5644e",
+   "title": "وزارة العمل تعلن عن وظائف لأبناء قنا بمشروع الضبعة برواتب تصل إلى 40 ألف جنيه",
+   "url": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxQREFjVFQ3MGtnSTR1MkdKNktSalBRbmd5aXlyNDB0WDdjZFdObDY1blBVZGFjY2t0WXZfMFZENnBwUjBhRTR1SEhFOFdhelRqTW9DbElHblN0SEZXeHRhd0ltTkE4SFlzV0EzZWQ0WVducmVPU0RfQ0djeERkVkpubThMR1FiUmlUS1VkWmd0YzI1YVlYTzJidmVUdXdKMnlSZXRIREdJLWx2X2pJekE4bngwMzF0eGFqYmRxTlhJOTAxZElGSnhKQTQ3SS1Vc2xna2ZtdkZBVFVoeURtMlRKMm5fWWlZOE1iZDc4Skw2SFBwX0dlTkh2cjhKZnBEYXNMOEhDNzJxU0pzWEhnWGliNWJ3eXpFX09GemcwczFJZ1laZzA0b3NnYVY3UnZZMWdJdVFiNi1QWUR5cDhEZ1VkYW5GTk9reF9pWnl4UFlUSTFEVXptME9QWmMtUzlFMTd6Qmc5NUNwbEhPWmh2NEhrNlUxTUJublVOR1BBdTBtU1RfTUpvU2VkamtUaXJoblo4c016Q1I1TmdaWk5vcy1DdzBETzhib0gtSzJWbm9MN2hTaWQ0N3pmZlVWakl6QWNpazNPUzlFZEpqREEycFZOeldBNlJmYmM1RG9DanNtVGJ3VnVGTmRr0gHiA0FVX3lxTE92UmJxeDJ2aUVvRFVWU213NXdzQ1M0M2JpVGh3T09VQW9tTU8teEdDalZJcnRja2RvbDNsVVhTY3NNOF9TWENpbWR1V05Ta0FhOEpKQlN0NUZnWkxVMFM4WmFuOFdZXzhSRlQ2RWxWQ0ZEWEJsZ2h1bE52Wi12bWtKUEgxbzFIdGtkY2YtWm9KekRpMFYxYnhoSlBScjRmLWFSZ0w3dzgwVlBxS21LQVlJb3NPalNqQkk2T0xqNDJrMVNwTkprbGRCb29pSTRWRFh6cjVmYzRJdUZ2U1R0RkdkRTdLZHVqc1BXVjZNQlZEWlFmWUJ0czBPQUprd3VkSUR1V1VkdmdNTlJ5YnVNZjIwcTRjTUM5eXZMalVfenR4T091Si00amxIVDhLV2x5WUs4NVdXc2lLTm1ySFFnQTdJdmliTmJkM1V4UVo5RzhONXZtZ0sxOC1XMHdoeEhVbWlzNVBrbnlmQnFWbHprWk9iVjBUZElZaU95S1I1STdXRU40Y05lbG14aEd1NWxVZmhBU2Z1MkZaYnFybGs3bEJtN2Qta1h5MGdGWWN3Tno1Y1ZGSnoxQVlzU2M0c2FEcGxZV2h1RDZFUUx3eWVYaWpoQ1AxU19nX0R5VVZTZTFSNXB3?oc=5",
+   "source": "اليوم السابع",
+   "sourceUrl": "https://www.youm7.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-16T08:01:00.000Z",
    "summary": ""
   },
   {
@@ -327,18 +375,6 @@
    "summary": ""
   },
   {
-   "id": "8315451d627f",
-   "title": "وزارة الموارد البشرية والتنمية الاجتماعية تحصد المركز الأول في جوائز Webex Customer Awards 2026",
-   "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxOUTNwUy0tY0JsRlowYjZ2NTZrTHoyT1d4YUpCaWJiMG5kTVVvdkxQekRVZWQ3YXlzREhpZ01MS0tfY2d3a1hkSWFtZlpJRzRsa1NHcUpKd2dlSnBJYjBIQXhEZDNQbkFNRGotQVloN1piSUxsb1MyV3QyVnJVWWtudjJPRkZyUGhMOUlxZnFrVFNuWmVmYzRMdXZCSV92U21uX0VEV2dPNU9iQkRwcnNLNS12eGw5azhGczF4SEIxRVhIRE9zeUd5bXhoUVJIeWNxdzVKeHJNc041VGNrMkxyejhCS3pMT0dfWUkyMHRUdFpsd3dmbXZLdnFGbF9JZHNmc0Y1VEtNX2drS0N6WFlnT3N1ekV3S2Z0NzQtNW5YTV9yUklidVIyck9ZTnZTNmRqemNOTDd6d05xQk5Md2wwV1Q3a2V5dklOT3hBQ2RWZy10akE1UjQ5c29xLW56eGZsOTJ6SFVIeTFmTXZXam53Ym9xZ19KbmFKQ0dUVTFpSG94VDJ0SXlWSXFPTXBlUGZOV0hRWHJRMzZFSzNiWlpDM2R3eU15SVBLUnR6cy1ZbE1sM015UUltUUVXZ0Myc0FIWmhZenAtOWdGNE5PeS1NYWxhMUtNVnpjcl9EcWVvMTl4MDQzdDhoLURKaWFWUkFCeXBLUXl5cUk2YjRuWVA1SEhmTk5QczFRVVg5UmlMejZBYU1Jdk9pZFQtaDc1Wno5SUNsdXJqUHIycmFPcmZXZzFGMXhKYnlfRWpDbmtRY1FDY3I0Q01ES1FrWTBRaWYtTkM2TVg1UnMzVW5kYjFCWG5haEpyTEJoM1pPeG1hRTBDNWdwYXlEUVlQOFprY0tYT3dvaGJkTkRrUU5Ld2c?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-15T15:02:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "a0c182d6c5ef",
    "title": "NCC Opens Case Against Netnajia, Over Alleged Online Copyright Infringement",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSkZvY2pHRkpmeVJmODFGc1dvcGYwQVJ5S0FPUEtXVmMxRUVSWHg4MDB6TDJwY18wUnlFSXBwa0lwQ1gydXVVZ2tQbHBON0ZnR0RVZG9UTzRhZ2hDUWhjd09UZFFTR3lRakcxMzZIT1pEMVExMnJadm9QLTI2aHByejlPNUJ4aW9EZ09LVFcySEVfdmxjXy0yOE52QktOQ09ZRGZzMg?oc=5",
@@ -396,42 +432,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-15T07:49:56.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f4df04635ce5",
-   "title": "Chargers, jerseys, cigarettes, alcohol among Ksh.62M counterfeit goods nabbed by DCI",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbzNNeEJrZFk4YTAta3Q4TDFnRjNxUS14bGItWEVpUFRkLXU0RFJyWEhONHBKNTg4a1NxMWluLWVaTlRFYWM2cGlVTVM4d25CcFhXS2RjempIN2RGR2dHVGNfZXZ5S1RnZWVmUnhCTEVURFpSbnFXNGUydHhoNzh1V3RkMXRBdnBmcjJyRW85cjFySGlPZG9reTlaSUZRTTdkU2R1aDJqdm9MZEEwTXpGZXlkOUtyY1MxdkdURg?oc=5",
-   "source": "Citizen Digital",
-   "sourceUrl": "https://citizen.digital",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-15T07:28:55.000Z",
-   "summary": ""
-  },
-  {
-   "id": "51041beb85a2",
-   "title": "Comprehensive Guide to Large Language Model Training Data Compliance: Copyright, Personal Information & Trade Secrets Risks and Practical Implementation Paths",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QY3ktUUh5aXo4UkExWHBMYVpaRkhHeG55dlZWbG9uTnB5SXhBUmo2UkhCWjNGRmlZd29RRzRmdUVrUzRXVkJYQ0ZMVTZRbjNPLVk4?oc=5",
-   "source": "36Kr",
-   "sourceUrl": "https://eu.36kr.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-15T06:42:09.000Z",
-   "summary": ""
-  },
-  {
-   "id": "bac2491bada5",
-   "title": "Live, official, royaldutchshellplc.com website domain name as authorised by WIPO",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOXzl1RnZaQ0pJRXEtUVNmRnNyM1cySUpBV0hERWs1ZVM1V0JvUGdJZ2dub3Fnbmx3dS0xN3RFTWZwWFkyZXRJSzZfZWRlYkdfd0VLTFNIZWFZX0IzLUFOcTBpR1EzOU5lQzJWWEswTTBzZmQtZWVzcFRrd3RfRE5rNm0zd2RfWnR3LWNKRkp6SUh4OE1RRkx6TnY0bnk3Vks1NmlNMnYxSjhiZ2E0QVNKd1owQUlUN1VUellicHdB?oc=5",
-   "source": "Royal Dutch Shell Plc .com",
-   "sourceUrl": "https://royaldutchshellplc.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-14T22:01:50.000Z",
    "summary": ""
   },
   {
@@ -516,18 +516,6 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-12T08:11:06.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c9dc8649e8c8",
-   "title": "عبر هذه المنصات.. بدء مهلة شهرين لتصحيح أوضاع العمالة اليمنية المخالفة في السعودية",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aVlpNVW1hVjQxblJiei1ySzFsU0FkcWZiTTFQNmZJaGJQQnZ2d0hSLV9nelpFZ0s5akI5cmZrQ2V0NXhidFpLNg?oc=5",
-   "source": "تهامة برس",
-   "sourceUrl": "https://www.tehamapress.net",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-11T17:18:08.000Z",
    "summary": ""
   },
   {
@@ -783,6 +771,18 @@
    "summary": ""
   },
   {
+   "id": "38dd8117c4da",
+   "title": "النائب العام يُمثِّل المملكة في اجتماعات منظمة «شنغهاي للتعاون»",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DY0F6MnlXTGhhb1hnSW8waFlVMXlYNzFuMC1tZ3h2NVFEcWlvcmJTS0tCZUR3cW9QcEFIMExOY0NCYTJ0cU90a3VsdzE2RXBIcUNqZmJ0SjI0RWdWbnc?oc=5",
+   "source": "جريدة الجزيرة",
+   "sourceUrl": "https://www.al-jazirah.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-05T13:18:19.000Z",
+   "summary": ""
+  },
+  {
    "id": "0a12eca76828",
    "title": "توثيق عقد العمل في منصة قوى: هل يحمي حقوق العامل؟",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRlp0MG5FZGwxb1RMRkdTWGZLdjhucktXQXBPSmtMOTd2MkNoRXIzSF9kRUQzazR6ZFpEMjdHTGNvbDNJOWVKUWNrLTdDRGZLV0w2RHQ0RUNXQjhTYnVMWmZYaHBuVzNWZE1CemxxdV9Yc1prZEM3MkRSUENtTmdwaklFYURrOEJLRldLYmdWWlcwN1pTVF95bU1hbEtQM1YtSzNEVUtJelRoUzk3WWhjUC1lTWJ2QQ?oc=5",
@@ -795,18 +795,6 @@
    "summary": ""
   },
   {
-   "id": "b63d5f11b1a7",
-   "title": "النائب العام يستعرض جهود المملكة لحماية القاصرين من الجرائم الإلكترونية",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4xWWVEMDlWRGVGVDdBRldMY19uY1o4b1RxOFl4bERvQTlyU2J4MlF2Rm1qeTJhYXNWU3REVXFkeHJiQTZHQ1Y0?oc=5",
-   "source": "جريدة الرياض",
-   "sourceUrl": "https://www.alriyadh.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-04T12:19:02.000Z",
-   "summary": ""
-  },
-  {
    "id": "d5e6b544e4eb",
    "title": "ثقافي / \"الملكية الفكرية\" تصدر التقرير الإحصائي لمعلومات الملكية الفكرية للنصف الأول من عام 2026م",
    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBSV3FrZEdhWGFzYUExczVpWFFxSnZaeHY3TlprZUdEU0NudXk5ZlFmTkp6d1ZLMmVrcFVWVDBLLUU4eW1Manc?oc=5",
@@ -816,42 +804,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-04T10:31:53.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f80287265fe2",
-   "title": "أمير جازان يطّلع على تقرير فرع الموارد البشرية لعام 2026",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYcW1FcGhpcVY5dElPZU1ta0tEem9GWmVmR1pSbV84YkNFRS1EeEpkU0tFWldsMzhaMWR6TFV4eDlqWlo2MFdiR2ZjNU9nVXEyMWfSAVRBVV95cUxNam5PRktOejVkekVSb01qNENJRzFHeTZXUWhOM0s2RzVEbzFEVzhKU0JIWWJKNlNrZm9NZ1RnaDdCaG1rbVJHbUxSWERxZmFTdmx4YUM?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-04T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "3b88827ac4c7",
-   "title": "النائب العام: السعودية تعزز حماية القاصرين من مخاطر الجرائم الإلكترونية",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DNFJGaGxzTGczUV9hTHBDcXA2eEJtY1BMaDF6eWVHVU5TTmpEbGtKQkJMamFNa0o0R0ZKNk4zcXZrSjdKSVhzbk4wVW1jSEhjQ2fSAVRBVV95cUxNRHcyVmROVjFDZURaQlN1QXdtOFFoYlozRW9nYldrWWhqWHE1Skd4MUtlTDBjWFFlVTk2UWxVMFJwdF91RUFfRy00bWJVRzRranZuRkQ?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-04T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "2f31bc89af5b",
-   "title": "النائب العام يُمثِّل المملكة في اجتماع النواب العموم لمنظمة شنغهاي",
-   "url": "https://news.google.com/rss/articles/CBMi5gdBVV95cUxPb1pCV1l3bmpHVGEzT2hsRlBSVGFoS25sMS01QW84eGlQTVZib2htYktPZVBscXotbFF2NnZ1eDJDa0NhTllmRHpsN2EwQWh3c3ZNMHpzX3Q5ZXVMb0tDSzZ6bW9DWTdCdVVhejZ2Z1ZYY0VHSGdkMFNvR085U01HNEc1clRkOVpLMXZVS0hXMkxIOTRtczZfQWtsYlhDcGZZX3dhSU80RGpTZXdObFpxZFNQSWRock5sYlowOGs5TEpadnZxVUtTRi0wdlJ4NTNlT2tjb2MyVEpHOG5XUFBzYVFVRHpvWHhqV2d2bm54NHpuTGw2QkFqX0d0b2JtRlRpWEI5S1ByeHdwXy1DUDlZeWU3Zmp5NGx5bWN0WXBLU21yQXVIU01GWFR0RXV4YjRsOXBTdVN1QnRsRzVmOV82YWxMLUR0WE5Ka0ZzeDZyMDJiUWRpX3d0NGdzbEFNSnFyTGFxOW9wT3N3RXR3a0VjWGh3Y3dtUDNrVkdWUW1QTmcxdDk3aVZ4a0ZsUXlwcy0yTkRYd3RDOEdhRENiUU5uNHl2RG4xTkFFU05CRl90dmRPYVJLVVdmMnNidzRVYndrWkVfdWhBbi1RVlF0UDlIVmJYRUNJQm0tRE5jVERtU1FoSm9KcFpRS01DSjdHeUV0YTNUTUFwOFkzZ2prVkR5cTlwTER4NDlaWnpPSmpmWGpBUnNaRklSWE1kSUpHU3BrSk0zYnhyVEpURFlqc2ZKVUZ6UWd0b0g2WXhEY1dud01RcC1MZVg3YnRWZXNNMFlaTDQ1Z1RoTEhYMndVVkpQWTNFS0pTSDk4NFF4QTBmQW9KRWZBczlKVGJFRWcwZ3lWdHlOSEU2R1pwM0RmSWN2MzFIZmJnUE1RSzRYMkZ1UUhaUTh2Z0x5NlpvVHRYMTNGcmpvUUFEVE1lWlhydnVJUDlidWllOHNCSFpLbkk5Y00zblhNZjhyc0F1RXFSMFJxRFJCZC1CVVkzYmZsY3c0d2RVN2tsLUM4QkZUQ3dYWUtMVTJ2ZzlKLXdZSWtjaDBoWHJKWmJzSFlpS1hTWHBKa055Q3VRMEpiSzUxUE90djFQZDFxMWFzcnJORlYwbzkyWkZmWUt0dUhYOXJoTWdSaklnZnJRREdONDVtTHpkbHVaWTRYZUFSTjd0enBiTVE0cUxISmZWNl9QQWlfQUxlcXJzZUlsbFdtLVFtelJjR05OYzIxbFhxYmZpN255QWZtenVodjlQMEJ2X0I1Y1hRbGdZdnRZYy11Y2tRZFREMlJydDl5bFJkVFBJUWs5ejlud3kxTFJXREl0WFJtcHhUUzNoQVhSUQ?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-04T07:00:00.000Z",
    "summary": ""
   },
   {
