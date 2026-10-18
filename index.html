@@ -341,7 +341,7 @@ table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeaf
 <dialog id="prod-dlg">
   <h3 style="margin-top:0">جمع منتجات المتجر</h3>
   <div class="steps">
-    <div><span class="sn">1</span><button class="btn sm" type="button" id="p-copy">نسخ السكربت</button><a class="btn sm" id="p-bm" href="#" draggable="true" title="اسحبها إلى شريط الإشارات">إشارة مرجعية ⇢ اسحب</a></div>
+    <div><span class="sn">1</span><button class="btn sm" type="button" id="p-copy">نسخ السكربت</button><a class="btn sm" id="p-bm" href="#" draggable="true" title="اسحبها إلى شريط الإشارات">إشارة مرجعية ⇢ اسحب</a><a class="btn sm" href="ipw-extension.zip" download>تحميل إضافة المتصفح</a></div>
     <div><span class="sn">2</span><a class="btn sm" id="p-open" target="_blank" rel="noopener noreferrer">فتح المتجر ↗</a><span class="meta">في صفحة المتجر: اضغط F12 ثم تبويب Console، الصق السكربت واضغط Enter (إن منع المتصفح اللصق اكتب allow pasting ثم Enter ثم أعد اللصق)</span></div>
     <textarea id="p-script" rows="3" dir="ltr" readonly hidden style="width:100%;font-family:ui-monospace,monospace;font-size:.75rem;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px" aria-label="السكربت"></textarea>
     <div class="s3"><span class="sn">3</span><textarea id="p-json" rows="3" dir="ltr" placeholder="ستظهر لوحة خضراء في صفحة المتجر: اضغط «نسخ النتيجة» ثم الصق هنا (يبدأ بـ {)"></textarea><input type="file" id="p-file" accept=".json,application/json"><button class="btn primary sm" type="button" id="p-load">تحليل</button></div>
@@ -575,7 +575,7 @@ function loadTimeline(t){
 
 /* ===== جمع منتجات المتجر ===== */
 /* تعمل داخل صفحة المتجر (تُنسخ كنص إلى وحدة التحكم أو إشارة مرجعية). لا ترسل أي بيانات؛ تقرأ الصفحة وتعرض النتيجة للنسخ. */
-async function collectProducts(BRANDS){
+async function collectProducts(BRANDS,opts){
  const D=document,W=window,AR="٠١٢٣٤٥٦٧٨٩",FA="۰۱۲۳۴۵۶۷۸۹";
  const lat=s=>String(s==null?"":s).replace(/[٠-٩]/g,d=>AR.indexOf(d)).replace(/[۰-۹]/g,d=>FA.indexOf(d)).replace(/٬/g,",").replace(/٫/g,".");
  const clean=s=>String(s==null?"":s).replace(/\s+/g," ").trim();
@@ -678,6 +678,7 @@ async function collectProducts(BRANDS){
  }
  const out={v:1,page:location.href,title:D.title,host:location.hostname,at:new Date().toISOString(),items:items};
  W.__products=out;
+ if(opts&&opts.quiet)return out;
  /* لوحة النتيجة */
  const json=JSON.stringify(out),nb=new Set(items.map(x=>x.b).filter(Boolean)).size;
  const box=D.createElement("div");box.setAttribute("dir","rtl");
@@ -779,6 +780,15 @@ function mergeProducts(data){
  for(const it of data.items){if(!it||!it.n)continue;const k=it.u||(it.n+"|"+it.p);if(seen.has(k))continue;seen.add(k);prodData.items.push({n:String(it.n).slice(0,200),p:typeof it.p==="number"?it.p:null,c:String(it.c||""),i:String(it.i||""),u:String(it.u||""),b:String(it.b||""),bs:String(it.bs||"")});add++}
  return add;
 }
+let pendingProducts=null;
+async function ingestProducts(data){
+ try{await getTax();const n=mergeProducts(data);await prodOpen();$("#p-msg").textContent=n?`وصل من الإضافة: ${n} منتج جديد.`:"لا منتجات جديدة."}
+ catch(e){await prodOpen();$("#p-msg").textContent="تعذر استلام النتيجة: "+(e.message||"غير صالحة")}
+}
+window.addEventListener("message",e=>{
+ const m=e.data;if(e.source!==window||e.origin!==location.origin||!m||m.type!=="ipw-products")return;
+ if(document.body.classList.contains("locked"))pendingProducts=m.data;else ingestProducts(m.data);
+});
 async function prodOpen(){
  const url=$("#f-url").value.trim(),sc=await buildCollectorScript();await getTax();
  $("#p-open").href=/^https?:\/\//i.test(url)?url:(url?"https://"+url:"#");$("#p-open").hidden=!url;
@@ -1352,6 +1362,7 @@ async function enterApp(user){
  AUTH.user=user;document.body.classList.remove("locked");$("#auth").hidden=true;
  applyAuthUI();startIdle();
  if(AUTH.mode==="cloud")await cloudStart();else{renderSites();renderReports()}
+ if(pendingProducts){const d=pendingProducts;pendingProducts=null;ingestProducts(d)}
 }
 function doLogout(){
  sessClear();sb.clear();AUTH.user=null;

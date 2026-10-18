@@ -1,0 +1,19 @@
+<!doctype html><html lang="ar" dir="rtl"><meta charset="utf-8"><title>جامع المنتجات</title>
+<style>
+:root{--bg:#fff;--ink:#14213d;--muted:#5b6478;--line:#e2e5ec;--accent:#0f6b5c;--bad:#b42318}
+@media(prefers-color-scheme:dark){:root{--bg:#172036;--ink:#e8ecf5;--muted:#9aa5bd;--line:#26314d;--accent:#2fb59c;--bad:#f97066}}
+body{margin:0;width:320px;padding:14px;font:14px/1.6 system-ui,"Segoe UI",Tahoma,sans-serif;background:var(--bg);color:var(--ink)}
+h1{font-size:15px;margin:0 0 10px}button{font:inherit;cursor:pointer;border-radius:8px;border:1px solid var(--line);background:transparent;color:var(--ink);padding:7px 12px}
+button.p{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:700}button:disabled{opacity:.5;cursor:default}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}.big{font-size:1.5rem;font-weight:800}.m{color:var(--muted);font-size:.85rem}
+#err{color:var(--bad);min-height:1.2em;font-size:.85rem}ul{margin:6px 0;padding-inline-start:18px;max-height:110px;overflow:auto;font-size:.82rem}
+input{width:100%;box-sizing:border-box;direction:ltr;padding:6px;border:1px solid var(--line);border-radius:8px;background:transparent;color:var(--ink);font:inherit;font-size:.8rem}
+</style>
+<h1>جامع منتجات المتاجر</h1>
+<button class="p" id="go" style="width:100%">جمع منتجات هذه الصفحة</button>
+<div id="busy" class="m" role="status"></div><div id="err" role="alert"></div>
+<div class="big" id="n">0</div><div class="m" id="sub">لا منتجات بعد</div>
+<ul id="pages"></ul>
+<div class="row"><button class="p" id="send" disabled>إرسال إلى الأداة</button><button id="copy" disabled>نسخ النتيجة</button><button id="clear" disabled>تفريغ</button></div>
+<details><summary class="m">عنوان الأداة</summary><input id="url" aria-label="عنوان الأداة"></details>
+<script src="popup.js"></script></html>
