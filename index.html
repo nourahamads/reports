@@ -126,7 +126,8 @@ body.locked nav,body.locked main{display:none!important}
 .nrow .d{grid-column:2;grid-row:1;color:var(--muted);font-size:.8rem;white-space:nowrap}
 .nlist .empty{padding:24px}
 @media(max-width:560px){.nrow{grid-template-columns:1fr}.nrow .d{grid-column:1;grid-row:auto}}
-#prod-dlg{max-width:900px;width:calc(100% - 24px)}
+#prod-dlg{max-width:960px;width:calc(100% - 24px)}
+#p-secbody tr.act{background:var(--bg);font-weight:700}
 .steps{display:grid;gap:10px;margin-bottom:12px}.steps>div{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .sn{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-size:.8rem;font-weight:700}
 .steps .s3{align-items:flex-start}.steps textarea{flex:1;min-width:220px;font-family:ui-monospace,monospace;font-size:.8rem;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px}
@@ -323,9 +324,12 @@ body.locked nav,body.locked main{display:none!important}
   </div>
   <div id="p-msg" role="status" class="meta"></div>
   <div id="p-result" hidden>
-    <div class="kpis" id="p-kpis" style="grid-template-columns:repeat(3,1fr)"></div>
+    <div class="kpis" id="p-kpis" style="grid-template-columns:repeat(4,1fr)"></div>
     <div class="actions" style="margin:0 0 10px"><button class="btn primary" type="button" id="p-pdf">تقرير PDF</button><button class="btn" type="button" id="p-xlsx">تصدير Excel</button><button class="btn danger" type="button" id="p-clear">مسح</button></div>
-    <div style="overflow-x:auto"><table id="p-table"><thead><tr><th>العلامة التجارية</th><th>المنتجات</th><th>أقل سعر</th><th>المتوسط</th><th>أعلى سعر</th><th></th></tr></thead><tbody id="p-body"></tbody></table></div>
+    <h4 class="sec-h" style="margin:12px 0 6px">القطاعات الاقتصادية</h4>
+    <div style="overflow-x:auto"><table id="p-sec"><thead><tr><th>القطاع</th><th>المنتجات</th><th>العلامات</th><th>أقل سعر</th><th>المتوسط</th><th>أعلى سعر</th><th></th></tr></thead><tbody id="p-secbody"></tbody></table></div>
+    <h4 class="sec-h" style="margin:14px 0 6px">العلامات التجارية <span id="p-filter" class="meta"></span></h4>
+    <div style="overflow-x:auto"><table id="p-table"><thead><tr><th>العلامة التجارية</th><th>القطاع</th><th>المنتجات</th><th>أقل سعر</th><th>المتوسط</th><th>أعلى سعر</th><th></th></tr></thead><tbody id="p-body"></tbody></table></div>
   </div>
   <div class="actions"><button class="btn" id="p-close" type="button">إغلاق</button></div>
 </dialog>
@@ -600,66 +604,73 @@ async function getBrands(){
 }
 async function buildCollectorScript(){return `(${collectProducts.toString()})(${JSON.stringify(await getBrands())});`}
 
-/* ----- تقرير PDF للعلامات التجارية ----- */
-function brandPagesHtml(an,meta){
- const first=15,next=27,rows=an.rows.slice(),pages=[];
- pages.push(rows.splice(0,first));while(rows.length)pages.push(rows.splice(0,next));
- const lim=pages.length===1?first-7:next-8;if(pages[pages.length-1].length>lim){const last=pages[pages.length-1];pages.push(last.splice(lim))}
- const logo=`<div class="lh"><img class="logo" src="${esc(CFG.reportLogo||"assets/saip-logo.png")}" alt="" onerror="this.parentNode.remove()"></div>`;
- return pages.map((rs,i)=>{
-  const head=i===0?`${logo}<h1>تقرير العلامات التجارية المعروضة</h1><div class="s">تاريخ الرصد: ${fmt(meta.date)}</div>
-   <table><tr><th>المتجر</th><td>${esc(meta.title||meta.host||"")}</td></tr><tr><th>رابط المتجر</th><td dir="ltr" style="text-align:left">${esc(meta.page||"")}</td></tr>
-   <tr><th>عدد المنتجات المرصودة</th><td>${an.products}</td></tr><tr><th>عدد العلامات التجارية</th><td class="res">${an.brands}</td></tr></table>`
-   :`<h1 style="font-size:18px;margin-bottom:14px">تقرير العلامات التجارية المعروضة (تابع)</h1>`;
-  const tbl=`<table class="br"><tr><th>العلامة التجارية</th><th>المنتجات</th><th>أقل سعر</th><th>المتوسط</th><th>أعلى سعر</th></tr>${rs.map(r=>`<tr><td${r.unknown?' style="color:#777"':""}>${esc(r.brand)}</td><td>${r.count}</td><td>${esc(money(r.min,r.cur))}</td><td>${esc(money(r.avg,r.cur))}</td><td>${esc(money(r.max,r.cur))}</td></tr>`).join("")}</table>`;
-  const last=i===pages.length-1,sig=last?`<div class="sig"><div>اسم الفاحص:<i>${esc(meta.inspector||"")}</i></div><div>التوقيع:<i></i></div></div>`:"";
-  return `<div class="pdf" style="height:1122px;min-height:0;overflow:hidden;position:relative">${head}${tbl}${sig}<div class="ft" style="position:absolute;bottom:22px;left:0;right:0;margin:0">صفحة ${i+1} من ${pages.length} · صدر عن منصة التحكم والرصد في الفضاء الرقمي</div></div>`;
- });
+/* ----- القطاعات الاقتصادية ----- */
+let TAX=null,prodSector="الكل";
+const reEsc=t=>t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+function kwRegex(k){
+ const nk=reEsc(nh(k));
+ return /[a-z]/i.test(k)?new RegExp("(?<![\\p{L}\\p{N}])"+nk+"(?:s|es)?(?![\\p{L}\\p{N}])","u"):new RegExp("(?<![\\p{L}\\p{N}])(?:ال|لل|بال|وال|ب|و|ل)?"+nk+"(?![\\p{L}\\p{N}])","u");
 }
-async function makeBrandPdf(){
- if(!prodData)return;const an=prodData.an||analyzeProducts(prodData.items);
- const meta={date:new Date().toISOString(),host:prodData.host,title:prodData.title,page:prodData.page,inspector:(AUTH.user&&AUTH.user.name)||""};
- const htmls=brandPagesHtml(an,meta),root=$("#pdf-root"),W=794,H=1122,S=2,y0=window.scrollY;
- try{
-  const tall=document.createElement("canvas");tall.width=W*S;tall.height=H*S*htmls.length;const g=tall.getContext("2d");
-  for(let i=0;i<htmls.length;i++){
-   root.innerHTML=htmls[i];await inlineImages(root.firstElementChild);
-   g.drawImage(await svgToCanvas(root.firstElementChild,W,H,S),0,i*H*S);
-  }
-  window.scrollTo(0,0);
-  await html2pdf().set({margin:0,filename:`brands-${(prodData.host||"store").replace(/[^\w.-]+/g,"_")}-${meta.date.slice(0,10)}.pdf`,image:{type:"jpeg",quality:.96},jsPDF:{unit:"mm",format:"a4"}}).from(tall,"canvas").save();
- }catch(e){$("#p-msg").textContent="تعذر إنشاء PDF: "+(e.message||e)}
- finally{window.scrollTo(0,y0)}
+async function getTax(){
+ if(TAX)return TAX;
+ const brands=await getBrands();let sec={rules:[],fallback:"غير مصنف"};
+ try{sec=await (await fetch("data/sectors.json?v="+Date.now())).json()}catch{}
+ TAX={rules:(sec.rules||[]).map(r=>({name:r.name,res:r.kw.map(kwRegex)})),fallback:sec.fallback||"غير مصنف",bs:new Map(brands.filter(b=>b.sector).map(b=>[b.name,b.sector]))};
+ return TAX;
 }
-$("#p-pdf").onclick=makeBrandPdf;
+function sectorOf(it){
+ const tx=TAX||{rules:[],fallback:"غير مصنف",bs:new Map()};
+ let path="";try{path=decodeURIComponent(new URL(it.u).pathname).replace(/[-_\/]+/g," ")}catch{}
+ for(const text of [nh(it.n),nh(it.n+" "+path)])for(const r of tx.rules)if(r.res.some(re=>re.test(text)))return r.name;
+ return (it.b&&tx.bs.get(it.b))||tx.fallback;
+}
+const fmtDT=d=>new Date(d).toLocaleString("ar-SA-u-ca-gregory-nu-latn",{dateStyle:"long",timeStyle:"short"});
 
-/* ----- التحليل: العلامات التجارية وأسعارها ----- */
+/* ----- التحليل: العلامات التجارية والقطاعات وأسعارها ----- */
 let prodData=null;
 function analyzeProducts(items){
- const by=new Map();
- for(const it of items){const k=it.b||"غير محدد";const o=by.get(k)||{brand:k,unknown:!it.b,items:[]};o.items.push(it);by.set(k,o)}
- const rows=[...by.values()].map(o=>{
-  const cur={};o.items.forEach(i=>{if(i.p!=null)cur[i.c||""]=(cur[i.c||""]||0)+1});
-  const dom=(Object.entries(cur).sort((a,b)=>b[1]-a[1])[0]||[""])[0];
-  const ps=o.items.filter(i=>i.p!=null&&(i.c||"")===dom).map(i=>i.p);
-  return {brand:o.brand,unknown:o.unknown,count:o.items.length,priced:ps.length,cur:dom,min:ps.length?Math.min(...ps):null,avg:ps.length?ps.reduce((a,b)=>a+b,0)/ps.length:null,max:ps.length?Math.max(...ps):null,items:o.items};
+ const tx=TAX||{fallback:"غير مصنف"};
+ const its=items.map(i=>({...i,sec:sectorOf(i)}));
+ const grp=f=>{const by=new Map();for(const it of its){const k=f(it);(by.get(k)||by.set(k,[]).get(k)).push(it)}return by};
+ const stat=arr=>{const cur={};arr.forEach(i=>{if(i.p!=null)cur[i.c||""]=(cur[i.c||""]||0)+1});const dom=(Object.entries(cur).sort((a,b)=>b[1]-a[1])[0]||[""])[0];
+  const ps=arr.filter(i=>i.p!=null&&(i.c||"")===dom).map(i=>i.p);
+  return {cur:dom,priced:ps.length,min:ps.length?Math.min(...ps):null,avg:ps.length?ps.reduce((a,b)=>a+b,0)/ps.length:null,max:ps.length?Math.max(...ps):null}};
+ const rows=[...grp(i=>i.b||"غير محدد")].map(([brand,arr])=>{
+  const sc={};arr.forEach(i=>sc[i.sec]=(sc[i.sec]||0)+1);
+  return {brand,unknown:!arr[0].b,count:arr.length,sector:Object.entries(sc).sort((a,b)=>b[1]-a[1])[0][0],items:arr,...stat(arr)};
  }).sort((a,b)=>(a.unknown-b.unknown)||b.count-a.count||a.brand.localeCompare(b.brand));
- return {rows,products:items.length,brands:rows.filter(r=>!r.unknown).length};
+ const sectors=[...grp(i=>i.sec)].map(([sector,arr])=>({sector,count:arr.length,brands:new Set(arr.map(i=>i.b).filter(Boolean)).size,...stat(arr)}))
+  .sort((a,b)=>((a.sector===tx.fallback)-(b.sector===tx.fallback))||b.count-a.count);
+ return {rows,sectors,products:items.length,brands:rows.filter(r=>!r.unknown).length};
 }
 const CUR_AR={SAR:"ر.س",USD:"$",AED:"د.إ",EUR:"€",GBP:"£",KWD:"د.ك",EGP:"ج.م"};
 const money=(v,c)=>v==null?"—":v.toLocaleString("en-US",{maximumFractionDigits:2})+(c?" "+(CUR_AR[c]||c):"");
-function renderProd(){
+const prodItems=()=>prodSector==="الكل"?prodData.items:prodData.items.filter(i=>sectorOf(i)===prodSector);
+
+async function renderProd(){
  const box=$("#p-result");if(!prodData||!prodData.items.length){box.hidden=true;return}
- const an=analyzeProducts(prodData.items);prodData.an=an;box.hidden=false;
+ await getTax();
+ const all=analyzeProducts(prodData.items);
+ if(prodSector!=="الكل"&&!all.sectors.some(x=>x.sector===prodSector))prodSector="الكل";
+ const an=prodSector==="الكل"?all:analyzeProducts(prodItems());
+ prodData.an=an;prodData.all=all;box.hidden=false;
  const tile=(l,v)=>{const k=el("div","kpi");k.append(el("div","l",l),el("div","v",String(v)));return k};
- $("#p-kpis").replaceChildren(tile("المنتجات",an.products),tile("العلامات التجارية",an.brands),tile("منتجات بلا علامة",an.rows.filter(r=>r.unknown).reduce((a,r)=>a+r.count,0)));
+ $("#p-kpis").replaceChildren(tile("المنتجات",an.products),tile("العلامات التجارية",an.brands),tile("القطاعات",an.sectors.length),tile("منتجات بلا علامة",an.rows.filter(r=>r.unknown).reduce((a,r)=>a+r.count,0)));
+ $("#p-filter").textContent=prodSector==="الكل"?"":"· القطاع: "+prodSector;
+ // جدول القطاعات (الصف يصفّي)
+ $("#p-secbody").replaceChildren(...all.sectors.map(x=>{
+  const tr=el("tr");if(x.sector===prodSector)tr.className="act";
+  tr.append(el("td",null,x.sector),el("td",null,String(x.count)),el("td",null,String(x.brands)),el("td",null,money(x.min,x.cur)),el("td",null,money(x.avg,x.cur)),el("td",null,money(x.max,x.cur)));
+  const act=el("td"),b=el("button","btn sm",x.sector===prodSector?"عرض الكل":"تصفية");b.type="button";b.onclick=()=>{prodSector=x.sector===prodSector?"الكل":x.sector;renderProd()};act.append(b);tr.append(act);return tr}));
+ // جدول العلامات
  const rows=[];
  for(const r of an.rows){
-  const tr=el("tr"),b=el("td",null,r.brand);if(r.unknown)b.style.color="var(--muted)";tr.append(b,el("td",null,String(r.count)),el("td",null,money(r.min,r.cur)),el("td",null,money(r.avg,r.cur)),el("td",null,money(r.max,r.cur)));
+  const tr=el("tr"),bt=el("td",null,r.brand);if(r.unknown)bt.style.color="var(--muted)";
+  tr.append(bt,el("td",null,r.sector),el("td",null,String(r.count)),el("td",null,money(r.min,r.cur)),el("td",null,money(r.avg,r.cur)),el("td",null,money(r.max,r.cur)));
   const act=el("td"),tg=el("button","btn sm","المنتجات");tg.type="button";act.append(tg);tr.append(act);rows.push(tr);
-  const dr=el("tr");dr.hidden=true;const dc=el("td");dc.colSpan=6;const g=el("div","pgrid");
+  const dr=el("tr");dr.hidden=true;const dc=el("td");dc.colSpan=7;const g=el("div","pgrid");
   for(const it of r.items.slice(0,60)){const c=el("div","pcard");if(it.i){const im=document.createElement("img");im.loading="lazy";im.referrerPolicy="no-referrer";im.alt="";im.src=it.i;im.onerror=()=>im.remove();c.append(im)}
-   const nm=el("div","pn",it.n);nm.title=it.n;c.append(nm,el("div","pp",money(it.p,it.c)));if(it.u&&/^https?:/.test(it.u)){const a=el("a",null,"فتح ↗");a.href=it.u;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}g.append(c)}
+   const nm=el("div","pn",it.n);nm.title=it.n;c.append(nm,el("div","pp",money(it.p,it.c)),el("div","meta",it.sec));if(it.u&&/^https?:/.test(it.u)){const a=el("a",null,"فتح ↗");a.href=it.u;a.target="_blank";a.rel="noopener noreferrer";c.append(a)}g.append(c)}
   dc.append(g);dr.append(dc);rows.push(dr);
   tg.onclick=()=>{dr.hidden=!dr.hidden};
  }
@@ -673,7 +684,7 @@ function mergeProducts(data){
  return add;
 }
 async function prodOpen(){
- const url=$("#f-url").value.trim(),sc=await buildCollectorScript();
+ const url=$("#f-url").value.trim(),sc=await buildCollectorScript();await getTax();
  $("#p-open").href=/^https?:\/\//i.test(url)?url:(url?"https://"+url:"#");$("#p-open").hidden=!url;
  $("#p-bm").href="javascript:"+encodeURIComponent(sc);
  $("#p-copy").onclick=async()=>{try{await navigator.clipboard.writeText(sc);$("#p-msg").textContent="تم نسخ السكربت."}catch{$("#p-msg").textContent="تعذر النسخ التلقائي.";$("#p-json").value=sc}};
@@ -687,17 +698,68 @@ $("#p-load").onclick=async()=>{
  try{
   if(!txt)throw new Error("الصق النتيجة أو اختر ملفاً");
   const n=mergeProducts(JSON.parse(txt));
-  $("#p-msg").textContent=n?`تمت إضافة ${n} منتج.`:"لا منتجات جديدة.";$("#p-json").value="";$("#p-file").value="";renderProd();
+  $("#p-msg").textContent=n?`تمت إضافة ${n} منتج.`:"لا منتجات جديدة.";$("#p-json").value="";$("#p-file").value="";await renderProd();
  }catch(e){$("#p-msg").textContent="تعذر التحليل: "+(e.message||"ملف غير صالح")}
 };
-$("#p-clear").onclick=()=>{prodData=null;$("#p-msg").textContent="";renderProd()};
-$("#p-xlsx").onclick=()=>{
- if(!prodData)return;const an=prodData.an||analyzeProducts(prodData.items);
- const wb=XLSX.utils.book_new();
- XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(an.rows.map(r=>({"العلامة التجارية":r.brand,"عدد المنتجات":r.count,"أقل سعر":r.min,"متوسط السعر":r.avg==null?null:Math.round(r.avg*100)/100,"أعلى سعر":r.max,"العملة":r.cur}))),"العلامات التجارية");
- XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(prodData.items.map(i=>({"العلامة التجارية":i.b||"غير محدد","اسم المنتج":i.n,"السعر":i.p,"العملة":i.c,"رابط المنتج":i.u,"رابط الصورة":i.i}))),"المنتجات");
+$("#p-clear").onclick=()=>{prodData=null;prodSector="الكل";$("#p-msg").textContent="";renderProd()};
+$("#p-xlsx").onclick=async()=>{
+ if(!prodData)return;await getTax();const an=analyzeProducts(prodItems()),all=analyzeProducts(prodData.items);
+ const wb=XLSX.utils.book_new(),r2=v=>v==null?null:Math.round(v*100)/100;
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(all.sectors.map(x=>({"القطاع":x.sector,"عدد المنتجات":x.count,"عدد العلامات":x.brands,"أقل سعر":x.min,"متوسط السعر":r2(x.avg),"أعلى سعر":x.max,"العملة":x.cur}))),"القطاعات");
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(an.rows.map(r=>({"العلامة التجارية":r.brand,"القطاع":r.sector,"عدد المنتجات":r.count,"أقل سعر":r.min,"متوسط السعر":r2(r.avg),"أعلى سعر":r.max,"العملة":r.cur}))),"العلامات التجارية");
+ XLSX.utils.book_append_sheet(wb,XLSX.utils.json_to_sheet(prodItems().map(i=>({"العلامة التجارية":i.b||"غير محدد","القطاع":sectorOf(i),"اسم المنتج":i.n,"السعر":i.p,"العملة":i.c,"رابط المنتج":i.u,"رابط الصورة":i.i}))),"المنتجات");
  XLSX.writeFile(wb,"brands-"+(prodData.host||"store")+"-"+new Date().toISOString().slice(0,10)+".xlsx");
 };
+
+/* ----- تقرير PDF للعلامات التجارية والقطاعات ----- */
+function brandHead(an,meta,first){
+ if(!first)return `<h1 style="font-size:18px;margin-bottom:14px">تقرير العلامات التجارية والقطاعات (تابع)</h1>`;
+ const ns=an.sectors.length,logo=`<div class="lh"><img class="logo" src="${esc(CFG.reportLogo||"assets/saip-logo.png")}" alt="" onerror="this.parentNode.remove()"></div>`;
+ const secTbl=`<h2 style="font-size:15px;margin:0 0 6px">التوزيع حسب القطاع الاقتصادي</h2><table class="br"><tr><th>القطاع</th><th>المنتجات</th><th>العلامات</th><th>أقل سعر</th><th>المتوسط</th><th>أعلى سعر</th></tr>${an.sectors.map(x=>`<tr><td>${esc(x.sector)}</td><td>${x.count}</td><td>${x.brands}</td><td>${esc(money(x.min,x.cur))}</td><td>${esc(money(x.avg,x.cur))}</td><td>${esc(money(x.max,x.cur))}</td></tr>`).join("")}</table>`;
+ return `${logo}<h1>تقرير العلامات التجارية والقطاعات المعروضة</h1>
+  <table><tr><th>المتجر</th><td>${esc(meta.title||meta.host||"")}</td></tr><tr><th>رابط المتجر</th><td dir="ltr" style="text-align:left">${esc(meta.page||"")}</td></tr>
+  <tr><th>تاريخ ووقت الفحص</th><td>${esc(fmtDT(meta.date))}</td></tr>${meta.sectorLabel?`<tr><th>القطاع</th><td>${esc(meta.sectorLabel)}</td></tr>`:""}
+  <tr><th>عدد المنتجات المرصودة</th><td>${an.products}</td></tr><tr><th>عدد العلامات التجارية</th><td class="res">${an.brands}</td></tr><tr><th>عدد القطاعات</th><td>${ns}</td></tr></table>${secTbl}
+  <h2 style="font-size:15px;margin:0 0 6px">العلامات التجارية وأسعارها</h2>`;
+}
+const brandRow=r=>`<tr><td${r.unknown?' style="color:#777"':""}>${esc(r.brand)}</td><td>${esc(r.sector)}</td><td>${r.count}</td><td>${esc(money(r.min,r.cur))}</td><td>${esc(money(r.avg,r.cur))}</td><td>${esc(money(r.max,r.cur))}</td></tr>`;
+const brandTh='<tr><th>العلامة التجارية</th><th>القطاع</th><th>المنتجات</th><th>أقل سعر</th><th>المتوسط</th><th>أعلى سعر</th></tr>';
+/* توزيع الصفوف على الصفحات بقياس ارتفاعها الفعلي (الصفوف الطويلة تلتف على أكثر من سطر) */
+async function brandPagesHtml(an,meta){
+ const root=$("#pdf-root"),LIMIT=1030,SIG=100,wrap=h=>`<div class="pdf" style="height:auto;min-height:0">${h}</div>`;
+ if(document.fonts)await document.fonts.ready;
+ const used=h=>{root.innerHTML=wrap(h);const e=root.firstElementChild;return e.offsetHeight-40};
+ root.innerHTML=wrap(`<table class="br">${brandTh}${an.rows.map(brandRow).join("")}</table>`);
+ const trs=[...root.querySelectorAll("tr")],thH=trs[0].getBoundingClientRect().height,hs=trs.slice(1).map(t=>t.getBoundingClientRect().height);
+ const b1=LIMIT-used(brandHead(an,meta,true))-thH,b2=LIMIT-used(brandHead(an,meta,false))-thH;
+ const pages=[[]];let cur=0,bud=b1;
+ hs.forEach((h,i)=>{if(cur+h>bud&&pages[pages.length-1].length){pages.push([]);cur=0;bud=b2}pages[pages.length-1].push(i);cur+=h});
+ // مساحة للتوقيع في الصفحة الأخيرة
+ const sum=idx=>idx.reduce((a,i)=>a+hs[i],0),lastBud=pages.length===1?b1:b2;
+ let last=pages[pages.length-1];
+ if(sum(last)>lastBud-SIG){const moved=[];while(last.length>1&&sum(last)>lastBud-SIG)moved.unshift(last.pop());if(moved.length||sum(last)>lastBud-SIG){pages.push(moved.length?moved:[])}}
+ return pages.map((idx,i)=>{
+  const isLast=i===pages.length-1,sig=isLast?`<div class="sig"><div>اسم الفاحص:<i>${esc(meta.inspector||"")}</i></div><div>التوقيع:<i></i></div></div>`:"";
+  const tbl=idx.length?`<table class="br">${brandTh}${idx.map(k=>brandRow(an.rows[k])).join("")}</table>`:"";
+  return `<div class="pdf" style="height:1122px;min-height:0;overflow:hidden;position:relative">${brandHead(an,meta,i===0)}${tbl}${sig}<div class="ft" style="position:absolute;bottom:22px;left:0;right:0;margin:0">صفحة ${i+1} من ${pages.length} · صدر عن منصة التحكم والرصد في الفضاء الرقمي</div></div>`;
+ });
+}
+async function makeBrandPdf(){
+ if(!prodData)return;await getTax();const an=analyzeProducts(prodItems());
+ const meta={date:prodData.at||new Date().toISOString(),host:prodData.host,title:prodData.title,page:prodData.page,inspector:(AUTH.user&&AUTH.user.name)||"",sectorLabel:prodSector==="الكل"?"":prodSector};
+ const htmls=await brandPagesHtml(an,meta),root=$("#pdf-root"),W=794,H=1122,S=2,y0=window.scrollY;
+ try{
+  const tall=document.createElement("canvas");tall.width=W*S;tall.height=H*S*htmls.length;const g=tall.getContext("2d");
+  for(let i=0;i<htmls.length;i++){
+   root.innerHTML=htmls[i];await inlineImages(root.firstElementChild);
+   g.drawImage(await svgToCanvas(root.firstElementChild,W,H,S),0,i*H*S);
+  }
+  window.scrollTo(0,0);
+  await html2pdf().set({margin:0,filename:`brands-${(prodData.host||"store").replace(/[^\w.-]+/g,"_")}-${meta.date.slice(0,10)}.pdf`,image:{type:"jpeg",quality:.96},jsPDF:{unit:"mm",format:"a4"}}).from(tall,"canvas").save();
+ }catch(e){$("#p-msg").textContent="تعذر إنشاء PDF: "+(e.message||e)}
+ finally{window.scrollTo(0,y0)}
+}
+$("#p-pdf").onclick=makeBrandPdf;
 
 /* ===== الإجراءان: بلاغات أصحاب الحقوق (Excel) + الفحص الآلي ===== */
 const SRC_C="بلاغ من أصحاب الحقوق", SRC_P="تفتيش استباقي";
@@ -721,7 +783,7 @@ function metaHtml(m){
 }
 function cardHtml(s){
  const r=reports.find(r=>r.siteId===s.id);
- const rb=r?`<div class="meta"><span class="badge ${r.result==="مخالف"?"bad":"ok"}">آخر تقرير: ${r.result}</span> · ${fmt(r.date)}</div>`:"";
+ const rb=r?`<div class="meta"><span class="badge ${r.result==="مخالف"?"bad":"ok"}">آخر تقرير: ${r.result}</span> · ${fmtT(r.date)}</div>`:"";
  return `<article class="card"><span class="tag"><span class="badge ${s.kind==="manual"?"none":"pro"}">${tierLabel(s)}</span></span>${(s.types||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
  <h3>${esc(s.title||s.host)}</h3><div class="site-url">${esc(showUrl(s.url))}</div>
  ${metaHtml(s.meta)}
@@ -1003,7 +1065,7 @@ function extraRows(x){
 }
 function reportHtml(r,img){
  const src=img;
- return `<div class="pdf"><div class="lh"><img class="logo" src="${esc(CFG.reportLogo||"assets/saip-logo.png")}" alt="الهيئة السعودية للملكية الفكرية" onerror="this.parentNode.remove()"></div><h1>تقرير رصد انتهاك الملكية الفكرية</h1><div class="s">تاريخ الرصد: ${fmt(r.date)}</div>
+ return `<div class="pdf"><div class="lh"><img class="logo" src="${esc(CFG.reportLogo||"assets/saip-logo.png")}" alt="الهيئة السعودية للملكية الفكرية" onerror="this.parentNode.remove()"></div><h1>تقرير رصد انتهاك الملكية الفكرية</h1><div class="s">تاريخ ووقت الفحص: ${esc(fmtDT(r.date))}</div>
 <table><tr><th>اسم الموقع</th><td>${esc(r.site)}</td></tr>
 <tr><th>رابط الموقع المخالف</th><td dir="ltr" style="text-align:left">${esc(r.url)}</td></tr>
 ${extraRows(r.extra)}
@@ -1117,7 +1179,7 @@ function renderDash(){
 
 /* ===== السجل ===== */
 function renderReports(){
- $("#rep-body").innerHTML=reports.length?reports.map((r,i)=>`<tr><td>${fmt(r.date)}</td><td>${esc(r.site)}</td><td>${r.types.map(esc).join("، ")||"—"}</td><td><span class="badge ${r.result==="مخالف"?"bad":"ok"}">${r.result}</span></td><td>${esc(r.source||"—")}</td><td><button class="btn sm" data-re="${i}">تنزيل مجدداً</button></td></tr>`).join(""):`<tr><td colspan="6" class="empty">لم تُصدر أي تقارير بعد.</td></tr>`;
+ $("#rep-body").innerHTML=reports.length?reports.map((r,i)=>`<tr><td>${fmtT(r.date)}</td><td>${esc(r.site)}</td><td>${r.types.map(esc).join("، ")||"—"}</td><td><span class="badge ${r.result==="مخالف"?"bad":"ok"}">${r.result}</span></td><td>${esc(r.source||"—")}</td><td><button class="btn sm" data-re="${i}">تنزيل مجدداً</button></td></tr>`).join(""):`<tr><td colspan="6" class="empty">لم تُصدر أي تقارير بعد.</td></tr>`;
  document.querySelectorAll("[data-re]").forEach(b=>b.onclick=async()=>{const r=reports[b.dataset.re];let img=null;try{img=await store.reportImage(r)}catch{}makePdf(r,img)});
  renderDash();
 }

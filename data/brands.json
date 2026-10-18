@@ -7,7 +7,8 @@
     "غوتشي",
     "قوتشي",
     "جوتشي"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Louis Vuitton",
@@ -16,14 +17,16 @@
     "لوي فيتون",
     "LV"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Chanel",
    "aliases": [
     "شانيل",
     "شنل"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Dior",
@@ -31,54 +34,62 @@
     "ديور",
     "كريستيان ديور",
     "Christian Dior"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Prada",
    "aliases": [
     "برادا"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Hermès",
    "aliases": [
     "Hermes",
     "هيرميس"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Versace",
    "aliases": [
     "فيرساتشي",
     "فرزاتشي"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Burberry",
    "aliases": [
     "بربري",
     "باربري"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Fendi",
    "aliases": [
     "فندي"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Balenciaga",
    "aliases": [
     "بالينسياغا",
     "بالنسياغا"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "Givenchy",
    "aliases": [
     "جيفنشي",
     "جيفانشي"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Saint Laurent",
@@ -87,20 +98,23 @@
     "Yves Saint Laurent",
     "سان لوران",
     "ايف سان لوران"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Cartier",
    "aliases": [
     "كارتييه",
     "كارتير"
-   ]
+   ],
+   "sector": "المجوهرات والإكسسوارات"
   },
   {
    "name": "Rolex",
    "aliases": [
     "رولكس"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Omega",
@@ -108,14 +122,16 @@
     "اوميغا",
     "أوميغا",
     "اوميجا"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Tiffany & Co.",
    "aliases": [
     "Tiffany",
     "تيفاني"
-   ]
+   ],
+   "sector": "المجوهرات والإكسسوارات"
   },
   {
    "name": "Bvlgari",
@@ -123,7 +139,8 @@
     "Bulgari",
     "بولغري",
     "بلغاري"
-   ]
+   ],
+   "sector": "المجوهرات والإكسسوارات"
   },
   {
    "name": "Armani",
@@ -132,7 +149,8 @@
     "Emporio Armani",
     "ارماني",
     "أرماني"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Calvin Klein",
@@ -140,27 +158,31 @@
     "كالفن كلاين",
     "CK"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الملابس"
   },
   {
    "name": "Tommy Hilfiger",
    "aliases": [
     "تومي هيلفيغر",
     "تومي هيلفيجر"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Ralph Lauren",
    "aliases": [
     "Polo Ralph Lauren",
     "رالف لورين"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Lacoste",
    "aliases": [
     "لاكوست"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Hugo Boss",
@@ -169,33 +191,38 @@
     "هوغو بوس",
     "هوجو بوس"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الملابس"
   },
   {
    "name": "Michael Kors",
    "aliases": [
     "مايكل كورس"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Coach",
    "aliases": [
     "كوتش"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Kate Spade",
    "aliases": [
     "كيت سبيد"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Guess",
    "aliases": [
     "جيس"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الملابس"
   },
   {
    "name": "Levi's",
@@ -203,85 +230,98 @@
     "Levis",
     "ليفايس",
     "ليفيز"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Diesel",
    "aliases": [
     "ديزل"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Tom Ford",
    "aliases": [
     "توم فورد"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Nike",
    "aliases": [
     "نايكي",
     "نايك"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "Adidas",
    "aliases": [
     "اديداس",
     "أديداس"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "Puma",
    "aliases": [
     "بوما"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "Reebok",
    "aliases": [
     "ريبوك"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "New Balance",
    "aliases": [
     "نيو بالانس"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "Under Armour",
    "aliases": [
     "اندر ارمور",
     "أندر أرمور"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Converse",
    "aliases": [
     "كونفرس"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "Vans",
    "aliases": [
     "فانس"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الأحذية"
   },
   {
    "name": "Fila",
    "aliases": [
     "فيلا"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الأحذية"
   },
   {
    "name": "Skechers",
    "aliases": [
     "سكيتشرز",
     "سكيتشر"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "Jordan",
@@ -290,26 +330,30 @@
     "جوردن",
     "جوردان"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الأحذية"
   },
   {
    "name": "Timberland",
    "aliases": [
     "تيمبرلاند",
     "تمبرلاند"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "Dr. Martens",
    "aliases": [
     "Dr Martens",
     "دكتور مارتنز"
-   ]
+   ],
+   "sector": "الأحذية"
   },
   {
    "name": "UGG",
    "aliases": [],
-   "cs": true
+   "cs": true,
+   "sector": "الأحذية"
   },
   {
    "name": "The North Face",
@@ -317,60 +361,69 @@
     "North Face",
     "نورث فيس",
     "ذا نورث فيس"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Champion",
    "aliases": [
     "شامبيون"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الملابس"
   },
   {
    "name": "Off-White",
    "aliases": [
     "Off White",
     "اوف وايت"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Supreme",
    "aliases": [
     "سوبريم"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الملابس"
   },
   {
    "name": "Stone Island",
    "aliases": [
     "ستون ايلاند"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Moncler",
    "aliases": [
     "مونكلر"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Canada Goose",
    "aliases": [
     "كندا غوس"
-   ]
+   ],
+   "sector": "الملابس"
   },
   {
    "name": "Zara",
    "aliases": [
     "زارا"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الملابس"
   },
   {
    "name": "H&M",
    "aliases": [
     "اتش اند ام"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الملابس"
   },
   {
    "name": "Apple",
@@ -379,7 +432,8 @@
     "آبل",
     "أبل"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الإلكترونيات"
   },
   {
    "name": "iPhone",
@@ -387,7 +441,8 @@
     "ايفون",
     "آيفون",
     "أيفون"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "AirPods",
@@ -395,27 +450,31 @@
     "ايربودز",
     "ايرباد",
     "آيربودز"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Apple Watch",
    "aliases": [
     "ابل ووتش",
     "آبل ووتش"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Samsung",
    "aliases": [
     "سامسونج",
     "سامسونغ"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Huawei",
    "aliases": [
     "هواوي"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Xiaomi",
@@ -423,13 +482,15 @@
     "شاومي",
     "MI"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Sony",
    "aliases": [
     "سوني"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "PlayStation",
@@ -438,195 +499,225 @@
     "PS4",
     "بلايستيشن",
     "بلاي ستيشن"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "JBL",
    "aliases": [
     "جي بي ال"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Bose",
    "aliases": [
     "بوز"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Beats",
    "aliases": [
     "Beats by Dre",
     "بيتس"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Dyson",
    "aliases": [
     "دايسون"
-   ]
+   ],
+   "sector": "الأجهزة المنزلية"
   },
   {
    "name": "Canon",
    "aliases": [
     "كانون"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Nikon",
    "aliases": [
     "نيكون"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "GoPro",
    "aliases": [
     "جو برو"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Philips",
    "aliases": [
     "فيليبس",
     "فيلبس"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "LG",
    "aliases": [
     "ال جي"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Lenovo",
    "aliases": [
     "لينوفو"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "HP",
    "aliases": [
     "اتش بي"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Dell",
    "aliases": [
     "ديل"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Logitech",
    "aliases": [
     "لوجيتك"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Anker",
    "aliases": [
     "انكر"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Marshall",
    "aliases": [
     "مارشال"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Bang & Olufsen",
    "aliases": [
     "B&O",
     "بانغ اند اولوفسن"
-   ]
+   ],
+   "sector": "الإلكترونيات"
   },
   {
    "name": "Creed",
    "aliases": [
     "كريد"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Montale",
    "aliases": [
     "مونتال"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Maison Margiela",
    "aliases": [
     "Margiela",
     "ميزون مارجيلا"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Jo Malone",
    "aliases": [
     "جو مالون"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Lancôme",
    "aliases": [
     "Lancome",
     "لانكوم"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Estée Lauder",
    "aliases": [
     "Estee Lauder",
     "استي لودر"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "MAC",
    "aliases": [
     "ماك"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Huda Beauty",
    "aliases": [
     "هدى بيوتي"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Fenty Beauty",
    "aliases": [
     "فنتي بيوتي"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Rare Beauty",
    "aliases": [
     "رير بيوتي"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "NARS",
    "aliases": [
     "نارس"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Charlotte Tilbury",
    "aliases": [
     "شارلوت تيلبري"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Maybelline",
    "aliases": [
     "ميبيلين",
     "مايبيلين"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "L'Oréal",
@@ -634,19 +725,22 @@
     "Loreal",
     "L'Oreal",
     "لوريال"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Nivea",
    "aliases": [
     "نيفيا"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Rasasi",
    "aliases": [
     "رصاصي"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Ajmal",
@@ -654,158 +748,183 @@
     "اجمل",
     "أجمل"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Arabian Oud",
    "aliases": [
     "العربية للعود"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Swiss Arabian",
    "aliases": [
     "السويسري العربي"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Al Haramain",
    "aliases": [
     "الحرمين"
-   ]
+   ],
+   "sector": "العطور ومستحضرات التجميل"
   },
   {
    "name": "Casio",
    "aliases": [
     "كاسيو"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "G-Shock",
    "aliases": [
     "G Shock",
     "جي شوك"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Seiko",
    "aliases": [
     "سيكو"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Tissot",
    "aliases": [
     "تيسو"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Patek Philippe",
    "aliases": [
     "باتيك فيليب"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Audemars Piguet",
    "aliases": [
     "اوديمار بيغيه",
     "اوديمار بيجيه"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Richard Mille",
    "aliases": [
     "ريتشارد ميل"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Hublot",
    "aliases": [
     "هوبلو"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Tag Heuer",
    "aliases": [
     "TAG Heuer",
     "تاغ هوير"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Fossil",
    "aliases": [
     "فوسيل"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Daniel Wellington",
    "aliases": [
     "دانيال ولينغتون"
-   ]
+   ],
+   "sector": "الساعات"
   },
   {
    "name": "Ray-Ban",
    "aliases": [
     "Ray Ban",
     "راي بان"
-   ]
+   ],
+   "sector": "النظارات"
   },
   {
    "name": "Oakley",
    "aliases": [
     "اوكلي",
     "أوكلي"
-   ]
+   ],
+   "sector": "النظارات"
   },
   {
    "name": "Pandora",
    "aliases": [
     "باندورا"
-   ]
+   ],
+   "sector": "المجوهرات والإكسسوارات"
   },
   {
    "name": "Swarovski",
    "aliases": [
     "سواروفسكي"
-   ]
+   ],
+   "sector": "المجوهرات والإكسسوارات"
   },
   {
    "name": "Lego",
    "aliases": [
     "ليغو",
     "ليجو"
-   ]
+   ],
+   "sector": "الألعاب"
   },
   {
    "name": "Hot Wheels",
    "aliases": [
     "هوت ويلز"
-   ]
+   ],
+   "sector": "الألعاب"
   },
   {
    "name": "Barbie",
    "aliases": [
     "باربي"
    ],
-   "cs": true
+   "cs": true,
+   "sector": "الألعاب"
   },
   {
    "name": "Nespresso",
    "aliases": [
     "نسبريسو"
-   ]
+   ],
+   "sector": "الأجهزة المنزلية"
   },
   {
    "name": "Rimowa",
    "aliases": [
     "ريموا"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Samsonite",
    "aliases": [
     "سامسونايت"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Victorinox",
@@ -818,13 +937,630 @@
    "aliases": [
     "Mont Blanc",
     "مون بلان"
-   ]
+   ],
+   "sector": "الجلديات والشنط"
   },
   {
    "name": "Parker",
    "aliases": [
     "باركر"
    ],
+   "cs": true
+  },
+  {
+   "name": "Mulberry",
+   "aliases": [
+    "مولبيري"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Longchamp",
+   "aliases": [
+    "لونغشان",
+    "لونشامب"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Furla",
+   "aliases": [
+    "فورلا"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Tory Burch",
+   "aliases": [
+    "توري بورش"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "MCM",
+   "aliases": [],
+   "sector": "الجلديات والشنط",
+   "cs": true
+  },
+  {
+   "name": "Goyard",
+   "aliases": [
+    "غويار",
+    "جويار"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Bottega Veneta",
+   "aliases": [
+    "بوتيغا فينيتا",
+    "بوتيجا"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Celine",
+   "aliases": [
+    "سيلين"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Loewe",
+   "aliases": [
+    "لويفي",
+    "لوي"
+   ],
+   "sector": "الجلديات والشنط",
+   "cs": true
+  },
+  {
+   "name": "Valentino",
+   "aliases": [
+    "فالنتينو"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Miu Miu",
+   "aliases": [
+    "ميو ميو"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Chloé",
+   "aliases": [
+    "Chloe",
+    "كلوي"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Marc Jacobs",
+   "aliases": [
+    "مارك جاكوبس"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Kipling",
+   "aliases": [
+    "كيبلينغ",
+    "كيبلنج"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Eastpak",
+   "aliases": [
+    "ايستباك"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Herschel",
+   "aliases": [
+    "هيرشل"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Tumi",
+   "aliases": [],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Balmain",
+   "aliases": [
+    "بالمان"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Alexander McQueen",
+   "aliases": [
+    "McQueen",
+    "الكسندر ماكوين",
+    "ماكوين"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Dolce & Gabbana",
+   "aliases": [
+    "D&G",
+    "دولتشي اند غابانا",
+    "دولشي اند غابانا"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Kenzo",
+   "aliases": [
+    "كينزو"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Moschino",
+   "aliases": [
+    "موسكينو"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Lanvin",
+   "aliases": [
+    "لانفان"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Pinko",
+   "aliases": [
+    "بينكو"
+   ],
+   "sector": "الجلديات والشنط"
+  },
+  {
+   "name": "Max Mara",
+   "aliases": [
+    "ماكس مارا"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Roberto Cavalli",
+   "aliases": [
+    "روبرتو كافالي"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Jimmy Choo",
+   "aliases": [
+    "جيمي شو"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Christian Louboutin",
+   "aliases": [
+    "Louboutin",
+    "كريستيان لوبوتان",
+    "لوبوتان"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Manolo Blahnik",
+   "aliases": [
+    "مانولو بلانيك"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Salvatore Ferragamo",
+   "aliases": [
+    "Ferragamo",
+    "فيراغامو"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Tod's",
+   "aliases": [
+    "Tods",
+    "تودز"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Birkenstock",
+   "aliases": [
+    "بيركنشتوك",
+    "بيركنستوك"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Crocs",
+   "aliases": [
+    "كروكس"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Clarks",
+   "aliases": [
+    "كلاركس"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Steve Madden",
+   "aliases": [
+    "ستيف مادن"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Aldo",
+   "aliases": [
+    "الدو"
+   ],
+   "sector": "الأحذية",
+   "cs": true
+  },
+  {
+   "name": "Charles & Keith",
+   "aliases": [
+    "Charles and Keith",
+    "تشارلز اند كيث"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Asics",
+   "aliases": [
+    "اسيكس",
+    "أسيكس"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Mizuno",
+   "aliases": [
+    "ميزونو"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Salomon",
+   "aliases": [
+    "سالومون"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Hoka",
+   "aliases": [
+    "هوكا"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "On Running",
+   "aliases": [
+    "اون رننج"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Brooks",
+   "aliases": [
+    "بروكس"
+   ],
+   "sector": "الأحذية",
+   "cs": true
+  },
+  {
+   "name": "Saucony",
+   "aliases": [
+    "ساكوني"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Merrell",
+   "aliases": [
+    "ميريل"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Ecco",
+   "aliases": [
+    "ايكو"
+   ],
+   "sector": "الأحذية",
+   "cs": true
+  },
+  {
+   "name": "Geox",
+   "aliases": [
+    "جيوكس"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Hush Puppies",
+   "aliases": [
+    "هاش باباز"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Sperry",
+   "aliases": [
+    "سبيري"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Kappa",
+   "aliases": [
+    "كابا"
+   ],
+   "sector": "الملابس",
+   "cs": true
+  },
+  {
+   "name": "Umbro",
+   "aliases": [
+    "امبرو",
+    "أمبرو"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Diadora",
+   "aliases": [
+    "ديادورا"
+   ],
+   "sector": "الأحذية"
+  },
+  {
+   "name": "Le Coq Sportif",
+   "aliases": [
+    "لو كوك سبورتيف"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Gap",
+   "aliases": [
+    "غاب"
+   ],
+   "sector": "الملابس",
+   "cs": true
+  },
+  {
+   "name": "Uniqlo",
+   "aliases": [
+    "يونيكلو"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Mango",
+   "aliases": [
+    "مانجو"
+   ],
+   "sector": "الملابس",
+   "cs": true
+  },
+  {
+   "name": "Massimo Dutti",
+   "aliases": [
+    "ماسيمو دوتي"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Bershka",
+   "aliases": [
+    "بيرشكا"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Pull&Bear",
+   "aliases": [
+    "Pull & Bear",
+    "Pull and Bear",
+    "بول اند بير"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Stradivarius",
+   "aliases": [
+    "ستراديفاريوس"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "American Eagle",
+   "aliases": [
+    "امريكان ايغل"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Hollister",
+   "aliases": [
+    "هوليستر"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Abercrombie & Fitch",
+   "aliases": [
+    "Abercrombie",
+    "ابركرومبي"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Gymshark",
+   "aliases": [
+    "جيم شارك"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Fred Perry",
+   "aliases": [
+    "فريد بيري"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Pepe Jeans",
+   "aliases": [
+    "بيبي جينز"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Wrangler",
+   "aliases": [
+    "رانجلر"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Carhartt",
+   "aliases": [
+    "كارهارت"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Columbia",
+   "aliases": [
+    "كولومبيا"
+   ],
+   "sector": "الملابس",
+   "cs": true
+  },
+  {
+   "name": "Patagonia",
+   "aliases": [
+    "باتاغونيا"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Superdry",
+   "aliases": [
+    "سوبردراي"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Jack & Jones",
+   "aliases": [
+    "Jack and Jones",
+    "جاك اند جونز"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Vero Moda",
+   "aliases": [
+    "فيرو مودا"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Next",
+   "aliases": [
+    "نكست"
+   ],
+   "sector": "الملابس",
+   "cs": true
+  },
+  {
+   "name": "Marks & Spencer",
+   "aliases": [
+    "M&S",
+    "ماركس اند سبنسر"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Shein",
+   "aliases": [
+    "شي ان",
+    "شين"
+   ],
+   "sector": "الملابس",
+   "cs": true
+  },
+  {
+   "name": "Trendyol",
+   "aliases": [
+    "ترينديول"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Lululemon",
+   "aliases": [
+    "لولو ليمون"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Palm Angels",
+   "aliases": [
+    "بالم انجلز"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Chrome Hearts",
+   "aliases": [
+    "كروم هارتس"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Amiri",
+   "aliases": [
+    "اميري"
+   ],
+   "sector": "الملابس",
+   "cs": true
+  },
+  {
+   "name": "Stüssy",
+   "aliases": [
+    "Stussy",
+    "ستوسي"
+   ],
+   "sector": "الملابس"
+  },
+  {
+   "name": "Alo Yoga",
+   "aliases": [
+    "Alo",
+    "الو يوغا"
+   ],
+   "sector": "الملابس",
    "cs": true
   }
  ]
