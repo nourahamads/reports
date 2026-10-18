@@ -324,9 +324,9 @@ body.locked nav,body.locked main{display:none!important}
   <h3 style="margin-top:0">جمع منتجات المتجر</h3>
   <div class="steps">
     <div><span class="sn">1</span><button class="btn sm" type="button" id="p-copy">نسخ السكربت</button><a class="btn sm" id="p-bm" href="#" draggable="true" title="اسحبها إلى شريط الإشارات">إشارة مرجعية ⇢ اسحب</a></div>
-    <div><span class="sn">2</span><a class="btn sm" id="p-open" target="_blank" rel="noopener noreferrer">فتح المتجر ↗</a><span class="meta">شغّل السكربت في وحدة التحكم (F12) على صفحة المنتجات</span></div>
+    <div><span class="sn">2</span><a class="btn sm" id="p-open" target="_blank" rel="noopener noreferrer">فتح المتجر ↗</a><span class="meta">في صفحة المتجر: اضغط F12 ثم تبويب Console، الصق السكربت واضغط Enter (إن منع المتصفح اللصق اكتب allow pasting ثم Enter ثم أعد اللصق)</span></div>
     <textarea id="p-script" rows="3" dir="ltr" readonly hidden style="width:100%;font-family:ui-monospace,monospace;font-size:.75rem;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px" aria-label="السكربت"></textarea>
-    <div class="s3"><span class="sn">3</span><textarea id="p-json" rows="3" dir="ltr" placeholder="الصق ناتج السكربت هنا (يبدأ بـ {)"></textarea><input type="file" id="p-file" accept=".json,application/json"><button class="btn primary sm" type="button" id="p-load">تحليل</button></div>
+    <div class="s3"><span class="sn">3</span><textarea id="p-json" rows="3" dir="ltr" placeholder="ستظهر لوحة خضراء في صفحة المتجر: اضغط «نسخ النتيجة» ثم الصق هنا (يبدأ بـ {)"></textarea><input type="file" id="p-file" accept=".json,application/json"><button class="btn primary sm" type="button" id="p-load">تحليل</button></div>
   </div>
   <div id="p-msg" role="status" class="meta"></div>
   <div id="p-result" hidden>
