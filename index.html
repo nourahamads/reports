@@ -260,6 +260,7 @@ body.locked nav,body.locked main{display:none!important}
       <label><input type="checkbox" name="t" value="__other"> غير ذلك</label>
       <input type="text" id="d-other" placeholder="حدّد النوع" hidden>
     </fieldset>
+    <fieldset><legend>القطاع الاقتصادي</legend><div id="d-sectors"></div></fieldset>
     <fieldset><legend>النتيجة</legend>
       <label><input type="radio" name="r" value="مخالف" required> مخالف</label>
       <label><input type="radio" name="r" value="غير مخالف"> غير مخالف</label>
@@ -1028,9 +1029,17 @@ $("#d-paste-btn").onclick=async()=>{
  catch{alert("تعذرت القراءة من الحافظة. انقر داخل المربع ثم اضغط Ctrl+V.")}
 };
 $("#d-paste-clear").onclick=()=>setPasted(null);
+const SEC_FALLBACK=["الأحذية","الجلديات والشنط","الملابس","الساعات","العطور ومستحضرات التجميل","الإلكترونيات","المجوهرات والإكسسوارات","النظارات","الألعاب","الأجهزة المنزلية"];
+function fillSectors(sel){
+ const names=[...(TAX&&TAX.rules.length?TAX.rules.map(r=>r.name):SEC_FALLBACK),"أخرى"];
+ // ترتيب العرض: الجلديات والشنط، الأحذية، الملابس أولاً
+ const first=["الجلديات والشنط","الأحذية","الملابس"],list=[...first.filter(n=>names.includes(n)),...names.filter(n=>!first.includes(n))];
+ $("#d-sectors").replaceChildren(...list.map(n=>{const l=document.createElement("label"),c=document.createElement("input");c.type="checkbox";c.name="sec";c.value=n;c.checked=sel.includes(n);l.append(c,document.createTextNode(" "+n));return l}));
+}
 function openDlg(id){
  cur=allItems().find(s=>s.id===id);setPasted(null);
  $("#rep-form").reset();other.hidden=true;
+ fillSectors((cur.meta&&cur.meta.sectors)||[]);getTax().then(()=>{if($("#dlg").open)fillSectors([...document.querySelectorAll("[name=sec]:checked")].map(c=>c.value))}).catch(()=>{});
  $("#d-site").textContent=cur.title||cur.host;$("#d-url").textContent=showUrl(cur.url);
  document.querySelectorAll("[name=t]").forEach(c=>c.checked=(cur.types||[]).includes(c.value));
  if(cur.tier===1)document.querySelector('[name=r][value="مخالف"]').checked=true;
@@ -1044,7 +1053,7 @@ $("#rep-form").onsubmit=async e=>{
  if(!result){e.preventDefault();return}
  const inspector=$("#d-name").value.trim();
  try{localStorage.setItem("ipw_inspector",inspector)}catch{}
- const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:null,inspector,source:cur.kind==="proactive"?SRC_P:SRC_C,extra:reportExtra(cur.meta)};
+ const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:null,inspector,source:cur.kind==="proactive"?SRC_P:SRC_C,extra:{...reportExtra(cur.meta),sectors:[...document.querySelectorAll("[name=sec]:checked")].map(c=>c.value)}};
  const img=uploaded;
  let saved=rep;
  try{saved=await store.addReport(rep,img)}catch(err){alert("تعذر حفظ التقرير في القاعدة المشتركة: "+err.message+"\nسيُنزَّل ملف PDF فقط.")}
@@ -1070,6 +1079,7 @@ function reportHtml(r,img){
 <tr><th>رابط الموقع المخالف</th><td dir="ltr" style="text-align:left">${esc(r.url)}</td></tr>
 ${extraRows(r.extra)}
 <tr><th>نوع المواد المبثوثة</th><td>${r.types.length?r.types.map(esc).join(" ، "):"—"}</td></tr>
+${r.extra&&r.extra.sectors&&r.extra.sectors.length?`<tr><th>القطاع الاقتصادي</th><td>${r.extra.sectors.map(esc).join(" ، ")}</td></tr>`:""}
 <tr><th>النتيجة</th><td class="res">${esc(r.result)}</td></tr>
 <tr><th>الإجراء</th><td>${esc(r.source||"—")}</td></tr></table>
 ${src?`<img class="shot" src="${esc(src)}" alt=""><div class="cap">لقطة شاشة للموقع</div>`:""}
