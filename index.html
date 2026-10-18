@@ -239,8 +239,12 @@ body.locked nav,body.locked main{display:none!important}
       <div class="bars" id="bysrc"></div></div>
     <div class="card chart"><h3>المواقع حسب نوع المواد</h3>      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div class="bars" id="bytype"></div></div>
+    <div class="card chart"><h3>المواقع حسب القطاع الاقتصادي</h3>
+      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
+      <div class="bars" id="bysec"></div></div>
     <details class="card tbl chart"><summary>عرض البيانات كجدول</summary><div style="overflow-x:auto;margin-top:10px"><table><thead><tr><th>نوع المواد</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table"></tbody></table>
-      <table style="margin-top:14px"><thead><tr><th>الإجراء</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-src"></tbody></table></div></details>
+      <table style="margin-top:14px"><thead><tr><th>الإجراء</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-src"></tbody></table>
+      <table style="margin-top:14px"><thead><tr><th>القطاع الاقتصادي</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-sec"></tbody></table></div></details>
   </div>
   <h3 style="margin:24px 0 10px">سجل التقارير</h3>
   <div class="card" style="overflow-x:auto"><table><thead><tr><th>التاريخ</th><th>الموقع</th><th>المواد</th><th>النتيجة</th><th>الإجراء</th><th></th></tr></thead><tbody id="rep-body"></tbody></table></div>
@@ -1162,7 +1166,7 @@ function renderDash(){
  const tile=(l,v,cls,sw)=>{const k=el("div","kpi "+(cls||""));const lab=el("div","l");if(sw){const i=el("span","sw");i.style.background=sw;lab.append(i)}lab.append(document.createTextNode(l));k.append(lab,el("div","v",v));return k};
  $("#kpis").replaceChildren(tile("المواقع المفحوصة",String(data.length),"hero"),tile("مخالف",String(bad),"","var(--c-bad)"),tile("غير مخالف",String(ok),"","var(--c-ok)"),tile("نسبة المخالفة",pct+"%"));
  const ratio=$("#ratio"),bt=$("#bytype"),tb=$("#dash-table");
- if(!data.length){const m=el("div","empty","لا توجد بيانات.");ratio.replaceChildren(m.cloneNode(true));bt.replaceChildren();tb.replaceChildren();$("#bysrc").replaceChildren();$("#dash-table-src").replaceChildren();return}
+ if(!data.length){const m=el("div","empty","لا توجد بيانات.");ratio.replaceChildren(m.cloneNode(true));bt.replaceChildren();tb.replaceChildren();$("#bysrc").replaceChildren();$("#dash-table-src").replaceChildren();$("#bysec").replaceChildren();$("#dash-table-sec").replaceChildren();return}
  // النسبة العامة
  const rb=segs(bad,ok,.15,data.length);
  rb.querySelectorAll(".seg").forEach(sg=>{const n=+sg.style.flex.split(" ")[0];if(sg.textContent)sg.textContent=`${n} · ${Math.round(n/data.length*100)}%`});
@@ -1185,6 +1189,14 @@ function renderDash(){
   bar.style.width=`calc((100% - 40px) * ${r.tot/max})`;
   wrap.append(bar,el("span","tot",String(r.tot)));row.append(el("div","nm",r.t),wrap);return row}));
  tb.replaceChildren(...rows.map(r=>{const tr=el("tr");for(const v of [r.t,r.bad,r.ok,r.tot])tr.append(el("td",null,String(v)));return tr}));
+ // حسب القطاع الاقتصادي (يُحسب الموقع في كل قطاع اختاره الفاحص)
+ const bs2=new Map();
+ for(const r of data){const ss=new Set(((r.extra&&r.extra.sectors)||[]));if(!ss.size)ss.add("غير محدد");
+  for(const t of ss){const o=bs2.get(t)||{bad:0,ok:0};r.result==="مخالف"?o.bad++:o.ok++;bs2.set(t,o)}}
+ const secRows=[...bs2].map(([t,o])=>({t,...o,tot:o.bad+o.ok})).sort((a,b)=>((a.t==="غير محدد")-(b.t==="غير محدد"))||b.tot-a.tot||a.t.localeCompare(b.t));
+ const secMax=Math.max(...secRows.map(r=>r.tot));
+ $("#bysec").replaceChildren(...secRows.map(r=>{const row=el("div","brow"),wrap=el("div","bwrap"),bar=segs(r.bad,r.ok,.12,secMax);bar.style.width=`calc((100% - 40px) * ${r.tot/secMax})`;wrap.append(bar,el("span","tot",String(r.tot)));row.append(el("div","nm",r.t),wrap);return row}));
+ $("#dash-table-sec").replaceChildren(...secRows.map(r=>{const tr=el("tr");for(const v of [r.t,r.bad,r.ok,r.tot])tr.append(el("td",null,String(v)));return tr}));
 }
 
 /* ===== السجل ===== */
