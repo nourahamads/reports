@@ -325,7 +325,8 @@ body.locked nav,body.locked main{display:none!important}
   <div class="steps">
     <div><span class="sn">1</span><button class="btn sm" type="button" id="p-copy">نسخ السكربت</button><a class="btn sm" id="p-bm" href="#" draggable="true" title="اسحبها إلى شريط الإشارات">إشارة مرجعية ⇢ اسحب</a></div>
     <div><span class="sn">2</span><a class="btn sm" id="p-open" target="_blank" rel="noopener noreferrer">فتح المتجر ↗</a><span class="meta">شغّل السكربت في وحدة التحكم (F12) على صفحة المنتجات</span></div>
-    <div class="s3"><span class="sn">3</span><textarea id="p-json" rows="3" dir="ltr" placeholder="الصق النتيجة هنا"></textarea><input type="file" id="p-file" accept=".json,application/json"><button class="btn primary sm" type="button" id="p-load">تحليل</button></div>
+    <textarea id="p-script" rows="3" dir="ltr" readonly hidden style="width:100%;font-family:ui-monospace,monospace;font-size:.75rem;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:8px" aria-label="السكربت"></textarea>
+    <div class="s3"><span class="sn">3</span><textarea id="p-json" rows="3" dir="ltr" placeholder="الصق ناتج السكربت هنا (يبدأ بـ {)"></textarea><input type="file" id="p-file" accept=".json,application/json"><button class="btn primary sm" type="button" id="p-load">تحليل</button></div>
   </div>
   <div id="p-msg" role="status" class="meta"></div>
   <div id="p-result" hidden>
@@ -692,7 +693,11 @@ async function prodOpen(){
  const url=$("#f-url").value.trim(),sc=await buildCollectorScript();await getTax();
  $("#p-open").href=/^https?:\/\//i.test(url)?url:(url?"https://"+url:"#");$("#p-open").hidden=!url;
  $("#p-bm").href="javascript:"+encodeURIComponent(sc);
- $("#p-copy").onclick=async()=>{try{await navigator.clipboard.writeText(sc);$("#p-msg").textContent="تم نسخ السكربت."}catch{$("#p-msg").textContent="تعذر النسخ التلقائي.";$("#p-json").value=sc}};
+ $("#p-script").hidden=true;
+ $("#p-copy").onclick=async()=>{
+  try{await navigator.clipboard.writeText(sc);$("#p-script").hidden=true;$("#p-msg").textContent="تم نسخ السكربت."}
+  catch{const t=$("#p-script");t.value=sc;t.hidden=false;t.select();$("#p-msg").textContent="تعذر النسخ التلقائي: السكربت ظاهر في المربع أعلاه، انسخه منه (Ctrl+C)."}
+ };
  $("#p-msg").textContent="";if(!$("#prod-dlg").open)$("#prod-dlg").showModal();renderProd();
 }
 $("#prod-open").onclick=prodOpen;
@@ -702,7 +707,9 @@ $("#p-load").onclick=async()=>{
  const f=$("#p-file").files[0],txt=f?await f.text():$("#p-json").value.trim();
  try{
   if(!txt)throw new Error("الصق النتيجة أو اختر ملفاً");
-  const n=mergeProducts(JSON.parse(txt));
+  if(/^\s*(\(\s*async|async\s+function|function\s|javascript:)/i.test(txt))throw new Error("هذا هو السكربت نفسه وليس نتيجته. شغّله على صفحة المتجر (F12 ثم الصقه في Console واضغط Enter)، ثم انسخ الناتج وألصقه هنا.");
+  let data;try{data=JSON.parse(txt)}catch{throw new Error("المحتوى ليس نتيجة صالحة. يجب أن يكون ناتج السكربت وهو يبدأ بـ { ويُنسخ من زر «نسخ النتيجة» على صفحة المتجر.")}
+  const n=mergeProducts(data);
   $("#p-msg").textContent=n?`تمت إضافة ${n} منتج.`:"لا منتجات جديدة.";$("#p-json").value="";$("#p-file").value="";await renderProd();
  }catch(e){$("#p-msg").textContent="تعذر التحليل: "+(e.message||"ملف غير صالح")}
 };
