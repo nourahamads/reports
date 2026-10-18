@@ -114,6 +114,10 @@ body.locked nav,body.locked main{display:none!important}
 .info[aria-expanded=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .info:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .rcard .detail{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+.sumcard{margin-bottom:16px}.sumh{display:flex;justify-content:space-between;align-items:center;gap:8px}.sumh h3{margin:0;font-size:1.15rem}.sumcard .info{position:static}
+.sumrows{margin-top:10px}.srow{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding:7px 0;border-top:1px solid var(--line)}.srow .nm{font-weight:700;flex:1 1 220px}.srow .yr{color:var(--muted);font-size:.82rem}.srow .val{font-size:1.3rem;font-weight:800}
+.ch{font-size:.86rem;font-weight:700;color:var(--warn)}.ch.up{color:var(--ok)}.ch.down{color:var(--bad)}
+td.c.up{color:var(--ok);font-weight:700}td.c.down{color:var(--bad);font-weight:700}td.c.flat{color:var(--warn)}td.tx{text-align:start;color:var(--muted);min-width:240px}
 .cd .n.s{font-size:1.5rem}
 .saudi{margin:10px 0}.saudi .sum{margin:6px 0 0}.saudi .sum.okk{color:var(--ok);font-weight:700}
 .spark{width:100%;max-width:340px;display:block;margin-top:4px}.spark polyline{stroke:var(--muted)}.spark .pt{fill:var(--muted)}.spark .vl{font-size:10px;fill:var(--ink);font-weight:700}.spark .xl{font-size:9px;fill:var(--muted)}
@@ -177,6 +181,7 @@ table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeaf
 <section id="news" role="tabpanel">
   <h2>مرصد الإنفاذ</h2>
   <h3 class="sec-h">التقارير الدولية للإنفاذ</h3>
+  <div id="intl-sum"></div>
   <div class="intl" id="intl"></div>
   <div id="intl-tl"></div>
   <h3 class="sec-h">الأخبار</h3>
@@ -472,7 +477,7 @@ function untilText(days){
 function monthsDays(days){let m=Math.floor(days/30.4375),d=Math.round(days-m*30.4375);if(d>=30){m++;d=0}return m?`≈ ${m} ${m<11?"أشهر":"شهراً"}${d?` و${d} ${d<11?"أيام":"يوماً"}`:""}`:""}
 async function loadIntl(){
  let d;try{const r=await fetch("data/intl-reports.json?v="+Date.now());if(!r.ok)throw 0;d=await r.json()}catch{return}
- const wrap=$("#intl");wrap.replaceChildren();loadTimeline(d.timeline);
+ const wrap=$("#intl");wrap.replaceChildren();loadTimeline(d.timeline);loadSummary(d.reports||[]);
  for(const r of d.reports||[]){
   const none=!!r.release.none,n=none?{days:0,year:0,today:0,prev:0,date:1}:nextRelease(r),card=el("article","card rcard"),[num,unit]=untilText(n.days);
   const h=el("h3");const a=el("a",null,r.name);a.href=r.url;a.target="_blank";a.rel="noopener noreferrer";a.style.color="inherit";h.append(a);
@@ -515,6 +520,45 @@ function saudiBlock(s){
   box.append(svg)}
  if(s.summary){const p=el("p","sum",s.summary);if(s.status==="ok")p.classList.add("okk");box.append(p)}
  return box;
+}
+function loadSummary(reps){
+ const w=$("#intl-sum");w.replaceChildren();
+ const ser=reps.filter(r=>r.saudi&&r.saudi.series&&r.saudi.series.length>1).map(r=>({...r.saudi,name:r.saudi.short||r.name,pub:r.name}));
+ const inds=[];for(const r of reps)for(const i of r.indicators||[])if(i.result&&i.result.years)inds.push({...i.result,name:i.name,src:r.nameEn||r.name,grp:i.group});
+ const stat=reps.filter(r=>r.saudi&&r.saudi.status==="ok").map(r=>({name:r.name,text:r.saudi.summary}));
+ if(!ser.length&&!inds.length)return;
+ const card=el("article","card sumcard"),hd=el("div","sumh");hd.append(el("h3",null,"مؤشرات الإنفاذ على مدار السنوات"));
+ const info=el("button","info","i");info.type="button";info.title="التفاصيل";info.setAttribute("aria-label","تفاصيل المؤشرات والمقارنة بين السنوات");info.setAttribute("aria-expanded","false");hd.append(info);card.append(hd);
+ const trend=(a,b,low)=>a===b?"flat":((low?b<a:b>a)?"up":"down"),sym={up:"▲",down:"▼",flat:"■"};
+ const num=x=>Number.isInteger(x)?String(x):String(+x.toFixed(2));
+ const ul=el("div","sumrows");
+ for(const x of ser){const v=x.series,a=v[v.length-2],b=v[v.length-1],t=trend(a.v,b.v,x.good==="low"),df=+(b.v-a.v).toFixed(2);
+  const row=el("div","srow"),nm=el("span","nm",x.name),val=el("span","val",`${num(b.v)}`),yr=el("span","yr",b.x);
+  const ch=el("span","ch "+t,`${sym[t]} ${t==="flat"?"دون تغيير":(df>0?"+":"")+num(df)} عن ${a.x}`);row.append(nm,yr,val,ch);ul.append(row)}
+ for(const x of stat){const row=el("div","srow"),ch=el("span","ch up","✔ "+x.text);row.append(el("span","nm",x.name),ch);ul.append(row)}
+ card.append(ul);
+ const det=el("div","detail");det.hidden=true;
+ info.onclick=()=>{det.hidden=!det.hidden;info.setAttribute("aria-expanded",String(!det.hidden))};
+ if(ser.length){
+  det.append(el("div","grp","السلاسل الزمنية (المقارنة بين السنوات)"));
+  const yrs=[...new Set(ser.flatMap(x=>x.series.map(p=>p.x)))].sort(),tw=el("div","tlw"),tb=el("table","tl"),h=el("tr");h.append(el("th",null,"المؤشر"));for(const y of yrs)h.append(el("th",null,y));tb.append(h);
+  for(const x of ser){const tr=el("tr");tr.append(el("th",null,x.name+(x.good==="low"?" (الأقل أفضل)":"")));
+   const lastI=x.series.length-1;
+   for(const y of yrs){const i=x.series.findIndex(p=>p.x===y),td=el("td");if(i>=0){td.textContent=num(x.series[i].v);if(i>0)td.className="c "+trend(x.series[i-1].v,x.series[i].v,x.good==="low");if(i===lastI)td.style.fontWeight="800"}tr.append(td)}
+   tb.append(tr)}
+  tw.append(tb);det.append(tw);
+  for(const x of ser)if(x.summary)det.append(el("p",null,x.name+": "+x.summary));
+ }
+ if(inds.length){
+  det.append(el("div","grp","مؤشرات فرعية: مقارنة سنتين"));
+  const tw=el("div","tlw"),tb=el("table","tl"),h=el("tr");for(const k of["المؤشر","المصدر","السنة الأولى","السنة الثانية","التغيّر","التحليل"])h.append(el("th",null,k));tb.append(h);
+  for(const x of inds){const tr=el("tr"),df=+(x.to-x.from).toFixed(2),pc=x.from?Math.abs(df/x.from*100).toFixed(1).replace(/\.0$/,""):"";
+   const low=x.grp&&/قرصنة/.test(x.name)&&x.from>=20;const t=low?trend(x.from,x.to,true):x.trend;
+   const ch=el("td","c "+t,`${sym[t]} ${df===0?"0":(df>0?"+":"")+num(df)}${pc&&df?` (${pc}%)`:""}`);
+   const th=el("th",null,x.name);tr.append(th,el("td",null,x.src),el("td",null,`${x.years[0]}: ${num(x.from)}`),el("td",null,`${x.years[1]}: ${num(x.to)}`),ch,el("td","tx",x.text));tb.append(tr)}
+  tw.append(tb);det.append(tw);
+ }
+ card.append(det);w.append(card);
 }
 function loadTimeline(t){
  const w=$("#intl-tl");w.replaceChildren();if(!t)return;
