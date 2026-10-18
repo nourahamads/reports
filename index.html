@@ -114,6 +114,18 @@ body.locked nav,body.locked main{display:none!important}
 .info[aria-expanded=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .info:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .rcard .detail{margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
+.cd .n.s{font-size:1.5rem}
+.saudi{margin:10px 0}.saudi .sum{margin:6px 0 0}.saudi .sum.okk{color:var(--ok);font-weight:700}
+.spark{width:100%;max-width:340px;display:block;margin-top:4px}.spark polyline{stroke:var(--muted)}.spark .pt{fill:var(--muted)}.spark .vl{font-size:10px;fill:var(--ink);font-weight:700}.spark .xl{font-size:9px;fill:var(--muted)}
+.spark.up polyline{stroke:var(--ok)}.spark.up .pt{fill:var(--ok)}.spark.down polyline{stroke:var(--bad)}.spark.down .pt{fill:var(--bad)}
+.detail dd.an{margin:4px 0 0;padding-inline-start:8px;border-inline-start:3px solid var(--line);font-size:.9rem}.detail dd.an b{white-space:nowrap}
+.detail dd.an.up{border-color:var(--ok)}.detail dd.an.up b{color:var(--ok)}.detail dd.an.down{border-color:var(--bad)}.detail dd.an.down b{color:var(--bad)}.detail dd.an.flat b{color:var(--warn)}
+.conc{margin:4px 0 8px;padding-inline-start:20px;color:var(--muted);font-size:.9rem}
+.tlw{overflow-x:auto;margin-bottom:8px}table.tl{border-collapse:collapse;width:100%;min-width:760px;background:var(--card);border:1px solid var(--line);font-size:.82rem}
+table.tl th,table.tl td{border:1px solid var(--line);padding:6px 4px;text-align:center}table.tl tr>th:first-child{text-align:start;min-width:200px;font-weight:700}
+table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeafe;color:#1e40af}.ph.input{background:#fef3c7;color:#92400e}.ph.release{background:#d1fae5;color:#065f46;font-weight:700}
+@media(prefers-color-scheme:dark){.ph.data{background:#1e3a5f;color:#bfdbfe}.ph.input{background:#5a4210;color:#fde68a}.ph.release{background:#0f4a37;color:#a7f3d0}}
+.tlg{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.tlg .ph{padding:3px 10px;border-radius:99px;font-size:.8rem}
 .rcard .detail p{margin:0 0 8px;color:var(--muted);font-size:.92rem}
 .nlist{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .nrow{display:grid;grid-template-columns:1fr auto;gap:2px 14px;align-items:baseline;padding:9px 14px;border-bottom:1px solid var(--line)}
@@ -166,6 +178,7 @@ body.locked nav,body.locked main{display:none!important}
   <h2>مرصد الإنفاذ</h2>
   <h3 class="sec-h">التقارير الدولية للإنفاذ</h3>
   <div class="intl" id="intl"></div>
+  <div id="intl-tl"></div>
   <h3 class="sec-h">الأخبار</h3>
   <div class="filters" id="news-topics" aria-label="الموضوع"></div>
   <div class="filters"><span id="news-scopes" class="filters" style="margin:0"></span><input class="search" id="news-q" type="search" placeholder="بحث في الأخبار" aria-label="بحث"></div>
@@ -459,28 +472,61 @@ function untilText(days){
 function monthsDays(days){let m=Math.floor(days/30.4375),d=Math.round(days-m*30.4375);if(d>=30){m++;d=0}return m?`≈ ${m} ${m<11?"أشهر":"شهراً"}${d?` و${d} ${d<11?"أيام":"يوماً"}`:""}`:""}
 async function loadIntl(){
  let d;try{const r=await fetch("data/intl-reports.json?v="+Date.now());if(!r.ok)throw 0;d=await r.json()}catch{return}
- const wrap=$("#intl");wrap.replaceChildren();
+ const wrap=$("#intl");wrap.replaceChildren();loadTimeline(d.timeline);
  for(const r of d.reports||[]){
-  const n=nextRelease(r),card=el("article","card rcard"),[num,unit]=untilText(n.days);
+  const none=!!r.release.none,n=none?{days:0,year:0,today:0,prev:0,date:1}:nextRelease(r),card=el("article","card rcard"),[num,unit]=untilText(n.days);
   const h=el("h3");const a=el("a",null,r.name);a.href=r.url;a.target="_blank";a.rel="noopener noreferrer";a.style.color="inherit";h.append(a);
   const pub=el("div","pub");const pa=el("a",null,r.publisher);pa.href=r.url;pa.target="_blank";pa.rel="noopener noreferrer";pub.append(pa);
   const tags=el("div");tags.append(el("span","tag",r.cadence||""));if(r.release.approx)tags.append(el("span","tag","موعد تقديري"));
-  const cd=el("div","cd");cd.append(el("span","n",num));if(unit)cd.append(el("span","u",unit+" على الإصدار القادم"));else cd.append(el("span","u","موعد الإصدار المتوقع"));
-  const when=el("div","when");when.append(document.createTextNode(`${r.release.label} ${n.year}`));const md=monthsDays(n.days);if(md)when.append(el("small",null,"  ·  "+md));
+  const cd=el("div","cd");if(none)cd.append(el("span","n s",r.release.label));else{cd.append(el("span","n",num));if(unit)cd.append(el("span","u",unit+" على الإصدار القادم"));else cd.append(el("span","u","موعد الإصدار المتوقع"))}
+  const when=el("div","when");if(!none){when.append(document.createTextNode(`${r.release.label} ${n.year}`));const md=monthsDays(n.days);if(md)when.append(el("small",null,"  ·  "+md))}else when.append(document.createTextNode("لا يصدر العام الحالي"));
   const frac=Math.min(1,Math.max(0,(n.today-n.prev)/(n.date-n.prev)));
   const tr=el("div","track");tr.setAttribute("role","progressbar");tr.setAttribute("aria-valuenow",Math.round(frac*100));tr.setAttribute("aria-label","نسبة المدة المنقضية منذ الإصدار السابق");const bar=el("i");bar.style.width=Math.round(frac*100)+"%";tr.append(bar);
   const info=el("button","info","i");info.type="button";info.setAttribute("aria-label","تفاصيل التقرير ومؤشراته");info.setAttribute("aria-expanded","false");info.title="التفاصيل";
-  card.append(tags,h);if(r.nameEn)card.append(el("div","en",r.nameEn));card.append(pub,cd,when,tr,info);
+  card.append(tags,h);if(r.nameEn)card.append(el("div","en",r.nameEn));card.append(pub,cd,when);if(!none)card.append(tr);card.append(info);
   const det=el("div","detail");det.hidden=true;
   det.append(el("p",null,r.about||""));if(r.release.basis)det.append(el("p",null,"موعد الإصدار: "+r.release.basis));
+  if(r.saudi)det.append(saudiBlock(r.saudi));
+  if(r.concerns){det.append(el("div","grp","محاور اهتمام التقرير"));const ul=el("ul","conc");for(const c of r.concerns)ul.append(el("li",null,c));det.append(ul)}
   det.append(el("div","grp","المؤشرات وتعريفها ("+(r.indicators||[]).length+")"));
   info.onclick=()=>{det.hidden=!det.hidden;info.setAttribute("aria-expanded",String(!det.hidden))};
   const dl=el("dl");let g=null;
   for(const i of r.indicators||[]){
    if(i.group&&i.group!==g){g=i.group;dl.append(el("div","grp",g))}
-   const dt=el("dt",null,i.name);if(i.en)dt.append(el("span","en",i.en));dl.append(dt,el("dd",null,i.definition))}
+   const dt=el("dt",null,i.name);if(i.en)dt.append(el("span","en",i.en));dl.append(dt,el("dd",null,i.definition));
+   if(i.result){const x=i.result,sym={up:"▲",down:"▼",flat:"■"}[x.trend]||"■",lab={up:"تحسّن",down:"تراجع",flat:"دون تغيير"}[x.trend]||"";
+    const an=el("dd","an "+x.trend),b=el("b",null,`${sym} ${lab}: ${x.from} ← ${x.to}`);an.append(b,document.createTextNode(" — "+x.text));dl.append(an)}}
   det.append(dl);card.append(det);wrap.append(card);
  }
+}
+
+function saudiBlock(s){
+ const box=el("div","saudi");box.append(el("div","grp",s.title||"موقع المملكة"));
+ if(s.series&&s.series.length>1){
+  const W=300,H=90,P=22,v=s.series.map(p=>p.v),mn=Math.min(...v),mx=Math.max(...v),sp=(mx-mn)||1;
+  const X=i=>P+i*(W-2*P)/(v.length-1),Y=x=>s.good==="low"?P+(x-mn)/sp*(H-2*P):H-P-(x-mn)/sp*(H-2*P);
+  const last=v[v.length-1],prev=v[v.length-2],better=s.good==="low"?last<prev:last>prev,cls=last===prev?"flat":better?"up":"down";
+  const ns="http://www.w3.org/2000/svg",svg=document.createElementNS(ns,"svg");svg.setAttribute("viewBox",`0 0 ${W} ${H+14}`);svg.setAttribute("class","spark "+cls);svg.setAttribute("role","img");svg.setAttribute("aria-label",s.title+": "+s.series.map(p=>p.x+" "+p.v).join("، "));
+  const mk=(t,a,tx)=>{const e=document.createElementNS(ns,t);for(const k in a)e.setAttribute(k,a[k]);if(tx!=null)e.textContent=tx;svg.append(e);return e};
+  mk("polyline",{points:v.map((x,i)=>X(i)+","+Y(x)).join(" "),fill:"none","stroke-width":2});
+  v.forEach((x,i)=>{const l=i===v.length-1||i===0||x===mn||x===mx||v.length<=5;mk("circle",{cx:X(i),cy:Y(x),r:i===v.length-1?4:2.5,class:"pt"});
+   if(l)mk("text",{x:X(i),y:Y(x)+(s.good==="low"?15:-8),"text-anchor":"middle",class:"vl"},String(x))});
+  s.series.forEach((p,i)=>{if(i===0||i===v.length-1||v.length<=5)mk("text",{x:X(i),y:H+10,"text-anchor":"middle",class:"xl"},p.x)});
+  box.append(svg)}
+ if(s.summary){const p=el("p","sum",s.summary);if(s.status==="ok")p.classList.add("okk");box.append(p)}
+ return box;
+}
+function loadTimeline(t){
+ const w=$("#intl-tl");w.replaceChildren();if(!t)return;
+ w.append(el("h3","sec-h",`المسار الزمني لرصد وتحليل التقارير الدولية ${t.year}`));
+ const tb=el("table","tl"),hd=el("tr");hd.append(el("th",null,"التقرير"));for(const m of t.months)hd.append(el("th",null,m));tb.append(hd);
+ const sym={data:"●",input:"◆",release:"★"};
+ for(const r of t.rows){const tr=el("tr"),th=el("th",null,r.name);tr.append(th);
+  if(r.none){const td=el("td","none",r.none);td.colSpan=12;tr.append(td)}
+  else for(let m=1;m<=12;m++){const ph=r.phases.find(p=>p.m.includes(m)),td=el("td",ph?"ph "+ph.t:"");if(ph){td.textContent=sym[ph.t];td.title=t.types[ph.t]}tr.append(td)}
+  tb.append(tr)}
+ const sc=el("div","tlw");sc.append(tb);w.append(sc);
+ const lg=el("div","tlg");for(const k in t.types)lg.append(el("span","ph "+k,`${sym[k]} ${t.types[k]}`));w.append(lg);
 }
 
 /* ===== جمع منتجات المتجر ===== */
