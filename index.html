@@ -121,6 +121,10 @@ td.c.up{color:var(--ok);font-weight:700}td.c.down{color:var(--bad);font-weight:7
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-bottom:6px}.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--shadow)}
 .tile .tn{font-weight:700;font-size:.9rem;margin-bottom:4px}.tile .tv{font-size:2rem;font-weight:800;line-height:1.1}.tile .tv.ok{color:var(--ok)}.tile .ty{color:var(--muted);font-size:.82rem}
 .sumh .info{position:static}#intl-sum>.grp{margin:14px 0 6px;font-size:.85rem;color:var(--accent);font-weight:700}#intl-sum>.detail{margin:10px 0;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.rchart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:16px;box-shadow:var(--shadow)}
+.rc{display:grid;grid-template-columns:minmax(150px,260px) 1fr;gap:12px;align-items:center;padding:6px 0}.rc+.rc{border-top:1px solid var(--line)}.rn{font-weight:700;font-size:.9rem}
+.rt{display:flex;align-items:center;gap:10px;min-height:22px}.rt i{display:block;height:16px;border-radius:99px;background:var(--accent);flex:none}.rv{font-size:.85rem;white-space:nowrap}.rno{color:var(--muted);font-size:.85rem;font-style:italic}
+@media(max-width:640px){.rc{grid-template-columns:1fr;gap:4px}}
 .rcard .scp{color:var(--muted);font-size:.85rem;margin-top:2px}.rcard .stt{color:var(--ok);font-weight:700;font-size:.88rem;margin-top:6px}
 .cd .n.s{font-size:1.5rem}
 .saudi{margin:10px 0}.saudi .sum{margin:6px 0 0}.saudi .sum.okk{color:var(--ok);font-weight:700}
@@ -186,8 +190,9 @@ table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeaf
   <h2>مرصد الإنفاذ</h2>
   <div id="intl-sum"></div>
   <h3 class="sec-h">التقارير المعنية بالإنفاذ</h3>
-  <div class="intl" id="intl"></div>
+  <div id="intl-chart"></div>
   <div id="intl-tl"></div>
+  <div class="intl" id="intl"></div>
   <h3 class="sec-h">الأخبار</h3>
   <div class="filters" id="news-topics" aria-label="الموضوع"></div>
   <div class="filters"><span id="news-scopes" class="filters" style="margin:0"></span><input class="search" id="news-q" type="search" placeholder="بحث في الأخبار" aria-label="بحث"></div>
@@ -484,6 +489,7 @@ async function loadIntl(){
  let d;try{const r=await fetch("data/intl-reports.json?v="+Date.now());if(!r.ok)throw 0;d=await r.json()}catch{return}
  const wrap=$("#intl");wrap.replaceChildren();loadTimeline(d.timeline);loadSummary(d.reports||[]);
  const rs=(d.reports||[]).slice().sort((a,b)=>(a.release.none?1e9:nextRelease(a).days)-(b.release.none?1e9:nextRelease(b).days));
+ loadRelChart(rs);
  for(const r of rs){
   const none=!!r.release.none,n=none?{days:0,year:0,today:0,prev:0,date:1}:nextRelease(r),card=el("article","card rcard"),[num,unit]=untilText(n.days);
   const h=el("h3");const a=el("a",null,r.name);a.href=r.url;a.target="_blank";a.rel="noopener noreferrer";a.style.color="inherit";h.append(a);
@@ -562,6 +568,16 @@ function loadSummary(reps){
  for(const x of ser)if(x.summary)det.append(el("p",null,x.name+": "+x.summary));
  for(const x of inds)det.append(el("p",null,`${x.name} (${x.src}): ${x.text}`));
  w.append(det);
+}
+function loadRelChart(rs){
+ const w=$("#intl-chart");w.replaceChildren();
+ const rows=rs.map(r=>{const none=!!r.release.none,n=none?null:nextRelease(r);return{name:r.name,none,days:n?n.days:0,txt:none?"لا يصدر العام الحالي":`${r.release.label} ${n.year}`,mo:r.release.month}});
+ const mx=Math.max(30,...rows.map(r=>r.days)),box=el("div","rchart");
+ box.setAttribute("role","img");box.setAttribute("aria-label","أيام متبقية على إصدار كل تقرير: "+rows.map(r=>r.name+" "+(r.none?"لا يصدر":r.days+" يوماً")).join("، "));
+ for(const r of rows){const row=el("div","rc"),nm=el("div","rn",r.name),tr=el("div","rt"),bar=el("i");
+  if(r.none)tr.append(el("span","rno",r.txt));else{bar.style.width=Math.max(3,r.days/mx*62)+"%";tr.append(bar,el("span","rv",`${r.days} يوماً · ${r.txt}`))}
+  row.append(nm,tr);box.append(row)}
+ w.append(el("h3","sec-h","موعد صدور التقارير القادمة (الأيام المتبقية)"),box);
 }
 function loadTimeline(t){
  const w=$("#intl-tl");w.replaceChildren();if(!t)return;
