@@ -66,7 +66,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir _site
-          cp -r index.html config.js vendor data assets _site/
+          cp -r index.html config.js vendor data assets saudi-market _site/
           node extension/build.mjs
           (cd extension && zip -qr ../_site/ipw-extension.zip . -x build.mjs)
       - uses: actions/upload-pages-artifact@v3

@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>السوق السعودي — متابعة يومية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font-anthropic-sans: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-anthropic-serif: "Noto Naskh Arabic", Georgia, serif;
+  --color-fg: #1d1d1b; --color-fg-muted: #6b6a65; --color-bg: #faf9f6; --color-panel: #ffffff;
+  --color-border-line: #e4e2dc; --color-ok: #1f7a46; --color-warn: #a86300; --color-bad: #c0392b;
+  --cds-font-size-caption: 12px; --cds-font-size-body: 14px; --cds-font-size-heading: 17px; --cds-font-size-title: 28px;
+  --cds-font-weight-medium: 600; --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 16px; --cds-gap-lg: 20px; --cds-gap-xl: 32px;
+  --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 18px; --cds-radius: 10px;
+  --cds-chart-muted: #c9c6bd; --cds-chart-status-critical: #c0392b; --cds-chart-grid: #eeece6; --cds-chart-axis: #b9b6ad; --cds-chart-reference: #8a877e;
+  --cds-surface-popover: #ffffff; --cds-border: #dcd9d1; --cds-shadow-popover: 0 4px 16px rgba(0,0,0,.12); --cds-text-secondary: #6b6a65; --cds-dur-slow: .3s;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-fg: #ecebe6; --color-fg-muted: #a3a19a; --color-bg: #1b1b19; --color-panel: #252522; --color-border-line: #3a3935;
+    --color-ok: #5cc78a; --color-warn: #e0a24a; --color-bad: #ef6b5b;
+    --cds-chart-muted: #55534d; --cds-chart-status-critical: #ef6b5b; --cds-chart-grid: #302f2b; --cds-chart-axis: #5e5c56; --cds-chart-reference: #8a877e;
+    --cds-surface-popover: #2c2c29; --cds-border: #45433e; --cds-text-secondary: #a3a19a;
+  }
+}
+html, body { margin: 0; background: var(--color-bg); color: var(--color-fg); }
+#dash-root { max-width: 1200px; margin-inline: auto; padding: 24px 16px 48px; font-family: var(--font-anthropic-sans); }
+.dash-skeleton { color: transparent !important; background: var(--color-border-line); border-radius: 6px; min-width: 3em; }
+.foot { margin-top: 32px; font-size: 12px; color: var(--color-fg-muted); line-height: 1.7; }
+</style>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script>
+// Minimal stand-in for the dashboard runtime: loads data/*.json and runs calcs.
+window.dash = (() => {
+  const ids = ['stocks', 'tasi', 'companies', 'fin', 'notes'];
+  const store = {}; const calcs = {}; const cbs = [];
+  ids.forEach((id) => { store[id] = { status: 'loading', data: [] }; });
+  const run = () => cbs.forEach((fn) => { try { fn(); } catch (e) { console.error(e); } });
+  ids.forEach((id) => fetch('data/' + id + '.json').then((r) => r.json())
+    .then((d) => { store[id] = { status: 'ok', data: d, columns: d.length ? Object.keys(d[0]) : [] }; run(); })
+    .catch((e) => { store[id] = { status: 'error', data: [], message: String(e) }; run(); }));
+  let lastW = 0;
+  window.addEventListener('resize', () => { if (Math.abs(innerWidth - lastW) > 4) { lastW = innerWidth; run(); } });
+  return {
+    colors: ['#2f6fdb', '#d9822b', '#3a9d5d', '#9b59b6', '#c0392b', '#16a085', '#7f8c8d', '#e1b12c'],
+    data(id) {
+      if (calcs[id]) {
+        const ins = calcs[id].inputs.map((i) => this.data(i));
+        if (ins.some((x) => x.status === 'error')) return { status: 'error', data: [] };
+        if (ins.some((x) => x.status !== 'ok')) return { status: 'loading', data: [] };
+        try { return { status: 'ok', data: calcs[id].fn(...ins.map((x) => x.data)) }; } catch (e) { return { status: 'error', data: [] }; }
+      }
+      return store[id] || { status: 'missing', data: [] };
+    },
+    onData(fn) { cbs.push(fn); try { fn(); } catch (e) { console.error(e); } },
+    calc(id, spec) { calcs[id] = spec; },
+    setLink(name) { try { history.replaceState(null, '', '#' + name); } catch (e) {} },
+    params: () => ({}), setParams() {}, resetParams() {}, refresh() {},
+  };
+})();
+</script>
+<div id="dash-root">
+<div class="sx" dir="rtl">
+  <style>
+    #dash-root .sx { font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+    .sx h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0 0 var(--cds-gap-xs); }
+    .sx .lead { color: var(--color-fg-muted); font-size: var(--cds-font-size-body); margin: 0 0 var(--cds-gap-lg); min-height: 1.4em; }
+    .sx .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); margin-bottom: var(--cds-gap-md); }
+    .sx .card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+    .sx .note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 var(--cds-gap-md); }
+    .sx .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr)); gap: var(--cds-gap-md); }
+    .sx .tile .lbl { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+    .sx .tile .val { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; direction: ltr; text-align: right; }
+    .sx .up { color: var(--color-ok); }
+    .sx .down { color: var(--color-bad); }
+    .sx .tools { display: flex; gap: var(--cds-gap-sm); align-items: center; margin-bottom: var(--cds-gap-sm); flex-wrap: wrap; }
+    .sx .tools input { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); background: var(--color-bg); color: var(--color-fg); min-width: 0; flex: 1 1 12rem; max-width: 20rem; }
+    .sx .tbl-wrap { max-height: 32rem; overflow: auto; }
+    .sx table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+    .sx th, .sx td { padding: var(--cds-pad-xs) var(--cds-pad-sm); text-align: right; white-space: nowrap; border-bottom: 1px solid var(--color-border-line); }
+    .sx th { position: sticky; top: 0; background: var(--color-panel); font-weight: var(--cds-font-weight-medium); }
+    .sx th button { all: unset; cursor: pointer; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+    .sx th[aria-sort] button { color: var(--color-fg); }
+    .sx td.num { direction: ltr; text-align: right; }
+    .sx td.muted { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+    .sx .chart-box { position: relative; min-height: 22rem; }
+    .sx .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; display: none; z-index: 2; }
+    .sx .tip .h { color: var(--cds-text-secondary); margin-bottom: 2px; }
+    .sx .legend { display: flex; gap: var(--cds-gap-md); flex-wrap: wrap; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-bottom: var(--cds-gap-sm); }
+    .sx .legend i { display: inline-block; vertical-align: middle; margin-left: 6px; }
+    .sx .fail { display: flex; align-items: center; justify-content: center; gap: 8px; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); min-height: inherit; }
+    .sx .fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+    .sx .tabs { display: flex; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); margin: var(--cds-gap-sm) 0 var(--cds-gap-lg); flex-wrap: wrap; }
+    .sx .tab { all: unset; cursor: pointer; padding: var(--cds-pad-sm) var(--cds-pad-md); font-size: var(--cds-font-size-body); color: var(--color-fg-muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+    .sx .tab[aria-selected=true] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+    .sx .warn-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); border-inline-start: 3px solid var(--color-warn); padding-inline-start: var(--cds-pad-sm); margin: 0 0 var(--cds-gap-lg); }
+    .sx .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-md); }
+    .sx .grid2 .card { margin-bottom: 0; }
+    .sx .chart-box.sm { min-height: 15rem; }
+    .sx h2.sec { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-xl) 0 var(--cds-gap-sm); }
+    .sx .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: var(--cds-gap-md); margin-bottom: var(--cds-gap-md); }
+    .sx .co { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); }
+    .sx .co-h { display: flex; justify-content: space-between; align-items: baseline; gap: var(--cds-gap-sm); }
+    .sx .co-name { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+    .sx .co-sym { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+    .sx .stance { font-size: var(--cds-font-size-caption); padding: 2px var(--cds-pad-sm); border-radius: 999px; border: 1px solid var(--color-border-line); white-space: nowrap; }
+    .sx .stance.pos { color: var(--color-ok); } .sx .stance.neu { color: var(--color-fg-muted); } .sx .stance.cau { color: var(--color-warn); }
+    .sx .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--cds-gap-sm); }
+    .sx .kpi .lbl { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+    .sx .kpi .v { font-family: var(--font-anthropic-serif); font-size: var(--cds-font-size-heading); font-variant-numeric: tabular-nums; direction: ltr; text-align: right; }
+    .sx .co h3 { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-xs) 0 0; }
+    .sx .co p { margin: 0; font-size: var(--cds-font-size-body); line-height: 1.6; }
+    .sx .co .sm { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+    .sx table.fin tr.grp td { border-top: 2px solid var(--color-border-line); }
+    .sx [data-dash-source-state=empty] { color: transparent; }
+    .sx [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  </style>
+
+  <h1>السوق السعودي — متابعة يومية</h1>
+  <nav class="tabs" role="tablist">
+    <button class="tab" role="tab" data-tab="today" id="tab-today">حركة اليوم</button>
+    <button class="tab" role="tab" data-tab="leaders" id="tab-leaders">أبرز 6 شركات وقوائمها المالية</button>
+  </nav>
+
+  <div class="pg" id="today">
+  <header id="top">
+    <p class="lead dash-skeleton" data-source="stocks">—</p>
+  </header>
+
+  <section class="card" id="tasi">
+    <h2>مؤشر السوق الرئيسي (تاسي)</h2>
+    <p class="note">آخر جلسة مكتملة: <span class="tasi-date dash-skeleton" data-source="tasi" data-field="date" data-row="0">—</span></p>
+    <div class="tiles">
+      <div class="tile"><div class="lbl">الافتتاح</div><div class="val dash-skeleton" data-source="tasi" data-field="open" data-row="0">—</div></div>
+      <div class="tile"><div class="lbl">أعلى سعر</div><div class="val dash-skeleton" data-source="tasi" data-field="high" data-row="0">—</div></div>
+      <div class="tile"><div class="lbl">أدنى سعر (القاع)</div><div class="val dash-skeleton" data-source="tasi" data-field="low" data-row="0">—</div></div>
+      <div class="tile"><div class="lbl">الإغلاق</div><div class="val dash-skeleton" data-source="tasi" data-field="close" data-row="0">—</div></div>
+      <div class="tile"><div class="lbl">التغير %</div><div class="val tasi-chg dash-skeleton" data-source="tasi" data-field="change_pct" data-row="0">—</div></div>
+    </div>
+  </section>
+
+  <section class="card" id="ranges">
+    <h2>نطاق حركة كل سهم مقارنة بإغلاق اليوم السابق</h2>
+    <p class="note">الخط من القاع إلى أعلى سعر، والشرطة = الافتتاح، والنقطة = آخر سعر. الصفر = إغلاق الجلسة السابقة.</p>
+    <div class="legend"><span><i style="width:18px;height:4px;border-radius:2px;background:var(--cds-chart-muted)"></i>النطاق</span><span><i style="width:2px;height:12px;background:var(--color-fg)"></i>الافتتاح</span><span><i style="width:8px;height:8px;border-radius:50%;background:var(--cds-chart-status-critical)"></i>آخر سعر</span></div>
+    <div class="chart-box dash-skeleton" id="range-chart" data-source="ranges"></div>
+  </section>
+
+  <section class="card" id="table">
+    <h2>أبرز الشركات: الافتتاح والقمة والقاع</h2>
+    <p class="note">الأسعار بالريال. عمود «آخر تحديث» يوضح توقيت لقطة كل سهم (بتوقيت الرياض).</p>
+    <div class="tools"><input class="sx-q" type="search" placeholder="ابحث باسم الشركة أو الرمز" aria-label="بحث"></div>
+    <div class="tbl-wrap">
+      <table data-source="stocks" data-row-key="symbol">
+        <thead><tr>
+          <th data-field="symbol"><button>الرمز</button></th>
+          <th data-field="name"><button>الشركة</button></th>
+          <th data-field="open"><button>الافتتاح</button></th>
+          <th data-field="high"><button>أعلى</button></th>
+          <th data-field="low"><button>أدنى</button></th>
+          <th data-field="last"><button>آخر سعر</button></th>
+          <th data-field="change_pct"><button>التغير %</button></th>
+          <th data-field="volume"><button>الكمية</button></th>
+          <th data-field="as_of"><button>آخر تحديث</button></th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+  </div>
+
+  <div class="pg" id="leaders" hidden>
+    <p class="lead lead2 dash-skeleton" data-source="companies">—</p>
+    <p class="warn-note">قراءة مبنية على آخر قوائم مالية منشورة (النصف الأول 2026) وتقديرات المحللين المنشورة، وليست توصية بالشراء أو البيع.</p>
+
+    <div class="grid2">
+      <section class="card" id="ytd-card">
+        <h2>الأداء منذ بداية 2026</h2>
+        <p class="note">نسبة تغير السهم منذ أول يناير، حسب آخر قراءة منشورة.</p>
+        <div class="chart-box sm dash-skeleton" id="ytd-chart" data-source="companies"></div>
+      </section>
+      <section class="card" id="upside-card">
+        <h2>المسافة إلى متوسط السعر المستهدف</h2>
+        <p class="note">الفرق بين السعر الحالي ومتوسط أهداف المحللين. MIS بلا تغطية كافية.</p>
+        <div class="chart-box sm dash-skeleton" id="upside-chart" data-source="upside"></div>
+      </section>
+    </div>
+
+    <h2 class="sec" id="top-cap">أكبر 3 شركات بالقيمة السوقية</h2>
+    <div class="cards" data-group="top_cap"></div>
+
+    <h2 class="sec" id="top-perf">أفضل 3 شركات أداءً منذ بداية 2026</h2>
+    <p class="note">من الشركات التي تزيد قيمتها السوقية على 5 مليارات ريال.</p>
+    <div class="cards" data-group="top_perf"></div>
+
+    <section class="card" id="fin-card">
+      <h2>القوائم المالية: النصف الأول 2026 مقابل 2025</h2>
+      <p class="note">بالمليون ريال. الأرقام السالبة خسارة.</p>
+      <div class="tbl-wrap">
+        <table class="fin" data-source="fin" data-row-key="symbol,metric">
+          <thead><tr>
+            <th data-field="name">الشركة</th>
+            <th data-field="metric">البند</th>
+            <th data-field="h1_2026">النصف الأول 2026</th>
+            <th data-field="h1_2025">النصف الأول 2025</th>
+            <th data-source="fin_yoy" data-field="yoy_pct">التغير</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script>
+dash.calc('ranges', {
+  inputs: ['stocks'],
+  title: 'النطاق مقارنة بالإغلاق السابق',
+  description: 'الافتتاح والقمة والقاع وآخر سعر كنسبة مئوية من إغلاق الجلسة السابقة لكل سهم.',
+  fn: (stocks) => stocks.map((s) => {
+    const p = Number(s.prev_close);
+    const pct = (v) => (Number(v) / p - 1) * 100;
+    return { symbol: s.symbol, name: s.name, open_pct: pct(s.open), high_pct: pct(s.high), low_pct: pct(s.low), last_pct: pct(s.last) };
+  }),
+});
+
+(function () {
+  const f2 = d3.format(',.2f');
+  const fInt = d3.format(',');
+  const fPct = (v) => (v > 0 ? '+' : v < 0 ? '−' : '') + d3.format('.2f')(Math.abs(v)) + '%';
+  const cls = (v) => (v > 0 ? 'up' : v < 0 ? 'down' : '');
+
+  // ---------- TASI tiles + lead ----------
+  dash.onData(() => {
+    const t = dash.data('tasi');
+    document.querySelectorAll('[data-source="tasi"]').forEach((el) => {
+      if (t.status === 'ok' && t.data.length) {
+        el.classList.remove('dash-skeleton');
+        const r = t.data[0];
+        const f = el.dataset.field;
+        const v = r[f];
+        if (f === 'date') el.textContent = v;
+        else if (f === 'change_pct') { el.textContent = fPct(Number(v)); el.className = 'val tasi-chg ' + cls(Number(v)); }
+        else el.textContent = f2(Number(v));
+      } else if (t.status !== 'loading') { el.classList.remove('dash-skeleton'); el.textContent = '—'; }
+    });
+
+    const s = dash.data('stocks');
+    const lead = document.querySelector('.lead');
+    if (s.status === 'ok' && s.data.length) {
+      lead.classList.remove('dash-skeleton');
+      const rows = s.data.map((r) => ({ ...r, c: Number(r.change_pct) }));
+      const down = rows.filter((r) => r.c < 0).length;
+      const up = rows.filter((r) => r.c > 0).length;
+      const worst = rows.reduce((a, b) => (b.c < a.c ? b : a));
+      const best = rows.reduce((a, b) => (b.c > a.c ? b : a));
+      let txt = `من ${rows.length} شركات قيادية: ${up} مرتفعة و${down} منخفضة. `;
+      txt += `الأكثر تراجعًا ${worst.name} (${fPct(worst.c)})`;
+      if (best.c > 0) txt += `، والأفضل أداءً ${best.name} (${fPct(best.c)})`;
+      else txt += `، والأقل تراجعًا ${best.name} (${fPct(best.c)})`;
+      lead.textContent = txt + '.';
+    } else if (s.status !== 'loading') { lead.classList.remove('dash-skeleton'); lead.textContent = ''; }
+  });
+
+  // ---------- Table ----------
+  const table = document.querySelector('.sx table');
+  const tbody = table.querySelector('tbody');
+  const q = document.querySelector('.sx-q');
+  const numeric = new Set(['open', 'high', 'low', 'last', 'change_pct', 'volume']);
+  let sortKey = 'change_pct', sortDir = 'ascending';
+
+  table.querySelectorAll('th').forEach((th) => {
+    th.querySelector('button').addEventListener('click', () => {
+      const k = th.dataset.field;
+      sortDir = sortKey === k && sortDir === 'descending' ? 'ascending' : 'descending';
+      sortKey = k;
+      drawTable();
+    });
+  });
+  q.addEventListener('input', () => drawTable());
+
+  function drawTable() {
+    const s = dash.data('stocks');
+    table.querySelectorAll('th').forEach((th) => th.toggleAttribute('aria-sort', th.dataset.field === sortKey) && th.setAttribute('aria-sort', sortDir));
+    tbody.replaceChildren();
+    if (s.status !== 'ok') return;
+    const term = q.value.trim();
+    let rows = s.data.filter((r) => !term || String(r.name).includes(term) || String(r.symbol).includes(term));
+    rows = rows.slice().sort((a, b) => {
+      const x = numeric.has(sortKey) ? Number(a[sortKey]) : String(a[sortKey]);
+      const y = numeric.has(sortKey) ? Number(b[sortKey]) : String(b[sortKey]);
+      const c = x < y ? -1 : x > y ? 1 : 0;
+      return sortDir === 'ascending' ? c : -c;
+    });
+    rows.forEach((r) => {
+      const tr = document.createElement('tr');
+      const td = (text, c) => { const e = document.createElement('td'); e.textContent = text; if (c) e.className = c; tr.appendChild(e); };
+      td(r.symbol);
+      td(r.name);
+      td(f2(Number(r.open)), 'num');
+      td(f2(Number(r.high)), 'num');
+      td(f2(Number(r.low)), 'num');
+      td(f2(Number(r.last)), 'num');
+      td(fPct(Number(r.change_pct)), 'num ' + cls(Number(r.change_pct)));
+      td(fInt(Number(r.volume)), 'num');
+      td(r.as_of, 'muted');
+      tbody.appendChild(tr);
+    });
+  }
+  dash.onData(drawTable);
+
+  // ---------- Range chart ----------
+  const box = document.getElementById('range-chart');
+  const drawRange = () => {
+    if (document.getElementById('today').hidden) return;
+    const d = dash.data('ranges');
+    box.replaceChildren();
+    if (d.status === 'error') { box.classList.remove('dash-skeleton'); const f = document.createElement('div'); f.className = 'fail'; f.textContent = 'Failed to load'; box.appendChild(f); return; }
+    if (d.status !== 'ok' || !d.data.length) return;
+    box.classList.remove('dash-skeleton');
+    const rows = d.data.slice().sort((a, b) => a.last_pct - b.last_pct);
+    const W = Math.max(280, box.clientWidth);
+    const rowH = 32, mt = 8, mb = 28;
+    const H = mt + mb + rows.length * rowH;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).style('direction', 'ltr').style('display', 'block');
+
+    // measure names
+    const meas = svg.append('g').attr('font-size', 12);
+    let mr = 0;
+    rows.forEach((r) => { const t = meas.append('text').text(r.name); mr = Math.max(mr, t.node().getComputedTextLength()); });
+    meas.remove();
+    mr = Math.min(mr + 16, W * 0.45);
+    const ml = 16;
+
+    const lo = d3.min(rows, (r) => Math.min(r.low_pct, 0));
+    const hi = d3.max(rows, (r) => Math.max(r.high_pct, 0));
+    const pad = (hi - lo) * 0.06 || 0.5;
+    const x = d3.scaleLinear([lo - pad, hi + pad], [ml, W - mr]).nice();
+    const y = d3.scaleBand(rows.map((r) => r.symbol), [mt, H - mb]).padding(0.35);
+
+    const ax = svg.append('g').attr('transform', `translate(0,${H - mb})`)
+      .call(d3.axisBottom(x).ticks(Math.max(3, Math.floor((W - mr - ml) / 70))).tickFormat((v) => d3.format('+.1f')(v).replace('+0.0', '0') + '%').tickSizeOuter(0))
+      .attr('font-size', null).attr('font-family', null);
+    ax.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)');
+    ax.select('.domain').attr('stroke', 'var(--cds-chart-axis)');
+    ax.selectAll('.tick line').attr('stroke', 'var(--cds-chart-axis)');
+    svg.append('g').selectAll('line').data(x.ticks(Math.max(3, Math.floor((W - mr - ml) / 70)))).join('line')
+      .attr('x1', (v) => x(v)).attr('x2', (v) => x(v)).attr('y1', mt).attr('y2', H - mb).attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', mt).attr('y2', H - mb)
+      .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3');
+
+    const g = svg.append('g').selectAll('g').data(rows).join('g').attr('transform', (r) => `translate(0,${y(r.symbol) + y.bandwidth() / 2})`);
+    g.append('text').attr('x', W - mr + 10).attr('dy', '0.35em').attr('text-anchor', 'start').attr('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').text((r) => r.name);
+    g.append('line').attr('x1', (r) => x(r.low_pct)).attr('x2', (r) => Math.max(x(r.high_pct), x(r.low_pct) + 1))
+      .attr('stroke', 'var(--cds-chart-muted)').attr('stroke-width', 6).attr('stroke-linecap', 'round');
+    g.append('line').attr('x1', (r) => x(r.open_pct)).attr('x2', (r) => x(r.open_pct)).attr('y1', -8).attr('y2', 8)
+      .attr('stroke', 'var(--color-fg)').attr('stroke-width', 2);
+    g.append('circle').attr('cx', (r) => x(r.last_pct)).attr('r', 5)
+      .attr('fill', (r) => (r.last_pct < 0 ? 'var(--cds-chart-status-critical)' : dash.colors[0]));
+
+    const tip = document.createElement('div'); tip.className = 'tip'; box.appendChild(tip);
+    g.append('rect').attr('x', ml).attr('y', -y.step() / 2).attr('width', W - ml).attr('height', y.step()).attr('fill', 'transparent')
+      .on('mousemove', (ev, r) => {
+        tip.replaceChildren();
+        const h = document.createElement('div'); h.className = 'h'; h.textContent = r.name + ' (' + r.symbol + ')'; tip.appendChild(h);
+        [['الافتتاح', r.open_pct], ['أعلى', r.high_pct], ['أدنى', r.low_pct], ['آخر سعر', r.last_pct]].forEach(([k, v]) => {
+          const l = document.createElement('div'); l.textContent = k + ': ' + fPct(v); tip.appendChild(l);
+        });
+        tip.style.display = 'block';
+        const [mx, my] = d3.pointer(ev, box);
+        const tw = tip.offsetWidth, th = tip.offsetHeight;
+        tip.style.left = Math.min(Math.max(0, mx + 12), box.clientWidth - tw) + 'px';
+        tip.style.top = Math.max(0, my - th - 8) + 'px';
+      })
+      .on('mouseleave', () => { tip.style.display = 'none'; });
+  };
+  dash.onData(drawRange);
+  window.sxRedraw = window.sxRedraw || [];
+  window.sxRedraw.push(drawRange);
+})();
+</script>
+
+<script>
+dash.calc('upside', {
+  inputs: ['companies'],
+  title: 'المسافة إلى السعر المستهدف',
+  description: 'متوسط السعر المستهدف للمحللين مقسومًا على السعر الحالي ناقص 1، كنسبة مئوية.',
+  fn: (companies) => companies
+    .filter((c) => c.target_avg != null && Number(c.analysts) > 0)
+    .map((c) => ({ symbol: c.symbol, name: c.name, upside_pct: (Number(c.target_avg) / Number(c.price) - 1) * 100 })),
+});
+dash.calc('fin_yoy', {
+  inputs: ['fin'],
+  title: 'التغير السنوي في البنود المالية',
+  description: 'نسبة التغير بين النصف الأول 2026 والنصف الأول 2025؛ فارغة حين تكون قيمة 2025 سالبة (تحول من خسارة).',
+  fn: (fin) => fin.map((r) => ({
+    symbol: r.symbol, metric: r.metric,
+    yoy_pct: Number(r.h1_2025) > 0 ? (Number(r.h1_2026) / Number(r.h1_2025) - 1) * 100 : null,
+  })),
+});
+
+(function () {
+  const f2 = d3.format(',.2f');
+  const f1 = d3.format(',.1f');
+  const fMn = d3.format(',.0f');
+  const fPct = (v) => (v > 0 ? '+' : v < 0 ? '−' : '') + d3.format('.1f')(Math.abs(v)) + '%';
+  const cls = (v) => (v > 0 ? 'up' : v < 0 ? 'down' : '');
+  const enc = encodeURIComponent;
+
+  // ---------- Tabs ----------
+  const tabs = document.querySelectorAll('.sx .tab');
+  const show = (name) => {
+    document.querySelectorAll('.sx .pg').forEach((p) => { p.hidden = p.id !== name; });
+    tabs.forEach((t) => t.setAttribute('aria-selected', String(t.dataset.tab === name)));
+    dash.setLink(name);
+    (window.sxRedraw || []).forEach((fn) => fn());
+  };
+  tabs.forEach((t) => t.addEventListener('click', () => show(t.dataset.tab)));
+  const named = location.hash.slice(1);
+  show(named === 'leaders' ? 'leaders' : 'today');
+
+  // ---------- Bar chart helper ----------
+  function bars(box, rows, valueKey, src) {
+    box.replaceChildren();
+    const W = Math.max(260, box.clientWidth);
+    const rowH = 34, mt = 6, mb = 26;
+    const H = mt + mb + rows.length * rowH;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).style('direction', 'ltr').style('display', 'block');
+    const meas = svg.append('g').style('font-size', 'var(--cds-font-size-caption)');
+    let mr = 0;
+    rows.forEach((r) => { const t = meas.append('text').text(r.name); mr = Math.max(mr, t.node().getComputedTextLength()); });
+    let vl = 0;
+    rows.forEach((r) => { const t = meas.append('text').text(fPct(r[valueKey])); vl = Math.max(vl, t.node().getComputedTextLength()); });
+    meas.remove();
+    mr = Math.min(mr + 14, W * 0.45);
+    const ml = vl + 10;
+    const lo = Math.min(0, d3.min(rows, (r) => r[valueKey]));
+    const hi = Math.max(0, d3.max(rows, (r) => r[valueKey]));
+    const x = d3.scaleLinear([lo, hi], [ml, W - mr - vl - 8]).nice();
+    const y = d3.scaleBand(rows.map((r) => r.symbol), [mt, H - mb]).padding(0.3);
+    const ticks = Math.max(2, Math.floor((W - mr - ml) / 80));
+    svg.append('g').selectAll('line').data(x.ticks(ticks)).join('line')
+      .attr('x1', (v) => x(v)).attr('x2', (v) => x(v)).attr('y1', mt).attr('y2', H - mb).attr('stroke', 'var(--cds-chart-grid)');
+    const ax = svg.append('g').attr('transform', `translate(0,${H - mb})`)
+      .call(d3.axisBottom(x).ticks(ticks).tickFormat((v) => d3.format('.0f')(v) + '%').tickSizeOuter(0))
+      .attr('font-size', null).attr('font-family', null);
+    ax.selectAll('text').attr('fill', 'var(--color-fg-muted)').style('font-size', 'var(--cds-font-size-caption)');
+    ax.select('.domain').remove();
+    ax.selectAll('.tick line').attr('stroke', 'var(--cds-chart-axis)');
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', mt).attr('y2', H - mb).attr('stroke', 'var(--cds-chart-axis)');
+    const g = svg.append('g').selectAll('g').data(rows).join('g').attr('transform', (r) => `translate(0,${y(r.symbol)})`);
+    g.append('rect')
+      .attr('x', (r) => x(Math.min(0, r[valueKey]))).attr('width', (r) => Math.max(1, Math.abs(x(r[valueKey]) - x(0))))
+      .attr('height', Math.min(y.bandwidth(), 24)).attr('y', (y.bandwidth() - Math.min(y.bandwidth(), 24)) / 2).attr('rx', 4)
+      .attr('fill', (r) => (r[valueKey] < 0 ? 'var(--cds-chart-status-critical)' : dash.colors[0]))
+      .attr('data-source', src).attr('data-field', valueKey).attr('data-where', (r) => 'symbol=' + enc(r.symbol));
+    g.append('text').attr('y', y.bandwidth() / 2).attr('dy', '0.35em')
+      .attr('x', (r) => (r[valueKey] < 0 ? x(r[valueKey]) - 6 : x(r[valueKey]) + 6))
+      .attr('text-anchor', (r) => (r[valueKey] < 0 ? 'end' : 'start'))
+      .attr('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').style('font-variant-numeric', 'tabular-nums')
+      .text((r) => fPct(r[valueKey]));
+    g.append('text').attr('x', W - mr + 10).attr('y', y.bandwidth() / 2).attr('dy', '0.35em').attr('text-anchor', 'start')
+      .attr('fill', 'var(--color-fg)').style('font-size', 'var(--cds-font-size-caption)').text((r) => r.name);
+  }
+  const failLine = (box) => { box.classList.remove('dash-skeleton'); box.replaceChildren(); const f = document.createElement('div'); f.className = 'fail'; f.textContent = 'Failed to load'; box.appendChild(f); };
+
+  function drawLeaders() {
+    if (document.getElementById('leaders').hidden) return;
+    const c = dash.data('companies');
+    const n = dash.data('notes');
+    const u = dash.data('upside');
+
+    // lead
+    const lead = document.querySelector('.lead2');
+    if (c.status === 'ok' && c.data.length) {
+      lead.classList.remove('dash-skeleton');
+      const rows = c.data.map((r) => ({ ...r, y: Number(r.ytd_pct) }));
+      const best = rows.reduce((a, b) => (b.y > a.y ? b : a));
+      const cap = rows.filter((r) => r.group === 'top_cap');
+      const capDown = cap.filter((r) => r.y < 0).map((r) => r.name);
+      let t = `${best.name} الأعلى صعودًا منذ بداية العام (${fPct(best.y)}). `;
+      if (capDown.length) t += `بين أكبر الشركات قيمةً، ${capDown.join(' و')} ما زالت في المنطقة السالبة رغم نمو أرباحها.`;
+      lead.textContent = t;
+    } else if (c.status !== 'loading') { lead.classList.remove('dash-skeleton'); lead.textContent = ''; }
+
+    // YTD chart
+    const yb = document.getElementById('ytd-chart');
+    if (c.status === 'ok') {
+      yb.classList.remove('dash-skeleton');
+      bars(yb, c.data.map((r) => ({ symbol: r.symbol, name: r.name, ytd_pct: Number(r.ytd_pct) })).sort((a, b) => b.ytd_pct - a.ytd_pct), 'ytd_pct', 'companies');
+    } else if (c.status === 'error') failLine(yb); else yb.replaceChildren();
+
+    // Upside chart
+    const ub = document.getElementById('upside-chart');
+    if (u.status === 'ok') {
+      ub.classList.remove('dash-skeleton');
+      bars(ub, u.data.slice().sort((a, b) => b.upside_pct - a.upside_pct), 'upside_pct', 'upside');
+    } else if (u.status === 'error') failLine(ub); else ub.replaceChildren();
+
+    // Cards
+    document.querySelectorAll('.sx .cards').forEach((wrap) => {
+      wrap.replaceChildren();
+      if (c.status !== 'ok') return;
+      const notes = n.status === 'ok' ? n.data : [];
+      const ups = u.status === 'ok' ? u.data : [];
+      c.data.filter((r) => r.group === wrap.dataset.group)
+        .sort((a, b) => (wrap.dataset.group === 'top_cap' ? b.market_cap_bn - a.market_cap_bn : b.ytd_pct - a.ytd_pct))
+        .forEach((r) => {
+          const w = 'symbol=' + enc(r.symbol);
+          const el = (tag, cl, text, src, field) => {
+            const e = document.createElement(tag);
+            if (cl) e.className = cl;
+            if (text != null) e.textContent = text;
+            if (src) { e.dataset.source = src; e.dataset.field = field; e.dataset.where = w; }
+            return e;
+          };
+          const card = el('article', 'co'); card.id = 'co-' + r.symbol;
+          const note = notes.find((x) => String(x.symbol) === String(r.symbol));
+          const up = ups.find((x) => String(x.symbol) === String(r.symbol));
+
+          const h = el('div', 'co-h');
+          const nm = el('div'); nm.append(el('div', 'co-name', r.name, 'companies', 'name'), el('div', 'co-sym', `${r.symbol} · ${r.sector}`));
+          h.append(nm);
+          if (note) {
+            const s = note.stance;
+            h.append(el('span', 'stance ' + (s.includes('إيجابي') ? 'pos' : s.includes('حذر') ? 'cau' : 'neu'), s, 'notes', 'stance'));
+          }
+          card.append(h);
+
+          const k = el('div', 'kpis');
+          const kpi = (lbl, v, c2, src, field) => { const d = el('div', 'kpi'); d.append(el('div', 'lbl', lbl)); d.append(el('div', 'v ' + (c2 || ''), v, src, field)); k.append(d); };
+          kpi('السعر', f2(Number(r.price)), '', 'companies', 'price');
+          kpi('القيمة السوقية (مليار)', f1(Number(r.market_cap_bn)), '', 'companies', 'market_cap_bn');
+          kpi('منذ بداية العام', fPct(Number(r.ytd_pct)), cls(Number(r.ytd_pct)), 'companies', 'ytd_pct');
+          kpi('مكرر الربحية', r.pe != null ? f1(Number(r.pe)) + '×' : '—', '', 'companies', 'pe');
+          kpi('عائد التوزيع', r.div_yield != null ? f2(Number(r.div_yield)) + '%' : 'لا يوزع', '', 'companies', 'div_yield');
+          if (up) kpi('للهدف', fPct(up.upside_pct), cls(up.upside_pct), 'upside', 'upside_pct');
+          else kpi('للهدف', '—', '', null, null);
+          card.append(k);
+          card.append(el('div', 'sm', `السعر حتى ${r.as_of} · مكرر الربحية ${r.pe_basis} · ${r.consensus}${Number(r.analysts) ? ' (' + r.analysts + ' محللين)' : ''} · النتائج القادمة: ${r.next_earnings}`));
+
+          if (note) {
+            card.append(el('h3', '', 'قراءة القوائم المالية'), el('p', '', note.reading, 'notes', 'reading'));
+            card.append(el('h3', '', 'التوقع القادم'), el('p', '', note.outlook, 'notes', 'outlook'));
+            card.append(el('h3', '', 'المخاطر'), el('p', 'sm', note.risks, 'notes', 'risks'));
+          }
+          wrap.append(card);
+        });
+    });
+
+    // Financial table
+    const fin = dash.data('fin');
+    const yo = dash.data('fin_yoy');
+    const tb = document.querySelector('.sx table.fin tbody');
+    tb.replaceChildren();
+    if (fin.status === 'ok') {
+      let prev = null;
+      fin.data.forEach((r) => {
+        const tr = document.createElement('tr');
+        tr.dataset.key = enc(r.symbol) + ',' + enc(r.metric);
+        if (prev !== r.symbol) tr.className = 'grp';
+        const td = (t, c2) => { const e = document.createElement('td'); e.textContent = t; if (c2) e.className = c2; tr.appendChild(e); };
+        td(r.name, prev === r.symbol ? 'muted' : '');
+        prev = r.symbol;
+        td(r.metric);
+        td(fMn(Number(r.h1_2026)), 'num');
+        td(fMn(Number(r.h1_2025)), 'num');
+        const y = yo.status === 'ok' ? yo.data.find((x) => x.symbol === r.symbol && x.metric === r.metric) : null;
+        if (y && y.yoy_pct != null) td(fPct(y.yoy_pct), 'num ' + cls(y.yoy_pct));
+        else td(Number(r.h1_2025) < 0 && Number(r.h1_2026) > 0 ? 'تحول للربح' : '—', 'up');
+        tb.appendChild(tr);
+      });
+    }
+  }
+  dash.onData(drawLeaders);
+  window.sxRedraw = window.sxRedraw || [];
+  window.sxRedraw.push(drawLeaders);
+})();
+</script>
+
+<p class="foot">بيانات متأخرة وتجمع من مصادر عامة (مباشر، أرقام، MarketScreener، TradingView). لقطة بتاريخ 20 أكتوبر 2026. ليست توصية استثمارية.</p>
+</div>
+</body>
+</html>
