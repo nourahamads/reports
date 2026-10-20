@@ -120,6 +120,7 @@ body.locked nav,body.locked main{display:none!important}
 td.c.up{color:var(--ok);font-weight:700}td.c.down{color:var(--bad);font-weight:700}td.c.flat{color:var(--warn)}td.tx{text-align:start;color:var(--muted);min-width:240px}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-bottom:6px}.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--shadow)}
 .tile .tn{font-weight:700;font-size:.9rem;margin-bottom:4px}.tile .tv{font-size:2rem;font-weight:800;line-height:1.1}.tile .tv.ok{color:var(--ok)}.tile .ty{color:var(--muted);font-size:.82rem}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}.chartc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;box-shadow:var(--shadow)}.chartc .saudi{margin:0}.chartc .spark{max-width:none}.cnote{color:var(--muted);font-size:.78rem}
 .sumh .info{position:static}#intl-sum>.grp{margin:14px 0 6px;font-size:.85rem;color:var(--accent);font-weight:700}#intl-sum>.detail{margin:10px 0;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:12px}
 .rchart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:16px;box-shadow:var(--shadow)}
 .rc{display:grid;grid-template-columns:minmax(150px,260px) 1fr;gap:12px;align-items:center;padding:6px 0}.rc+.rc{border-top:1px solid var(--line)}.rn{font-weight:700;font-size:.9rem}
@@ -525,9 +526,9 @@ function saudiBlock(s){
   const ns="http://www.w3.org/2000/svg",svg=document.createElementNS(ns,"svg");svg.setAttribute("viewBox",`0 0 ${W} ${H+14}`);svg.setAttribute("class","spark "+cls);svg.setAttribute("role","img");svg.setAttribute("aria-label",s.title+": "+s.series.map(p=>p.x+" "+p.v).join("، "));
   const mk=(t,a,tx)=>{const e=document.createElementNS(ns,t);for(const k in a)e.setAttribute(k,a[k]);if(tx!=null)e.textContent=tx;svg.append(e);return e};
   mk("polyline",{points:v.map((x,i)=>X(i)+","+Y(x)).join(" "),fill:"none","stroke-width":2});
-  v.forEach((x,i)=>{const l=i===v.length-1||i===0||x===mn||x===mx||v.length<=5;mk("circle",{cx:X(i),cy:Y(x),r:i===v.length-1?4:2.5,class:"pt"});
+  v.forEach((x,i)=>{const l=v.length<=10||i===v.length-1||i===0||x===mn||x===mx;mk("circle",{cx:X(i),cy:Y(x),r:i===v.length-1?4:2.5,class:"pt"});
    if(l)mk("text",{x:X(i),y:Y(x)+(s.good==="low"?15:-8),"text-anchor":"middle",class:"vl"},String(x))});
-  s.series.forEach((p,i)=>{if(i===0||i===v.length-1||v.length<=5)mk("text",{x:X(i),y:H+10,"text-anchor":"middle",class:"xl"},p.x)});
+  s.series.forEach((p,i)=>{if(v.length<=10||i===0||i===v.length-1)mk("text",{x:X(i),y:H+10,"text-anchor":"middle",class:"xl"},p.x)});
   box.append(svg)}
  if(s.summary){const p=el("p","sum",s.summary);if(s.status==="ok")p.classList.add("okk");box.append(p)}
  return box;
@@ -548,12 +549,11 @@ function loadSummary(reps){
  for(const x of stat){const c=el("div","tile");c.append(el("div","tn",x.name),el("div","tv ok","✔"),el("div","ch up",x.text));tiles.append(c)}
  w.append(tiles);
  if(ser.length){
-  w.append(el("div","grp","السلاسل الزمنية للمؤشرات"));
-  const yrs=[...new Set(ser.flatMap(x=>x.series.map(p=>p.x)))].sort(),tw=el("div","tlw"),tb=el("table","tl"),h=el("tr");h.append(el("th",null,"المؤشر"));for(const y of yrs)h.append(el("th",null,y));tb.append(h);
-  for(const x of ser){const tr=el("tr");tr.append(el("th",null,x.name+(x.good==="low"?" (الأقل أفضل)":"")));const lastI=x.series.length-1;
-   for(const y of yrs){const i=x.series.findIndex(p=>p.x===y),td=el("td");if(i>=0){td.textContent=num(x.series[i].v);if(i>0)td.className="c "+trend(x.series[i-1].v,x.series[i].v,x.good==="low");if(i===lastI)td.style.fontWeight="800"}tr.append(td)}
-   tb.append(tr)}
-  tw.append(tb);w.append(tw);
+  w.append(el("div","grp","المؤشرات على مدار الأعوام"));
+  const cg=el("div","charts");
+  for(const x of ser){const c=el("div","chartc"),bx=saudiBlock({...x,title:x.name+(x.unit?" ("+x.unit+")":""),summary:""});c.append(bx);
+   const v=x.series;c.append(el("div","cnote",x.good==="low"?"الأعلى في الرسم = ترتيب أفضل":`${v[0].x}–${v[v.length-1].x}`));cg.append(c)}
+  w.append(cg);
  }
  if(inds.length){
   w.append(el("div","grp","المؤشرات الفرعية: مقارنة بين سنتين"));
