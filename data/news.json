@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T11:32:09.714Z",
+ "updated": "2026-10-20T17:00:20.929Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,71 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 65,
+   "fetched": 70,
    "kept": 9
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 58,
+   "fetched": 59,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 70,
-   "kept": 59
+   "fetched": 72,
+   "kept": 60
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 100,
-   "kept": 15
+   "kept": 14
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 62
+   "kept": 61
   },
   {
    "id": "labor-local",
    "ok": true,
    "fetched": 62,
-   "kept": 16
+   "kept": 14
   },
   {
    "id": "prosecution-local",
    "ok": true,
    "fetched": 67,
-   "kept": 15
+   "kept": 16
   }
  ],
  "items": [
+  {
+   "id": "866e6628abd6",
+   "title": "Are Big Brands Using Trademark Enforcement to Bully Small Businesses?",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdlFwdTRkTURBQXFfaXZ0c2Q4ZnNidkpmckNSejZzMHpycnhtdlN4eXU2ZWFHT2tvY3A2em9iUEVpN1ZBTm1Ray10R2ExUzBNLURUWVY3aFBodVJMZkRNLXZkc0ZzdHdpekNsZG40ODFfYUx5THFaZExzTmNZeDJ5ay1KUFVKcllOVFRENklueS1XdHNwS1BuSjhScW1qd3R5Ync?oc=5",
+   "source": "Gerben IP",
+   "sourceUrl": "https://www.gerbenlaw.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T13:04:34.000Z",
+   "summary": ""
+  },
+  {
+   "id": "83b39f05346f",
+   "title": "SAPS arrests 17 160 suspects nationally and seizes R160m in counterfeit goods",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUlJfYkZldElpUUswcjlReXFmTHZmUnAtVkpZTzhRZHJaVXY0djRCck4tcGtzZmxJSTdWaVlPNGllR1lRMkR4ckxvOTlxcFNqR3VhaWN0SkY4YlBiejIwVEh2Wmw3UTRwekVkdm1QZGc4QmluVUFhUkswOTJKZkpEZFVqRElYZ1lScEk0ajdxNnBTSVNKdUNJNklqYUgwWkZUYVE0?oc=5",
+   "source": "https://novanews.co.za/",
+   "sourceUrl": "https://novanews.co.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T12:51:32.000Z",
+   "summary": ""
+  },
   {
    "id": "383b07e2d56f",
    "title": "عام / \"الملكية الفكرية\" تنظم برنامجًا تدريبيًا للمنظمات غير الربحية الواقعة تحت إشرافها الفني",
@@ -59,7 +83,7 @@
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T10:36:10.000Z",
+   "date": "2026-10-20T11:36:11.000Z",
    "summary": ""
   },
   {
@@ -339,18 +363,6 @@
    "summary": ""
   },
   {
-   "id": "8f1f54699f0a",
-   "title": "«الموارد البشرية» تفتح التسجيل لاختبارات رخصة مترجم لغة الإشارة السعودية",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZY0hzdlBXWHNrT2JFand5NllGVlZIQTY5OUxJcDVWSXZzUzZ1aWNseDIxSGRZSi15Ym0xQUNJN2toOUlOX1NJNFA4OFJhVTAya25Vc9IBVEFVX3lxTFBZY0hzdlBXWHNrT2JFand5NllGVlZIQTY5OUxJcDVWSXZzUzZ1aWNseDIxSGRZSi15Ym0xQUNJN2toOUlOX1NJNFA4OFJhVTAya25Vcw?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-19T06:58:12.000Z",
-   "summary": ""
-  },
-  {
    "id": "e15b2be40fcd",
    "title": "Human Rights and IP before the European Courts: What Four Decades of Case Law Reveal about European Copyright Law",
    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOT01qdnl6Y2pYZVhLN1BIWnRhSi1NQnBTRFhaeWhHSnA4cFAzaHBFZEFRb2FOcTA5N01EX281anZRQzRmdk9YSXZPS0dBQkx3NDhRNE95dVlLZzdmUkk5VkJ4VnJSNlNIYVg3bzM4T1RlNjdsZXUwWFBRc01HV3dGSkF0QkRHVFZzTjFTdEF4ZlcwNVFJSzVXRXpwV3lLWkh6a3lWdlRYRFhNN0pXdzNCaGUxUjh1dEd2RVZnOVVqYkM5TWFIRVhJcGtFdTFub1g4R2xmYWtZaVJZLW1ySVNZanF6X1A5V19nbkNzOFZRdjI2N0o0Y3dZeA?oc=5",
@@ -423,11 +435,11 @@
    "summary": ""
   },
   {
-   "id": "7a210110652d",
+   "id": "dc60d4e7e895",
    "title": "There's a crackdown on sports piracy - but is it already out of control?",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9seW00bjh0cDJVZWVDZnNPNjZFY21jTHZKaVgtbWhHTHJuZ0t3ajdLdFNmdXQ1ZFQ3T2FHb2JtczY2QlkzM01ZNEdzT0hyRlZZS3FXdFdGT0V3OXBBWkE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TakFzNjVmNDk5ZG9YX3hleHE1UmFrN25oQW5ORHJKNUM0R0lGTVlyUExDQkExVzhkSGptbGxVcGhEcU9BOXpDc2trcndNWTNHa0REV2xYMDFQTlU?oc=5",
    "source": "BBC",
-   "sourceUrl": "https://www.bbc.co.uk",
+   "sourceUrl": "https://www.bbc.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
@@ -519,30 +531,6 @@
    "summary": ""
   },
   {
-   "id": "ec0f869721a6",
-   "title": "£6,000 worth of counterfeit goods and stolen laptops recovered during operation",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOGh2NTdlb2pMTC1OQTF4ZzBQTllZeE9Sd3dCdGs0T3N1WU1zeGxzMlJKWkFhMGdQWENzYS0wQUZWT3A5X3g2STUwMm1sTng4WmtTWVdsRzc3Z0lMaDhUcHUtODBUYldEcnZ4TkxzM1BvU0tkQ2tUSHpzN05adU1kNnNSTk9aYlVGTGxobm9JMFhpYkFmSzktVVNRLWdvNHhFNVJVSVZuYUVldE5CQWZ6bUUtcmFvSDZJVk82MFpNTVNmOWlEcHBzMFJSQTc4TkZIclV0RHFB?oc=5",
-   "source": "Tower Hamlets Council",
-   "sourceUrl": "https://www.towerhamlets.gov.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-16T12:24:59.000Z",
-   "summary": ""
-  },
-  {
-   "id": "e4d0d4375c28",
-   "title": "Kenya calls for coordinated action against counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZTZuR1RDb0REUU1CbEc1d0RrUWJBb2ZQellzN3QwZ2RJa1JGMjRvaVhHc0Jha0Rvb3B3NWI4cmsySjJUaThaMTg5N2hROW5Nd2xINVVCS21MdXdSTW5lY3RjdHJQUS0xcHlMZzB0LUUtOFRRQmV2dkRWMFVQdEpLSHp1MnQzSm45d28wMnhsNzdUb3lUZDRndThMcjR1dw?oc=5",
-   "source": "People Daily",
-   "sourceUrl": "https://peopledaily.digital",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-16T11:57:56.000Z",
-   "summary": ""
-  },
-  {
    "id": "75781e52f156",
    "title": "«الموارد البشرية»: توطين مهن التسويق والمهن الإدارية المساندة.. وتوفير 12 ألف وظيفة",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hTGNnUmVWNW5MZDRzZG96TnJDS2lIZExFb2Q5dGZsY0NWVUlZN1lFZnFsb0VwZlRiSnpibm9heVhhdTViRGVuSTJvSGJtZDV1NktZNNIBVEFVX3lxTE8zUHZjNFJfSFZhaDE0WHNQQ09GdzJ0Z2x6aXUtT245aWZ0T0RhVE0zS0xzTzYxQzdvdnJhQTl2LUxmTWFJWDhmSU1ScHItck5oZ3ZIMg?oc=5",
@@ -624,6 +612,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-11T17:18:08.000Z",
+   "summary": ""
+  },
+  {
+   "id": "859e2225322e",
+   "title": "عام / النائب العام يشارك في الحملة الوطنية للتبرع بالدم",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBRVTVyZnRLLWRhRVNCLXZBQkdPMWRGY0l3ZG55cVM4YktBZEdPVm5hQ1Fmb2o5UXJiVWlTR2RlVHJvRHlNTGc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-11T15:41:09.000Z",
    "summary": ""
   },
   {
@@ -756,18 +756,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-07T18:36:28.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1cd95d2a68af",
-   "title": "تقديراً لأثرها المجتمعي.. وزارة الموارد البشرية والتنمية الاجتماعية تمنح \"كاتريون\" جائزة المسؤولية الاجتماعية للشركات 2026",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBEZ0NsNnZ5NExmVG1RUmQtUHc2OC1oTzh1bmdyMU94WHNiY2hPTlRpVHRiTG1mZlR3WDVJ?oc=5",
-   "source": "صحيفة درة الالكترونية",
-   "sourceUrl": "https://dora.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-06T13:39:51.000Z",
    "summary": ""
   },
   {
