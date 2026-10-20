@@ -77,3 +77,18 @@ test("العالمي: عناوين الملكية الفكرية فقط؛ إعل
   for (const good of ["Birkenstock copyright", "WIPO members", "anti-piracy push"]) assert.ok(titles.some((t) => t.includes(good)), "يجب بقاء: " + good);
   for (const bad of ["Best IPTV", "Digital payments", "Somali piracy", "IPTV service"]) assert.ok(!titles.some((t) => t.includes(bad)), "يجب استبعاد: " + bad);
 });
+
+test("استبعاد أخبار مصر بكل صيغها دون التأثير على كلمات مثل مصرف", async () => {
+  const fresh = "Mon, 05 Oct 2026 10:00:00 GMT";
+  const fetcher = async () => rss([
+    { t: "حملة ضد القرصنة في مصر - المصري اليوم", l: "https://n/e1", d: fresh, s: "المصري اليوم", su: "https://almasryalyoum.com" },
+    { t: "السعودية: ضبط منتجات مقلدة وعلامات تجارية - سبق", l: "https://n/e2", d: fresh, s: "سبق", su: "https://sabq.org" },
+    { t: "الهيئة السعودية للملكية الفكرية تتعاون مع مصرف الراجحي لحماية العلامات التجارية - عكاظ", l: "https://n/e3", d: fresh, s: "عكاظ", su: "https://okaz.com.sa" },
+    { t: "الهيئة السعودية للملكية الفكرية والجانب المصري يوقعان اتفاقية للعلامات التجارية - الرياض", l: "https://n/e4", d: fresh, s: "الرياض", su: "https://alriyadh.com" },
+  ]);
+  const out = await build({ ...cfg, feeds: [cfg.feeds[0]] }, fetcher, NOW);
+  const t = out.items.map((i) => i.title).join("|");
+  assert.ok(!/مصر |المصري/.test(t.replace("مصرف", "")), t);
+  assert.ok(t.includes("مصرف الراجحي"));
+  assert.ok(t.includes("منتجات مقلدة"));
+});

@@ -87,5 +87,7 @@
   ],
   "localSources": "الرياض|عكاظ|سبق|المدينة|اليوم|الاقتصادية|أرقام|ارقام|العربية|الوطن|واس|وكالة الأنباء السعودية|الشرق الأوسط|البلاد|المواطن|تواصل|الجزيرة|اقرأ|أخبار السعودية|عين اليوم|spa\\.gov|okaz|alriyadh|aleqt|argaam|sabq|alyaum|alwatan|almadina|arabnews|saudigazette|akhbaralsaudi|alarabiya|aawsat|alsaudi|درة",
   "localExclude": "مصر|مصري|الأردن|أردني|اليمن|يمني|حوثي|العراق|لبنان|سوريا|الجزائر|المغرب|تونس|ليبيا|السودان|فلسطين|غزة",
-  "localWeak": "المملكة|المملكه"
+  "localWeak": "المملكة|المملكه",
+  "excludeAll": "(^|[^\\u0600-\\u06FFa-z])(ال|بال|وال|لل|ل|ب|و)?مصر(ي|يه|ية|ين|يين|يون|يات)?($|[^\\u0600-\\u06FFa-z])|القاهر|الاسكندر|الإسكندر|egypt|cairo|alexandria|almasry|youm7|ahram|masrawy|shorouk|elwatan|dostor|elfagr|\\.eg(/|$)",
+  "_excludeAll": "يُستبعد أي خبر يطابق هذا النمط في العنوان أو الملخص أو المصدر (مصر)."
 }

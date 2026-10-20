@@ -62,9 +62,11 @@ export function makeFilters(cfg) {
     inc: re(v.match), exc: v.exclude ? re(v.exclude) : null,
     ginc: v.globalMatch ? re(v.globalMatch) : null, gexc: v.globalExclude ? re(v.globalExclude) : null,
   }]));
+  const all = cfg.excludeAll ? re(cfg.excludeAll) : null;
   const saudi = re(cfg.localMarkers), weak = re(cfg.localWeak || "$^"), pub = re(cfg.localSources || "$^"), other = cfg.localExclude ? re(cfg.localExclude) : null;
   return (item, scope, topic) => {
     const t = topics[topic];
+    if (all && all.test(normalize(`${item.title} ${item.summary || ""} ${item.source || ""} ${item.sourceUrl || ""} ${item.url || ""}`))) return false;
     if (scope === "عالمي" && t.ginc) {                                   // العالمي: عنوان الخبر نفسه يجب أن يخص الموضوع صراحة
       const title = normalize(item.title);
       return t.ginc.test(title) && !(t.gexc && t.gexc.test(title)) && !(t.exc && t.exc.test(title));

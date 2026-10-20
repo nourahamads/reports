@@ -118,6 +118,10 @@ body.locked nav,body.locked main{display:none!important}
 .sumrows{margin-top:10px}.srow{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding:7px 0;border-top:1px solid var(--line)}.srow .nm{font-weight:700;flex:1 1 220px}.srow .yr{color:var(--muted);font-size:.82rem}.srow .val{font-size:1.3rem;font-weight:800}
 .ch{font-size:.86rem;font-weight:700;color:var(--warn)}.ch.up{color:var(--ok)}.ch.down{color:var(--bad)}
 td.c.up{color:var(--ok);font-weight:700}td.c.down{color:var(--bad);font-weight:700}td.c.flat{color:var(--warn)}td.tx{text-align:start;color:var(--muted);min-width:240px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-bottom:6px}.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--shadow)}
+.tile .tn{font-weight:700;font-size:.9rem;margin-bottom:4px}.tile .tv{font-size:2rem;font-weight:800;line-height:1.1}.tile .tv.ok{color:var(--ok)}.tile .ty{color:var(--muted);font-size:.82rem}
+.sumh .info{position:static}#intl-sum>.grp{margin:14px 0 6px;font-size:.85rem;color:var(--accent);font-weight:700}#intl-sum>.detail{margin:10px 0;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.rcard .scp{color:var(--muted);font-size:.85rem;margin-top:2px}.rcard .stt{color:var(--ok);font-weight:700;font-size:.88rem;margin-top:6px}
 .cd .n.s{font-size:1.5rem}
 .saudi{margin:10px 0}.saudi .sum{margin:6px 0 0}.saudi .sum.okk{color:var(--ok);font-weight:700}
 .spark{width:100%;max-width:340px;display:block;margin-top:4px}.spark polyline{stroke:var(--muted)}.spark .pt{fill:var(--muted)}.spark .vl{font-size:10px;fill:var(--ink);font-weight:700}.spark .xl{font-size:9px;fill:var(--muted)}
@@ -180,8 +184,8 @@ table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeaf
 <main>
 <section id="news" role="tabpanel">
   <h2>مرصد الإنفاذ</h2>
-  <h3 class="sec-h">التقارير الدولية للإنفاذ</h3>
   <div id="intl-sum"></div>
+  <h3 class="sec-h">التقارير المعنية بالإنفاذ</h3>
   <div class="intl" id="intl"></div>
   <div id="intl-tl"></div>
   <h3 class="sec-h">الأخبار</h3>
@@ -433,10 +437,11 @@ document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
 
 /* ===== مرصد الإنفاذ (أخبار من data/news.json) ===== */
 let news=[], newsTopics={}, newsTopic="الكل", newsScope="الكل", newsQ="", nLimit=30;
+const EG_RE=/(^|[^\u0600-\u06FFa-z])(ال|بال|وال|لل|ل|ب|و)?مصر(ي|يه|ية|ين|يين|يون|يات)?($|[^\u0600-\u06FFa-z])|القاهر|الإسكندر|egypt|cairo|almasry|youm7|ahram|masrawy|shorouk/i;
 async function loadNews(){
  try{
   const r=await fetch("data/news.json?v="+Date.now());if(!r.ok)throw 0;
-  const d=await r.json();news=d.items||[];newsTopics=d.topics||{};
+  const d=await r.json();news=(d.items||[]).filter(n=>!EG_RE.test([n.title,n.summary,n.source,n.sourceUrl,n.url].join(" ")));newsTopics=d.topics||{};
  }catch{}
  renderNews();
 }
@@ -478,7 +483,8 @@ function monthsDays(days){let m=Math.floor(days/30.4375),d=Math.round(days-m*30.
 async function loadIntl(){
  let d;try{const r=await fetch("data/intl-reports.json?v="+Date.now());if(!r.ok)throw 0;d=await r.json()}catch{return}
  const wrap=$("#intl");wrap.replaceChildren();loadTimeline(d.timeline);loadSummary(d.reports||[]);
- for(const r of d.reports||[]){
+ const rs=(d.reports||[]).slice().sort((a,b)=>(a.release.none?1e9:nextRelease(a).days)-(b.release.none?1e9:nextRelease(b).days));
+ for(const r of rs){
   const none=!!r.release.none,n=none?{days:0,year:0,today:0,prev:0,date:1}:nextRelease(r),card=el("article","card rcard"),[num,unit]=untilText(n.days);
   const h=el("h3");const a=el("a",null,r.name);a.href=r.url;a.target="_blank";a.rel="noopener noreferrer";a.style.color="inherit";h.append(a);
   const pub=el("div","pub");const pa=el("a",null,r.publisher);pa.href=r.url;pa.target="_blank";pa.rel="noopener noreferrer";pub.append(pa);
@@ -488,10 +494,10 @@ async function loadIntl(){
   const frac=Math.min(1,Math.max(0,(n.today-n.prev)/(n.date-n.prev)));
   const tr=el("div","track");tr.setAttribute("role","progressbar");tr.setAttribute("aria-valuenow",Math.round(frac*100));tr.setAttribute("aria-label","نسبة المدة المنقضية منذ الإصدار السابق");const bar=el("i");bar.style.width=Math.round(frac*100)+"%";tr.append(bar);
   const info=el("button","info","i");info.type="button";info.setAttribute("aria-label","تفاصيل التقرير ومؤشراته");info.setAttribute("aria-expanded","false");info.title="التفاصيل";
-  card.append(tags,h);if(r.nameEn)card.append(el("div","en",r.nameEn));card.append(pub,cd,when);if(!none)card.append(tr);card.append(info);
+  card.append(tags,h);if(r.nameEn)card.append(el("div","en",r.nameEn));card.append(pub);if(r.scope)card.append(el("div","scp","يقيس: "+r.scope));card.append(cd,when);if(!none)card.append(tr);card.append(info);
   const det=el("div","detail");det.hidden=true;
   det.append(el("p",null,r.about||""));if(r.release.basis)det.append(el("p",null,"موعد الإصدار: "+r.release.basis));
-  if(r.saudi)det.append(saudiBlock(r.saudi));
+  if(r.saudi&&r.saudi.status==="ok")card.insertBefore(el("div","stt","✔ "+r.saudi.summary),info);
   if(r.concerns){det.append(el("div","grp","محاور اهتمام التقرير"));const ul=el("ul","conc");for(const c of r.concerns)ul.append(el("li",null,c));det.append(ul)}
   det.append(el("div","grp","المؤشرات وتعريفها ("+(r.indicators||[]).length+")"));
   info.onclick=()=>{det.hidden=!det.hidden;info.setAttribute("aria-expanded",String(!det.hidden))};
@@ -499,8 +505,7 @@ async function loadIntl(){
   for(const i of r.indicators||[]){
    if(i.group&&i.group!==g){g=i.group;dl.append(el("div","grp",g))}
    const dt=el("dt",null,i.name);if(i.en)dt.append(el("span","en",i.en));dl.append(dt,el("dd",null,i.definition));
-   if(i.result){const x=i.result,sym={up:"▲",down:"▼",flat:"■"}[x.trend]||"■",lab={up:"تحسّن",down:"تراجع",flat:"دون تغيير"}[x.trend]||"";
-    const an=el("dd","an "+x.trend),b=el("b",null,`${sym} ${lab}: ${x.from} ← ${x.to}`);an.append(b,document.createTextNode(" — "+x.text));dl.append(an)}}
+}
   det.append(dl);card.append(det);wrap.append(card);
  }
 }
@@ -523,42 +528,40 @@ function saudiBlock(s){
 }
 function loadSummary(reps){
  const w=$("#intl-sum");w.replaceChildren();
- const ser=reps.filter(r=>r.saudi&&r.saudi.series&&r.saudi.series.length>1).map(r=>({...r.saudi,name:r.saudi.short||r.name,pub:r.name}));
+ const ser=reps.filter(r=>r.saudi&&r.saudi.series&&r.saudi.series.length>1).map(r=>({...r.saudi,name:r.saudi.short||r.name}));
  const inds=[];for(const r of reps)for(const i of r.indicators||[])if(i.result&&i.result.years)inds.push({...i.result,name:i.name,src:r.nameEn||r.name,grp:i.group});
  const stat=reps.filter(r=>r.saudi&&r.saudi.status==="ok").map(r=>({name:r.name,text:r.saudi.summary}));
  if(!ser.length&&!inds.length)return;
- const card=el("article","card sumcard"),hd=el("div","sumh");hd.append(el("h3",null,"مؤشرات الإنفاذ على مدار السنوات"));
- const info=el("button","info","i");info.type="button";info.title="التفاصيل";info.setAttribute("aria-label","تفاصيل المؤشرات والمقارنة بين السنوات");info.setAttribute("aria-expanded","false");hd.append(info);card.append(hd);
  const trend=(a,b,low)=>a===b?"flat":((low?b<a:b>a)?"up":"down"),sym={up:"▲",down:"▼",flat:"■"};
  const num=x=>Number.isInteger(x)?String(x):String(+x.toFixed(2));
- const ul=el("div","sumrows");
+ const hd=el("div","sumh");hd.append(el("h3","sec-h","نتائج مؤشرات الإنفاذ للمملكة"));
+ const info=el("button","info","i");info.type="button";info.title="التحليل";info.setAttribute("aria-label","تحليل المؤشرات");info.setAttribute("aria-expanded","false");hd.append(info);w.append(hd);
+ const tiles=el("div","tiles");
  for(const x of ser){const v=x.series,a=v[v.length-2],b=v[v.length-1],t=trend(a.v,b.v,x.good==="low"),df=+(b.v-a.v).toFixed(2);
-  const row=el("div","srow"),nm=el("span","nm",x.name),val=el("span","val",`${num(b.v)}`),yr=el("span","yr",b.x);
-  const ch=el("span","ch "+t,`${sym[t]} ${t==="flat"?"دون تغيير":(df>0?"+":"")+num(df)} عن ${a.x}`);row.append(nm,yr,val,ch);ul.append(row)}
- for(const x of stat){const row=el("div","srow"),ch=el("span","ch up","✔ "+x.text);row.append(el("span","nm",x.name),ch);ul.append(row)}
- card.append(ul);
- const det=el("div","detail");det.hidden=true;
- info.onclick=()=>{det.hidden=!det.hidden;info.setAttribute("aria-expanded",String(!det.hidden))};
+  const c=el("div","tile");c.append(el("div","tn",x.name),el("div","tv",num(b.v)),el("div","ty",`${x.unit||""} · ${b.x}`),el("div","ch "+t,`${sym[t]} ${t==="flat"?"دون تغيير":(df>0?"+":"")+num(df)} عن ${a.x}`));tiles.append(c)}
+ for(const x of stat){const c=el("div","tile");c.append(el("div","tn",x.name),el("div","tv ok","✔"),el("div","ch up",x.text));tiles.append(c)}
+ w.append(tiles);
  if(ser.length){
-  det.append(el("div","grp","السلاسل الزمنية (المقارنة بين السنوات)"));
+  w.append(el("div","grp","السلاسل الزمنية للمؤشرات"));
   const yrs=[...new Set(ser.flatMap(x=>x.series.map(p=>p.x)))].sort(),tw=el("div","tlw"),tb=el("table","tl"),h=el("tr");h.append(el("th",null,"المؤشر"));for(const y of yrs)h.append(el("th",null,y));tb.append(h);
-  for(const x of ser){const tr=el("tr");tr.append(el("th",null,x.name+(x.good==="low"?" (الأقل أفضل)":"")));
-   const lastI=x.series.length-1;
+  for(const x of ser){const tr=el("tr");tr.append(el("th",null,x.name+(x.good==="low"?" (الأقل أفضل)":"")));const lastI=x.series.length-1;
    for(const y of yrs){const i=x.series.findIndex(p=>p.x===y),td=el("td");if(i>=0){td.textContent=num(x.series[i].v);if(i>0)td.className="c "+trend(x.series[i-1].v,x.series[i].v,x.good==="low");if(i===lastI)td.style.fontWeight="800"}tr.append(td)}
    tb.append(tr)}
-  tw.append(tb);det.append(tw);
-  for(const x of ser)if(x.summary)det.append(el("p",null,x.name+": "+x.summary));
+  tw.append(tb);w.append(tw);
  }
  if(inds.length){
-  det.append(el("div","grp","مؤشرات فرعية: مقارنة سنتين"));
-  const tw=el("div","tlw"),tb=el("table","tl"),h=el("tr");for(const k of["المؤشر","المصدر","السنة الأولى","السنة الثانية","التغيّر","التحليل"])h.append(el("th",null,k));tb.append(h);
+  w.append(el("div","grp","المؤشرات الفرعية: مقارنة بين سنتين"));
+  const tw=el("div","tlw"),tb=el("table","tl"),h=el("tr");for(const k of["المؤشر","المصدر","السنة الأولى","السنة الثانية","التغيّر"])h.append(el("th",null,k));tb.append(h);
   for(const x of inds){const tr=el("tr"),df=+(x.to-x.from).toFixed(2),pc=x.from?Math.abs(df/x.from*100).toFixed(1).replace(/\.0$/,""):"";
-   const low=x.grp&&/قرصنة/.test(x.name)&&x.from>=20;const t=low?trend(x.from,x.to,true):x.trend;
-   const ch=el("td","c "+t,`${sym[t]} ${df===0?"0":(df>0?"+":"")+num(df)}${pc&&df?` (${pc}%)`:""}`);
-   const th=el("th",null,x.name);tr.append(th,el("td",null,x.src),el("td",null,`${x.years[0]}: ${num(x.from)}`),el("td",null,`${x.years[1]}: ${num(x.to)}`),ch,el("td","tx",x.text));tb.append(tr)}
-  tw.append(tb);det.append(tw);
+   const ch=el("td","c "+x.trend,`${sym[x.trend]} ${df===0?"0":(df>0?"+":"")+num(df)}${pc&&df?` (${pc}%)`:""}`);
+   tr.append(el("th",null,x.name),el("td",null,x.src),el("td",null,`${x.years[0]}: ${num(x.from)}`),el("td",null,`${x.years[1]}: ${num(x.to)}`),ch);tb.append(tr)}
+  tw.append(tb);w.append(tw);
  }
- card.append(det);w.append(card);
+ const det=el("div","detail");det.hidden=true;
+ info.onclick=()=>{det.hidden=!det.hidden;info.setAttribute("aria-expanded",String(!det.hidden))};
+ for(const x of ser)if(x.summary)det.append(el("p",null,x.name+": "+x.summary));
+ for(const x of inds)det.append(el("p",null,`${x.name} (${x.src}): ${x.text}`));
+ w.append(det);
 }
 function loadTimeline(t){
  const w=$("#intl-tl");w.replaceChildren();if(!t)return;
