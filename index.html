@@ -121,6 +121,9 @@ td.c.up{color:var(--ok);font-weight:700}td.c.down{color:var(--bad);font-weight:7
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-bottom:6px}.tile{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--shadow)}
 .tile .tn{font-weight:700;font-size:.9rem;margin-bottom:4px}.tile .tv{font-size:2rem;font-weight:800;line-height:1.1}.tile .tv.ok{color:var(--ok)}.tile .ty{color:var(--muted);font-size:.82rem}
 .charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}.chartc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;box-shadow:var(--shadow)}.chartc .saudi{margin:0}.chartc .spark{max-width:none}.cnote{color:var(--muted);font-size:.78rem}
+.pairs{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 14px;box-shadow:var(--shadow)}.psrc{font-size:.8rem;color:var(--accent);font-weight:700;margin:10px 0 2px;direction:ltr;text-align:right}
+.prow{display:grid;grid-template-columns:minmax(140px,230px) 1fr 120px;gap:12px;align-items:center;padding:6px 0;border-top:1px solid var(--line)}.pn{font-weight:700;font-size:.9rem}.pb{display:flex;align-items:center;gap:8px;margin:2px 0}.py{width:34px;font-size:.75rem;color:var(--muted)}.pt{flex:1;height:12px;background:var(--bg);border-radius:99px;overflow:hidden}.pt i{display:block;height:100%;border-radius:99px;background:var(--muted);opacity:.55}.pt i.b{opacity:1}.pt i.up{background:var(--ok)}.pt i.down{background:var(--bad)}.pt i.flat{background:var(--warn)}.pv{width:38px;font-size:.8rem;font-weight:700}
+@media(max-width:640px){.prow{grid-template-columns:1fr}}
 .sumh .info{position:static}#intl-sum>.grp{margin:14px 0 6px;font-size:.85rem;color:var(--accent);font-weight:700}#intl-sum>.detail{margin:10px 0;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:12px}
 .rchart{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin-bottom:16px;box-shadow:var(--shadow)}
 .rc{display:grid;grid-template-columns:minmax(150px,260px) 1fr;gap:12px;align-items:center;padding:6px 0}.rc+.rc{border-top:1px solid var(--line)}.rn{font-weight:700;font-size:.9rem}
@@ -557,11 +560,14 @@ function loadSummary(reps){
  }
  if(inds.length){
   w.append(el("div","grp","المؤشرات الفرعية: مقارنة بين سنتين"));
-  const tw=el("div","tlw"),tb=el("table","tl"),h=el("tr");for(const k of["المؤشر","المصدر","السنة الأولى","السنة الثانية","التغيّر"])h.append(el("th",null,k));tb.append(h);
-  for(const x of inds){const tr=el("tr"),df=+(x.to-x.from).toFixed(2),pc=x.from?Math.abs(df/x.from*100).toFixed(1).replace(/\.0$/,""):"";
-   const ch=el("td","c "+x.trend,`${sym[x.trend]} ${df===0?"0":(df>0?"+":"")+num(df)}${pc&&df?` (${pc}%)`:""}`);
-   tr.append(el("th",null,x.name),el("td",null,x.src),el("td",null,`${x.years[0]}: ${num(x.from)}`),el("td",null,`${x.years[1]}: ${num(x.to)}`),ch);tb.append(tr)}
-  tw.append(tb);w.append(tw);
+  const box=el("div","pairs");let lastSrc="";
+  for(const x of inds){
+   if(x.src!==lastSrc){lastSrc=x.src;box.append(el("div","psrc",x.src+(x.low?" (الأقل أفضل)":"")))}
+   const df=+(x.to-x.from).toFixed(2),pc=x.from?Math.abs(df/x.from*100).toFixed(1).replace(/\.0$/,""):"",row=el("div","prow");
+   const bars=el("div","pbars");
+   [[x.years[0],x.from,"a"],[x.years[1],x.to,"b "+x.trend]].forEach(([y,v,c])=>{const l=el("div","pb"),t=el("div","pt"),i=el("i");i.className=c;i.style.width=Math.max(2,v/x.max*100)+"%";t.append(i);l.append(el("span","py",y),t,el("span","pv",num(v)));bars.append(l)});
+   row.append(el("div","pn",x.name),bars,el("div","ch "+x.trend,`${sym[x.trend]} ${df===0?"0":(df>0?"+":"")+num(df)}${pc&&df?` (${pc}%)`:""}`));box.append(row)}
+  w.append(box);
  }
  const det=el("div","detail");det.hidden=true;
  info.onclick=()=>{det.hidden=!det.hidden;info.setAttribute("aria-expanded",String(!det.hidden))};
