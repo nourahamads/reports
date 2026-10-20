@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T17:00:20.929Z",
+ "updated": "2026-10-20T21:35:11.708Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,20 +9,20 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 70,
-   "kept": 9
+   "fetched": 55,
+   "kept": 11
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 59,
+   "fetched": 57,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 72,
-   "kept": 60
+   "fetched": 71,
+   "kept": 59
   },
   {
    "id": "ip-global-piracy",
@@ -39,17 +39,77 @@
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 62,
+   "fetched": 61,
    "kept": 14
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 67,
+   "fetched": 68,
    "kept": 16
   }
  ],
  "items": [
+  {
+   "id": "e0d4a5339365",
+   "title": "عام / الرئيس التنفيذي للهيئة السعودية للملكية الفكرية: الأنظمة الجديدة تعزز حماية حقوق الملكية الفكرية وتدعم نمو الاقتصاد المعرفي",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4wclozV0dXUldBT052dnFKbkt2YWNlRlRJdEU1OXJ5WEtiRmNBNWxnZFVBZkRRN0p5bHFfeE11RDJwa3Y0ZjY1OHl3?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T20:16:22.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9e970ca581de",
+   "title": "Guatemala Strengthens Conciliation for Copyright and Related Rights Disputes",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFJxSzZpQV96NXN4blZpYkN3bFpOdmMxT3hvd3AyamFjaUEzbWFWamZtQUo4MWxSdS1mT2xXNC12eEo3MVlaYnV0MGJHU2RucVR6ZzhwU3ZMNVFvYmRQcVhjOE5Wa0g5Y2Z5TENSbHlYNG54a2F0S2pOQTVRWTVZbFFIZ0RSZVoxbi03eUFLRzNqUW53ZVNkUGhpWmQ1OFdqb1o4U0ctLWpuV1dIM0ZhRE41ODcxX2h2YlE?oc=5",
+   "source": "WIPO",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T19:41:56.000Z",
+   "summary": ""
+  },
+  {
+   "id": "c74678b1749f",
+   "title": "الرئيس التنفيذي لـ\"الملكية الفكرية\": 4 أنظمة جديدة تعزز حماية المبتكرين وتدعم الاقتصاد المعرفي",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9CU3lRaW1WTUtqOXRZT1J4STNXdXA3ZEFSSUh4Mkk2bTcxeER2c3o4dm94MXJqWE1OV0NzUkdKTnJqYkcydElJ?oc=5",
+   "source": "صحيفة سبق الإلكترونية",
+   "sourceUrl": "https://sabq.org",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T18:56:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "440e651dfa57",
+   "title": "رئيس مجلس إدارة هيئة الملكية الفكرية: موافقة مجلس الوزراء على 4 أنظمة تعزز بيئة الإبداع والابتكار والتنافسية في المملكة",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQa2wySHNncmc3eFJOZ1YzcThubzNPRS1LcTMxdkNaQktQUWZINUREX2tpM2t6VFUzUEg3cG4tNm42d2ZaZHF4X054d3Q5QURoT1ljdmVxaTFFTzJuSDZ3RHA4ZGh2ZlgyU0dBYjB2THJJXzUyU3Q4bW1YZ3FKbnIyZFdqVHl2X2J3U2d3RWlmTENyWDlPd1NBZmZXX1A5dkNvVWJvOGpyTGJ0RjJOejdkT3NOUTZCQzY2dk05T1lzbWtUbTZvcUwtTWh0RUF2QlM0YnBKQWVWNWhqS293VmlqNG1wc1JfbElzTUhNVXg4UGhfTHFE?oc=5",
+   "source": "صحيفة مال",
+   "sourceUrl": "https://maaal.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T18:29:56.000Z",
+   "summary": ""
+  },
+  {
+   "id": "a0f1cbb92aa2",
+   "title": "رئيس مجلس إدارة الهيئة السعودية للملكية الفكرية: موافقة مجلس الوزراء على أربعة أنظمة تعزز بيئة الإبداع والابتكار والتنافسية في المملكة",
+   "url": "https://news.google.com/rss/articles/CBMirwhBVV95cUxOYUFuMUVkOHNuNlV0RHN6WnVjOGtXcWUxVl81VzBWTnYzSmxJQWIxR2h0b0tjMTNBUDlSS1JqNjRSbi1iczFReFFkZUVyR1BfN3dDTms4MFExR09wZUotSHFFZDZrTjktQUZLZ3ZrZUd3SUd6aUgyZjZvQzQ4SW9ZRjBUdkhRYjFTeVFsc21TN2p5MzdSOG4ySFozaUQ5eTdSRktLNlEwZUthYmlOd1d5V3NKM3pWdE5NMEY1UEhndDBsRXFoVVpGZ0tmb1F5TGhnY0NlMTZHRDh6d1RvVEFRRVZMU25Ddi1GWnBFR2EyeFQyb05uV2pDQW1RMmxmb3lDVUtTYkFTMXJLOXNYNEFWT3paeTdrQkZrUWFPNGo4QUFGRTdoOXFiRk40azRFaUFaOUhkRXdzWTNJWE05LS1pZUxtTGptQ3BlX2FlYTlzbzFwNmtjN3BiUTJXX25LX3JjRm1mMzUwSUZmQ0RHdW9ycEMzeElab1V6Q3NhUTBJa184WVE0czhTS3h2czNZUjhpU2RyajVwMi1ORXBNTE91eTFWc2JaREZwalJrcG9qcVVUQktJT29oLUxOZGo3OUpLMV92d3pxSTU5ejV0QVJoQ0VvQ2UzMkNtSF8zUzNwRU0xbWhXMU05MHZDR3g4aFlfZjl3UnRxS29wRFBGOXVWcmJtSDlNYUJhVEFzQ1IwZWZOa0JLNk1ZMS1yRG5FcmxwSlIxRWd0dTRoNTEzeVJmU1lvbFNvTGZVOHRmLTN1cjFKeG1wQm03MHlUYjV6bURQODdKWjdPdVd6d2VIS3FjT01NM1liYXpaT0lsbnUzS2NzdUlkeWFHOEozSU43aFFFS01LMmY1alZXX2NwVndLeF9iczU3N1o2VUY4QXh1UjJZcEZzRUthcG9rSi1YUFoySk9vTmhEQjdMNEp1by1BaVFpWmtTbzQzQ1hDMGNUX1FiSDJ3RHFuMWNsZ0t2bHVpZ2xNdEk1Sm53UzZ1bFBOSHcwaWhCZm9RTV9GTW5fZ08yamIxUElHVEt1MHJLY1Y4ckpPWUNIM0F6bXZZeFBVU01KbFl4YTZkZkJHRVpaR0pPMFc0T1FYVk1iZnhqVUNEeXRaQkdlajFuZ2NRVFlZczBsY3V1WjFZRXJLMEM3ZUwyd19vZ2FQaENlUXdzcFFOdzRQMmZqdUlkdGN1OUwwV1ZhTGIzSHJxNndCbXhNRVNqaEU0ejNXYWVRbGpzckNzWS11NU1sTF9SOWVDTy0zVlQ4Ui1NQVBxUnhaMHViTlJnZWJFRzVxdnJpNjlWV3ZBUW9MUTNkSjQxY1h2MEZVQURZOXZnTTdZYjVTaDc5RUJvRjFMRU1mYVZIYTJsN0JfanNubmFrenVNUU94d0g3NGpsYXoyMDJTc1FOM3FUNVhuS2JZcC1FN0JBNElVRjQ?oc=5",
+   "source": "جريدة المدينة",
+   "sourceUrl": "https://www.al-madina.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T18:25:00.000Z",
+   "summary": ""
+  },
   {
    "id": "866e6628abd6",
    "title": "Are Big Brands Using Trademark Enforcement to Bully Small Businesses?",
@@ -59,7 +119,7 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T13:04:34.000Z",
+   "date": "2026-10-20T13:04:02.000Z",
    "summary": ""
   },
   {
@@ -75,15 +135,15 @@
    "summary": ""
   },
   {
-   "id": "383b07e2d56f",
-   "title": "عام / \"الملكية الفكرية\" تنظم برنامجًا تدريبيًا للمنظمات غير الربحية الواقعة تحت إشرافها الفني",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAwSS0zOTNKUXg3WXpxVnREUTZvblZYY281Rjd6TVRwc1hreUtnY2NBcUJXU1BDelVGaTV5c0JNNjFHVk4yQXc?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
+   "id": "145672e6d97c",
+   "title": "Senegal moves to enhance digital security and intellectual property protection",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFE3S090Tzc1SV9WQWRucVkySmNOQm1UU2NXdHkxa3Q1NWE1bWJFaDNuV0tzNFVMS0Nyal83aC02UTZpU3hQMEZobmc3aThDUkJONm1KYkI2VnNRQ2ZGMmNfSHd4T2tRZUlBbWxYN0trb1RwaHVObzZCTUU5UzBnQm9RY1V1ZzUtam53ZDN4Zmd1M21kM3JVWVBlRlNGSW1md3BoNGl2VXo1Z013eUZ3dndsUDJpYjNH?oc=5",
+   "source": "Tech Review Africa",
+   "sourceUrl": "https://techreviewafrica.com",
+   "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T11:36:11.000Z",
+   "date": "2026-10-20T11:37:38.000Z",
    "summary": ""
   },
   {
@@ -303,18 +363,6 @@
    "summary": ""
   },
   {
-   "id": "3c367fdf7182",
-   "title": "Guatemala - WIPO ADR Stories",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZ2ZTQTk4RVlNazJOWjZJNFdNUnR5UXdtWWdvR2dKcWdmZWhPcXIzZzh3U2RqS05vLVlEem1JZ3hXNUlpNEhxd2lXNHFRNzZvUjU1WDUyOS1rR2ZVeHd3YlY2MV9lZDJHdUFLWHhncWd5TXNfOGxpclo3RnYxUmhfUmk5QnJCeVJSc1N3ZVpVbmFJUDVoVUNyYkI2TmRFeHJUM0VmRng2aDVxRXlYS0F1SjQ5WTFmWUZYSUNyaW04SmhyZklnOFFBT1JZcFRvMC1ZcE5jOGNIa1dSTGVuR3gxdEludy14UE1wWG5Ra2ZwMlhsVWxLSkpLVk1TYnI?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-19T11:48:01.000Z",
-   "summary": ""
-  },
-  {
    "id": "167995795db1",
    "title": "وزارة الموارد البشرية تعزز جاهزية العاملين السعوديين في القطاع الخاص عبر \"مسرّعة المهارات\"",
    "url": "https://news.google.com/rss/articles/CBMi7gVBVV95cUxPSVN3TDRwR1JsaGluVTAzelgzMk1iYmJ1RXZRNzlWc3BnYi1hcE5pVHZVZU9GdWYwekxMOFY5bUphTTN5cnRUdTMtNVRoZzVmR3FnNm5jb1RkOTJPZW5QQ2RyRmx2d0dvWlgxSC0ycjcyelItUjNVd1dqVm1yYUFvVTUydkRNZVFkSHBMM056S29acHJyY25SZHhTal9ZbFRWXzRIaWNWU1lzS2toSW9wVUM2V0lCUnRGMUthcHh1U2dJQzVPSU5TeDVtelFvXzZBRk1RRzh3OWxFREFyNGVKZTlfLUhGR0FXT2ZqZ1FkdTdrQVNYdFc5T2lYbnBOZlU3WHJMV2pSbkZHcDBPQkUycG5pSm1Ubk5tYV9uVnlDczVoLXliODZVOUpxcFlVeEt1UFJoa2lieEhRQ0hrSUJVQXg0VERucl83MTRxeXJRWW1lN19meWhEbUxKV1Rab1FJamRidXdBYngxX09sWVZPR1UwS3VKUVljRm1kXzJrSzJrbVVobUhtZDBKZVo2YktlLUt2TV83RXBPY2ZhaTVpQWs2T3FtYjJnUTQ1WFpsa3VtZmZBVW1Nd2tQLTBQNVp6LXNqRVV5bzlwa3VTQ0daWW1tcnVmNUFEdzMxODVYc3ViQk9zZkZoWFloc2VTNlM0SXdMWnhfWVFvSjB4aktaNUltVXpPSVp5YVlPai1nSUo1Zm5QMGFfZnlndlZqd3o4T2dsLTVqZ0lqbWFrekpZVl9icGhSUy1zb3dDOFlZclpNMWUwdXczNjAxbk1LZTM5Rkw2a2d5NF9lbmtCS3BJSnQ4R1ZBMWw4VlRNU1VyTm8wbjlhQW9IVFRoZmpscXpCNjNGM1pLZll6NEw4elY0VV9leHF2TnA5c2pQUUh4WVZZalRxMlJEck5ZOTJNZU42aFYtbmZDSllnR29OSE84SHpVWkxwUExjNWdkbnprRHlFSHJRdy1MUmREQ0diYmI2TjFQTi1MZThIX2ZkY3c?oc=5",
@@ -516,18 +564,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-16T17:35:46.000Z",
-   "summary": ""
-  },
-  {
-   "id": "dd29ad169f10",
-   "title": "Indonesia, Denmark boost intellectual property protection cooperation",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNzN5NTBBaUhJdTZPbUZZN2JWUVdMYnMwRE9EZnF3VEZ1YXZVT3ZSMmpMd0p1Wk5GSWREOWFvOFA3YUNXNlZEQ0FTczBwQXVubGR3UXF3ZHZnWEs0dUMyMVlUdmQ0VFdKR3ozTlN4X1pEUGtvamhtM0p4eUJUdUwzY3VRVHdDb09Sa1ZoOXktVGZqRzZTZHRxUWxFRF9uYU43N2RFWHI3OVlqQksyRTNB0gGvAUFVX3lxTE03M3k1MEFpSEl1Nk9tRlk3YlZRV0xiczBET0RmcXdURnVhdlVPdlIyakx3SnVaTkZJZEQ5YW84UDdhQ1c2VkRDQVNzMHBBdW5sZHdRcXdkdmdYSzR1QzIxWVR2ZDRUV0pHejNOU3hfWkRQa29qaG0zSnh5QlR1TDNjdVFUd0NvT1JrVmg5eS1UZmpHNlNkdHFRbEVEX25hTjc3ZEVYcjc5WWpCSzJFM0E?oc=5",
-   "source": "ANTARA News",
-   "sourceUrl": "https://en.antaranews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-16T14:16:58.000Z",
    "summary": ""
   },
   {
@@ -756,18 +792,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-07T18:36:28.000Z",
-   "summary": ""
-  },
-  {
-   "id": "98a51d5697ea",
-   "title": "علوم وتقنيات / جامعة أم القرى تسجّل براءة اختراع جديدة في مجال استخلاص أكسيد الحديد النانوي",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mYWRGd3k0em8tVlFvbzNmc3FvaHNZMkJuVF9HT0wtcUhiZ2hmYzlLY0JRUEFGWGIzWmpNeXlQR1BUUlM3V3c?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T12:09:41.000Z",
    "summary": ""
   },
   {
