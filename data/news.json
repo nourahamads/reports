@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T04:42:20.247Z",
+ "updated": "2026-10-21T11:44:44.715Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,32 +9,32 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 49,
-   "kept": 12
+   "fetched": 46,
+   "kept": 13
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 59,
+   "fetched": 56,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 69,
+   "fetched": 67,
    "kept": 57
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 100,
-   "kept": 14
+   "kept": 13
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 61
+   "kept": 62
   },
   {
    "id": "labor-local",
@@ -45,11 +45,95 @@
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 68,
-   "kept": 17
+   "fetched": 66,
+   "kept": 19
   }
  ],
  "items": [
+  {
+   "id": "05ee7fee7dc1",
+   "title": "النائب العام يتوجه بالشكر للقيادة بعد الموافقة على لائحة شؤون القضاة الوظيفية",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpVWR6eks3dGgzaTBVMW13S20xUWd2WENtMFBSMEYzNmNkTkJGQU5aN3I3bzlYeVU5LVkzNDNhQm9yeFNidkt0TlFFMnA3eDF2?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-21T11:01:14.000Z",
+   "summary": ""
+  },
+  {
+   "id": "19795ce86299",
+   "title": "Call for Applications: WIPO Global Innovation Index Fellowship 2027 in Switzerland - Earn Up to CHF 6,000 Monthly",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11Z0FNdGx4anZxcWpZOENVaVc5SGhsX1M5d0pmQnE2b2p2YTItVlNKTEI1X2xoVTU4R2JHdDJSenlvNGJzUG9qNEJjUGlFeEN4NWxjc0wzYXNqZVFxUnVBSVd1eHlKT2NsNmtN?oc=5",
+   "source": "Global South Opportunities",
+   "sourceUrl": "https://www.globalsouthopportunities.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T10:48:19.000Z",
+   "summary": ""
+  },
+  {
+   "id": "36d6686e18cd",
+   "title": "ثمّن موافقة القيادة.. النائب العام: لائحة شؤون القضاة تعزز استقلال القضاء",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yaUtkNlBoRGZPYXJSSXZkZ2NQb2xNa3NqdGstc1lPUkhJLUJyNEtOME9YTGVSQ1NBZzdnQ1FfQ1VjRU1hMlJaNHhhTkxsYjZ4UlZwcdIBVEFVX3lxTE5yaUtkNlBoRGZPYXJSSXZkZ2NQb2xNa3NqdGstc1lPUkhJLUJyNEtOME9YTGVSQ1NBZzdnQ1FfQ1VjRU1hMlJaNHhhTkxsYjZ4UlZwcQ?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-21T09:08:08.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ea27076ef365",
+   "title": "Pakistan Stays on US Intellectual Property Watch List for 2026",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUEZDZE03bFdza3hwemJBTHd3bFpBWE1mT1BhQm5tTEltbDNtMFpLRW5PZkRMYy1Ka2YtM25UamQ0elRvRmkwbklObmlXLUFIT04teWZVT2xEbWRWMnF5Y3BSbFI2T25qSXI2cDlTMWlsYkgzX1pVRnk5cUE5bXJ5dFdQakxQTUI2RmhuZUVxQm9rdw?oc=5",
+   "source": "TechJuice",
+   "sourceUrl": "https://www.techjuice.pk",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T08:30:52.000Z",
+   "summary": ""
+  },
+  {
+   "id": "e3b3058a6c0b",
+   "title": "IPOPHL links Pinoy green tech innovators to global WIPO platform",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNjlzS292eTdVN1ZoYlV1NmRRUVdKdFJoRGUyNVJmVlltbXJaRU5WT3hPajV4WUU1SkVXY1Z0M1p1MW81dDZzRjU5b2k5a3R6MEJoYTNPUkp3UVdCQjNucUU2eXcwM3o4VmhodFFjNG43S0NBZFB1Q0NfTDJZNTNQeUVrTGc4bGhNZjJUeVVKelNMU1hWajNUMzRKc2xXZw?oc=5",
+   "source": "Newsbytes.PH",
+   "sourceUrl": "https://newsbytes.ph",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T08:07:45.000Z",
+   "summary": ""
+  },
+  {
+   "id": "69c9a148905b",
+   "title": "How Intellectual Property Rights Are Protected & Enforced under the India-NZ FTA",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV08zM00wWGNYMVVuWFVwMWVIeWdtSGhNeUJFcHhEQnZkaUFWcXlkVjI0TGwwTzYxZnBqeHhvMjhqNFd4ZXJCYjZDTHhhbldneU4xY1lRSVBickh5X1lTNjN3eGVESWlJbC1vMmE0X1ZhY0o5bG5pbFFab1U4UFVrRXFYS1Z0Y2hLTmlRWDBMcVhmbkVpWGpocWV6SUxzVDg?oc=5",
+   "source": "India Briefing",
+   "sourceUrl": "https://www.india-briefing.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T07:55:27.000Z",
+   "summary": ""
+  },
+  {
+   "id": "b8ff347ab749",
+   "title": "BMA Webinar: Managing Digital Content Rights - Licensing, Monetisation And The Challenge Of Viral Copyright Infringement",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQTVCbGdNb0dkNjZlaUQ1OGdsZzR1XzAtd0RuZ3lZeW41YllGd1Z4TkJ1SktNOUJ4R2NGUGJJM1BNc1pRLWowaWVseUp1Z3NueDdmcTFuLTMwUXZ6enFmQ2czeW9SbkZDYzlTRHRoWWhxcG1IRVFJY2NyTFNFQ1k4QjFCQnNNS1UxN1prY3h5MWVjU0NMN1dQYl80TjRWeVk1UEtXbTFUR19haDNEbUFYNVJ6Um9peGpPM0F4RUxEY0VZUnpYX3N2Ql9fcDFnWWQxczVXQ2FuMjFVU0V0aXBvTF9lbDgyUDgxMkZfU2RRS0JMUWZabVh4ZzV3?oc=5",
+   "source": "Broadcast Media Africa",
+   "sourceUrl": "https://news.broadcastmediaafrica.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T06:58:48.000Z",
+   "summary": ""
+  },
   {
    "id": "745e37dcf015",
    "title": "رئيس الملكية الفكرية: الموافقة على الأنظمة الجديدة يعزز بيئة الابتكار",
@@ -159,6 +243,18 @@
    "summary": ""
   },
   {
+   "id": "383b07e2d56f",
+   "title": "عام / \"الملكية الفكرية\" تنظم برنامجًا تدريبيًا للمنظمات غير الربحية الواقعة تحت إشرافها الفني",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAwSS0zOTNKUXg3WXpxVnREUTZvblZYY281Rjd6TVRwc1hreUtnY2NBcUJXU1BDelVGaTV5c0JNNjFHVk4yQXc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T10:36:09.000Z",
+   "summary": ""
+  },
+  {
    "id": "37f3e25e7f01",
    "title": "Musicondalla strengthens Intellectual Property protection to preserve Filipino rondalla and musical heritage",
    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWU9TY3BPcjBhSzFRdGtlenFKSHVGbDZ2RmRpMFpWUVlZcmFGOFVPNllFaElYSjJ2ei1zZ21WQ0FLU210M3ktZHR3d3pXQkR3YWp5UExlVzdSYk5Wakk4a2JnSnhqR3lleGpYTnhPcnRzVTVjYnVuREVqV0ROSmlVYVh5alVDeHUxdEtybmttVkdhY1JnRWw5N2FDNWNWa1kzV2k4ZjJ1S2J6SEtSNWlLc21NM2VmcHdGY2JjNFJKOFJ3T3lyN2hlb2g4ZF9TM09sVmlvb21waEVEMXRjSnlZSnNrZS1sU0JQanhRQnA5VFg3Zw?oc=5",
@@ -243,6 +339,18 @@
    "summary": ""
   },
   {
+   "id": "f6293a09c79a",
+   "title": "How WIPO Helps Innovators in Türkiye Reach New Markets",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLVBtejJqblJ5elZHeUluZnpiUWp0bnN5S0RaTFJNc0lpZG5qUUZyRl9mQkZoLUZiTzh1bmhqbGdsLVVPODZjcVYzM0x6V1JjXzJDUm9JTXlNbU1zbUZ2RFVZN1NObVVpem9uQ1U5QnlKSnRqeUgxT24zZUFLOWdVWUVzSFpjWnpLTlVLbGtIZF92YWVXM0ZqY3ZMSDlBZ3hWdjZNTEhPSWFoOFBDVjYw?oc=5",
+   "source": "World Intellectual Property Organization (WIPO)",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-19T14:46:51.000Z",
+   "summary": ""
+  },
+  {
    "id": "148322235015",
    "title": "النائب العام يبحث مع وزير التجارة سبل تطوير آليات العمل والتنسيق للمساهمة في حماية الاقتصاد الوطني",
    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE41bF8xRTZqNWtMRWtSUEZ0cVdkMi1VMy1PNWlXbkFQRlZDNXBlRExBVHlxOTZmaWtiOV9V?oc=5",
@@ -252,18 +360,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-19T14:46:45.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f6293a09c79a",
-   "title": "How WIPO Helps Innovators in Türkiye Reach New Markets",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLVBtejJqblJ5elZHeUluZnpiUWp0bnN5S0RaTFJNc0lpZG5qUUZyRl9mQkZoLUZiTzh1bmhqbGdsLVVPODZjcVYzM0x6V1JjXzJDUm9JTXlNbU1zbUZ2RFVZN1NObVVpem9uQ1U5QnlKSnRqeUgxT24zZUFLOWdVWUVzSFpjWnpLTlVLbGtIZF92YWVXM0ZqY3ZMSDlBZ3hWdjZNTEhPSWFoOFBDVjYw?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-19T14:37:30.000Z",
    "summary": ""
   },
   {
@@ -519,15 +615,15 @@
    "summary": ""
   },
   {
-   "id": "7a210110652d",
-   "title": "There's a crackdown on sports piracy - but is it already out of control?",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9seW00bjh0cDJVZWVDZnNPNjZFY21jTHZKaVgtbWhHTHJuZ0t3ajdLdFNmdXQ1ZFQ3T2FHb2JtczY2QlkzM01ZNEdzT0hyRlZZS3FXdFdGT0V3OXBBWkE?oc=5",
-   "source": "BBC",
-   "sourceUrl": "https://www.bbc.co.uk",
+   "id": "d76d15e578a5",
+   "title": "Bombay High Court Dismisses Revision Against Copyright Infringement Prosecution — Registration of Copyright Not Mandatory for Criminal Action Under Copyright Act, 1957. Court holds that prior registration under Section 44 is not a prerequisite for launchin",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBWQ0xZRnVwZUlmalJTRXVRMGZUakREWDA2S2xtWGE4c3ZiVmRrSTA3LWh6eDg3X3J2TXhCT0thUUJRc3MwUks5VF9oSTNPaFhFYXd3?oc=5",
+   "source": "Lawtext",
+   "sourceUrl": "https://lawtext.in",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-18T00:11:09.000Z",
+   "date": "2026-10-18T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -543,63 +639,15 @@
    "summary": ""
   },
   {
-   "id": "8f94a3c6ac10",
-   "title": "Why the Fight Against Counterfeit Goods Now Depends on More Than Technology and Tougher Penalties",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOHhCbVhOaUpPYTlGQ1dINm5POC1XV1Ziam1yLVYzYmU5WUJabGp2aWdha1ZMdTNEOGlGblEtTmNleDZYZTN5dll2UFcwanI3YlpscC11aEpTNVZLN0szaVo0M0VkT09wcWZSV09LaEt0dzVRNEdMMlR3X1c4UnRmbm5aeFNOallSR05hNnZSYUZTNWFfVUEzM09SUktNaDdIeGRLUjBUMlZpQ29zSTgyZzBSMm5iVE9VdzJtakJLdGdldE5ld3ZVTVBQNEtiR1lKc0xsb1pRTkNJbHN6X3VoS2tib0JNRHlO0gHuAUFVX3lxTE9zcExfSTFiR3NjYTMwSW84NEdoZ3k5WHVobGtkQUM1THN5MUpyMEJoU0pSVUczTjNyb1FrMmJHTEJNbkhZRk5qT0c3NXRIMmJrN1ZCR1lIYXA4WlVWSDk3QVo0N0JvNHNpTXZLQ0t2TGVfeTlzOWxfQkZPRUUxVy0xM1p5UjkwTmNpbXFBckZFYmY2YXYzWmZGVUd3aFVoRFBWV1ZwdlkyeXcwdWVJclprczFSUFJ2Q1ZybWZSQllVWndwRWp0a0lUSWhNVzVnWTAzVTk2ZmRWX09CY0hJeTJzWFFjVEtVd0FlbTFGalE?oc=5",
-   "source": "Devdiscourse",
-   "sourceUrl": "https://www.devdiscourse.com",
-   "scope": "عالمي",
+   "id": "ac162430e0d8",
+   "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
+   "source": "صحيفة الشمال الإلكترونية",
+   "sourceUrl": "https://www.alshaamal.com",
+   "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-17T16:37:43.000Z",
-   "summary": ""
-  },
-  {
-   "id": "edb1d97246ad",
-   "title": "Counterfeit Goods on Shein and TikTok: Learn About the USCC’s Allegations",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdURURGVCV2wyaXc5dWlHRlZneFVHYjJ1d2JmSE55U3d0UWdmQmFaVk52aTVRRWd4VGhuSjlZWkZEQ1F6OVY0NWF2cnNjcllPTmpGOHhnSDVzN2tZbGpzRkliXzZBN3N2Q0tLa25xajQ2dlVwRFRmaWVfZEFKN2N5VUZabmVJdGQ5UF9Vdk0yaUYwQ1NiSWdOcWpqUzVUWTZSaXBueA?oc=5",
-   "source": "Opportimes",
-   "sourceUrl": "https://www.opportimes.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-17T15:13:55.000Z",
-   "summary": ""
-  },
-  {
-   "id": "0d1a6274a352",
-   "title": "IndulgeRx Clears Historic Global Patent Milestone: WIPO Publishes Three 'Straight A' IRX FOODSCORE® Patents",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSk9BMHlxd3FmZ2RzdEF6aDg4LURvaDZwSGE1bFlyc0RHYkJ5XzVFR04xYndqREtEN1NTVHN1cXl3RlVoR2RVYnNTSkhfSWdpb1EyVWVqM2lwT2ptejdXNF84U2R4OER1RzRaYkg4VDl3OUlLSGJodENWV0VRbUxfa28tUk15QlVoSkktMVZtczV3UGIta0JYcThTajZEcVdpMmR4VFFuM3RmTGF5OWZKSkpaeWg?oc=5",
-   "source": "The National Law Review",
-   "sourceUrl": "https://www.natlawreview.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-17T01:05:25.000Z",
-   "summary": ""
-  },
-  {
-   "id": "b629e94e16e7",
-   "title": "US Customs and Border Protection officers keep stolen and counterfeit goods off the market",
-   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZjF2RGRfV19NNEVicVlOdGJ4SVg1bXVkRURnYm5iZGJ5bnNONEs1b1ZZSTZjWXlTR05PTXIzMUVVN3l5T0Zjc213QWlHQ0JoUDdrSzRtMDV5clNVc2VHQ1g1dURxT1hGVGFUajhUMnNuaUdMSGl1SVJwaGFmOUFBY0kyQnJkVVJzMWtROVFaaFBxTTBaTTYzek9jSmFqLUdvTE1pUVJaYWJDWWVvdzc5NWZjVGE3UVV1OW1hUjY1SUwtQUhoUV9RU3E3SGlma3JsMXZkc1JDazlRbnVNbVN4TlhOOHBhWG0wc1E1XzlYUHFUMVJmdVJya285YmtUS2RRcVVnSDlKa21wVDV1?oc=5",
-   "source": "13newsnow.com",
-   "sourceUrl": "https://www.13newsnow.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-16T21:20:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "465f1108dae6",
-   "title": "Route-Tracking App Changes Name From WalkNYC After City Cries Trademark Infringement",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaWowNXBxSUZyMTBtbGVaSTRvcmk1RzRkLWdualNwd0xCV3Nmemo5cXJUYklCSDhnMU04WmVPaEVET0F3aWt5TFU5aUg4RWpXbkh4OC00bDZBWFJzUDZWZm1xMjZHVGxuS1FpNDlpaFp1RHBwOXNDWk81eUxIdFBidzVhNkFFMlhNNllmNDN0QmI2VXdZbkl3Qy1kbFZjZm9XQVE?oc=5",
-   "source": "The City Reporter",
-   "sourceUrl": "https://www.thecityreporter.nyc",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-16T17:35:46.000Z",
+   "date": "2026-10-17T13:32:49.000Z",
    "summary": ""
   },
   {
@@ -624,6 +672,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-15T15:10:57.000Z",
+   "summary": ""
+  },
+  {
+   "id": "88ba1e999eff",
+   "title": "المملكة تسجل براءة اختراع لموازنة التيارات في شبكات الكهرباء",
+   "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNeGhRSlFFR19iMHA0NU9JSUFHWTE3ckE3WFA1WFkySW9EbU1NUi1MMVBfM0tNYW9SbDFhY3p3d1prbDBReHVCU3BJTUk5U0ttNnVpb0ZaZ1ZmeHdqZTFKc2xvaFljNVdrWkF6TkZ2ekdrYVVRN0g4VmVjakx6cGFGT3g2aUxvV2ZwSUV6WUxFbHZsc3o3dXRQTUVmelRYNEtPS1dkaG04ZFR6d1d6dFJFbXN5SmZNOE1zT3BnWHZKS0V3RW1sMjV5UDN5cXVfRTNqb3BUaXZnME5tWVllNzA4cGdOU0dVM1lyV3FZbF95QWpET0FxODNVS1Q0NGRwWWRRaFZVTGVTRTY0ZmNsN2w0UjdEcnkySjkxaTVvZWo3WHoyc0Q5NmpLV0J5NWxIZlRTQjlrbm51TEZFMERHay1zaU5VRWtpTnNF?oc=5",
+   "source": "25H",
+   "sourceUrl": "https://25h.app",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-14T18:26:37.000Z",
    "summary": ""
   },
   {
@@ -888,30 +948,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-09-30T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c0b965587d13",
-   "title": "المملكة العربية السعودية تعزز حماية حقوق الملكية الفكرية للمنتجات الموسيقية.",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa2tVM2pacjctV1hRUlMxcnM2aHprbV9LeXBuOVQ2NEdRUElZLTktWGY0N215d1NiMHFrQll5ZU1UNTBsbHd6M1d5YmdadTZSV25lU2tSb2tISjFoYmtXSGlFLVBZWXBNeE45RktSQ3dPRElQZHF6SmcyODJZenpaNHYxYWhSa0FFUzhrdg?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-09-21T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "6a4c95d9863f",
-   "title": "مسؤول: الهلال أقوى علامة تجارية بالسعودية ورونالدو يدفع النصر عالمياً",
-   "url": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxPRjIybWQyLWo5bHg2TjBPc2hPeDU3NEFnZDlJTjluVi1DalBVdGpQSGdxTmpaS2t1OVVCU1hzOGNKM2NRQzdJZkJvbGFhNEVaYzQtZXpyX2phOEEtNFNKZ241V0hfdWhzWkhtSzdsQ1U2c1pDdGVQWXJvWlplVWZTT2k1WFZPRVB1V0FPWFNLTUdnQk9FeGZUaU1kbW03UFFLZ1dscUZPY2tGSDBiWTdyTlNYbGk0a2l4N09ESzAydURVVExVOFQ2N1NoRDlJWkllZk8xZ0xtLXhaT2EteXdiQVlGODlybk1ucTF5VEpoblB1czVKR2RjT0pCcllOX3FVd1pMVHFhRWVHRXdlTlNab19CeGdRT29xN2JHWmhzelZ3Q2JjWmpiYmFwRGJyX0VxQmVDRXdRWU9lQVFKSHBUYW5zWVZYamM2RmlHMFBWaktLa0wtMlFQcnkydmZuQXYyLXVCLWJ1bTNCMUxMZkhjdThmc1M1TXFGTURfSFpQZWFoV1NSOGs0YUQyaldFeUNYbmF6UWhXR1ZFRjVEZFFGem5PWXgwSUJZQWhELXZCU19qb05iZUtTMHI4M1dvQkFQMFB3dFF2dkxfWTZQNG5EUWpKaG9PV1RDZDhtOFkwYzRpc1NpNy1Rcw?oc=5",
-   "source": "الشرق رياضة",
-   "sourceUrl": "https://sports.asharq.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-09-21T07:00:00.000Z",
    "summary": ""
   }
  ]
