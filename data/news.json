@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:35:11.708Z",
+ "updated": "2026-10-21T04:42:20.247Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,20 +9,20 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 55,
-   "kept": 11
+   "fetched": 49,
+   "kept": 12
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 57,
+   "fetched": 59,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 71,
-   "kept": 59
+   "fetched": 69,
+   "kept": 57
   },
   {
    "id": "ip-global-piracy",
@@ -39,17 +39,29 @@
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 61,
-   "kept": 14
+   "fetched": 64,
+   "kept": 16
   },
   {
    "id": "prosecution-local",
    "ok": true,
    "fetched": 68,
-   "kept": 16
+   "kept": 17
   }
  ],
  "items": [
+  {
+   "id": "745e37dcf015",
+   "title": "رئيس الملكية الفكرية: الموافقة على الأنظمة الجديدة يعزز بيئة الابتكار",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1idlhvZV85a3h3bnBhYmdMODBaZDBwMzNGNEs5ckZrY1hvQjViNkdscjZKaVZmUWV2WTdVVVJTSHd0dHplNHFRc2lIMndkWHUyYlVR0gFTQVVfeXFMTWJ2WG9lXzlreHducGFiZ0w4MFpkMHAzM0Y0SzlyRmtjWG9CNWI2R2xyNkppVmZRZXZZN1VVUlNId3R0emU0cVFzaUgyd2RYdTJiVVE?oc=5",
+   "source": "alyaum",
+   "sourceUrl": "https://www.alyaum.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T01:01:00.000Z",
+   "summary": ""
+  },
   {
    "id": "e0d4a5339365",
    "title": "عام / الرئيس التنفيذي للهيئة السعودية للملكية الفكرية: الأنظمة الجديدة تعزز حماية حقوق الملكية الفكرية وتدعم نمو الاقتصاد المعرفي",
@@ -60,6 +72,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-20T20:16:22.000Z",
+   "summary": ""
+  },
+  {
+   "id": "866e6628abd6",
+   "title": "Are Big Brands Using Trademark Enforcement to Bully Small Businesses?",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdlFwdTRkTURBQXFfaXZ0c2Q4ZnNidkpmckNSejZzMHpycnhtdlN4eXU2ZWFHT2tvY3A2em9iUEVpN1ZBTm1Ray10R2ExUzBNLURUWVY3aFBodVJMZkRNLXZkc0ZzdHdpekNsZG40ODFfYUx5THFaZExzTmNZeDJ5ay1KUFVKcllOVFRENklueS1XdHNwS1BuSjhScW1qd3R5Ync?oc=5",
+   "source": "Gerben IP",
+   "sourceUrl": "https://www.gerbenlaw.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T20:08:56.000Z",
    "summary": ""
   },
   {
@@ -102,24 +126,12 @@
    "id": "a0f1cbb92aa2",
    "title": "رئيس مجلس إدارة الهيئة السعودية للملكية الفكرية: موافقة مجلس الوزراء على أربعة أنظمة تعزز بيئة الإبداع والابتكار والتنافسية في المملكة",
    "url": "https://news.google.com/rss/articles/CBMirwhBVV95cUxOYUFuMUVkOHNuNlV0RHN6WnVjOGtXcWUxVl81VzBWTnYzSmxJQWIxR2h0b0tjMTNBUDlSS1JqNjRSbi1iczFReFFkZUVyR1BfN3dDTms4MFExR09wZUotSHFFZDZrTjktQUZLZ3ZrZUd3SUd6aUgyZjZvQzQ4SW9ZRjBUdkhRYjFTeVFsc21TN2p5MzdSOG4ySFozaUQ5eTdSRktLNlEwZUthYmlOd1d5V3NKM3pWdE5NMEY1UEhndDBsRXFoVVpGZ0tmb1F5TGhnY0NlMTZHRDh6d1RvVEFRRVZMU25Ddi1GWnBFR2EyeFQyb05uV2pDQW1RMmxmb3lDVUtTYkFTMXJLOXNYNEFWT3paeTdrQkZrUWFPNGo4QUFGRTdoOXFiRk40azRFaUFaOUhkRXdzWTNJWE05LS1pZUxtTGptQ3BlX2FlYTlzbzFwNmtjN3BiUTJXX25LX3JjRm1mMzUwSUZmQ0RHdW9ycEMzeElab1V6Q3NhUTBJa184WVE0czhTS3h2czNZUjhpU2RyajVwMi1ORXBNTE91eTFWc2JaREZwalJrcG9qcVVUQktJT29oLUxOZGo3OUpLMV92d3pxSTU5ejV0QVJoQ0VvQ2UzMkNtSF8zUzNwRU0xbWhXMU05MHZDR3g4aFlfZjl3UnRxS29wRFBGOXVWcmJtSDlNYUJhVEFzQ1IwZWZOa0JLNk1ZMS1yRG5FcmxwSlIxRWd0dTRoNTEzeVJmU1lvbFNvTGZVOHRmLTN1cjFKeG1wQm03MHlUYjV6bURQODdKWjdPdVd6d2VIS3FjT01NM1liYXpaT0lsbnUzS2NzdUlkeWFHOEozSU43aFFFS01LMmY1alZXX2NwVndLeF9iczU3N1o2VUY4QXh1UjJZcEZzRUthcG9rSi1YUFoySk9vTmhEQjdMNEp1by1BaVFpWmtTbzQzQ1hDMGNUX1FiSDJ3RHFuMWNsZ0t2bHVpZ2xNdEk1Sm53UzZ1bFBOSHcwaWhCZm9RTV9GTW5fZ08yamIxUElHVEt1MHJLY1Y4ckpPWUNIM0F6bXZZeFBVU01KbFl4YTZkZkJHRVpaR0pPMFc0T1FYVk1iZnhqVUNEeXRaQkdlajFuZ2NRVFlZczBsY3V1WjFZRXJLMEM3ZUwyd19vZ2FQaENlUXdzcFFOdzRQMmZqdUlkdGN1OUwwV1ZhTGIzSHJxNndCbXhNRVNqaEU0ejNXYWVRbGpzckNzWS11NU1sTF9SOWVDTy0zVlQ4Ui1NQVBxUnhaMHViTlJnZWJFRzVxdnJpNjlWV3ZBUW9MUTNkSjQxY1h2MEZVQURZOXZnTTdZYjVTaDc5RUJvRjFMRU1mYVZIYTJsN0JfanNubmFrenVNUU94d0g3NGpsYXoyMDJTc1FOM3FUNVhuS2JZcC1FN0JBNElVRjQ?oc=5",
-   "source": "جريدة المدينة",
+   "source": "جريدة المدينة - صحيفة المدينة",
    "sourceUrl": "https://www.al-madina.com",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-20T18:25:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "866e6628abd6",
-   "title": "Are Big Brands Using Trademark Enforcement to Bully Small Businesses?",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdlFwdTRkTURBQXFfaXZ0c2Q4ZnNidkpmckNSejZzMHpycnhtdlN4eXU2ZWFHT2tvY3A2em9iUEVpN1ZBTm1Ray10R2ExUzBNLURUWVY3aFBodVJMZkRNLXZkc0ZzdHdpekNsZG40ODFfYUx5THFaZExzTmNZeDJ5ay1KUFVKcllOVFRENklueS1XdHNwS1BuSjhScW1qd3R5Ync?oc=5",
-   "source": "Gerben IP",
-   "sourceUrl": "https://www.gerbenlaw.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T13:04:02.000Z",
    "summary": ""
   },
   {
@@ -231,6 +243,18 @@
    "summary": ""
   },
   {
+   "id": "148322235015",
+   "title": "النائب العام يبحث مع وزير التجارة سبل تطوير آليات العمل والتنسيق للمساهمة في حماية الاقتصاد الوطني",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE41bF8xRTZqNWtMRWtSUEZ0cVdkMi1VMy1PNWlXbkFQRlZDNXBlRExBVHlxOTZmaWtiOV9V?oc=5",
+   "source": "صحيفة درة الالكترونية",
+   "sourceUrl": "https://dora.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-19T14:46:45.000Z",
+   "summary": ""
+  },
+  {
    "id": "f6293a09c79a",
    "title": "How WIPO Helps Innovators in Türkiye Reach New Markets",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLVBtejJqblJ5elZHeUluZnpiUWp0bnN5S0RaTFJNc0lpZG5qUUZyRl9mQkZoLUZiTzh1bmhqbGdsLVVPODZjcVYzM0x6V1JjXzJDUm9JTXlNbU1zbUZ2RFVZN1NObVVpem9uQ1U5QnlKSnRqeUgxT24zZUFLOWdVWUVzSFpjWnpLTlVLbGtIZF92YWVXM0ZqY3ZMSDlBZ3hWdjZNTEhPSWFoOFBDVjYw?oc=5",
@@ -300,6 +324,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-19T13:33:02.000Z",
+   "summary": ""
+  },
+  {
+   "id": "4e7575e9a54a",
+   "title": "Beyond the Trademark: Protecting a Beauty Brand in Brazil",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUThNNE55TVNqemdaVWd2RVVDVTNPaHVKZGVKcUMySDhTblNlMFJUaGhiRzJpV1lJQ25fdkJicEtZekdtVjVTRXdxMnRsdDBMeUFBRk9qU3A4T0NDSlF1VDdrMm1IeXVjNDdtU2VCcFhtWDJRWDQ0UU1FMXYxU2tfM1lUNmdYaVFuN0NXZnZDOV9xVWktOXc?oc=5",
+   "source": "IPWatchdog",
+   "sourceUrl": "https://ipwatchdog.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-19T13:17:17.000Z",
    "summary": ""
   },
   {
@@ -399,27 +435,27 @@
    "summary": ""
   },
   {
-   "id": "938da1a7901c",
-   "title": "الموارد البشرية تفتح التسجيل لاختبارات رخصة مترجم لغة الإشارة السعودية بدءا من اليوم",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1DSElhZDZDc1k5ZVRJTmJIdzFUVDVDb011ZUNpaHp4aTQ2dVNfdmRfa3hXRXExY0E2eFlSLTVYRnVCY1V1cmgw?oc=5",
-   "source": "أضواء الوطن",
-   "sourceUrl": "https://adwaalwatan.com",
+   "id": "34d376f32b59",
+   "title": "«الموارد البشرية» تفتح التسجيل لاختبارات رخصة مترجم لغة الإشارة السعودية بدءا من اليوم",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1PZmVTbExWOS1LNnJuOXA0NWU4RGZVYkFWa3gzNlkzcllOM1QtRjBXcVFWOEZsSk16ZTVTbW93NURZam9MNFE?oc=5",
+   "source": "عاجل",
+   "sourceUrl": "https://ajel.sa",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-19T09:14:41.000Z",
+   "date": "2026-10-19T07:20:22.000Z",
    "summary": ""
   },
   {
-   "id": "e15b2be40fcd",
-   "title": "Human Rights and IP before the European Courts: What Four Decades of Case Law Reveal about European Copyright Law",
-   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOT01qdnl6Y2pYZVhLN1BIWnRhSi1NQnBTRFhaeWhHSnA4cFAzaHBFZEFRb2FOcTA5N01EX281anZRQzRmdk9YSXZPS0dBQkx3NDhRNE95dVlLZzdmUkk5VkJ4VnJSNlNIYVg3bzM4T1RlNjdsZXUwWFBRc01HV3dGSkF0QkRHVFZzTjFTdEF4ZlcwNVFJSzVXRXpwV3lLWkh6a3lWdlRYRFhNN0pXdzNCaGUxUjh1dEd2RVZnOVVqYkM5TWFIRVhJcGtFdTFub1g4R2xmYWtZaVJZLW1ySVNZanF6X1A5V19nbkNzOFZRdjI2N0o0Y3dZeA?oc=5",
-   "source": "Wolters Kluwer",
-   "sourceUrl": "https://legalblogs.wolterskluwer.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-19T06:25:39.000Z",
+   "id": "8f1f54699f0a",
+   "title": "«الموارد البشرية» تفتح التسجيل لاختبارات رخصة مترجم لغة الإشارة السعودية",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZY0hzdlBXWHNrT2JFand5NllGVlZIQTY5OUxJcDVWSXZzUzZ1aWNseDIxSGRZSi15Ym0xQUNJN2toOUlOX1NJNFA4OFJhVTAya25Vc9IBVEFVX3lxTFBZY0hzdlBXWHNrT2JFand5NllGVlZIQTY5OUxJcDVWSXZzUzZ1aWNseDIxSGRZSi15Ym0xQUNJN2toOUlOX1NJNFA4OFJhVTAya25Vcw?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-19T06:58:12.000Z",
    "summary": ""
   },
   {
@@ -483,11 +519,11 @@
    "summary": ""
   },
   {
-   "id": "dc60d4e7e895",
+   "id": "7a210110652d",
    "title": "There's a crackdown on sports piracy - but is it already out of control?",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TakFzNjVmNDk5ZG9YX3hleHE1UmFrN25oQW5ORHJKNUM0R0lGTVlyUExDQkExVzhkSGptbGxVcGhEcU9BOXpDc2trcndNWTNHa0REV2xYMDFQTlU?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9seW00bjh0cDJVZWVDZnNPNjZFY21jTHZKaVgtbWhHTHJuZ0t3ajdLdFNmdXQ1ZFQ3T2FHb2JtczY2QlkzM01ZNEdzT0hyRlZZS3FXdFdGT0V3OXBBWkE?oc=5",
    "source": "BBC",
-   "sourceUrl": "https://www.bbc.com",
+   "sourceUrl": "https://www.bbc.co.uk",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
@@ -507,9 +543,9 @@
    "summary": ""
   },
   {
-   "id": "8ee77b7e771e",
+   "id": "8f94a3c6ac10",
    "title": "Why the Fight Against Counterfeit Goods Now Depends on More Than Technology and Tougher Penalties",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPc3BMX0kxYkdzY2EzMElvODRHaGd5OVh1aGxrZEFDNUxzeTFKcjBCaFNKUlVHM04zcm9RazJiR0xCTW5IWUZOak9HNzV0SDJiazdWQkdZSGFwOFpVVkg5N0FaNDdCbzRzaU12S0NLdkxlX3k5czlsX0JGT0VFMVctMTNaeVI5ME5jaW1xQXJGRWJmNmF2M1pmRlVHd2hVaERQVldWcHZZMnl3MHVlSXJaa3MxUlBSdkNWcm1mUkJZVVp3cEVqdGtJVEloTVc1Z1kwM1U5NmZkVl9PQmNISXkyc1hRY1RLVXdBZW0xRmpR0gHuAUFVX3lxTE9zcExfSTFiR3NjYTMwSW84NEdoZ3k5WHVobGtkQUM1THN5MUpyMEJoU0pSVUczTjNyb1FrMmJHTEJNbkhZRk5qT0c3NXRIMmJrN1ZCR1lIYXA4WlVWSDk3QVo0N0JvNHNpTXZLQ0t2TGVfeTlzOWxfQkZPRUUxVy0xM1p5UjkwTmNpbXFBckZFYmY2YXYzWmZGVUd3aFVoRFBWV1ZwdlkyeXcwdWVJclprczFSUFJ2Q1ZybWZSQllVWndwRWp0a0lUSWhNVzVnWTAzVTk2ZmRWX09CY0hJeTJzWFFjVEtVd0FlbTFGalE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQOHhCbVhOaUpPYTlGQ1dINm5POC1XV1Ziam1yLVYzYmU5WUJabGp2aWdha1ZMdTNEOGlGblEtTmNleDZYZTN5dll2UFcwanI3YlpscC11aEpTNVZLN0szaVo0M0VkT09wcWZSV09LaEt0dzVRNEdMMlR3X1c4UnRmbm5aeFNOallSR05hNnZSYUZTNWFfVUEzM09SUktNaDdIeGRLUjBUMlZpQ29zSTgyZzBSMm5iVE9VdzJtakJLdGdldE5ld3ZVTVBQNEtiR1lKc0xsb1pRTkNJbHN6X3VoS2tib0JNRHlO0gHuAUFVX3lxTE9zcExfSTFiR3NjYTMwSW84NEdoZ3k5WHVobGtkQUM1THN5MUpyMEJoU0pSVUczTjNyb1FrMmJHTEJNbkhZRk5qT0c3NXRIMmJrN1ZCR1lIYXA4WlVWSDk3QVo0N0JvNHNpTXZLQ0t2TGVfeTlzOWxfQkZPRUUxVy0xM1p5UjkwTmNpbXFBckZFYmY2YXYzWmZGVUd3aFVoRFBWV1ZwdlkyeXcwdWVJclprczFSUFJ2Q1ZybWZSQllVWndwRWp0a0lUSWhNVzVnWTAzVTk2ZmRWX09CY0hJeTJzWFFjVEtVd0FlbTFGalE?oc=5",
    "source": "Devdiscourse",
    "sourceUrl": "https://www.devdiscourse.com",
    "scope": "عالمي",
@@ -768,6 +804,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-08T12:29:38.000Z",
+   "summary": ""
+  },
+  {
+   "id": "1c8b6fb65791",
+   "title": "الأمانة العامة لمجلس التعاون تكرّم المتميزين السعوديين | HRSD",
+   "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxNNk90ZTBCanI1YVhfZmpPZk1NbUxSQ3ZxUFp1VVR6YXUzcnhmdlByc3BjMGNBblRKaUNZbW1VMmg2eUJDS2xEWHZrWGRCQkdXNURvRG90WW5nM2pPcTRmN3VBMktyejlXb3V1d284NXhvT1I5NkUtbWVjb0tBMnFPbjdxOXM5R084UGpNN0hteFFrcmYwVGVLTWZ4aTcyMU5fUFFLRk1md2Y2TVNxdkdCOEdnR1BxU1RycWJDbGJPeVA0ZFVMS0pKb1N2WlBSRG9ROHAybV80dVBzYkVNeF9iV0w0c1c0UEF1WmxyT0lmWmtCTjlFeEd2d0p0Tk00RFUxOUNRaHB2akRvRVV6eEpsYkticmFfTll5VnM5Q3N5ckhmc3BvQ1RrUUtxZFVBWjV1Z1RwME9Td0pfOHRrUnRESWNLQk9RdXNNM2N3SWRiNTF2emRFSHphT2xiZFV0VS1wUFFtbDdLalNqSnE0Sld4TENsQXVnSUR3akFZOVlpN01VZzBNd0FrVzdB?oc=5",
+   "source": "الموارد البشرية والتنمية الاجتماعية",
+   "sourceUrl": "https://www.hrsd.gov.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-08T07:00:00.000Z",
    "summary": ""
   },
   {
