@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T17:09:36.138Z",
+ "updated": "2026-10-21T21:40:08.984Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,41 +15,77 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 57,
+   "fetched": 58,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
    "fetched": 71,
-   "kept": 61
+   "kept": 62
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 72,
-   "kept": 23
+   "fetched": 100,
+   "kept": 14
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 100,
-   "kept": 61
+   "fetched": 35,
+   "kept": 31
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 65,
-   "kept": 16
+   "fetched": 68,
+   "kept": 15
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 67,
-   "kept": 18
+   "fetched": 66,
+   "kept": 20
   }
  ],
  "items": [
+  {
+   "id": "4066ae93f6bf",
+   "title": "النائب العام: لائحة شؤون القضاة تعزز استقلال القضاء",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9USGZqRGppa0ZCRHdHejh1N3BlamVDQUxfdTNWNXZLTmZFN2FHVkpKS01OVjZLSEhrbG5HNEFGQXhlbXZkNXpSZmlPWnA3ZFBOM1HSAVRBVV95cUxPV2lQLWVDV1lkR3FaVnFpSUlNZFE4N21rcGF4VEc5MTVDUnItUE53dFktRVNydlR4X1lQVlFNY091U0RtSkNLLXV3SVhCM1lyNzhRblE?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-21T21:19:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7f5c783e019d",
+   "title": "Shumaker Recognized in Inaugural IAM & WTR Copyright 1000",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTXM0VEFlQlhrUnlaMENOS3BmbGp0NkVlN3VQTVhSd1NFMlBTQ2pFQmRFUVMzZXNxQXNCcTA3U253U3ZrcHY2UGhlVE5kSjhjYnJ5Q1poUGgyRXpaRFRxRTdVMW5Pb28zUU5Cb3duSXR4T3E3aUVNa2NaZmdfaW9aQ1otNXFJNlNiY014OA?oc=5",
+   "source": "Legal Reader",
+   "sourceUrl": "https://www.legalreader.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T18:28:11.000Z",
+   "summary": ""
+  },
+  {
+   "id": "d4e766533dc0",
+   "title": "IPOPHL joins WIPO GREEN to support Filipino innovators",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMVctV2lPbzhqLUo5MlpvTkVDd3JIaDNHVGRSckd0SU1Hemh3RmpTWEZwb2Ffd1hDdGdBNDg2YU04MjM2MzE1WWhfYnpyVHgzNG80bG9iem81RlAzN2FNcUwzNHJ5eERtN1pUSEE3bklMRjJ5NmJBVDBKb1JjMjNiY3BqUkJqYnpMQmlEMThtZXNwQ2dOeTlv?oc=5",
+   "source": "Daily Guardian",
+   "sourceUrl": "https://www.dailyguardian.com.ph",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T16:52:34.000Z",
+   "summary": ""
+  },
   {
    "id": "fee3e6d5a6b4",
    "title": "Steven Crowder Sues CNN for Trademark Infringement over ‘Change My Mind’ Segment",
@@ -59,14 +95,26 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-21T14:37:30.000Z",
+   "date": "2026-10-21T14:39:45.000Z",
+   "summary": ""
+  },
+  {
+   "id": "c3a9d00566fb",
+   "title": "Nigerian businesses risk losing valuable assets over poor intellectual property protection — Expert",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbnB0aEtheFpTY2doMTJQZGxfcUd2SE80QlFicnl2YWxVd2RhSU1EWHVUcWZic2U1WUpIZlROVTFyT2FXakJxal9GdkFXNkYtZUJ5TWtFUU93eVBwaUwwMjZKeXVlbm1lVzliMmdXdVFHY2g1MlQydU9MQkVmWFN2aWEzdS15YkFEcG1jYkFIY3lzMHM3MDBHei1EN1hwQk9Pak02QlJGaHN3U24w?oc=5",
+   "source": "Inventa",
+   "sourceUrl": "https://inventa.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T14:25:56.000Z",
    "summary": ""
   },
   {
    "id": "962f810243ef",
    "title": "Schmidt Law Helps Creators Trademark and Protect the Brand Names Behind Their Businesses",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYS1nSTNUYU9JRmZYalZod2ZNSVk0MGtLejFhdDR6TmFiSUstekI3MllPaGVkWlJiNlBNYmU3a1hleW1FT0ZublFKMWtyS0Q5QTVuLXJYUFRFUGRoNER5bkdSc0U0ZHNwSmZVZUtWQ3ZRcWxJXzZuNmZlM29KYWtoNUxwTDM1ME5VdE9kSXhHRlMyZjRNY2pUS2pHWUJmS3Naek45eFlRNF9kRTg?oc=5",
-   "source": "www.newswire.com",
+   "source": "Newswire",
    "sourceUrl": "https://www.newswire.com",
    "scope": "عالمي",
    "topic": "ip",
@@ -96,18 +144,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-21T13:32:10.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1564b4a3d4dc",
-   "title": "Over R1 Million in Suspected Counterfeit Goods Seized in Newcastle CBD",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNkdpN1EzUFBXYmV5NHFNWGhfTFVpZGZKcUhzUS1qLWRhTVg4Y1NlSDJaY095dC1LY1dXSDg3a2NnMXFhTnpnSm5waENudTNEd2QzdE80dzY2X2x2RnNQQjk2YVp4N0Y3eS1CT1NjN01BZHpCc0RiMHlYM1RlOW1yOFJ1T3VyVGZoNm5mTQ?oc=5",
-   "source": "Newcastillian News",
-   "sourceUrl": "https://newcastillian.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-21T12:36:34.000Z",
    "summary": ""
   },
   {
@@ -207,6 +243,18 @@
    "summary": ""
   },
   {
+   "id": "6a909ac10c6c",
+   "title": "النائب العام يرفع الشكر للقيادة بمناسبة صدور الأمر الملكي بالموافقة على لائحة شؤون القضاة الوظيفية",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE43T0tBb2JiN1JrM3lwQ0I2X2lqSllTNnUyaEdwdGdUeE90b3NQdWFNaWFWTFJ6Szc0bkVvc3A4aWhEZ21QZWdz?oc=5",
+   "source": "صحيفة سبق الإلكترونية",
+   "sourceUrl": "https://sabq.org",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-21T07:53:43.000Z",
+   "summary": ""
+  },
+  {
    "id": "b8ff347ab749",
    "title": "BMA Webinar: Managing Digital Content Rights - Licensing, Monetisation And The Challenge Of Viral Copyright Infringement",
    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQTVCbGdNb0dkNjZlaUQ1OGdsZzR1XzAtd0RuZ3lZeW41YllGd1Z4TkJ1SktNOUJ4R2NGUGJJM1BNc1pRLWowaWVseUp1Z3NueDdmcTFuLTMwUXZ6enFmQ2czeW9SbkZDYzlTRHRoWWhxcG1IRVFJY2NyTFNFQ1k4QjFCQnNNS1UxN1prY3h5MWVjU0NMN1dQYl80TjRWeVk1UEtXbTFUR19haDNEbUFYNVJ6Um9peGpPM0F4RUxEY0VZUnpYX3N2Ql9fcDFnWWQxczVXQ2FuMjFVU0V0aXBvTF9lbDgyUDgxMkZfU2RRS0JMUWZabVh4ZzV3?oc=5",
@@ -264,18 +312,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-20T20:08:56.000Z",
-   "summary": ""
-  },
-  {
-   "id": "9e970ca581de",
-   "title": "Guatemala Strengthens Conciliation for Copyright and Related Rights Disputes",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFJxSzZpQV96NXN4blZpYkN3bFpOdmMxT3hvd3AyamFjaUEzbWFWamZtQUo4MWxSdS1mT2xXNC12eEo3MVlaYnV0MGJHU2RucVR6ZzhwU3ZMNVFvYmRQcVhjOE5Wa0g5Y2Z5TENSbHlYNG54a2F0S2pOQTVRWTVZbFFIZ0RSZVoxbi03eUFLRzNqUW53ZVNkUGhpWmQ1OFdqb1o4U0ctLWpuV1dIM0ZhRE41ODcxX2h2YlE?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T19:41:56.000Z",
    "summary": ""
   },
   {
@@ -351,42 +387,6 @@
    "summary": ""
   },
   {
-   "id": "e2e57e576aae",
-   "title": "Hong Kong Customs Seizes Suspected Counterfeit Goods Worth About $10 Million at Tuen Mun River Trade Terminal",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTUlfV0pRdjZhemNDcWlyRkk2YjdhLUVhSXRiTWdCV3NQejNkTzVsSFNYUE9IbW1tMTJaUHhDLUVLVUJPbnptdE55ZFhwbzJYNk9mOEJJc1daS1pZQVljUTVBVWJ0NnU0V1lrOWdZWjgzUHg4LWR6cGVpSnhmWnJVZlE3MHpwVlJ3ajlNWFM2SUNDZGs4WndlLUlZREdORUk5cnNWWVFpVnA1QUpvRHcyVU1aN29CUk1vYkl5S1NkelJyTnM1Y2dZZ2k1T0x1WUNnUzR0cmlUZjU5dGpLZGRxSnJ0bld4OW5tRjYzVndZZm1CQQ?oc=5",
-   "source": "巴士的報",
-   "sourceUrl": "https://www.bastillepost.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T07:15:23.000Z",
-   "summary": ""
-  },
-  {
-   "id": "d95b41e8b7ca",
-   "title": "BREAKING | Police Seize Counterfeit Goods Worth Over R160 Million in Johannesburg CBD",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMXFpdzhDSlFZQnJpOWowQ19XSzJLZXpFR2Y0bU1wZmIyczNTTV9nem95Yk9CRHF2dnZ6SlVEZjlzNTlhb3VuMC1LSHRFR3R2cUthNlFyVFN6SU5TaDFuaXlaNjBKZzVIYXg1elpZVXktWlltQ09STFFxY2RQUDJDR0hEak9rOGxhY04tdTdxaS1sUXpkVFZuV2xYd2VyNi13UnBhUUVDd3ZxVlQzZXZJ?oc=5",
-   "source": "Central News South Africa",
-   "sourceUrl": "https://centralnews.co.za",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T07:08:27.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7a1ecc0d33b0",
-   "title": "Clacton man sentenced for money laundering after selling access to illegal streaming platforms",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRU90YkRFSWhzN0c2OF8yNDllbl9keVZYQjBXYUdCRHJveWxZVmxxUW9DWDY5Z3V2X3RpTVo2alFDckF1R2JVRmxEZVhRa25SOGQybktuZnNPVi1WcE5GWXRxUmJqRnlfSWUwck1IVHkyakVqYTZ4UkZDLWNIQ2FDR2pFdDVqakdRUm9ZajRYOHhPS3ZzSGtrME1xRUlZaDVNYzctRmttRFU4VXMxTGRzZWxpN3pfVkZhS1BzRl9Scmp6RFFFdU5CR2tqOFgxSzhwNGRDaURod3N1clI2MUlsRQ?oc=5",
-   "source": "Rayo",
-   "sourceUrl": "https://www.hellorayo.co.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T04:08:57.000Z",
-   "summary": ""
-  },
-  {
    "id": "37f3e25e7f01",
    "title": "Musicondalla strengthens Intellectual Property protection to preserve Filipino rondalla and musical heritage",
    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWU9TY3BPcjBhSzFRdGtlenFKSHVGbDZ2RmRpMFpWUVlZcmFGOFVPNllFaElYSjJ2ei1zZ21WQ0FLU210M3ktZHR3d3pXQkR3YWp5UExlVzdSYk5Wakk4a2JnSnhqR3lleGpYTnhPcnRzVTVjYnVuREVqV0ROSmlVYVh5alVDeHUxdEtybmttVkdhY1JnRWw5N2FDNWNWa1kzV2k4ZjJ1S2J6SEtSNWlLc21NM2VmcHdGY2JjNFJKOFJ3T3lyN2hlb2g4ZF9TM09sVmlvb21waEVEMXRjSnlZSnNrZS1sU0JQanhRQnA5VFg3Zw?oc=5",
@@ -396,18 +396,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-20T04:04:02.000Z",
-   "summary": ""
-  },
-  {
-   "id": "50923f22f2cf",
-   "title": "الموارد البشرية السعودية توضح خطوات نقل خدمات العامل الوافد دون موافقة صاحب العمل الحالي عبر منصة قوى",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5OHQ5ampMbFgwYTB6MWo2WUUwSHVYYV9NaGd6a09BbFUzRU1BdDg3RkU1QVN6VmRaZFNDRGZvNzlleU9jNHZNVW5WV2pweWttY2NpR2dLamxxMlRLaGNURGtwYzNFWUgtamt4R1NUVEY2YzhnRjJoanln?oc=5",
-   "source": "صحيفة اخبارنا",
-   "sourceUrl": "https://www.akhbrna.ae",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-20T03:02:50.000Z",
    "summary": ""
   },
   {
@@ -495,6 +483,18 @@
    "summary": ""
   },
   {
+   "id": "51f41ca3962c",
+   "title": "A New Era for WIPO Patents: Q&A with Laura Peter",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNmJkdGRsNWdUUnc5UW41d1Q4OWQ3OVFJck5KTUNIRlVhbmdoSlVLMmFGOUhZQlVFTXBxOExMZTVYUnk1dks2Y2liZk9iTlctY1Rfc1NocVJQc21PVHQydjFZMEZLbXcwX0kwd0NLQzhCSEJ2SEZIZVBaN29vYU5wNkRkdDJNQmhISUYxcjBmdzJ6Nm1DRU1zeFk0enNwM3pkRUlLS0Z1Z0RERWZfdjRwU2E3MW9qaTNUVFMxUWJORTVWbG5DLTctNUhRcnA?oc=5",
+   "source": "U.S. Chamber of Commerce",
+   "sourceUrl": "https://www.uschamber.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-19T14:20:27.000Z",
+   "summary": ""
+  },
+  {
    "id": "3b2a499d0680",
    "title": "النيابة والتجارة تبحثان سبل حماية الاقتصاد الوطني",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZU94N2MxSVZJU3pHVUs2XzZyWTkxbFBZSGVvWjRSQnd0MWpFOWFrVWVoVUlFUFJ1MTAyaFIxREJvUlQzSkdZWlUxSXNIcFdVcmdyQXlxOFYwemNIaGtod3lpaUJVeUJBb1A1QXlZaXE3anpaNEZ3Y19TWUFkYXNneFY3SUdQR3ljSmFlUDk2c28wdGtEQWxRM0dXUG9oT0Nod3lpeGx0am94TmRaTDJuWm93OU5MM2lRZnBNMnN6Z19SS3dW?oc=5",
@@ -504,6 +504,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-19T14:12:48.000Z",
+   "summary": ""
+  },
+  {
+   "id": "4f6314b07bd4",
+   "title": "New glowing liquid technology could revolutionize the fight against counterfeit goods",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaFVxWG1qcW5tdllyS0t2cTM3SnpaQ1ZzbTYyOGphYjhEek9YZjRBa3VfYTRSamJLbGFHd21TZExxM0xDT0NMY0kxQklpSlQ3RHJROURUR2x3SGFYdlAtZG5hZjJCUmRvYkNiV2pXRGlyQnROZnNVUDNZem8yVEdob3F5TE4ycVV1V0NzelU5dk1PdGs0d0lyX1F5ZXlCYmhldlQ5NGozZ29JOVZVZUxkYWJ1ZE9kOWY4RkVGUUl5SHpzdw?oc=5",
+   "source": "The Brighter Side of News",
+   "sourceUrl": "https://www.thebrighterside.news",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-19T14:07:00.000Z",
    "summary": ""
   },
   {
@@ -579,15 +591,15 @@
    "summary": ""
   },
   {
-   "id": "167995795db1",
-   "title": "وزارة الموارد البشرية تعزز جاهزية العاملين السعوديين في القطاع الخاص عبر \"مسرّعة المهارات\"",
-   "url": "https://news.google.com/rss/articles/CBMi7gVBVV95cUxPSVN3TDRwR1JsaGluVTAzelgzMk1iYmJ1RXZRNzlWc3BnYi1hcE5pVHZVZU9GdWYwekxMOFY5bUphTTN5cnRUdTMtNVRoZzVmR3FnNm5jb1RkOTJPZW5QQ2RyRmx2d0dvWlgxSC0ycjcyelItUjNVd1dqVm1yYUFvVTUydkRNZVFkSHBMM056S29acHJyY25SZHhTal9ZbFRWXzRIaWNWU1lzS2toSW9wVUM2V0lCUnRGMUthcHh1U2dJQzVPSU5TeDVtelFvXzZBRk1RRzh3OWxFREFyNGVKZTlfLUhGR0FXT2ZqZ1FkdTdrQVNYdFc5T2lYbnBOZlU3WHJMV2pSbkZHcDBPQkUycG5pSm1Ubk5tYV9uVnlDczVoLXliODZVOUpxcFlVeEt1UFJoa2lieEhRQ0hrSUJVQXg0VERucl83MTRxeXJRWW1lN19meWhEbUxKV1Rab1FJamRidXdBYngxX09sWVZPR1UwS3VKUVljRm1kXzJrSzJrbVVobUhtZDBKZVo2YktlLUt2TV83RXBPY2ZhaTVpQWs2T3FtYjJnUTQ1WFpsa3VtZmZBVW1Nd2tQLTBQNVp6LXNqRVV5bzlwa3VTQ0daWW1tcnVmNUFEdzMxODVYc3ViQk9zZkZoWFloc2VTNlM0SXdMWnhfWVFvSjB4aktaNUltVXpPSVp5YVlPai1nSUo1Zm5QMGFfZnlndlZqd3o4T2dsLTVqZ0lqbWFrekpZVl9icGhSUy1zb3dDOFlZclpNMWUwdXczNjAxbk1LZTM5Rkw2a2d5NF9lbmtCS3BJSnQ4R1ZBMWw4VlRNU1VyTm8wbjlhQW9IVFRoZmpscXpCNjNGM1pLZll6NEw4elY0VV9leHF2TnA5c2pQUUh4WVZZalRxMlJEck5ZOTJNZU42aFYtbmZDSllnR29OSE84SHpVWkxwUExjNWdkbnprRHlFSHJRdy1MUmREQ0diYmI2TjFQTi1MZThIX2ZkY3c?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
+   "id": "1d0c5c11bb1a",
+   "title": "عام / وزارة الموارد البشرية والتنمية الاجتماعية تعزز جاهزية العاملين السعوديين في القطاع الخاص عبر \"مسرّعة المهارات\"",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5RdnItVnViYm00N0R6R0RySENyYy00VlhDa0FqZk9wa3ZzaVhLOUdXVG1JS1doSUNNVVBhU21ZcEIyZGttTHc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-19T11:21:00.000Z",
+   "date": "2026-10-19T10:23:09.000Z",
    "summary": ""
   },
   {
@@ -747,18 +759,6 @@
    "summary": ""
   },
   {
-   "id": "859e2225322e",
-   "title": "عام / النائب العام يشارك في الحملة الوطنية للتبرع بالدم",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBRVTVyZnRLLWRhRVNCLXZBQkdPMWRGY0l3ZG55cVM4YktBZEdPVm5hQ1Fmb2o5UXJiVWlTR2RlVHJvRHlNTGc?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-11T15:41:09.000Z",
-   "summary": ""
-  },
-  {
    "id": "6db908f25e4f",
    "title": "وزارة الموارد البشرية السعودية تتيح تصحيح أوضاع العمالة اليمنية عبر منصتي \"قوى\" و\"مساند\"",
    "url": "https://news.google.com/rss/articles/CBMikAVBVV95cUxOeXhGbzlsbFN0dlpzZHoyQjNQOGNYSFRweFJTdjJUdjhqdlJKYUttd21fMVdwQjlCUHpVZGFpME0tQlo0MnFOWVcxVEg5VS1vY1c2QWZKc2dwNEM4dlZDLWU5UTFPUlNEaVFacEprS1BiTW5oTHlicVFpOFNsa3hITV9KMFgxSS1LbE01SEhrZ2o1S21uVzdvMkFOYmZKTHpvZ05ndEFBU2ZkVE9GaS14eEc3RjUwWWd6R3JPRU94N3dZU25rdjN4QjZxdDQ4N1dFU0NlV1hBLWhYNjJaUHZBVzNUeUpHa2RUT3VzR05rV0lxRHUxQkxEV19DRExNZ2l3SW5HSFhleEdMRE0xaEhtRDZ6VGJjOVhyaW5vaE9TWmQ2VGR2V2kxVEw2SllCeG5tcVhRMGtnbWZNcWx2dnE1UzRNU0tpYmFvNzNHVmUwXy1DOC1FanQ5YXpQTDBEWWtRTi1PZnZUWFQ2SElBWmpCTFVsbWwwMEV3U0ZMX2dsSHplSTl3ZGhQUHlLMHhPWXFzZThwUXkyVEplYmxnSEdaYktrUFhrYnd4ZGRwczc5WEdkVEdNUFVFNkhGRWhKdzV1U0wzNXVRdlF0M04tOU91SkVCb0UwMDd2Z2Z3OUtuZzQ2M3o3RDJ5TWVMQ3VlRVhUWU5SMkxabG42M2I0c1FEYzZ2WHZrNzFSQTQ0NXNfNDJ0QjBSWVZoUnp1aWVnenRHTzVHXzFjUlNLRHdtbnJRemc0X2M3aEpBc01YaGw4bnB0Tk5YbnpLWkxicmlQLTFmY0xTdG51LTNKNjh4bWpaeE5aRTl1Y1JBdU9BR19zQkQ2SFozNXBCSUJhV0lsQ2lhdFRmUDJVczQ4YkJ5T2YzbA?oc=5",
@@ -767,6 +767,18 @@
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-11T07:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "859e2225322e",
+   "title": "عام / النائب العام يشارك في الحملة الوطنية للتبرع بالدم",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBRVTVyZnRLLWRhRVNCLXZBQkdPMWRGY0l3ZG55cVM4YktBZEdPVm5hQ1Fmb2o5UXJiVWlTR2RlVHJvRHlNTGc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
    "date": "2026-10-11T07:00:00.000Z",
    "summary": ""
   },
