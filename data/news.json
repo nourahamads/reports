@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:08:01.723Z",
+ "updated": "2026-10-22T21:33:04.369Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,26 +9,26 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 20,
-   "kept": 11
+   "fetched": 50,
+   "kept": 13
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 58,
-   "kept": 2
+   "fetched": 59,
+   "kept": 3
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 75,
-   "kept": 66
+   "fetched": 76,
+   "kept": 67
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 100,
-   "kept": 16
+   "kept": 17
   },
   {
    "id": "ip-global-wipo",
@@ -39,17 +39,65 @@
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 68,
-   "kept": 18
+   "fetched": 66,
+   "kept": 19
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 67,
+   "fetched": 66,
    "kept": 20
   }
  ],
  "items": [
+  {
+   "id": "4e4ba600b530",
+   "title": "Call for Applications: WIPO Global Innovation Index Fellowship 2027 (CHF -",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVkdudXNzUTRrY3kxa1dkQnc2empNQzczeHctNUpnc2ZTcEpJVlNmc045bjR5LXVEXzBTOXFkeHBkR2F4TkZMNXNrNEVEUGYyV21fM0VZRDh1TEN0Z0Vrbmtjd19La2E1aURqcTZDU1NvWnI2UHpqVEJHMmpTaUdOT0NyTlRxb3o0U2c0OUNEUDdjVEwxc2ZDWllTUlE3bmhxb0hvdmhUam1pRWR3UG9ua1Frb1YwNlZ2bEV0LUZGS2s2NkhpVm5ZaTNLT0g5SFdDQ21Cd1o1VnpPVlpOZmVHaDZMYzU?oc=5",
+   "source": "MSME Africa",
+   "sourceUrl": "https://msmeafricaonline.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T17:39:34.000Z",
+   "summary": ""
+  },
+  {
+   "id": "619797ef555f",
+   "title": "Former eminem employee pleads guilty to criminal infringement of copyright — DOJ",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMl9RR1FZcVozMjdpSW9xM3hiSlh3MTZNeHhzdEFNbjI0TkYtdjlvb0hSbUtXYlhDdHUtSWdjTm5jWHVvc3VHamZGSy14cEZvMjhadFJJd1RNYnlMTnpUVmpveTVPMF8tb3dkbWczWHhlLVU3aUZYQ25iVjQyLVJCODExRDl5dDEzYXowWkt1MHFobmhXLUx6cUcxY2ZmLXcya1dObjZ5aw?oc=5",
+   "source": "Regtechtimes",
+   "sourceUrl": "https://regtechtimes.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T17:11:51.000Z",
+   "summary": ""
+  },
+  {
+   "id": "51cdb8ff0b7d",
+   "title": "EU seized record amount of counterfeit goods last year",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2MkpKVlZfZDVESGptRS1HaGZNS1llQWZ4dkhKNzB6RzJjWkJfVDN5U0RHbDYtUUwxT0c1aXU4eTV0RnBUR2VPbm5SXzdxTnZHY2d0TkhKNFVjWHhOMm4xbWdjaTc3SXZXM0dzYlZ0SUM1UkMySExfWUtn?oc=5",
+   "source": "Serbian News Media",
+   "sourceUrl": "https://snm.rs",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T14:05:09.000Z",
+   "summary": ""
+  },
+  {
+   "id": "d83dba102a93",
+   "title": "Detentions of counterfeit goods in the EU reached an all-time high in 2025",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaVFLYzk1MnUtYWlKOFdBWk50elFnRWw4Yl9mcjhvVlhXQ3RlcVZtTEJ0RVp6ZmIxSGlXUnlhXzFpTUJWWDhiaE9JWWhQbHZyWWNYSm5IQk1YYmdoSGx4UERsSkx4STRtdGdrMGtVSUNQQ2ZJM19vcGUyZ2tic3hpaHY5YzNoVkZILWtVcWd6UlZnemtPcGxmOTQ1ODlXY1c0akY4ZjlOUDJNalpzaEdN?oc=5",
+   "source": "EUIPO",
+   "sourceUrl": "https://www.euipo.europa.eu",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T12:49:00.000Z",
+   "summary": ""
+  },
   {
    "id": "801ca8ccfe24",
    "title": "WIPO Global Innovation Index Fellowship 2026/2027",
@@ -75,18 +123,6 @@
    "summary": ""
   },
   {
-   "id": "ff65482a428c",
-   "title": "EU enforcement of intellectual property rights: results at the EU border and in the EU internal market 2025",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWGtXOTlORVlvMnRwYjJpWXhrcHNId01yVEVRYVpTRlQ2V2JGbWJ1M3lsdXFUaGRIOGE4U1ZuWVZWR3dueGdrN0pKMkJOTmpSWF9uUy1ZR0JXQWVQWXFxeVBZYkVkeGdjNmNBN0dlRHo2TE5yU2cxVVhKTVo3NEFmZHd4LTUzbWVGcmZoUUxkWEhXRk8za1dQWUpienhSUzQzQUh6a3pn?oc=5",
-   "source": "EUIPO",
-   "sourceUrl": "https://www.euipo.europa.eu",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-22T11:40:15.000Z",
-   "summary": ""
-  },
-  {
    "id": "51dad56cb033",
    "title": "فرع وزارة الموارد البشرية والتنمية الاجتماعية بالقصيم يشارك في جائزة سمو الامير الدكتور فيصل بن مشعل بن سعود للعمل التطوعي",
    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9sS3dOZFo5R3RsdFVLaHVkSzcxNnBlZVRYUzc4V0lYRFowS0NoU0VMSExhSFZvcy1YMWtr?oc=5",
@@ -99,27 +135,15 @@
    "summary": ""
   },
   {
-   "id": "50f75cf5b46d",
-   "title": "Detentions of counterfeit goods in the EU reached an all-time high in 2025",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWXdyMVViNUdHU0tjdjNtS3dqZldBaERDYmFYOEdiMDJsc3BwVUhvNk4tZW1WTVBIOFZ6MzhHbXJvWExEOS1saVJyV2tVa193RzA0SS1MUHZfRmNUZVFDY2FtRHJvMEFkVzJ1ajRrQnVpUTRCSVFDMDI0VVBocERDaFQyWVNhU0tNS2c4eXdoWUhqdEZkLVVEUmFJYV9RMlpLOV83NENRQ0xjMHdaRFRn?oc=5",
+   "id": "c05a8c4ef18d",
+   "title": "EU enforcement of intellectual property rights: results at the EU border and in the EU internal market 2025",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQjNtei1wT0g4YW5OMkJWcGo1Q3RFNk04bng0NjlCQjFETldvaUw5MFdTN2hnR2xrRS1wMkNnelJqNDRpLWJwV1hVZ2lwNmdSdWEwdkNtNnROcXg0M29HUi13Q0phX0ZFSU16bGJ5YzUzaHp2VGExNUlnV0RsV1VYaVh6TXIyWDNCQkpJQ0tlN3JDUS1hcXlCcC1hSkZhRXIyNWs5TVRB?oc=5",
    "source": "EUIPO",
    "sourceUrl": "https://www.euipo.europa.eu",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-22T09:23:51.000Z",
-   "summary": ""
-  },
-  {
-   "id": "4e4ba600b530",
-   "title": "Call for Applications: WIPO Global Innovation Index Fellowship 2027 (CHF -",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVkdudXNzUTRrY3kxa1dkQnc2empNQzczeHctNUpnc2ZTcEpJVlNmc045bjR5LXVEXzBTOXFkeHBkR2F4TkZMNXNrNEVEUGYyV21fM0VZRDh1TEN0Z0Vrbmtjd19La2E1aURqcTZDU1NvWnI2UHpqVEJHMmpTaUdOT0NyTlRxb3o0U2c0OUNEUDdjVEwxc2ZDWllTUlE3bmhxb0hvdmhUam1pRWR3UG9ua1Frb1YwNlZ2bEV0LUZGS2s2NkhpVm5ZaTNLT0g5SFdDQ21Cd1o1VnpPVlpOZmVHaDZMYzU?oc=5",
-   "source": "MSME Africa",
-   "sourceUrl": "https://msmeafricaonline.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-22T09:01:48.000Z",
+   "date": "2026-10-22T08:40:04.000Z",
    "summary": ""
   },
   {
@@ -138,7 +162,7 @@
    "id": "40146b868189",
    "title": "FID Secures $62m From Businessman Convicted Of Selling Counterfeit Goods",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVpRS0lvVkdkUTdDX3g4Y210blJtVm5RYmdXNHJsRHpUSTNaT3B0RS0xb1U2d2hfNGNvdF9QNm4tdnVMWFNOUU9NNi1OZUtzYlhXZVlrMU5pNWxxRFZDeXNYc0prN2FxRjY3dzNpR2pxNV8zd0dGU0hxZnpCWWpabE9peF9sX3JHZjFOYnZnRzVnMVF4dmdDRmg1VXhydWhmakxfZ0FzRU1LU2ZHV1k2MFVn?oc=5",
-   "source": "Radio Jamaica News Online",
+   "source": "Radio Jamaica News",
    "sourceUrl": "https://radiojamaicanewsonline.com",
    "scope": "عالمي",
    "topic": "ip",
@@ -447,18 +471,6 @@
    "summary": ""
   },
   {
-   "id": "9e970ca581de",
-   "title": "Guatemala Strengthens Conciliation for Copyright and Related Rights Disputes",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFJxSzZpQV96NXN4blZpYkN3bFpOdmMxT3hvd3AyamFjaUEzbWFWamZtQUo4MWxSdS1mT2xXNC12eEo3MVlaYnV0MGJHU2RucVR6ZzhwU3ZMNVFvYmRQcVhjOE5Wa0g5Y2Z5TENSbHlYNG54a2F0S2pOQTVRWTVZbFFIZ0RSZVoxbi03eUFLRzNqUW53ZVNkUGhpWmQ1OFdqb1o4U0ctLWpuV1dIM0ZhRE41ODcxX2h2YlE?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T19:41:56.000Z",
-   "summary": ""
-  },
-  {
    "id": "c74678b1749f",
    "title": "الرئيس التنفيذي لـ\"الملكية الفكرية\": 4 أنظمة جديدة تعزز حماية المبتكرين وتدعم الاقتصاد المعرفي",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9CU3lRaW1WTUtqOXRZT1J4STNXdXA3ZEFSSUh4Mkk2bTcxeER2c3o4dm94MXJqWE1OV0NzUkdKTnJqYkcydElJ?oc=5",
@@ -492,18 +504,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-20T18:25:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "83b39f05346f",
-   "title": "SAPS arrests 17 160 suspects nationally and seizes R160m in counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUlJfYkZldElpUUswcjlReXFmTHZmUnAtVkpZTzhRZHJaVXY0djRCck4tcGtzZmxJSTdWaVlPNGllR1lRMkR4ckxvOTlxcFNqR3VhaWN0SkY4YlBiejIwVEh2Wmw3UTRwekVkdm1QZGc4QmluVUFhUkswOTJKZkpEZFVqRElYZ1lScEk0ajdxNnBTSVNKdUNJNklqYUgwWkZUYVE0?oc=5",
-   "source": "https://novanews.co.za/",
-   "sourceUrl": "https://novanews.co.za",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T12:51:32.000Z",
    "summary": ""
   },
   {
@@ -783,6 +783,18 @@
    "summary": ""
   },
   {
+   "id": "19691fbdcd63",
+   "title": "وظائف وزارة العمل 2026.. رواتب تصل إلى 16 ألف جنيه",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fdkstM3J0bHB0VUVhRGdLWlhJangtVGl2U2NSTGJYdmpNaVJiVk9jTXo2anBHNW1JNjV2dk1acTBGV3JUSGRlV1l3TGR4d2hOMHgw?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-13T11:17:41.000Z",
+   "summary": ""
+  },
+  {
    "id": "85d72b61f03f",
    "title": "النيابة العامة تطلق خدمة الترجمة الفورية الرقمية متعددة اللغات لدعم التحقيقات",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBXYVRWak9PTnZYRWl6RzUxZERQUGtKWW5PX3h6UEtlNW1YcTJNaVFLWG5tNm9wbXl5cVFrU2lFOEY5eXZkUXhPTW1KdGMyendX?oc=5",
@@ -891,6 +903,18 @@
    "summary": ""
   },
   {
+   "id": "65bad5f7a698",
+   "title": "\"أخلاقيات البحث العلمي والملكية الفكرية\"..في دورة تدربية لـ\"جامعة حائل\"",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NWlNRVEo5SzZiSlFyM2FHRXBWRXZ3ZzhUUzAtMlcwbFNVSlc3T0lFVzQtcjNzOWtyZlVNZGlrUGRoTkxYWlVMSUhjRUI2QQ?oc=5",
+   "source": "السعودي اليوم",
+   "sourceUrl": "https://alsaudialyaum.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T10:49:34.000Z",
+   "summary": ""
+  },
+  {
    "id": "7405016ed3f2",
    "title": "الملكية الفكرية في السعودية تشكل 14% من الناتج المحلي",
    "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxPOGt0akU2RTVBUWJMdGpsaVVwNkpvcEZwZld1NWtKelFtNXZZUmllQjRzc1ZCdkFtTVZBNnJxVTZkaEFvM0VZRUtMV2pFMGpKd2pfX0RSS1BSd09mdGVRQ2hySUI1MEtGSlpNMUVTdmdzQ0VUeU9rT0RoX201VnVLZkdidHYtd2g4M2s0UGRfRTN0Z0hucnFNUmVvUHpVaWZqT2F6N0dmdzFSZERITV80TThTaFB6dWlLay12QnhhWldrWnlyN3d5QjB2S0NCZzBBYkFGUDhiTzVCVGVJQUNaRkdfMlNiaXp1ZEFncEMzVGhOQ3lJRllPVEUtTGxhMG9mZ3Byb2tLelgwNTB2ZHhDM2xsbGVkNUdfRWFfWU1WZkxYenJyUlNobzJVUHQybEZqRFFibkVjVXRlSldKUXVBUG5HTXNWS2pxb05rRzJ2T0ZPWXlBeDFycXBKeWJrQVB1d3ZRVEg0N05vX1N6YVdneG90VVNQMVM5SW5TOWFvcjYzQkJ1N1BmNDJVdHUzZ2oyOGllVWJpVnNGWlAxZ0djc2tIbENIT2xFX3c1UHRiUGQyNVB0ajFnTV9Vd2tGSk1zNnhTeElfd1k3NUpCWEYwd2tvQTNUZUhT?oc=5",
@@ -927,6 +951,18 @@
    "summary": ""
   },
   {
+   "id": "1d7cd2cabfdb",
+   "title": "سير السعودية تسجل براءة اختراع سياراتها في البحرين",
+   "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxOd2hRLUpnajZjek43MW1uRFh5Nm9xQ0FoMnJJdVR6bXU0aTNTLWo0V0JKcEhnMlZkdnNPTHNvVnJ5TlZSa3U2ekFmLXMxOGt2SDFmUnhDYVhxMElqcUR6LW1fbG9yUVNuQlhZeHVmdmZnTlJFZG1RYmxfcGd6ZzFHRmFzVlNIRXVMbW1WdGlxUWgwcENhbzgtc0ZTWG9SMGYtczZqR0c2aE90dnF6LXg4TXRWRUlCZFFBeEdxd3ZDY2xqTm9ZdFVKSUozSWxzX2Q5RTdUNlkyTjlqRnRRdFpjYUx6cm5pU082eXZ6X3E4SnhNOTBfM0EySUlnVVgxOU1MUjV6Wjk0R095WkJTX3BfUHIzUUlicVFVTGE5VmFxU1FMN01lMlJIb0FfRFBIT0JTSFFlb3FDMm9IZXFhX21NRTJBaVZzV2V6N2kzakdtVkJ1d2YxRWdYOTVvcXI2Q1IzYTFsNjZRUVdjbkR6Y1BPNVdWWUFfYmlvU002VnhpTjJFb2R3ZEZ5d0R3clBrckNGd1h2RlJKRUc0RUVDekR0dGU2d3c5ZDFOa0lfRXROc2IyUG9RWVF2WmxSN1NyZ9IBVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRQ?oc=5",
+   "source": "صحيفة الوطن",
+   "sourceUrl": "https://alwatannews.net",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T12:29:38.000Z",
+   "summary": ""
+  },
+  {
    "id": "3d0d840f2e0f",
    "title": "الفاخرة تشتري 4 علامات تجارية بمبلغ 39.2 مليون ريال",
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1paWFLVUlsZkhNOHF6dHAtOVpHOVZ2RVlMNkhrNldBdjVlLU43RkFKbm14d2ZBNFAydmNXOXFNYlJCNXAwWjBLNXVLcmNyUXh0QWo1X2ZxODNoWEhxVUlmS2J5OG1NTlhGY3c?oc=5",
@@ -936,6 +972,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-07T07:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "64618b5bc55e",
+   "title": "«الملكية الفكرية» تستعرض مجالات براءات الاختراع",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBqZUQ0SGlLWnh6cUFjdEdmTnJINWZlNWNkaFducFVsXy00eXJnenJHRGpweFhBTXZkYkQ4MmFyb0pvZWtUSEtN?oc=5",
+   "source": "جريدة الرياض",
+   "sourceUrl": "https://www.alriyadh.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T07:00:00.000Z",
    "summary": ""
   },
   {
