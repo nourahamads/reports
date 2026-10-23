@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T11:34:26.272Z",
+ "updated": "2026-10-23T17:03:54.134Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,7 +15,7 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 60,
+   "fetched": 61,
    "kept": 2
   },
   {
@@ -34,7 +34,7 @@
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 63
+   "kept": 64
   },
   {
    "id": "labor-local",
@@ -45,7 +45,7 @@
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 66,
+   "fetched": 67,
    "kept": 19
   }
  ],
@@ -59,7 +59,31 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-23T10:51:32.000Z",
+   "date": "2026-10-23T16:07:48.000Z",
+   "summary": ""
+  },
+  {
+   "id": "30d36a6fd64c",
+   "title": "WIPO Strengthens Afro-Caribbean Creative Connections Through Music and Intellectual Property",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOb2xxUnREcEJsQkxJTXVkbm0wN1lOanRnMVVHQWxtZDBCOUNhZVNrNjBLM0lIOVJuUVlZZ0FvOTZBRWVuaDdRR2lTbXdfTzBFZE9CeEZEVC1GVnAxWS05M2ZjY3c0X0hsMzZjLXphd2oxdm8xa1hnT005QTVybkNoUkpHMW5rTTR1X0U4SGUzOVRzV2gyM2J1Q3FUNzlWSW1UZ0Yzck95eHNBa2VOSVBmWmxNd1Z0MXFSZEwtOG1ndUR6NXdOZXpib0JreHM5eWxkbHZyQS1RSEpCbnls?oc=5",
+   "source": "World Intellectual Property Organization (WIPO)",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-23T14:38:06.000Z",
+   "summary": ""
+  },
+  {
+   "id": "2db5b7646a70",
+   "title": "Albania Passes Copyright Law to Strengthen Protection for Creators",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMVZ2UzN4MVM1cUhYY0lTWmdxLWVJYVVuME00Vkg0RzhxV202RDdQMnBmWG1TNmdVVlFMWDJfT3NiM2tqRldDdXBKTmFxTFcydkFNdEg4czZrTzRTc2VNbjJ5Rkk3aEtHR2NZQ0ZxVzVBUnhudWJBd0F4ajhBeldPY2xfZEdvS3ctMXBSUUdFY0Z1RjBY?oc=5",
+   "source": "RTSH - Radio Televizioni Shqiptar",
+   "sourceUrl": "https://rtsh.al",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-23T11:41:01.000Z",
    "summary": ""
   },
   {
@@ -84,6 +108,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-23T07:55:27.000Z",
+   "summary": ""
+  },
+  {
+   "id": "506b7b48c125",
+   "title": "Implement decisive measures to combat and address intellectual property infringement, commercial fraud, and counterfeit goods in the healthcare sector.",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSW1rcEZpWFRudm5pdnJvcUY2SHFQTnJVbENNdFdkZ1lOelo3WVI3ZTVlR25JMFZ3ZGhjclozbWFyUnpRbUNnVl9ScE9tWHJPT1FibU5XcGhQb3NodTA1SlR1RkwyNk5zYU90S2FpdlhxZjdsUUJuaEo3cWZtTHZCMFQ4Z0lhUFd6UHI2VWxSdENpYTN5ZU1ENFFtd3E0dGoxc2dlUzNDMFNpc1E2M1htWDIyMzNiSWxvOC1HOWpsdEtuZERoSTZESlczWThEVlJWUGRrYVd1Zy04Q2pMVUlYckJoYjkxVURoX0FfTlZodWxDWTQ?oc=5",
+   "source": "Vietnam.vn",
+   "sourceUrl": "https://www.vietnam.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-23T06:06:35.000Z",
    "summary": ""
   },
   {
@@ -112,7 +148,7 @@
   },
   {
    "id": "07a10c9337cf",
-   "title": "Eminem’s Former Employee Pleads Guilty to Copyright Infringement",
+   "title": "Eminem Copyright Case: Former Employee Pleads Guilty",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb0NNTW9hd25fS2ktNmRreTBpdlVQYW1OT2xYQTFsV3Z2d3VnUzQ4YkV3X2lJQWthcnNrMUpYeFZibDRPU1dTX2JYUGZZLVEtNDZabWpucms4emJGS2RCRFhPMlByM3pRRURXNlRRVktPazNsdUZtM3lWcFdSNVZwMTRzMFBadmh2aFRkM2pBOC1VWTA1M2tnQkVkdDR6dw?oc=5",
    "source": "InterSpace Distribution",
    "sourceUrl": "https://interspacemusic.com",
@@ -219,6 +255,18 @@
    "summary": ""
   },
   {
+   "id": "ff65482a428c",
+   "title": "EU enforcement of intellectual property rights: results at the EU border and in the EU internal market 2025",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWGtXOTlORVlvMnRwYjJpWXhrcHNId01yVEVRYVpTRlQ2V2JGbWJ1M3lsdXFUaGRIOGE4U1ZuWVZWR3dueGdrN0pKMkJOTmpSWF9uUy1ZR0JXQWVQWXFxeVBZYkVkeGdjNmNBN0dlRHo2TE5yU2cxVVhKTVo3NEFmZHd4LTUzbWVGcmZoUUxkWEhXRk8za1dQWUpienhSUzQzQUh6a3pn?oc=5",
+   "source": "EUIPO",
+   "sourceUrl": "https://www.euipo.europa.eu",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T11:40:15.000Z",
+   "summary": ""
+  },
+  {
    "id": "ea27076ef365",
    "title": "Pakistan Stays on US Intellectual Property Watch List for 2026",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUEZDZE03bFdza3hwemJBTHd3bFpBWE1mT1BhQm5tTEltbDNtMFpLRW5PZkRMYy1Ka2YtM25UamQ0elRvRmkwbklObmlXLUFIT04teWZVT2xEbWRWMnF5Y3BSbFI2T25qSXI2cDlTMWlsYkgzX1pVRnk5cUE5bXJ5dFdQakxQTUI2RmhuZUVxQm9rdw?oc=5",
@@ -240,18 +288,6 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-22T10:29:18.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7d7a3d0e6174",
-   "title": "EU enforcement of intellectual property rights: results at the EU border and in the EU internal market 2025",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNjNuT1Q0bThaSVJXWTJSal9iZGhIdTVBSWpVQXVmSllaUDhJTFpOdjdDUVVPMGp3Q0l5STdrLURlOVNVMW1GbDhtN2tfQklHV1MwbGh5cnpMdDJnMk0xWWFncDBVZkN1cks1SnU4UU11TmdwalBNT3VERzhjc1lLTlZrVFNjZW5RYzNtRXhpQzgzU0ZOSEwxQWt4QmQ5X1RSazFqenhn?oc=5",
-   "source": "EUIPO",
-   "sourceUrl": "https://www.euipo.europa.eu",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-22T10:10:52.000Z",
    "summary": ""
   },
   {
@@ -360,42 +396,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-21T14:39:45.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c3a9d00566fb",
-   "title": "Nigerian businesses risk losing valuable assets over poor intellectual property protection — Expert",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbnB0aEtheFpTY2doMTJQZGxfcUd2SE80QlFicnl2YWxVd2RhSU1EWHVUcWZic2U1WUpIZlROVTFyT2FXakJxal9GdkFXNkYtZUJ5TWtFUU93eVBwaUwwMjZKeXVlbm1lVzliMmdXdVFHY2g1MlQydU9MQkVmWFN2aWEzdS15YkFEcG1jYkFIY3lzMHM3MDBHei1EN1hwQk9Pak02QlJGaHN3U24w?oc=5",
-   "source": "Inventa",
-   "sourceUrl": "https://inventa.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-21T14:25:56.000Z",
-   "summary": ""
-  },
-  {
-   "id": "962f810243ef",
-   "title": "Schmidt Law Helps Creators Trademark and Protect the Brand Names Behind Their Businesses",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYS1nSTNUYU9JRmZYalZod2ZNSVk0MGtLejFhdDR6TmFiSUstekI3MllPaGVkWlJiNlBNYmU3a1hleW1FT0ZublFKMWtyS0Q5QTVuLXJYUFRFUGRoNER5bkdSc0U0ZHNwSmZVZUtWQ3ZRcWxJXzZuNmZlM29KYWtoNUxwTDM1ME5VdE9kSXhHRlMyZjRNY2pUS2pHWUJmS3Naek45eFlRNF9kRTg?oc=5",
-   "source": "Newswire",
-   "sourceUrl": "https://www.newswire.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-21T14:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "569ef7b579a1",
-   "title": "Uganda Copyright Symposium Calls for Stronger Royalty Management and Regional Cooperation",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY3pOaDR4MmFKeGVUX1Vhd0wxeHQ1STFfdjFOQ2RJX2V0TktwWnlOY0V1aWE3NzBoRXRrdFAwME5GUTVyeTlSQlJUNEM2Z1hNOFNwZ3AzRGxPQjd6ZThnYmxreGFMYXB6TlRLRWxSajZaTDlhQXhTNU5ncmRjdWhRcnFGOTJhT3BLRUpNNTZiYjlRNFBVNmpJYlVvZFdIQ0RvcVdZd1YzVHZKdmdOak1YbE9jMG54Y1d6U2FnemNoc1hhcXVwdE1NM2RB0gHSAUFVX3lxTE1remRhaVJqUURuWVRoNFNiYXd5OGRqdHNXbVZmQkZ1NVhJSElYSnZLbXpqU0RKN3I0cVdGUjBxVzVSNWY1TE50LXNWVGs2SG1CLXhOWlE0cEpCdDc2LTZwNmladGxtc0lKT3ZNYi1OSUNQYi1kbUNhd29zby1zZjY3cnFkd2M2bGpwVzdma1dDSHFWeXU3blRzaWRDRlJyenBVZnNSNEM4M3A0clRpdEZKQzVxN2FSUUFRN3hxdFEwVWRodFhqV0doQnJEbkkwUmttUQ?oc=5",
-   "source": "Nilepost",
-   "sourceUrl": "https://nilepost.co.ug",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-21T13:47:16.000Z",
    "summary": ""
   },
   {
