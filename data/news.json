@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T04:32:34.124Z",
+ "updated": "2026-10-24T10:54:52.430Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,20 +9,20 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 19,
-   "kept": 10
+   "fetched": 52,
+   "kept": 13
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 62,
-   "kept": 2
+   "fetched": 66,
+   "kept": 3
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 73,
-   "kept": 63
+   "fetched": 70,
+   "kept": 60
   },
   {
    "id": "ip-global-piracy",
@@ -34,19 +34,19 @@
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 63
+   "kept": 59
   },
   {
    "id": "labor-local",
    "ok": true,
    "fetched": 62,
-   "kept": 15
+   "kept": 14
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 29,
-   "kept": 13
+   "fetched": 68,
+   "kept": 18
   }
  ],
  "items": [
@@ -71,7 +71,7 @@
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-23T17:24:52.000Z",
+   "date": "2026-10-23T17:09:52.000Z",
    "summary": ""
   },
   {
@@ -351,6 +351,18 @@
    "summary": ""
   },
   {
+   "id": "2c3334ba4019",
+   "title": "النائب العام: لائحة شؤون القضاة الوظيفية تعزز استقلال القضاء",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSTAzVVkxbUdBSXh0MURwUGFaSVFLaWxaSHg1YzZyVElzaVg1NVZxRS1hYzF5dG1KdFoyLXNJWjhlNE9uV2FZM2R6RmMyUG9ack9JT3BOeWtfLVdXeE5JNDEtd2c3SGRmMGtJZ0Nqb0pDZ0ZtTXRNRHRXR3RrSklmX2gwc3dzNHFFTVZENkM5U25MUjRwUC1xdUVWSFYxNG5RSHc3RE1TZHhxenFLTGFPQ2ZOeVl0S1pkdGg0NQ?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-22T01:02:59.000Z",
+   "summary": ""
+  },
+  {
    "id": "4066ae93f6bf",
    "title": "النائب العام: لائحة شؤون القضاة تعزز استقلال القضاء",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9USGZqRGppa0ZCRHdHejh1N3BlamVDQUxfdTNWNXZLTmZFN2FHVkpKS01OVjZLSEhrbG5HNEFGQXhlbXZkNXpSZmlPWnA3ZFBOM1HSAVRBVV95cUxPV2lQLWVDV1lkR3FaVnFpSUlNZFE4N21rcGF4VEc5MTVDUnItUE53dFktRVNydlR4X1lQVlFNY091U0RtSkNLLXV3SVhCM1lyNzhRblE?oc=5",
@@ -411,15 +423,27 @@
    "summary": ""
   },
   {
-   "id": "d8fdd197a328",
-   "title": "ثمّن موافقة القيادة.. النائب العام: لائحة شؤون القضاة تعزز استقلال القضاء",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MYUNuUG11Q3dzT2xmQkFGdkpsRXM5WnJ1LXB3cm5wbWNCdEgwM3JVLTBSSWJLajY4NE9KLWMxNlBDZHBSY24wMGdWaTZrT19FM0HSAVRBVV95cUxOcmlLZDZQaERmT2FyUkl2ZGdjUG9sTWtzanRrLXNZT1JISS1CcjRLTjBPWExlUkNTQWc3Z0NRX0NVY0VNYTJSWjR4YU5MbGI2eFJWcHE?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
+   "id": "2d2fde58a66e",
+   "title": "جامعة أم القرى تحصل على براءة اختراع أمريكية لنظام معرفي متطور",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9icEUxZmo0R0M0RWphWnZ1LXZoRzlEX0tEeGZDR3hXWmU5TEFudmVySWdQa1RENi1HQnM0UWZleW9ENmFNU3A0ZUxFQ0Y0TGRD?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-21T13:01:03.000Z",
+   "summary": ""
+  },
+  {
+   "id": "05ee7fee7dc1",
+   "title": "النائب العام يتوجه بالشكر للقيادة بعد الموافقة على لائحة شؤون القضاة الوظيفية",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpVWR6eks3dGgzaTBVMW13S20xUWd2WENtMFBSMEYzNmNkTkJGQU5aN3I3bzlYeVU5LVkzNDNhQm9yeFNidkt0TlFFMnA3eDF2?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-21T09:08:00.000Z",
+   "date": "2026-10-21T11:01:14.000Z",
    "summary": ""
   },
   {
@@ -507,18 +531,6 @@
    "summary": ""
   },
   {
-   "id": "50923f22f2cf",
-   "title": "الموارد البشرية السعودية توضح خطوات نقل خدمات العامل الوافد دون موافقة صاحب العمل الحالي عبر منصة قوى",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB5OHQ5ampMbFgwYTB6MWo2WUUwSHVYYV9NaGd6a09BbFUzRU1BdDg3RkU1QVN6VmRaZFNDRGZvNzlleU9jNHZNVW5WV2pweWttY2NpR2dLamxxMlRLaGNURGtwYzNFWUgtamt4R1NUVEY2YzhnRjJoanln?oc=5",
-   "source": "صحيفة اخبارنا",
-   "sourceUrl": "https://www.akhbrna.ae",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-20T03:02:50.000Z",
-   "summary": ""
-  },
-  {
    "id": "7b7c74fcb221",
    "title": "النائب العام ووزير التجارة يبحثان تعزيز التعاون وترسيخ سيادة النظام",
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1dG85QS1kS1N5cG9lczJ3bF80UHpvalIyN0Rfdy1lTjNfb3hxNzdXMDNMSTgxc2tKeGdzUUhCTWJDUlRKOGZnRkVDbHVyV0k2?oc=5",
@@ -540,6 +552,30 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-19T18:47:17.000Z",
+   "summary": ""
+  },
+  {
+   "id": "148322235015",
+   "title": "النائب العام يبحث مع وزير التجارة سبل تطوير آليات العمل والتنسيق للمساهمة في حماية الاقتصاد الوطني",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE41bF8xRTZqNWtMRWtSUEZ0cVdkMi1VMy1PNWlXbkFQRlZDNXBlRExBVHlxOTZmaWtiOV9V?oc=5",
+   "source": "صحيفة درة الالكترونية",
+   "sourceUrl": "https://dora.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-19T14:46:45.000Z",
+   "summary": ""
+  },
+  {
+   "id": "3b2a499d0680",
+   "title": "النيابة والتجارة تبحثان سبل حماية الاقتصاد الوطني",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZU94N2MxSVZJU3pHVUs2XzZyWTkxbFBZSGVvWjRSQnd0MWpFOWFrVWVoVUlFUFJ1MTAyaFIxREJvUlQzSkdZWlUxSXNIcFdVcmdyQXlxOFYwemNIaGtod3lpaUJVeUJBb1A1QXlZaXE3anpaNEZ3Y19TWUFkYXNneFY3SUdQR3ljSmFlUDk2c28wdGtEQWxRM0dXUG9oT0Nod3lpeGx0am94TmRaTDJuWm93OU5MM2lRZnBNMnN6Z19SS3dW?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-19T14:12:48.000Z",
    "summary": ""
   },
   {
@@ -627,6 +663,18 @@
    "summary": ""
   },
   {
+   "id": "7c33e02c9303",
+   "title": "\"الموارد البشرية\" تفتح باب التسجيل لاختبارات ترخيص مترجمي لغة الإشارة السعودية",
+   "url": "https://news.google.com/rss/articles/CBMiowVBVV95cUxNaVZ5MjROQlNYM2RWRHJ1TXZqSFVfZXA0YndocmhYODBsbFJIUEg3WDVOdlNEeTduZUp5em5ld250QzJERVhmOEpja1UxbHZIM3diaDNkTXF2X0VER1JQN3RNalA0MFg3YmlGcHp6V3dvOEt0NzZvamFwYUVBVkw3d20tWHJEazFSWElpc05nemlka0JyN1JDU3BNMno3ZUZJYTg1djFiT2xGZHRyX1o2dHRQWmpxaC1yUU5nVVQtQVA5bTBQSTJ5QzJPeTRJTHNTTGxvMExURWEwSnI1aFRFcVVOTnVEaWNSeXZhd0N5RE1NWG5yZkxzdV9hUkwxQ21vZFV3Q0htOEF4TnBlZTcyYWpuelJZUTY5ZnVwU0JTWUFRcnNVRkRtZjE0M2E0OVM0aW5lQXNTa25kck93a3VXRXpLQzBxZHotTGlrck9YemkzSkZKTHI3UF9uaDZTZFhsMUg5MDc3MEVndU9LTWVCdThYcFVtRkFMMi1IcnIyek4xeDE0VlFkZXp4WDkzMy00VUgwODVrd0FEaXdxektVZlpKbHhtVHBOeFZqNmllZk9WcDBnbXlQcm9KS0VodGg0M1BZc2RSX0VNRmpuVUp4anlNRXE5VFk1T1BVY3NKMXB1SXo2ei0tbDJyd0djUUlrNGxaX2p6Q1FEM0Q1ejAwQmFaQU9WaW5CTVd4RXRrdTJENUExREdyRVhpUm1OcGN2eUV1TzIyeC13Q1E5T05qOFdQckZ5QW9Da1hmQVVaYXRJS25FX1llYWJxWjlfbWxhMkJaZVd5M09PVjVxcVJmLUZielJpMUY1MzVIMkIzS3V2SzhnTFkzdElpdlZfRFBMRmRlb09KVUhUbUhFVm1oR1JHZ3kwekIxNnNKSE91WW05Uk0?oc=5",
+   "source": "جريدة المدينة",
+   "sourceUrl": "https://www.al-madina.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-19T10:23:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "34d376f32b59",
    "title": "«الموارد البشرية» تفتح التسجيل لاختبارات رخصة مترجم لغة الإشارة السعودية بدءا من اليوم",
    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1PZmVTbExWOS1LNnJuOXA0NWU4RGZVYkFWa3gzNlkzcllOM1QtRjBXcVFWOEZsSk16ZTVTbW93NURZam9MNFE?oc=5",
@@ -651,6 +699,18 @@
    "summary": ""
   },
   {
+   "id": "af765ac9d55a",
+   "title": "وزير العدل يشهد أداء اليمين القانونية لمعاوني النيابة العامة الجدد",
+   "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOcTFSOEwtallZZzlmYXdwYTN2OUduQzFHR2Z0SFlWcXFvUmE5LUtzSVhCZ3BnS0tmZWRYNERSNTdIREgxc1E4b0cwMjN2VGhYS1lvV1JVT255QlRTZFdEMU1qZ2ZoZXloajVvMFhBcWcwRDg3aXlXS245ZG1JZWRpd0hKTWY3OHBDb3ZsZEktZE8xczktWTJxNVBubkNmSXJZdWo4LVZwcHhBYnh2Z2N1cEZfcEoxbzVZYkVTeVhYSXpEV2NoUFN4NjhWSHMzeEM2R3JvaXMzWGZkdG5hUUQ1TWpYMEVzWXpWdFVkRS0tMHpkOENLRFY3N2lNYlZGMDdoOXNQU1V4bndBZ1lXOGlzQjBPWW0tWEQ2Y3FEWl94T2NMWlUxbzFqZ1RZUlpZTGdrM2VER0ttSXIwWlJLSHVDWU9MQXF3TWxrMzRTWEIxSVM2aUlibXZzUmFTb1JJMjRjVUQ3ZnlKcjU?oc=5",
+   "source": "بوابة أخبار اليوم الإلكترونية",
+   "sourceUrl": "https://m.akhbarelyom.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-17T19:55:07.000Z",
+   "summary": ""
+  },
+  {
    "id": "ac162430e0d8",
    "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
@@ -672,6 +732,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-17T13:32:49.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ea0a1b0f8cba",
+   "title": "النائب العام يشارك في الاجتماع الـ18 للنواب العموم والمدعين العامين بدول مجلس التعاون في مملكة البحرين",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GaXFseEJ1WUNobjNPUG0xa2Y4bjlvbUFNd3JxUDg2cWZUSGlYVUxPTmZUdm9NVXpFZi1FS0xVVUtheld3TE9XODR3bEJMSEdhcG1j?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-15T18:12:46.000Z",
    "summary": ""
   },
   {
@@ -771,6 +843,18 @@
    "summary": ""
   },
   {
+   "id": "65bad5f7a698",
+   "title": "\"أخلاقيات البحث العلمي والملكية الفكرية\"..في دورة تدربية لـ\"جامعة حائل\"",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NWlNRVEo5SzZiSlFyM2FHRXBWRXZ3ZzhUUzAtMlcwbFNVSlc3T0lFVzQtcjNzOWtyZlVNZGlrUGRoTkxYWlVMSUhjRUI2QQ?oc=5",
+   "source": "السعودي اليوم",
+   "sourceUrl": "https://alsaudialyaum.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-10T10:49:34.000Z",
+   "summary": ""
+  },
+  {
    "id": "7405016ed3f2",
    "title": "الملكية الفكرية في السعودية تشكل 14% من الناتج المحلي",
    "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxPOGt0akU2RTVBUWJMdGpsaVVwNkpvcEZwZld1NWtKelFtNXZZUmllQjRzc1ZCdkFtTVZBNnJxVTZkaEFvM0VZRUtMV2pFMGpKd2pfX0RSS1BSd09mdGVRQ2hySUI1MEtGSlpNMUVTdmdzQ0VUeU9rT0RoX201VnVLZkdidHYtd2g4M2s0UGRfRTN0Z0hucnFNUmVvUHpVaWZqT2F6N0dmdzFSZERITV80TThTaFB6dWlLay12QnhhWldrWnlyN3d5QjB2S0NCZzBBYkFGUDhiTzVCVGVJQUNaRkdfMlNiaXp1ZEFncEMzVGhOQ3lJRllPVEUtTGxhMG9mZ3Byb2tLelgwNTB2ZHhDM2xsbGVkNUdfRWFfWU1WZkxYenJyUlNobzJVUHQybEZqRFFibkVjVXRlSldKUXVBUG5HTXNWS2pxb05rRzJ2T0ZPWXlBeDFycXBKeWJrQVB1d3ZRVEg0N05vX1N6YVdneG90VVNQMVM5SW5TOWFvcjYzQkJ1N1BmNDJVdHUzZ2oyOGllVWJpVnNGWlAxZ0djc2tIbENIT2xFX3c1UHRiUGQyNVB0ajFnTV9Vd2tGSk1zNnhTeElfd1k3NUpCWEYwd2tvQTNUZUhT?oc=5",
@@ -783,15 +867,15 @@
    "summary": ""
   },
   {
-   "id": "12560ecedf28",
-   "title": "إسقاط رصيد الإجازات السنوية في نظام العمل السعودي",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdEVrZFpRNmtBMnlqeHpBQTJHVjRFc3VOREJqd0VaOHlUbHMwa3RiRWxVSzJxSGRXS0RpV2x0WjdFSjE0cVJUX3R2YnpyQXk0cVRoV3BhQ3o1MmVPV2dOeC1zLXVrSHJBVTd6U2hUWUR2eGlxaWs4alpRX2pNcEVkdnRVWnJWOWl1bGdXTHlDcG9meERZTmhBeS1fTms5N0F0cDgtV3REdWk?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
+   "id": "1d7cd2cabfdb",
+   "title": "سير السعودية تسجل براءة اختراع سياراتها في البحرين",
+   "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxOd2hRLUpnajZjek43MW1uRFh5Nm9xQ0FoMnJJdVR6bXU0aTNTLWo0V0JKcEhnMlZkdnNPTHNvVnJ5TlZSa3U2ekFmLXMxOGt2SDFmUnhDYVhxMElqcUR6LW1fbG9yUVNuQlhZeHVmdmZnTlJFZG1RYmxfcGd6ZzFHRmFzVlNIRXVMbW1WdGlxUWgwcENhbzgtc0ZTWG9SMGYtczZqR0c2aE90dnF6LXg4TXRWRUlCZFFBeEdxd3ZDY2xqTm9ZdFVKSUozSWxzX2Q5RTdUNlkyTjlqRnRRdFpjYUx6cm5pU082eXZ6X3E4SnhNOTBfM0EySUlnVVgxOU1MUjV6Wjk0R095WkJTX3BfUHIzUUlicVFVTGE5VmFxU1FMN01lMlJIb0FfRFBIT0JTSFFlb3FDMm9IZXFhX21NRTJBaVZzV2V6N2kzakdtVkJ1d2YxRWdYOTVvcXI2Q1IzYTFsNjZRUVdjbkR6Y1BPNVdWWUFfYmlvU002VnhpTjJFb2R3ZEZ5d0R3clBrckNGd1h2RlJKRUc0RUVDekR0dGU2d3c5ZDFOa0lfRXROc2IyUG9RWVF2WmxSN1NyZ9IBVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRQ?oc=5",
+   "source": "صحيفة الوطن",
+   "sourceUrl": "https://alwatannews.net",
    "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-10T07:00:00.000Z",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-08T12:29:38.000Z",
    "summary": ""
   },
   {
@@ -812,6 +896,18 @@
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBqZUQ0SGlLWnh6cUFjdEdmTnJINWZlNWNkaFducFVsXy00eXJnenJHRGpweFhBTXZkYkQ4MmFyb0pvZWtUSEtN?oc=5",
    "source": "جريدة الرياض",
    "sourceUrl": "https://www.alriyadh.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T07:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "5c27d7653e1f",
+   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
+   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
+   "source": "الشرق الأوسط",
+   "sourceUrl": "https://aawsat.com",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
