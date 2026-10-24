@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T21:22:06.882Z",
+ "updated": "2026-10-24T04:32:34.124Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -21,14 +21,14 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 77,
-   "kept": 67
+   "fetched": 73,
+   "kept": 63
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 100,
-   "kept": 17
+   "kept": 16
   },
   {
    "id": "ip-global-wipo",
@@ -39,14 +39,14 @@
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 65,
+   "fetched": 62,
    "kept": 15
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 68,
-   "kept": 19
+   "fetched": 29,
+   "kept": 13
   }
  ],
  "items": [
@@ -60,6 +60,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-23T19:00:40.000Z",
+   "summary": ""
+  },
+  {
+   "id": "4d7d0cb3b2ae",
+   "title": "عام / وزارة الموارد البشرية والتنمية الاجتماعية تحصد جائزة أفضل مكتب لإدارة المشاريع عالميًا لعام 2026",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1qamdGUzNGNjlyN2xkVGZTM05iQ29sQml2NnB2ajd0ekFzTlF1RFMxUnJLSmVCRmU5NDlWME9sV1NBVHpEd2c?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-23T17:24:52.000Z",
    "summary": ""
   },
   {
@@ -99,6 +111,18 @@
    "summary": ""
   },
   {
+   "id": "ea27076ef365",
+   "title": "Pakistan Stays on US Intellectual Property Watch List for 2026",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUEZDZE03bFdza3hwemJBTHd3bFpBWE1mT1BhQm5tTEltbDNtMFpLRW5PZkRMYy1Ka2YtM25UamQ0elRvRmkwbklObmlXLUFIT04teWZVT2xEbWRWMnF5Y3BSbFI2T25qSXI2cDlTMWlsYkgzX1pVRnk5cUE5bXJ5dFdQakxQTUI2RmhuZUVxQm9rdw?oc=5",
+   "source": "TechJuice",
+   "sourceUrl": "https://www.techjuice.pk",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-23T10:46:25.000Z",
+   "summary": ""
+  },
+  {
    "id": "31b7b20e02d4",
    "title": "How Illegal Streaming Sites Build Businesses Around Advertising And Stolen Content",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbzVCQkoyc2Z2amVZZF91VlA3X2N5T3hsZEcyNFgtYjBjVVRPRlVzN2dIVVVMX1NfQ2RoMGRZZVVyNFdvUFVVYjdsUUVvSzRUeFloWTFkWVVXbTVQelNVUWEyUFpOOWZJZW5GNlY1QVFXdVo3QTBPUEtGeTJEXzA2TGp1NUR2ZkFxeENQWVVBcVVXa216ZDhlZFJxYVhMTjBLb0VsMjlJaWZrc05PalR2aEpad2RUMWM?oc=5",
@@ -120,6 +144,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-23T07:55:27.000Z",
+   "summary": ""
+  },
+  {
+   "id": "506b7b48c125",
+   "title": "Implement decisive measures to combat and address intellectual property infringement, commercial fraud, and counterfeit goods in the healthcare sector.",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSW1rcEZpWFRudm5pdnJvcUY2SHFQTnJVbENNdFdkZ1lOelo3WVI3ZTVlR25JMFZ3ZGhjclozbWFyUnpRbUNnVl9ScE9tWHJPT1FibU5XcGhQb3NodTA1SlR1RkwyNk5zYU90S2FpdlhxZjdsUUJuaEo3cWZtTHZCMFQ4Z0lhUFd6UHI2VWxSdENpYTN5ZU1ENFFtd3E0dGoxc2dlUzNDMFNpc1E2M1htWDIyMzNiSWxvOC1HOWpsdEtuZERoSTZESlczWThEVlJWUGRrYVd1Zy04Q2pMVUlYckJoYjkxVURoX0FfTlZodWxDWTQ?oc=5",
+   "source": "Vietnam.vn",
+   "sourceUrl": "https://www.vietnam.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-23T06:06:35.000Z",
    "summary": ""
   },
   {
@@ -183,15 +219,15 @@
    "summary": ""
   },
   {
-   "id": "619797ef555f",
-   "title": "Former eminem employee pleads guilty to criminal infringement of copyright — DOJ",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMl9RR1FZcVozMjdpSW9xM3hiSlh3MTZNeHhzdEFNbjI0TkYtdjlvb0hSbUtXYlhDdHUtSWdjTm5jWHVvc3VHamZGSy14cEZvMjhadFJJd1RNYnlMTnpUVmpveTVPMF8tb3dkbWczWHhlLVU3aUZYQ25iVjQyLVJCODExRDl5dDEzYXowWkt1MHFobmhXLUx6cUcxY2ZmLXcya1dObjZ5aw?oc=5",
-   "source": "Regtechtimes",
-   "sourceUrl": "https://regtechtimes.com",
+   "id": "4e4ba600b530",
+   "title": "Call for Applications: WIPO Global Innovation Index Fellowship 2027 (CHF -",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVkdudXNzUTRrY3kxa1dkQnc2empNQzczeHctNUpnc2ZTcEpJVlNmc045bjR5LXVEXzBTOXFkeHBkR2F4TkZMNXNrNEVEUGYyV21fM0VZRDh1TEN0Z0Vrbmtjd19La2E1aURqcTZDU1NvWnI2UHpqVEJHMmpTaUdOT0NyTlRxb3o0U2c0OUNEUDdjVEwxc2ZDWllTUlE3bmhxb0hvdmhUam1pRWR3UG9ua1Frb1YwNlZ2bEV0LUZGS2s2NkhpVm5ZaTNLT0g5SFdDQ21Cd1o1VnpPVlpOZmVHaDZMYzU?oc=5",
+   "source": "MSME Africa",
+   "sourceUrl": "https://msmeafricaonline.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-22T17:11:51.000Z",
+   "date": "2026-10-22T17:39:52.000Z",
    "summary": ""
   },
   {
@@ -228,18 +264,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-22T11:48:32.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ea27076ef365",
-   "title": "Pakistan Stays on US Intellectual Property Watch List for 2026",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUEZDZE03bFdza3hwemJBTHd3bFpBWE1mT1BhQm5tTEltbDNtMFpLRW5PZkRMYy1Ka2YtM25UamQ0elRvRmkwbklObmlXLUFIT04teWZVT2xEbWRWMnF5Y3BSbFI2T25qSXI2cDlTMWlsYkgzX1pVRnk5cUE5bXJ5dFdQakxQTUI2RmhuZUVxQm9rdw?oc=5",
-   "source": "TechJuice",
-   "sourceUrl": "https://www.techjuice.pk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-22T11:17:24.000Z",
    "summary": ""
   },
   {
@@ -315,27 +339,15 @@
    "summary": ""
   },
   {
-   "id": "d75a1ef62128",
-   "title": "السعودية: الموارد البشرية توضح إجراءات مهمة بشأن عقود العمل للمواطنين والمقيمين.. و3 خيارات متاحة للموظف قبل اعتماد عقده",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OMU00bmdSZkNaMm1YWkltZWVyRy15NXVDX1JhMmMyQ2N0dlVOck83YXNjY3pXUzRXQXJkdW42QjdQbGt3QzQ1dEN0YUs4a1oyM2k5blVNWXljbElkRFJNR3FSS09OM3BYVkNRMzBGTWZ6dw?oc=5",
+   "id": "d36d45ac9169",
+   "title": "السعودية تتيح تصحيح أوضاع العمالة اليمنية عبر قوى ومساند لمدة شهرين.. الشروط والفئات المشمولة وإلغاء بلاغات التغيب",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55WHA3M0N0WWg5R2tWa2NhdGl5QVM5S1dCaXlLODN5Wms4S3pvR3lubGVjVzBrd3ZZMEdUaVV0OG9ZT1gycWFqSHdxbndXUzFRZlRKWEtUUXdIYUFhRHFuNmh5bzl4SU9wcFE1Z0Q1bUtKaGtG?oc=5",
    "source": "صحيفة اخبارنا",
    "sourceUrl": "https://www.akhbrna.ae",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-22T02:55:22.000Z",
-   "summary": ""
-  },
-  {
-   "id": "2c3334ba4019",
-   "title": "النائب العام: لائحة شؤون القضاة الوظيفية تعزز استقلال القضاء",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSTAzVVkxbUdBSXh0MURwUGFaSVFLaWxaSHg1YzZyVElzaVg1NVZxRS1hYzF5dG1KdFoyLXNJWjhlNE9uV2FZM2R6RmMyUG9ack9JT3BOeWtfLVdXeE5JNDEtd2c3SGRmMGtJZ0Nqb0pDZ0ZtTXRNRHRXR3RrSklmX2gwc3dzNHFFTVZENkM5U25MUjRwUC1xdUVWSFYxNG5RSHc3RE1TZHhxenFLTGFPQ2ZOeVl0S1pkdGg0NQ?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-22T01:02:59.000Z",
+   "date": "2026-10-22T04:55:27.000Z",
    "summary": ""
   },
   {
@@ -399,39 +411,15 @@
    "summary": ""
   },
   {
-   "id": "f66fcb5a9cd0",
-   "title": "Uganda Copyright Symposium Calls for Stronger Royalty Management and Regional Cooperation",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNa3pkYWlSalFEbllUaDRTYmF3eThkanRzV21WZkJGdTVYSUhJWEp2S216alNESjdyNHFXRlIwcVc1UjVmNUxOdC1zVlRrNkhtQi14TlpRNHBKQnQ3Ni02cDZpWnRsbXNJSk92TWItTklDUGItZG1DYXdvc28tc2Y2N3JxZHdjNmxqcFc3ZmtXQ0hxVnl1N25Uc2lkQ0ZScnpwVWZzUjRDODNwNHJUaXRGSkM1cTdhUlFBUTd4cXRRMFVkaHRYaldHaEJyRG5JMFJrbVHSAdIBQVVfeXFMTWt6ZGFpUmpRRG5ZVGg0U2Jhd3k4ZGp0c1dtVmZCRnU1WElISVhKdkttempTREo3cjRxV0ZSMHFXNVI1ZjVMTnQtc1ZUazZIbUIteE5aUTRwSkJ0NzYtNnA2aVp0bG1zSUpPdk1iLU5JQ1BiLWRtQ2F3b3NvLXNmNjdycWR3YzZsanBXN2ZrV0NIcVZ5dTduVHNpZENGUnJ6cFVmc1I0QzgzcDRyVGl0RkpDNXE3YVJRQVE3eHF0UTBVZGh0WGpXR2hCckRuSTBSa21R?oc=5",
-   "source": "Nilepost",
-   "sourceUrl": "https://nilepost.co.ug",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-21T13:47:16.000Z",
-   "summary": ""
-  },
-  {
-   "id": "05ee7fee7dc1",
-   "title": "النائب العام يتوجه بالشكر للقيادة بعد الموافقة على لائحة شؤون القضاة الوظيفية",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpVWR6eks3dGgzaTBVMW13S20xUWd2WENtMFBSMEYzNmNkTkJGQU5aN3I3bzlYeVU5LVkzNDNhQm9yeFNidkt0TlFFMnA3eDF2?oc=5",
-   "source": "https://alsaudi.news/",
-   "sourceUrl": "https://alsaudi.news",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-21T11:01:14.000Z",
-   "summary": ""
-  },
-  {
-   "id": "36d6686e18cd",
+   "id": "d8fdd197a328",
    "title": "ثمّن موافقة القيادة.. النائب العام: لائحة شؤون القضاة تعزز استقلال القضاء",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yaUtkNlBoRGZPYXJSSXZkZ2NQb2xNa3NqdGstc1lPUkhJLUJyNEtOME9YTGVSQ1NBZzdnQ1FfQ1VjRU1hMlJaNHhhTkxsYjZ4UlZwcdIBVEFVX3lxTE5yaUtkNlBoRGZPYXJSSXZkZ2NQb2xNa3NqdGstc1lPUkhJLUJyNEtOME9YTGVSQ1NBZzdnQ1FfQ1VjRU1hMlJaNHhhTkxsYjZ4UlZwcQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5MYUNuUG11Q3dzT2xmQkFGdkpsRXM5WnJ1LXB3cm5wbWNCdEgwM3JVLTBSSWJLajY4NE9KLWMxNlBDZHBSY24wMGdWaTZrT19FM0HSAVRBVV95cUxOcmlLZDZQaERmT2FyUkl2ZGdjUG9sTWtzanRrLXNZT1JISS1CcjRLTjBPWExlUkNTQWc3Z0NRX0NVY0VNYTJSWjR4YU5MbGI2eFJWcHE?oc=5",
    "source": "عكاظ",
    "sourceUrl": "https://www.okaz.com.sa",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-21T09:08:08.000Z",
+   "date": "2026-10-21T09:08:00.000Z",
    "summary": ""
   },
   {
@@ -555,30 +543,6 @@
    "summary": ""
   },
   {
-   "id": "148322235015",
-   "title": "النائب العام يبحث مع وزير التجارة سبل تطوير آليات العمل والتنسيق للمساهمة في حماية الاقتصاد الوطني",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE41bF8xRTZqNWtMRWtSUEZ0cVdkMi1VMy1PNWlXbkFQRlZDNXBlRExBVHlxOTZmaWtiOV9V?oc=5",
-   "source": "صحيفة درة الالكترونية",
-   "sourceUrl": "https://dora.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-19T14:46:45.000Z",
-   "summary": ""
-  },
-  {
-   "id": "3b2a499d0680",
-   "title": "النيابة والتجارة تبحثان سبل حماية الاقتصاد الوطني",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZU94N2MxSVZJU3pHVUs2XzZyWTkxbFBZSGVvWjRSQnd0MWpFOWFrVWVoVUlFUFJ1MTAyaFIxREJvUlQzSkdZWlUxSXNIcFdVcmdyQXlxOFYwemNIaGtod3lpaUJVeUJBb1A1QXlZaXE3anpaNEZ3Y19TWUFkYXNneFY3SUdQR3ljSmFlUDk2c28wdGtEQWxRM0dXUG9oT0Nod3lpeGx0am94TmRaTDJuWm93OU5MM2lRZnBNMnN6Z19SS3dW?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-19T14:12:48.000Z",
-   "summary": ""
-  },
-  {
    "id": "2128af7c5b59",
    "title": "نائب أمير القصيم يستقبل مدير فرع وزارة الموارد البشرية والتنمية الاجتماعية بالمنطقة",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ES3dYenp2RFVLQW9QdUY1S1JGR1FVRklJb3pycC1NU0lBUmhYd3UxdF9IY0NsRjZGYlR4TkYtNUExM1pTNklZTndoUTVjNTJjdE4w?oc=5",
@@ -687,18 +651,6 @@
    "summary": ""
   },
   {
-   "id": "af765ac9d55a",
-   "title": "وزير العدل يشهد أداء اليمين القانونية لمعاوني النيابة العامة الجدد",
-   "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxOcTFSOEwtallZZzlmYXdwYTN2OUduQzFHR2Z0SFlWcXFvUmE5LUtzSVhCZ3BnS0tmZWRYNERSNTdIREgxc1E4b0cwMjN2VGhYS1lvV1JVT255QlRTZFdEMU1qZ2ZoZXloajVvMFhBcWcwRDg3aXlXS245ZG1JZWRpd0hKTWY3OHBDb3ZsZEktZE8xczktWTJxNVBubkNmSXJZdWo4LVZwcHhBYnh2Z2N1cEZfcEoxbzVZYkVTeVhYSXpEV2NoUFN4NjhWSHMzeEM2R3JvaXMzWGZkdG5hUUQ1TWpYMEVzWXpWdFVkRS0tMHpkOENLRFY3N2lNYlZGMDdoOXNQU1V4bndBZ1lXOGlzQjBPWW0tWEQ2Y3FEWl94T2NMWlUxbzFqZ1RZUlpZTGdrM2VER0ttSXIwWlJLSHVDWU9MQXF3TWxrMzRTWEIxSVM2aUlibXZzUmFTb1JJMjRjVUQ3ZnlKcjU?oc=5",
-   "source": "بوابة أخبار اليوم الإلكترونية",
-   "sourceUrl": "https://m.akhbarelyom.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-17T19:55:07.000Z",
-   "summary": ""
-  },
-  {
    "id": "ac162430e0d8",
    "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
@@ -720,30 +672,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-17T13:32:49.000Z",
-   "summary": ""
-  },
-  {
-   "id": "75781e52f156",
-   "title": "«الموارد البشرية»: توطين مهن التسويق والمهن الإدارية المساندة.. وتوفير 12 ألف وظيفة",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hTGNnUmVWNW5MZDRzZG96TnJDS2lIZExFb2Q5dGZsY0NWVUlZN1lFZnFsb0VwZlRiSnpibm9heVhhdTViRGVuSTJvSGJtZDV1NktZNNIBVEFVX3lxTE8zUHZjNFJfSFZhaDE0WHNQQ09GdzJ0Z2x6aXUtT245aWZ0T0RhVE0zS0xzTzYxQzdvdnJhQTl2LUxmTWFJWDhmSU1ScHItck5oZ3ZIMg?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-15T21:16:54.000Z",
-   "summary": ""
-  },
-  {
-   "id": "e4f3a9bc2eb3",
-   "title": "شرطة جازان تضبط 3 وافدات وتُحيلهن إلى النيابة العامة",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTBGa3ItS0JqdjdBSHM0RnZKSkttT1JNbDZ6a3hiMld4M1d2RUZGMF94VmhlNVAtdHVCVlc0UDM5cVhpaGtuQmFJTGhrSVNFQ19MeHdvTGRLRlZqNXFXTjVsMjRaVDBXdjUxeEhEZmZVd0NyOWtSR0hiTFBnenJQNEpZOVIzSDltUlNvQXdfbm1XaUxaR2Vic3lZMWJkamtWZ3l2QVNYbmRmMGNuanZR?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-15T15:10:57.000Z",
    "summary": ""
   },
   {
