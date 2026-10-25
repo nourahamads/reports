@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T20:45:50.339Z",
+ "updated": "2026-10-25T04:37:09.329Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -10,12 +10,12 @@
    "id": "ip-local-saip",
    "ok": true,
    "fetched": 54,
-   "kept": 15
+   "kept": 14
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 64,
+   "fetched": 65,
    "kept": 2
   },
   {
@@ -34,44 +34,32 @@
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 100,
-   "kept": 59
+   "kept": 58
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 62,
+   "fetched": 64,
    "kept": 11
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 32,
-   "kept": 14
+   "fetched": 70,
+   "kept": 16
   }
  ],
  "items": [
   {
-   "id": "5c27d7653e1f",
-   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
-   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
-   "source": "الشرق الأوسط",
-   "sourceUrl": "https://aawsat.com",
+   "id": "3d0d840f2e0f",
+   "title": "الفاخرة تشتري 4 علامات تجارية بمبلغ 39.2 مليون ريال",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1paWFLVUlsZkhNOHF6dHAtOVpHOVZ2RVlMNkhrNldBdjVlLU43RkFKbm14d2ZBNFAydmNXOXFNYlJCNXAwWjBLNXVLcmNyUXh0QWo1X2ZxODNoWEhxVUlmS2J5OG1NTlhGY3c?oc=5",
+   "source": "ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
+   "sourceUrl": "https://www.argaam.com",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-24T10:24:50.000Z",
-   "summary": ""
-  },
-  {
-   "id": "5bec1d55bd4a",
-   "title": "السعودية تُقرّ «سياسة الملكية الفكرية» لدعم الإبداع والابتكار",
-   "url": "https://news.google.com/rss/articles/CBMixARBVV95cUxQZ0YtZGktbzZrQ29ldGEta3hnX19yUzRCZ0h4LVJNSFVEUkw0bGUwSVdnVXI3eFVrYWtpYVRtd3FER0ZlaFNrQWtHeXJMV1hPNmUySy1NbmxZSkxaRjFrSnlwdjhwUnVRVHYyZEdDa0NaTExJbXBlNXFkYzc0em5hcHdNVW5aNmo0cGtZdGlQZ2IyRVBrMVJ6dGhvT0tEU2xPaG9tQjlLUW9GSUdYeEd0Nk92Uy1BNXZyQVlsb1A3SlFUTDFKMHlfd3UtVWtfUVlSODZaTDd1MUZIUVltWTBCQkRfM2p5cmZ1amVEZUpHNmxkUTZSY0VvY3RxLTVSaVE4eW9yQV9tY212WlJjSzRlb3VyTl9IU1FLUVViSHRQdTBhWERwVVAtMC1EN3otbm9HeFA0NVU3NW9hSnFnWWU0bHZFYU1zNjFmOHJ0VElSRXFOZGI0SS1YbW14ZzZSd0JEZ1ExdVZfSDJUcXppeTlaQndSOExWbVVvc2MtSDJwWDQxNzhFZXpuWEIzamdyX3ZxbThnbzRManZoQkYzSTdsRndtcW1CVnhMeGUyTkVNajdSOE1JUnB4cTYwTDRveVR6Zi16UEhONlAtV2FWUzJJVjVRbnQtcXI2ZEtEX002ZWJ4Nnl3RXh1NFozQVk5dGVDR0s2enZtWlBrYUphcG1lSVhITUZGRFdfY0Nybk1iYVlmdDZxS2VsbU1GMnpXRkl2UnFoa1MtNmx5OUxET2hXMWNfTTZSMTdVNEN4R0llUkdRTU0x?oc=5",
-   "source": "الشرق الأوسط",
-   "sourceUrl": "https://aawsat.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-24T10:09:11.000Z",
+   "date": "2026-10-25T01:05:45.000Z",
    "summary": ""
   },
   {
@@ -231,18 +219,6 @@
    "summary": ""
   },
   {
-   "id": "257f88988ba4",
-   "title": "Former Eminem employee pleads guilty to copyright infringement",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdWZGZUx6Q0dNWDYxNHRMbnFXUUVTcHhOZkJZRldEYkZTU2Nudk9rM2ludk5TaE95c1Z3V1lteHJxV1JzSmFEYzczVXRsRjMtWGNfR0FZLUs0MFhaVFRUWkItSkd4cm5RbS0zTlhjSkVQNm1DNnhXTkktU2REOWxEdDlGVC1UOVcxVDlTMXhrakRibkFidHlSUDZieXpNNDDSAaQBQVVfeXFMTlJsajV3aW9XVG04VFl3ZjkzSUNhN01BVGlKREJQdG1FRW8zUl9ETG9xenh5SzlzOXBJNjhyRVQ0UHVRTmZvdV9jd3NIWXNmdkRpYWtFaU54SUdNeHRFY1VZZlliY3BjdHB5STJ5M3ZEM0phVU5TRUNVZHVnUkF0NkZ2N0JxelFMREZxdGtTYVd3VjBpdWQwVG5KNGdkNkZyZ18xWDU?oc=5",
-   "source": "WLNS 6 News",
-   "sourceUrl": "https://www.wlns.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-22T17:48:06.000Z",
-   "summary": ""
-  },
-  {
    "id": "4e4ba600b530",
    "title": "Call for Applications: WIPO Global Innovation Index Fellowship 2027 (CHF -",
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVkdudXNzUTRrY3kxa1dkQnc2empNQzczeHctNUpnc2ZTcEpJVlNmc045bjR5LXVEXzBTOXFkeHBkR2F4TkZMNXNrNEVEUGYyV21fM0VZRDh1TEN0Z0Vrbmtjd19La2E1aURqcTZDU1NvWnI2UHpqVEJHMmpTaUdOT0NyTlRxb3o0U2c0OUNEUDdjVEwxc2ZDWllTUlE3bmhxb0hvdmhUam1pRWR3UG9ua1Frb1YwNlZ2bEV0LUZGS2s2NkhpVm5ZaTNLT0g5SFdDQ21Cd1o1VnpPVlpOZmVHaDZMYzU?oc=5",
@@ -255,15 +231,15 @@
    "summary": ""
   },
   {
-   "id": "51cdb8ff0b7d",
-   "title": "EU seized record amount of counterfeit goods last year",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2MkpKVlZfZDVESGptRS1HaGZNS1llQWZ4dkhKNzB6RzJjWkJfVDN5U0RHbDYtUUwxT0c1aXU4eTV0RnBUR2VPbm5SXzdxTnZHY2d0TkhKNFVjWHhOMm4xbWdjaTc3SXZXM0dzYlZ0SUM1UkMySExfWUtn?oc=5",
-   "source": "Serbian News Media",
-   "sourceUrl": "https://snm.rs",
+   "id": "619797ef555f",
+   "title": "Former eminem employee pleads guilty to criminal infringement of copyright — DOJ",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMl9RR1FZcVozMjdpSW9xM3hiSlh3MTZNeHhzdEFNbjI0TkYtdjlvb0hSbUtXYlhDdHUtSWdjTm5jWHVvc3VHamZGSy14cEZvMjhadFJJd1RNYnlMTnpUVmpveTVPMF8tb3dkbWczWHhlLVU3aUZYQ25iVjQyLVJCODExRDl5dDEzYXowWkt1MHFobmhXLUx6cUcxY2ZmLXcya1dObjZ5aw?oc=5",
+   "source": "Regtechtimes",
+   "sourceUrl": "https://regtechtimes.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-22T14:05:09.000Z",
+   "date": "2026-10-22T17:11:51.000Z",
    "summary": ""
   },
   {
@@ -339,6 +315,18 @@
    "summary": ""
   },
   {
+   "id": "40146b868189",
+   "title": "FID Secures $62m From Businessman Convicted Of Selling Counterfeit Goods",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaVpRS0lvVkdkUTdDX3g4Y210blJtVm5RYmdXNHJsRHpUSTNaT3B0RS0xb1U2d2hfNGNvdF9QNm4tdnVMWFNOUU9NNi1OZUtzYlhXZVlrMU5pNWxxRFZDeXNYc0prN2FxRjY3dzNpR2pxNV8zd0dGU0hxZnpCWWpabE9peF9sX3JHZjFOYnZnRzVnMVF4dmdDRmg1VXhydWhmakxfZ0FzRU1LU2ZHV1k2MFVn?oc=5",
+   "source": "Radio Jamaica News",
+   "sourceUrl": "https://radiojamaicanewsonline.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T06:40:12.000Z",
+   "summary": ""
+  },
+  {
    "id": "251ab31953c2",
    "title": "AI is changing trademark infringement: Are India’s brand protection laws ready?",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTkpoU0h2SThpWUN0U0FMbkJoMk9jVmdhYmxKTnlyUmpkRVQ4UENwYld4anhpVlJmYWx0U285dDFISUlxaEZ1Rk9OMWJFaElPMkZmZ2d6OE5pM29zaUFMcUM1ejZZU0pXYTdjNGh6a1k0VFowbGhQNXJDdVpSYlcyenp5bHRMLU9XX1BMMS1NaFhlMGlZU2R0emlyeElRYVlUQnFPQ0ZNYndYdlVGdW16WlY1WDYwSmFkWlA2NU9HZmJVbExKTnRlX1A5SUtOY1ZqQm1rdElDYw?oc=5",
@@ -360,6 +348,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-10-22T04:55:27.000Z",
+   "summary": ""
+  },
+  {
+   "id": "2c3334ba4019",
+   "title": "النائب العام: لائحة شؤون القضاة الوظيفية تعزز استقلال القضاء",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSTAzVVkxbUdBSXh0MURwUGFaSVFLaWxaSHg1YzZyVElzaVg1NVZxRS1hYzF5dG1KdFoyLXNJWjhlNE9uV2FZM2R6RmMyUG9ack9JT3BOeWtfLVdXeE5JNDEtd2c3SGRmMGtJZ0Nqb0pDZ0ZtTXRNRHRXR3RrSklmX2gwc3dzNHFFTVZENkM5U25MUjRwUC1xdUVWSFYxNG5RSHc3RE1TZHhxenFLTGFPQ2ZOeVl0S1pkdGg0NQ?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-22T01:02:59.000Z",
    "summary": ""
   },
   {
@@ -531,39 +531,27 @@
    "summary": ""
   },
   {
-   "id": "7b7c74fcb221",
-   "title": "النائب العام ووزير التجارة يبحثان تعزيز التعاون وترسيخ سيادة النظام",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1dG85QS1kS1N5cG9lczJ3bF80UHpvalIyN0Rfdy1lTjNfb3hxNzdXMDNMSTgxc2tKeGdzUUhCTWJDUlRKOGZnRkVDbHVyV0k2?oc=5",
-   "source": "alsaudi.news",
-   "sourceUrl": "https://alsaudi.news",
+   "id": "148322235015",
+   "title": "النائب العام يبحث مع وزير التجارة سبل تطوير آليات العمل والتنسيق للمساهمة في حماية الاقتصاد الوطني",
+   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE41bF8xRTZqNWtMRWtSUEZ0cVdkMi1VMy1PNWlXbkFQRlZDNXBlRExBVHlxOTZmaWtiOV9V?oc=5",
+   "source": "صحيفة درة الالكترونية",
+   "sourceUrl": "https://dora.sa",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-20T03:00:29.000Z",
+   "date": "2026-10-19T14:46:45.000Z",
    "summary": ""
   },
   {
-   "id": "ed28ab9fd8de",
-   "title": "الموارد البشرية السعودية: توضيح مهم بشأن تجديد رخص العمل للوافدين.. 100 ريال ورسوم إضافية وشروط قد تمنع إتمام الإجراء",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBZUGh2QUxXMFp2WUl3X25hcG43ZXg1ci15aFVaZGhvNFV0cVpYZEx3bTdmRVl0OE9kSEpuT3RBdTRDSkpHOTFDc045TzNLOVZuMTJZdUtSMVJmV0RfbnQzMzgwTzR2c3dsZ3Jrcll0M0dMWVhlQjZEVQ?oc=5",
-   "source": "صحيفة اخبارنا",
-   "sourceUrl": "https://www.akhbrna.ae",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-19T18:47:17.000Z",
-   "summary": ""
-  },
-  {
-   "id": "a59acbba5c37",
-   "title": "النائب العام ووزير التجارة يبحثان مكافحة المخالفات التجارية",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBLU45a283SWhUMTFKWnlZVGRmOGtnbHJJRmVoOUdqajBZUGJ2dDFQaUhNOUR3Z0pZSWNrRDU5WUVDTHl4MzdySFlBUXA0Z1ZONGxMMUJRME_SAVhBVV95cUxQQS1OOWtvN0loVDExSlp5WVRkZjhrZ2xySUZlaDlHamowWVBidnQxUGlITTlEd2dKWUlja0Q1OVlFQ0x5eDM3ckhZQVFwNGdWTjRsTDFCUTBP?oc=5",
-   "source": "جريدة الوطن السعودية",
-   "sourceUrl": "https://www.alwatan.com.sa",
+   "id": "3b2a499d0680",
+   "title": "النيابة والتجارة تبحثان سبل حماية الاقتصاد الوطني",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZU94N2MxSVZJU3pHVUs2XzZyWTkxbFBZSGVvWjRSQnd0MWpFOWFrVWVoVUlFUFJ1MTAyaFIxREJvUlQzSkdZWlUxSXNIcFdVcmdyQXlxOFYwemNIaGtod3lpaUJVeUJBb1A1QXlZaXE3anpaNEZ3Y19TWUFkYXNneFY3SUdQR3ljSmFlUDk2c28wdGtEQWxRM0dXUG9oT0Nod3lpeGx0am94TmRaTDJuWm93OU5MM2lRZnBNMnN6Z19SS3dW?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-19T13:09:00.000Z",
+   "date": "2026-10-19T14:12:48.000Z",
    "summary": ""
   },
   {
@@ -639,6 +627,30 @@
    "summary": ""
   },
   {
+   "id": "9b99be020b55",
+   "title": "أعضاء النيابة العامة الجدد يؤدون اليمين القانونية بمقر وزارة العدل",
+   "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxQRk5EMG0zLU4xVlo0VVRUUUFHR3VSd2ZEZGtFTnhGNjhPVDczQ0xjTzUxRnZZTkpRVW10TDAyY3ptbzR6WEk4bHpralYzUUtIU0k1bDYxOEo0YXNCZnV3TGQyMW5RSVRJTmdzUG1nN3lHRFJmX3BvelhrdnlrRHlnTTM2b0laa05HdmlQeXRZb1JCZ1QwazU3RHVUaDNtMmd4MWlRVzV5UzRvWjBSTUY0R1IzVExoM0ZBMnM0Qk9mUDM3OHVKZFlTMEJsSHRJdEpoRUxHOHhwWlI0eGJOOTl6cXgxYW9MOTZDSk1YTXZUbmh1bDd2bHVxTmE1LTE2cVFZM2JZNzR2V1ItV2hUUTE3Q2VSekdKN1RUUHhUbkRHT0VxYUlTLV9NNTFUNk5NT2c5NE96M25aY1Z5YWNsTjZ5dS1pUXF6cGRYMWVZMjJmTjhVWjcyUlpsT0Z1RHQ3aE1fa01uVlJtMnp1YXBaVXl6WE9ycXVMMlk?oc=5",
+   "source": "بوابة أخبار اليوم الإلكترونية",
+   "sourceUrl": "https://akhbarelyom.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-18T14:39:46.000Z",
+   "summary": ""
+  },
+  {
+   "id": "90a2ee836026",
+   "title": "فرص وتدريب وحماية اجتماعية .. حصاد وزارة العمل خلال أسبوع",
+   "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPLU13VjMwZkVteWlObGhCejFkZXZCaE0zUTZaQ3FIb285TS1WelJ5R1ZKMnJoZXN3cTJPM0FfOGl1SkdqSFhBY25rOFo3MFJESTlMWGZaa1BqVjNYeTNJVlozYzY1RzhXZXBsOVpCd1FpdG42UXhEa0c2dTc2WnFrSnRHYWdxeTVlYkZTV1QtS0djRjJCbVZqN09NNE5hd2JaUU1JdFRSTmRISE51blNzdEp0cDdRdW1fY0ZkOGhTUDFJQVRZOVRUcmUtc1N6TE1UUktuWjJtOHRFaG9uaVBTYjhxU1l0Umc0bGFwTndHSzB6NWlPb3BpbUdaTzkxaU1BRFU4ZnhwMk85MzZrR1JqaXRqb3hyYWctSkFQMjd3Ymtqc3dzVXBraVJTaE4zdVNWSUd0V2FZSkszU0E3UG9WZml0c1U1Ri1BSTVXN19xMHhPNkRxUG94ZjBMd2NtYmhWNEJ1c0RpMEJCczU3eXVKRkJQUQ?oc=5",
+   "source": "بوابة أخبار اليوم الإلكترونية",
+   "sourceUrl": "https://m.akhbarelyom.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-17T20:36:33.000Z",
+   "summary": ""
+  },
+  {
    "id": "ac162430e0d8",
    "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
@@ -663,15 +675,15 @@
    "summary": ""
   },
   {
-   "id": "b7f860991be9",
-   "title": "البحرين.. النائب العام يشارك في اجتماع نواب العموم بدول مجلس التعاون",
-   "url": "https://news.google.com/rss/articles/CBMiuwVBVV95cUxQck5HY3lteTZPUzRvVGVuZlZjRkhaWXd3OWZnQUxfZ0dtdF9LVi13LVdiRHNmU2g2dFNPYzlnRkJZamtBckEtekI0TWRHeXBXVHo1R0RBYkhRYmVUTXNYN0RRXzVnUkVCSlFLaWVka2lBeG5JdThMWHlueTZ0RTFKR1psWEFHQmlnYUJrWjF5SjZSbk5yR1o2a3VoYUNDVUNONUViWS1qbUlaUUJiTi1mdDA3b25KaFhGdjk4VDJaVjdmdTRXVXdGUXk5djI5Rm9VUmhsOXNWMzIzLVQ3aEs1UHhIZkhxUk1OZUc0QWdhVzlDX3JVdEpBOHp1SV9vOGdiN3Z5WDloNnNCWGJHbVZFSm0taklPV2ZMOTBjbGtibkFGUDZsRi0wRzZoeW55YUdfSkprbXkzLUhNODJ3NFVyUlE2NV83S3g0U2hGMmZqMW1JdU5mbGVEeEdFYXhRSGFKQVQ1aTFWdjBWb3M3bkQ1ZlE1OFVuNEpDbXN0OUwybmk3dGNSanBDZV96VkdERkJtWjBvalE4TXhOdTk0a0ZiWWV4NDNjaWFmRGJzLTdNb251d1Q3OFZLbm1Ca0R5WGdmLURKMGxTczZ4MUhkZUlpcDAwWXhkM0FDeDQ4d0VOR21RZWpyVm53VkZ3MktienRRWGE5OGM4dzJDT2gwc3ZwaUJSMnBxazZxb1RTMkx2SXFmenVaU0RzOHNYMlF6R0k0VVUyT1ZRTEV3SmtTVTdIYW1XQ2JvdE85d0hsY0Y1Yk9paVhTZUlMcHluLWY5MFV4eno0eWVHWE1fV3l2RjJycmZuTVZaTnJiSVN3bXp5TmJyVGlGa3g4NHlBUFM4VklLREpzdnVob2RDOW1TV040MmRhQXBuajA4Z2tZcE1MeVV6YjdJeE9oQVdyTkx2VURxdS0xZ1pYY3h1WGvSAVNBVV95cUxNZEh5ZDBSZm8xSTVfTUxjYkFFZmR6YXBVRURJclNNV2dmTERyQjlfZzdvaHBqZ2pXdEN3Q1NCR0lQZ1c4a3FtalZSQkswelZWNm1yYw?oc=5",
-   "source": "صحيفة اليوم السعودية",
-   "sourceUrl": "https://www.alyaum.com",
+   "id": "ea0a1b0f8cba",
+   "title": "النائب العام يشارك في الاجتماع الـ18 للنواب العموم والمدعين العامين بدول مجلس التعاون في مملكة البحرين",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GaXFseEJ1WUNobjNPUG0xa2Y4bjlvbUFNd3JxUDg2cWZUSGlYVUxPTmZUdm9NVXpFZi1FS0xVVUtheld3TE9XODR3bEJMSEdhcG1j?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-16T03:11:00.000Z",
+   "date": "2026-10-15T18:12:46.000Z",
    "summary": ""
   },
   {
@@ -807,23 +819,23 @@
    "summary": ""
   },
   {
-   "id": "3d0d840f2e0f",
-   "title": "الفاخرة تشتري 4 علامات تجارية بمبلغ 39.2 مليون ريال",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1paWFLVUlsZkhNOHF6dHAtOVpHOVZ2RVlMNkhrNldBdjVlLU43RkFKbm14d2ZBNFAydmNXOXFNYlJCNXAwWjBLNXVLcmNyUXh0QWo1X2ZxODNoWEhxVUlmS2J5OG1NTlhGY3c?oc=5",
-   "source": "ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
-   "sourceUrl": "https://www.argaam.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T07:00:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "64618b5bc55e",
    "title": "«الملكية الفكرية» تستعرض مجالات براءات الاختراع",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBqZUQ0SGlLWnh6cUFjdEdmTnJINWZlNWNkaFducFVsXy00eXJnenJHRGpweFhBTXZkYkQ4MmFyb0pvZWtUSEtN?oc=5",
    "source": "جريدة الرياض",
    "sourceUrl": "https://www.alriyadh.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T07:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "5c27d7653e1f",
+   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
+   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
+   "source": "الشرق الأوسط",
+   "sourceUrl": "https://aawsat.com",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
