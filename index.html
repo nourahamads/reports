@@ -412,6 +412,39 @@ const sb={
 };
 const mapSite=r=>({id:r.id,name:r.name,url:r.url,cat:r.cat||"",file:r.file||"",meta:r.meta||{},addedAt:r.created_at});
 const mapRep=r=>({id:r.id,extra:r.extra||{},siteId:r.site_id,site:r.site,url:r.url,types:r.types||[],result:r.result,source:r.source,inspector:r.inspector||"",screenshot:r.screenshot||null,date:r.created_at});
+/* ===== مزامنة Google Sheet (اختيارية: CFG.sheetUrl + CFG.sheetToken) ===== */
+const SHEET_ON=!CLOUD&&!!(CFG.sheetUrl&&CFG.sheetToken);
+const jstr=v=>{try{return JSON.stringify(v==null?{}:v)}catch{return "{}"}};
+const jparse=(v,d)=>{try{const x=JSON.parse(v);return x==null?d:x}catch{return d}};
+const siteRow=s=>({id:s.id,name:s.name,url:s.url,cat:s.cat||"",file:s.file||"",meta:jstr(s.meta),addedAt:s.addedAt||new Date().toISOString()});
+const repRow=r=>{const x=r.extra||{};return {id:r.id,date:r.date,site:r.site,url:r.url,types:(r.types||[]).join("، "),result:r.result,source:r.source||"",inspector:r.inspector||"",content:x.content||"",subUrl:x.subUrl||"",evidence:x.evidence||"",notes:x.notes||"",sectors:(x.sectors||[]).join("، "),siteId:r.siteId||"",screenshot:r.screenshot||"",extra:jstr(x),_types:jstr(r.types||[])}};
+function sheetToast(msg,bad){
+ let t=document.getElementById("sheet-toast");if(!t){t=document.createElement("div");t.id="sheet-toast";t.setAttribute("role","status");t.style.cssText="position:fixed;bottom:16px;inset-inline-start:16px;z-index:99;padding:8px 14px;border-radius:10px;font-size:.88rem;font-weight:700;background:var(--card);border:1px solid var(--line);box-shadow:0 4px 16px rgba(0,0,0,.2)";document.body.append(t)}
+ t.textContent=msg;t.style.color=bad?"var(--bad)":"var(--ok)";t.hidden=false;clearTimeout(t._h);t._h=setTimeout(()=>t.hidden=true,bad?8000:3500);
+}
+async function sheetPost(b){
+ const r=await fetch(CFG.sheetUrl,{method:"POST",headers:{"Content-Type":"text/plain;charset=utf-8"},body:JSON.stringify({token:CFG.sheetToken,...b})});
+ const j=await r.json();if(!j.ok)throw new Error(j.error||"sheet");return j;
+}
+const sheetQ={get(){return load("ipw_sheetq",[])},set(v){save("ipw_sheetq",v)}};
+function sheetEnq(table,action,p){if(!SHEET_ON)return;const q=sheetQ.get();q.push({table,action,...p});sheetQ.set(q);sheetFlush()}
+let sheetBusy=false;
+async function sheetFlush(){
+ if(!SHEET_ON||sheetBusy)return;sheetBusy=true;
+ try{if(!sheetQ.get().length)return;for(let q=sheetQ.get();q.length;q=sheetQ.get()){await sheetPost(q[0]);const n=sheetQ.get();n.shift();sheetQ.set(n)}sheetToast("تم الحفظ في Google Sheet ✓")}
+ catch(e){sheetToast("تعذر الحفظ في Google Sheet ("+(e.message||"خطأ")+")، ستُعاد المحاولة تلقائياً",true)}
+ finally{sheetBusy=false}
+}
+async function sheetLoad(){
+ if(!SHEET_ON)return;await sheetFlush();if(sheetQ.get().length)return;
+ try{
+  const r=await fetch(CFG.sheetUrl+(CFG.sheetUrl.includes("?")?"&":"?")+"token="+encodeURIComponent(CFG.sheetToken)),j=await r.json();if(!j.ok)throw new Error(j.error||"sheet");
+  const iso=v=>{const d=new Date(v);return isNaN(d)?String(v):d.toISOString()};
+  manual=(j.data.sites||[]).filter(x=>x.url).map(x=>({id:String(x.id),name:x.name,url:x.url,cat:x.cat||"",file:x.file||"",meta:jparse(x.meta,{}),addedAt:iso(x.addedAt)})).reverse();
+  reports=(j.data.reports||[]).filter(x=>x.url).map(x=>({id:String(x.id),siteId:x.siteId||"",site:x.site,url:x.url,types:jparse(x._types,String(x.types||"").split("، ").filter(Boolean)),result:x.result,source:x.source,inspector:x.inspector||"",screenshot:x.screenshot||null,extra:jparse(x.extra,{}),date:iso(x.date)})).reverse();
+  save("ipw_sites",manual);save("ipw_reports",reports);renderSites();renderReports();
+ }catch(e){sheetToast("تعذر قراءة Google Sheet: "+(e.message||"خطأ"),true)}
+}
 const store={
  async load(){
   if(!CLOUD)return;
@@ -422,14 +455,14 @@ const store={
  },
  async addSites(list){ // list: [{name,url,cat,file}] => المضاف فعلاً (بدون المكرر)
   if(!CLOUD){const now=Date.now();const add=list.map((r,i)=>({id:"c"+now+"-"+i,name:r.name,url:r.url,cat:r.cat||"",file:r.file||"",meta:r.meta||{},addedAt:new Date().toISOString()}));
-   manual=[...add,...manual];save("ipw_sites",manual);return add}
+   manual=[...add,...manual];save("ipw_sites",manual);sheetEnq("sites","add",{rows:add.map(siteRow)});return add}
   const rows=await sb.req("sites?on_conflict=url",{method:"POST",body:list.map(r=>({name:r.name,url:r.url,cat:r.cat||"",file:r.file||"",meta:r.meta||{}})),prefer:"resolution=ignore-duplicates,return=representation"});
   const add=(rows||[]).map(mapSite);manual=[...add,...manual];return add;
  },
- async delSite(id){if(CLOUD)await sb.req("sites?id=eq."+encodeURIComponent(id),{method:"DELETE"});manual=manual.filter(s=>s.id!==id);if(!CLOUD)save("ipw_sites",manual)},
- async clearSites(){if(CLOUD)await sb.req("sites?id=not.is.null",{method:"DELETE"});manual=[];if(!CLOUD)save("ipw_sites",manual)},
+ async delSite(id){if(CLOUD)await sb.req("sites?id=eq."+encodeURIComponent(id),{method:"DELETE"});manual=manual.filter(s=>s.id!==id);if(!CLOUD){save("ipw_sites",manual);sheetEnq("sites","delete",{id})}},
+ async clearSites(){if(CLOUD)await sb.req("sites?id=not.is.null",{method:"DELETE"});manual=[];if(!CLOUD){save("ipw_sites",manual);sheetEnq("sites","clear",{})}},
  async addReport(rep,image){
-  if(!CLOUD){reports.unshift(rep);save("ipw_reports",reports);return rep}
+  if(!CLOUD){if(!rep.id)rep.id="r"+Date.now()+Math.random().toString(36).slice(2,6);reports.unshift(rep);save("ipw_reports",reports);sheetEnq("reports","add",{rows:[repRow(rep)]});return rep}
   const row=await sb.req("reports",{method:"POST",prefer:"return=representation",body:{site_id:rep.siteId,site:rep.site,url:rep.url,types:rep.types,result:rep.result,source:rep.source,inspector:rep.inspector,screenshot:rep.screenshot,extra:rep.extra||{},image:image&&image.startsWith("data:")?image:null}});
   const saved=mapRep(row[0]);reports.unshift(saved);return saved;
  },
@@ -1469,7 +1502,7 @@ async function cloudStart(){
  try{await store.load();await maybeImportLocal()}catch(err){if(sb.sess)alert("تعذر تحميل البيانات المشتركة: "+err.message)}
  renderSites();renderReports();
 }
-renderNews();renderSites();renderReports();loadNews();loadIntl();
+renderNews();renderSites();renderReports();loadNews();loadIntl();sheetLoad();
 (async()=>{
  if(AUTH.mode==="off"){document.body.classList.remove("locked");return}
  if(AUTH.mode==="cloud"){if(sb.sess)await enterApp({name:sb.sess.email,username:sb.sess.email,role:null});else showLogin();

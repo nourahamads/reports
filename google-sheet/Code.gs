@@ -5,8 +5,10 @@
 const TOKEN = "غيّر-هذا-الرمز-إلى-نص-سري-طويل";
 
 const TABLES = {
-  sites:   { name: "المواقع",  cols: ["id", "name", "url", "cat", "file", "meta", "addedAt"] },
-  reports: { name: "التقارير", cols: ["id", "siteId", "site", "url", "types", "result", "source", "inspector", "screenshot", "extra", "date"] },
+  sites:   { name: "المواقع",  cols: ["id", "name", "url", "cat", "file", "meta", "addedAt"],
+             labels: ["المعرّف", "الاسم", "الرابط", "التصنيف", "الملف", "تفاصيل (JSON)", "تاريخ الإضافة"] },
+  reports: { name: "التقارير", cols: ["id", "date", "site", "url", "types", "result", "source", "inspector", "content", "subUrl", "evidence", "notes", "sectors", "siteId", "screenshot", "extra", "_types"],
+             labels: ["المعرّف", "التاريخ والوقت", "الموقع", "الرابط", "نوع المحتوى", "النتيجة", "المصدر", "المفتش", "المحتوى", "الرابط الفرعي", "الدليل", "ملاحظات", "القطاع", "معرّف الموقع", "اللقطة", "تفاصيل (JSON)", "الأنواع (JSON)"] },
 };
 
 function json_(o) { return ContentService.createTextOutput(JSON.stringify(o)).setMimeType(ContentService.MimeType.JSON); }
@@ -14,7 +16,7 @@ function json_(o) { return ContentService.createTextOutput(JSON.stringify(o)).se
 function sheet_(key) {
   const t = TABLES[key], ss = SpreadsheetApp.getActive();
   let s = ss.getSheetByName(t.name);
-  if (!s) { s = ss.insertSheet(t.name); s.appendRow(t.cols); s.setFrozenRows(1); s.setRightToLeft(true); }
+  if (!s) { s = ss.insertSheet(t.name); s.appendRow(t.labels); s.setFrozenRows(1); s.setRightToLeft(true); }
   return s;
 }
 
@@ -22,6 +24,7 @@ function cell_(v) {
   if (v == null) return "";
   if (typeof v === "object") v = JSON.stringify(v);
   v = String(v);
+  if (/^[=+\-@]/.test(v)) v = "'" + v;   // منع تنفيذ الصيغ
   return v.length > 40000 ? v.slice(0, 40000) : v;
 }
 

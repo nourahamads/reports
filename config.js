@@ -7,6 +7,8 @@ window.CFG = {
   requireLogin: false,
   idleMinutes: 30,
   reportLogo: "assets/saip-logo.png",
+  sheetUrl: "",     // رابط تطبيق الويب (Apps Script) ينتهي بـ /exec لحفظ المواقع والتقارير في Google Sheet
+  sheetToken: "",   // الرمز السري المطابق لـ TOKEN في google-sheet/Code.gs
   supabaseUrl: "",
   anonKey: ""
 };
