@@ -4,7 +4,7 @@ set -euo pipefail
 [ $# -ge 1 ] || { echo "الاستخدام: ./deploy.sh <project-id>"; exit 1; }
 cd "$(dirname "$0")"
 rm -rf _site && mkdir _site
-cp -r index.html config.js vendor data assets _site/
+cp -r index.html config.js vendor data assets saudi-market _site/
 node extension/build.mjs
 # الرمز السري لـ Google Sheet لا يُحفظ في المستودع: يُمرَّر هنا وقت النشر فقط (SHEET_TOKEN="..." ./deploy.sh ...)
 if [ -n "${SHEET_TOKEN:-}" ]; then

@@ -51,6 +51,7 @@ jobs:
           fi
 
   deploy:
+    continue-on-error: true   # نشر GitHub Pages القديم؛ لا يعطّل نشر Firebase إن أُوقف
     needs: news
     # يعمل بعد الفحص الناجح، أو عند تخطيه (push)
     if: ${{ !cancelled() && (needs.news.result == 'success' || needs.news.result == 'skipped') }}
@@ -74,3 +75,40 @@ jobs:
           path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  firebase:
+    needs: news
+    if: ${{ !cancelled() && (needs.news.result == 'success' || needs.news.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check secrets
+        env:
+          SA: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          if [ -z "$SA" ]; then echo "::error::أضف السر FIREBASE_SERVICE_ACCOUNT في إعدادات المستودع (Settings > Secrets and variables > Actions)"; exit 1; fi
+      - name: Prepare site
+        env:
+          SHEET_TOKEN: ${{ secrets.SHEET_TOKEN }}
+        run: |
+          mkdir _site
+          cp -r index.html config.js vendor data assets saudi-market _site/
+          node extension/build.mjs
+          (cd extension && zip -qr ../_site/ipw-extension.zip . -x build.mjs)
+          if [ -n "$SHEET_TOKEN" ]; then
+            python3 - "$SHEET_TOKEN" <<'PY'
+          import sys,re
+          p="_site/config.js";s=open(p,encoding="utf8").read()
+          t=sys.argv[1].replace("\\","\\\\").replace('"','\\"')
+          s,n=re.subn(r'sheetToken:\s*"[^"]*"',lambda m:'sheetToken: "'+t+'"',s,count=1)
+          assert n==1
+          open(p,"w",encoding="utf8").write(s)
+          PY
+          fi
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          projectId: saiprasdon
+          channelId: live
