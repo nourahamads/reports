@@ -9,6 +9,7 @@ window.CFG = {
   reportLogo: "assets/saip-logo.png",
   sheetUrl: "https://script.google.com/macros/s/AKfycbxifANT3Xmz9fIXETNvMlW3V7L5EeREO_jgS1nHZ-YrTWlPc09LI-Xz9ISEbqn2bxqDRg/exec",     // رابط تطبيق الويب (Apps Script) ينتهي بـ /exec لحفظ المواقع والتقارير في Google Sheet
   sheetToken: "",   // الرمز السري المطابق لـ TOKEN في google-sheet/Code.gs
+  proactiveSheet: "", // رابط جدول التفتيش الاستباقي المعبّأ مسبقاً (يُحقن وقت النشر)
   supabaseUrl: "",
   anonKey: ""
 };

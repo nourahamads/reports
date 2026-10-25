@@ -1135,7 +1135,7 @@ function pullFromRows(rows,fromK,toK){
 }
 const todayIso=()=>{const d=new Date();return new Date(d.getTime()-d.getTimezoneOffset()*6e4).toISOString().slice(0,10)};
 $("#gs-from").value=$("#gs-to").value=todayIso();
-$("#gs-url").value=load("ipw_sheet",CFG.sheetUrl||"");
+$("#gs-url").value=load("ipw_sheet",CFG.proactiveSheet||"");
 async function rowsFromFile(f){
  const csv=/\.(csv|txt)$/i.test(f.name),wb=await readWorkbook(f,csv?{}:{cellDates:true}),p2=n=>String(n).padStart(2,"0");
  return XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,raw:true,defval:""})
