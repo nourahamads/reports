@@ -277,6 +277,7 @@ table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeaf
       <table style="margin-top:14px"><thead><tr><th>القطاع الاقتصادي</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-sec"></tbody></table></div></details>
   </div>
   <h3 style="margin:24px 0 10px">سجل التقارير</h3>
+  <div class="actions" style="margin:0 0 10px"><button class="btn primary sm" type="button" id="rep-xlsx">تصدير Excel</button><button class="btn sm" type="button" id="rep-sync" hidden>تحديث من الجدول</button></div>
   <div class="card" style="overflow-x:auto"><table><thead><tr><th>التاريخ</th><th>الموقع</th><th>المواد</th><th>النتيجة</th><th>الإجراء</th><th></th></tr></thead><tbody id="rep-body"></tbody></table></div>
 </section>
 </main>
@@ -1354,6 +1355,21 @@ function renderDash(){
 }
 
 /* ===== السجل ===== */
+const dayT=d=>{const x=new Date(d);return isNaN(x)?["",""]:[x.toLocaleDateString("en-CA"),x.toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"})]};
+function exportReports(){
+ if(!window.XLSX){alert("مكتبة التصدير لم تُحمَّل");return}
+ const base=dashData(),data=dashSrc==="الكل"?base:base.filter(r=>srcOf(r)===dashSrc);
+ if(!data.length){alert("لا توجد تقارير للتصدير في الفترة المحددة.");return}
+ const rows=data.slice().sort((a,b)=>new Date(b.date)-new Date(a.date)).map(r=>{const x=r.extra||{},[d,t]=dayT(r.date);
+  return {"التاريخ":d,"الوقت":t,"الموقع":fixMojibake(r.site||""),"النطاق":hostOf(r.url),"الرابط":r.url,"نوع المواد":(r.types||[]).join("، "),"النتيجة":r.result,"الإجراء":srcOf(r),"المفتش":r.inspector||"","القطاع الاقتصادي":(x.sectors||[]).join("، "),"المحتوى":x.content||"","الرابط الفرعي":x.subUrl||"","الدليل":x.evidence||"","ملاحظات":x.notes||"","المعرّف":r.id||""}});
+ const ws=XLSX.utils.json_to_sheet(rows),wb=XLSX.utils.book_new();
+ ws["!cols"]=[12,8,30,24,44,24,10,20,16,20,30,36,36,30,20].map(w=>({wch:w}));
+ wb.Workbook={Views:[{RTL:true}]};XLSX.utils.book_append_sheet(wb,ws,"التقارير");
+ XLSX.writeFile(wb,"تقارير-الرصد-"+new Date().toISOString().slice(0,10)+".xlsx");
+}
+$("#rep-xlsx").onclick=exportReports;
+$("#rep-sync").hidden=!SHEET_ON;
+$("#rep-sync").onclick=async()=>{const b=$("#rep-sync");b.disabled=true;await sheetLoad();b.disabled=false};
 function renderReports(){
  $("#rep-body").innerHTML=reports.length?reports.map((r,i)=>`<tr><td>${fmtT(r.date)}</td><td>${esc(r.site)}</td><td>${r.types.map(esc).join("، ")||"—"}</td><td><span class="badge ${r.result==="مخالف"?"bad":"ok"}">${r.result}</span></td><td>${esc(r.source||"—")}</td><td><button class="btn sm" data-re="${i}">تنزيل مجدداً</button></td></tr>`).join(""):`<tr><td colspan="6" class="empty">لم تُصدر أي تقارير بعد.</td></tr>`;
  document.querySelectorAll("[data-re]").forEach(b=>b.onclick=async()=>{const r=reports[b.dataset.re];let img=null;try{img=await store.reportImage(r)}catch{}makePdf(r,img)});
