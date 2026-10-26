@@ -46,6 +46,7 @@ dialog{border:1px solid var(--line);border-radius:14px;background:var(--card);co
 dialog::backdrop{background:rgba(0,0,0,.5)}
 fieldset{border:1px solid var(--line);border-radius:10px;margin:0 0 14px;padding:10px 14px}
 legend{font-weight:700;padding:0 6px}
+.subh{font-size:.82rem;font-weight:700;color:var(--accent);margin:10px 0 2px}.subh:first-of-type{margin-top:0}
 fieldset label{display:flex;gap:8px;align-items:center;font-weight:400;margin:4px 0}
 table{width:100%;border-collapse:collapse}th,td{text-align:start;padding:10px;border-bottom:1px solid var(--line);font-size:.92rem}
 .empty{color:var(--muted);text-align:center;padding:30px}
@@ -272,9 +273,13 @@ table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeaf
     <div class="card chart"><h3>المواقع حسب القطاع الاقتصادي</h3>
       <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
       <div class="bars" id="bysec"></div></div>
+    <div class="card chart"><h3>المواقع حسب مجال الملكية الفكرية</h3>
+      <div class="legend"><span><i style="background:var(--c-bad)"></i>مخالف</span><span><i style="background:var(--c-ok)"></i>غير مخالف</span></div>
+      <div class="bars" id="byip"></div></div>
     <details class="card tbl chart"><summary>عرض البيانات كجدول</summary><div style="overflow-x:auto;margin-top:10px"><table><thead><tr><th>نوع المواد</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table"></tbody></table>
       <table style="margin-top:14px"><thead><tr><th>الإجراء</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-src"></tbody></table>
-      <table style="margin-top:14px"><thead><tr><th>القطاع الاقتصادي</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-sec"></tbody></table></div></details>
+      <table style="margin-top:14px"><thead><tr><th>القطاع الاقتصادي</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-sec"></tbody></table>
+      <table style="margin-top:14px"><thead><tr><th>مجال الملكية الفكرية</th><th>مخالف</th><th>غير مخالف</th><th>المجموع</th></tr></thead><tbody id="dash-table-ip"></tbody></table></div></details>
   </div>
   <h3 style="margin:24px 0 10px">سجل التقارير</h3>
   <div class="actions" style="margin:0 0 10px"><button class="btn primary sm" type="button" id="rep-xlsx">تصدير Excel</button><button class="btn sm" type="button" id="rep-sync" hidden>تحديث من الجدول</button></div>
@@ -286,7 +291,8 @@ table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeaf
   <form method="dialog" id="rep-form">
     <h3 style="margin-top:0">إصدار تقرير: <span id="d-site"></span></h3>
     <p class="dlg-meta" id="d-url"></p>
-    <fieldset><legend>نوع المواد المبثوثة</legend>
+    <fieldset><legend>نوع المواد والقطاع الاقتصادي</legend>
+      <div class="subh">نوع المواد المبثوثة</div>
       <label><input type="checkbox" name="t" value="بث مشفّر (IPTV)"> بث مشفّر (IPTV)</label>
       <label><input type="checkbox" name="t" value="مسلسلات وأفلام"> مسلسلات وأفلام</label>
       <label><input type="checkbox" name="t" value="بث مباشر للمباريات"> بث مباشر للمباريات</label>
@@ -294,8 +300,14 @@ table.tl td.none{color:var(--muted);font-style:italic}.ph.data{background:#dbeaf
       <label><input type="checkbox" name="t" value="صوتيات"> صوتيات</label>
       <label><input type="checkbox" name="t" value="__other"> غير ذلك</label>
       <input type="text" id="d-other" placeholder="حدّد النوع" hidden>
+      <div class="subh">القطاع الاقتصادي</div>
+      <div id="d-sectors"></div>
     </fieldset>
-    <fieldset><legend>القطاع الاقتصادي</legend><div id="d-sectors"></div></fieldset>
+    <fieldset id="d-ipf"><legend>مجال الملكية الفكرية</legend>
+      <label><input type="checkbox" name="ip" value="حق المؤلف"> حق المؤلف</label>
+      <label><input type="checkbox" name="ip" value="العلامات التجارية"> العلامات التجارية</label>
+      <div id="d-iperr" role="alert" style="color:var(--bad);font-size:.88rem" hidden>اختر مجال الملكية الفكرية.</div>
+    </fieldset>
     <fieldset><legend>النتيجة</legend>
       <label><input type="radio" name="r" value="مخالف" required> مخالف</label>
       <label><input type="radio" name="r" value="غير مخالف"> غير مخالف</label>
@@ -418,7 +430,7 @@ const SHEET_ON=!CLOUD&&!!(CFG.sheetUrl&&CFG.sheetToken);
 const jstr=v=>{try{return JSON.stringify(v==null?{}:v)}catch{return "{}"}};
 const jparse=(v,d)=>{try{const x=JSON.parse(v);return x==null?d:x}catch{return d}};
 const siteRow=s=>({id:s.id,name:s.name,url:s.url,cat:s.cat||"",file:s.file||"",meta:jstr(s.meta),addedAt:s.addedAt||new Date().toISOString()});
-const repRow=r=>{const x=r.extra||{};return {id:r.id,date:r.date,site:r.site,url:r.url,types:(r.types||[]).join("، "),result:r.result,source:r.source||"",inspector:r.inspector||"",content:x.content||"",subUrl:x.subUrl||"",evidence:x.evidence||"",notes:x.notes||"",sectors:(x.sectors||[]).join("، "),siteId:r.siteId||"",screenshot:r.screenshot||"",extra:jstr(x),_types:jstr(r.types||[])}};
+const repRow=r=>{const x=r.extra||{};return {id:r.id,date:r.date,site:r.site,url:r.url,types:(r.types||[]).join("، "),result:r.result,source:r.source||"",inspector:r.inspector||"",content:x.content||"",subUrl:x.subUrl||"",evidence:x.evidence||"",notes:x.notes||"",sectors:(x.sectors||[]).join("، "),siteId:r.siteId||"",screenshot:r.screenshot||"",extra:jstr(x),_types:jstr(r.types||[]),ipField:(x.ipFields||[]).join("، ")}};
 function sheetToast(msg,bad){
  let t=document.getElementById("sheet-toast");if(!t){t=document.createElement("div");t.id="sheet-toast";t.setAttribute("role","status");t.style.cssText="position:fixed;bottom:16px;inset-inline-start:16px;z-index:99;padding:8px 14px;border-radius:10px;font-size:.88rem;font-weight:700;background:var(--card);border:1px solid var(--line);box-shadow:0 4px 16px rgba(0,0,0,.2)";document.body.append(t)}
  t.textContent=msg;t.style.color=bad?"var(--bad)":"var(--ok)";t.hidden=false;clearTimeout(t._h);t._h=setTimeout(()=>t.hidden=true,bad?8000:3500);
@@ -1197,7 +1209,7 @@ function fillSectors(sel){
 }
 function openDlg(id){
  cur=allItems().find(s=>s.id===id);setPasted(null);
- $("#rep-form").reset();other.hidden=true;
+ $("#rep-form").reset();other.hidden=true;$("#d-iperr").hidden=true;
  fillSectors((cur.meta&&cur.meta.sectors)||[]);getTax().then(()=>{if($("#dlg").open)fillSectors([...document.querySelectorAll("[name=sec]:checked")].map(c=>c.value))}).catch(()=>{});
  $("#d-site").textContent=cur.title||cur.host;$("#d-url").textContent=showUrl(cur.url);
  document.querySelectorAll("[name=t]").forEach(c=>c.checked=(cur.types||[]).includes(c.value));
@@ -1210,9 +1222,11 @@ $("#rep-form").onsubmit=async e=>{
  const types=[...document.querySelectorAll('[name=t]:checked')].map(c=>c.value==="__other"?("غير ذلك"+(other.value.trim()?": "+other.value.trim():"")):c.value);
  const result=document.querySelector('[name=r]:checked')?.value;
  if(!result){e.preventDefault();return}
+ const ipFields=[...document.querySelectorAll("[name=ip]:checked")].map(c=>c.value);
+ if(!ipFields.length){e.preventDefault();$("#d-iperr").hidden=false;$("#d-ipf").scrollIntoView({block:"center"});return}
  const inspector=$("#d-name").value.trim();
  try{localStorage.setItem("ipw_inspector",inspector)}catch{}
- const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:null,inspector,source:cur.kind==="proactive"?SRC_P:SRC_C,extra:{...reportExtra(cur.meta),sectors:[...document.querySelectorAll("[name=sec]:checked")].map(c=>c.value)}};
+ const rep={siteId:cur.id,site:cur.title||cur.host,url:cur.url,types,result,date:new Date().toISOString(),screenshot:null,inspector,source:cur.kind==="proactive"?SRC_P:SRC_C,extra:{...reportExtra(cur.meta),ipFields,sectors:[...document.querySelectorAll("[name=sec]:checked")].map(c=>c.value)}};
  const img=uploaded;
  let saved=rep;
  try{saved=await store.addReport(rep,img)}catch(err){alert("تعذر حفظ التقرير في القاعدة المشتركة: "+err.message+"\nسيُنزَّل ملف PDF فقط.")}
@@ -1238,6 +1252,7 @@ function reportHtml(r,img){
 <tr><th>رابط الموقع المخالف</th><td dir="ltr" style="text-align:left">${esc(r.url)}</td></tr>
 ${extraRows(r.extra)}
 <tr><th>نوع المواد المبثوثة</th><td>${r.types.length?r.types.map(esc).join(" ، "):"—"}</td></tr>
+${r.extra&&r.extra.ipFields&&r.extra.ipFields.length?`<tr><th>مجال الملكية الفكرية</th><td>${r.extra.ipFields.map(esc).join(" ، ")}</td></tr>`:""}
 ${r.extra&&r.extra.sectors&&r.extra.sectors.length?`<tr><th>القطاع الاقتصادي</th><td>${r.extra.sectors.map(esc).join(" ، ")}</td></tr>`:""}
 <tr><th>النتيجة</th><td class="res">${esc(r.result)}</td></tr>
 <tr><th>الإجراء</th><td>${esc(r.source||"—")}</td></tr></table>
@@ -1351,6 +1366,12 @@ function renderDash(){
  const secRows=[...bs2].map(([t,o])=>({t,...o,tot:o.bad+o.ok})).sort((a,b)=>((a.t==="غير محدد")-(b.t==="غير محدد"))||b.tot-a.tot||a.t.localeCompare(b.t));
  const secMax=Math.max(...secRows.map(r=>r.tot));
  $("#bysec").replaceChildren(...secRows.map(r=>{const row=el("div","brow"),wrap=el("div","bwrap"),bar=segs(r.bad,r.ok,.12,secMax);bar.style.width=`calc((100% - 40px) * ${r.tot/secMax})`;wrap.append(bar,el("span","tot",String(r.tot)));row.append(el("div","nm",r.t),wrap);return row}));
+ const bs3=new Map();
+ for(const r of data){const ss=new Set(((r.extra&&r.extra.ipFields)||[]));if(!ss.size)ss.add("غير محدد");
+  for(const t of ss){const o=bs3.get(t)||{bad:0,ok:0};r.result==="مخالف"?o.bad++:o.ok++;bs3.set(t,o)}}
+ const ipRows=[...bs3].map(([t,o])=>({t,...o,tot:o.bad+o.ok})).sort((a,b)=>((a.t==="غير محدد")-(b.t==="غير محدد"))||b.tot-a.tot||a.t.localeCompare(b.t)),ipMax=Math.max(...ipRows.map(r=>r.tot));
+ $("#byip").replaceChildren(...ipRows.map(r=>{const row=el("div","brow"),wrap=el("div","bwrap"),bar=segs(r.bad,r.ok,.12,ipMax);bar.style.width=`calc((100% - 40px) * ${r.tot/ipMax})`;wrap.append(bar,el("span","tot",String(r.tot)));row.append(el("div","nm",r.t),wrap);return row}));
+ $("#dash-table-ip").replaceChildren(...ipRows.map(r=>{const tr=el("tr");for(const v of [r.t,r.bad,r.ok,r.tot])tr.append(el("td",null,String(v)));return tr}));
  $("#dash-table-sec").replaceChildren(...secRows.map(r=>{const tr=el("tr");for(const v of [r.t,r.bad,r.ok,r.tot])tr.append(el("td",null,String(v)));return tr}));
 }
 
@@ -1361,9 +1382,9 @@ function exportReports(){
  const base=dashData(),data=dashSrc==="الكل"?base:base.filter(r=>srcOf(r)===dashSrc);
  if(!data.length){alert("لا توجد تقارير للتصدير في الفترة المحددة.");return}
  const rows=data.slice().sort((a,b)=>new Date(b.date)-new Date(a.date)).map(r=>{const x=r.extra||{},[d,t]=dayT(r.date);
-  return {"التاريخ":d,"الوقت":t,"الموقع":fixMojibake(r.site||""),"النطاق":hostOf(r.url),"الرابط":r.url,"نوع المواد":(r.types||[]).join("، "),"النتيجة":r.result,"الإجراء":srcOf(r),"المفتش":r.inspector||"","القطاع الاقتصادي":(x.sectors||[]).join("، "),"المحتوى":x.content||"","الرابط الفرعي":x.subUrl||"","الدليل":x.evidence||"","ملاحظات":x.notes||"","المعرّف":r.id||""}});
+  return {"التاريخ":d,"الوقت":t,"الموقع":fixMojibake(r.site||""),"النطاق":hostOf(r.url),"الرابط":r.url,"نوع المواد":(r.types||[]).join("، "),"النتيجة":r.result,"الإجراء":srcOf(r),"المفتش":r.inspector||"","مجال الملكية الفكرية":(x.ipFields||[]).join("، "),"القطاع الاقتصادي":(x.sectors||[]).join("، "),"المحتوى":x.content||"","الرابط الفرعي":x.subUrl||"","الدليل":x.evidence||"","ملاحظات":x.notes||"","المعرّف":r.id||""}});
  const ws=XLSX.utils.json_to_sheet(rows),wb=XLSX.utils.book_new();
- ws["!cols"]=[12,8,30,24,44,24,10,20,16,20,30,36,36,30,20].map(w=>({wch:w}));
+ ws["!cols"]=[12,8,30,24,44,24,10,20,16,20,20,30,36,36,30,20].map(w=>({wch:w}));
  wb.Workbook={Views:[{RTL:true}]};XLSX.utils.book_append_sheet(wb,ws,"التقارير");
  XLSX.writeFile(wb,"تقارير-الرصد-"+new Date().toISOString().slice(0,10)+".xlsx");
 }
