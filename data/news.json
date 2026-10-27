@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:06:51.023Z",
+ "updated": "2026-10-27T17:58:13.049Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,8 +9,8 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 58,
-   "kept": 16
+   "fetched": 25,
+   "kept": 12
   },
   {
    "id": "ip-local-piracy",
@@ -21,32 +21,32 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 69,
-   "kept": 58
+   "fetched": 72,
+   "kept": 60
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 82,
-   "kept": 20
+   "fetched": 81,
+   "kept": 17
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 100,
-   "kept": 59
+   "fetched": 32,
+   "kept": 26
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 63,
-   "kept": 9
+   "fetched": 25,
+   "kept": 6
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 30,
-   "kept": 13
+   "fetched": 32,
+   "kept": 12
   }
  ],
  "items": [
@@ -71,19 +71,31 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-27T10:12:01.000Z",
+   "date": "2026-10-27T10:11:55.000Z",
    "summary": ""
   },
   {
-   "id": "91a04463f204",
+   "id": "4ac527fc50ae",
    "title": "Counterfeiting: Italia seizes 80 per cent of the counterfeit goods confiscated in the EU market",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRDVURXM5eTBBYUFPbFlrY2xVVEdrcGVRbmRrZ0dKREVwWGQtbTRiVmpKNENjd0xyQjVLaEpnczJlMXBUbHJWWVlUMUtJeXlNZU9QNzJSMEptb0hSdEMtTlZxYTNvLWMxZ19ycEZwVE0tODVvY1phSGVQUkd5VmQ1bHQ1Y3dhdXEzVDg4UFNHX0h2eFhUM2ZRUzNJMWZFMmtEMERzbTc4b2RISjhIMGV3WmdR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYzZfbHlXN3ZKQWNFN3JQcmctTTMxUVg2elFVWlBWVFpyOWwzWktadWxCOHBiY0ZLT2YtaFFHc2hva2E1dFZwQnp1bk16Q1hpNlI4TFZKSEZZOGZ6WXpSN0tNRmxJUkVjTFk3T1hGSF81c0x4b3hCVjVGNVJrbkhpTndDaWpVSnpncFhWXzZya2VTRWItaFVja2w1eTZrR0FUcUd4bEhOYkRrdEZQVE05aTdsSQ?oc=5",
    "source": "Il Sole 24 ORE",
    "sourceUrl": "https://en.ilsole24ore.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-27T08:28:39.000Z",
+   "date": "2026-10-27T08:28:40.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f087b4bf2932",
+   "title": "وظائف وزارة العمل 2026.. 6349 فرصة ورواتب تصل إلى 25 ألف جنيه",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKRk5YU0FiQml0WS1ORjNRaExsRm5aV19IMF9YSjl1dWxsUFFEaVFfbnN0bFlXUU1lZ0o3ZmJJd0hzODF4T1pqNnBDWDQwRzRxSldr?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-27T06:16:56.000Z",
    "summary": ""
   },
   {
@@ -243,18 +255,6 @@
    "summary": ""
   },
   {
-   "id": "944b87b436d6",
-   "title": "السعودية: «الموارد البشرية» توضح خدمة مهمة تتيح العمل لدى منشآت أخرى بصورة نظامية.. تعرف على الشروط والإجراءات",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBMenpab2NtWWlnTlotQmNWcENUVjFLdDdmaEhvYVNmZ05hNVU0cWo0VWo0NjFWX2NaQ0NWRDZIVTdfdTNhZlQ5elNpQmtMNng0clhES2xwVC0xRS1uZk51X00zNm96Y1NGa1lVNHpB?oc=5",
-   "source": "صحيفة اخبارنا",
-   "sourceUrl": "https://www.akhbrna.ae",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-26T02:30:39.000Z",
-   "summary": ""
-  },
-  {
    "id": "c72a3c4076d8",
    "title": "النيابة العامة في عُمان تحذر من الإساءة إلى الدول أو رموزها أو شعوبها عبر منصّات التّواصل الاجتماعي",
    "url": "https://news.google.com/rss/articles/CBMirAVBVV95cUxPZWZ2RTRKeV9vX1NoNXhRVWNoTTk2aks3NGlqQkNPVUhLZ3JJZms1SEFadEpjalp0MGpkMjJRSXdscTY2S3ppdEowYksxcmFiZ2xibjA2NE11Uzd6aFNhZ0ZPeDBMZmxmcVE2ZHVhZzl1emJRZHcxM205b2ZsMVlYNkFlSlhNclJIZjRBc1hOYUFBQUQ3djlYSjNicVNuVVdKSUlfSXpjbGJNbHBySUFweGgtYmNneVl2Q1lfMkQzUVhtbXM5QTFQX0NsM0VIREFDY1h2R25jN1VackhWMFhEalQ2R1RDRGxtQ1lXd25aejBnamQ0dkQ0c1NMYXJMRy16eGQtQUdUaklORVotTlNNMC1zaVZnSXEtVVp1OHZKelRyVXJmTnNjVndpTUdQNUpPRU9MWktBWTJXSXN3c0EzLUc0MWFyU2FCWWp1S1QxZFZ0SkhpTTNjbVY3dTZDUjBHYXdJZHpiNmJ1MnJfakxTOXc4WUgxd0V1cFl6YU80TDg4NXo4ZzhydnNJckxHY3U5eHk2UXZjSXBxZG1JUlBTYVRhNHI0MFAxLXZWb1hBc2ppRXl5ZENRaVRhYlAtZ0I3YlJBVGFza0NISnBhV2N6Q0FoX1Z3Q04wR19pYlVLWWE0VHJRX2JqSEpLeDM1aWkxR1p5cEZ1eHBSS0dYT0tQZm5jUVR4T2lPb0F3RWhkSVV3dDlsNGF2NzJ3QjJCNlM4UXE0T3cxcURGNWVGekVkX0htNDI5RmFaWjFQb294N05aUEVDSmkzdWpMS3U5V21ibW9oblhBMVRZYmJ1eXJBa0JZb1FUdjd4VERPaXhFX0RzNS03Y1l1RHpVa2lwbERNejNTSHRiN0p3dGZLUWZ3MkJIX3p6dE9KaWRIM0xOTi1FZ3dmV250U0NTVG4?oc=5",
@@ -263,7 +263,7 @@
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-25T14:39:00.000Z",
+   "date": "2026-10-26T00:43:22.000Z",
    "summary": ""
   },
   {
@@ -315,30 +315,6 @@
    "summary": ""
   },
   {
-   "id": "da66ebf6f3c4",
-   "title": "Melodie Music Selected as Finalist in the 2026 WIPO Global Awards",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSDJyeUVmbUppb0lQZW45VWNLeVhqbEV0bFRFaTBySTRWeDk0OXBkby1tNExkc0lZejQ3aWx2enBncGJZNGxPYnJlZ0VBSDc1NmVlMTlTU2xqaHExYTQ1bkQ2UzJtTVJ6eGcwb1B6YUN1dXlLdVVFTjRjcnl5S1MwcW9nSVVBaVhZR3J5N1hLMzYtd3JCeko2eXBLZUNZZVppTHk2OXpzdkFpVkk?oc=5",
-   "source": "FilmInk",
-   "sourceUrl": "https://www.filmink.com.au",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-25T04:04:25.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1d7cd2cabfdb",
-   "title": "سير السعودية تسجل براءة اختراع سياراتها في البحرين",
-   "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxOd2hRLUpnajZjek43MW1uRFh5Nm9xQ0FoMnJJdVR6bXU0aTNTLWo0V0JKcEhnMlZkdnNPTHNvVnJ5TlZSa3U2ekFmLXMxOGt2SDFmUnhDYVhxMElqcUR6LW1fbG9yUVNuQlhZeHVmdmZnTlJFZG1RYmxfcGd6ZzFHRmFzVlNIRXVMbW1WdGlxUWgwcENhbzgtc0ZTWG9SMGYtczZqR0c2aE90dnF6LXg4TXRWRUlCZFFBeEdxd3ZDY2xqTm9ZdFVKSUozSWxzX2Q5RTdUNlkyTjlqRnRRdFpjYUx6cm5pU082eXZ6X3E4SnhNOTBfM0EySUlnVVgxOU1MUjV6Wjk0R095WkJTX3BfUHIzUUlicVFVTGE5VmFxU1FMN01lMlJIb0FfRFBIT0JTSFFlb3FDMm9IZXFhX21NRTJBaVZzV2V6N2kzakdtVkJ1d2YxRWdYOTVvcXI2Q1IzYTFsNjZRUVdjbkR6Y1BPNVdWWUFfYmlvU002VnhpTjJFb2R3ZEZ5d0R3clBrckNGd1h2RlJKRUc0RUVDekR0dGU2d3c5ZDFOa0lfRXROc2IyUG9RWVF2WmxSN1NyZ9IBVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRQ?oc=5",
-   "source": "صحيفة الوطن",
-   "sourceUrl": "https://alwatannews.net",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-24T20:00:52.000Z",
-   "summary": ""
-  },
-  {
    "id": "ea27076ef365",
    "title": "Pakistan Stays on US Intellectual Property Watch List for 2026",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUEZDZE03bFdza3hwemJBTHd3bFpBWE1mT1BhQm5tTEltbDNtMFpLRW5PZkRMYy1Ka2YtM25UamQ0elRvRmkwbklObmlXLUFIT04teWZVT2xEbWRWMnF5Y3BSbFI2T25qSXI2cDlTMWlsYkgzX1pVRnk5cUE5bXJ5dFdQakxQTUI2RmhuZUVxQm9rdw?oc=5",
@@ -348,18 +324,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-24T13:01:22.000Z",
-   "summary": ""
-  },
-  {
-   "id": "152a4407fd09",
-   "title": "Step up crackdown on deadly counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTVVSOXFZQklTUFh6bkExVlVGR0NGRkR0SDlydTZMZXoxanRZWmFxS20zaXJDUzJ6U2JyX2t1NkJJeWx6bEd4Vm9OdEp2SEpLMktJc0ZlY1Bha3NLY0FleW45MW43emZ6aUFBYzdRSDZWOG1keEFiS1hST1NHVnQtaEZyTEVnMUZtMVRVcHZ1a2NxdmFEenk2aWhwaE5XS0RtbEI2aFF2Z0c4QQ?oc=5",
-   "source": "Daily Nation",
-   "sourceUrl": "https://nation.africa",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-23T21:00:00.000Z",
    "summary": ""
   },
   {
@@ -399,18 +363,6 @@
    "summary": ""
   },
   {
-   "id": "4965e3205990",
-   "title": "Nairobi emerges as counterfeit goods hotspot amid crackdown",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOME9sOEk4Q2NqbTUyQldyUUotaGRCY2dJQ1BJUHpma0xSQTc3eUw2WUFxSWgtX2hkSUdEV1l3bkpXXzNBLTZybmZaeXFMaTFXSEpGSGxLRXk0bmxQc1RlWXEzN3NyVHBDS25JUk9FcG9lUzM5aUxIaUpuck05anlSVkVmVmhmOGFEUGZqT01pYWlBMVk3bGlNb0VsT2huQnVvSFNrbUl3S2hiT3N1QlBmb3Rn?oc=5",
-   "source": "Daily Nation",
-   "sourceUrl": "https://nation.africa",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-23T08:00:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "c4b227f81a3a",
    "title": "AI Strengthens Filmmaking, Curb Copyright Infringement—–AIFF Founder",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUHlVaHIxVGM0c1FWUFlPSXhHODNiUmduT3dFY2pDN2ZhcTRwSlo4TkhxMWtSLW50a3dMUTNxdEI0VGFVLXhIdEVtVzhJSFpxMkR3cDhQampwNXdHdUVoQl9NMk9nd0ZOckR1dlR5aTZsNTJ6ejBUZEVrNVdMaXBBU2cxNC1ZZ2tHUGtuaE1JZw?oc=5",
@@ -447,6 +399,18 @@
    "summary": ""
   },
   {
+   "id": "07a10c9337cf",
+   "title": "Eminem’s Former Employee Pleads Guilty to Copyright Infringement",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQb0NNTW9hd25fS2ktNmRreTBpdlVQYW1OT2xYQTFsV3Z2d3VnUzQ4YkV3X2lJQWthcnNrMUpYeFZibDRPU1dTX2JYUGZZLVEtNDZabWpucms4emJGS2RCRFhPMlByM3pRRURXNlRRVktPazNsdUZtM3lWcFdSNVZwMTRzMFBadmh2aFRkM2pBOC1VWTA1M2tnQkVkdDR6dw?oc=5",
+   "source": "InterSpace Distribution",
+   "sourceUrl": "https://interspacemusic.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T23:23:41.000Z",
+   "summary": ""
+  },
+  {
    "id": "f8b826a16906",
    "title": "Customs seizes $4.6m in illicit cigarettes and counterfeit goods at Sha Tau Kok shop, woman arrested",
    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX0JkYmktUGozYTBFa3JzdC11aUc1Y2xMeDVLVHlLQUhiV19oYUNfTGtwbHl2Vk5DRGh5M2FRY0hodmJVa3hhbElqd0lEQ2tRODA5cjllX2E5T3lMYk83SFkzaWNQMDdZTUU5bmhBQk9uNnBSVkxhbklEOGFZMUxyMmwxbHBILXJNUXJqMGZHZk1xTG1aRjBka2dpN0Z6VWd2UE94YUppYlRuZm93MFdsUVBib1ZkSFJtWWJUR25RX2ZxY1R6T0xkNkU0WHdUT04zSVctSXVKSDRrdnZHN0NsUzRn?oc=5",
@@ -480,6 +444,30 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-22T22:20:17.000Z",
+   "summary": ""
+  },
+  {
+   "id": "38ddbc3f7c01",
+   "title": "Eminem Ex-Employee Pleads Guilty to Criminal Copyright Infringement After Leaking Unreleased Tracks",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOamVmenlwVTA5TkU5cXAwQlcwejZZUk9mQnpfRW8xdWdFa1hzTm0weUJnc1ljdXdYeTlzUUpXWS1DR2EyU0ZkeDI4MzF6X3MydjRNSkdGejA0c0l0YXBWcjF3bEM4RGJMaE9laHBoWlZ4RU1RMldOeWowQ3h4S0JqV21vejc0dGhQWEZPVC04Uk5XZ0xIM1c2S0hKdw?oc=5",
+   "source": "Digital Music News",
+   "sourceUrl": "https://www.digitalmusicnews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T21:57:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "619797ef555f",
+   "title": "Former eminem employee pleads guilty to criminal infringement of copyright — DOJ",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMl9RR1FZcVozMjdpSW9xM3hiSlh3MTZNeHhzdEFNbjI0TkYtdjlvb0hSbUtXYlhDdHUtSWdjTm5jWHVvc3VHamZGSy14cEZvMjhadFJJd1RNYnlMTnpUVmpveTVPMF8tb3dkbWczWHhlLVU3aUZYQ25iVjQyLVJCODExRDl5dDEzYXowWkt1MHFobmhXLUx6cUcxY2ZmLXcya1dObjZ5aw?oc=5",
+   "source": "Regtechtimes",
+   "sourceUrl": "https://regtechtimes.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-22T17:11:51.000Z",
    "summary": ""
   },
   {
@@ -531,22 +519,22 @@
    "summary": ""
   },
   {
-   "id": "e0d4a5339365",
-   "title": "عام / الرئيس التنفيذي للهيئة السعودية للملكية الفكرية: الأنظمة الجديدة تعزز حماية حقوق الملكية الفكرية وتدعم نمو الاقتصاد المعرفي",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE4wclozV0dXUldBT052dnFKbkt2YWNlRlRJdEU1OXJ5WEtiRmNBNWxnZFVBZkRRN0p5bHFfeE11RDJwa3Y0ZjY1OHl3?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
+   "id": "4bc5c79a44b3",
+   "title": "الرئيس التنفيذي للهيئة السعودية للملكية الفكرية: الأنظمة الجديدة تعزز حماية حقوق الملكية الفكرية وتدعم نمو الاقتصاد المعرفي",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Cd1dXYncxN0FKVzRlR2s3UEMtSWFlZjdmQ2VYbUxJczZyc2w3bzF5MU1kMlIxMDYtMTlzWHhQejRKSEI5dVNHNzFzTG5IY2c5QlBn?oc=5",
+   "source": "جريدة المدينة",
+   "sourceUrl": "https://www.al-madina.com",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-20T20:16:22.000Z",
+   "date": "2026-10-20T19:12:00.000Z",
    "summary": ""
   },
   {
    "id": "c74678b1749f",
    "title": "الرئيس التنفيذي لـ\"الملكية الفكرية\": 4 أنظمة جديدة تعزز حماية المبتكرين وتدعم الاقتصاد المعرفي",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9CU3lRaW1WTUtqOXRZT1J4STNXdXA3ZEFSSUh4Mkk2bTcxeER2c3o4dm94MXJqWE1OV0NzUkdKTnJqYkcydElJ?oc=5",
-   "source": "صحيفة سبق الإلكترونية",
+   "source": "سبق",
    "sourceUrl": "https://sabq.org",
    "scope": "محلي",
    "topic": "ip",
@@ -570,7 +558,7 @@
    "id": "a0f1cbb92aa2",
    "title": "رئيس مجلس إدارة الهيئة السعودية للملكية الفكرية: موافقة مجلس الوزراء على أربعة أنظمة تعزز بيئة الإبداع والابتكار والتنافسية في المملكة",
    "url": "https://news.google.com/rss/articles/CBMirwhBVV95cUxOYUFuMUVkOHNuNlV0RHN6WnVjOGtXcWUxVl81VzBWTnYzSmxJQWIxR2h0b0tjMTNBUDlSS1JqNjRSbi1iczFReFFkZUVyR1BfN3dDTms4MFExR09wZUotSHFFZDZrTjktQUZLZ3ZrZUd3SUd6aUgyZjZvQzQ4SW9ZRjBUdkhRYjFTeVFsc21TN2p5MzdSOG4ySFozaUQ5eTdSRktLNlEwZUthYmlOd1d5V3NKM3pWdE5NMEY1UEhndDBsRXFoVVpGZ0tmb1F5TGhnY0NlMTZHRDh6d1RvVEFRRVZMU25Ddi1GWnBFR2EyeFQyb05uV2pDQW1RMmxmb3lDVUtTYkFTMXJLOXNYNEFWT3paeTdrQkZrUWFPNGo4QUFGRTdoOXFiRk40azRFaUFaOUhkRXdzWTNJWE05LS1pZUxtTGptQ3BlX2FlYTlzbzFwNmtjN3BiUTJXX25LX3JjRm1mMzUwSUZmQ0RHdW9ycEMzeElab1V6Q3NhUTBJa184WVE0czhTS3h2czNZUjhpU2RyajVwMi1ORXBNTE91eTFWc2JaREZwalJrcG9qcVVUQktJT29oLUxOZGo3OUpLMV92d3pxSTU5ejV0QVJoQ0VvQ2UzMkNtSF8zUzNwRU0xbWhXMU05MHZDR3g4aFlfZjl3UnRxS29wRFBGOXVWcmJtSDlNYUJhVEFzQ1IwZWZOa0JLNk1ZMS1yRG5FcmxwSlIxRWd0dTRoNTEzeVJmU1lvbFNvTGZVOHRmLTN1cjFKeG1wQm03MHlUYjV6bURQODdKWjdPdVd6d2VIS3FjT01NM1liYXpaT0lsbnUzS2NzdUlkeWFHOEozSU43aFFFS01LMmY1alZXX2NwVndLeF9iczU3N1o2VUY4QXh1UjJZcEZzRUthcG9rSi1YUFoySk9vTmhEQjdMNEp1by1BaVFpWmtTbzQzQ1hDMGNUX1FiSDJ3RHFuMWNsZ0t2bHVpZ2xNdEk1Sm53UzZ1bFBOSHcwaWhCZm9RTV9GTW5fZ08yamIxUElHVEt1MHJLY1Y4ckpPWUNIM0F6bXZZeFBVU01KbFl4YTZkZkJHRVpaR0pPMFc0T1FYVk1iZnhqVUNEeXRaQkdlajFuZ2NRVFlZczBsY3V1WjFZRXJLMEM3ZUwyd19vZ2FQaENlUXdzcFFOdzRQMmZqdUlkdGN1OUwwV1ZhTGIzSHJxNndCbXhNRVNqaEU0ejNXYWVRbGpzckNzWS11NU1sTF9SOWVDTy0zVlQ4Ui1NQVBxUnhaMHViTlJnZWJFRzVxdnJpNjlWV3ZBUW9MUTNkSjQxY1h2MEZVQURZOXZnTTdZYjVTaDc5RUJvRjFMRU1mYVZIYTJsN0JfanNubmFrenVNUU94d0g3NGpsYXoyMDJTc1FOM3FUNVhuS2JZcC1FN0JBNElVRjQ?oc=5",
-   "source": "جريدة المدينة",
+   "source": "جريدة المدينة - صحيفة المدينة",
    "sourceUrl": "https://www.al-madina.com",
    "scope": "محلي",
    "topic": "ip",
@@ -579,15 +567,15 @@
    "summary": ""
   },
   {
-   "id": "7b7c74fcb221",
-   "title": "النائب العام ووزير التجارة يبحثان تعزيز التعاون وترسيخ سيادة النظام",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA1dG85QS1kS1N5cG9lczJ3bF80UHpvalIyN0Rfdy1lTjNfb3hxNzdXMDNMSTgxc2tKeGdzUUhCTWJDUlRKOGZnRkVDbHVyV0k2?oc=5",
-   "source": "https://alsaudi.news/",
-   "sourceUrl": "https://alsaudi.news",
+   "id": "7b060660426f",
+   "title": "\"الملكية الفكرية\" تنظم برنامجًا تدريبيًا للمنظمات غير الربحية الواقعة تحت إشرافها الفني",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPbFpQY3pQejBiOS1mUWNza3JpcHNnUHRsZjV2RDZybnhWbVBpSmR3NWY4YzZianNDOVNiNDJhMmRETk1xSHJEcVdDRjYwTFVTcjZn?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
    "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-20T03:00:29.000Z",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-20T10:47:55.000Z",
    "summary": ""
   },
   {
@@ -639,51 +627,15 @@
    "summary": ""
   },
   {
-   "id": "7c33e02c9303",
-   "title": "\"الموارد البشرية\" تفتح باب التسجيل لاختبارات ترخيص مترجمي لغة الإشارة السعودية",
-   "url": "https://news.google.com/rss/articles/CBMiowVBVV95cUxNaVZ5MjROQlNYM2RWRHJ1TXZqSFVfZXA0YndocmhYODBsbFJIUEg3WDVOdlNEeTduZUp5em5ld250QzJERVhmOEpja1UxbHZIM3diaDNkTXF2X0VER1JQN3RNalA0MFg3YmlGcHp6V3dvOEt0NzZvamFwYUVBVkw3d20tWHJEazFSWElpc05nemlka0JyN1JDU3BNMno3ZUZJYTg1djFiT2xGZHRyX1o2dHRQWmpxaC1yUU5nVVQtQVA5bTBQSTJ5QzJPeTRJTHNTTGxvMExURWEwSnI1aFRFcVVOTnVEaWNSeXZhd0N5RE1NWG5yZkxzdV9hUkwxQ21vZFV3Q0htOEF4TnBlZTcyYWpuelJZUTY5ZnVwU0JTWUFRcnNVRkRtZjE0M2E0OVM0aW5lQXNTa25kck93a3VXRXpLQzBxZHotTGlrck9YemkzSkZKTHI3UF9uaDZTZFhsMUg5MDc3MEVndU9LTWVCdThYcFVtRkFMMi1IcnIyek4xeDE0VlFkZXp4WDkzMy00VUgwODVrd0FEaXdxektVZlpKbHhtVHBOeFZqNmllZk9WcDBnbXlQcm9KS0VodGg0M1BZc2RSX0VNRmpuVUp4anlNRXE5VFk1T1BVY3NKMXB1SXo2ei0tbDJyd0djUUlrNGxaX2p6Q1FEM0Q1ejAwQmFaQU9WaW5CTVd4RXRrdTJENUExREdyRVhpUm1OcGN2eUV1TzIyeC13Q1E5T05qOFdQckZ5QW9Da1hmQVVaYXRJS25FX1llYWJxWjlfbWxhMkJaZVd5M09PVjVxcVJmLUZielJpMUY1MzVIMkIzS3V2SzhnTFkzdElpdlZfRFBMRmRlb09KVUhUbUhFVm1oR1JHZ3kwekIxNnNKSE91WW05Uk0?oc=5",
-   "source": "جريدة المدينة - صحيفة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
+   "id": "1d0c5c11bb1a",
+   "title": "عام / وزارة الموارد البشرية والتنمية الاجتماعية تعزز جاهزية العاملين السعوديين في القطاع الخاص عبر \"مسرّعة المهارات\"",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5RdnItVnViYm00N0R6R0RySENyYy00VlhDa0FqZk9wa3ZzaVhLOUdXVG1JS1doSUNNVVBhU21ZcEIyZGttTHc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-19T10:23:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "6c0e4ea1573b",
-   "title": "وزارة الموارد البشرية والتنمية الاجتماعية تعزز جاهزية العاملين السعوديين في القطاع الخاص عبر “مسرّعة المهارات”",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9GOFFWSGpLb0F3ZHljOWwxVmlyUTR5ZmtPbFhUVkpqRk9RM05IMUFfNFMzb2ZqM0kxdy1fd1JVNm5kVW0zRVhRNGp4eUJlUQ?oc=5",
-   "source": "صحيفة سويفت نيوز",
-   "sourceUrl": "https://swiftnewz.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-19T10:19:44.000Z",
-   "summary": ""
-  },
-  {
-   "id": "938da1a7901c",
-   "title": "الموارد البشرية تفتح التسجيل لاختبارات رخصة مترجم لغة الإشارة السعودية بدءا من اليوم",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1DSElhZDZDc1k5ZVRJTmJIdzFUVDVDb011ZUNpaHp4aTQ2dVNfdmRfa3hXRXExY0E2eFlSLTVYRnVCY1V1cmgw?oc=5",
-   "source": "أضواء الوطن",
-   "sourceUrl": "https://adwaalwatan.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-19T09:14:41.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ac162430e0d8",
-   "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
-   "source": "صحيفة الشمال الإلكترونية",
-   "sourceUrl": "https://www.alshaamal.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-17T13:32:49.000Z",
+   "date": "2026-10-19T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -696,6 +648,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-17T13:32:49.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ac162430e0d8",
+   "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
+   "source": "صحيفة الشمال الإلكترونية",
+   "sourceUrl": "https://www.alshaamal.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-17T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -723,30 +687,6 @@
    "summary": ""
   },
   {
-   "id": "8315451d627f",
-   "title": "وزارة الموارد البشرية والتنمية الاجتماعية تحصد المركز الأول في جوائز Webex Customer Awards 2026",
-   "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxOUTNwUy0tY0JsRlowYjZ2NTZrTHoyT1d4YUpCaWJiMG5kTVVvdkxQekRVZWQ3YXlzREhpZ01MS0tfY2d3a1hkSWFtZlpJRzRsa1NHcUpKd2dlSnBJYjBIQXhEZDNQbkFNRGotQVloN1piSUxsb1MyV3QyVnJVWWtudjJPRkZyUGhMOUlxZnFrVFNuWmVmYzRMdXZCSV92U21uX0VEV2dPNU9iQkRwcnNLNS12eGw5azhGczF4SEIxRVhIRE9zeUd5bXhoUVJIeWNxdzVKeHJNc041VGNrMkxyejhCS3pMT0dfWUkyMHRUdFpsd3dmbXZLdnFGbF9JZHNmc0Y1VEtNX2drS0N6WFlnT3N1ekV3S2Z0NzQtNW5YTV9yUklidVIyck9ZTnZTNmRqemNOTDd6d05xQk5Md2wwV1Q3a2V5dklOT3hBQ2RWZy10akE1UjQ5c29xLW56eGZsOTJ6SFVIeTFmTXZXam53Ym9xZ19KbmFKQ0dUVTFpSG94VDJ0SXlWSXFPTXBlUGZOV0hRWHJRMzZFSzNiWlpDM2R3eU15SVBLUnR6cy1ZbE1sM015UUltUUVXZ0Myc0FIWmhZenAtOWdGNE5PeS1NYWxhMUtNVnpjcl9EcWVvMTl4MDQzdDhoLURKaWFWUkFCeXBLUXl5cUk2YjRuWVA1SEhmTk5QczFRVVg5UmlMejZBYU1Jdk9pZFQtaDc1Wno5SUNsdXJqUHIycmFPcmZXZzFGMXhKYnlfRWpDbmtRY1FDY3I0Q01ES1FrWTBRaWYtTkM2TVg1UnMzVW5kYjFCWG5haEpyTEJoM1pPeG1hRTBDNWdwYXlEUVlQOFprY0tYT3dvaGJkTkRrUU5Ld2c?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-15T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "65bad5f7a698",
-   "title": "\"أخلاقيات البحث العلمي والملكية الفكرية\"..في دورة تدربية لـ\"جامعة حائل\"",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1NWlNRVEo5SzZiSlFyM2FHRXBWRXZ3ZzhUUzAtMlcwbFNVSlc3T0lFVzQtcjNzOWtyZlVNZGlrUGRoTkxYWlVMSUhjRUI2QQ?oc=5",
-   "source": "السعودي اليوم",
-   "sourceUrl": "https://alsaudialyaum.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-10T10:49:34.000Z",
-   "summary": ""
-  },
-  {
    "id": "7405016ed3f2",
    "title": "الملكية الفكرية في السعودية تشكل 14% من الناتج المحلي",
    "url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxPOGt0akU2RTVBUWJMdGpsaVVwNkpvcEZwZld1NWtKelFtNXZZUmllQjRzc1ZCdkFtTVZBNnJxVTZkaEFvM0VZRUtMV2pFMGpKd2pfX0RSS1BSd09mdGVRQ2hySUI1MEtGSlpNMUVTdmdzQ0VUeU9rT0RoX201VnVLZkdidHYtd2g4M2s0UGRfRTN0Z0hucnFNUmVvUHpVaWZqT2F6N0dmdzFSZERITV80TThTaFB6dWlLay12QnhhWldrWnlyN3d5QjB2S0NCZzBBYkFGUDhiTzVCVGVJQUNaRkdfMlNiaXp1ZEFncEMzVGhOQ3lJRllPVEUtTGxhMG9mZ3Byb2tLelgwNTB2ZHhDM2xsbGVkNUdfRWFfWU1WZkxYenJyUlNobzJVUHQybEZqRFFibkVjVXRlSldKUXVBUG5HTXNWS2pxb05rRzJ2T0ZPWXlBeDFycXBKeWJrQVB1d3ZRVEg0N05vX1N6YVdneG90VVNQMVM5SW5TOWFvcjYzQkJ1N1BmNDJVdHUzZ2oyOGllVWJpVnNGWlAxZ0djc2tIbENIT2xFX3c1UHRiUGQyNVB0ajFnTV9Vd2tGSk1zNnhTeElfd1k3NUpCWEYwd2tvQTNUZUhT?oc=5",
@@ -768,42 +708,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-06T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "5c27d7653e1f",
-   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
-   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
-   "source": "الشرق الأوسط",
-   "sourceUrl": "https://aawsat.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "98a51d5697ea",
-   "title": "علوم وتقنيات / جامعة أم القرى تسجّل براءة اختراع جديدة في مجال استخلاص أكسيد الحديد النانوي",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mYWRGd3k0em8tVlFvbzNmc3FvaHNZMkJuVF9HT0wtcUhiZ2hmYzlLY0JRUEFGWGIzWmpNeXlQR1BUUlM3V3c?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-06T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "95a78cd31ac5",
-   "title": "الملكية الفكرية تُصدر تقرير الجودة 2025.. وتحصد المستوى البرونزي في جائزة الملك عبدالعزيز",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBtc1F6ektCaEJlS3ZrSWhsVDBMSFE1TXNGRlJTRGVST2lLSDROUE5zcEZMNTJISWJ0UVExRURycjNEN1c2dXZ3?oc=5",
-   "source": "صحيفة سبق الإلكترونية",
-   "sourceUrl": "https://sabq.org",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-09-30T07:00:00.000Z",
    "summary": ""
   }
  ]
