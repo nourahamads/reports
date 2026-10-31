@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:22:01.138Z",
+ "updated": "2026-10-31T21:30:16.663Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,41 +15,53 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 68,
-   "kept": 3
+   "fetched": 28,
+   "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 61,
-   "kept": 54
+   "fetched": 66,
+   "kept": 58
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 36,
-   "kept": 13
+   "fetched": 33,
+   "kept": 11
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 33,
+   "fetched": 32,
    "kept": 29
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 55,
-   "kept": 20
+   "fetched": 59,
+   "kept": 21
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 67,
-   "kept": 16
+   "fetched": 31,
+   "kept": 13
   }
  ],
  "items": [
+  {
+   "id": "dcc424d61e8c",
+   "title": "النيابة توقف استقبال بلاغات الامتناع وإخفاء الأموال",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xTnl5V2E5MW9DMS1rR0o4S1dpcmp3bWFjMVlzRFdlRTRwNUFjN3lZQUl6Tlcydy0zdnhqdkVxUEZhSFQwcGhkaUVwNF9laVVxcV9lUdIBWEFVX3lxTE14ZHdoQkpNVDU3LUJGR29XT2lFVm5FT0h2enpYdGtxZ2JLMDJyTUNLT19NV2MzWVpXeWRSWDVqZExqc3RRMUkxMmJLV0dzSzBuWDRocVVPWVM?oc=5",
+   "source": "جريدة الوطن السعودية",
+   "sourceUrl": "https://www.alwatan.com.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-31T18:24:00.000Z",
+   "summary": ""
+  },
   {
    "id": "f4bf3454f68a",
    "title": "Vigorously combat counterfeit goods.",
@@ -63,6 +75,18 @@
    "summary": ""
   },
   {
+   "id": "6892696c1cf2",
+   "title": "Existence Of Other Infringers Is No Defence To Trademark Infringement: Delhi High Court Confirms...",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRHVXejZxem5GdDNkb2JTSENyakZiRlNKWElOdTlJUXZuTjZnMmYzbGhSbmQ0dDNtUUFFUmEtU1hiVGp1M2l3VWRjelo1R1gwVVJRdVlqRmpDeUhIbld1NWZLazAwaHFvbGNJTGw5X0EyMWlTeEhVaVJjbFVoZUJ6emJDLVcwM1Z4YkhnMDduTlJxUlFnLWtHME85U19YZDBkV3ZSbWZVT3A4MU94QXRGQ3ZlSm5MTHJTMUtuenNOVlRuUGZlekhMLXRweHprck84WHpmTU5DdExtaWpSc0p6c2Fsc0RhZUJueHE4S0d2OUlLLWFBQk9CZGYwSHTSAYICQVVfeXFMTWtUVXdkd0hneGxfOGxFV0Q1T0kyRGx0ZHpYb1Iwb1Y0ek5Jc3dwc1JkcjF3SGRKYVFrQ3BzTlJHVnVmTVRxYUxHTVlLek5hT0dnYXJlemd5NmdISmNTZGt6cGpEbC1qbHVJVFgwUDBkaVdlZXoyaDNpUGpyQ19jMHIxajE5b0l0V1JSVTBRVVprdjlGSlB4V1VjdUpOdTRza0RrWTM1WU5RLURSbHNrV1ZSRk5kMUhXby1vbmZ0S2xmRlpIUlRONnRscEd1Y1VGb09YU0ljZmdKRXhMR1VqOVNpOWlPeGlDTFVEOFBVdW95X2tFSUx0UWVvOEZDVlI0MGpn?oc=5",
+   "source": "Verdictum",
+   "sourceUrl": "https://www.verdictum.in",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-31T09:10:40.000Z",
+   "summary": ""
+  },
+  {
    "id": "aec6776a35e3",
    "title": "GPA bemoans weak national book policy and enforcement of copyright laws, marks 50th anniversary with national symposium",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbHMzMjlsM1gzSGktV0VkQ3hUMWwyUXdVcWV1RDA1RHdXRUtCbXU3VzNRTHE4Q09Sd0ViNDg2Qkg2aHZvVXF6VjRhUnpSS0pQSXZfdUZwbHBieUVLeGZlbEJuUGNjNlFlSHFyWlg5aENHSTBYQ3YyRjZSQ2ZnMXczTU4xaXJXVDRjQ2ZsYnVEdUl2MUMyNk1BQ3NPY09fckZURnlCRTB3TkFPTXprSWRuZ3dMQllSc3A4VnJUenNpR2ptWjViSkEyeEdxQURVVVQxRkRzR1RMODV2SXYyMzBzcQ?oc=5",
@@ -72,6 +96,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-31T05:08:58.000Z",
+   "summary": ""
+  },
+  {
+   "id": "4b6883ad4307",
+   "title": "Understanding the Importance of the Token Use Limitation on U.S. Trademark Rights with Help From a Litigious Beaver and Monty Python",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmt5U2tzaXRtazBGeVgxTlZSS0tyQ04zMm9ob1BqUTRUc0taTWlRRm5OLTk0c1Jrd2V3WGkya2l3SkdJTVIwMjdGeUtaSUtEQVBMYkJ6U25hcmdfWUJrS3dkQkpoWFEyNXhDbVVzMklJYkxJSDlINVhUd25pY2g1cTlJUTY?oc=5",
+   "source": "JD Supra",
+   "sourceUrl": "https://www.jdsupra.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-31T04:40:56.000Z",
    "summary": ""
   },
   {
@@ -99,9 +135,9 @@
    "summary": ""
   },
   {
-   "id": "167365387a01",
+   "id": "8823e694e438",
    "title": "Ghana Publishers Association: Urges Stronger Copyright Enforcement",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSERjNzF0TXlzWkNFQVp5dlhFLVNaTXY4NGFMcGEwWVVCTFJ0THNsU1lPVkMwRXlzcFRVNGo3ek5NMDlRcTFDUW1FeVUzcnFhc2h5NkN5RXlnMjMyUTU2bHN0bFBXckhSZ2haS3ZEcVlJZW9jdVlsQXpDTUdsbndXRldDRnZjWklzcW5jbW5qR0wtY0ZUVFEwNGVxUGtHS0pCTnVGVGs5cFJmbml5VzRzUTZWTnNSQU5YdWlyNHhSWQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYzc2ZUltWHNaYmVieUhfZ1l3cHFJbTdIS0hVanZUWGdmQi03ZmsxRE9zNGw1YVA0Zkw1Y3l0ZmNYQ09LazMwRnRGelRvangyZ1FsM1lnSHBKZktPR0t2R1hJYTFKdlI1Vmhpb3JtWU9JRWxkN1FSTWFod3BjaDhFdjlRakZtZkg5MlBENVU5ekhrcFdrdHk2RlRZOTZXcFozMjMydHhOYlN6YWJ3NHpPazM5M3RNRWktMXRLN29ONzJYV0dMalk4VnVSaDctRURRZjYxN2RlUWdpZXZlSVF5dkNzcFBQZw?oc=5",
    "source": "Wansom AI",
    "sourceUrl": "https://www.wansom.ai",
    "scope": "عالمي",
@@ -219,18 +255,6 @@
    "summary": ""
   },
   {
-   "id": "640c36569b2a",
-   "title": "Legistify's New Module Simplifies Trademark Renewals, Integrates WIPO Search",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLVZaXzBWT21OOG9ZaWtVQnlUTDB4dmtlNG9OUXJjNmRIZkYwSFdoODg4RnB0aEd1MmVNQUYtckNVbVF4ZXB5cU12RGR6bDgwQW9xbDJSeTJkb3FGS24yVV94M29QcS1ueklVSlpmYWFkcDJ1Y3JOMmNkcHRMNWtHSm9OR1NhRGZhSDgzNFNqUDNvT1hvaXA0Mk9EN2pzT1VYWTUtY1QxNjlMdzg5R1dRRVVjSk1tSll3MDdoc0VB0gHDAUFVX3lxTE82V1NqWk9LaWlFX254X0J5dnp2akhkTjVmUk14WEF5S2xvbkNkY2lLaUxXYWdjdEU3QkRmU0pQQW1veloxMkZDelViV3pyS2Z3OVRORExxYjIzWEpQdVR6YTRJVmhpNUl2SWVtMUd4RGc1NWd0S1MzU09iai0yakl4RDd3WU1wYkFHWDVWOFhnUENMM3NRZk5tdkZlRzhqUkhkbDZnSjBCTW81NTlQRDAycDNyal85dXpGRjQ2c0xGdWgyWQ?oc=5",
-   "source": "Lokmat Times",
-   "sourceUrl": "https://www.lokmattimes.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-30T06:22:02.000Z",
-   "summary": ""
-  },
-  {
    "id": "bcc91c19a6c0",
    "title": "Legistify's IP Module Takes on the Trademark Renewal Problem, with WIPO Search Built In",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZGR2Y3ZFdEVVbjBuMm4tY05CZU5BQ19DeXdhQVZPamgyRWRVeWtidV9BbDdzaE5kNU9nMXNnYmlrN0JBMnRHalJxNWtiNnJmTzVqenJNZmhsU3lSUTlDREhYZW5FRFVCVGN0RGZkckl6ckJtWWtTT1Z4eEIyX0lodHhnNlI0S2tvMG9qbm90UGNEUWlOd3JXS09ONElNQnNTSUZTR0pZbXNOLXpFRFoyZVJndVZlcnBoTEs4NXJRUEplZjJRZ01MUkhVYnlqeEVzTGc?oc=5",
@@ -312,18 +336,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-29T16:43:04.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7b91898c4dae",
-   "title": "Nigeria Copyright Commission Turns 37 Amid Digital Piracy Crackdown",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS2t2LWdCX2hMOHZOcTZhUmhLSWFFVXFpNXcwck1oLUUtRHBoc3oyNXcwOWU2aENMNFpmQ2tQaFlDN2JLTThDTUF0Z3ZoeWRiWGROaDR6VUtIMWNDTmdsTWFuVUxKVW9Yb192bFJiVHhDNzQxV0VmSy1KZHp4S2JHMUZldWNEUkdFOW9wbThkcE5MbFlBU193RGltSFdOZw?oc=5",
-   "source": "Head Topics",
-   "sourceUrl": "https://ng.headtopics.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-29T16:41:00.000Z",
    "summary": ""
   },
   {
@@ -455,7 +467,7 @@
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-29T10:14:22.000Z",
+   "date": "2026-10-29T10:19:09.000Z",
    "summary": ""
   },
   {
@@ -627,6 +639,18 @@
    "summary": ""
   },
   {
+   "id": "d75a1ef62128",
+   "title": "السعودية: الموارد البشرية توضح إجراءات مهمة بشأن عقود العمل للمواطنين والمقيمين.. و3 خيارات متاحة للموظف قبل اعتماد عقده",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OMU00bmdSZkNaMm1YWkltZWVyRy15NXVDX1JhMmMyQ2N0dlVOck83YXNjY3pXUzRXQXJkdW42QjdQbGt3QzQ1dEN0YUs4a1oyM2k5blVNWXljbElkRFJNR3FSS09OM3BYVkNRMzBGTWZ6dw?oc=5",
+   "source": "صحيفة اخبارنا",
+   "sourceUrl": "https://www.akhbrna.ae",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-22T07:00:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "d36d45ac9169",
    "title": "السعودية تتيح تصحيح أوضاع العمالة اليمنية عبر قوى ومساند لمدة شهرين.. الشروط والفئات المشمولة وإلغاء بلاغات التغيب",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55WHA3M0N0WWg5R2tWa2NhdGl5QVM5S1dCaXlLODN5Wms4S3pvR3lubGVjVzBrd3ZZMEdUaVV0OG9ZT1gycWFqSHdxbndXUzFRZlRKWEtUUXdIYUFhRHFuNmh5bzl4SU9wcFE1Z0Q1bUtKaGtG?oc=5",
@@ -639,18 +663,6 @@
    "summary": ""
   },
   {
-   "id": "2c3334ba4019",
-   "title": "النائب العام: لائحة شؤون القضاة الوظيفية تعزز استقلال القضاء",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSTAzVVkxbUdBSXh0MURwUGFaSVFLaWxaSHg1YzZyVElzaVg1NVZxRS1hYzF5dG1KdFoyLXNJWjhlNE9uV2FZM2R6RmMyUG9ack9JT3BOeWtfLVdXeE5JNDEtd2c3SGRmMGtJZ0Nqb0pDZ0ZtTXRNRHRXR3RrSklmX2gwc3dzNHFFTVZENkM5U25MUjRwUC1xdUVWSFYxNG5RSHc3RE1TZHhxenFLTGFPQ2ZOeVl0S1pkdGg0NQ?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-22T01:02:59.000Z",
-   "summary": ""
-  },
-  {
    "id": "4066ae93f6bf",
    "title": "النائب العام: لائحة شؤون القضاة تعزز استقلال القضاء",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9USGZqRGppa0ZCRHdHejh1N3BlamVDQUxfdTNWNXZLTmZFN2FHVkpKS01OVjZLSEhrbG5HNEFGQXhlbXZkNXpSZmlPWnA3ZFBOM1HSAVRBVV95cUxPV2lQLWVDV1lkR3FaVnFpSUlNZFE4N21rcGF4VEc5MTVDUnItUE53dFktRVNydlR4X1lQVlFNY091U0RtSkNLLXV3SVhCM1lyNzhRblE?oc=5",
@@ -660,18 +672,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-21T21:19:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "05ee7fee7dc1",
-   "title": "النائب العام يتوجه بالشكر للقيادة بعد الموافقة على لائحة شؤون القضاة الوظيفية",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpVWR6eks3dGgzaTBVMW13S20xUWd2WENtMFBSMEYzNmNkTkJGQU5aN3I3bzlYeVU5LVkzNDNhQm9yeFNidkt0TlFFMnA3eDF2?oc=5",
-   "source": "https://alsaudi.news/",
-   "sourceUrl": "https://alsaudi.news",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-21T11:01:14.000Z",
    "summary": ""
   },
   {
@@ -855,30 +855,6 @@
    "summary": ""
   },
   {
-   "id": "3b2a499d0680",
-   "title": "النيابة والتجارة تبحثان سبل حماية الاقتصاد الوطني",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZU94N2MxSVZJU3pHVUs2XzZyWTkxbFBZSGVvWjRSQnd0MWpFOWFrVWVoVUlFUFJ1MTAyaFIxREJvUlQzSkdZWlUxSXNIcFdVcmdyQXlxOFYwemNIaGtod3lpaUJVeUJBb1A1QXlZaXE3anpaNEZ3Y19TWUFkYXNneFY3SUdQR3ljSmFlUDk2c28wdGtEQWxRM0dXUG9oT0Nod3lpeGx0am94TmRaTDJuWm93OU5MM2lRZnBNMnN6Z19SS3dW?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-19T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "9b99be020b55",
-   "title": "أعضاء النيابة العامة الجدد يؤدون اليمين القانونية بمقر وزارة العدل",
-   "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxQRk5EMG0zLU4xVlo0VVRUUUFHR3VSd2ZEZGtFTnhGNjhPVDczQ0xjTzUxRnZZTkpRVW10TDAyY3ptbzR6WEk4bHpralYzUUtIU0k1bDYxOEo0YXNCZnV3TGQyMW5RSVRJTmdzUG1nN3lHRFJmX3BvelhrdnlrRHlnTTM2b0laa05HdmlQeXRZb1JCZ1QwazU3RHVUaDNtMmd4MWlRVzV5UzRvWjBSTUY0R1IzVExoM0ZBMnM0Qk9mUDM3OHVKZFlTMEJsSHRJdEpoRUxHOHhwWlI0eGJOOTl6cXgxYW9MOTZDSk1YTXZUbmh1bDd2bHVxTmE1LTE2cVFZM2JZNzR2V1ItV2hUUTE3Q2VSekdKN1RUUHhUbkRHT0VxYUlTLV9NNTFUNk5NT2c5NE96M25aY1Z5YWNsTjZ5dS1pUXF6cGRYMWVZMjJmTjhVWjcyUlpsT0Z1RHQ3aE1fa01uVlJtMnp1YXBaVXl6WE9ycXVMMlk?oc=5",
-   "source": "بوابة أخبار اليوم الإلكترونية",
-   "sourceUrl": "https://akhbarelyom.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-18T14:39:46.000Z",
-   "summary": ""
-  },
-  {
    "id": "ac162430e0d8",
    "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
@@ -888,18 +864,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-17T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "76468016f58b",
-   "title": "المملكة تسجل براءة اختراع لموازنة التيارات في شبكات الكهرباء",
-   "url": "https://news.google.com/rss/articles/CBMimAVBVV95cUxQaHNPcXdoXzh5NmF4S0Ewa1FoYkM4Vkc2cGVTZ3V6a0JGTG16NTVVMUV6NjVPY0FNY1BGbEZsZ3Q2a3BTdFptZDVvdzVOYUJiQkZwVVcxYnFFQTd5dFhVeUdvU1FDSzcxNTBkUFJvd3JMZEEtMFVLaDhxQXFjTWR1Smk3ZkpIR0RQMkRwWUVTckUxRXo3VDNLdjRvTWVfa2o0UWpRbk5mV3dIUElRcDBfMVNRWEVWVVc0aWlTdlQ0a09Od3NYSDZZam5zZy15VWI4UTRLZzZsZVJVRGpkMU1JdFozQnM1WDZZWkJQLTNPTUxSejZkRnE3SmJSOUdkcW1xS2ZLWFpzSU1nZy10NGNhUmNjY0hvNGFKNVNWcjRKbl8yTml4ZnJnX2VaSWJZSHJBcWdxX242d2VDQUZpRXZxb0hzMEdPak9yY3NhVXlIdlUwYjVNX2J3a0I0bDBBdEp4dVcyLUVxRTAzYTYzb2M4Z0REbndYNk41bnFDYzhrZ182c1F1TGRubjR4SDdzS1RHSmJSTHhLb1BkRWxvREM3LW40YWZWTGx3S0R0c0NFVTBwR1Vvb2d0dHFuUlVwcFBTd1NfWmRheWZPZVl6NUxXXzU4NS1tZ0R0emNkVmJYcndMUTlGZEEwR25pUUF0NXd6UHI3RkNXUUppUVZTdXF0NWxfbVZZald2VjBYZmNHNF9LaUxJODRXQ1oxQlNRVTRLdlZ5eXVQWjhUZVA0ZnJuVHE2ZFl1X2x4bmdocGF0d2hTcHdMU0czdi1lajNRTGt1cE5Rd05ubFNmT1FVZElZb04wRVJ5YnExN3EtRmhXQmpZV3oycllPM29ZSHF5eFBYOWQzc1Zqd2VjOFpoTHRHck10V1NzZ3FZ0gFTQVVfeXFMT1UtakI5RXhrQVhqOHRiSjlZYS0ybW1jMlpMQW90SDZtU3JaM2Q2WDdLek9nVjNfd1VKMVItQmpXbFh2MWtCV3VXTVl6YlhSakJ0Y3c?oc=5",
-   "source": "alyaum",
-   "sourceUrl": "https://www.alyaum.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-14T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -924,18 +888,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-06T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "d5e6b544e4eb",
-   "title": "ثقافي / \"الملكية الفكرية\" تصدر التقرير الإحصائي لمعلومات الملكية الفكرية للنصف الأول من عام 2026م",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBSV3FrZEdhWGFzYUExczVpWFFxSnZaeHY3TlprZUdEU0NudXk5ZlFmTkp6d1ZLMmVrcFVWVDBLLUU4eW1Manc?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-04T07:00:00.000Z",
    "summary": ""
   }
  ]
