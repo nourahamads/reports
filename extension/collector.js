@@ -35,7 +35,7 @@ async function collectProducts(BRANDS,opts){
   const key=o.u||(norm(o.n)+"|"+o.p);if(seen.has(key))return;seen.add(key);
   const raw=clean(o.b0||"");let b=raw?(matchBrand(raw)||raw.slice(0,40)):"";let bs=raw?(o.bs||"schema"):"";
   if(!b){b=matchBrand(o.n+" "+(o.alt||"")+" "+decodeURIComponent((o.u||"").replace(/%(?![0-9a-f]{2})/gi,"")));if(b)bs="dict"}
-  items.push({n:o.n,p:o.p==null?null:o.p,c:o.c||"",i:o.i||"",u:o.u||"",b:b,bs:bs});
+  items.push({n:o.n,p:o.p==null?null:o.p,c:o.c||"",i:o.i||"",u:o.u||"",b:b,bs:bs,t:""});
  };
  /* 1) بيانات منظمة JSON-LD */
  const walk=(x,d)=>{
@@ -101,6 +101,17 @@ async function collectProducts(BRANDS,opts){
   const price=mt("product:price:amount")||mt("og:price:amount"),h1=D.querySelector("h1");
   add({n:mt("og:title")||(h1?h1.textContent:D.title),p:price?(parsePrice(price)||{}).p:null,c:mt("product:price:currency")||mt("og:price:currency"),i:abs(mt("og:image")),u:location.href,b0:mt("product:brand")||mt("og:brand"),bs:"meta"});
  }
+ /* مصغّرات الصور: تُلتقط من صفحة المتجر نفسها وتُضمَّن في النتيجة ليستخدمها تقرير PDF */
+ const thumb=async u=>{
+  const draw=(src,w,h)=>{const k=Math.min(1,200/Math.max(w,h)),c=D.createElement("canvas");c.width=Math.max(1,Math.round(w*k));c.height=Math.max(1,Math.round(h*k));c.getContext("2d").drawImage(src,0,0,c.width,c.height);return c.toDataURL("image/jpeg",.7)};
+  try{const r=await fetch(u,{mode:"cors",credentials:"omit"});if(r.ok){const bm=await createImageBitmap(await r.blob());return draw(bm,bm.width,bm.height)}}catch(e){}
+  try{const im=[].slice.call(D.images).find(x=>x.complete&&x.naturalWidth&&(x.currentSrc===u||x.src===u));if(im)return draw(im,im.naturalWidth,im.naturalHeight)}catch(e){}
+  return "";
+ };
+ const t0=Date.now();let qi=0;
+ await Promise.all(Array.from({length:6},async()=>{
+  while(qi<items.length&&Date.now()-t0<30000){const it=items[qi++];if(it.i&&qi<=300){const d=await Promise.race([thumb(it.i),sleep(6000).then(()=>"")]);if(d)it.t=d}}
+ }));
  const out={v:1,page:location.href,title:D.title,host:location.hostname,at:new Date().toISOString(),items:items};
  W.__products=out;
  if(opts&&opts.quiet)return out;
