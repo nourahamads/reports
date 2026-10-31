@@ -1,5 +1,5 @@
-const DEF_URL="https://nourahamads.github.io/reports/";
-const get=async()=>(await chrome.storage.local.get({batch:{items:[],pages:[]},toolUrl:DEF_URL,busy:""}));
+const DEF_URL="https://saiprasdon.web.app/",OLD_URL="https://nourahamads.github.io/reports/";
+const get=async()=>{const s=await chrome.storage.local.get({batch:{items:[],pages:[]},toolUrl:DEF_URL,busy:""});if(s.toolUrl===OLD_URL)s.toolUrl=DEF_URL;return s};
 const norm=u=>{u=(u||"").trim();if(!u)return DEF_URL;if(!/^https?:\/\//i.test(u))u="https://"+u;return u.endsWith("/")||/\.html?$/.test(u)?u:u+"/"};
 async function brands(url){
  try{const r=await fetch(new URL("data/brands.json",url).href,{cache:"no-store"});if(r.ok)return (await r.json()).brands}catch{}
@@ -31,7 +31,7 @@ async function send(){
  const data={v:1,page:b.page,title:b.title,host:b.host,at:b.at,items:b.items};
  for(let i=0;i<25;i++){
   const t=await chrome.tabs.get(tab.id);
-  if(t.status==="complete"){try{const r=await chrome.tabs.sendMessage(tab.id,{type:"ipw-products",data});if(r&&r.ok){await chrome.storage.local.set({sent:Date.now(),err:""});return}}catch{}}
+  if(t.status==="complete"){try{try{await chrome.scripting.executeScript({target:{tabId:tab.id},files:["bridge.js"]})}catch{}const r=await chrome.tabs.sendMessage(tab.id,{type:"ipw-products",data});if(r&&r.ok){await chrome.storage.local.set({sent:Date.now(),err:""});return}}catch{}}
   await new Promise(r=>setTimeout(r,800));
  }
  await chrome.storage.local.set({err:"تعذر الوصول إلى صفحة الأداة. تأكد من العنوان أو استخدم «نسخ النتيجة»."});

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "جامع منتجات المتاجر",
   "description": "يجمع المنتجات المعروضة في صفحة المتجر ويرسلها إلى أداة التحكم والرصد في الفضاء الرقمي",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "permissions": [
     "activeTab",
     "scripting",
@@ -10,7 +10,9 @@
     "tabs"
   ],
   "host_permissions": [
-    "https://nourahamads.github.io/*"
+    "https://nourahamads.github.io/*",
+    "https://saiprasdon.web.app/*",
+    "https://saiprasdon.firebaseapp.com/*"
   ],
   "background": {
     "service_worker": "background.js"
@@ -32,6 +34,8 @@
   "content_scripts": [
     {
       "matches": [
+        "https://saiprasdon.web.app/*",
+        "https://saiprasdon.firebaseapp.com/*",
         "https://nourahamads.github.io/reports/*",
         "http://localhost/*",
         "http://127.0.0.1/*"
@@ -41,5 +45,9 @@
       ],
       "run_at": "document_idle"
     }
+  ],
+  "optional_host_permissions": [
+    "https://*/*",
+    "http://*/*"
   ]
 }
