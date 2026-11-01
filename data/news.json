@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T13:16:39.645Z",
+ "updated": "2026-11-01T21:58:50.583Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,59 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 52,
-   "kept": 13
+   "fetched": 56,
+   "kept": 14
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 65,
-   "kept": 4
+   "fetched": 62,
+   "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 58,
-   "kept": 50
+   "fetched": 60,
+   "kept": 52
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 21,
+   "fetched": 24,
    "kept": 10
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 89,
-   "kept": 60
+   "fetched": 28,
+   "kept": 24
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 23,
+   "fetched": 24,
    "kept": 6
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 61,
+   "fetched": 62,
    "kept": 18
   }
  ],
  "items": [
+  {
+   "id": "f8f14235679d",
+   "title": "Africa’s creative boom needs better financing, copyright protection – Adesugba",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYklVWXZ2RlRva19qTzh6aWpkaThORGNCeUY3ejdKb3RJNmhyaG14akFOemRYbVRoMkRTRGJGdFZreDBtM2tqdXhjMWlJZmtERkRRVlJrODRsRi1QbVhBRmJ6NXRPRGdVT19LRDJrMGp5RlBJVUN6SkVpOF9lUzR1ZFhqdVZlNjNFNk56U1pzVzgwbVBxeGFWSGpCdUVMYllwOTlWNC0xSVVnSUxKV0tzS9IBtgFBVV95cUxOUVd4eXdDX0NPeWNkS2hwbkxsTEpEYzJEMFBSOFU1S0tzQ2lLQURrX3B2dGxZU3dRWmNqN1dVVUdOWjBQSHBhd2RCSS1hU09OQmcyNWg2VTQ4VzA2WDVEbElpWkJfNG82VExBTnJzempvY3ozeVpqb3MtZmZJdHFrS21HVy00aWQxdnZteGJMMGd1SkRfdVl2OUFWcm9tWU8xLUJKOGdhNnNINFNHNEp2NnN6UTdsdw?oc=5",
+   "source": "Businessday NG",
+   "sourceUrl": "https://businessday.ng",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-01T14:26:15.000Z",
+   "summary": ""
+  },
   {
    "id": "8d9da88cec96",
    "title": "Disney’s patent battle woes; IAM Strategy 300 nominations open; WIPO’s Laura Peter on PCT modernisation; InterDigital, Dell enter arbitration; China’s trade secret push; plus much more",
@@ -60,6 +72,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-01T11:39:36.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f1f4fe4bb5bc",
+   "title": "Court orders late Justice Kanyeihamba’s estate to pay Shs45m over copyright theft",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWTZOUk9qckVlRE4tX2FDXzN1ems2ZXdDYk9mWlZRM2JSbnoycFZjWjZncnQ2OS1LX1pBODQ1OTVqdjAtTGlFWHFoRVNCRW5WMkw5NDU2bG5XRFNhRmFPam9sOHM0bGtib0puNl9odFY5SzZKcGNkYnI4T2dqM3BUazlWTDE1TXphcE9IZ0Y3MmhsVHNVVzdBM2hrWU11ZTJxWnh3QXJTdmJZUG5VeGlTTDR5T19kYy1xeTVIS2o5a0tOZlJaNHpsMkNGMDUwTkE0NVE?oc=5",
+   "source": "Daily Monitor",
+   "sourceUrl": "https://www.monitor.co.ug",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-01T10:20:17.000Z",
    "summary": ""
   },
   {
@@ -135,15 +159,15 @@
    "summary": ""
   },
   {
-   "id": "5c27d7653e1f",
-   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
-   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
-   "source": "الشرق الأوسط",
-   "sourceUrl": "https://aawsat.com",
-   "scope": "محلي",
+   "id": "82f96df15277",
+   "title": "Getty is suing a popular AI image generator for copyright infringement",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQUlzZXprMWJiMmJlYkpZb3pIYllwMUZxM3FEYks4TGduVmtkdzBpc0RFTF9UbjNQMG13SGswcGo2WV9lNk9Kd0w1M29Pc29IeHdqT1JfaC1qbXBJOV9PSEswOHlLbHBmaWZwQjJiUWF1eXB0QjlWR0FPT2RLUnBYS3VSUlI5aWV0NEhN?oc=5",
+   "source": "Mashable",
+   "sourceUrl": "https://mashable.com",
+   "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-31T13:13:27.000Z",
+   "date": "2026-10-31T14:28:41.000Z",
    "summary": ""
   },
   {
@@ -180,6 +204,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-31T05:08:58.000Z",
+   "summary": ""
+  },
+  {
+   "id": "4b6883ad4307",
+   "title": "Understanding the Importance of the Token Use Limitation on U.S. Trademark Rights with Help From a Litigious Beaver and Monty Python",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQmt5U2tzaXRtazBGeVgxTlZSS0tyQ04zMm9ob1BqUTRUc0taTWlRRm5OLTk0c1Jrd2V3WGkya2l3SkdJTVIwMjdGeUtaSUtEQVBMYkJ6U25hcmdfWUJrS3dkQkpoWFEyNXhDbVVzMklJYkxJSDlINVhUd25pY2g1cTlJUTY?oc=5",
+   "source": "JD Supra",
+   "sourceUrl": "https://www.jdsupra.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-31T04:40:56.000Z",
    "summary": ""
   },
   {
@@ -231,42 +267,6 @@
    "summary": ""
   },
   {
-   "id": "5dc2fdfc114e",
-   "title": "WIPO focuses AI, patent debate on proof, prior art and obviousness",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUFVoQXhoRnlVREo3Uk1qeDhEZzdabWctUmJKTl9UNlZRX2dFOXZWci1PSnJ3QzJheVZubGFKdXZYYS1fUGFWRi15YTNNRGE3elNTSmUydnBsdVc3RV9SR3JfbGZ6YmtMeVZUTjFUd1lUQ1VOTzRYVVpGbnhvQkpVNW9SaDNxM3drem9JMEYyLXUxaEttM0haZHRtWE01Tk1LMl9RWlFNcWUxN0XSAVpBVV95cUxOX2VJcVZ3dWRPWm5vaWo4cTctQVh5RzZheGlTRWxnU1Z6dFZ5ZW1CRzd2S0JyYnR6bzgyNnZLNktMWWllOHFqRXg1WXh3R2lFWkRLd2xwUVlvY3c?oc=5",
-   "source": "MLex",
-   "sourceUrl": "https://www.mlex.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-30T13:30:45.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ea4c8fabb0c5",
-   "title": "Fashion Brands Rank Among the Most Active Trademark Opposers",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHNnMmRQaWNnNk5HTEFyVkI2Q05RZXJRdDNuVGlVall0VkhnbXlkZkx2bmcyZnR4QTl6WGc4cXY5MmNKOUV6OGUxSUZLNmZia21CTDRaNUlOeS1DMzhwaEdCblJTUVRUSnplSVJ0Y3NvUkhGb3BtT0VWMGY1YjJ5ZE1nMEZGVEtFRVBKT1JpUllYNkZsRWFoSE1ET24zb0Exdmc?oc=5",
-   "source": "The Fashion Law",
-   "sourceUrl": "https://www.thefashionlaw.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-30T13:07:57.000Z",
-   "summary": ""
-  },
-  {
-   "id": "730643bcc330",
-   "title": "WHO, WIPO and WTO to hold health manufacturing symposium in Geneva",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWUhBT3g3LWJKZzBodzVEOWgwazB3RXVLLVdpc2tkdmNVWkQ3M3JpMWRWdkJWQTJ1bVRzZXdZR29OV3lKaEFxNThYVllkWmZ5aDBKeTIwblJuOGFGTmplWDBCaDBnb1JMYzBFV1UtaG1xczZwLWNWcGVkMjdhS3VqeVBhOFprQkhsU09MX3JBZW5DSm1Rd1VJaEluOFdhS1pN?oc=5",
-   "source": "Traders Union",
-   "sourceUrl": "https://tradersunion.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-30T12:22:29.000Z",
-   "summary": ""
-  },
-  {
    "id": "612507bae983",
    "title": "Claim Of Trademark Infringement Cannot Be Used To Avoid Arbitration In Trademark Licensing Dispute: Delhi ...",
    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVFFQRDBWbVZ0M3ItR2UySmxxTjZuTW9DNklsU0FmOFI2SHloNWdhTFBKal80X2VyUHE3R1R6SzVUcWE3ZWo0MUp6WnFjdVNraVFRZkZtM0E1THN4VXlabFJxejY2Yjc5dU1YRktkQ2IyV0o3eVhibEhBczhnd1lCeFlfNFhyWEM3eGhTR2hCSVUxZk1JbkdocWdMdGh3RklMS0ZOZ29MQkZaWWhYa2w3ak0xZEJad0d0OWVkOFlXbnFFWVZDTnpmVUJFMWU0TWUzakdPaDhoQmcxTUFzVWluSWpleDVaUkZaNmVRR3Ixbi0xMExGQkt5X9IB-AFBVV95cUxPVFFQRDBWbVZ0M3ItR2UySmxxTjZuTW9DNklsU0FmOFI2SHloNWdhTFBKal80X2VyUHE3R1R6SzVUcWE3ZWo0MUp6WnFjdVNraVFRZkZtM0E1THN4VXlabFJxejY2Yjc5dU1YRktkQ2IyV0o3eVhibEhBczhnd1lCeFlfNFhyWEM3eGhTR2hCSVUxZk1JbkdocWdMdGh3RklMS0ZOZ29MQkZaWWhYa2w3ak0xZEJad0d0OWVkOFlXbnFFWVZDTnpmVUJFMWU0TWUzakdPaDhoQmcxTUFzVWluSWpleDVaUkZaNmVRR3Ixbi0xMExGQkt5Xw?oc=5",
@@ -280,7 +280,7 @@
   },
   {
    "id": "a48148237c19",
-   "title": "2026 News items - WHO, WIPO and the WTO to hold 13th Joint Technical Symposium on 25 November 2026",
+   "title": "WHO, WIPO and the WTO to hold 13th Joint Technical Symposium on 25 November 2026",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJdlo5dXByT1JEc2cxLTctWVZCNkh2d252QXVjSEhBbGl3ZjBaOEx2VjY5QlF2VjllNU5XdWRBU3BpMURTb085bnNtRGw4Q1doX0RIWS05SmxWZXBTQ013bHp0ck0yQnBvM21fYlgyT19KVDBM?oc=5",
    "source": "World Trade Organization",
    "sourceUrl": "https://www.wto.org",
@@ -300,42 +300,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-30T07:59:09.000Z",
-   "summary": ""
-  },
-  {
-   "id": "006304f6a2c9",
-   "title": "Legistify's New Module Simplifies Trademark Renewals, Integrates WIPO Search",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNldTalpPS2lpRV9ueF9CeXZ6dmpIZE41ZlJNeFhBeUtsb25DZGNpS2lMV2FnY3RFN0JEZlNKUEFtb3paMTJGQ3pVYld6cktmdzlUTkRMcWIyM1hKUHVUemE0SVZoaTVJdkllbTFHeERnNTVndEtTM1NPYmotMmpJeEQ3d1lNcGJBR1g1VjhYZ1BDTDNzUWZObXZGZUc4alJIZGw2Z0owQk1vNTU5UEQwMnAzcmpfOXV6RkY0NnNMRnVoMlnSAcMBQVVfeXFMTzZXU2paT0tpaUVfbnhfQnl2enZqSGRONWZSTXhYQXlLbG9uQ2RjaUtpTFdhZ2N0RTdCRGZTSlBBbW96WjEyRkN6VWJXenJLZnc5VE5ETHFiMjNYSlB1VHphNElWaGk1SXZJZW0xR3hEZzU1Z3RLUzNTT2JqLTJqSXhEN3dZTXBiQUdYNVY4WGdQQ0wzc1FmTm12RmVHOGpSSGRsNmdKMEJNbzU1OVBEMDJwM3JqXzl1ekZGNDZzTEZ1aDJZ?oc=5",
-   "source": "Lokmat Times",
-   "sourceUrl": "https://www.lokmattimes.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-30T06:22:13.000Z",
-   "summary": ""
-  },
-  {
-   "id": "005e1656a441",
-   "title": "Business News | Legistify's IP Module Takes on the Trademark Renewal Problem, with WIPO Search Built In",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQanpBM21RcTQ0cmpMRmRNT21mSzh2M1JOZE8zdThGTF83Y0hrZUZaelB2ZTM5enpzc0NxVkFFU3A1YXQyODZUTUZuTllLNnVsYzE4anpqdERJdHhPYjRDZXQyUFdWQ1p3c1RkQ1ZzZmF0blNwVHFQTmgyZl9CVlJGc01lOVJCY3prWlVFcnB5ZEVGQlJhOGx1X2w4aWNMSUY0MTk4Mi1LMk9tdWppWlZ6SjRXOW8wOTRCNlNGX29RdWY5T2lzeVFDX0stUUh1OUJ3MUg2Q2QxU3pnVDM1anVCdzdpSdIB6AFBVV95cUxPWUllZ1laUVk3ajJKaVVZVXczM1ZFV09wcExLck1qdHNxYU83dTZ2YkdaQmFzMW5fUDh4dmxfU1ZzNHJEQklleG9ScTVGQU1uUVpmTko3YUNqQUdvNHRCWHZ0VVNIZTIySGl2alZvV0MzYjRMWUdPdjgxZ3JULW9sUnRld0dLTEp5SldjVC14SnB3eEVtZXU2ZUlHMUc5LXhOYThiZEJ0b0lKQXpJTzAtS01kd0F0dEdTOUxGQng5U1NYVXhpd2xoaEowWUd4dnFoVUtIZXlDalRGNF8ydjF3TlVfck4zY1dZ?oc=5",
-   "source": "LatestLY",
-   "sourceUrl": "https://www.latestly.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-30T06:06:23.000Z",
-   "summary": ""
-  },
-  {
-   "id": "db9ee248d836",
-   "title": "Legistifys IP Module Takes on the Trademark Renewal Problem, with WIPO Search Built In",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM1dqQ0FOUkQ1cWRhdzNVNFA1UDE4ZkF0Nk92N3VQcGpqZE1EcTBsVFY4MmxqVmRRUjIzTFo1eHVvSFA0ZGRSOHlRV0JXTWpjZmxnSHFCZDZMcFppZXZBZVlkWEZSY2gwdGgtX21XQk4wMjl0ZmdFZEVRMU1OU3BFZjFnV3piclI1dUpqWUR5WVFsSEw3TW5mTk5sbjJhU2RVeTRKOC1OSmlvRXhTd0hBVWRPTEZOamNQYlEyWVlqT0IzMFA4Mi1NUml6SVPSAcwBQVVfeXFMUDNXakNBTlJENXFkYXczVTRQNVAxOGZBdDZPdjd1UHBqamRNRHEwbFRWODJsalZkUVIyM0xaNXh1b0hQNGRkUjh5UVdCV01qY2ZsZ0hxQmQ2THBaaWV2QWVZZFhGUmNoMHRoLV9tV0JOMDI5dGZnRWRFUTFNTlNwRWYxZ1d6YnJSNXVKallEeVlRbEhMN01uZk5ObG4yYVNkVXk0SjgtTkppb0V4U3dIQVVkT0xGTmpjUGJRMllZak9CMzBQODItTVJpeklT?oc=5",
-   "source": "The Tribune",
-   "sourceUrl": "https://www.tribuneindia.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-30T05:47:26.000Z",
    "summary": ""
   },
   {
@@ -483,6 +447,18 @@
    "summary": ""
   },
   {
+   "id": "841e94efdb09",
+   "title": "The chairman of the Vietnam Musicians Association also faced copyright infringement issues regarding his own songs.",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdzZQckRFRFpWd1o3M2tPOHpsdHU2MVdtdk5wZTZ2ZjAxV0cyZzdQZm9XcjRaaFNKSTRudk5uZ2ZfSmRKUUZNdEtrRmZPaktETkFHMlh4QXp2NHRoTDVSOENsc2NzczNoNFRjdmNwaUx0cldnaGtKX3FNTHFQdVdUYkJtZDQwREtWdE96UXRLR2RKRmVSUWp4OW53VGhuUjVm?oc=5",
+   "source": "Vietnam.vn",
+   "sourceUrl": "https://www.vietnam.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-29T07:58:07.000Z",
+   "summary": ""
+  },
+  {
    "id": "05ecb182ce5d",
    "title": "WIPO’s Laura Peter puts PCT modernisation, IP protection on agenda",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWVuSG1lUWNFMTliTnlBYjVsdmZUT1hzaXBjYUtKZG5hVEw4TkVzUUtzTmdDdUtYb1M0cHNoMXFpWlBxaW1VVElDR0Jtal9LTldZS21QelVaSmNiaDBFQTM0X0J2RkVhR0FqS3BxaE01RWJ0M2hzUzQwMUZRN3RJU0dvREl4MWJPdExZdTlwd3U1UHVWVGdqbllCbw?oc=5",
@@ -504,6 +480,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-29T07:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "b7c0b1fe907b",
+   "title": "Illegal streaming concerns raised as drone halts Arsenal, Fleetwood Town fixture",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWGNWa21TYlVDVWFya0hoY0RuYzBhX0ZhbURzZnNXNjdPRlRoYjdnUEV6Y0ZWNnppZFJLSVJtMHpyZzF4VVZwNTNNVWhsNngyVXJ6S24tMldkc0FDTm9YWks3TmhCYk5ub29ZRk5EVHNMWkc5c0ZqT3VObTBWTWdTOXJQaEVtV2FDR2laMkJfaGpUeVA3YXA5UF9GZXB1cXpzT1VyMU04bVJyaWYyVmZVRQ?oc=5",
+   "source": "Soccerscene",
+   "sourceUrl": "https://www.soccerscene.com.au",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-29T01:20:05.000Z",
    "summary": ""
   },
   {
@@ -588,18 +576,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-21T21:19:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "2d2fde58a66e",
-   "title": "جامعة أم القرى تحصل على براءة اختراع أمريكية لنظام معرفي متطور",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9icEUxZmo0R0M0RWphWnZ1LXZoRzlEX0tEeGZDR3hXWmU5TEFudmVySWdQa1RENi1HQnM0UWZleW9ENmFNU3A0ZUxFQ0Y0TGRD?oc=5",
-   "source": "https://alsaudi.news/",
-   "sourceUrl": "https://alsaudi.news",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-21T13:01:03.000Z",
    "summary": ""
   },
   {
@@ -807,23 +783,35 @@
    "summary": ""
   },
   {
-   "id": "3d0d840f2e0f",
-   "title": "الفاخرة تشتري 4 علامات تجارية بمبلغ 39.2 مليون ريال",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1paWFLVUlsZkhNOHF6dHAtOVpHOVZ2RVlMNkhrNldBdjVlLU43RkFKbm14d2ZBNFAydmNXOXFNYlJCNXAwWjBLNXVLcmNyUXh0QWo1X2ZxODNoWEhxVUlmS2J5OG1NTlhGY3c?oc=5",
-   "source": "ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
-   "sourceUrl": "https://www.argaam.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-07T07:00:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "64618b5bc55e",
    "title": "«الملكية الفكرية» تستعرض مجالات براءات الاختراع",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBqZUQ0SGlLWnh6cUFjdEdmTnJINWZlNWNkaFducFVsXy00eXJnenJHRGpweFhBTXZkYkQ4MmFyb0pvZWtUSEtN?oc=5",
    "source": "جريدة الرياض",
    "sourceUrl": "https://www.alriyadh.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T07:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "5c27d7653e1f",
+   "title": "السعودية تشهد نمواً في تسجيل براءات الاختراع بأكثر من 5 آلاف طلب خلال 2026",
+   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxQZTN3ZGNJOTdmOEJzR1FfLWRhaVpGXzBHdl9jaVcwN2I2ZjJTYmtaQndrOTZVaWJUWndTODgxazhCdHdkLU5OYzc5UHVxMUQwTWxUQkplaTh3MnlRZUh4QjhHbVo3RWZYLUY3SmcySWt1MzZMSWUwdWFjYWRJdThOd04tVkVFbGNVY2c3NzQ0d2hRemlvTDN0UzV6S1I1VWk2OFlqQlNJSW5kQjNWbnB5WGpFVkI2YS00cUNsTDlsa2gtTEgwNWVOam9pN3dVeHhzbHJobTRxOGE1eVVfQUo0bUVhcGp6cmF4YlRfUjRjV1ZBM00yQ01CUWZRajZUdHIyVDdveTZtdXMwQXMzX2pxWTc2dVRRT2FZU1NUTVRieXJvcHIzZzBUUGFId3h6Z19NNXF2V1ZTYldtS3VqSzNSelVrQzE2QXdtRUFDZnVybjRwU0JuYl9aZmpLR2gyZHlEUVMyYXhkZmMzZG01Zk4zbWJ5YWxSUnFPRWo5Nk1sZE0zMDRRZFVGVjh0ZTlIQWFvTFVuMjZEUFlaZkE4cG5HZEFrZDctSnhDVC1FeHhWeU9Ja0hJelQ2UFRPUXR1eVc4YVJhQXg3Q01GN1hlV1BRakotVWdub0JGSURYd1VMQjhuR0hJejlNeXFGS0lWa0h6SFBvTGl2S1NVMjF4SFQtbXlwVkNhWVpjUmNfa3haUVBTM3FSS1JpWVZhclRKVjA0dnZfZjZXYWJoN1YtdUMteExxd1plb3kwRF80cmJQNEVibjUzaldIdXlSdDkwMWhyM3padDlvbk1wRmcteUdHQlluOGEzaXdISVBhWjdFME9UdUk?oc=5",
+   "source": "الشرق الأوسط",
+   "sourceUrl": "https://aawsat.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-06T07:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "98a51d5697ea",
+   "title": "علوم وتقنيات / جامعة أم القرى تسجّل براءة اختراع جديدة في مجال استخلاص أكسيد الحديد النانوي",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mYWRGd3k0em8tVlFvbzNmc3FvaHNZMkJuVF9HT0wtcUhiZ2hmYzlLY0JRUEFGWGIzWmpNeXlQR1BUUlM3V3c?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
