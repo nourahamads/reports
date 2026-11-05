@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T06:40:55.362Z",
+ "updated": "2026-11-05T19:54:33.566Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,7 +9,7 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 25,
+   "fetched": 22,
    "kept": 9
   },
   {
@@ -21,13 +21,13 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 20,
-   "kept": 18
+   "fetched": 23,
+   "kept": 20
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 40,
+   "fetched": 34,
    "kept": 10
   },
   {
@@ -39,17 +39,29 @@
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 24,
-   "kept": 3
+   "fetched": 25,
+   "kept": 2
   },
   {
    "id": "prosecution-local",
    "ok": true,
    "fetched": 33,
-   "kept": 12
+   "kept": 9
   }
  ],
  "items": [
+  {
+   "id": "a8608ea6c637",
+   "title": "Record-breaking seizure in Giurgiu: Border police removed approximately 64,000 potentially counterfeit goods from the illegal circuit",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQTdqWlQzcHVSMi1waDVBVmZYTXFBTzZXSEpvYkM4a09DYUR4UE1jOTNHX25yU1lGRzBBaHFfendXcmlKWVN1aXEwc1k5cFZOTldqWXpSUldfRE9pNW01VXpaUEZHXzJVTG4zUXRETzNnVGNxem1qcXJHREpNbUt3cGpfcmxmT1hiY0xlWDVMYS13emJCWEg0SEt6dUdRTGcwYlZfMzZLYXBpYm5pdl83blhNYmQ1WXNwdGpzM09pbURFQWR5MW1rZ0dFUUtpckotaHU1Zi1CTDcySzd2dFExMlNEY2VMR1ZuVktleGp2d0dBdHp4WTFxeGFB?oc=5",
+   "source": "World Border Security Congress",
+   "sourceUrl": "https://world-border-congress.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-05T11:01:46.000Z",
+   "summary": ""
+  },
   {
    "id": "5948261cd9a0",
    "title": "Eight Myanmar nationals arrested in Thailand counterfeit goods raid; Chinese owner flees",
@@ -71,7 +83,7 @@
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-11-05T00:25:18.000Z",
+   "date": "2026-11-05T00:25:19.000Z",
    "summary": ""
   },
   {
@@ -84,6 +96,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-11-05T00:10:47.000Z",
+   "summary": ""
+  },
+  {
+   "id": "af1a1db31e44",
+   "title": "Ministry of Culture to Hold 10th Overseas Intellectual Property Protection Council to Discuss IP Protection Measures Abroad",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14Vi1BNjJtakN4MlJEOWRxSV9GUXVhTTJ0bjNCOUhWVHNiQkw3djRlc1hseVhWTlBfdnc0TGFYTnREa25IMjZ0dHUxalhBNXNNMmtFbVdXS25NU08xSFUtN25Ja0w?oc=5",
+   "source": "아시아경제",
+   "sourceUrl": "https://www.asiae.co.kr",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-04T23:00:00.000Z",
    "summary": ""
   },
   {
@@ -132,18 +156,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-04T20:10:34.000Z",
-   "summary": ""
-  },
-  {
-   "id": "aaef78d6b093",
-   "title": "النيابة العامة تغلق الحدود في وجه الفايد",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCZlZkeERhMk9XMWlldEwzOExYdkMwczVMbHFuX1FDSkVPaW83QVEtRlJrQzk0TEFxNTJ3T1BISm5JVm1jVVQwNEYwS1ZNbDVIWUM4?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-04T19:10:03.000Z",
    "summary": ""
   },
   {
@@ -267,18 +279,6 @@
    "summary": ""
   },
   {
-   "id": "bae311512530",
-   "title": "ضبط نقل خدمات العمالة المنزلية عبر مساند",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSenFRaVVod0E1VkpFNTFUNkFManMxbE50bVFPcUpISVdCSFFWSEwtdEtFOEE5WUVIYV93cUlUeldpd1gzbUY1eXlGbWU1cFd4QmoxQ9IBWEFVX3lxTE5xNWY4aVN4Q0ZTWERKX3RTUGN4aEFGeEtocEZFUm8ycm1FZGtJWW1lSnNoc2V6REl2dk82YTgzNTZWdlUtUFZ5UXJ5X2R6Y3hpSVpNX0JYMWw?oc=5",
-   "source": "جريدة الوطن السعودية",
-   "sourceUrl": "https://www.alwatan.com.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-03T20:01:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "d7da8050ff2f",
    "title": "وزارة الحرس الوطني توقع مذكرة تفاهم مع الهيئة السعودية للملكية الفكرية",
    "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxNeTBpdy1COE00RmNjdlViUEgybDRfUTJmZEZVUUN6eGZNTnJSODh6QVRDdldfcFlrSjhaU21RLXItSU1vNWlQZGw5QWo0UnFUMVBmSWJ1dWk5UVFsOXZWT2RRWVQ0dEFMb2Rpd3B6aHJYY3VFSXhrX0ItclFzSFlfTEtUZnhsT3NGbzg1NmdoUE43RW5IVnNMV0hJeVVlRGJlN3BjS0wxaVdfWllSREQ3d2RYMHRyV3RYRlBRcHlGbnNjYTNGMXZpVWFhSjRtWXhTclR6MUNmWWE3U0d1V0gzTDJxVW5xbnBHLVd3eThlWHJLRjVYQXhWd3JqWmNRSnlXMmVpdXVfZzFaZ1RzR2F3aTdnVzVEN0JVbUlwdllwOHJPb0RPc3pRYk5uWE1jenZjMFdFX3lZQTRZMjBpYlRoYmdIUHRqdzFqTVpTODJLQlZHUU04TERXcm1ZTzg1V1N3WUNCY2VaYW54MndMVnJ1aGYzdVdrTHlFNVc1TzNRd1ZMLXktbGl4ZzhLaUxWeG5xRHFROW4tMFhQcXUwZHB3amlfS3JaZmg0UnUwcVdpekg3VkRaZFVkOW85bHBUc0k5SURBS1BURGZ6Zmx2bkFrZ0FVRk9RcFNfVWc4LXFJcVIzSk1RMk9SRnFOX0RmdHJvWlpWSWotLWVqakxtWU0zdndnb2drSzd5dzBBYXVzVldpbmVLQVNNRzZKand0WUFibzl2X2tOYklYVURQT0o2amNCUWdRZ0VudzJmMmJkTXg2aGhaNHNCMFY5VXYtV19scEJHTnFqNTRPTmVtanF3dllsM3NXY0hxZWZIVlE5cFZqX2c?oc=5",
@@ -387,15 +387,15 @@
    "summary": ""
   },
   {
-   "id": "8211dafb6eb5",
+   "id": "451cbde8f213",
    "title": "B&M takes Morrisons to High Court over copyright infringement",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WaVJyUkZ4YkMxWTNzb0FkUndLS3MwWHl0R1p4ZjhQVDh5QVhrT0Z4Ml9zQWxNeENJLWtPQUVGQU5lai1XUm40bUVfYkE1dE53ZnBFRExYX0N2ZnFHWXVwenN0Wld3OFlYVFVwYmdZQmg0cGNnR0ltcW1xNWlFZw?oc=5",
-   "source": "Yahoo Finance UK",
-   "sourceUrl": "https://uk.finance.yahoo.com",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRm5uNWpXNDZOMDV1X3dQdEZybnFvcjlxakU5dUc5am1kSlhwWjE4cEVpdHJaZmlGdzhEZ1J6ZkFIWWdZY2d6aVZYTTYySWFMcUQwZnUtSm9udTJUVnNYdjFqMjJUbm5KdU9RUnZleTdGZmZ5dTdMVlBQVWFXMFRLLS11SDFGUU5rZGpNeFJUdGRGaF9Xc0l6djhHZ0E?oc=5",
+   "source": "The Independent",
+   "sourceUrl": "https://www.independent.co.uk",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-02T14:11:48.000Z",
+   "date": "2026-11-02T14:11:00.000Z",
    "summary": ""
   },
   {
@@ -420,6 +420,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-02T04:03:38.000Z",
+   "summary": ""
+  },
+  {
+   "id": "8d9da88cec96",
+   "title": "Disney’s patent battle woes; IAM Strategy 300 nominations open; WIPO’s Laura Peter on PCT modernisation; InterDigital, Dell enter arbitration; China’s trade secret push; plus much more",
+   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNdDNwMGNDRTl5WUc4WVJtZ0FxMEI2WURSQ1FicHg4Y0xJeE11RkNzRmxFTi1yNkFRRTlIN01yak5IbVFUNWYtMjV1OHo0WnBLbmItdXdmR2ZmUTU5ZmVkSWppSWtKdTdxM0dUemlPVl9jMU50UHFad2VYZC0xN0ZwTW1WeHY0eE1keWtOTlNCem1DV0czcEtUZ0RLRC1nTjVDNEU0bktoU3gxNFNnajZVSFVyd2Q2RWhxdXVTbVF0NTdOQ0RabGZudlZhdXU1V3VmTjJRQkhNMUJjWUVtZkd5V3E3QktEVzZiWHJyUVlOTWdQY0swUnQxMkFabXl3NVM5WmprYUdiY0ZmazR4dW5lUG1aSUwzQXlFOTdrOWJVVzl2WXd1YVQ5MWVDa2l0M2s?oc=5",
+   "source": "IAM Patent",
+   "sourceUrl": "https://www.iam-media.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-01T11:39:36.000Z",
    "summary": ""
   },
   {
@@ -456,42 +468,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-31T21:00:27.000Z",
-   "summary": ""
-  },
-  {
-   "id": "6892696c1cf2",
-   "title": "Existence Of Other Infringers Is No Defence To Trademark Infringement: Delhi High Court Confirms...",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRHVXejZxem5GdDNkb2JTSENyakZiRlNKWElOdTlJUXZuTjZnMmYzbGhSbmQ0dDNtUUFFUmEtU1hiVGp1M2l3VWRjelo1R1gwVVJRdVlqRmpDeUhIbld1NWZLazAwaHFvbGNJTGw5X0EyMWlTeEhVaVJjbFVoZUJ6emJDLVcwM1Z4YkhnMDduTlJxUlFnLWtHME85U19YZDBkV3ZSbWZVT3A4MU94QXRGQ3ZlSm5MTHJTMUtuenNOVlRuUGZlekhMLXRweHprck84WHpmTU5DdExtaWpSc0p6c2Fsc0RhZUJueHE4S0d2OUlLLWFBQk9CZGYwSHTSAYICQVVfeXFMTWtUVXdkd0hneGxfOGxFV0Q1T0kyRGx0ZHpYb1Iwb1Y0ek5Jc3dwc1JkcjF3SGRKYVFrQ3BzTlJHVnVmTVRxYUxHTVlLek5hT0dnYXJlemd5NmdISmNTZGt6cGpEbC1qbHVJVFgwUDBkaVdlZXoyaDNpUGpyQ19jMHIxajE5b0l0V1JSVTBRVVprdjlGSlB4V1VjdUpOdTRza0RrWTM1WU5RLURSbHNrV1ZSRk5kMUhXby1vbmZ0S2xmRlpIUlRONnRscEd1Y1VGb09YU0ljZmdKRXhMR1VqOVNpOWlPeGlDTFVEOFBVdW95X2tFSUx0UWVvOEZDVlI0MGpn?oc=5",
-   "source": "Verdictum",
-   "sourceUrl": "https://www.verdictum.in",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-31T09:10:40.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c7b044bd64bf",
-   "title": "Josh Lewis: Intellectual property protection crucial to Greenville's growth",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPTGRfbjNTTXVYR2F4RS1namM4SkhIMVhvUEJfQ04yNnhGSnFVMnFHdGVDSmladXFZc0JDb3JYTGJ5alN1bWZhSzVQSTVseGtlQ2drMVgxU0t2bmphbFBRdVpJWVVqb3lrSVdkRFdqYWNWaWN3b1g0em1PS0E3NDNzQ1FXMEUyWFV6WllQQi1QdUhOVmx5QkdINlZ3TXh3RldCc2VqN0FmcS1XVVNTSjRpNzZzdUNTdWNSbnFPUk1iWUpyQ1VILXJWU1NVS3VwU2ZmeGNpQW9xOUFwdFRYZ3lXMHVsUm1tQkV5d2RLLUp5X1hTb2JHZXhRd19LQjQ3cjI3eTQtVUhaRWFDUQ?oc=5",
-   "source": "reflector.com",
-   "sourceUrl": "https://www.reflector.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-31T04:15:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "8823e694e438",
-   "title": "Ghana Publishers Association: Urges Stronger Copyright Enforcement",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYzc2ZUltWHNaYmVieUhfZ1l3cHFJbTdIS0hVanZUWGdmQi03ZmsxRE9zNGw1YVA0Zkw1Y3l0ZmNYQ09LazMwRnRGelRvangyZ1FsM1lnSHBKZktPR0t2R1hJYTFKdlI1Vmhpb3JtWU9JRWxkN1FSTWFod3BjaDhFdjlRakZtZkg5MlBENVU5ekhrcFdrdHk2RlRZOTZXcFozMjMydHhOYlN6YWJ3NHpPazM5M3RNRWktMXRLN29ONzJYV0dMalk4VnVSaDctRURRZjYxN2RlUWdpZXZlSVF5dkNzcFBQZw?oc=5",
-   "source": "Wansom AI",
-   "sourceUrl": "https://www.wansom.ai",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-31T02:03:00.000Z",
    "summary": ""
   },
   {
@@ -540,30 +516,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-25T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "2c3334ba4019",
-   "title": "النائب العام: لائحة شؤون القضاة الوظيفية تعزز استقلال القضاء",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSTAzVVkxbUdBSXh0MURwUGFaSVFLaWxaSHg1YzZyVElzaVg1NVZxRS1hYzF5dG1KdFoyLXNJWjhlNE9uV2FZM2R6RmMyUG9ack9JT3BOeWtfLVdXeE5JNDEtd2c3SGRmMGtJZ0Nqb0pDZ0ZtTXRNRHRXR3RrSklmX2gwc3dzNHFFTVZENkM5U25MUjRwUC1xdUVWSFYxNG5RSHc3RE1TZHhxenFLTGFPQ2ZOeVl0S1pkdGg0NQ?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-22T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "4066ae93f6bf",
-   "title": "النائب العام: لائحة شؤون القضاة تعزز استقلال القضاء",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9USGZqRGppa0ZCRHdHejh1N3BlamVDQUxfdTNWNXZLTmZFN2FHVkpKS01OVjZLSEhrbG5HNEFGQXhlbXZkNXpSZmlPWnA3ZFBOM1HSAVRBVV95cUxPV2lQLWVDV1lkR3FaVnFpSUlNZFE4N21rcGF4VEc5MTVDUnItUE53dFktRVNydlR4X1lQVlFNY091U0RtSkNLLXV3SVhCM1lyNzhRblE?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-22T07:00:00.000Z",
    "summary": ""
   },
   {
