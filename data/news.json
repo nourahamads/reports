@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T05:56:47.490Z",
+ "updated": "2026-11-08T13:18:59.942Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,7 +9,7 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 21,
+   "fetched": 22,
    "kept": 11
   },
   {
@@ -21,35 +21,71 @@
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 28,
-   "kept": 24
+   "fetched": 26,
+   "kept": 21
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 27,
+   "fetched": 29,
    "kept": 10
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 33,
-   "kept": 28
+   "fetched": 34,
+   "kept": 29
   },
   {
    "id": "labor-local",
    "ok": true,
    "fetched": 26,
-   "kept": 3
+   "kept": 5
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 27,
+   "fetched": 31,
    "kept": 9
   }
  ],
  "items": [
+  {
+   "id": "34c78fbc0d2a",
+   "title": "Police seize firearms and counterfeit goods in FS election operations",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeU9Gc0hsTDhyY1VveE41UjRCRTh3SkRkcGpYcldTc3FPcjg4UW1Sc0JnelE2dDl1LTFka2VUT0ptajlkMlNId0RtNWx1TlZWZXlQbjhMN0xhS1RiTTBJdDFhVXFCVzdPX3ZscEtySFNpVjg3ZGQ1S3pXaUpTdmQzYWtEMzRwNkliUE9JZUpjNG9PU3JMekNBdw?oc=5",
+   "source": "https://novanews.co.za/",
+   "sourceUrl": "https://novanews.co.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-08T13:00:31.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f5b18a1412da",
+   "title": "رفض استئناف النيابة في دعوى مرتضى منصور ضد عمرو أديب",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0YnJ3MjhrZzdIREdncVVod3ZHNWg2dzZqODJCMzdCNXpOMFRQN1dEbW9fSDA0V09wWUxIV0dqTEtyWjF2d2pRb0NjYUtiNnJBWTNn?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-08T11:38:12.000Z",
+   "summary": ""
+  },
+  {
+   "id": "773ec44ba1e0",
+   "title": "Vietnam elected to key intellectual property leadership posts at WIPO and APEC",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVXlINXJHU0NwOHV6bHVqUWQ1WkNpZ05XWEV5a1o1UExNVXpkNXJxVFZLTzlYZkNaWW8zNldDWlB4SVFlOHpSNmhjVklCOVZndU1rbV8wbERZUDZvX3RNTGZla1diSEl0WkZONjQ2emFaQkRyNmRUNTlLNFdnUmlNSkN1ZHByQ0RlX0JoYkxDZS0xb0JtX1B6MllnVWpTYnFoR05IS1NxSUlSZw?oc=5",
+   "source": "Vietnam Economic Times",
+   "sourceUrl": "https://en.vneconomy.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-08T06:10:00.000Z",
+   "summary": ""
+  },
   {
    "id": "e1ff6537dc98",
    "title": "الملكية الفكرية السعودية .. من حماية الابتكار إلى صناعة القيمة",
@@ -63,6 +99,18 @@
    "summary": ""
   },
   {
+   "id": "34b5fbcd3e62",
+   "title": "عاجل.. وزارة العمل تعلن عن 40 فرصة عمل للأمن والحراسة برواتب تصل إلى 11 ألف جنيه",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pZWlFVUUyWGlRWHFLelJXNFlnZHlZWU11NjlqM1RUTExyZ0NsX3pRRkprTkVGbGZaUmRnUmZ0bXpmUXY2LU5vblVZNmUxLTJ0THlB?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-08T00:48:12.000Z",
+   "summary": ""
+  },
+  {
    "id": "021c92e25786",
    "title": "النيابة العامة في باريس تفتح تحقيقاً في بلاغات قنابل كاذبة استهدفت طائرات فوق الأراضي الفرنسية",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81NGtvZjdPVE1xYkUyNEQ1eVRucllRQy05dWJiclM4dnk4Q3JGR29MeTNEWDZ3RVgxNGk1WHhMcFpSMWNaMllEQUhGNjVEN01CS2xWVWdMbGdobXc?oc=5",
@@ -72,6 +120,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-07T17:06:01.000Z",
+   "summary": ""
+  },
+  {
+   "id": "fd30dcce4af0",
+   "title": "Fleetwood Market trader given suspended sentence over illicit tobacco and counterfeit goods",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVmk5a29yclFoRnJPT0lUa3NsVDhCYXVkX3RZVGhxUTBZUFpfaFd4RFgzckVPUV8tUEowemZweG5Cb3M3cmJ1THRXc2xqZTFHNTN5emRVc2ZWNG5QaDh2b0JacHROR3VscXNmeFY2TnNLUVVtT3MyR2Frb1k2OGdOMDNIRWFPdmNMTkJocGUxZGxZU2dkTXM1eXZDamt1aWVkb3dKd3kzNW5rVS1heXhJbDJOMy1GYXk3bEl0dWV6QUlkcFE?oc=5",
+   "source": "Rayo",
+   "sourceUrl": "https://www.hellorayo.co.uk",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-07T14:32:44.000Z",
    "summary": ""
   },
   {
@@ -108,18 +168,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-07T10:22:09.000Z",
-   "summary": ""
-  },
-  {
-   "id": "fd30dcce4af0",
-   "title": "Fleetwood Market trader given suspended sentence over illicit tobacco and counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVmk5a29yclFoRnJPT0lUa3NsVDhCYXVkX3RZVGhxUTBZUFpfaFd4RFgzckVPUV8tUEowemZweG5Cb3M3cmJ1THRXc2xqZTFHNTN5emRVc2ZWNG5QaDh2b0JacHROR3VscXNmeFY2TnNLUVVtT3MyR2Frb1k2OGdOMDNIRWFPdmNMTkJocGUxZGxZU2dkTXM1eXZDamt1aWVkb3dKd3kzNW5rVS1heXhJbDJOMy1GYXk3bEl0dWV6QUlkcFE?oc=5",
-   "source": "Rayo",
-   "sourceUrl": "https://www.hellorayo.co.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-07T08:32:43.000Z",
    "summary": ""
   },
   {
@@ -183,27 +231,15 @@
    "summary": ""
   },
   {
-   "id": "d3ec7b7f41db",
-   "title": "Who pays when AI takes from creators? Europe rethinks copyright rules",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVno0T3lLeW5Cb0RvTFZYcXJoOHJ6S2F2emFjZFBTYlBIVDlGN0hZVlp4WTJkLXJ2OHFfbTBEck9kSDRzYjdnenR6SEJ5RjJxZmZNS2U5RzFZaVd6MDlHQi1fNzg3dzlqaDlvaVNzeEE4dDhKM2RqMXNKbGVkSEVzXzlSZ3FZaDBqVU8xdE1pblhrRmRkLTFYSWxLclg5Zw?oc=5",
-   "source": "EU Perspectives",
-   "sourceUrl": "https://euperspectives.eu",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-06T06:41:46.000Z",
-   "summary": ""
-  },
-  {
-   "id": "868069f9866b",
-   "title": "Delhi police arrests Maya IPTV operator over alleged content piracy",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS251dUdBT1RlYUxYUl9yZTdCZ1F1OG9GMWgwSEFpTHp2MTIzU05CdWdHeGlzVDNxajBsRURrRU9IVTRITGdCU19YRXpRWllOQzMyMldyR09SU1Nrb1BYRUc3WkxweWhfRm9fcVA1X19NZ19LTTR6eFhDSzFZNVJzTnVETGpaUE16U3hCTF9yMndzLXdJZmVGWVNqVzVXVWtyR254ZzhISTJfQnFIVXYzMVkwLWRLdUt6M0FDWE9NbC1mdw?oc=5",
-   "source": "Exchange4Media",
-   "sourceUrl": "https://www.exchange4media.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-06T06:10:32.000Z",
+   "id": "208e38b41138",
+   "title": "وزارة العمل تعلن 250 فرصة عمل للإناث برواتب مجزية وتأمينات شاملة",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IVV9lN3AxbEh5ZTRUckNUOG5DenJLT3Fic1ZuRkV6NXFzdFN0RVVkeDVCRzVzMFhVTnBmRWZLMExDQ2NpREFkTVZDUWctdHBHWHFB?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-05T19:19:11.000Z",
    "summary": ""
   },
   {
@@ -303,15 +339,15 @@
    "summary": ""
   },
   {
-   "id": "b472561a1d8b",
-   "title": "NCC moves to strengthen copyright enforcement in Anambra",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa3d2eGVmMkktZEE3czNDU1dweFY1RFRYY3lJc1dod3lWNUhGR2dfQ2F4QU10UGxIS1l5MU9HQ3ZOSFlaSmEzeTdmS3VxRXlzTlFKQWN2bmpLQU9ONXhQZHdlZ3F5akV5RURxWXJLZ3BJcXcwM1ZhNDdhY0Q2M1BqU2tSRVVCaWMxNmtZSk9VRQ?oc=5",
-   "source": "Realnews Magazine",
-   "sourceUrl": "https://realnewsmagazine.net",
+   "id": "73b9b9f39751",
+   "title": "CHINA-BEIJING-LI QIANG-DIRECTOR GENERAL OF WIPO-MEETING (CN)",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXhhWmRoUjhQNmV2OG9BM0doZ2VuQjNaRHp3eVU0WktMVThEU3JwdXJjNF91a2ZYSXBqTFJJSXVSX3d1QWVzNmZCNnVWa2wtYlZNVkFxcE9abUZ4SGZrSzVRQzJXZ2JlejVPRDN6c3dUSk1pSWFtSmNFdTdqSlYxd0VQanhWSXVJNWVBNzZmU09pZV8yX2pHbDdkbXMxSVVIS2xIV29QNA?oc=5",
+   "source": "Big News Network.com",
+   "sourceUrl": "https://www.bignewsnetwork.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-04T15:02:43.000Z",
+   "date": "2026-11-04T15:03:00.000Z",
    "summary": ""
   },
   {
@@ -351,15 +387,15 @@
    "summary": ""
   },
   {
-   "id": "d7da8050ff2f",
-   "title": "وزارة الحرس الوطني توقع مذكرة تفاهم مع الهيئة السعودية للملكية الفكرية",
-   "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxNeTBpdy1COE00RmNjdlViUEgybDRfUTJmZEZVUUN6eGZNTnJSODh6QVRDdldfcFlrSjhaU21RLXItSU1vNWlQZGw5QWo0UnFUMVBmSWJ1dWk5UVFsOXZWT2RRWVQ0dEFMb2Rpd3B6aHJYY3VFSXhrX0ItclFzSFlfTEtUZnhsT3NGbzg1NmdoUE43RW5IVnNMV0hJeVVlRGJlN3BjS0wxaVdfWllSREQ3d2RYMHRyV3RYRlBRcHlGbnNjYTNGMXZpVWFhSjRtWXhTclR6MUNmWWE3U0d1V0gzTDJxVW5xbnBHLVd3eThlWHJLRjVYQXhWd3JqWmNRSnlXMmVpdXVfZzFaZ1RzR2F3aTdnVzVEN0JVbUlwdllwOHJPb0RPc3pRYk5uWE1jenZjMFdFX3lZQTRZMjBpYlRoYmdIUHRqdzFqTVpTODJLQlZHUU04TERXcm1ZTzg1V1N3WUNCY2VaYW54MndMVnJ1aGYzdVdrTHlFNVc1TzNRd1ZMLXktbGl4ZzhLaUxWeG5xRHFROW4tMFhQcXUwZHB3amlfS3JaZmg0UnUwcVdpekg3VkRaZFVkOW85bHBUc0k5SURBS1BURGZ6Zmx2bkFrZ0FVRk9RcFNfVWc4LXFJcVIzSk1RMk9SRnFOX0RmdHJvWlpWSWotLWVqakxtWU0zdndnb2drSzd5dzBBYXVzVldpbmVLQVNNRzZKand0WUFibzl2X2tOYklYVURQT0o2amNCUWdRZ0VudzJmMmJkTXg2aGhaNHNCMFY5VXYtV19scEJHTnFqNTRPTmVtanF3dllsM3NXY0hxZWZIVlE5cFZqX2c?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
+   "id": "0a82dca0ee33",
+   "title": "عام / وزارة الحرس الوطني توقع مذكرة تفاهم مع الهيئة السعودية للملكية الفكرية",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9nMW1Sa3ZIZGJ1R3JHMDNKeXUzS0VfODRxbldPQktMd3AxdVpWejVTaGdVaWIwcmlxLWNHMU04bF9uUS1kdGc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-03T18:56:00.000Z",
+   "date": "2026-11-04T01:33:58.000Z",
    "summary": ""
   },
   {
@@ -408,6 +444,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-02T17:46:54.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9977458940ae",
+   "title": "Mondelēz sues British chocolate brand in Toblerone trademark dispute",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMkE2RW03WHloXzBtYkoxemxxdWZZdGkyUHVzaXVCR3VZeUJJdEcwQW1JYkVYZUdHbkxKSjlWeXBSUml6ZGRtdmVOR3dMYUFyc2p6clRnUUc1SE1jb3RxTV83aWZQOE9fVE4tNTN4QWxKd0RkYzFtVHMyR1VtdDd2bUxjU2t1c09tOGJuRlRXQUtMM1hYaWJMX2NxR0lmTEcyWHhOa241SjZxaTRnYXZ0N1F6Y04tWVB4ZTRMMExFazc2dElQeFRoNUtMdlZfSGpuajlz?oc=5",
+   "source": "Confectionery News",
+   "sourceUrl": "https://www.confectionerynews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-02T14:28:04.000Z",
    "summary": ""
   },
   {
@@ -507,18 +555,6 @@
    "summary": ""
   },
   {
-   "id": "a0e4c175e098",
-   "title": "GPA bemoans weak national book policy and enforcement of copyright laws",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTHhuTEhRbDUxVElCMWRMRVY3WGpmLW5uOFhrN0xMZVN1a3BHTnZCaW11VExUSlBST0Nzd0w5Mm50SXczMUJPdGpXTnc5RmRBWmhDeUV3SkJDMDVNSTRhZkRTRHF5dEtrUjBQQi10bnZXWkYya0lLQ0ZVMXRwT3ZRUEFOajNIeFFrSkFqQUZJenpCR0VaZzdwdC1XbThrN0xj?oc=5",
-   "source": "Adomonline.com",
-   "sourceUrl": "https://www.adomonline.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-31T13:12:18.000Z",
-   "summary": ""
-  },
-  {
    "id": "94004953ee28",
    "title": "تقليد رئيس هيئة الرقابة ومكافحة الفساد السعودية بميدالية التعاون المثمر مع النيابة العامة الأذربيجانية",
    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQTUQ2MlYyZjlUZy1XaWIzOFBzS0luV2owaVVLdy1jRUZ1T2xsbkJvak9xLUZvX3JGYUJWSm44QVpfcHp1UWswTFFyNFZVUjhrVGp5cw?oc=5",
@@ -551,18 +587,6 @@
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-10-25T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c72a3c4076d8",
-   "title": "النيابة العامة في عُمان تحذر من الإساءة إلى الدول أو رموزها أو شعوبها عبر منصّات التّواصل الاجتماعي",
-   "url": "https://news.google.com/rss/articles/CBMirAVBVV95cUxPZWZ2RTRKeV9vX1NoNXhRVWNoTTk2aks3NGlqQkNPVUhLZ3JJZms1SEFadEpjalp0MGpkMjJRSXdscTY2S3ppdEowYksxcmFiZ2xibjA2NE11Uzd6aFNhZ0ZPeDBMZmxmcVE2ZHVhZzl1emJRZHcxM205b2ZsMVlYNkFlSlhNclJIZjRBc1hOYUFBQUQ3djlYSjNicVNuVVdKSUlfSXpjbGJNbHBySUFweGgtYmNneVl2Q1lfMkQzUVhtbXM5QTFQX0NsM0VIREFDY1h2R25jN1VackhWMFhEalQ2R1RDRGxtQ1lXd25aejBnamQ0dkQ0c1NMYXJMRy16eGQtQUdUaklORVotTlNNMC1zaVZnSXEtVVp1OHZKelRyVXJmTnNjVndpTUdQNUpPRU9MWktBWTJXSXN3c0EzLUc0MWFyU2FCWWp1S1QxZFZ0SkhpTTNjbVY3dTZDUjBHYXdJZHpiNmJ1MnJfakxTOXc4WUgxd0V1cFl6YU80TDg4NXo4ZzhydnNJckxHY3U5eHk2UXZjSXBxZG1JUlBTYVRhNHI0MFAxLXZWb1hBc2ppRXl5ZENRaVRhYlAtZ0I3YlJBVGFza0NISnBhV2N6Q0FoX1Z3Q04wR19pYlVLWWE0VHJRX2JqSEpLeDM1aWkxR1p5cEZ1eHBSS0dYT0tQZm5jUVR4T2lPb0F3RWhkSVV3dDlsNGF2NzJ3QjJCNlM4UXE0T3cxcURGNWVGekVkX0htNDI5RmFaWjFQb294N05aUEVDSmkzdWpMS3U5V21ibW9oblhBMVRZYmJ1eXJBa0JZb1FUdjd4VERPaXhFX0RzNS03Y1l1RHpVa2lwbERNejNTSHRiN0p3dGZLUWZ3MkJIX3p6dE9KaWRIM0xOTi1FZ3dmV250U0NTVG4?oc=5",
-   "source": "الشرق الأوسط",
-   "sourceUrl": "https://aawsat.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
    "date": "2026-10-25T07:00:00.000Z",
    "summary": ""
   },
