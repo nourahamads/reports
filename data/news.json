@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:18:59.942Z",
+ "updated": "2026-11-08T22:00:06.143Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -22,34 +22,106 @@
    "id": "ip-global-enf",
    "ok": true,
    "fetched": 26,
-   "kept": 21
+   "kept": 22
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 29,
-   "kept": 10
+   "fetched": 33,
+   "kept": 13
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 34,
+   "fetched": 35,
    "kept": 29
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 26,
-   "kept": 5
+   "fetched": 20,
+   "kept": 3
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 31,
+   "fetched": 34,
    "kept": 9
   }
  ],
  "items": [
+  {
+   "id": "662585427e36",
+   "title": "NAR updates MLS policies on copyright, feeds, and data use",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tdEpqb2NIWHdGbjI2amRmWlk0OHhxM0R0MXRKQzlYa1dFUWp2V1JoZGMwcWFYaVI4U0xEWVhFeEM3bG41MC1yblA3YXZySHNoVmxQZDRHN3dJQUJsNkVXTnBGRkZjY242Rmh1Vw?oc=5",
+   "source": "HousingWire",
+   "sourceUrl": "https://www.housingwire.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-08T21:46:32.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9826f9db2c32",
+   "title": "وزارة العدل السورية تعلن تسلم النائب العام ملف متهم مجزرة التضامن تمهيداً لإحالته للقضاء",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12YVJwNnNvbjFibTJKMlRHNldxRTdkOGgtY0R1LUhTUVlyTHdnVmQwamtLNno1UDJSVkd2SzRraWhLMUxPOGNtLWZuN3ZEU05jT1h6aWgxYmVxMm8?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-08T21:21:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "cc6763b12c0f",
+   "title": "Warehouse Storing Counterfeit Goods and Fake Branded Products Busted in Salmiya",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXF4alA4V3FGNmpKYWhhR0JnMWtNMkZPMlVjRk9UTERmOW1oM1ZjTlRuLTdlR0RWU185RkhFLWJjdm5MV2N1ZEVWTXV4QkZQMEdPUkxONFZ1UlRvbWlMcEtKSVJxVHZXMkRwNS1LY2RsRjNFQlJ4YnozV3B2V284MTNmWXRuSFRaRG8tR3gtd1ZDN0RfSFo4dkhYVW95WTRocFlfTWVERQ?oc=5",
+   "source": "Times Kuwait",
+   "sourceUrl": "https://timeskuwait.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-08T19:54:12.000Z",
+   "summary": ""
+  },
+  {
+   "id": "d1cc4886d767",
+   "title": "Kuwait Seizes Counterfeit Goods in Salmiya - Indian Expat Arrested",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPX3FVVmlRUHk1LUl1OE1wY1I2ajA2blZzU2ZlcGZ2LURJY2RvUDdQMGE3TEU3ZHJ0RWVoZEJPbjhXaFhOd25lb0VxWmFneTg4WnU3MW1WVlFVTmZ6YlZqY3FvNDl4QTNCYTZ2MWw4cE1VTjRCOGluRTNHcjlfWnJmeWV5QU1veGlXRDFicU5yZlpqd0tCbGV5SWRTRzJ1RkRCNW9oLQ?oc=5",
+   "source": "Arab Times Kuwait News",
+   "sourceUrl": "https://www.arabtimesonline.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-08T19:20:16.000Z",
+   "summary": ""
+  },
+  {
+   "id": "34f9c70bcb77",
+   "title": "«الموارد البشرية» تُعلن زيادة نسبة التوطين لـ 94 مهنة فنية وهندسية في القطاع الخاص إلى 35%",
+   "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQa3VCWjNXSmNXRHppNUZyQTFSUFRDdzF6THVWcElkYlFRdkJSWnA4T2QxVEwxWHJzSHYxR0JtU3pKWnBvTlFlSXN6dlJLU2p6RG04Vnpxd0oxSHY4c25CaDltWDN3UzRXRzF6QmZTMU1sdDRrb1NEYmFhejRxZGl3aUFKZEdndVlIb0duOWc5bW43TTdkZlJfd3gtM19vRlZoNnNhX2RCUXhmclhNSFFDeHNwTEdlSTl0LWNIcXFhaUdYbXFtdWJ5a0d1elNRUTZoQWFSc0U0SVhRT2JBWjdXeXpfVlRxamx0UVJOMVJ2ZTdTUEZaOXlCZEYwX3dGVTVpaldtNnF3dF9pelp1OWRPV3Voa3dEb2s5ajRQRG5FbEhBZUhBRXhuaWhVTUVDN1duRG9BM2pTZG9fT0tXaFE?oc=5",
+   "source": "الاستاد الرياضي",
+   "sourceUrl": "https://www.alestad.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-08T16:44:39.000Z",
+   "summary": ""
+  },
+  {
+   "id": "cd6d120e9475",
+   "title": "تمهيداً لإحالته إلى قاضي التحقيق.. تسليم ملف “جزار التضامن” لمكتب النائب العام للجمهورية",
+   "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNMldGeXR6bjFGbUVQWWxzSzRkcWphRVBZLTlKazVXcVhTZzI0bVVxNS1MQVJQbmhqdV83Y1VQMG5SXzNvQmJWWmtvZzl1ZzNPRzhXRGx4M096R0hRS1lDNFBfSGtxYVdMTy1reW4wR3VWTWVYQW40WWt4bVEzdnE2bUtiTzFZM2xUZkdQR0s2YUxvYWh4cEV5eEpuUGg2S2JkNlJiQXlyeHBUZjNUTG9xaUVNREFaRC1tMFhJTWs3cVctbTR4bDJMRXprSTRyRmlqVEQ0aHZSLUlzSUNPR1hrZFY5Q0JpckJoXzJ5OTZLUzd0bE45R1RSSGZ2UmtLUnJvX0REYW5MWVhTMUFfcl8xUEZ5RDlwaDJxS0FtVkVmSG9qSnEzUVNscFB4ZTY0WmxmS3lISUVqcGpRT3lFVGc?oc=5",
+   "source": "صحيفة الوطن السورية",
+   "sourceUrl": "https://alwatan.sy",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-08T13:57:29.000Z",
+   "summary": ""
+  },
   {
    "id": "34c78fbc0d2a",
    "title": "Police seize firearms and counterfeit goods in FS election operations",
@@ -60,18 +132,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-08T13:00:31.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f5b18a1412da",
-   "title": "رفض استئناف النيابة في دعوى مرتضى منصور ضد عمرو أديب",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0YnJ3MjhrZzdIREdncVVod3ZHNWg2dzZqODJCMzdCNXpOMFRQN1dEbW9fSDA0V09wWUxIV0dqTEtyWjF2d2pRb0NjYUtiNnJBWTNn?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-08T11:38:12.000Z",
    "summary": ""
   },
   {
@@ -96,18 +156,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-08T04:37:12.000Z",
-   "summary": ""
-  },
-  {
-   "id": "34b5fbcd3e62",
-   "title": "عاجل.. وزارة العمل تعلن عن 40 فرصة عمل للأمن والحراسة برواتب تصل إلى 11 ألف جنيه",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pZWlFVUUyWGlRWHFLelJXNFlnZHlZWU11NjlqM1RUTExyZ0NsX3pRRkprTkVGbGZaUmRnUmZ0bXpmUXY2LU5vblVZNmUxLTJ0THlB?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-08T00:48:12.000Z",
    "summary": ""
   },
   {
@@ -219,27 +267,15 @@
    "summary": ""
   },
   {
-   "id": "959d6df422ec",
-   "title": "وزارة العمل تكشف تفاصيل جديدة عن حماية عمال الدليفري.. رعاية صحية واجتماعية ومنح للزواج والمواليد",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WZC1GcTNZZURQR3ZuYnV2MkVwMEVYX2NzSmJvaWtiYURHZ2NqN01oZ1FwdWI4b2I2aXZaMV8yZTVzVGhjclFlcTJ4WDMtNTUwSUJj?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-06T09:20:09.000Z",
-   "summary": ""
-  },
-  {
-   "id": "208e38b41138",
-   "title": "وزارة العمل تعلن 250 فرصة عمل للإناث برواتب مجزية وتأمينات شاملة",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IVV9lN3AxbEh5ZTRUckNUOG5DenJLT3Fic1ZuRkV6NXFzdFN0RVVkeDVCRzVzMFhVTnBmRWZLMExDQ2NpREFkTVZDUWctdHBHWHFB?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-05T19:19:11.000Z",
+   "id": "868069f9866b",
+   "title": "Delhi police arrests Maya IPTV operator over alleged content piracy",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS251dUdBT1RlYUxYUl9yZTdCZ1F1OG9GMWgwSEFpTHp2MTIzU05CdWdHeGlzVDNxajBsRURrRU9IVTRITGdCU19YRXpRWllOQzMyMldyR09SU1Nrb1BYRUc3WkxweWhfRm9fcVA1X19NZ19LTTR6eFhDSzFZNVJzTnVETGpaUE16U3hCTF9yMndzLXdJZmVGWVNqVzVXVWtyR254ZzhISTJfQnFIVXYzMVkwLWRLdUt6M0FDWE9NbC1mdw?oc=5",
+   "source": "Exchange4Media",
+   "sourceUrl": "https://www.exchange4media.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-06T06:10:32.000Z",
    "summary": ""
   },
   {
@@ -303,18 +339,6 @@
    "summary": ""
   },
   {
-   "id": "a87946863c82",
-   "title": "NCC strengthens copyright enforcement in Anambra",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3d0dsMXNldzlCb0ZfQ0dwYmk3S0RLS2syQzB3SU9RMm1EdnRnRDNQaU1xS1dJakNQazI1SHhTMVhsenY0WmFvSXBwQlplUTM3eTY3b2ZlUWUzT3FES3daaGhtVFpyb21PTFFBTGNodWZtZFkxZm01a2R6a1A?oc=5",
-   "source": "Peoples Gazette Nigeria",
-   "sourceUrl": "https://gazettengr.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-04T18:46:09.000Z",
-   "summary": ""
-  },
-  {
    "id": "cb9b81dffa13",
    "title": "ماذا حدث لابنة بيومي فؤاد؟.. النيابة تحقق",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VSHhHN3VNUUdzX0N3dXRwU3RQWDVKaE1NTnpwNEVScnVVWUQyMWJGWnlIcTZ1ZXJVRUJOTlFNRV8ybDBHVVZ3RUdpNlEySWY5UXhXNFJn0gFUQVVfeXFMT1lzZW1JM212emtSbTVZUmxibGc3U0NtZ1ppOGRVSk5pcFJPMjg0bW5IUU9iNnNncmFoZ1VEczdyVmJSa1hnZjNOZzBCZjlSbDloVk9I?oc=5",
@@ -327,18 +351,6 @@
    "summary": ""
   },
   {
-   "id": "36d2b60c3f7d",
-   "title": "وزارة الموارد البشرية تضبط 67 مكتب استقدام مخالفاً في مناطق المملكة",
-   "url": "https://news.google.com/rss/articles/CBMimgRBVV95cUxNRVk2UFVlYlNKempiWWFKYUFDNHlsbWY0bHRhaXFoQ1kyNkhfcEpqZ1RpeUNybmZXanFhSWZYd1llRFIxODZsVFBVVWRBbnpZaGU2Y3JnaHhlUXVTVjFjYVIxdHBnOU8weHZ1ODdlTUJnakFvc0F4MU9ncE52NXVLRzMtc1dTVmxuWUU5UmFXZkhFWlBfZHI1OGowRkhHQVIyc25IYmZwc29uVkd1cXMzVmc5YmZvbURVSEIyVGp6eF9CMkxPNkF0UmY4dF9ZaXRHSUY1Z19sZ21KbkE5SFJmVXk1ZUgwVF9ZTW1uVWYxVjJyYjZjTDN3bXdmWnpBSDVscmJNcDR3eW1acFVqT2E3THVjMGR0QWRaaTgxa2pNTWRVLUdLbkhJcDN1QzZtZjJoeDBYZzdBUmJ3U2RqcmM0ZFNRb1QteTAtYVhzd1NuRUxLWFFpWmduVDB4dUVJSGc5LW9rdEVpNzExekZNYV82R3dPclN1eTNuWkU1ZmZCWEFwY29MZmVpaXVabjBLS0NFb2dzc1BIMGlsa01qd1pjemJUMVRjQ01INmFVVUpvY0NsZmJIczFrT2xaWjVYSXJGVUVwa2taWmFWSkhSZ1AyajNhQjZSUm93ay15NERYbC02a0MtUXBaYWU0WmotWVZBWEdGVTRVTTN5ek9pbnhfeTR0dzZJQktvZzEwWjJGUUpIakUxbzFyT2tn?oc=5",
-   "source": "صحيفة الحدث",
-   "sourceUrl": "https://al-hadath.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-04T15:09:54.000Z",
-   "summary": ""
-  },
-  {
    "id": "73b9b9f39751",
    "title": "CHINA-BEIJING-LI QIANG-DIRECTOR GENERAL OF WIPO-MEETING (CN)",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXhhWmRoUjhQNmV2OG9BM0doZ2VuQjNaRHp3eVU0WktMVThEU3JwdXJjNF91a2ZYSXBqTFJJSXVSX3d1QWVzNmZCNnVWa2wtYlZNVkFxcE9abUZ4SGZrSzVRQzJXZ2JlejVPRDN6c3dUSk1pSWFtSmNFdTdqSlYxd0VQanhWSXVJNWVBNzZmU09pZV8yX2pHbDdkbXMxSVVIS2xIV29QNA?oc=5",
@@ -348,6 +360,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-04T15:03:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f4d65184a95f",
+   "title": "NCC moves to strengthen copyright enforcement in Anambra",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tWkY3U2FLSzhWc2h2aktkQUdJdlhNLTh2Q2JkYlgxdlNCYzZuVU9yamVmRnJkd1h0QmNkQkZpdm5wYWpRY3BkMWFaVFRfN3RJcXpr?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-04T15:02:57.000Z",
    "summary": ""
   },
   {
@@ -459,66 +483,6 @@
    "summary": ""
   },
   {
-   "id": "dbfa6408c801",
-   "title": "From Pilot to Practice: Lessons from WIPO's First IP Finance Pilot",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObGFhby1ic2U2TWw0WW0wSUlEcVFCZnNfY2JMbG85RS1zaC1Td3NZcmdMNDJGZWVIQk9zNjFscjB0bTFLZlFqbzB3WU5ZZTRNandvX3NEVmxuNlc0Mk14Mmo2Y1dRMGtVY2dITzh4Y1lwNXllbHRETmxZUm9NYTZaSnY2Wk55YmNnRFh1Wjd4b240TzNsSVhZeEwxNU1pNS1FR0pDT1FKRUd5TXN6bTBOR1pVQXdHMU13N2c?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-02T14:12:31.000Z",
-   "summary": ""
-  },
-  {
-   "id": "fec3d6c7fc81",
-   "title": "Nine central agencies strengthen coordination in handling intellectual property infringement in the digital environment.",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSEZOdGMwQkk4Tk5mUnMzWlhma3FncHBTYWtrQ0djanlTQWFlQTRQdFV5LW9LS2pZQTVBbVRwOXl4LVZXU1hPWXU2alV0UmI1SU5fR2dNT3g3RllnOFItMTc3YVJmR0I0UmdDdkxZWUlMUkRNNUlwb1drSXh1cFVNQURRZHIwOXhMNUY3UUpndFcwWWp0Rlh0QUx5QjI5cm5yX1p1YXM0MkxMVlEwdzZPSnhmbFVHUTlHaC15SVhB?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-02T11:24:39.000Z",
-   "summary": ""
-  },
-  {
-   "id": "350328e4ef0e",
-   "title": "Why New Zealand Agriculture’s Global Success Makes Intellectual Property Protection Essential",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVEJxMGlVeVQ5UzE5YmhLeUphVVZnZmdTQUJJWDZTUWJmVlgxcDZ1ZmZUN2YwTVZOZ0V1TjBOa2IwUXFFaXo0aXJVU0x5QzB4YkJqLWdtbVdLakEwbURMdnpDeVgzbTdRU203VVpDM3ZDWGh1UkVlYUVrSjFRdmhBWEJlMUVJUkdyeFdPaTV4MVBtU0JidGZ3bGlQTy1aa0NkdG9udEcxZjdpT3lsalRsbjNBMDFVNFI4LTVaUTk5bldMQ21XdlhRSw?oc=5",
-   "source": "Pearce IP",
-   "sourceUrl": "https://www.pearceip.law",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-02T04:15:59.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f1f4fe4bb5bc",
-   "title": "Court orders late Justice Kanyeihamba’s estate to pay Shs45m over copyright theft",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWTZOUk9qckVlRE4tX2FDXzN1ems2ZXdDYk9mWlZRM2JSbnoycFZjWjZncnQ2OS1LX1pBODQ1OTVqdjAtTGlFWHFoRVNCRW5WMkw5NDU2bG5XRFNhRmFPam9sOHM0bGtib0puNl9odFY5SzZKcGNkYnI4T2dqM3BUazlWTDE1TXphcE9IZ0Y3MmhsVHNVVzdBM2hrWU11ZTJxWnh3QXJTdmJZUG5VeGlTTDR5T19kYy1xeTVIS2o5a0tOZlJaNHpsMkNGMDUwTkE0NVE?oc=5",
-   "source": "Daily Monitor",
-   "sourceUrl": "https://www.monitor.co.ug",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-02T04:03:38.000Z",
-   "summary": ""
-  },
-  {
-   "id": "75574db18207",
-   "title": "خادم الحرمين يصدر أمرين ملكيين بترقية 172 عضوًا بالنيابة العامة",
-   "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxPX21aaTJlMjExZ3c4V05FR3NndjNZbTJNN21jbkt5UDZIR0RrZEtuN0RtaXFYOUNySlBBVDMwaFdZYTZaakpLazg4V1JBVU1tSFlsRnpfVjdpakd3SHRZbURQdkxPXzkwczU1a052MHdwVHVrS1M2eXNNNzZFbmhsbHFjczlNcDNUVHVQTlBsNG1ZcG5iRXpjaVpVQklyM0wtd0Q2Njh2TnZyU3dvejViRWhsZ0tWYUk1LVhzTzVZX3NjaWwwY0E2QjJnVVpsMGhtVGMzVHpvdnk0UldJc1VPTnpLVW5YaGpaQTlOcllRWGUwWmM1cUJUdEdkTXdhQzlLLWNRWHUtX1dXa0xZZnhPcnFRN0NsM29xMkxQTE4tMHpELXBBcmRZNHZDX29OUFhkZm81eDVTcmhaMS1rWm5SQmxhU1lVYmc3aGkwRmxQR2tLNVZCZTRzcldMTnNCRUJJbU9HZnBZbTFOQWNzMm5uUGRQbUJpb3VQWExLR2JRV0xBQ1VUZFZtaXJhYl9YbVVOT2tHYWlvVGpET0JxanV0dWw5LXBKUEpheVZTbll5M0UtaGx6My0tYVNNUkNGZklNY0I2YzMwUkdtQURDREcwMEFHZFVCWkFza1N5TFpOcHdNSHlpbWdaUVIyZXg1Mm82MUpkeDY1a3haTmEydndwWmhISjN1czlrV3FiTFE0djJJeEh5Z3p1RzdoTnJNRFZmclhTcU5EenJPUWNTcUZfZkx2cUN3VTRBeW1KSHI1VTRHWG8xWE9kZ0Y0a3RHRE1CRTFNUXBJeU9XTzZ5Z0VYRk8xMGYzcE1ZMlA2aFNsOUlFUDdPcFhJelZ3eWFRZ3VWaUZ2cVdIbWpILXZWSHfSAVNBVV95cUxOZXFXRWhUTWpGdE9BRm03VGdoc3BraW5zQjBtMGRkSkI5OGFQWE1xQ1hkc1doc1BPNnlqbDdRem9RT2JjWEpNR2xrOElGMFl3NEpYYw?oc=5",
-   "source": "alyaum",
-   "sourceUrl": "https://www.alyaum.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-31T21:44:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "0eadc2639a36",
    "title": "خادم الحرمين يصدر أمرين ملكيين بترقية (172) عضواً من أعضاء النيابة العامة",
    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44b24taTl1RFVNX2YyOE4wYjRia1k4U2FJa0p1T1ZwM3ZHb1JLZkh4b0c5LWlxc05NaGJLZ0pWa011YTh2VXNhNzZQc05WaXJZb1IzLU1LLWxiclVOM1RR?oc=5",
@@ -531,15 +495,15 @@
    "summary": ""
   },
   {
-   "id": "19b292617d7f",
-   "title": "عام / خادم الحرمين الشريفين يصدر أمرين ملكيين بترقية (172) عضوًا من أعضاء النيابة العامة",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9fdFlXX2c4T2kzMXJsQlYyNGxZWXY4WFpPT3ZrTDlCZ1B2eVN5UmxxSGJUX2xyR0xrVlJwU2c2ZHV1VjBfR2c?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
+   "id": "8043b7b3b79a",
+   "title": "بأمرين ملكيين.. ترقية (172) عضوًا من النيابة العامة",
+   "url": "https://news.google.com/rss/articles/CBMiswNBVV95cUxON05NUXRQenFnYVVHM05ld0NTRElIMnJPVXB6ZTJ0a2M5Rk0wdk1wVXBVSWJILW1XckVLY2hqLXRGRlpaQ2ZqMEd5S1dFVV9ZcGEzcm51YU9pOUpyVUtnUm1OVUlkVHBUMmgzTWMyLW5aTnVSVUJVMWdGWGk2TzZGU05yZVFweVg1N0FHZnFsVDVVaDVVT2dlQm4tZU1FX1JCN3kzVlNmOXR5My02VWJ0LXRETWl4dkR4R0w5Y3Y1eUtwZlJKTzg1YjQ4cUxfZ1pHMm8tWkdybnFXb3VtR29jcEd1Wko2Qks3azVMNjVqeFVKTnZPelg4NHBPS3RmNlAzcTc1Y3B0SHRUMFBXTjFUSURiYzR5S08zY2l3a3lJbGo3dUxaRVZHN1VVemJab0I4cUtzb25wOW50eUR1N3JPaHRUcTVYVEFsdTVZUXpWMTgxYXI4dDFxdGhMRXpBTVdfcU5ycnRmMkNzcmtrNFQ1NVA4d005UWg5eHVJTXBjeHNHcHEybXp2ZnpLRG9PYnRMa3A5TFFfLVhlOWN1UUJBekRBaUk1elNsLUVSYWRaUFlXUzQ?oc=5",
+   "source": "جريدة المدينة",
+   "sourceUrl": "https://www.al-madina.com",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-10-31T21:00:27.000Z",
+   "date": "2026-10-31T21:05:00.000Z",
    "summary": ""
   },
   {
@@ -564,6 +528,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-29T13:51:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f050f38e81dd",
+   "title": "عام / وزارة الموارد البشرية والتنمية الاجتماعية تعلن نتائج جوائز الارتباط الوظيفي للدورة السادسة",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9sUW5YbHA3cWNlX09HSWdZYVZYVkZndWhlUWZySjZpb2w0enktQl9SXzFUMXJJS3lDeENNZ1hRU2hzN0Y4RUE?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-10-29T07:00:00.000Z",
    "summary": ""
   },
   {
