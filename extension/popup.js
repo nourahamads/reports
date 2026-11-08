@@ -8,7 +8,7 @@ async function draw(){
  $("#pages").replaceChildren(...b.pages.map(p=>{const li=document.createElement("li");li.textContent=`${p.host||""} — ${p.added}/${p.found}`;li.title=p.url;return li}));
  $("#busy").textContent=st.busy;$("#err").textContent=st.err||"";$("#go").disabled=!!st.busy;
  for(const id of["send","copy","clear"])$("#"+id).disabled=!n;
- if(document.activeElement!==$("#url"))$("#url").value=st.toolUrl===OLD?DEF:st.toolUrl;
+ if(document.activeElement!==$("#url"))$("#url").value=/github\.io/i.test(st.toolUrl)?DEF:st.toolUrl;
 }
 $("#go").onclick=async()=>{const [t]=await chrome.tabs.query({active:true,currentWindow:true});if(t)chrome.runtime.sendMessage({cmd:"collect",tabId:t.id})};
 $("#send").onclick=()=>chrome.runtime.sendMessage({cmd:"send"});

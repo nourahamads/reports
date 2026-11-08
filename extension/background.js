@@ -1,5 +1,5 @@
 const DEF_URL="https://saiprasdon.web.app/",OLD_URL="https://nourahamads.github.io/reports/";
-const get=async()=>{const s=await chrome.storage.local.get({batch:{items:[],pages:[]},toolUrl:DEF_URL,busy:""});if(s.toolUrl===OLD_URL)s.toolUrl=DEF_URL;return s};
+const get=async()=>{const s=await chrome.storage.local.get({batch:{items:[],pages:[]},toolUrl:DEF_URL,busy:""});try{if(new URL(s.toolUrl).hostname.endsWith("github.io")){s.toolUrl=DEF_URL;await chrome.storage.local.set({toolUrl:DEF_URL})}}catch{s.toolUrl=DEF_URL}return s};
 const norm=u=>{u=(u||"").trim();if(!u)return DEF_URL;if(!/^https?:\/\//i.test(u))u="https://"+u;return u.endsWith("/")||/\.html?$/.test(u)?u:u+"/"};
 async function brands(url){
  try{const r=await fetch(new URL("data/brands.json",url).href,{cache:"no-store"});if(r.ok)return (await r.json()).brands}catch{}
