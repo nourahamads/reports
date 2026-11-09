@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T22:00:06.143Z",
+ "updated": "2026-11-09T06:19:22.108Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,59 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 22,
+   "fetched": 25,
    "kept": 11
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 28,
+   "fetched": 31,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 26,
-   "kept": 22
+   "fetched": 27,
+   "kept": 23
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 33,
-   "kept": 13
+   "fetched": 30,
+   "kept": 12
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 35,
-   "kept": 29
+   "fetched": 38,
+   "kept": 32
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 20,
-   "kept": 3
+   "fetched": 22,
+   "kept": 4
   },
   {
    "id": "prosecution-local",
    "ok": true,
    "fetched": 34,
-   "kept": 9
+   "kept": 10
   }
  ],
  "items": [
+  {
+   "id": "9a685e01a661",
+   "title": "Canal + and LALIGA sign a landmark agreement to combat sports content piracy",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMGJyRVhUSUJtQzM4cGxfbnFxQ1RuaUJEX3FFQ1RLZ1pzdS1rRnB2c2laTEtKMmlNcXdHM1paZVJxcUVTNGZCcFZlSVJCbGZwZUtsWUJ4LU1jd0F2TGFLR0U2dXNVZnNRWmVsSnRiMG9EOHJjVjg5NWluOW42bUc3dmVESVRCeGdXTWNzZy1SckNZZHFpeHYzN2czaDkyWlFXNndoNk43UXRtNjk2?oc=5",
+   "source": "LALIGA",
+   "sourceUrl": "https://www.laliga.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-09T05:15:17.000Z",
+   "summary": ""
+  },
   {
    "id": "662585427e36",
    "title": "NAR updates MLS policies on copyright, feeds, and data use",
@@ -72,6 +84,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-08T21:21:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "cd6d120e9475",
+   "title": "تمهيداً لإحالته إلى قاضي التحقيق.. تسليم ملف “جزار التضامن” لمكتب النائب العام للجمهورية",
+   "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNMldGeXR6bjFGbUVQWWxzSzRkcWphRVBZLTlKazVXcVhTZzI0bVVxNS1MQVJQbmhqdV83Y1VQMG5SXzNvQmJWWmtvZzl1ZzNPRzhXRGx4M096R0hRS1lDNFBfSGtxYVdMTy1reW4wR3VWTWVYQW40WWt4bVEzdnE2bUtiTzFZM2xUZkdQR0s2YUxvYWh4cEV5eEpuUGg2S2JkNlJiQXlyeHBUZjNUTG9xaUVNREFaRC1tMFhJTWs3cVctbTR4bDJMRXprSTRyRmlqVEQ0aHZSLUlzSUNPR1hrZFY5Q0JpckJoXzJ5OTZLUzd0bE45R1RSSGZ2UmtLUnJvX0REYW5MWVhTMUFfcl8xUEZ5RDlwaDJxS0FtVkVmSG9qSnEzUVNscFB4ZTY0WmxmS3lISUVqcGpRT3lFVGc?oc=5",
+   "source": "صحيفة الوطن السورية",
+   "sourceUrl": "https://alwatan.sy",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-08T21:10:31.000Z",
    "summary": ""
   },
   {
@@ -111,18 +135,6 @@
    "summary": ""
   },
   {
-   "id": "cd6d120e9475",
-   "title": "تمهيداً لإحالته إلى قاضي التحقيق.. تسليم ملف “جزار التضامن” لمكتب النائب العام للجمهورية",
-   "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNMldGeXR6bjFGbUVQWWxzSzRkcWphRVBZLTlKazVXcVhTZzI0bVVxNS1MQVJQbmhqdV83Y1VQMG5SXzNvQmJWWmtvZzl1ZzNPRzhXRGx4M096R0hRS1lDNFBfSGtxYVdMTy1reW4wR3VWTWVYQW40WWt4bVEzdnE2bUtiTzFZM2xUZkdQR0s2YUxvYWh4cEV5eEpuUGg2S2JkNlJiQXlyeHBUZjNUTG9xaUVNREFaRC1tMFhJTWs3cVctbTR4bDJMRXprSTRyRmlqVEQ0aHZSLUlzSUNPR1hrZFY5Q0JpckJoXzJ5OTZLUzd0bE45R1RSSGZ2UmtLUnJvX0REYW5MWVhTMUFfcl8xUEZ5RDlwaDJxS0FtVkVmSG9qSnEzUVNscFB4ZTY0WmxmS3lISUVqcGpRT3lFVGc?oc=5",
-   "source": "صحيفة الوطن السورية",
-   "sourceUrl": "https://alwatan.sy",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-08T13:57:29.000Z",
-   "summary": ""
-  },
-  {
    "id": "34c78fbc0d2a",
    "title": "Police seize firearms and counterfeit goods in FS election operations",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeU9Gc0hsTDhyY1VveE41UjRCRTh3SkRkcGpYcldTc3FPcjg4UW1Sc0JnelE2dDl1LTFka2VUT0ptajlkMlNId0RtNWx1TlZWZXlQbjhMN0xhS1RiTTBJdDFhVXFCVzdPX3ZscEtySFNpVjg3ZGQ1S3pXaUpTdmQzYWtEMzRwNkliUE9JZUpjNG9PU3JMekNBdw?oc=5",
@@ -156,6 +168,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-08T04:37:12.000Z",
+   "summary": ""
+  },
+  {
+   "id": "84ad57164fec",
+   "title": "السعودية توضح خطوات إنهاء عقد العمل إلكترونيًا عبر قوى دون مراجعة صاحب العمل والشروط المطلوبة",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MM2ZDQmxEa1cxU2dEWTVROXY3RVo1WVRHQlVHdzdpamdoV1FqaDhhMXRrcEo1Ry1VRlhQYXNFWlJzaFNpaVI5WjczWUNWWXcxWl9qTTFLemktSG90bVFZLWZMV1lybDMzNHRPYV9zZw?oc=5",
+   "source": "صحيفة اخبارنا",
+   "sourceUrl": "https://www.akhbrna.ae",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-08T03:21:54.000Z",
    "summary": ""
   },
   {
@@ -255,15 +279,15 @@
    "summary": ""
   },
   {
-   "id": "d134a15338d3",
-   "title": "Substandard and counterfeit goods are eroding public confidence—CDA Consult",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZDhDWVlTbW1FeVVtdzAwUXZzSGxWRlVtWnJpYThiV3VWYnJ1SHRLRUxkNkZvaTl5bzJ0dzFqcjl4dHpYcjl3Zk1IMUttYTZETGR6ZmtWODdfUzY3bVFMTXhHTUtEQmxieFd6UEg2cEtwY3dsbHZfUlAwRnZSQ2tSN1V5cHdUeXFsMjlRQTM1Z19sbUJaejZkTmRQbnDSAZsBQVVfeXFMTUNYNzhUZk9JNnU5eVlZVVNpUF9DZ2xMYkExdzZTRTVCVXF5NzVSbWFfRDBzVE5tT1FqYzE4bnVJNDVZM0NQX2owdXdBQkhqQkx3ZUZubGstVVFCclE5WEg2U3BwdFJkbUpVUE50NWhMRHhhLVdmekR3VG9PaHVfVmx6eEg0RTg5ZDMyQmRkMThoZUtCaWVmVGptV3c?oc=5",
-   "source": "Modern Ghana",
-   "sourceUrl": "https://www.modernghana.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-06T12:28:00.000Z",
+   "id": "959d6df422ec",
+   "title": "وزارة العمل تكشف تفاصيل جديدة عن حماية عمال الدليفري.. رعاية صحية واجتماعية ومنح للزواج والمواليد",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WZC1GcTNZZURQR3ZuYnV2MkVwMEVYX2NzSmJvaWtiYURHZ2NqN01oZ1FwdWI4b2I2aXZaMV8yZTVzVGhjclFlcTJ4WDMtNTUwSUJj?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-06T09:20:09.000Z",
    "summary": ""
   },
   {
@@ -276,6 +300,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-06T06:10:32.000Z",
+   "summary": ""
+  },
+  {
+   "id": "aa395a77c0f3",
+   "title": "Chongqing Selected for WIPO-Linked Copyright Project on Folk Art and Tourism",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdU14ajJyUlRud29HN2l6NW1ObGN3YUFtNUZ0MTFFdjlBeEtrM2psZnUyMUtlcE5OOF9PaEk0dC1YNGJjSVlRZkZadlNLa0FMR1NsTnRpSlczXzVOLUFUbWM0Q3l4VEZyN2RwdGhIZ1pIVmVPRFVNVnBDc2ZHb2lLczR0eVNRQ1Y0QkNLZEM0b2oxcTR0XzMxLUZ3b1prc0s2V1VGNEdVZS1xblBBVVZQb0lWWjF4dm_SAbwBQVVfeXFMTjBwUGpZNy03dTVnRmF3TV9BLXpJaWVyM0o4N3M0UnpVRFMzTThEYkdQU2ZXZjZKT19PUE9VVGJOaDdXbDROT0R2cDVuME5ub2F4NU45WlFVR245Ni1VUXZHRHdOSy1aUkpXd3FOeEo2bTl5b3pNVFcwUkM4d3BfNl9wcVBWcTVlaDM4TktwQjRUaDZtV3BNYzNVUmNpTFY2UkFuSW9nQUk0YkVYWlh1ZGtiSDRxVDJrOTdLLWE?oc=5",
+   "source": "iChongqing",
+   "sourceUrl": "https://www.ichongqing.info",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-06T05:39:58.000Z",
    "summary": ""
   },
   {
@@ -339,6 +375,18 @@
    "summary": ""
   },
   {
+   "id": "a87946863c82",
+   "title": "NCC strengthens copyright enforcement in Anambra",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3d0dsMXNldzlCb0ZfQ0dwYmk3S0RLS2syQzB3SU9RMm1EdnRnRDNQaU1xS1dJakNQazI1SHhTMVhsenY0WmFvSXBwQlplUTM3eTY3b2ZlUWUzT3FES3daaGhtVFpyb21PTFFBTGNodWZtZFkxZm01a2R6a1A?oc=5",
+   "source": "Peoples Gazette Nigeria",
+   "sourceUrl": "https://gazettengr.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-04T18:46:09.000Z",
+   "summary": ""
+  },
+  {
    "id": "cb9b81dffa13",
    "title": "ماذا حدث لابنة بيومي فؤاد؟.. النيابة تحقق",
    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VSHhHN3VNUUdzX0N3dXRwU3RQWDVKaE1NTnpwNEVScnVVWUQyMWJGWnlIcTZ1ZXJVRUJOTlFNRV8ybDBHVVZ3RUdpNlEySWY5UXhXNFJn0gFUQVVfeXFMT1lzZW1JM212emtSbTVZUmxibGc3U0NtZ1ppOGRVSk5pcFJPMjg0bW5IUU9iNnNncmFoZ1VEczdyVmJSa1hnZjNOZzBCZjlSbDloVk9I?oc=5",
@@ -363,27 +411,15 @@
    "summary": ""
   },
   {
-   "id": "f4d65184a95f",
-   "title": "NCC moves to strengthen copyright enforcement in Anambra",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0tWkY3U2FLSzhWc2h2aktkQUdJdlhNLTh2Q2JkYlgxdlNCYzZuVU9yamVmRnJkd1h0QmNkQkZpdm5wYWpRY3BkMWFaVFRfN3RJcXpr?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-04T15:02:57.000Z",
-   "summary": ""
-  },
-  {
-   "id": "3ae5121ee541",
+   "id": "f9ee6efa4b8a",
    "title": "براند فاينانس: \"أرامكو السعودية\" ثاني أغلى علامة تجارية بقطاع الطاقة عالمياً",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhUm4wNENOQ2dlWnVBV0RwQzdzY3NrTklNU1VEUm9WSnplNnZjaGg0T3g2ZWJKY01oVjVVQi1qMTZzeXRfREUxNUFzZzhhUFBMSmVr?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxOUVZxNmJuYzNPaUtKNkxnVkZvTTE2VUxGQ19tVDNndHktdDdaRWlFSGZiNThvWFRQTkdyczlIWU9UazV3cVFNRGt0N3RwMHowNzFSVkU4bDMxQ29oVEJ2N01qdjVXTWplenVEX0JZUkk3RHZCb0ZHQmlUdnVCNjd4eWd3SVF1VXF0Slh4cGRfOVdBZm1Bdll3VTVQcXFFcDh5UkUxV2VSSnJORFMxS2hUV1FSUU8tbmtqQ1RoLXlHblp6ZVJlREp6VFdmQ094eDZwQkF4ekNnMm1ieDBwX2dUbUw3T1dSSkNhdGFaSXR6MVR6WG9tNWlFa2UzNWROUmdTcnFvYXBuWGMwcEZHWHp0eE9UZGZQSkU4bzU3d3FQSDhNYThZV0Uza2k2aXBoVmdfUXlEQUhUUEtTR21rVWdQM2tvdUN4WlRFMWl4d3ZsMnVwVkZqcGpDOFhYUzN2SWVrdVR1c2xTVHBjZXQ3dDZvSGdmQ1ZKd0FWSjBHemVvdVNqT3lsd0hwMVhYRmJDQVotWFlDM1VlemJVaWRpUzZTTGp3NUhZWWZCdnFfbFlfWnNUa3AzdGRBd0JBN1NaX2JrdUNVczI3N3ZrZzZ2c3hXSTJWVGpBZnFYSnkwckM3cEsteEZocnB6Y0x0d3U5Z2NWRVV6WDJtN2EycTVoOVFkOWR2RlhuazI5NmVmS202cVFNRXNUMDhGeFFha2Y0eEh2c2V0VmVQd1VGOVNnQzV5WWJQYTVENzAtSHVWNWhRcjBwRHFsTVU5c3dxU1p6VlRM?oc=5",
+   "source": "معلومات مباشر",
+   "sourceUrl": "https://www.mubasher.info",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-04T12:21:42.000Z",
+   "date": "2026-11-04T12:15:58.000Z",
    "summary": ""
   },
   {
@@ -399,11 +435,11 @@
    "summary": ""
   },
   {
-   "id": "60a303155338",
+   "id": "cd45b608b520",
    "title": "China and WIPO sign memorandum to boost cooperation on AI, copyright, and cultural heritage protection",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWDVNSnY1WDV0cUhhOGdncTBQWmlzWTNZWUE5NG9IZi1tOVA2N0NPX09abnc3NkFpWG1XNlVWUnRmMVJIcFhRVW5tRWoyVE9DQWIxRU94bjZnS1NORjBFdzRLQXA1RmxkNFdqaE5Ba29pNlp0ZWEyYTZUTzhvOXRXcnBB?oc=5",
-   "source": "China Daily Global Edition",
-   "sourceUrl": "https://global.chinadaily.com.cn",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSLVM0cGJkeFhEMXNUempEMDA5cTNENXgzTGtkamY4Y0FFVVQyS3pVaHN6ME1rYXo4YXFGVHBhSU15aHI4aFpqUmxHZllpd3VlMkZ1RWRkeWZVckRpY2FyZmQ3R080eFdhSXRwNjVSVGZxVUZoT1FKY2xjSXBsQQ?oc=5",
+   "source": "China Daily",
+   "sourceUrl": "https://www.chinadaily.com.cn",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
@@ -447,6 +483,18 @@
    "summary": ""
   },
   {
+   "id": "403be017de23",
+   "title": "WIPO Chief Says China Offers Model For Linking Cultural Heritage And Digital Economy",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbkxaYjEtQUpGbUFTTXJ1d0lWU0lZT0JGUXF3bC04ejJPS0htX25BQzQzM05xOUwyOGFTNWQyVXJkZjFEcElveTN6WjhOTlB0dWF5UmxfVV9kSGVIbXlFZE9HQThEbEs1S2p4eThQQWZBNk85NGVEN1lsYy1iZENiMUNIa21JMXZnenhheEF6dlNKU1kwUlg0VQ?oc=5",
+   "source": "UrduPoint",
+   "sourceUrl": "https://www.urdupoint.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-03T07:45:11.000Z",
+   "summary": ""
+  },
+  {
    "id": "f6a1d171780d",
    "title": "WIPO GREEN to Launch Solutions for Restoring Climate-Impacted Ecosystems at COP31",
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOE50dUdhYkpWbERaQkg5Nmd0VnBEbVo0bU5wY1NKcFJKdG1jd0w5NVVpZENmU3hXdXMtWE4wVXRMVHpKdTlWUjVIRkxKNDJ4dnR4UWZnT3dIVlNJOHNDMmpuNmh1WGNFcEtVbk96MndGeVFZeUhlLTNQUWd2c0ZQcFZFTzVJVUFRdE1tYTRETXp6Q3hFVzIxdk5peDZUd3U2azR3VGt2dDVSM0pvcHhRVlhIbm1ocW03YUMxTk1LRlpCakxoUW9OVFVXRUpfOTd1NkFPbnNtWmVZb3c?oc=5",
@@ -459,27 +507,15 @@
    "summary": ""
   },
   {
-   "id": "f9f91e533e0e",
-   "title": "Magnum sues Aldi for trademark infringement over ‘Gianni’ ice creams",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOG9hWE9IMXMtUnd6ZzktWHlCRm53OXcwdzkwVG1jOFREY0kxbHFZbVhLNlVWWjkzaV9iYkt6Qm12RjZGWDdBWEd4VGNqc3J5TzRtWWpyR1dSNlNqTmpFOWxzN1RISGZLTU9DWWZldU1qNkJwRkV2VmZzYTVZdHhhbUJkUmFiOXJ0T2JJUVZLZzNSdG9LRUpwTWRSVWF0VWZkck52UGRYeXR6WmZUY1FRUS1IbFQ?oc=5",
-   "source": "The Irish Times",
-   "sourceUrl": "https://www.irishtimes.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-02T17:46:54.000Z",
-   "summary": ""
-  },
-  {
-   "id": "9977458940ae",
-   "title": "Mondelēz sues British chocolate brand in Toblerone trademark dispute",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMkE2RW03WHloXzBtYkoxemxxdWZZdGkyUHVzaXVCR3VZeUJJdEcwQW1JYkVYZUdHbkxKSjlWeXBSUml6ZGRtdmVOR3dMYUFyc2p6clRnUUc1SE1jb3RxTV83aWZQOE9fVE4tNTN4QWxKd0RkYzFtVHMyR1VtdDd2bUxjU2t1c09tOGJuRlRXQUtMM1hYaWJMX2NxR0lmTEcyWHhOa241SjZxaTRnYXZ0N1F6Y04tWVB4ZTRMMExFazc2dElQeFRoNUtMdlZfSGpuajlz?oc=5",
-   "source": "Confectionery News",
-   "sourceUrl": "https://www.confectionerynews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-02T14:28:04.000Z",
+   "id": "75574db18207",
+   "title": "خادم الحرمين يصدر أمرين ملكيين بترقية 172 عضوًا بالنيابة العامة",
+   "url": "https://news.google.com/rss/articles/CBMijgVBVV95cUxPX21aaTJlMjExZ3c4V05FR3NndjNZbTJNN21jbkt5UDZIR0RrZEtuN0RtaXFYOUNySlBBVDMwaFdZYTZaakpLazg4V1JBVU1tSFlsRnpfVjdpakd3SHRZbURQdkxPXzkwczU1a052MHdwVHVrS1M2eXNNNzZFbmhsbHFjczlNcDNUVHVQTlBsNG1ZcG5iRXpjaVpVQklyM0wtd0Q2Njh2TnZyU3dvejViRWhsZ0tWYUk1LVhzTzVZX3NjaWwwY0E2QjJnVVpsMGhtVGMzVHpvdnk0UldJc1VPTnpLVW5YaGpaQTlOcllRWGUwWmM1cUJUdEdkTXdhQzlLLWNRWHUtX1dXa0xZZnhPcnFRN0NsM29xMkxQTE4tMHpELXBBcmRZNHZDX29OUFhkZm81eDVTcmhaMS1rWm5SQmxhU1lVYmc3aGkwRmxQR2tLNVZCZTRzcldMTnNCRUJJbU9HZnBZbTFOQWNzMm5uUGRQbUJpb3VQWExLR2JRV0xBQ1VUZFZtaXJhYl9YbVVOT2tHYWlvVGpET0JxanV0dWw5LXBKUEpheVZTbll5M0UtaGx6My0tYVNNUkNGZklNY0I2YzMwUkdtQURDREcwMEFHZFVCWkFza1N5TFpOcHdNSHlpbWdaUVIyZXg1Mm82MUpkeDY1a3haTmEydndwWmhISjN1czlrV3FiTFE0djJJeEh5Z3p1RzdoTnJNRFZmclhTcU5EenJPUWNTcUZfZkx2cUN3VTRBeW1KSHI1VTRHWG8xWE9kZ0Y0a3RHRE1CRTFNUXBJeU9XTzZ5Z0VYRk8xMGYzcE1ZMlA2aFNsOUlFUDdPcFhJelZ3eWFRZ3VWaUZ2cVdIbWpILXZWSHfSAVNBVV95cUxOZXFXRWhUTWpGdE9BRm03VGdoc3BraW5zQjBtMGRkSkI5OGFQWE1xQ1hkc1doc1BPNnlqbDdRem9RT2JjWEpNR2xrOElGMFl3NEpYYw?oc=5",
+   "source": "alyaum",
+   "sourceUrl": "https://www.alyaum.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-10-31T21:44:00.000Z",
    "summary": ""
   },
   {
@@ -528,18 +564,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-29T13:51:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "f050f38e81dd",
-   "title": "عام / وزارة الموارد البشرية والتنمية الاجتماعية تعلن نتائج جوائز الارتباط الوظيفي للدورة السادسة",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9sUW5YbHA3cWNlX09HSWdZYVZYVkZndWhlUWZySjZpb2w0enktQl9SXzFUMXJJS3lDeENNZ1hRU2hzN0Y4RUE?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-29T07:00:00.000Z",
    "summary": ""
   },
   {
