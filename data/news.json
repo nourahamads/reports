@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:18:12.087Z",
+ "updated": "2026-11-10T07:13:28.531Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,38 +15,38 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 24,
+   "fetched": 22,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 28,
-   "kept": 22
+   "fetched": 26,
+   "kept": 21
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 40,
-   "kept": 7
+   "fetched": 49,
+   "kept": 8
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 38,
-   "kept": 32
+   "fetched": 37,
+   "kept": 30
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 22,
-   "kept": 4
+   "fetched": 20,
+   "kept": 3
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 34,
-   "kept": 8
+   "fetched": 33,
+   "kept": 9
   }
  ],
  "items": [
@@ -63,15 +63,15 @@
    "summary": ""
   },
   {
-   "id": "e75220f075e5",
+   "id": "8df7d1bd0256",
    "title": "أمير جازان يستقبل مهندسَين ابتكرا روبوتاً ذكياً للتسوق الذاتي والمرافقة وحصلا على براءة اختراع",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10VFdIYlZTLU5sWUVyLXJpTmRiSXBDSGF3MDlzS0twWEtkeV9DSWdIZW4yWk9HTjNyZVVRZnBxUUxhVGJnXzREUEtjWE5RSjZzUHfSAVRBVV95cUxOZE1rWHlYVHphUHF2YVhXQ3dpOGZoZVJDWG5vcHpjT3psQWNXejUxZlhCbjJJcHJoMU5Xa0NaX3pWVmRnZHY2MEdSX2RwaUNQd0V2azk?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kTWtYeVhUemFQcXZhWFdDd2k4ZmhlUkNYbm9wemNPemxBY1d6NTFmWEJuMklwcmgxTldrQ1pfelZWZGdkdjYwR1JfZHBpQ1B3RXZrOdIBVEFVX3lxTE5kTWtYeVhUemFQcXZhWFdDd2k4ZmhlUkNYbm9wemNPemxBY1d6NTFmWEJuMklwcmgxTldrQ1pfelZWZGdkdjYwR1JfZHBpQ1B3RXZrOQ?oc=5",
    "source": "عكاظ",
    "sourceUrl": "https://www.okaz.com.sa",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-09T14:36:00.000Z",
+   "date": "2026-11-09T14:36:02.000Z",
    "summary": ""
   },
   {
@@ -99,15 +99,15 @@
    "summary": ""
   },
   {
-   "id": "29a464012d82",
-   "title": "وزارة العمل تحذر من صفحات وهمية تنتحل صفتها للنصب على المواطنين",
-   "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxOeHU2TWJVMXh1VEdkWHdRNjlmdkJwTlpTWTIwOG1CRjJrNnRkczhrMXFLT05FbXQ4Uzh4cVg4eGsxY3l6Q3hZQ0pfVDRvbDdMQkdVZnBGcWM5Q0hHX2kweXJzRFVsSHJFSFhBWHJhRTNQYmRSUlZLZWJmWEdyUmF3RFliSTZjYVhkS3JVMjFlME14NXRsTEl0QTh6RmZtdjA5QTkzU0p5NW9hOWp6T2VOTnRyazRTTnRrbVZ0cTR4aU5TMTNOVGU1eFpzMmhaZWJoRkF5cGxJZG82MXV4YmdhWlJJZ19fWG9zQUhYdG9PVTdRdGtvcnY3T0tJOVplOG52bk4ycUtaVVUtOG5YYlNfV21kcE0xaGdjU3p2dmxfbW1YV1F1QlRJTEFfTXRNM3lkTnYxZ3R5SS12ZnpDdi1pNWJWeDNIQVhhWVZIbGc0c2xWSGRYbTMyQmFhTWxBZ3djMHI4d2x0a3NiUHFkY3QzZ3g4cFlNOGhXeVBOS0EwTU9iMDR2ak9wa1lZcUdTODZZeThpMGJPVmxIb3h4aHFzaWRBNFR2TDd6YWQ3UnhUQ2ZRMlg2LTZzMjZwc0xPNUxPNEtHbk1fZ2RiWmMzUExKRGw0RTBiNUxWNGZNeWlaNkRBY3V1cGstRWxpWnA0cWdvNFA4bWlRM3lVdE41WjFlNHg3TTFYZnJ1NEUtQzBxejlRNC1q?oc=5",
-   "source": "الهيئة الوطنية للإعلام",
-   "sourceUrl": "https://www.maspero.eg",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-09T07:24:00.000Z",
+   "id": "0df2c0a916fd",
+   "title": "Guangdong-Hong Kong-Macao Customs Intellectual Property Enforcement Cooperation Meeting convened (with photos)",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sWGp4ZFp6SkdMWm1vMVc4RVZDOURkTUl3eG8tOWJyeGgtQ0c1T0dXSTl6czN1WVRGc1ZnVGlaaWJYRWxrZmpoSVFFS0JXVVN5RWJzSGF6bElpNlZzRTh1bllRVUFxaUtjRnJZUk9VMXhTZw?oc=5",
+   "source": "www.info.gov.hk",
+   "sourceUrl": "https://www.info.gov.hk",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-09T03:50:32.000Z",
    "summary": ""
   },
   {
@@ -168,6 +168,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-11-08T16:44:39.000Z",
+   "summary": ""
+  },
+  {
+   "id": "34c78fbc0d2a",
+   "title": "Police seize firearms and counterfeit goods in FS election operations",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeU9Gc0hsTDhyY1VveE41UjRCRTh3SkRkcGpYcldTc3FPcjg4UW1Sc0JnelE2dDl1LTFka2VUT0ptajlkMlNId0RtNWx1TlZWZXlQbjhMN0xhS1RiTTBJdDFhVXFCVzdPX3ZscEtySFNpVjg3ZGQ1S3pXaUpTdmQzYWtEMzRwNkliUE9JZUpjNG9PU3JMekNBdw?oc=5",
+   "source": "https://novanews.co.za/",
+   "sourceUrl": "https://novanews.co.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-08T13:00:31.000Z",
    "summary": ""
   },
   {
@@ -279,18 +291,6 @@
    "summary": ""
   },
   {
-   "id": "d3ec7b7f41db",
-   "title": "Who pays when AI takes from creators? Europe rethinks copyright rules",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVno0T3lLeW5Cb0RvTFZYcXJoOHJ6S2F2emFjZFBTYlBIVDlGN0hZVlp4WTJkLXJ2OHFfbTBEck9kSDRzYjdnenR6SEJ5RjJxZmZNS2U5RzFZaVd6MDlHQi1fNzg3dzlqaDlvaVNzeEE4dDhKM2RqMXNKbGVkSEVzXzlSZ3FZaDBqVU8xdE1pblhrRmRkLTFYSWxLclg5Zw?oc=5",
-   "source": "EU Perspectives",
-   "sourceUrl": "https://euperspectives.eu",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-06T06:41:46.000Z",
-   "summary": ""
-  },
-  {
    "id": "aa395a77c0f3",
    "title": "Chongqing Selected for WIPO-Linked Copyright Project on Folk Art and Tourism",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdU14ajJyUlRud29HN2l6NW1ObGN3YUFtNUZ0MTFFdjlBeEtrM2psZnUyMUtlcE5OOF9PaEk0dC1YNGJjSVlRZkZadlNLa0FMR1NsTnRpSlczXzVOLUFUbWM0Q3l4VEZyN2RwdGhIZ1pIVmVPRFVNVnBDc2ZHb2lLczR0eVNRQ1Y0QkNLZEM0b2oxcTR0XzMxLUZ3b1prc0s2V1VGNEdVZS1xblBBVVZQb0lWWjF4dm_SAbwBQVVfeXFMTjBwUGpZNy03dTVnRmF3TV9BLXpJaWVyM0o4N3M0UnpVRFMzTThEYkdQU2ZXZjZKT19PUE9VVGJOaDdXbDROT0R2cDVuME5ub2F4NU45WlFVR245Ni1VUXZHRHdOSy1aUkpXd3FOeEo2bTl5b3pNVFcwUkM4d3BfNl9wcVBWcTVlaDM4TktwQjRUaDZtV3BNYzNVUmNpTFY2UkFuSW9nQUk0YkVYWlh1ZGtiSDRxVDJrOTdLLWE?oc=5",
@@ -399,18 +399,6 @@
    "summary": ""
   },
   {
-   "id": "73b9b9f39751",
-   "title": "CHINA-BEIJING-LI QIANG-DIRECTOR GENERAL OF WIPO-MEETING (CN)",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONXhhWmRoUjhQNmV2OG9BM0doZ2VuQjNaRHp3eVU0WktMVThEU3JwdXJjNF91a2ZYSXBqTFJJSXVSX3d1QWVzNmZCNnVWa2wtYlZNVkFxcE9abUZ4SGZrSzVRQzJXZ2JlejVPRDN6c3dUSk1pSWFtSmNFdTdqSlYxd0VQanhWSXVJNWVBNzZmU09pZV8yX2pHbDdkbXMxSVVIS2xIV29QNA?oc=5",
-   "source": "Big News Network.com",
-   "sourceUrl": "https://www.bignewsnetwork.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-04T15:03:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "f9ee6efa4b8a",
    "title": "براند فاينانس: \"أرامكو السعودية\" ثاني أغلى علامة تجارية بقطاع الطاقة عالمياً",
    "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxOUVZxNmJuYzNPaUtKNkxnVkZvTTE2VUxGQ19tVDNndHktdDdaRWlFSGZiNThvWFRQTkdyczlIWU9UazV3cVFNRGt0N3RwMHowNzFSVkU4bDMxQ29oVEJ2N01qdjVXTWplenVEX0JZUkk3RHZCb0ZHQmlUdnVCNjd4eWd3SVF1VXF0Slh4cGRfOVdBZm1Bdll3VTVQcXFFcDh5UkUxV2VSSnJORFMxS2hUV1FSUU8tbmtqQ1RoLXlHblp6ZVJlREp6VFdmQ094eDZwQkF4ekNnMm1ieDBwX2dUbUw3T1dSSkNhdGFaSXR6MVR6WG9tNWlFa2UzNWROUmdTcnFvYXBuWGMwcEZHWHp0eE9UZGZQSkU4bzU3d3FQSDhNYThZV0Uza2k2aXBoVmdfUXlEQUhUUEtTR21rVWdQM2tvdUN4WlRFMWl4d3ZsMnVwVkZqcGpDOFhYUzN2SWVrdVR1c2xTVHBjZXQ3dDZvSGdmQ1ZKd0FWSjBHemVvdVNqT3lsd0hwMVhYRmJDQVotWFlDM1VlemJVaWRpUzZTTGp3NUhZWWZCdnFfbFlfWnNUa3AzdGRBd0JBN1NaX2JrdUNVczI3N3ZrZzZ2c3hXSTJWVGpBZnFYSnkwckM3cEsteEZocnB6Y0x0d3U5Z2NWRVV6WDJtN2EycTVoOVFkOWR2RlhuazI5NmVmS202cVFNRXNUMDhGeFFha2Y0eEh2c2V0VmVQd1VGOVNnQzV5WWJQYTVENzAtSHVWNWhRcjBwRHFsTVU5c3dxU1p6VlRM?oc=5",
@@ -516,6 +504,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-02T17:46:54.000Z",
+   "summary": ""
+  },
+  {
+   "id": "3ab84656a677",
+   "title": "أمران ملكيان بترقية 172 عضواً في النيابة العامة",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5YbHNSdkY0ajYtSVE5WHp2a1U0UGduWXZNQnpEU0ZJdXJIOUZ3aUpHcU53cllCZHI1dHFUTWlKNEszSVpUWUZKcjV3bVRDVmxy?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-01T03:00:17.000Z",
    "summary": ""
   },
   {
