@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T19:41:14.405Z",
+ "updated": "2026-11-11T06:09:29.285Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,8 +9,8 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 25,
-   "kept": 11
+   "fetched": 26,
+   "kept": 12
   },
   {
    "id": "ip-local-piracy",
@@ -22,44 +22,44 @@
    "id": "ip-global-enf",
    "ok": true,
    "fetched": 29,
-   "kept": 23
+   "kept": 24
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 51,
-   "kept": 9
+   "fetched": 54,
+   "kept": 4
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 37,
-   "kept": 29
+   "kept": 30
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 18,
-   "kept": 3
+   "fetched": 20,
+   "kept": 4
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 32,
-   "kept": 10
+   "fetched": 33,
+   "kept": 9
   }
  ],
  "items": [
   {
-   "id": "d5c83c165fce",
-   "title": "مصطفى بكري يؤكد أهمية انتظار نتائج تحقيقات النيابة العامة في حادث قطاري العياط",
-   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNOHNCQ1dtYzkxWXA2S0VPeDA1WXZsc3VwM1k3OUwxRVFKU0VTY1BCNTZYZ1VWSnp1Z2ZGZzNvMUdTdGpqSlhJaHR6bWp3QlZOUThLMEdPYnJRNXF4OFA5Yk1ONlZaSHZFbW8xZWhvcDBHN3lkbEdyTEhMMDVxOENwYldrSzJVS0FuUlB2cE9QVG8wVEpMZE56a09rMC10UGFIckJ0eWN3T1kyZUl1cjYtb3JYN1E4MXA3S051X2V0amdsVjIxa3h4UkNIbGx3UGRIQkpvV3pzNVN5X3ZZcUFxaENTMUdyeERiYzdkUUoxOUU3ZW1lNldLNlZzV2tGa2t4Z3hXampjS1RELTdiVTdUeVlPU2VmSjR1RlV5bG1PYWR0N1ZGdktGdmw2am5kaEtYWFMxOENjVnRqV3FqeU1UOHpsbVYtN2xDOTZwNFlRSQ?oc=5",
-   "source": "الاستاد الرياضي",
-   "sourceUrl": "https://www.alestad.com",
+   "id": "cf507445d8e3",
+   "title": "النيابة العامة تدشن نظام «المراجِع العملية للقيود والأوصاف» للتكييف القانوني للوقائع",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fT3YwSUFibDhlY0J1TzFfTDgzUVBoZGxSaEpadXlFYVY1Zk01NXR6a1JBZlozWHRpUEpWZnNWX0dOZ0s1ZVU1WG5VNzM1aGlaWlg0?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-11-10T16:00:41.000Z",
+   "date": "2026-11-10T21:23:06.000Z",
    "summary": ""
   },
   {
@@ -87,6 +87,30 @@
    "summary": ""
   },
   {
+   "id": "bd0e3cced49b",
+   "title": "عام / أمير الشرقية يستقبل مدير فرع وزارة الموارد البشرية والتنمية الاجتماعية بالمنطقة",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE94bWd4TWM1Q2JUclVRZXFJY3FzaXIzeGhNQTdoQks3UzhRNXRhU29sMWpBd0RfV1V3VGt0Y3ZQckZsX3JYMnc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-10T13:12:10.000Z",
+   "summary": ""
+  },
+  {
+   "id": "0de025bed71d",
+   "title": "واشنطن تُمدد التحقيق التجاري حول حماية الملكية الفكرية في فيتنام حتى نهاية فبراير المقبل",
+   "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOR2xYc1ZaRTBGWWJOdjNLQUZBVUV0OHZEUzByQ2N4dW5TUG4xc0pzRF9ad1k0ZWo5ODRzdW1JY1hrbXM5WWRqZ2N5UTlaS0tLLW9OVTlIc3RsNk1Ua3NHZmpJRHN2cUp3SzZWM3FHMmJxa1FrcmY4Nkg0MTE4ajdjWHNuMFRlMk5xSG8wOXc0YlBXOEhtWENfMExWN0MtdUhCb0d1Q1VmdG9BLUlJR2Uxek1VVG93cm9xVzdfMjJsd3pSMWx3dkpIZmtPcXhiQXhSb2NUMi1KV0h2a1NPVG5ydllWM3B1WHdZWVJfa1Z2YjMzeEpERnVseUtjVEhnWFp1OHFxdDFwYklOc0xQRXJGanVDNF8wbkpoeEZnVFpaeURjbzdVZzNhb1BuUU9nWEdoSmNqaWVscVZHWlQxVjVGbjBwei1XSWltTDh0UFRn?oc=5",
+   "source": "الاستاد الرياضي",
+   "sourceUrl": "https://www.alestad.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-10T10:47:44.000Z",
+   "summary": ""
+  },
+  {
    "id": "8958fa8fb16b",
    "title": "US extends Section 301 probe of Vietnam's intellectual property enforcement to February 2027",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSHBDSFZoSnhRTEdTYUNmRE4zNjBYdWFadUYySTU4Zl9HRmE3bTlMUXk4bm1iNlotN3ZSdWpfc3ZldXo4QXdJZWphTl9VLWhvaEJaR1NaUTNmMlUwZDVfd2cwY0hZQVdkbWY5VzE0V2dyaVZJZTJjejBqTnBUajZUbDlCQjFCdWJlTkh6TE1NSEp2R192WnJGVVUtdlplaWVfZVNwalVPNGxhSHBZY3FqZHRSejRqYjRLSEdNY294MG1TbTZteUE?oc=5",
@@ -96,6 +120,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-10T09:01:18.000Z",
+   "summary": ""
+  },
+  {
+   "id": "86f0ee5d1be5",
+   "title": "WIPO Japan Office Organized “The 3rd Show and Tell Presentation Competition”",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZlVxUjdfR3dzVmRzbEg1dVBiamRDbzZMZnJCYkluLXE0cmxTVzZXNFVaclNyVmIyYUNCUXRCZjdKdE92M0RzLVp2OGFKUkN3MVVBVGdNTjZpanNCYng3MlhJQVhzU0F1QWI5Ry16RkRDVzd6X3hDdm4zQXo4RW1FallnTGtjSE9MRVJXdm5rUnBLaWdGWGNnMmcydldYeDBrRF9Rak5tdm9nT1RySnQ2eU9FYVlIT1EtSkFXXzZOYWhsY2ZDZXBn?oc=5",
+   "source": "WIPO",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-10T07:38:19.000Z",
    "summary": ""
   },
   {
@@ -159,18 +195,6 @@
    "summary": ""
   },
   {
-   "id": "19f0320427ad",
-   "title": "Selling Counterfeit Goods Bearing Company’s Name Is Not Copyright Infringement: Bombay High Court",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZDBTVEttTG1TMm5heG5ETlFTVmNtWnF5ZGxfRkVCX2t5ZlBzZWFCdFdJTlFLeFBrY1BSMTRRTGIzU3Y2ZEg5bE8xMk9VdkI5a1NUNmNxa2xmNDUzcllRUUN3T0lIWjVzY3FKUXpFakxYZU9WTlAwT0NxWUMxZWVBa1BZLVlyOTloMTRDWmY0UXVzeEFwMkxIVlQ0THhma0E0X1RIZVY3a1l5bmw1V3VNOVVnQ3JkX1V6WFhBNFJkV1p2VFpuakk1ZFd0cmhlWnpoNGtNX3N1b3E0VEM4YVhtVl9R0gHnAUFVX3lxTE1SOHE5UHpwOVE1bk9mM0l0Rll4NjR2MzN5UnFvSHlyV2NxN2JDY1lLSEk1MFdORnFPakpUUDRLY1M3aDhUZWM0SWpLWENHWG44THMzZEdZZ3oxYnFzTEJYclFxQTF6bGhIWWFIRmV2MWY3dGVaQ3RxN3FScF9LRl9wZnVpMmcyR1hLdl92M2cyaWRfMkdvOEk1SWhDVC00ek9EX2QwM29xS3hlMncxWDRJcjd1NlJpdE93VGdmYVBCa3hSeFJDWjFEaUEzcGk1dTA4UXM0dEtna2VnbG54Zlpudkh1WTh4MA?oc=5",
-   "source": "Verdictum",
-   "sourceUrl": "https://www.verdictum.in",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-09T09:30:06.000Z",
-   "summary": ""
-  },
-  {
    "id": "0df2c0a916fd",
    "title": "Guangdong-Hong Kong-Macao Customs Intellectual Property Enforcement Cooperation Meeting convened (with photos)",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sWGp4ZFp6SkdMWm1vMVc4RVZDOURkTUl3eG8tOWJyeGgtQ0c1T0dXSTl6czN1WVRGc1ZnVGlaaWJYRWxrZmpoSVFFS0JXVVN5RWJzSGF6bElpNlZzRTh1bllRVUFxaUtjRnJZUk9VMXhTZw?oc=5",
@@ -204,18 +228,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-08T21:21:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "cc6763b12c0f",
-   "title": "Warehouse Storing Counterfeit Goods and Fake Branded Products Busted in Salmiya",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXF4alA4V3FGNmpKYWhhR0JnMWtNMkZPMlVjRk9UTERmOW1oM1ZjTlRuLTdlR0RWU185RkhFLWJjdm5MV2N1ZEVWTXV4QkZQMEdPUkxONFZ1UlRvbWlMcEtKSVJxVHZXMkRwNS1LY2RsRjNFQlJ4YnozV3B2V284MTNmWXRuSFRaRG8tR3gtd1ZDN0RfSFo4dkhYVW95WTRocFlfTWVERQ?oc=5",
-   "source": "Times Kuwait",
-   "sourceUrl": "https://timeskuwait.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-08T19:54:12.000Z",
    "summary": ""
   },
   {
@@ -264,18 +276,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-08T04:37:12.000Z",
-   "summary": ""
-  },
-  {
-   "id": "021c92e25786",
-   "title": "النيابة العامة في باريس تفتح تحقيقاً في بلاغات قنابل كاذبة استهدفت طائرات فوق الأراضي الفرنسية",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81NGtvZjdPVE1xYkUyNEQ1eVRucllRQy05dWJiclM4dnk4Q3JGR29MeTNEWDZ3RVgxNGk1WHhMcFpSMWNaMllEQUhGNjVEN01CS2xWVWdMbGdobXc?oc=5",
-   "source": "https://alsaudi.news/",
-   "sourceUrl": "https://alsaudi.news",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-07T17:06:01.000Z",
    "summary": ""
   },
   {
@@ -387,18 +387,6 @@
    "summary": ""
   },
   {
-   "id": "5948261cd9a0",
-   "title": "Eight Myanmar nationals arrested in Thailand counterfeit goods raid; Chinese owner flees",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOEdmZWVBU0p0d1BuQkkycjgzNFBaN3BKYUhRSFRnb1JhYWxZb3MxU0FtX2t1YlBkNkZoZFlqYmZUYmUxN283RFRkbkNEQWJ3WDNvbUJFb01SVTQ1M1ZFSUpTRi1QWlFjaGtfbkNHWXE4ZnJCRF90bXNYa1lvcGtFSGVCZjRkV2pZbWFDbC1Ka0xPWGNWdmVkRFVIdHZfc1ZMaEJwMWRLbTJfWGtZNzA2OE96MlcxUTNRQXZFSU5lYS1nUk9DNnVYU0R4dTFhWGdCTTI5UGJ4ZHFJdnFGZ3RZTnpWay0?oc=5",
-   "source": "The Star",
-   "sourceUrl": "https://www.thestar.com.my",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-05T04:17:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "af1a1db31e44",
    "title": "Ministry of Culture to Hold 10th Overseas Intellectual Property Protection Council to Discuss IP Protection Measures Abroad",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14Vi1BNjJtakN4MlJEOWRxSV9GUXVhTTJ0bjNCOUhWVHNiQkw3djRlc1hseVhWTlBfdnc0TGFYTnREa25IMjZ0dHUxalhBNXNNMmtFbVdXS25NU08xSFUtN25Ja0w?oc=5",
@@ -447,6 +435,18 @@
    "summary": ""
   },
   {
+   "id": "538c0d5e4e63",
+   "title": "China has strengthened intellectual property protection, but challenges for foreigners persist: experts",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRWYtZlAzMlZJUTZXaXRqMlJkeFNwSjRQT3pBY0xaVG95VkJIWlllQm5qdE83TUZLb0pSZEF4NlVqcWhweUZNaUxxNW1IRjZIRFJObUZMUTBydnQ4NnNqdlhHUVJlVWNMdUJhb1ZlYy1mQ0RmYnNaOW1RRDJ0aHdkY1hUS0lBX3BwdWJ3X1FYbXAtOF8tX3hvNXRqcnREblJZS25QczR2SFI0d2RIUlJNa0d2OUUwQlJtUjlPbHZSTlpJVHhKY244?oc=5",
+   "source": "Macau Business",
+   "sourceUrl": "https://macaubusiness.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-04T14:49:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "f9ee6efa4b8a",
    "title": "براند فاينانس: \"أرامكو السعودية\" ثاني أغلى علامة تجارية بقطاع الطاقة عالمياً",
    "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxOUVZxNmJuYzNPaUtKNkxnVkZvTTE2VUxGQ19tVDNndHktdDdaRWlFSGZiNThvWFRQTkdyczlIWU9UazV3cVFNRGt0N3RwMHowNzFSVkU4bDMxQ29oVEJ2N01qdjVXTWplenVEX0JZUkk3RHZCb0ZHQmlUdnVCNjd4eWd3SVF1VXF0Slh4cGRfOVdBZm1Bdll3VTVQcXFFcDh5UkUxV2VSSnJORFMxS2hUV1FSUU8tbmtqQ1RoLXlHblp6ZVJlREp6VFdmQ094eDZwQkF4ekNnMm1ieDBwX2dUbUw3T1dSSkNhdGFaSXR6MVR6WG9tNWlFa2UzNWROUmdTcnFvYXBuWGMwcEZHWHp0eE9UZGZQSkU4bzU3d3FQSDhNYThZV0Uza2k2aXBoVmdfUXlEQUhUUEtTR21rVWdQM2tvdUN4WlRFMWl4d3ZsMnVwVkZqcGpDOFhYUzN2SWVrdVR1c2xTVHBjZXQ3dDZvSGdmQ1ZKd0FWSjBHemVvdVNqT3lsd0hwMVhYRmJDQVotWFlDM1VlemJVaWRpUzZTTGp3NUhZWWZCdnFfbFlfWnNUa3AzdGRBd0JBN1NaX2JrdUNVczI3N3ZrZzZ2c3hXSTJWVGpBZnFYSnkwckM3cEsteEZocnB6Y0x0d3U5Z2NWRVV6WDJtN2EycTVoOVFkOWR2RlhuazI5NmVmS202cVFNRXNUMDhGeFFha2Y0eEh2c2V0VmVQd1VGOVNnQzV5WWJQYTVENzAtSHVWNWhRcjBwRHFsTVU5c3dxU1p6VlRM?oc=5",
@@ -456,18 +456,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-04T12:15:58.000Z",
-   "summary": ""
-  },
-  {
-   "id": "b0052e575698",
-   "title": "£150,000 of suspected counterfeit goods seized during major enforcement operation",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdWFoWFNvZ2pJZXlqejh2ZjUxdFBaUjN2WDBwOWpGdXNKVmRVSWVic3EyeGxFcnZ2cHotYnJxdXZDd3Nzdi1lS0RpTTFDZ1BXLTFEbUlzQlNhMlRoRzZxRXpNMUlOSlU0b1Z5VEJudzkzTnU0M1BjU2FFX1oxc082alAzSUhra1FPOXdhWkxNV2hvZEx1SUpYQUZEajVVRFRqd21yay0wdlF6QkFPbnIzaA?oc=5",
-   "source": "Liverpool Express",
-   "sourceUrl": "https://liverpoolexpress.co.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-04T11:03:48.000Z",
    "summary": ""
   },
   {
@@ -495,15 +483,51 @@
    "summary": ""
   },
   {
-   "id": "5835387f232d",
-   "title": "Crackdown on rogue traders in Ormskirk leads to counterfeit goods seizure | News - Greatest Hits Radio (Lancashire)",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLTBvV3BSbm9SZktMQnVIQXVtbnZENmJhMkhpck83TG92OGRCS21OUUJrU1d0dVdVQ2JPOTNaY0Znbk0zelVhczU4SzZHajVhV1pyNjFINVVGS3I3LUE0bDVkNmVWQXdrLVBnN2lvb0UwSklIZk9XZUZHVkxTamlzUWNyUkhwYzhFU1phRTQwdXlyWVg4cUFkdGJnTFJtMi12SFViTDRMbmpIR1ZjTEVhWkFTYUsyalZYbGw0VmhNbjJqM0tCYzdVMUtTOA?oc=5",
-   "source": "Rayo",
-   "sourceUrl": "https://www.hellorayo.co.uk",
+   "id": "987a559176d9",
+   "title": "Uzbekistan Moves to Simplify Intellectual Property Protection",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQXpJWWY4cFlocExKbVRBYTNNOGl5aDF3Rk9DWF9oY2lTMjFHYVJZRXhwOUJRYkNyd1lsdnRNc2p5V2Nial9WOTl0ejFuSkEtT0czUTBrazBnQTc5ekxyN1cwQmlCeVNmVm5TQk1SUVY4TldTRGtFUjViUzZMRUh6WFBmMnRHQlhPR05RQ1VjWi14Zw?oc=5",
+   "source": "UzDaily.uz",
+   "sourceUrl": "https://www.uzdaily.uz",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-03T14:11:10.000Z",
+   "date": "2026-11-03T09:10:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f6a1d171780d",
+   "title": "WIPO GREEN to Launch Solutions for Restoring Climate-Impacted Ecosystems at COP31",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOE50dUdhYkpWbERaQkg5Nmd0VnBEbVo0bU5wY1NKcFJKdG1jd0w5NVVpZENmU3hXdXMtWE4wVXRMVHpKdTlWUjVIRkxKNDJ4dnR4UWZnT3dIVlNJOHNDMmpuNmh1WGNFcEtVbk96MndGeVFZeUhlLTNQUWd2c0ZQcFZFTzVJVUFRdE1tYTRETXp6Q3hFVzIxdk5peDZUd3U2azR3VGt2dDVSM0pvcHhRVlhIbm1ocW03YUMxTk1LRlpCakxoUW9OVFVXRUpfOTd1NkFPbnNtWmVZb3c?oc=5",
+   "source": "WIPO",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-02T22:18:45.000Z",
+   "summary": ""
+  },
+  {
+   "id": "9977458940ae",
+   "title": "Mondelēz sues British chocolate brand in Toblerone trademark dispute",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMkE2RW03WHloXzBtYkoxemxxdWZZdGkyUHVzaXVCR3VZeUJJdEcwQW1JYkVYZUdHbkxKSjlWeXBSUml6ZGRtdmVOR3dMYUFyc2p6clRnUUc1SE1jb3RxTV83aWZQOE9fVE4tNTN4QWxKd0RkYzFtVHMyR1VtdDd2bUxjU2t1c09tOGJuRlRXQUtMM1hYaWJMX2NxR0lmTEcyWHhOa241SjZxaTRnYXZ0N1F6Y04tWVB4ZTRMMExFazc2dElQeFRoNUtMdlZfSGpuajlz?oc=5",
+   "source": "Confectionery News",
+   "sourceUrl": "https://www.confectionerynews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-02T14:28:04.000Z",
+   "summary": ""
+  },
+  {
+   "id": "0eadc2639a36",
+   "title": "خادم الحرمين يصدر أمرين ملكيين بترقية (172) عضواً من أعضاء النيابة العامة",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44b24taTl1RFVNX2YyOE4wYjRia1k4U2FJa0p1T1ZwM3ZHb1JLZkh4b0c5LWlxc05NaGJLZ0pWa011YTh2VXNhNzZQc05WaXJZb1IzLU1LLWxiclVOM1RR?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-01T07:00:00.000Z",
    "summary": ""
   },
   {
@@ -516,18 +540,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-01T03:00:17.000Z",
-   "summary": ""
-  },
-  {
-   "id": "0eadc2639a36",
-   "title": "خادم الحرمين يصدر أمرين ملكيين بترقية (172) عضواً من أعضاء النيابة العامة",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44b24taTl1RFVNX2YyOE4wYjRia1k4U2FJa0p1T1ZwM3ZHb1JLZkh4b0c5LWlxc05NaGJLZ0pWa011YTh2VXNhNzZQc05WaXJZb1IzLU1LLWxiclVOM1RR?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-31T21:08:00.000Z",
    "summary": ""
   },
   {
