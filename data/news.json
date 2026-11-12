@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:08:23.546Z",
+ "updated": "2026-11-12T23:35:35.153Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,8 +9,8 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 25,
-   "kept": 11
+   "fetched": 26,
+   "kept": 12
   },
   {
    "id": "ip-local-piracy",
@@ -27,29 +27,53 @@
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 60,
-   "kept": 10
+   "fetched": 70,
+   "kept": 13
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 38,
+   "fetched": 37,
    "kept": 32
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 23,
-   "kept": 5
+   "fetched": 21,
+   "kept": 4
   },
   {
    "id": "prosecution-local",
    "ok": true,
    "fetched": 31,
-   "kept": 6
+   "kept": 7
   }
  ],
  "items": [
+  {
+   "id": "15802d7fb075",
+   "title": "Peak campaign against smuggling and counterfeit goods during Tet Dinh Mui 2027: Rectifying the situation of 'fragmenting' and 'rounding up' criminal cases into administrative ones.",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVlByUW45cTlvWlh3djd5aWpsUnc5ZkhBWmxlSUpsUWtMNk5fX3VuZWU4d1JfTy13MzZOWkJScFZ3UzJSRlhYcks5cC1EcVp5RndmLTJrTkxyLUlSeXY5NzhvQ2J3SnRnYXVOd2NsdEN2bEdvQTVkelJLUmVvREIweW56c0NGZUsxM2pKVE9LakVqOUVKaHFQNldsQjNNcmNhbFRnbW5jQTdoQzU1VkUybnNHRmh6ZHV6SGg4LVhkY2tRdkNQSjBKejRFaXlDUkVudlNDbmdLd0pLZWZka3BGRFpn?oc=5",
+   "source": "Vietnam.vn",
+   "sourceUrl": "https://www.vietnam.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-12T16:15:03.000Z",
+   "summary": ""
+  },
+  {
+   "id": "25e44f45ff01",
+   "title": "Visakhapatnam: Piyush Goyal Meets WIPO Director General Daren Tang #Gallery",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc2JiWVJxX0JQUzZSQ0dyOWN0Unl4bTgwU0JLM0ZQZWhXYVhUQXUyUm1zVWJnQUxxYmM2QjVCQmJ3cGZsQjFWTUk1Y2RrVUM5cWx3djlVTEd3czFsTUU5ZTVzZmU4bFRqdldNaGtnTHBpU1FPVzlSV3I0SHU5SnBzS3Z3WS1wdHh4N1VvSUpZcHROR2pmTWVmRUxoODBReHB6Rmc3RzVCNFloWjdLeVQ0aEJR0gGyAUFVX3lxTE1zYmJZUnFfQlBTNlJDR3I5Y3RSeXhtODBTQkszRlBlaFdhWFRBdTJSbXNVYmdBTHFiYzZCNUJCYndwZmxCMVZNSTVjZGtVQzlxbHd2OVVMR3dzMWxNRTllNXNmZThsVGp2V01oa2dMcGlTUU9XOVJXcjRIdTlKcHNLdndZLXB0eHg3VW9JSllwdE5HamZNZWZFTGg4MFF4cHpGZzdHNUI0WWhaN0t5VDRoQlE?oc=5",
+   "source": "Social News XYZ",
+   "sourceUrl": "https://www.socialnews.xyz",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-12T15:15:23.000Z",
+   "summary": ""
+  },
   {
    "id": "6251a27a8a9c",
    "title": "Court adjourns N2b trademark infringement claim against bank",
@@ -107,7 +131,7 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T06:34:01.000Z",
+   "date": "2026-11-12T06:41:02.000Z",
    "summary": ""
   },
   {
@@ -135,18 +159,6 @@
    "summary": ""
   },
   {
-   "id": "0bd9168c7a8f",
-   "title": "Andhra CM seeks WIPO partnership to boost global recognition for state innovations",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQampTXzdzLXcwTk4yR0phSHcyVHVXTjByajYwejVNMDlZdk5uYTJVOTJwaW0wTXhIRE1JNkFqOTF1dUNwR1RCRlhVWFJFVUVrc2JZeWJudkNVQTYtcnNXY09SM1JFTlhFQjRXSTdFRHBmVnlYclZnNVV3ak9fSmZPWHZpYXdLTlVwZlRxLXl4WnJqRFhESHBHZkY1YVhzdlIya2F6TTFQM2dwOThWZVRuczhTWm1pUXFhZG85d2RybUM2aURkbXBzS2JPWi1QblpzazlVS1psb0RjWUVZOE4yUTI5Mi1idUdjV1Jn0gHwAUFVX3lxTE9fM2VOUFloV1NHZnZBQW4zeTNkZ2ljZThSYlNjUzVicnVPc25Lb1QxWnhxN29DTk1wY1hMcWRSdl9ISFJ3RldtUUhFckhXY2J4UVVuVE9MOUF5Z0R1ejI2T2kxbGl4WmlEYmFzUHczd3dQMDBNRW1Bd1A4VnU2elZuOE95TnZ0VDNpcl9yMksxSzI0UXpQM0U1bEdFYzZoQVNYcjd6V0lWRk9Ra0NuYXU1UHh6UGZhbS1QYjhUaFJJejJTM3lPeUtISktWNDJsdjd6T2JiM2I3cGlmUkJVeTBIZWdpU1JmZ2tYNWpGdXBWbw?oc=5",
-   "source": "ET Government",
-   "sourceUrl": "http://government.economictimes.indiatimes.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T22:15:04.000Z",
-   "summary": ""
-  },
-  {
    "id": "52ff7536d41b",
    "title": "CII Partnership Summit: CM Naidu seeks WIPO’s support to boost innovation ecosystem in A.P.",
    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcDY0Q3h4b2YzLTdqbzdjWjc1RVhyT2gzdE82ZlVpbHpTdno0ZFd5WmowTmRWTzlLM0Z3ZExrX25oekxUV1JZaDNSaldHRWRwUEFFZXFnb3pZTHVqNElVenhrTFRKRGN6dHFrdnpZMlVzYlBid3hkdFVwOE9KTktWVXRZb1RrREdsMVhxbm4tMl9WLUl2WFNOaE5ieVkyUy1ETHBUTXJ2UVdtSHNqc0dHYk5MdzZNcWQ0ZzhhZ25TOWthTUJIeEhiNmFMaG82Uk5CbVYzVG13V0l2T2RlczgxS0lLS1JTYmM1VUNCbUpYWdIB9gFBVV95cUxOTFRPd1ZIRkxyX2VRVTZJZmJWSF9TaWtkVnhIbTNRTGM2YWF4b2o0N3BhYkdBdjZ1X0s4NF85Uk10RnpHVkNxUkprVWR4LVFiM1daeVI0ZFFHYm5lREZOZlZUcjJ4SEwzdDlnc2NIeHUwanUwNFpfNkxBRW9MS3dHQTliOXJSNVZjN1VsVXJfR1pJQnNBdkNHS3RfU1YxZEhIVjc5dWpiVlA3dVV6dU9jd3Z4YU4wSmNlUWc2S2xKek51bC1QNm0zQ2hYUVpxeGg3ank1bG9fNXpDZ29kT1JDRm1FZUJXUno1TVlQcDlVeUdPTHgtRUE?oc=5",
@@ -156,6 +168,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-11T19:04:23.000Z",
+   "summary": ""
+  },
+  {
+   "id": "6ecdf942783e",
+   "title": "Trademark protection in Mexico: Is your business prepared for the 2026 reform?",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zczd4UjJlVHUtRVNDZk9TVF8tM0VDWGVuZjdGNEpoRDRSTEQ1bm91RjkyU2x0M2NjaU9JYlJSX1l6STFDZlQ2QThnMkZOOUJoMFJSWGE1TzctZTRaQkNkMnU1SWZjUFJqZy1TbmRGcTFDNldEUU96Z2hlTFRRTGM?oc=5",
+   "source": "RÖDL",
+   "sourceUrl": "https://www.roedl.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-11T18:55:59.000Z",
    "summary": ""
   },
   {
@@ -192,6 +216,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-11T17:06:02.000Z",
+   "summary": ""
+  },
+  {
+   "id": "0bd9168c7a8f",
+   "title": "Andhra CM seeks WIPO partnership to boost global recognition for state innovations",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQampTXzdzLXcwTk4yR0phSHcyVHVXTjByajYwejVNMDlZdk5uYTJVOTJwaW0wTXhIRE1JNkFqOTF1dUNwR1RCRlhVWFJFVUVrc2JZeWJudkNVQTYtcnNXY09SM1JFTlhFQjRXSTdFRHBmVnlYclZnNVV3ak9fSmZPWHZpYXdLTlVwZlRxLXl4WnJqRFhESHBHZkY1YVhzdlIya2F6TTFQM2dwOThWZVRuczhTWm1pUXFhZG85d2RybUM2aURkbXBzS2JPWi1QblpzazlVS1psb0RjWUVZOE4yUTI5Mi1idUdjV1Jn0gHwAUFVX3lxTE9fM2VOUFloV1NHZnZBQW4zeTNkZ2ljZThSYlNjUzVicnVPc25Lb1QxWnhxN29DTk1wY1hMcWRSdl9ISFJ3RldtUUhFckhXY2J4UVVuVE9MOUF5Z0R1ejI2T2kxbGl4WmlEYmFzUHczd3dQMDBNRW1Bd1A4VnU2elZuOE95TnZ0VDNpcl9yMksxSzI0UXpQM0U1bEdFYzZoQVNYcjd6V0lWRk9Ra0NuYXU1UHh6UGZhbS1QYjhUaFJJejJTM3lPeUtISktWNDJsdjd6T2JiM2I3cGlmUkJVeTBIZWdpU1JmZ2tYNWpGdXBWbw?oc=5",
+   "source": "ET Government",
+   "sourceUrl": "http://government.economictimes.indiatimes.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-11T16:41:32.000Z",
    "summary": ""
   },
   {
@@ -303,18 +339,6 @@
    "summary": ""
   },
   {
-   "id": "a1087916420a",
-   "title": "JLR Takes Legal Action Against BYD Over Alleged Intellectual Property Infringement: Report",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN3N6UjFFcTQwUmRlNU82SkpJTEJyRWdzRjRWdUNkY2YteFJVcFZCSkJOZ3V6MzNBbzdudGZSN2NCWm5zQjBPX1R1ZTBWN0RuRHJRN0VYTTU0QkhXWEFpNUNjcWhlSnVlVXdpZEsxZFEzWVdLUEpCWEpUdWFCaGVzRWxrQ0NtN2hYbE5IampidG83alVBby1raWVxVVlhNHBSNmFXVk1SM2NvMUhBRWhlX0kzeVR0LVZN?oc=5",
-   "source": "ACKO Drive",
-   "sourceUrl": "https://ackodrive.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T09:56:01.000Z",
-   "summary": ""
-  },
-  {
    "id": "32d588e816e3",
    "title": "وظائف وزارة العمل 2026.. 785 فرصة عمل في مطروح بدون مؤهل دراسي وبرواتب حسب الخبرة",
    "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPSzdWX0xhcmt4VEZ0RlpCMjhBMjZDYUtwQXJkbENXWmVtM3UxcE5tQ2F0RGRoNHM4aHNrZ05wQkp4QjZTeEtmbUNiTlQ5ZENocFYtaXZsczV6LXlvZnNua3I4ajJaclNabFk3NUFHZWQwWEVaLVBJRkV4cUhnRFlHSXVWeHdQSVhCNGZJNUc2aFhjZXhDaDZ3ZWd5MVRGbTNTRE1tVWhYS2xtamRBZlZvdVhWeVM2TDNLSW1VV2RQbzRMbEp1aDU3dkJUdERMNWZ4WTRpaWVhZWcyQ2taczk3QUVVZmluWWQ1N0xxYXJIZGFCLUpQZS12Y2FjNVpxMUR6RV9YbnMtbnoxZUdvclpHVEdCbG5JcEJYUTFoUHhrZUVOLVB2OGtqTE5tbkg0ZGk3Q0hCUXV0VUxBRzVmdllr?oc=5",
@@ -336,18 +360,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-11T09:16:19.000Z",
-   "summary": ""
-  },
-  {
-   "id": "e8447f5b5969",
-   "title": "Hundreds of tonnes of counterfeit goods destroyed",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa05SUnVEWGJKSjdpT0hTWTZhNkFmNlZXTS1OYl9nYmhBY0IxNjN1bFk5RVpJM0JLTTN0YmEyeUJHVFVZakFPbTg2VDM3VDhIS2JJaS1DdVFOZElnVDBuclluQ1hONElVNXVKLXVCbTlzeTRLcnhwbll3VjJsY2xpNEpFZGdVWmxiVTE5M1VR?oc=5",
-   "source": "Phnom Penh Post",
-   "sourceUrl": "https://phnompenhpost.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T08:58:23.000Z",
    "summary": ""
   },
   {
@@ -375,15 +387,15 @@
    "summary": ""
   },
   {
-   "id": "6c1ac69f829a",
-   "title": "China cracks down on online counterfeit goods, targets supply networks",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFByMDVlNUtwcVBFcGdDb2ZIT1NPTjFiQTEwSC1QRnA2RHk1UEdVeTJTcUFWZjlWNXBuaDZwSWduY3JMN09ST2hrZlExX0JaSFRNM09JMkwwZVBFc3R2djlZeVU2NXE0OEFaSjVuQjhzdEJQWDlTTXpXT3oxa1lMUQ?oc=5",
-   "source": "China Daily",
-   "sourceUrl": "https://www.chinadaily.com.cn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T07:37:44.000Z",
+   "id": "cf507445d8e3",
+   "title": "النيابة العامة تدشن نظام «المراجِع العملية للقيود والأوصاف» للتكييف القانوني للوقائع",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fT3YwSUFibDhlY0J1TzFfTDgzUVBoZGxSaEpadXlFYVY1Zk01NXR6a1JBZlozWHRpUEpWZnNWX0dOZ0s1ZVU1WG5VNzM1aGlaWlg0?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-10T21:23:06.000Z",
    "summary": ""
   },
   {
@@ -396,6 +408,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-11-10T13:12:10.000Z",
+   "summary": ""
+  },
+  {
+   "id": "8df7d1bd0256",
+   "title": "أمير جازان يستقبل مهندسَين ابتكرا روبوتاً ذكياً للتسوق الذاتي والمرافقة وحصلا على براءة اختراع",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kTWtYeVhUemFQcXZhWFdDd2k4ZmhlUkNYbm9wemNPemxBY1d6NTFmWEJuMklwcmgxTldrQ1pfelZWZGdkdjYwR1JfZHBpQ1B3RXZrOdIBVEFVX3lxTE5kTWtYeVhUemFQcXZhWFdDd2k4ZmhlUkNYbm9wemNPemxBY1d6NTFmWEJuMklwcmgxTldrQ1pfelZWZGdkdjYwR1JfZHBpQ1B3RXZrOQ?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-09T14:36:02.000Z",
    "summary": ""
   },
   {
@@ -435,18 +459,6 @@
    "summary": ""
   },
   {
-   "id": "cb9b81dffa13",
-   "title": "ماذا حدث لابنة بيومي فؤاد؟.. النيابة تحقق",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VSHhHN3VNUUdzX0N3dXRwU3RQWDVKaE1NTnpwNEVScnVVWUQyMWJGWnlIcTZ1ZXJVRUJOTlFNRV8ybDBHVVZ3RUdpNlEySWY5UXhXNFJn0gFUQVVfeXFMT1lzZW1JM212emtSbTVZUmxibGc3U0NtZ1ppOGRVSk5pcFJPMjg0bW5IUU9iNnNncmFoZ1VEczdyVmJSa1hnZjNOZzBCZjlSbDloVk9I?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-04T15:32:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "f9ee6efa4b8a",
    "title": "براند فاينانس: \"أرامكو السعودية\" ثاني أغلى علامة تجارية بقطاع الطاقة عالمياً",
    "url": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxOUVZxNmJuYzNPaUtKNkxnVkZvTTE2VUxGQ19tVDNndHktdDdaRWlFSGZiNThvWFRQTkdyczlIWU9UazV3cVFNRGt0N3RwMHowNzFSVkU4bDMxQ29oVEJ2N01qdjVXTWplenVEX0JZUkk3RHZCb0ZHQmlUdnVCNjd4eWd3SVF1VXF0Slh4cGRfOVdBZm1Bdll3VTVQcXFFcDh5UkUxV2VSSnJORFMxS2hUV1FSUU8tbmtqQ1RoLXlHblp6ZVJlREp6VFdmQ094eDZwQkF4ekNnMm1ieDBwX2dUbUw3T1dSSkNhdGFaSXR6MVR6WG9tNWlFa2UzNWROUmdTcnFvYXBuWGMwcEZHWHp0eE9UZGZQSkU4bzU3d3FQSDhNYThZV0Uza2k2aXBoVmdfUXlEQUhUUEtTR21rVWdQM2tvdUN4WlRFMWl4d3ZsMnVwVkZqcGpDOFhYUzN2SWVrdVR1c2xTVHBjZXQ3dDZvSGdmQ1ZKd0FWSjBHemVvdVNqT3lsd0hwMVhYRmJDQVotWFlDM1VlemJVaWRpUzZTTGp3NUhZWWZCdnFfbFlfWnNUa3AzdGRBd0JBN1NaX2JrdUNVczI3N3ZrZzZ2c3hXSTJWVGpBZnFYSnkwckM3cEsteEZocnB6Y0x0d3U5Z2NWRVV6WDJtN2EycTVoOVFkOWR2RlhuazI5NmVmS202cVFNRXNUMDhGeFFha2Y0eEh2c2V0VmVQd1VGOVNnQzV5WWJQYTVENzAtSHVWNWhRcjBwRHFsTVU5c3dxU1p6VlRM?oc=5",
@@ -456,6 +468,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-04T12:15:58.000Z",
+   "summary": ""
+  },
+  {
+   "id": "cb9b81dffa13",
+   "title": "ماذا حدث لابنة بيومي فؤاد؟.. النيابة تحقق",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VSHhHN3VNUUdzX0N3dXRwU3RQWDVKaE1NTnpwNEVScnVVWUQyMWJGWnlIcTZ1ZXJVRUJOTlFNRV8ybDBHVVZ3RUdpNlEySWY5UXhXNFJn0gFUQVVfeXFMT1lzZW1JM212emtSbTVZUmxibGc3U0NtZ1ppOGRVSk5pcFJPMjg0bW5IUU9iNnNncmFoZ1VEczdyVmJSa1hnZjNOZzBCZjlSbDloVk9I?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-04T08:00:00.000Z",
    "summary": ""
   },
   {
@@ -540,18 +564,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-10-31T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c9543dd00b76",
-   "title": "وزارة الموارد البشرية والتنمية الاجتماعية تحقق المركز الأول في مسار نضج ممارسات الموارد البشرية",
-   "url": "https://news.google.com/rss/articles/CBMipwZBVV95cUxNNTdOa0x1R1g0aERnRzk5TXdMNEJtb243NHBwQjhWTW1DX3IwSFpkYlRVLWl6TmNrOXFfV1ZTbWgyTDMyWHNPNGNNUUhFemhNSl96SER2NEZkdDhyNC1FR1YyVkZTRXJsUk1qMGthSWN1ZFc1OUFWTU42anFoZHdpaFRqTjFPd3g5c29uQklxTUhrTjBaWVRtQ2p2ZERZMnVZc2FXZFhpV2ZaVGtncFhMbG5RRWlGRXRyUEYtbkNya3ZvT2tVZGJndzl2a2RRSGl4Y0NwLWdTMVBnYWdUb2dlRjduWFA3LW04cnJnMFB2OUkybU1EeWdYUDNNWjdKaXh4U096UHJhNHpEOEpOTlg4eXVmcVhtVlVLWmpIQ0VpZzRHREtwamxKbDB2WEFCV21Jc09Za3d4UDI1UkszaXh3TFRscnRxRnAtQ0o1Rkw5VUNBZThTaERFSk1wZWRNcHA3ZmVwcEFQOGsxRkVVRmhzLUVkR0lKYlFjWFlFWVR3SThkWHVidVVJR1EtWHQyVVl3V3FQX0hfYUZfZFpLZDE1ZnRwMlNGcEZQSjdfNnpRajBWME1nT0J2eTNQbko1QzFDVTNpQlU1WDlGdHFBVjVfWTgyeGdabzhEdFB6eEVWd1VmOHlucWlDQk5TVERFNVNqUElSVFkwOThXTmNLYm9mSjdobC1wTks4X1owSXRxVWR4MGl4VlRfOG94NVRxR1VOR1dQWWhwRkkwX2pPalNIaEh6LXUyR1VYRS1ZVEh2ZlhMR0dUNmVpVnkxdjB4MGNXUUgwN2Y2R3AwSTJxS21Gako1NmhCRnZBX0JpSVVjLU9fX21naGpkS0hCNTkwckc0X2Q3TlpyZ0VCclJ3V2ZiVDBwMEdZZUFaWXdaRmlZRmZsZ2l5Vmd1c2VmTFlVSDFIRVhwVExYSXRyRUNTdHA2TTRacFZTc3V3THZ3b2htOUpuVlE2eDcxaEJSYUdXVk5zVTU4NjhCYThJcTN5N1FFYjBKRVltTTJ0ZE9hcF9xTE1pMDEtYWQtMURWV0U0OUs0X19VSjFFOGVRQllkUXRkQ09nU1RUNFE?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-10-29T20:00:00.000Z",
    "summary": ""
   },
   {
