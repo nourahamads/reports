@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T23:35:35.153Z",
+ "updated": "2026-11-13T06:39:10.875Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,83 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 26,
-   "kept": 12
+   "fetched": 23,
+   "kept": 11
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 22,
+   "fetched": 24,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 25,
-   "kept": 24
+   "fetched": 27,
+   "kept": 25
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 70,
-   "kept": 13
+   "fetched": 74,
+   "kept": 14
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 37,
+   "fetched": 36,
    "kept": 32
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 21,
+   "fetched": 25,
    "kept": 4
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 31,
-   "kept": 7
+   "fetched": 32,
+   "kept": 6
   }
  ],
  "items": [
+  {
+   "id": "04bd82a79444",
+   "title": "Launching a crackdown on smuggling and counterfeit goods during the Lunar New Year of the Goat 2027.",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT29zcjlKWnpVYWp5UkxvajloLWtpSEJMNTZIRzJmS3BUOFhRMHhId2JqSnZVMlJzOXZFVmhHNmtTYl9pakJVeUdXWDMzYVktWEVscGhSallBekNwSzhOOXE5ckhQSjA1dEhmcUxhbFpia2ZDaGpfUUd2VTNVekgwQTBLRjFzLXI3ZW1za0hrSV9TcThFUlpLM3RSb3haOTA?oc=5",
+   "source": "Vietnam.vn",
+   "sourceUrl": "https://www.vietnam.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-13T05:04:52.000Z",
+   "summary": ""
+  },
+  {
+   "id": "25e44f45ff01",
+   "title": "Visakhapatnam: Piyush Goyal Meets WIPO Director General Daren Tang #Gallery",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc2JiWVJxX0JQUzZSQ0dyOWN0Unl4bTgwU0JLM0ZQZWhXYVhUQXUyUm1zVWJnQUxxYmM2QjVCQmJ3cGZsQjFWTUk1Y2RrVUM5cWx3djlVTEd3czFsTUU5ZTVzZmU4bFRqdldNaGtnTHBpU1FPVzlSV3I0SHU5SnBzS3Z3WS1wdHh4N1VvSUpZcHROR2pmTWVmRUxoODBReHB6Rmc3RzVCNFloWjdLeVQ0aEJR0gGyAUFVX3lxTE1zYmJZUnFfQlBTNlJDR3I5Y3RSeXhtODBTQkszRlBlaFdhWFRBdTJSbXNVYmdBTHFiYzZCNUJCYndwZmxCMVZNSTVjZGtVQzlxbHd2OVVMR3dzMWxNRTllNXNmZThsVGp2V01oa2dMcGlTUU9XOVJXcjRIdTlKcHNLdndZLXB0eHg3VW9JSllwdE5HamZNZWZFTGg4MFF4cHpGZzdHNUI0WWhaN0t5VDRoQlE?oc=5",
+   "source": "Social News XYZ",
+   "sourceUrl": "https://www.socialnews.xyz",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-13T03:15:30.000Z",
+   "summary": ""
+  },
+  {
+   "id": "6f3e02d7ee46",
+   "title": "Preventing smuggling and counterfeit goods during the year-end period.",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ackxSWDZxQzlwdUQwNnY2NURoMENUVnFFd2c4OHVTMTJaRUFDNHZfRy1iR2ZBVFBnWTNYcmZCR2ROVmN6b2VUWmkxNVR4dXlSWGowLVNYbmFmWkJTNmVNLWJWT19oOWVjSFNma0RQNzFxaGJV?oc=5",
+   "source": "Vietnam.vn",
+   "sourceUrl": "https://www.vietnam.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-13T03:06:14.000Z",
+   "summary": ""
+  },
   {
    "id": "15802d7fb075",
    "title": "Peak campaign against smuggling and counterfeit goods during Tet Dinh Mui 2027: Rectifying the situation of 'fragmenting' and 'rounding up' criminal cases into administrative ones.",
@@ -63,15 +99,15 @@
    "summary": ""
   },
   {
-   "id": "25e44f45ff01",
-   "title": "Visakhapatnam: Piyush Goyal Meets WIPO Director General Daren Tang #Gallery",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc2JiWVJxX0JQUzZSQ0dyOWN0Unl4bTgwU0JLM0ZQZWhXYVhUQXUyUm1zVWJnQUxxYmM2QjVCQmJ3cGZsQjFWTUk1Y2RrVUM5cWx3djlVTEd3czFsTUU5ZTVzZmU4bFRqdldNaGtnTHBpU1FPVzlSV3I0SHU5SnBzS3Z3WS1wdHh4N1VvSUpZcHROR2pmTWVmRUxoODBReHB6Rmc3RzVCNFloWjdLeVQ0aEJR0gGyAUFVX3lxTE1zYmJZUnFfQlBTNlJDR3I5Y3RSeXhtODBTQkszRlBlaFdhWFRBdTJSbXNVYmdBTHFiYzZCNUJCYndwZmxCMVZNSTVjZGtVQzlxbHd2OVVMR3dzMWxNRTllNXNmZThsVGp2V01oa2dMcGlTUU9XOVJXcjRIdTlKcHNLdndZLXB0eHg3VW9JSllwdE5HamZNZWZFTGg4MFF4cHpGZzdHNUI0WWhaN0t5VDRoQlE?oc=5",
-   "source": "Social News XYZ",
-   "sourceUrl": "https://www.socialnews.xyz",
+   "id": "acd51dc43d3a",
+   "title": "Police seize thousands of counterfeit goods at 5 Alberton shops",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX0Q3ZnBtdlU5c0RvU0RwWkRQZTNzZmpmaVE1LXE5a2pzbDBtRzNBMDJyVGpQMF9KYXVoTTBYNTdHaGo4enZna3lULTFVekY2aDdKb1B4TEtfTWYyUWxoNkc3dHNsTGJZdXZIRk1IVWdRcjlNYkVZcy1IQlpLT0VvM3JtZGJteWEtUUZPbHB5b29nVHNpTUM5Q0RBMUN0Tl9qeWhtVGNOcEMxQ1hBUnNWbmxvTkRWM21jVTJnSk5hdnVlVnpzSHB5UkVFU1l6Rkk1VHpIVFVWZw?oc=5",
+   "source": "The Citizen",
+   "sourceUrl": "https://www.citizen.co.za",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T15:15:23.000Z",
+   "date": "2026-11-12T12:41:02.000Z",
    "summary": ""
   },
   {
@@ -84,18 +120,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-12T11:19:53.000Z",
-   "summary": ""
-  },
-  {
-   "id": "26a59688c23d",
-   "title": "Peak period for combating smuggling and counterfeit goods during the Lunar New Year of the Goat 2027.",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYTNFTmZmTkhFXzBWUVRnY1dvWGExLXVyblJ1cUhiQWpmeHQ3RE9YbmFEMUFVQVltYmlocmNodVVGbE1CLWxqOVJnZ3VXaUFsbmNiRGZJVkoyU29xU041M2VyS2tEcTVneFRJcmFyR1Y4SThLMHR1b3dxNHFiZU5uLUZEV0ZOdlZPWGtmTkZJcWZSR3RtVGc?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T10:35:11.000Z",
    "summary": ""
   },
   {
@@ -120,18 +144,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-12T08:22:36.000Z",
-   "summary": ""
-  },
-  {
-   "id": "acd51dc43d3a",
-   "title": "Police seize thousands of counterfeit goods at 5 Alberton shops",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX0Q3ZnBtdlU5c0RvU0RwWkRQZTNzZmpmaVE1LXE5a2pzbDBtRzNBMDJyVGpQMF9KYXVoTTBYNTdHaGo4enZna3lULTFVekY2aDdKb1B4TEtfTWYyUWxoNkc3dHNsTGJZdXZIRk1IVWdRcjlNYkVZcy1IQlpLT0VvM3JtZGJteWEtUUZPbHB5b29nVHNpTUM5Q0RBMUN0Tl9qeWhtVGNOcEMxQ1hBUnNWbmxvTkRWM21jVTJnSk5hdnVlVnpzSHB5UkVFU1l6Rkk1VHpIVFVWZw?oc=5",
-   "source": "The Citizen",
-   "sourceUrl": "https://www.citizen.co.za",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T06:41:02.000Z",
    "summary": ""
   },
   {
@@ -351,51 +363,27 @@
    "summary": ""
   },
   {
-   "id": "3dbf67df903d",
+   "id": "f4f8ccdee731",
    "title": "«ملكية فكرية» سعودية تتجاوز تحديات زراعة الأسنان.. اختراع آل تومان ومنار العمري",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CeHRaMDFVOFhNal90OThYa2tmME5NbTFPQlZjRlpGT1llOENTUWJicWpwS1VVN1cyMEdBMFlSRzJPc1ZJOVJJN3c0Y3lYOXN6NmtUVtIBVEFVX3lxTE5CeHRaMDFVOFhNal90OThYa2tmME5NbTFPQlZjRlpGT1llOENTUWJicWpwS1VVN1cyMEdBMFlSRzJPc1ZJOVJJN3c0Y3lYOXN6NmtUVg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GR1lkdXZtUklPYVhJUDhVZnVqci1uaWFVWE5wV3NNUHAxNWdRdWZVTElsc1JpYUJYdjNmVmZRWDFtOU4wSS1UT0RnNDVvdENicktCTdIBVEFVX3lxTE5CeHRaMDFVOFhNal90OThYa2tmME5NbTFPQlZjRlpGT1llOENTUWJicWpwS1VVN1cyMEdBMFlSRzJPc1ZJOVJJN3c0Y3lYOXN6NmtUVg?oc=5",
    "source": "عكاظ",
    "sourceUrl": "https://www.okaz.com.sa",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T09:16:19.000Z",
+   "date": "2026-11-11T09:16:00.000Z",
    "summary": ""
   },
   {
-   "id": "7f858d5d2b88",
-   "title": "In 10 months, nearly 10,000 cases showing signs of intellectual property infringement were detected.",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZGtVQVdKYmswRUZoOC1jVml6Qzd2WGZ1Tkc4LWpuTmh5Sm9TSFBLVmQ5QlVDNEdBZjdvYUY2N2ZXdDBmWEptMHVpclJxMVZNU2pUQ21UYVVPNWtFY0Z1VzFUeG9VSjdNajBiMEdXd1YzQ3I3cmNVZFlSazhoQXZsU0IwYWVMSVVPb3JVVlA1TzVMU1Y2Y0tWekxXUWZ2NVp6MlpvVGpfZmc?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
+   "id": "e8447f5b5969",
+   "title": "Hundreds of tonnes of counterfeit goods destroyed",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa05SUnVEWGJKSjdpT0hTWTZhNkFmNlZXTS1OYl9nYmhBY0IxNjN1bFk5RVpJM0JLTTN0YmEyeUJHVFVZakFPbTg2VDM3VDhIS2JJaS1DdVFOZElnVDBuclluQ1hONElVNXVKLXVCbTlzeTRLcnhwbll3VjJsY2xpNEpFZGdVWmxiVTE5M1VR?oc=5",
+   "source": "Phnom Penh Post",
+   "sourceUrl": "https://phnompenhpost.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T08:35:34.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1925fb0a5f4b",
-   "title": "JCO WorldCup26: Over €132 million worth of counterfeit goods seized in OLAF-coordinated operation linked to the World Cup 2026",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZUZ5OE4wQnN3SVRLNEVyYU5NRDVMbEVCRnM0TDZLcG9HSGtnYVhFdjFPY3hCbGJUd1dRYTF5alExTGVndVpzWkJ1cGZJbG03WldLWDBtRjBTeDhIbnJ1UnczZ2lKUm1iMldFYk05OXBQX3NpR0ZqQXluSjZtcEQwUHFCTWM0NTZEaGhaX3R3bGNoOTNlRWFOdGxsX2Z4Q210LS1yQ191My1MWGQwdHNTWGgzUWQtMVRLRFFMaTNUSzhQMTJpRDktQml2N2k5ZUNsd3Q5T2RYOFAtWjNjWHlEa3I2Qk52dF9xeFVSZkp6Vm0xTF9tamc?oc=5",
-   "source": "European Anti-Fraud Office",
-   "sourceUrl": "https://anti-fraud.ec.europa.eu",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T08:03:23.000Z",
-   "summary": ""
-  },
-  {
-   "id": "cf507445d8e3",
-   "title": "النيابة العامة تدشن نظام «المراجِع العملية للقيود والأوصاف» للتكييف القانوني للوقائع",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fT3YwSUFibDhlY0J1TzFfTDgzUVBoZGxSaEpadXlFYVY1Zk01NXR6a1JBZlozWHRpUEpWZnNWX0dOZ0s1ZVU1WG5VNzM1aGlaWlg0?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-10T21:23:06.000Z",
+   "date": "2026-11-11T08:58:23.000Z",
    "summary": ""
   },
   {
@@ -431,7 +419,7 @@
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-08T08:00:00.000Z",
+   "date": "2026-11-09T07:36:00.000Z",
    "summary": ""
   },
   {
@@ -480,18 +468,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-04T08:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ac162430e0d8",
-   "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
-   "source": "صحيفة الشمال الإلكترونية",
-   "sourceUrl": "https://www.alshaamal.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-03T18:26:40.000Z",
    "summary": ""
   },
   {
