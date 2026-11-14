@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T19:38:11.162Z",
+ "updated": "2026-11-14T06:16:08.196Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,32 +9,32 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 22,
-   "kept": 9
+   "fetched": 25,
+   "kept": 10
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 25,
+   "fetched": 29,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 24,
+   "fetched": 25,
    "kept": 22
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 75,
-   "kept": 15
+   "fetched": 77,
+   "kept": 17
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 35,
-   "kept": 31
+   "fetched": 34,
+   "kept": 30
   },
   {
    "id": "labor-local",
@@ -45,11 +45,35 @@
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 22,
-   "kept": 8
+   "fetched": 21,
+   "kept": 10
   }
  ],
  "items": [
+  {
+   "id": "f8ad05a80f9e",
+   "title": "هيئة المراجعين تحيل شركتين للنيابة العامة بسبب مزاولة المهنة دون ترخيص",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zRGtmZTJWa3lmVjhRNDd3eG5OOUlaSU82dW5hVkF2NVFJYi1PcERvak9rWkhxWV92aEZlUVNvUGVHNnBGSXhpRElKcG9fdmJS?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-13T23:40:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "5a196d91920a",
+   "title": "هيئة المراجعين السعوديين تحيل شركتين للنيابة العامة لممارسة المحاسبة دون ترخيص نظامي",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UeWRMUG9iNGZJVVFwc2FTc0RSOTRudGZmbUhuQzJtM0FfX2cxUERSYXpNNVVuRWltbWV0YzZpekhiVGpBZ3NiSm4tRWpwVmFLVTVn?oc=5",
+   "source": "https://emirates24.net/",
+   "sourceUrl": "https://emirates24.net",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-13T18:28:03.000Z",
+   "summary": ""
+  },
   {
    "id": "622b1357283f",
    "title": "Anthropic sued for trademark infringement over 'Mythos' model",
@@ -71,7 +95,7 @@
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-11-13T15:30:18.000Z",
+   "date": "2026-11-13T15:30:25.000Z",
    "summary": ""
   },
   {
@@ -195,6 +219,18 @@
    "summary": ""
   },
   {
+   "id": "acd51dc43d3a",
+   "title": "Police seize thousands of counterfeit goods at 5 Alberton shops",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX0Q3ZnBtdlU5c0RvU0RwWkRQZTNzZmpmaVE1LXE5a2pzbDBtRzNBMDJyVGpQMF9KYXVoTTBYNTdHaGo4enZna3lULTFVekY2aDdKb1B4TEtfTWYyUWxoNkc3dHNsTGJZdXZIRk1IVWdRcjlNYkVZcy1IQlpLT0VvM3JtZGJteWEtUUZPbHB5b29nVHNpTUM5Q0RBMUN0Tl9qeWhtVGNOcEMxQ1hBUnNWbmxvTkRWM21jVTJnSk5hdnVlVnpzSHB5UkVFU1l6Rkk1VHpIVFVWZw?oc=5",
+   "source": "The Citizen",
+   "sourceUrl": "https://www.citizen.co.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-12T12:41:02.000Z",
+   "summary": ""
+  },
+  {
    "id": "6251a27a8a9c",
    "title": "Court adjourns N2b trademark infringement claim against bank",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdlZPZVB3cmV0NHNFWnB1RklnTk9XN1dmWm5QWHVzc0xjSGUxdnlqN2kyLWZSMmh4MWxvVXV0UXRpOWdQTkcyUk1aLS12Um5fZkdHUGd2TE5oQlBwMFNyWDJ6dHZLVHU3NFBLM0JCdldtSzNrUWw2NG1oUHdFMVNSY0h3MDNqNnd1X1Y3R2hHaw?oc=5",
@@ -252,6 +288,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-11T19:04:23.000Z",
+   "summary": ""
+  },
+  {
+   "id": "6ecdf942783e",
+   "title": "Trademark protection in Mexico: Is your business prepared for the 2026 reform?",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zczd4UjJlVHUtRVNDZk9TVF8tM0VDWGVuZjdGNEpoRDRSTEQ1bm91RjkyU2x0M2NjaU9JYlJSX1l6STFDZlQ2QThnMkZOOUJoMFJSWGE1TzctZTRaQkNkMnU1SWZjUFJqZy1TbmRGcTFDNldEUU96Z2hlTFRRTGM?oc=5",
+   "source": "RÖDL",
+   "sourceUrl": "https://www.roedl.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-11T18:55:59.000Z",
    "summary": ""
   },
   {
@@ -399,30 +447,6 @@
    "summary": ""
   },
   {
-   "id": "e8447f5b5969",
-   "title": "Hundreds of tonnes of counterfeit goods destroyed",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa05SUnVEWGJKSjdpT0hTWTZhNkFmNlZXTS1OYl9nYmhBY0IxNjN1bFk5RVpJM0JLTTN0YmEyeUJHVFVZakFPbTg2VDM3VDhIS2JJaS1DdVFOZElnVDBuclluQ1hONElVNXVKLXVCbTlzeTRLcnhwbll3VjJsY2xpNEpFZGdVWmxiVTE5M1VR?oc=5",
-   "source": "Phnom Penh Post",
-   "sourceUrl": "https://phnompenhpost.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T08:58:23.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1925fb0a5f4b",
-   "title": "JCO WorldCup26: Over €132 million worth of counterfeit goods seized in OLAF-coordinated operation linked to the World Cup 2026",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZUZ5OE4wQnN3SVRLNEVyYU5NRDVMbEVCRnM0TDZLcG9HSGtnYVhFdjFPY3hCbGJUd1dRYTF5alExTGVndVpzWkJ1cGZJbG03WldLWDBtRjBTeDhIbnJ1UnczZ2lKUm1iMldFYk05OXBQX3NpR0ZqQXluSjZtcEQwUHFCTWM0NTZEaGhaX3R3bGNoOTNlRWFOdGxsX2Z4Q210LS1yQ191My1MWGQwdHNTWGgzUWQtMVRLRFFMaTNUSzhQMTJpRDktQml2N2k5ZUNsd3Q5T2RYOFAtWjNjWHlEa3I2Qk52dF9xeFVSZkp6Vm0xTF9tamc?oc=5",
-   "source": "European Anti-Fraud Office",
-   "sourceUrl": "https://anti-fraud.ec.europa.eu",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T08:03:23.000Z",
-   "summary": ""
-  },
-  {
    "id": "bd0e3cced49b",
    "title": "عام / أمير الشرقية يستقبل مدير فرع وزارة الموارد البشرية والتنمية الاجتماعية بالمنطقة",
    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE94bWd4TWM1Q2JUclVRZXFJY3FzaXIzeGhNQTdoQks3UzhRNXRhU29sMWpBd0RfV1V3VGt0Y3ZQckZsX3JYMnc?oc=5",
@@ -435,15 +459,15 @@
    "summary": ""
   },
   {
-   "id": "7bd5d7642299",
-   "title": "إتاحة حجز مواعيد فحص العمالة المنزلية الوافدة للمملكة إلكترونياً",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13WmVWR21MV3NYT2tqdEFGMGtnMDBxRTY1Uk5XS3V2YnJFdjI4S0JzM3UtOXR5dkJ3Sl9aUWdoSnNWeDdHZkY2U2djSlNRWmkxTkpFTUlqNXfSAVhBVV95cUxNd1plVkdtTFdzWE9ranRBRjBrZzAwcUU2NVJOV0t1dmJyRXYyOEtCczN1LTl0eXZCd0pfWlFnaEpzVng3R2ZGNlNnY0pTUVppMU5KRU1JajV3?oc=5",
-   "source": "جريدة الوطن السعودية",
-   "sourceUrl": "https://www.alwatan.com.sa",
+   "id": "470b927bbfff",
+   "title": "وزارة العمل تُحذر من صفحات وهمية تستغل اسمها للنصب على الباحثين عن وظائف",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd2RIZHlZYllGZkdpQzJxa3RuTGdKby1tUUtBTTFxaTY2cFFIbFhZWkwzMm1NX1pBaVhJN1BCQ1BrQUpEMXFjLUVsbjdjLXYwZlRmXy1GbVd1dU40U19oVzRlVEZaeWhfWFM5YUI0OUdBbHBhcXNtbXU0T2NCNzY5X0FhS0pZUXFoQ0ZiN2V1T1NQODdFTlpHV1FtWFltZG5OdFZmbU9Zd1NtcjY5NUlRVHJRcw?oc=5",
+   "source": "بوابة أخبار اليوم الإلكترونية",
+   "sourceUrl": "https://m.akhbarelyom.com",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-09T15:41:00.000Z",
+   "date": "2026-11-10T04:10:39.000Z",
    "summary": ""
   },
   {
@@ -459,15 +483,15 @@
    "summary": ""
   },
   {
-   "id": "38b044f4188e",
-   "title": "عام / وزارة الموارد البشرية والتنمية الاجتماعية تعزز جاهزية العاملين السعوديين في القطاع الخاص عبر \"مسرّعة المهارات\"",
-   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1KdGRxSXlMUDBTQ01kRXJEX29LSkRyWk5ZU3ZNMkl0d2h1WUM4Rllncy1MbWNHMWRXX2NSN1V2Nk10MXBSODkzM0NR?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
+   "id": "29a464012d82",
+   "title": "وزارة العمل تحذر من صفحات وهمية تنتحل صفتها للنصب على المواطنين",
+   "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxOeHU2TWJVMXh1VEdkWHdRNjlmdkJwTlpTWTIwOG1CRjJrNnRkczhrMXFLT05FbXQ4Uzh4cVg4eGsxY3l6Q3hZQ0pfVDRvbDdMQkdVZnBGcWM5Q0hHX2kweXJzRFVsSHJFSFhBWHJhRTNQYmRSUlZLZWJmWEdyUmF3RFliSTZjYVhkS3JVMjFlME14NXRsTEl0QTh6RmZtdjA5QTkzU0p5NW9hOWp6T2VOTnRyazRTTnRrbVZ0cTR4aU5TMTNOVGU1eFpzMmhaZWJoRkF5cGxJZG82MXV4YmdhWlJJZ19fWG9zQUhYdG9PVTdRdGtvcnY3T0tJOVplOG52bk4ycUtaVVUtOG5YYlNfV21kcE0xaGdjU3p2dmxfbW1YV1F1QlRJTEFfTXRNM3lkTnYxZ3R5SS12ZnpDdi1pNWJWeDNIQVhhWVZIbGc0c2xWSGRYbTMyQmFhTWxBZ3djMHI4d2x0a3NiUHFkY3QzZ3g4cFlNOGhXeVBOS0EwTU9iMDR2ak9wa1lZcUdTODZZeThpMGJPVmxIb3h4aHFzaWRBNFR2TDd6YWQ3UnhUQ2ZRMlg2LTZzMjZwc0xPNUxPNEtHbk1fZ2RiWmMzUExKRGw0RTBiNUxWNGZNeWlaNkRBY3V1cGstRWxpWnA0cWdvNFA4bWlRM3lVdE41WjFlNHg3TTFYZnJ1NEUtQzBxejlRNC1q?oc=5",
+   "source": "الهيئة الوطنية للإعلام",
+   "sourceUrl": "https://www.maspero.eg",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-07T13:59:50.000Z",
+   "date": "2026-11-09T07:24:00.000Z",
    "summary": ""
   },
   {
@@ -567,6 +591,18 @@
    "summary": ""
   },
   {
+   "id": "bfbf79aefcd3",
+   "title": "أصول بمليارات الدولارات.. نزاعات الملكية الفكرية تعيد رسم خريطة الاستثمار العالمي",
+   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOX0h3UlpkVFM4X25UN2ZhY0QxenU3dHVIY0ZLRm5iRDVTNElhbEpzWGhuOGFDQ2haak9paVFSc2JhRnUwTkd6SC1PNUF4cTh6UGhtTE5ieGVFRE9qVHpBR0ZNQU44azE0SERZZzBIeGlOY2NoYTJsWWI2bS1DRmx3QlpiQ3NyajlYaUpPUmY3bWJKbGlFcElfYmhUU3RZVy1yclNCOWk4b2piczNMQW1TT3AyOVFoVXpFTXdRWjJFQnRZRl9BcEV6b2dzU0VMSUZfLXRXeF8waHBra3hYMHA2VkZlTFItY1BFaWg2S1VtMWJhTVZWQVpXdnJwUmtMWXNmOHpfY1B6VUY0NThGQmo2SDZrdWFQYjNiQ2hRREFaVVhjc0UyT1NkM2Q4Uml5d0tWV1BfNHhIbw?oc=5",
+   "source": "الجزيرة نت",
+   "sourceUrl": "https://www.aljazeera.net",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-10-26T07:00:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "e724158c12b3",
    "title": "\"إتش بي إي\" توسّع التوطين التقني في السعودية ليشمل البرمجيات والملكية الفكرية",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE00WmVEWWc2aFI1RTBUYllEc1dXSkRmSXJVckZla0t1ZE1UZGM2RG10cjloYkR1U3ZWRVg0WnBrMDAzV3VoQS1r?oc=5",
@@ -591,11 +627,11 @@
    "summary": ""
   },
   {
-   "id": "440e651dfa57",
-   "title": "رئيس مجلس إدارة هيئة الملكية الفكرية: موافقة مجلس الوزراء على 4 أنظمة تعزز بيئة الإبداع والابتكار والتنافسية في المملكة",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQa2wySHNncmc3eFJOZ1YzcThubzNPRS1LcTMxdkNaQktQUWZINUREX2tpM2t6VFUzUEg3cG4tNm42d2ZaZHF4X054d3Q5QURoT1ljdmVxaTFFTzJuSDZ3RHA4ZGh2ZlgyU0dBYjB2THJJXzUyU3Q4bW1YZ3FKbnIyZFdqVHl2X2J3U2d3RWlmTENyWDlPd1NBZmZXX1A5dkNvVWJvOGpyTGJ0RjJOejdkT3NOUTZCQzY2dk05T1lzbWtUbTZvcUwtTWh0RUF2QlM0YnBKQWVWNWhqS293VmlqNG1wc1JfbElzTUhNVXg4UGhfTHFE?oc=5",
-   "source": "صحيفة مال",
-   "sourceUrl": "https://maaal.com",
+   "id": "89ae41adf723",
+   "title": "الرئيس التنفيذي للهيئة السعودية للملكية الفكرية: الأنظمة الجديدة تعزز حماية حقوق الملكية الفكرية وتدعم نمو الاقتصاد المعرفي",
+   "url": "https://news.google.com/rss/articles/CBMi6wdBVV95cUxQaDZuSENPblczVnl4a3lFS19tS0tabms4cHZLVFV3VGl6Um9JbGlNMHB0V013QVM2NkxQWlpNVFBZRnJFTjhjeXFSVWc5VFdaMURDSF84MFpSNHRHY25VWUVCWF92eTU0dk5IWDg0MXE1QzF6OElieHVqWU1BTTUtRTBoR3Y3Ulh3U3VTckNiaktHTmZzSTcxVy1ZM1hSQlgyVk40dWNBc1AwMjQ2bGpkWWliZXdDZWM4X0Q2Ml83ajV0a2NBQ0dDYjV6UHRRak5wRE41d2JFR1pOWmtiRjZaX3Z4Vy1mU0FFazA1SGVMUzZyNXBVV3N0X09reXFMNUlfNThpaGtJWnRCVVZ3QnM4Nmh4UXZNLTlaODhvM2xaVkt5VUFESFk2dkVqcDJBY1Q3Yk1kMkQzU2tCUGZwdUZ6SlJENVVZd2k1Wko0UlN2cjhCVExEX3RQejdhUmRxMGRGVVE1UjV3c1h5WW1VSk44Y21HUnlhRFBZN1c2cS1RTmJadk1UYURIb3N5aTh0c3hsbzVqTUQ2bVFrYnNvTHZmUDlKWU5ISlZYNVJ6TTJqZU5WSGp4blZENWk1WFY0ay0yWGloZzhCRHFYenh1dXJEQUhaMGVyZ29tNGxFY24zVGVBNFExeml6amlxNWtIWlptMTdyblYtdGVldzJSWWpXQmd5TGM1ZEpZeFN4QUZmM0ZqVHZ1U2F2dElWREtQanNlZ1dnenF2SElxeEc2TmhPVEZXd2xKWjVvNTl0ZlJoc2x0MExvQ1VwNTFtTVd6ZHZWMHpVMlJ3di1jUWtyLUkxX1RHVUhmcWNXb2hwemlTN3pqMzhkalRFNW5KTWhuTnNmZHhoZnJmdmM2dE9wM1NHQjBhVjB0OXlVeS1udGtkVVRxMk1EbzBqZzBNZ0NOY05ub3BqQjFCXzR4VTAyTFpfajdzcXF3VGY5aXdGVjNPbTRjMHNaNFRhUFZTUDRJUW1aWnAyUWUtUDk2RUNjYjRjdGVWV0cyZi1qV0w0Rm1BeXBDREhJYzFsUzFtQzhVZ2ZvbllUZHZtaURwYkM4amFMUmNWMVlaQmo5VkZrQUpsODFxUVZDSHp0QUFZTWNSWXBlQlhidFZ5N25LeWwtQldEeExSSGNEM051UHpJR1NvSDdzTldqWXJ2MTg5S0FiaGUtUWFQOTZZbU42SHV3aFpqdEJwMXFFdjN1QWloZTYyVTZMUV9HbTlGSWRSM0VrWFQyNldGdEZsaFRrU0FTaFVkMXdCT1k5MWRWSFg1dVJZWWpYMnUxbkFQaDhveDlUNGR1b0lCQXZRUm1LYnVKdDFqaFJZaFpvVk5GTFVR0gFXQVVfeXFMT2Q4UXNOaEwxVTNzbl9vU0l1NVBYMFl4OTc0Wm1jQ0g1VTEyYkxuNTBfa20zMFVFRjRTVFF1WHVoYUNWOGlfWFUxc2dMV3daRXJFeUFNclVF?oc=5",
+   "source": "جريدة المدينة",
+   "sourceUrl": "https://www.al-madina.com",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
@@ -603,11 +639,11 @@
    "summary": ""
   },
   {
-   "id": "89ae41adf723",
-   "title": "الرئيس التنفيذي للهيئة السعودية للملكية الفكرية: الأنظمة الجديدة تعزز حماية حقوق الملكية الفكرية وتدعم نمو الاقتصاد المعرفي",
-   "url": "https://news.google.com/rss/articles/CBMi6wdBVV95cUxQaDZuSENPblczVnl4a3lFS19tS0tabms4cHZLVFV3VGl6Um9JbGlNMHB0V013QVM2NkxQWlpNVFBZRnJFTjhjeXFSVWc5VFdaMURDSF84MFpSNHRHY25VWUVCWF92eTU0dk5IWDg0MXE1QzF6OElieHVqWU1BTTUtRTBoR3Y3Ulh3U3VTckNiaktHTmZzSTcxVy1ZM1hSQlgyVk40dWNBc1AwMjQ2bGpkWWliZXdDZWM4X0Q2Ml83ajV0a2NBQ0dDYjV6UHRRak5wRE41d2JFR1pOWmtiRjZaX3Z4Vy1mU0FFazA1SGVMUzZyNXBVV3N0X09reXFMNUlfNThpaGtJWnRCVVZ3QnM4Nmh4UXZNLTlaODhvM2xaVkt5VUFESFk2dkVqcDJBY1Q3Yk1kMkQzU2tCUGZwdUZ6SlJENVVZd2k1Wko0UlN2cjhCVExEX3RQejdhUmRxMGRGVVE1UjV3c1h5WW1VSk44Y21HUnlhRFBZN1c2cS1RTmJadk1UYURIb3N5aTh0c3hsbzVqTUQ2bVFrYnNvTHZmUDlKWU5ISlZYNVJ6TTJqZU5WSGp4blZENWk1WFY0ay0yWGloZzhCRHFYenh1dXJEQUhaMGVyZ29tNGxFY24zVGVBNFExeml6amlxNWtIWlptMTdyblYtdGVldzJSWWpXQmd5TGM1ZEpZeFN4QUZmM0ZqVHZ1U2F2dElWREtQanNlZ1dnenF2SElxeEc2TmhPVEZXd2xKWjVvNTl0ZlJoc2x0MExvQ1VwNTFtTVd6ZHZWMHpVMlJ3di1jUWtyLUkxX1RHVUhmcWNXb2hwemlTN3pqMzhkalRFNW5KTWhuTnNmZHhoZnJmdmM2dE9wM1NHQjBhVjB0OXlVeS1udGtkVVRxMk1EbzBqZzBNZ0NOY05ub3BqQjFCXzR4VTAyTFpfajdzcXF3VGY5aXdGVjNPbTRjMHNaNFRhUFZTUDRJUW1aWnAyUWUtUDk2RUNjYjRjdGVWV0cyZi1qV0w0Rm1BeXBDREhJYzFsUzFtQzhVZ2ZvbllUZHZtaURwYkM4amFMUmNWMVlaQmo5VkZrQUpsODFxUVZDSHp0QUFZTWNSWXBlQlhidFZ5N25LeWwtQldEeExSSGNEM051UHpJR1NvSDdzTldqWXJ2MTg5S0FiaGUtUWFQOTZZbU42SHV3aFpqdEJwMXFFdjN1QWloZTYyVTZMUV9HbTlGSWRSM0VrWFQyNldGdEZsaFRrU0FTaFVkMXdCT1k5MWRWSFg1dVJZWWpYMnUxbkFQaDhveDlUNGR1b0lCQXZRUm1LYnVKdDFqaFJZaFpvVk5GTFVR0gFXQVVfeXFMT2Q4UXNOaEwxVTNzbl9vU0l1NVBYMFl4OTc0Wm1jQ0g1VTEyYkxuNTBfa20zMFVFRjRTVFF1WHVoYUNWOGlfWFUxc2dMV3daRXJFeUFNclVF?oc=5",
-   "source": "جريدة المدينة",
-   "sourceUrl": "https://www.al-madina.com",
+   "id": "440e651dfa57",
+   "title": "رئيس مجلس إدارة هيئة الملكية الفكرية: موافقة مجلس الوزراء على 4 أنظمة تعزز بيئة الإبداع والابتكار والتنافسية في المملكة",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQa2wySHNncmc3eFJOZ1YzcThubzNPRS1LcTMxdkNaQktQUWZINUREX2tpM2t6VFUzUEg3cG4tNm42d2ZaZHF4X054d3Q5QURoT1ljdmVxaTFFTzJuSDZ3RHA4ZGh2ZlgyU0dBYjB2THJJXzUyU3Q4bW1YZ3FKbnIyZFdqVHl2X2J3U2d3RWlmTENyWDlPd1NBZmZXX1A5dkNvVWJvOGpyTGJ0RjJOejdkT3NOUTZCQzY2dk05T1lzbWtUbTZvcUwtTWh0RUF2QlM0YnBKQWVWNWhqS293VmlqNG1wc1JfbElzTUhNVXg4UGhfTHFE?oc=5",
+   "source": "صحيفة مال",
+   "sourceUrl": "https://maaal.com",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
