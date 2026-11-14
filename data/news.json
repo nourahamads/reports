@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T13:34:52.172Z",
+ "updated": "2026-11-14T22:20:22.744Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -10,43 +10,43 @@
    "id": "ip-local-saip",
    "ok": true,
    "fetched": 25,
-   "kept": 10
+   "kept": 9
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 29,
+   "fetched": 27,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 27,
-   "kept": 22
+   "fetched": 28,
+   "kept": 23
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 78,
-   "kept": 19
+   "fetched": 87,
+   "kept": 16
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 29,
-   "kept": 25
+   "fetched": 32,
+   "kept": 26
   },
   {
    "id": "labor-local",
    "ok": true,
    "fetched": 29,
-   "kept": 7
+   "kept": 6
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 20,
-   "kept": 9
+   "fetched": 26,
+   "kept": 7
   }
  ],
  "items": [
@@ -123,6 +123,18 @@
    "summary": ""
   },
   {
+   "id": "b4485f9165c1",
+   "title": "هيئة المراجعين تحيل شركتين للنيابة لممارسة المحاسبة دون ترخيص نظامي",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ocGVQMF9Ha2RYN0VLbnUtc0F0UFR3WVkxTUZVbDBLd3UyR1dnOGppR3pWby1xajJLZmUwa0cweG1TbUEydEM2Z0EzeFRoRTZt?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-13T20:37:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "5a196d91920a",
    "title": "هيئة المراجعين السعوديين تحيل شركتين للنيابة العامة لممارسة المحاسبة دون ترخيص نظامي",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UeWRMUG9iNGZJVVFwc2FTc0RSOTRudGZmbUhuQzJtM0FfX2cxUERSYXpNNVVuRWltbWV0YzZpekhiVGpBZ3NiSm4tRWpwVmFLVTVn?oc=5",
@@ -156,18 +168,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-13T15:30:25.000Z",
-   "summary": ""
-  },
-  {
-   "id": "b30c97ec9c59",
-   "title": "هيئة المراجعين والمحاسبين تحيل شركتين للنيابة العامة",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbDFVYnp6OHBrWWUwZ0JVc3IzT2h6dW8tanFwTnR0SlJRb0MtdjBzUGowT2JmY25nbjFncWlEN1d4RWM2MzBKQmZGc1FmMHNjRVliLXNtLXBwM1UyaEFySXZKVllrY2RaMHVzS1RMblVsTGk0N1UySmtfc2Z6VnhwbUtEaVVNOW9UV3ZidzZtZ01WRFM2RXF6QkJyWjZla0pkTk1pNmFNLU5QMkhoRGxv?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-13T13:11:17.000Z",
    "summary": ""
   },
   {
@@ -387,27 +387,15 @@
    "summary": ""
   },
   {
-   "id": "81698dc26c86",
+   "id": "70a50aa5655a",
    "title": "New WIPO Academy Course Explores IP in the Business of Videogames",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR2lnQU51MVd4akVGdGthTEU5TmJpenZnOTdIamJOYmhGMkhBdjVKdUFxWDBFbDRNNUFwYTN5WmdRVG8wMkw2WlI5Z2U3ZUNhWnpic1pYNndqakNhRXpNdmI1RElzdEt0dDRGazNZSllXN3F2VnBkaVJpU0thWmIybjgzRk95NE5ZT2c5b0ROTWZmd2FFNVQtaEdYb2xjcHJZOW96czZKY1FmVU1nYUF2djdmTUc5X2FBQmc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcjdEakVHY1NyS1p0MXdhbXZOY2hSU2pHbmpWUjZYMkVOTXQ2bGhPVEp0NEpkMXBib19KYXZ3akxUSWtsS0Z0enlDT3JXNng3ZS1FLXlsNDQ1SmFSY3BycnhWbUpMclNEdE4zZnFoY3Qya0xodmgzZERoTjZjQ3hNeUJkWmhhaEhQMUdCaEl0UXNSS01uYWhoTFIxQUF3SWdXMm9nM3MwQ1c5YTlvdnRBMDZQSVprMmJ6aFE?oc=5",
    "source": "WIPO",
    "sourceUrl": "https://www.wipo.int",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T15:18:24.000Z",
-   "summary": ""
-  },
-  {
-   "id": "bd27011f43cf",
-   "title": "COP31: WIPO GREEN Launches Green Technology Book, Solutions for Climate-Impacted Ecosystem Restoration",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOTURIbVdHOTAtckp5ZTN0dUdmNFVlZXcyM2xKUjAycW1VV2FPTEtLdXNLVlMxdXdiS1FqNUV2QnhKUFNBRWhXVS05azBXYnBXSERYSC1PN285VjZRWFRuSXgtNnB4YTNHaWFCTXNLdFFDNXhQZ1JicmNFbGpJazhKLU03N1NmME4yN1U1bDRrU3A5Y1FBZEJrcGEwWUFScnlGaEVja0YyY3N1SjBhMjVESnJtNEhTV2gtV2hER0ZNeE5jcXlibEdPamhHVENiX3ZqOFNnNE5VSVRYcTdMa3ZNRmIwaGpNTEVmV2xBSVpORlFyRnBS?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T14:15:47.000Z",
+   "date": "2026-11-11T14:33:45.000Z",
    "summary": ""
   },
   {
@@ -420,6 +408,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-11T14:12:52.000Z",
+   "summary": ""
+  },
+  {
+   "id": "a9d31f3fe1bc",
+   "title": "SAPS confiscates counterfeit goods at 10 shops in Gauteng",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQnJMUFpGdXlQbWNpTi12RF9pTXFZWDZTdEpfSy03eGw4WVJ5OEFjRnVqejJjTkVTTHBEbHFtWDMzaG94RklXcXpUOXRqbEFvWjlMTDBwREl3SE5ULV90cjg3ajhlYnZYdjdXbm5uNl80NU5qaHhPVVpyNFpaUU90ZTRyUlN0NXNxeHFTVzRXN3BTNU1W?oc=5",
+   "source": "South African Government News Agency",
+   "sourceUrl": "https://www.sanews.gov.za",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-11T10:47:05.000Z",
    "summary": ""
   },
   {
@@ -459,18 +459,6 @@
    "summary": ""
   },
   {
-   "id": "470b927bbfff",
-   "title": "وزارة العمل تُحذر من صفحات وهمية تستغل اسمها للنصب على الباحثين عن وظائف",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd2RIZHlZYllGZkdpQzJxa3RuTGdKby1tUUtBTTFxaTY2cFFIbFhZWkwzMm1NX1pBaVhJN1BCQ1BrQUpEMXFjLUVsbjdjLXYwZlRmXy1GbVd1dU40U19oVzRlVEZaeWhfWFM5YUI0OUdBbHBhcXNtbXU0T2NCNzY5X0FhS0pZUXFoQ0ZiN2V1T1NQODdFTlpHV1FtWFltZG5OdFZmbU9Zd1NtcjY5NUlRVHJRcw?oc=5",
-   "source": "بوابة أخبار اليوم الإلكترونية",
-   "sourceUrl": "https://m.akhbarelyom.com",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-10T04:10:39.000Z",
-   "summary": ""
-  },
-  {
    "id": "77a085bd02d9",
    "title": "وزارة الموارد البشرية والتنمية الاجتماعية ووزارة الصحة تتيحان حجز مواعيد الفحص الطبي للعمالة المنزلية الوافدة حديثًا إلى المملكة إلكترونيًا",
    "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxPbWxQcWdjdUwtQ0dpekdGUF82NHVaVXZCbG9OSUwyNHBGa2w0Y0V6Z09tWFBKekMyamVNNmc3d0MxNTB2RFJMQlFkNFhELThzNkhiVE1FcmFSOEdqcmY3c0NiR3daeU5saDM3eUw5ZTRlZWpGVEFkMmFmSzIxMHc3NU9HSktaUU5RblJsSzJmVWx3Vkp6b05pY05Mc2V0MERhQ0R6TFNfY256Mnc1UWtoTkZ3R0JiTnlaSG92djZLZGdBd01jVVUtQ0ZucnJQeXdPTzViQVJyaUpyR1FnWDJYZFFGRW1WUk9McUMwTjgyazVFeDRGUHZvVGxrZVpNeEZydFhzM2tWRlh1ZEhkdG0xeWpjRFRXMkF2bVFQUXV1QnRuaEpyQ1BINUs0b2hQQzJZdUFoQWlVOXI5MjlSODh0X3duN3ZYdkwzSHU0ZFJ6YjdPbHRzOHAxRWJFUVQyckpFeEJncTUtaUhZb0JURVRqMDhYQWJDaTFLYi15VFRGOW5jVU4taURLMmxrcFNnQTcxQ2VZckxjQkVIZlN6eWoySjFzWjE?oc=5",
@@ -483,15 +471,15 @@
    "summary": ""
   },
   {
-   "id": "29a464012d82",
-   "title": "وزارة العمل تحذر من صفحات وهمية تنتحل صفتها للنصب على المواطنين",
-   "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxOeHU2TWJVMXh1VEdkWHdRNjlmdkJwTlpTWTIwOG1CRjJrNnRkczhrMXFLT05FbXQ4Uzh4cVg4eGsxY3l6Q3hZQ0pfVDRvbDdMQkdVZnBGcWM5Q0hHX2kweXJzRFVsSHJFSFhBWHJhRTNQYmRSUlZLZWJmWEdyUmF3RFliSTZjYVhkS3JVMjFlME14NXRsTEl0QTh6RmZtdjA5QTkzU0p5NW9hOWp6T2VOTnRyazRTTnRrbVZ0cTR4aU5TMTNOVGU1eFpzMmhaZWJoRkF5cGxJZG82MXV4YmdhWlJJZ19fWG9zQUhYdG9PVTdRdGtvcnY3T0tJOVplOG52bk4ycUtaVVUtOG5YYlNfV21kcE0xaGdjU3p2dmxfbW1YV1F1QlRJTEFfTXRNM3lkTnYxZ3R5SS12ZnpDdi1pNWJWeDNIQVhhWVZIbGc0c2xWSGRYbTMyQmFhTWxBZ3djMHI4d2x0a3NiUHFkY3QzZ3g4cFlNOGhXeVBOS0EwTU9iMDR2ak9wa1lZcUdTODZZeThpMGJPVmxIb3h4aHFzaWRBNFR2TDd6YWQ3UnhUQ2ZRMlg2LTZzMjZwc0xPNUxPNEtHbk1fZ2RiWmMzUExKRGw0RTBiNUxWNGZNeWlaNkRBY3V1cGstRWxpWnA0cWdvNFA4bWlRM3lVdE41WjFlNHg3TTFYZnJ1NEUtQzBxejlRNC1q?oc=5",
-   "source": "الهيئة الوطنية للإعلام",
-   "sourceUrl": "https://www.maspero.eg",
+   "id": "84ad57164fec",
+   "title": "السعودية توضح خطوات إنهاء عقد العمل إلكترونيًا عبر قوى دون مراجعة صاحب العمل والشروط المطلوبة",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MM2ZDQmxEa1cxU2dEWTVROXY3RVo1WVRHQlVHdzdpamdoV1FqaDhhMXRrcEo1Ry1VRlhQYXNFWlJzaFNpaVI5WjczWUNWWXcxWl9qTTFLemktSG90bVFZLWZMV1lybDMzNHRPYV9zZw?oc=5",
+   "source": "صحيفة اخبارنا",
+   "sourceUrl": "https://www.akhbrna.ae",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-09T07:24:00.000Z",
+   "date": "2026-11-08T03:21:54.000Z",
    "summary": ""
   },
   {
@@ -564,42 +552,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-01T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "19b292617d7f",
-   "title": "عام / خادم الحرمين الشريفين يصدر أمرين ملكيين بترقية (172) عضوًا من أعضاء النيابة العامة",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9fdFlXX2c4T2kzMXJsQlYyNGxZWXY4WFpPT3ZrTDlCZ1B2eVN5UmxxSGJUX2xyR0xrVlJwU2c2ZHV1VjBfR2c?oc=5",
-   "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://www.spa.gov.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-31T20:59:45.000Z",
-   "summary": ""
-  },
-  {
-   "id": "dcc424d61e8c",
-   "title": "النيابة توقف استقبال بلاغات الامتناع وإخفاء الأموال",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xTnl5V2E5MW9DMS1rR0o4S1dpcmp3bWFjMVlzRFdlRTRwNUFjN3lZQUl6Tlcydy0zdnhqdkVxUEZhSFQwcGhkaUVwNF9laVVxcV9lUdIBWEFVX3lxTE14ZHdoQkpNVDU3LUJGR29XT2lFVm5FT0h2enpYdGtxZ2JLMDJyTUNLT19NV2MzWVpXeWRSWDVqZExqc3RRMUkxMmJLV0dzSzBuWDRocVVPWVM?oc=5",
-   "source": "جريدة الوطن السعودية",
-   "sourceUrl": "https://www.alwatan.com.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-10-31T18:24:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "bfbf79aefcd3",
-   "title": "أصول بمليارات الدولارات.. نزاعات الملكية الفكرية تعيد رسم خريطة الاستثمار العالمي",
-   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOX0h3UlpkVFM4X25UN2ZhY0QxenU3dHVIY0ZLRm5iRDVTNElhbEpzWGhuOGFDQ2haak9paVFSc2JhRnUwTkd6SC1PNUF4cTh6UGhtTE5ieGVFRE9qVHpBR0ZNQU44azE0SERZZzBIeGlOY2NoYTJsWWI2bS1DRmx3QlpiQ3NyajlYaUpPUmY3bWJKbGlFcElfYmhUU3RZVy1yclNCOWk4b2piczNMQW1TT3AyOVFoVXpFTXdRWjJFQnRZRl9BcEV6b2dzU0VMSUZfLXRXeF8waHBra3hYMHA2VkZlTFItY1BFaWg2S1VtMWJhTVZWQVpXdnJwUmtMWXNmOHpfY1B6VUY0NThGQmo2SDZrdWFQYjNiQ2hRREFaVVhjc0UyT1NkM2Q4Uml5d0tWV1BfNHhIbw?oc=5",
-   "source": "الجزيرة نت",
-   "sourceUrl": "https://www.aljazeera.net",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-26T07:00:00.000Z",
    "summary": ""
   },
   {
