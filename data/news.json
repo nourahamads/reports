@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T21:58:34.649Z",
+ "updated": "2026-11-17T07:51:10.448Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,32 +15,30 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 28,
+   "fetched": 29,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 28,
-   "kept": 19
+   "fetched": 29,
+   "kept": 20
   },
   {
    "id": "ip-global-piracy",
-   "ok": true,
-   "fetched": 63,
-   "kept": 10
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "id": "ip-global-wipo",
-   "ok": true,
-   "fetched": 35,
-   "kept": 27
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 28,
-   "kept": 5
+   "fetched": 26,
+   "kept": 7
   },
   {
    "id": "prosecution-local",
@@ -51,6 +49,54 @@
  ],
  "items": [
   {
+   "id": "198734294741",
+   "title": "السعودية.. الموارد البشرية توضح حالات انتقال العامل الوافد دون موافقة صاحب العمل الحالي",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxbzVEcmtEQ2V4cXI5ZElKckZQS3dXNTk4dmdBWW5YX1hSMnJocWNxczdfQnRYam1Qc0k2OENBZUZkRUh0Y1ItSkp0UHVTSDFlc0ZYWFg5eHFYWjBtZVJNQmlGWngxWTllOVpXX1d0bjc4SThwVkJnMQ?oc=5",
+   "source": "صحيفة اخبارنا",
+   "sourceUrl": "https://www.akhbrna.ae",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-17T02:47:25.000Z",
+   "summary": ""
+  },
+  {
+   "id": "b0915efed5f8",
+   "title": "NZ mānuka honey gains trademark protection in UK and EU",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbGFDOHlkamE0el81T3FRQmc3ZzlhbWRUYk9HSXh6WGdxZzNkdkZjWnVwNHpzcWY2UmduekVCTU5weXRrVjBzbks3X21VRzF5c2d3QnpqTnlhaVU1OVgzWUFySUdkLWs3QklUOE8wSTV3WWV1d0c3RlZGREdSQ1FZUC1LeXFiWnh3R3pvZDRZSkxPc2M5dFIwaw?oc=5",
+   "source": "Farmers Weekly",
+   "sourceUrl": "https://www.farmersweekly.co.nz",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-17T02:03:59.000Z",
+   "summary": ""
+  },
+  {
+   "id": "4df9f4b8238a",
+   "title": "ضوابط قطاع العمالة المساندة: الموارد البشرية توضح العقوبات",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORDd5UVFtT3lrUVZYdnpxYUV0S190eTdzTDZNN1k0c1NseHVBNjBxaTA1WUd2R0Jabzg4UmlTX01QdmlKbWN2NXVqdHlfOGpnYUsxVHB4WEE3WWoydnV2T1dRTkRpSHlFYnBlaF9QTm40cS1JejVwXzl5T21hOEktUkppcXVYU2lqVnRtNjlqREIxRUMtUjNVRDdiU3RlTE9IZXc?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-17T01:11:16.000Z",
+   "summary": ""
+  },
+  {
+   "id": "29ecafe81c61",
+   "title": "Business Barbados chair calls for stronger action on intellectual property offences",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTmJFdVRCWjZGNEg1VGpwZEJEbmFpejZPQnZ2UWpoSzJsb1BfSkNxSzlWeFVGYnNxZEs4c21QV09PMkM1Y2t2WHd5M2NWaS01RTZLWEtDVFZTWlAzWmFWSjVBZlg4amp2aVA2TWRiUFgtczJUSHF1LXVpLTdzd0lxcXhIWUNBSkdQV0FZQzNSbi1yWXNkdG4yNzVPd3l0SXo1QTVQak9sY0dNMVNSZ2l2aXFmVDgwWjJLZm4tcA?oc=5",
+   "source": "Barbados Today",
+   "sourceUrl": "https://barbadostoday.bb",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-17T00:30:34.000Z",
+   "summary": ""
+  },
+  {
    "id": "fdb55b7e7a95",
    "title": "Australian creative sector launches campaign against unauthorised AI use of copyright material",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQanFsSjJaeThfZDVNS0tsWFR0LXZjb3J6TEMxa0FWQ1JPSHdzTXNvMFBjdi1od3JUdlBzLXg4V3NKOHNxeWRSVEJfRkNsa2lMQ2ljUXc4T0tOamNLQ2NJVUd1a2ZQa0VodlhCcVE1eGVETDlULTJGWmMzYk5rSi00eXVwN2xvQk43QlVHQy0wZ1JUaHVKWkRMZ0d5VGd0UzFWNUgwank5cW11LWpBd25BVGtEU19yamdLQ2htcjY4cWZVOWh2LXZDeA?oc=5",
@@ -60,30 +106,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-16T20:02:21.000Z",
-   "summary": ""
-  },
-  {
-   "id": "312359f18e27",
-   "title": "رئيس الوزراء يؤكد أهمية الملكية الفكرية في تعزيز اقتصاد المعرفة",
-   "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNU1hueXFZcDVTTUhIQVY1cTBZd09DTXQwTUxid3QwUWlZOWlIVE5ZaU1OTXpsSmtIMmtiZmlKMjBQOG1BQ3NYODN0eVlibTVQRExxRi1fc2prN094c0JGY1JxNUxOZjRzTGRuWXRHTk05U1JzdC1FdDJqaVFVTU1tUlN0MGFLZTM0S1FmU0tVTXNOUEt0V2hMWlhMb2luYjl6VllnRGNpVDhFVVQzc2taOVZLUTZMUUlTX0RiYlZDOEdxTHRRLXAtUEU3MDNwYmNaeHR3N2NnLTFtRUl2RVVodWNXb2NMZjRzRzVGQm1RdEhCak82UkMtSnAxQVNyc3poUDlRdW04VVNpdVQ4QVVkTEREY1JvZ3c4YkRBMDNab0ZsaGtkNmpCc19tbUdITHQ3d214SG11RGtDU3RZdkJyZ0ltd0lzM2JKa2E1ekdR?oc=5",
-   "source": "الاستاد الرياضي",
-   "sourceUrl": "https://www.alestad.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-16T17:36:27.000Z",
-   "summary": ""
-  },
-  {
-   "id": "227c8e623da6",
-   "title": "Foreign Minister Receives WIPO Director General",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTmFDdk1WallGWHZ0eHFweVNmMkVPZ096bEFITzJQejR0NW0yenBaZnFHOEc3R3N3QTNjMlY4c2VfZGtJTmg2TzBjRUh6Rk5MaFRoeFd0eUtXOXphUjRsWjZSUFpOaVJCS3FVUmVyXzdFaGhyc0ZfeWRjR3drdkFQZlNpOERBSXRQMF9ZYXl4d0JQUQ?oc=5",
-   "source": "الهيئة العامة للاستعلامات",
-   "sourceUrl": "https://sis.gov.eg",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-16T13:17:53.000Z",
    "summary": ""
   },
   {
@@ -120,18 +142,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-16T10:30:03.000Z",
-   "summary": ""
-  },
-  {
-   "id": "084028939bab",
-   "title": "Swiss warned of illegal streaming site dangers",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZVNqVzJ4RzJ5aDhJTkJPRExIOWdBU2NvUDJaYkhMZm9nTzlLOWtmdHcwcExVeDFwSjRUMDNxT3NfR3VmYmY0VFNGNWJOcnJJSEFxemloTDdjT0lpbE4yMWp3b0lFT1d3QXRyT0F2NFdjUmtvSVpwSFozOWoxZ2hEdXJIRXpha1hXRjB2REZuSmpVTHZsZEJUSDJMNFlGUEFJOHRNV1hHTkFzQmpwa1pZcThKZkVqNWo0ZVVSbmFn?oc=5",
-   "source": "SWI swissinfo.ch",
-   "sourceUrl": "https://www.swissinfo.ch",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-16T10:16:12.000Z",
    "summary": ""
   },
   {
@@ -231,18 +241,6 @@
    "summary": ""
   },
   {
-   "id": "fcb908105b6a",
-   "title": "Irish dodgy box users face court and €1,200 fines in landmark Sky illegal streaming case",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVBrS2FnVnZqWmt2VnVBT0hSeGxVang4OWVuZGxMMkZ1QU43TWdONE9VRFByN2xfbThXVng5bURNaTVjay11NDZrMlVvWmNCS3ZVdUR5V0FmVGJrMXIwUWE0aExHb3VpM0lyTXVld0tXdDJFQjNOajBnN196VXB6Tm9WaUPSAYoBQVVfeXFMUDU3WWNKZFkxWTdhVmNKWEJRR2Qxc2lmd3lfaW81UFZPQnpETm1HanMxODVPeGhyaWZnVGJHbnZYQ2pkQTVzWHpQOXdxSmR0RHozMnE3cFQ4WXlqYmZiMEJPc1FUZnpRM29GWDUzRWk2R20wRjhhVWtxZi1RY29KT2VweHBsLUg4TmF3?oc=5",
-   "source": "Irish Mirror",
-   "sourceUrl": "https://www.irishmirror.ie",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-14T12:53:01.000Z",
-   "summary": ""
-  },
-  {
    "id": "38d28c47de43",
    "title": "​Anthropic Faces Trademark Infringement Lawsuit Over Mythos AI Model Name",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVGUzXzNFc1JodlliZi1mbFJZSXNjZW1CZG40UHlvczFCNkZ4ZVpScG5PZ2hJdndUQlBwSGtYdXg5Y29qb1FBR1M5YS1RazRHdnc2Q2dzT2lfUldzaGxtdWRpVkV4WHhqOG90OXNNUEdRV3hQcGZWT1E0SWY5ckxjT3VqTmZwRGJhaEJwTmFrQlhxbWFvM3c?oc=5",
@@ -252,18 +250,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-14T11:15:58.000Z",
-   "summary": ""
-  },
-  {
-   "id": "491b0297e9d6",
-   "title": "Limassol customs seize 3,624 counterfeit goods, hold another 1,165 for inspection",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUElzRFlDVU0wSi05NXV3bDBHT0xrRzNEaThiLURobUdhb3hXSExoU1gzZWJwNElQTkd1a2dNNTZFcmJPRk96RnVZMXFXR0VHSXh5cmtrMnJiSjk4MkxULTdwTU1mZFpnb3EySS1HVnFtVDBlY1VubGx2eHE0R1V4T0JXeU1vOWFYNHk1TXVNUkJBTEFyQzBINWdOM0JhNW9mMndTenVZSEF0VVFuQTU0?oc=5",
-   "source": "Philenews",
-   "sourceUrl": "https://en.philenews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-14T09:29:25.000Z",
    "summary": ""
   },
   {
@@ -315,18 +301,6 @@
    "summary": ""
   },
   {
-   "id": "23826d542bab",
-   "title": "£90k fine over illegal workers and arrests - huge crackdown on counterfeit goods sold in Leicestershire",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTlNZbE1rclRZc01kS3JzajZkZEZENlBVaDRJbzZJc1NlOHJ3TzdaeS1HQVk4M1Z6NFJSUU5QeVhIRzB5LV92U1BCaDlQNkFENklEZGY1VlFOdUdIczl4eHFiczAwNjNJT1FjamRibnNXaDgwekY3Y0FzbGV1VGg0SEtVUk5Td3A5bWU4R1lkNE1wY3PSAZgBQVVfeXFMTUtPLU85NFRXT243d1l2UVNuNlF3OTkwN0NVOXpLeEhDMEQ1VVkxWEhyNUxiSWdqVHlXYXJ6RFY0Qjl1cmNnY05NcktnMTA3dTFObnU2UWota1dXODI3Q2s0OFFxQTJxQktZUVBSTUhidHZmc0Q1MWtzWHd6dWpnWl9lT0F3ZTVNbG5zRloxNURoQklXUGxxUW4?oc=5",
-   "source": "Leicester Mercury",
-   "sourceUrl": "https://www.leicestermercury.co.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-13T12:11:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "4e3c05246acc",
    "title": "إحالة شركتين إلى النيابة العامة لمزاولتهما خدمات المحاسبة والمراجعة دون ترخيص",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9FZFpaMGNYOEk5SjVONGJWeDBLZVVsWk0tblRNVVFaemxxRm5mS1VFb1JNMy0xQi1iNV91VmI3RUF5b2V3emVv?oc=5",
@@ -336,66 +310,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-13T10:31:08.000Z",
-   "summary": ""
-  },
-  {
-   "id": "daa578a2fed8",
-   "title": "Ho Chi Minh City handles over 6,000 cases of smuggled, counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWllYYm1FMHlOVHF6X2VoUWtoZVVwZkJMYkNfdWVZUjBrN29xa09tbUVqempCb041VEVaWDJZX2hsWTZTZV9Vb0dOR2M0RDhvX2tocG5RRl9RV1RWYUNENFBFYXVtZW10Q0ZaUU0wNUtMUXEzRVpXTjBqcG5YT0NFRk9FUW5EdjkxZ3RtZGFjUmlmeXVqNEt4U2wzZm9taU1aRnZqeTIxVVpMVlJETENmeXFCLS15Zm5n?oc=5",
-   "source": "Tuoi Tre News | The News Gateway to Vietnam",
-   "sourceUrl": "https://news.tuoitre.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-13T08:52:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "04bd82a79444",
-   "title": "Launching a crackdown on smuggling and counterfeit goods during the Lunar New Year of the Goat 2027.",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT29zcjlKWnpVYWp5UkxvajloLWtpSEJMNTZIRzJmS3BUOFhRMHhId2JqSnZVMlJzOXZFVmhHNmtTYl9pakJVeUdXWDMzYVktWEVscGhSallBekNwSzhOOXE5ckhQSjA1dEhmcUxhbFpia2ZDaGpfUUd2VTNVekgwQTBLRjFzLXI3ZW1za0hrSV9TcThFUlpLM3RSb3haOTA?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-13T05:04:52.000Z",
-   "summary": ""
-  },
-  {
-   "id": "25e44f45ff01",
-   "title": "Visakhapatnam: Piyush Goyal Meets WIPO Director General Daren Tang #Gallery",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc2JiWVJxX0JQUzZSQ0dyOWN0Unl4bTgwU0JLM0ZQZWhXYVhUQXUyUm1zVWJnQUxxYmM2QjVCQmJ3cGZsQjFWTUk1Y2RrVUM5cWx3djlVTEd3czFsTUU5ZTVzZmU4bFRqdldNaGtnTHBpU1FPVzlSV3I0SHU5SnBzS3Z3WS1wdHh4N1VvSUpZcHROR2pmTWVmRUxoODBReHB6Rmc3RzVCNFloWjdLeVQ0aEJR0gGyAUFVX3lxTE1zYmJZUnFfQlBTNlJDR3I5Y3RSeXhtODBTQkszRlBlaFdhWFRBdTJSbXNVYmdBTHFiYzZCNUJCYndwZmxCMVZNSTVjZGtVQzlxbHd2OVVMR3dzMWxNRTllNXNmZThsVGp2V01oa2dMcGlTUU9XOVJXcjRIdTlKcHNLdndZLXB0eHg3VW9JSllwdE5HamZNZWZFTGg4MFF4cHpGZzdHNUI0WWhaN0t5VDRoQlE?oc=5",
-   "source": "Social News XYZ",
-   "sourceUrl": "https://www.socialnews.xyz",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-13T03:15:30.000Z",
-   "summary": ""
-  },
-  {
-   "id": "5ad58bcccea6",
-   "title": "WIPO launches AI Assistant for the Global Innovation Index",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSk91VTZwZHVUNFZHRDVBT2ZZanRzVWt3QnlkNmkwU1BVQmkydFhZbmRiNmVuWFc2TEpUU2hNQ3BpUmV2SEhrOG1mNXhzQVhLd0tOcTBUR0dIX3NVeFNRREhYU3AzSDItWUFLOWJGZ3ZocEp3TXJuQ0RWNkdKeEFkYWpvdENnU19sZFNfNUZaWEZaQ3hCQ0RJLV9aMFgtbzNYWHVaNU9RbHd0SFVhTVpTOFZlS05xZlZITWlzMGFOYw?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T16:53:17.000Z",
-   "summary": ""
-  },
-  {
-   "id": "15802d7fb075",
-   "title": "Peak campaign against smuggling and counterfeit goods during Tet Dinh Mui 2027: Rectifying the situation of 'fragmenting' and 'rounding up' criminal cases into administrative ones.",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVlByUW45cTlvWlh3djd5aWpsUnc5ZkhBWmxlSUpsUWtMNk5fX3VuZWU4d1JfTy13MzZOWkJScFZ3UzJSRlhYcks5cC1EcVp5RndmLTJrTkxyLUlSeXY5NzhvQ2J3SnRnYXVOd2NsdEN2bEdvQTVkelJLUmVvREIweW56c0NGZUsxM2pKVE9LakVqOUVKaHFQNldsQjNNcmNhbFRnbW5jQTdoQzU1VkUybnNHRmh6ZHV6SGg4LVhkY2tRdkNQSjBKejRFaXlDUkVudlNDbmdLd0pLZWZka3BGRFpn?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T16:15:03.000Z",
    "summary": ""
   },
   {
@@ -411,30 +325,6 @@
    "summary": ""
   },
   {
-   "id": "fc02005188f7",
-   "title": "Andhra seeks WIPO’s help to protect local products and promote innovation",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMlNqcGtaUFJDNUJqX1E4TFgteGZoSGpxTGlybEs3VDBnWnhXVlY2X1FqZlBidHkzUENmWnhXeTdWZHAtQ3hHMXRCbUNuelNkeHJWOHBVREhwLVV0LXZVSmQ0aXBMYXFSSnBHaUhWbUhjNWpjZGEzOUJPbG9zVXhjaFc2R01heUljM2R6djJJLVBkQzVmQmpjZE92LTlOc3J4VEl4U3VRV3hsdDh3cFE?oc=5",
-   "source": "NewsMeter",
-   "sourceUrl": "https://newsmeter.in",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T02:54:48.000Z",
-   "summary": ""
-  },
-  {
-   "id": "52ff7536d41b",
-   "title": "CII Partnership Summit: CM Naidu seeks WIPO’s support to boost innovation ecosystem in A.P.",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcDY0Q3h4b2YzLTdqbzdjWjc1RVhyT2gzdE82ZlVpbHpTdno0ZFd5WmowTmRWTzlLM0Z3ZExrX25oekxUV1JZaDNSaldHRWRwUEFFZXFnb3pZTHVqNElVenhrTFRKRGN6dHFrdnpZMlVzYlBid3hkdFVwOE9KTktWVXRZb1RrREdsMVhxbm4tMl9WLUl2WFNOaE5ieVkyUy1ETHBUTXJ2UVdtSHNqc0dHYk5MdzZNcWQ0ZzhhZ25TOWthTUJIeEhiNmFMaG82Uk5CbVYzVG13V0l2T2RlczgxS0lLS1JTYmM1VUNCbUpYWdIB9gFBVV95cUxOTFRPd1ZIRkxyX2VRVTZJZmJWSF9TaWtkVnhIbTNRTGM2YWF4b2o0N3BhYkdBdjZ1X0s4NF85Uk10RnpHVkNxUkprVWR4LVFiM1daeVI0ZFFHYm5lREZOZlZUcjJ4SEwzdDlnc2NIeHUwanUwNFpfNkxBRW9MS3dHQTliOXJSNVZjN1VsVXJfR1pJQnNBdkNHS3RfU1YxZEhIVjc5dWpiVlA3dVV6dU9jd3Z4YU4wSmNlUWc2S2xKek51bC1QNm0zQ2hYUVpxeGg3ank1bG9fNXpDZ29kT1JDRm1FZUJXUno1TVlQcDlVeUdPTHgtRUE?oc=5",
-   "source": "The Hindu",
-   "sourceUrl": "https://www.thehindu.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T19:04:23.000Z",
-   "summary": ""
-  },
-  {
    "id": "ac162430e0d8",
    "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
@@ -447,75 +337,63 @@
    "summary": ""
   },
   {
-   "id": "b2e53e872af2",
-   "title": "CM Naidu Seeks WIPO Partnership To Promote AP Innovations, Secure Patents And GI Tags",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNMUlSVlVCbkFVUzR5X2tVSUdVLXIyU2gwSkp2bnlIcmJDeWc4X09BSGdoM0x2UnlROWRJTnpNWG1kem9RekNfa3Q3RC1Xc3BSZk5jVE05R2lkdUVUdWkxb3lVcVZyS210clNfUFRiNkRiSEhtUVpEMzJHbm00cllLVllqa0ZnbldJb25adWFxRVFDMFdPaF9OSzlsbWVHZEN5N3V0N01aNU1uNU5hUFJZLWFRaHFNaTdTYlVpREh5SnJvdzR5TG1kdHdYZzBOQk5LVmZUTTlFRXJWODBocmQ1R0YzaEF1Z1Ztc1FJ0gHwAUFVX3lxTE15RnVoM0VLeWZBR1dyX0JtTkdiTHpVRjJNRDVLak1TZ1lUUE9Rc0w5VG5LMTJnSEdaZU43NVQ4NTJXM0FWZWxhTmJVY0sxcnBMRlQ3azU3WnhSTjhhaXU5LWVjWmM0ZUg2a3BFbl9DM3BmRjZQZy1VMUJQWVBMVk56Rk1faXZWUl94SXh2QU8xaThSSTcyQVRRNU9DUDc2NGtaRk56dGdlWjNmbEh0VG1yYmpSQ0Q5SHJNZTZyZHVNS3lhT2ZXZmJKbVhRc2thSmtJV0FoWHdZRlQ1d25aZlg5OGstbEUzbE5MM2dHY1AzdQ?oc=5",
-   "source": "Deccan Chronicle",
-   "sourceUrl": "https://www.deccanchronicle.com",
-   "scope": "عالمي",
+   "id": "f6c6def90ae7",
+   "title": "مجلس إدارة الهيئة السعودية للملكية الفكرية يعقد اجتماعه (الثاني عشر)",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE02bjFKZ1B5akxmSjlLcEJhR3E2MEwxeXRGQlhiWnZLMy1iZk5UTEFVamlUTVJBT3A1bmN1bTY2NFZKVlcyTXA1YQ?oc=5",
+   "source": "صحيفة الشمال الإلكترونية",
+   "sourceUrl": "https://www.alshaamal.com",
+   "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T17:06:02.000Z",
+   "date": "2026-11-11T18:47:37.000Z",
    "summary": ""
   },
   {
-   "id": "0bd9168c7a8f",
-   "title": "Andhra CM seeks WIPO partnership to boost global recognition for state innovations",
-   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQampTXzdzLXcwTk4yR0phSHcyVHVXTjByajYwejVNMDlZdk5uYTJVOTJwaW0wTXhIRE1JNkFqOTF1dUNwR1RCRlhVWFJFVUVrc2JZeWJudkNVQTYtcnNXY09SM1JFTlhFQjRXSTdFRHBmVnlYclZnNVV3ak9fSmZPWHZpYXdLTlVwZlRxLXl4WnJqRFhESHBHZkY1YVhzdlIya2F6TTFQM2dwOThWZVRuczhTWm1pUXFhZG85d2RybUM2aURkbXBzS2JPWi1QblpzazlVS1psb0RjWUVZOE4yUTI5Mi1idUdjV1Jn0gHwAUFVX3lxTE9fM2VOUFloV1NHZnZBQW4zeTNkZ2ljZThSYlNjUzVicnVPc25Lb1QxWnhxN29DTk1wY1hMcWRSdl9ISFJ3RldtUUhFckhXY2J4UVVuVE9MOUF5Z0R1ejI2T2kxbGl4WmlEYmFzUHczd3dQMDBNRW1Bd1A4VnU2elZuOE95TnZ0VDNpcl9yMksxSzI0UXpQM0U1bEdFYzZoQVNYcjd6V0lWRk9Ra0NuYXU1UHh6UGZhbS1QYjhUaFJJejJTM3lPeUtISktWNDJsdjd6T2JiM2I3cGlmUkJVeTBIZWdpU1JmZ2tYNWpGdXBWbw?oc=5",
-   "source": "ET Government",
-   "sourceUrl": "http://government.economictimes.indiatimes.com",
+   "id": "a027f2b4512c",
+   "title": "RCF strengthens intellectual property protection in China",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMEtjSDh2Mlp6MTVWc2s0T0d2Z1FTTnBVNVV0YVp5VHctSHVMZldpUUw1VFZsRk5MclpFWmxLMUVKbzBKT3ZRN3V6MGtGWG15V1kyUFlqQUxpWWhsSmVnbXFJNVkwRE84QktxT0daUzRTQ05MMy1LellQeUlPM1ZMdHdGMHpFa19Cd2lEVHZfcHM2aXoxYUZ0QWxrN2VITE54?oc=5",
+   "source": "Pro AVL Asia",
+   "sourceUrl": "https://www.proavl-asia.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T16:41:32.000Z",
+   "date": "2026-11-10T14:38:52.000Z",
    "summary": ""
   },
   {
-   "id": "ec588c1f64bf",
-   "title": "Multi-agency operation leads to counterfeit goods being recovered",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWHhBamhINTVRMDhZd0U3cEIxX041ZFBvRFRaSEZlZk5wWDJNNEE3SlAxX0F1MHdEU0ROTFJfV1ZWc0xOZjJibHZxYlR3N0NRUU5BZnR3aTM2eWloNExCUHJBNUIzWU1FQUc1aG91QmZ6R2VidzRLUGU5NEc0SU1oYlBTOTd5d2R1NXpiMFBrNkNmZzhhWk5JTUFZMFNqSnNveWxHVUtSLTlrYjE2djJtNkFNejR6Vzhvd2JLcFREcTJZZ2RtLTNyYkh0ZnlsUQ?oc=5",
-   "source": "Leicestershire Police",
-   "sourceUrl": "https://www.leics.police.uk",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T16:05:00.000Z",
+   "id": "bd0e3cced49b",
+   "title": "عام / أمير الشرقية يستقبل مدير فرع وزارة الموارد البشرية والتنمية الاجتماعية بالمنطقة",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE94bWd4TWM1Q2JUclVRZXFJY3FzaXIzeGhNQTdoQks3UzhRNXRhU29sMWpBd0RfV1V3VGt0Y3ZQckZsX3JYMnc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-10T13:12:10.000Z",
    "summary": ""
   },
   {
-   "id": "81698dc26c86",
-   "title": "New WIPO Academy Course Explores IP in the Business of Videogames",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR2lnQU51MVd4akVGdGthTEU5TmJpenZnOTdIamJOYmhGMkhBdjVKdUFxWDBFbDRNNUFwYTN5WmdRVG8wMkw2WlI5Z2U3ZUNhWnpic1pYNndqakNhRXpNdmI1RElzdEt0dDRGazNZSllXN3F2VnBkaVJpU0thWmIybjgzRk95NE5ZT2c5b0ROTWZmd2FFNVQtaEdYb2xjcHJZOW96czZKY1FmVU1nYUF2djdmTUc5X2FBQmc?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
+   "id": "8958fa8fb16b",
+   "title": "US extends Section 301 probe of Vietnam's intellectual property enforcement to February 2027",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSHBDSFZoSnhRTEdTYUNmRE4zNjBYdWFadUYySTU4Zl9HRmE3bTlMUXk4bm1iNlotN3ZSdWpfc3ZldXo4QXdJZWphTl9VLWhvaEJaR1NaUTNmMlUwZDVfd2cwY0hZQVdkbWY5VzE0V2dyaVZJZTJjejBqTnBUajZUbDlCQjFCdWJlTkh6TE1NSEp2R192WnJGVVUtdlplaWVfZVNwalVPNGxhSHBZY3FqZHRSejRqYjRLSEdNY294MG1TbTZteUE?oc=5",
+   "source": "TNGlobal",
+   "sourceUrl": "https://technode.global",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T15:18:24.000Z",
+   "date": "2026-11-10T09:01:18.000Z",
    "summary": ""
   },
   {
-   "id": "717632b657ab",
-   "title": "WIPO Director General Wraps Up Visit to China",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb1lDNnVmTFc2cE14SElMOVE1Ri1ya0lJcklWNGtXcjVZTl83ZWJMcGNqZUhLZnNENWNQYTBvTXVMUVlhTUxJTHRsNnFLT3gxMTdxWGlHSWJGQ2w2aHVOY3U5Z2VaRGVuZmtCVkFvbDVkdlFqTDdfVU5KeG9wSWlBazJHb0VzZWQxWFg4dkVkWm5kZFVQNkhoUGtrYV9ZWFpVNElEQ3ZaRElhM1pEX0RCMTYxU2thMGE1QXFaMmZZbw?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
+   "id": "0df2c0a916fd",
+   "title": "Guangdong-Hong Kong-Macao Customs Intellectual Property Enforcement Cooperation Meeting convened (with photos)",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5sWGp4ZFp6SkdMWm1vMVc4RVZDOURkTUl3eG8tOWJyeGgtQ0c1T0dXSTl6czN1WVRGc1ZnVGlaaWJYRWxrZmpoSVFFS0JXVVN5RWJzSGF6bElpNlZzRTh1bllRVUFxaUtjRnJZUk9VMXhTZw?oc=5",
+   "source": "www.info.gov.hk",
+   "sourceUrl": "https://www.info.gov.hk",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T14:12:52.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1925fb0a5f4b",
-   "title": "JCO WorldCup26: Over €132 million worth of counterfeit goods seized in OLAF-coordinated operation linked to the World Cup 2026",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZUZ5OE4wQnN3SVRLNEVyYU5NRDVMbEVCRnM0TDZLcG9HSGtnYVhFdjFPY3hCbGJUd1dRYTF5alExTGVndVpzWkJ1cGZJbG03WldLWDBtRjBTeDhIbnJ1UnczZ2lKUm1iMldFYk05OXBQX3NpR0ZqQXluSjZtcEQwUHFCTWM0NTZEaGhaX3R3bGNoOTNlRWFOdGxsX2Z4Q210LS1yQ191My1MWGQwdHNTWGgzUWQtMVRLRFFMaTNUSzhQMTJpRDktQml2N2k5ZUNsd3Q5T2RYOFAtWjNjWHlEa3I2Qk52dF9xeFVSZkp6Vm0xTF9tamc?oc=5",
-   "source": "European Anti-Fraud Office",
-   "sourceUrl": "https://anti-fraud.ec.europa.eu",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-11T08:03:23.000Z",
+   "date": "2026-11-10T04:19:18.000Z",
    "summary": ""
   },
   {
@@ -531,6 +409,18 @@
    "summary": ""
   },
   {
+   "id": "e2ff92d20b2d",
+   "title": "Eminem’s Publisher Eight Mile Style Sues Suno Over Allegations of Copyright Infringement",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUUE5eEluOFlYa25qbkJES2wwYTFtZndEZmpjRzNkSlhZLTByUm1MajRvTlhjRHBKZjZUeGxnZ0JRRU5YSzZVU1dteXRxRGdJTTZ0SW5sSzhMSXd0eGxuRmUwZ19iNm5KQlFNSWhQOXl1bWprb3k5WFJhTi14dkRPZ2tsamxtMnRGTWZiWi1TQ3h5N3RsYzZaTnpR?oc=5",
+   "source": "Digital Music News",
+   "sourceUrl": "https://www.digitalmusicnews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-08T08:00:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "e1ff6537dc98",
    "title": "الملكية الفكرية السعودية .. من حماية الابتكار إلى صناعة القيمة",
    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPM3c0TFE1STdsZFRZeXJaMDdCTVNOYXRtWVA5Yk92YW91SDN2MWpnVlRvdld0OXJXM1NFX29xUF9xN0JRSXl0UzZQak1naU1hbnFtV2V2d3kzNnB5dDJxYllPZF9RNkNsc092YnJTb3RiZFFLWkItaGhObFl3QXJNMXlfZTkxOThkajZRSS1fZjVDTTVicFdIekZKSGVLR2lXQU1hU2RsWF9DRkd4eUFsb3kxaVB5LVl1VlRXV2JSWWF6ZTBrblQyZXpzZmFYeTVVeTRZM0FUN0FUc1pnMFdLQ2hMZWhxdU02dVdPRi1aLW1ueHBu?oc=5",
@@ -543,15 +433,15 @@
    "summary": ""
   },
   {
-   "id": "84ad57164fec",
-   "title": "السعودية توضح خطوات إنهاء عقد العمل إلكترونيًا عبر قوى دون مراجعة صاحب العمل والشروط المطلوبة",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9MM2ZDQmxEa1cxU2dEWTVROXY3RVo1WVRHQlVHdzdpamdoV1FqaDhhMXRrcEo1Ry1VRlhQYXNFWlJzaFNpaVI5WjczWUNWWXcxWl9qTTFLemktSG90bVFZLWZMV1lybDMzNHRPYV9zZw?oc=5",
-   "source": "صحيفة اخبارنا",
-   "sourceUrl": "https://www.akhbrna.ae",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-08T03:21:54.000Z",
+   "id": "67f4df9ca4eb",
+   "title": "SC: Rejects Similar “W” Trademarks: Dominancy Test, Brand Confusion, and Trademark Protection in Starwood v. Ocean",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHhDTi1zYloyTEEzNHpsMUlWMWlPdmh3dEtvT2E1SjZENndRMTVlYzRoQ2lLNjctT25GbFprbVNaV3ZjNkZXOE5pTV9vQzU1Y2Z1T3NBRXNYZnk0dHE2bDZKUGpjRERmWVpnMEh5bG1JR1hyLWpwZmYxWmEwTklOazhTN2hzX3BWd0JabmtsTlFpbWpCc0lNbDVZZVRNczFlWkU5UVpfaWVaaVZGbFZDM01kSDNndGs0RXVZVWVuWDZnMWdP?oc=5",
+   "source": "Aureada CPA Law Firm",
+   "sourceUrl": "https://www.aureadalaw.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-05T16:45:19.000Z",
    "summary": ""
   },
   {
@@ -564,6 +454,42 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-04T12:15:58.000Z",
+   "summary": ""
+  },
+  {
+   "id": "6b8c07e465e9",
+   "title": "United Kingdom - Copyright Laws and Regulations 2027",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSGUyMjdla0ROZ1dRNk9kOHpOc1NLVXRsRm1KOEw0TjdjcEp0VzJ4d2dfSFMwb1BJbldmaktWTEFVVWFaR0RtZEtsN0NUem9rZ3cwdkNTRWxrOUl4S0VkU2pOaGJLT3k5RVBCOU1HaEJ2eXNHd0Nod1U5U0FLbThDcVB6bk4?oc=5",
+   "source": "ICLG",
+   "sourceUrl": "https://iclg.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-04T08:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "538c0d5e4e63",
+   "title": "China has strengthened intellectual property protection, but challenges for foreigners persist: experts",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRWYtZlAzMlZJUTZXaXRqMlJkeFNwSjRQT3pBY0xaVG95VkJIWlllQm5qdE83TUZLb0pSZEF4NlVqcWhweUZNaUxxNW1IRjZIRFJObUZMUTBydnQ4NnNqdlhHUVJlVWNMdUJhb1ZlYy1mQ0RmYnNaOW1RRDJ0aHdkY1hUS0lBX3BwdWJ3X1FYbXAtOF8tX3hvNXRqcnREblJZS25QczR2SFI0d2RIUlJNa0d2OUUwQlJtUjlPbHZSTlpJVHhKY244?oc=5",
+   "source": "Macau Business",
+   "sourceUrl": "https://macaubusiness.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-04T08:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "a87946863c82",
+   "title": "NCC strengthens copyright enforcement in Anambra",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3d0dsMXNldzlCb0ZfQ0dwYmk3S0RLS2syQzB3SU9RMm1EdnRnRDNQaU1xS1dJakNQazI1SHhTMVhsenY0WmFvSXBwQlplUTM3eTY3b2ZlUWUzT3FES3daaGhtVFpyb21PTFFBTGNodWZtZFkxZm01a2R6a1A?oc=5",
+   "source": "Peoples Gazette Nigeria",
+   "sourceUrl": "https://gazettengr.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-04T08:00:00.000Z",
    "summary": ""
   },
   {
@@ -591,12 +517,48 @@
    "summary": ""
   },
   {
+   "id": "b1f03a343afe",
+   "title": "Mondelez sends trademark infringement notice to Moo Free",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVjBZOUMtU2pFZFdldGlqMzlJUC1LOHBMYlpScndpWHRSZHpHTlJlby02d0RVRFJVOGJPWnJOWEtiUzNhXzBuYjBvbXJsZjU5Qlc2eFZaUWRVZ2xEeS12c2VLV01XaERzb0NiRDZ6QUFrMkJjS2tCUnVIaHlyQ2NSQkQxRk1adnpnVXlwNGtPeG1hZw?oc=5",
+   "source": "FoodBev Media",
+   "sourceUrl": "https://www.foodbev.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-03T13:02:37.000Z",
+   "summary": ""
+  },
+  {
+   "id": "987a559176d9",
+   "title": "Uzbekistan Moves to Simplify Intellectual Property Protection",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQXpJWWY4cFlocExKbVRBYTNNOGl5aDF3Rk9DWF9oY2lTMjFHYVJZRXhwOUJRYkNyd1lsdnRNc2p5V2Nial9WOTl0ejFuSkEtT0czUTBrazBnQTc5ekxyN1cwQmlCeVNmVm5TQk1SUVY4TldTRGtFUjViUzZMRUh6WFBmMnRHQlhPR05RQ1VjWi14Zw?oc=5",
+   "source": "UzDaily.uz",
+   "sourceUrl": "https://www.uzdaily.uz",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-03T09:10:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "fc978121a7c7",
    "title": "وزارة الحرس الوطني توقع مذكرة تفاهم مع الهيئة السعودية للملكية الفكرية",
    "url": "https://news.google.com/rss/articles/CBMi8wRBVV95cUxNeTBpdy1COE00RmNjdlViUEgybDRfUTJmZEZVUUN6eGZNTnJSODh6QVRDdldfcFlrSjhaU21RLXItSU1vNWlQZGw5QWo0UnFUMVBmSWJ1dWk5UVFsOXZWT2RRWVQ0dEFMb2Rpd3B6aHJYY3VFSXhrX0ItclFzSFlfTEtUZnhsT3NGbzg1NmdoUE43RW5IVnNMV0hJeVVlRGJlN3BjS0wxaVdfWllSREQ3d2RYMHRyV3RYRlBRcHlGbnNjYTNGMXZpVWFhSjRtWXhTclR6MUNmWWE3U0d1V0gzTDJxVW5xbnBHLVd3eThlWHJLRjVYQXhWd3JqWmNRSnlXMmVpdXVfZzFaZ1RzR2F3aTdnVzVEN0JVbUlwdllwOHJPb0RPc3pRYk5uWE1jenZjMFdFX3lZQTRZMjBpYlRoYmdIUHRqdzFqTVpTODJLQlZHUU04TERXcm1ZTzg1V1N3WUNCY2VaYW54MndMVnJ1aGYzdVdrTHlFNVc1TzNRd1ZMLXktbGl4ZzhLaUxWeG5xRHFROW4tMFhQcXUwZHB3amlfS3JaZmg0UnUwcVdpekg3VkRaZFVkOW85bHBUc0k5SURBS1BURGZ6Zmx2bkFrZ0FVRk9RcFNfVWc4LXFJcVIzSk1RMk9SRnFOX0RmdHJvWlpWSWotLWVqakxtWU0zdndnb2drSzd5dzBBYXVzVldpbmVLQVNNRzZKand0WUFibzl2X2tOYklYVURQT0o2amNCUWdRZ0VudzJmMmJkTXg2aGhaNHNCMFY5VXYtV19scEJHTnFqNTRPTmVtanF3dllsM3NXY0hxZWZIVlE5cFZqX2fSAVdBVV95cUxNWFo1TnllZDhkc1BDRUVCVVc0RzhPR2V6aURrSGR4eE9oSlhrX2IyOHh4OExiZnI2bzl3QXQyTG5IMU5rNXE0QjFPQjJZYWhrWVZ5cmZocG8?oc=5",
    "source": "جريدة المدينة",
    "sourceUrl": "https://www.al-madina.com",
    "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-03T08:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "65088ea2f895",
+   "title": "Magnum sues Aldi in Ireland for trademark infringement over ‘Gianni’ ice-creams",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTzZOVUZnOXNnU3hqQjNndF8wekJHckhrSXA5RXFiRlpLcXhhTGtGOXA4TTVMdzdXclRnQU44WTJDTTBnbUFiMllhN290eUQzNWhVQnFZT3FrbXZZOHFBOXdrSGFJS2hfN1BlallKZzFVRHZsRFVLZ0hyWmMtTmtrQWZiSmozQ3pqMDJwV2cyZVZLMTdIbUdJa19rQlNocUc4Vnh0aVFYdjRqX0RlU2s1YVJqRWRKZVlRNnY2cFVZYkN6cE5ya25DM0M1SkF6YmNtNjNzQ0hn?oc=5",
+   "source": "Irish Independent",
+   "sourceUrl": "https://www.independent.ie",
+   "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-03T08:00:00.000Z",
