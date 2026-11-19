@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T20:27:43.085Z",
+ "updated": "2026-11-19T07:19:56.002Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -15,31 +15,31 @@
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 26,
+   "fetched": 27,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 22,
-   "kept": 16
+   "fetched": 19,
+   "kept": 14
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 77,
-   "kept": 18
+   "kept": 15
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
    "fetched": 37,
-   "kept": 31
+   "kept": 32
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 25,
+   "fetched": 27,
    "kept": 5
   },
   {
@@ -51,15 +51,51 @@
  ],
  "items": [
   {
-   "id": "e6606f1633fc",
-   "title": "'Piracy remains a serious threat' — RMD calls for stronger intellectual property protection in Nollywood",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONHJ4dFhUUGg4ZExpWjI2X3lKekw5SFlHSmpBakxXZUw2UzNJbk5rODhCMy1aVFkxVmRuREdBdTlKSVliRkltX3Q2Y3BqbTlKUDM1bUhNaTRxQXJsQ1lndUVwdERLMFNIYUY4Q3NIbXRLU3ZMYWliRXk2bnRuTGE5bWxmU3VudHI2OUtCYXpuSmxJUXo2YkR4NmxWNGpoWHBSMExaa21tejA3c0pxRFhrNkJuRlhoY3BRVUdOTGxQR2xEZlpVcnVnclNrMA?oc=5",
-   "source": "TheCable Lifestyle",
-   "sourceUrl": "https://lifestyle.thecable.ng",
+   "id": "1b6bf96145d8",
+   "title": "UN intellectual property agency pledges deeper cooperation with Hong Kong",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZlN1M09YMjVleFZxVVhNSVpHcU41ZkpzMllldm5tOGhWeVliTi1IZ05xekdXQVN2dUZURWNlVnItczIyVHhJSlo2M1JmX0p1WkktQ1RmYnBRcEs3VC1LbVVyNzNEWV9zR1I2emdETEdRSDJBVnpRRFNlYWFWT05HTHVDejBLcXdUbnJ4SjBqc2FlZ3laOGI4VE8xVDhweU90R0lOMWRsVl83NXViMEhYby1sdHNIZlJ5N3pscmZGZDBRRFFydml3d1JieWdjaEN5VV9ZaQ?oc=5",
+   "source": "South China Morning Post",
+   "sourceUrl": "https://www.scmp.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T18:31:25.000Z",
+   "date": "2026-11-19T06:42:23.000Z",
+   "summary": ""
+  },
+  {
+   "id": "54f58f846306",
+   "title": "DistroKid Hands Over AI Music Data in Suno Copyright Lawsuit",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMEtSblA3TmF6a3lLeFI5dnE1Vm8wekVDZkJqQlRGWjZiY21Cd0xrZXRqOHRJc2FuY2swSTZCTEZVTGRzQnNyQlFQdU8tR2tOZ1FqRGplSU9mRFlMcEdPLUZsV3hhVjhmNk9SY3dHUnNUVXkyM3g0ZDV5MmQ3OEt0RHk0c1djWTZsTnJCZ193?oc=5",
+   "source": "Law Commentary",
+   "sourceUrl": "https://www.lawcommentary.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-19T04:58:16.000Z",
+   "summary": ""
+  },
+  {
+   "id": "65d9b5d0c642",
+   "title": "Illicit Trade Costs Kenya Billions as New Report Exposes Counterfeit Goods Crisis",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNml6VUtsYXBQM0ZfOVM3OVZmSjNxLXJ0N29NMXRENUhWOXd2ajU1TUUzSVdkRzhDQmhLejcwaEl6NlVKNHpmSVgtVlpzWk1uVGh2N1A3SDYxdEh1WXUxQ0lHNHk0QjQyanZfTWdpU2x0S2pMQ21SaXRhOVByWENPejBTTU9JZXZMMXI3MU5aNHQxVDRWeUE0M19VY0NqY0tBS0xIYVhzSkowdw?oc=5",
+   "source": "https://www.001fm.co.ke/",
+   "sourceUrl": "https://www.001fm.co.ke",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T20:37:39.000Z",
+   "summary": ""
+  },
+  {
+   "id": "0626987a9e7d",
+   "title": "WIPO World Intellectual Property Indicators: Global Patent and Trademark Filings Hit Record High; India Crosses 100,000 Annual Patent Application Mark",
+   "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOdDVlUjBmak51d2lkTk9KdFFHRnA2bjZDQ1hMR2JiUHM0cXUzWlE3YWtwcU56MlBpTGFMeXYwSVNLVDBHdUhiWXluOGlMMFVIelJ3SUZaeHE2VENqQ1VsaFhuaU80RF9kX3R4UnRtM3ZIWnhXOUFUWWxYUm9KbE9mWkxiLU9GTElqek5KYm9wOFpQeU9YUXlaUmRqTnhqc0c5TG9hR1JjMEVvVGJmREhESXFsbnFrZ2tuU19rNFprZzFBdVN5a1BKcXpMNDVST3FWMUJlTVd5RmRKNjFCYWQ2blVBU1dmY3daSjFmS05zRFV3SG9Ka0RKcFRCSFliUy0ySG5oZmMzSTBoa3RaTGFFQVpsa19wT3hBdHJIRg?oc=5",
+   "source": "WIPO",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T19:41:15.000Z",
    "summary": ""
   },
   {
@@ -96,18 +132,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-18T14:24:21.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7b53450c752f",
-   "title": "WIPO World Intellectual Property Indicators: Global Patent and Trademark Filings Hit Record High; India Crosses 100,000 Annual Patent Application Mark",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAxQXFueU9kczNwZDNHNTZCZUFHVVFZU1ZNUEN5WkZYVUFNT0Ewd05fRkhkUVRjUlZReV9xdXNIUU5lRmdDLURreFZoOEV2R21yMG81Q05hSGJzOHN4RGZDaEtoRXZWVEhKS1pRQk1YRHRTZGM?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T12:52:14.000Z",
    "summary": ""
   },
   {
@@ -208,14 +232,14 @@
   },
   {
    "id": "43c3353d1f5f",
-   "title": "وزارة الموارد البشرية والتنمية الاجتماعية بالشراكة مع وزارة الرياضة تعلن دخول قرار توطين المهن في المراكز والصالات الرياضية حيز التنفيذ",
+   "title": "توطين 15% من المهن في المراكز والصالات الرياضية | HRSD",
    "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxPdEZ2WG9yajRKYTk1Z05aQmZaZHRkZDFCZmhMNF9zQzFKTkpHTlhDdDBEWS1FT0hMR3Z6TUVrd2ktbXFSY3hNUDVUODFmUjFVM0I3dUs5aE9CbEFpOHd4R29oRDVLWGpMOS1za2YwY3RfTmhfNkVoZXZMM0lQUDNpV2g4NDNia1RkNzhFb25TV1M2UElxZXdaM25uOWFiVDY1TGR6M3NYVWUxWnk5LTJYRDhBN0lBVU9uVDRyUGxrTVY0eTJDSGpXQW4tbU9uOFZ6TzJrVVZ3NEM4Vk5NaXZGaXhWdmVncGNzeHpRSm5ta0tpYk9XZ2lJdGUzaTFlRDBhR2JDbGRIX01LSWNzbVNjelBoekdVaW5MUDBKQTRLRTFTMktPY0k3ZE5LX2xDUUZNWmVCTnptUzZQdG14MGdGTUxXZGtLbUVpT280elZQSEZ6RERjekNwWElJeG1UOXJzMV8zV1ZtMnlBdUx0aWtMSk1FaVNPZV9RemlWdFpnSG16dTU2VHdZSW9CRktodHg3Sm1EY3pfYWQxQWRqTG50NnctUDRzV1hWREdCM1VicVc2UkhIMm5GTzdvRUlDYnRoNlhVSmViQ0xVc0lnSWFuUEk3VHFWeURBSFZxYWhNWktYcTdWV19TakNFcV9BcEw2V0JmdzVYVXFVWkY5Z2Q4SVU2azlfajE2?oc=5",
    "source": "الموارد البشرية والتنمية الاجتماعية",
    "sourceUrl": "https://www.hrsd.gov.sa",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-18T05:50:00.000Z",
+   "date": "2026-11-18T06:02:00.000Z",
    "summary": ""
   },
   {
@@ -228,30 +252,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-18T03:24:24.000Z",
-   "summary": ""
-  },
-  {
-   "id": "ad75af34233d",
-   "title": "COPYRIGHT NEWS—Meta should be held responsible for the marketing of knockoff products through Facebook ads, lawsuit claims",
-   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPaXpyZi1SMks2ZzBQaXhocHYxZHNzbF90eXNyVFRGdHR6aHFoSFZETVl0OTEtdnU0QllsaW9VNWU2Z1pPSEVBSlJsTXIwZlcxWHlGYW5PN1lncmNMSkNqb1FBaEpZT3FrbzBlUTFEYUxla1JZS3o0VDh1SkdWTEYxWTBwNmJnOFZiQUNQRXRxVmQxNnR3N0dqNzJyZmRYXzVWa2RISi1ianc3SWNFY0Z6OEhzaHY4b2ZjOGd6WmhzTHFxQjNBTnBJUXVJWTY1MGgycGIyeTZQVjhwSk9GMElYSEZMV0lwZENSZlpsQThwWTIwVjcwbHF6eUYyZ2ZZV05jYXJ4clFBQlQ4Q1VJMjRyRG85WTlEdmtO?oc=5",
-   "source": "VitalLaw.com",
-   "sourceUrl": "https://www.vitallaw.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-17T23:43:17.000Z",
-   "summary": ""
-  },
-  {
-   "id": "0f966eb55bb2",
-   "title": "Akebia Therapeutics Announces New Vafseo Patent Extending Intellectual Property Protection to 2043",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYlFLdnZMWVdwdGdnM2FHRjNuYWtIdkxCRHpTaVZpTWg2bUFxZjVqanR4NmdhbjliLWFxYzhmdUlTV1BWVWc3S0x0VFpTRm1ZU0JoY2wtX19LdmoyZE9adUE1clZILTFWLTV0MmVWbUxsTzB0MjRlb0Y3Y2pPd1cxeUpoYlFMOW8tcWhDNThNeXNGR3JGVGN0SThzSGFNaXFlYXFDalRnN3pMb1p3LVhUblpXZmpJOXNscmlOaFM3NWlPRFUzUkZLRElJQQ?oc=5",
-   "source": "Quiver Quantitative",
-   "sourceUrl": "https://www.quiverquant.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-17T21:13:00.000Z",
    "summary": ""
   },
   {
@@ -327,18 +327,6 @@
    "summary": ""
   },
   {
-   "id": "152d67e0cf62",
-   "title": "Cobhams Asuquo to Perform at WIPO as Marrakesh Treaty Marks Ten Years in Force",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbElGeGlwdXBQTFVsOUZicnowb1RFMy12WTNneGNtNVNJWlVqUm1Pd05RNmwzYmFKNEJaYll4S3dhdGY4NXVmTkRmbDBONXd6NXVJWFhwMDduMUhSem4tMzExRGtUcl85b1NMRGlBeXhkNEo5NDZyMXItTjFoemdwb0tERUlnbFNvMy1aLWhrMERhSWRRMWZCUWxwdlg2cXpYOG51cU52Nm1qSk9KSDlsTy1oQ2l2dWJCVklaeW1WWQ?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-17T15:00:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "3ef63975ae35",
    "title": "Police raids across four Canary Islands over suspected counterfeit goods",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOFQzOTJHM3Jod1BLX1liQmZxTVRSLTFyU1pUbkx1cVN0eVNXcTBTUTZEMlcyQzN5YzBNUXl6OFQ4UllGbFVPZFdmMWpkbW5HSUpfWFFIdTYwdTJpeWswNzBpZ2o4cXdEWk9PRjlwNmJ2eFZKMDVmQ1g4bDYxMzI1aUtUN2F5QWcy?oc=5",
@@ -372,6 +360,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-17T12:23:18.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ccb93a4df7c0",
+   "title": "الموارد البشرية: الملحق الفني مع كينيا للعمالة المنزلية فقط ولا اتفاقية للعمالة المهنية",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBESTJGbE5uM1QyX3g0VE0taEU0RC1OdUpGRlVUN0dwdnhQcmY4bWF3ODM4RkZKYjhZVE9EZG5tRGVRREpEZHBR?oc=5",
+   "source": "صحيفة سبق الإلكترونية",
+   "sourceUrl": "https://sabq.org",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-17T11:48:22.000Z",
    "summary": ""
   },
   {
@@ -447,30 +447,6 @@
    "summary": ""
   },
   {
-   "id": "4df9f4b8238a",
-   "title": "ضوابط قطاع العمالة المساندة: الموارد البشرية توضح العقوبات",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORDd5UVFtT3lrUVZYdnpxYUV0S190eTdzTDZNN1k0c1NseHVBNjBxaTA1WUd2R0Jabzg4UmlTX01QdmlKbWN2NXVqdHlfOGpnYUsxVHB4WEE3WWoydnV2T1dRTkRpSHlFYnBlaF9QTm40cS1JejVwXzl5T21hOEktUkppcXVYU2lqVnRtNjlqREIxRUMtUjNVRDdiU3RlTE9IZXc?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-17T01:11:16.000Z",
-   "summary": ""
-  },
-  {
-   "id": "bbd4469295fc",
-   "title": "وزارة الموارد البشرية والتنمية الاجتماعية تؤكد أهمية الالتزام بالضوابط المنظمة لقطاع العمالة المساندة وجدول المخالفات والعقوبات",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE01NGtPdWJfeFEtNDA4WkwtRkx6Z2lJc1lOSWxSOVBKZW1NZ2QzZGc4V2YzNUhXblJSTzcw?oc=5",
-   "source": "صحيفة درة الالكترونية",
-   "sourceUrl": "https://dora.sa",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-16T12:01:29.000Z",
-   "summary": ""
-  },
-  {
    "id": "b159c39bc26c",
    "title": "\"الموارد البشرية\" السعودية تحدّث مخالفات وعقوبات قطاع العمالة المساندة",
    "url": "https://news.google.com/rss/articles/CBMixwRBVV95cUxPUFVfXzd6WldvcTQxTkFJUlJzeTZvUjlPYUN6cTlDdjNGd1RYMmp4OTlfenRneEpuMVJxY2J3cjlBWFN5MXU0azJVaFQ4WW5SY0dkQWRnb1ZLMG9jNmRaaUVBMGs0enFjT0Y2OC1MWFZibTQ4aDJ3N0gwWjQ1NmhyczlPQTNuZ0FfWkVhSzRqVkxWa2lJZzZIdEVEWmhUX0VjV2NfMUFXM1pkdUh1SDhBOE4tSzZhbjAzR0t3NW1tb24taXpsMFlRVmNtSDQyeWc2NEl0RWx5MHA2a3ppSU9UczUwQ1hXVGZGSXlQbm1hM28zbzZWd2JuMTBkTnNfRklGY2RpZG02SVFMLWdEemU0UkFKV0JzQmh5MDRpcUtVUml4bzZTVkU1STB1amttQ0piOTJkdm85TnpDV0tnYUJSY0FsNjdWZUtPVWJFNHEwckdRNlBQa3lzeGM1Zk1FMkQxWDZWTVN1Qm5NbEc1V3hkUnEzSloyaGtfdFpHU3N2cXV0QjZjbURsb2EwUmFBZHNTVldORUhCM0hpUXZ5Y2JFX2Z6S1JHZjdJNm5XbERvc3pDYWpaQUFsUEFmc19ISDVfTHZibjhVNGVlNVhkU212Zmg0UlU1T1J2b0NLWmZFb2pOUU8zNjhNNzlQRncwQkdyV0NXUzVfS2ZjcTlCY25RZFdCaXAxWmVqekVBcW9lLVZjRkVFMXZuNEZ5cm02QmFTQU5nbHJLRU9fWVBfWkZWU1RaUzFjZkZVQ1RYNlN2U3VOdS1EQWlN0gHHBEFVX3lxTE9QVV9fN3paV29xNDFOQUlSUnN5Nm9SOU9hQ3pxOUN2M0Z3VFgyang5OV96dGd4Sm4xUnFjYndyOUFYU3kxdTRrMlVoVDhZblJjR2RBZGdvVkswb2M2ZFppRUEwazR6cWNPRjY4LUxYVmJtNDhoMnc3SDBaNDU2aHJzOU9BM25nQV9aRWFLNGpWTFZraUlnNkh0RURaaFRfRWNXY18xQVczWmR1SHVIOEE4Ti1LNmFuMDNHS3c1bW1vbi1pemwwWVFWY21INDJ5ZzY0SXRFbHkwcDZremlJT1RzNTBDWFdUZkZJeVBubWEzbzNvNlZ3Ym4xMGROc19GSUZjZGlkbTZJUUwtZ0R6ZTRSQUpXQnNCaHkwNGlxS1VSaXhvNlNWRTVJMHVqa21DSmI5MmR2bzlOekNXS2dhQlJjQWw2N1ZlS09VYkU0cTByR1E2UFBreXN4YzVmTUUyRDFYNlZNU3VCbk1sRzVXeGRScTNKWjJoa190WkdTc3ZxdXRCNmNtRGxvYTBSYUFkc1NWV05FSEIzSGlRdnljYkVfZnpLUkdmN0k2bldsRG9zekNhalpBQWxQQWZzX0hINV9MdmJuOFU0ZWU1WGRTbXZmaDRSVTVPUnZvQ0taZkVvak5RTzM2OE03OVBGdzBCR3JXQ1dTNV9LZmNxOUJjblFkV0JpcDFaZWp6RUFxb2UtVmNGRUUxdm40RnlybTZCYVNBTmdscktFT19ZUF9aRlZTVFpTMWNmRlVDVFg2U3ZTdU51LURBaU0?oc=5",
@@ -480,6 +456,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-11-16T11:49:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "35e428523889",
+   "title": "MNLU Mumbai Certificate Course on Trademarks and Geographical Indications 2026 | SCC Times",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUDNtS0NtUlBGUVktc0Rxa0dSRUwyMGJLcnhJdUhuN3hXVml2aWFpb1h5RXZWNUVaVkZCUlM0X1lSb1I4a1hEU1BESTBHUVJvNHVuT2V1QkdtY295YmZWWHVqcUpTYUlRNk1pcm4tMFpJSmVjMWFVc1ljdkxlNDBiTXJ0S2RORjFFamc0d1ZjRHhTZXRCTXJkaERyS0J1dTgzTEZwNmtJVUtDMFplSTRGY1lnVmkzeWFZZmpHUjYxS1ZKVlN0R3NyV3Q3Y0hxLW5FX0pYZUJXY3VyaEF2RXVoYU5NYVhvYmMzNmc?oc=5",
+   "source": "SCC Online",
+   "sourceUrl": "https://www.scconline.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-16T10:35:35.000Z",
    "summary": ""
   },
   {
@@ -507,18 +495,6 @@
    "summary": ""
   },
   {
-   "id": "d2727ab6985f",
-   "title": "النائب العام يزور نيابة منطقة الرياض ويؤكد على التقيد بالمسارات النيابية وضمانات أطراف الدعوى",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE13N1o2M1lXNktnTC0wZG5ITk1vUWhwSHhfbzlucm04SXg1UjVQODFqY2FNd3lDOUg0WHVMbjZvbEJJeGN3bUtz?oc=5",
-   "source": "صحيفة أحوال الإلكترونية",
-   "sourceUrl": "https://ahwal.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-15T18:43:34.000Z",
-   "summary": ""
-  },
-  {
    "id": "feb9bfa96b81",
    "title": "النائب العام يتفقد سير العمل في نيابة منطقة الرياض ويؤكد ضمانات العدالة الجنائية",
    "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNWGk4Q3daa2tIODlsV1lNZnBQc1pUOEVyVnp4YXdFRnlFQ2F3LTJKdlEtX1FBUW5kc2Qza3JXb2JSM2VrX045c0JIUzljMXAxUWUwNWVmLVl5SkV6SzhkM3I3aDNJdWdPMDFEUWNmbkFYT01EM3RxVzFZQnI0WWltdWJpVFpBb3RQS1lkMXByb2QxTW5hcWlQNl91Y1U2U19IX0pyY094aUh6UEhsWEpJYUdqWW1SbWZaLXBaTEZ5S3hqV2N2NHVGNG1BOGpDTkpUd0tLMUZWcjU2NGtoNDQ5eXo2eG5veW9PODJiMmxucWMzcVM0Vk9rcjdRamVqeFAwVWU0aEdZWmIxOXYwWldwN2dVc3J6eGNqY0phS1FEQlh6cWVvaDVHeVBlaE5wWl9nYnZYNHd0cDJmcWwyVFE?oc=5",
@@ -528,6 +504,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-15T18:24:12.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f8ad05a80f9e",
+   "title": "هيئة المراجعين تحيل شركتين للنيابة العامة بسبب مزاولة المهنة دون ترخيص",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zRGtmZTJWa3lmVjhRNDd3eG5OOUlaSU82dW5hVkF2NVFJYi1PcERvak9rWkhxWV92aEZlUVNvUGVHNnBGSXhpRElKcG9fdmJS?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-13T23:40:00.000Z",
    "summary": ""
   },
   {
@@ -576,6 +564,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-11T18:47:37.000Z",
+   "summary": ""
+  },
+  {
+   "id": "bd0e3cced49b",
+   "title": "عام / أمير الشرقية يستقبل مدير فرع وزارة الموارد البشرية والتنمية الاجتماعية بالمنطقة",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE94bWd4TWM1Q2JUclVRZXFJY3FzaXIzeGhNQTdoQks3UzhRNXRhU29sMWpBd0RfV1V3VGt0Y3ZQckZsX3JYMnc?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-10T13:12:10.000Z",
    "summary": ""
   },
   {
