@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T20:31:36.793Z",
+ "updated": "2026-11-20T07:09:09.676Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,59 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 66,
-   "kept": 13
+   "fetched": 28,
+   "kept": 11
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 28,
+   "fetched": 27,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
    "fetched": 18,
-   "kept": 14
+   "kept": 13
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 74,
-   "kept": 17
+   "fetched": 100,
+   "kept": 22
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 41,
-   "kept": 35
+   "fetched": 98,
+   "kept": 68
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 27,
+   "fetched": 28,
    "kept": 5
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 65,
-   "kept": 15
+   "fetched": 63,
+   "kept": 16
   }
  ],
  "items": [
+  {
+   "id": "20e0707c620d",
+   "title": "Company name on counterfeit goods not copyright infringement: Bombay HC | SCC Times",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWDR2dDI0eG5qZVVyVzJkRWJ0aFNHY0tadldIaTBTTmNES3BsVlJJZlZ1b3VHZjN4bGVMMXJTaWViaWJfX3dJZFQtdTBvT3hqeE43NEpqdzhVQ2lNWS1LRnVlZ2laemRVVmJ4cjk5TmlEdDdRWVB2QW1zeTJyX1JQdThGUUVvVnFDUzdoRUlZeUZsdWk5NTltdTJBajJYS0RTc04xdWViU2R5bG5xQzNUX09YQUM?oc=5",
+   "source": "SCC Online",
+   "sourceUrl": "https://www.scconline.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-20T05:33:06.000Z",
+   "summary": ""
+  },
   {
    "id": "8d2adf908244",
    "title": "إحالة وافد للنيابة العامة بعد ضبطه في مركز مساج بالمدينة المنورة لممارسة أفعال منافية للآداب",
@@ -60,6 +72,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-19T19:12:02.000Z",
+   "summary": ""
+  },
+  {
+   "id": "191a0e807296",
+   "title": "الزمالك يوضح مصير بلاغه ضد زيزو لاعب الأهلي بعد انتهاء تحقيقات النيابة",
+   "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPYUpyWDU4eTNNODY3OUtUNFZKRmZvSUZIcHAyVENZX3l4UHlfWEJHcG1TRWFMbUlhODFjNVUwb3R6WkVIUmpfOU54MzFjOUwxcmFDYUVpOTA1RE9Mc1EyNWZPbURjeDJfMTRhMmxMbTdmT0xiRGx4Uk51VVlWbzdRLThqNTl6Y0xRSnVzX1RNa1RSRGxTQjh3UDBYMWlhOFRKQm9JQnJXZTdMeXhvdW1nNUVUVllKQWhadXhEY1dyazhZTm5TeWNlQ2JYWDFfVzBrRmJmN3g2dTNibk93SndRQ3RGSGlHZ2J2Sy1wZnBzeHoxRE9VUVJjSklkaUVBckl2X09FazJPQ1daU2oyb3VBQXlHbXhfejRMTkxqRnRzZm9rcENJTFQyZ0FuZC13bE8wM29uLTgyY191cG9qbjROT2I2dU55R1VXRExxTXZsVm4?oc=5",
+   "source": "الاستاد الرياضي",
+   "sourceUrl": "https://www.alestad.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-19T19:06:12.000Z",
    "summary": ""
   },
   {
@@ -107,19 +131,7 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T12:16:47.000Z",
-   "summary": ""
-  },
-  {
-   "id": "dceeec312bbf",
-   "title": "ACA destroys counterfeit goods worth KSh104 million in Mombasa",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcWNQNzhzMnZaMmd1ZUpWdzktLWxNV3ZhSlN3LWVBR0phN09sY2VITUtYcUlVbDJJVnJIRUdtSFprUG8xcDl2Nk1QWGt1cUttX05pVGVVYWhkc0VjblFYWTZaOVRaUjRfT0pPeGRxTlRsUTRENWM2UDVqY01JdlA2T0tsTWgyNWlHRE1MeDJ4d3Y?oc=5",
-   "source": "Radiokaya",
-   "sourceUrl": "https://radiokaya.co.ke",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T11:17:29.000Z",
+   "date": "2026-11-19T12:21:43.000Z",
    "summary": ""
   },
   {
@@ -159,6 +171,30 @@
    "summary": ""
   },
   {
+   "id": "3a1be1d35d21",
+   "title": "A delegation of Turkmenistan is participating in the 37th session of the WIPO Committee on Development and Intellectual Property",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaHdkbThNNEtwZlJJa0VBOEpNdFVTSmI0aktaQTg4aGlfdlk5ZXU0Q3U4bVc0eTRvMlVlcllKZU54R2QtRGN2ZXhSTUxQX1YyV25VQVRydXZoWmZDdDgyU2QyY21VcFF4Q0h2Z0J0NVBMd0M0ZXBDZlhQS04xUXRMbC1mYmZuam4tOHFDemJ3b09lbFBCNnR4azc3UEt5VG40X1E2NkxuZmZyRHV5ckR3TUx0akl0OFZsUzBYaEFadXNuYkZ3bTctbE5UVWVhY0ZZT29QMGtBdWNnNU1raGlN?oc=5",
+   "source": "turkmenistan.gov.tm",
+   "sourceUrl": "https://turkmenistan.gov.tm",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-19T10:23:04.000Z",
+   "summary": ""
+  },
+  {
+   "id": "d19285c8a56f",
+   "title": "Metaverse And Virtual Assets Emerging IP Issues In The Metaverse, Including AR/VR, Virtual Goods, And Trademark Protection",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOd0NyMk9WUHBMeC1sSlFVX1hLenJuMS1sVDZQRjVXR2VfSHJMZlEyd1dheG40b1ExZlU0RHRsbENnUk1tVXlBQmUwLVpiczdFakQ1UUhrbXB2Ym9Hek1fU1ZWYXBBeEN5SzVTdnBHZlk1b2l2WU1ZbC1GZ1RiMmZaOXJaNGluZGpXbjdvcll6UDlkellmM0stSzR1R3RSeG9qN2hHVTI3RjNpTS1QRUxLM1pyN29nUkpMWjVCRTR1Wml3bEM0WTVER3hkaFJ5Z0xBYmt5enkzdlNMRUY5cFVYblVPM2V3cDhGd09hcFkyVkVtQ01BWURQbWdJeGkxdzJ6SW1SUG5CV3VtcXU3Y2pxWXZWdw?oc=5",
+   "source": "Legal 500",
+   "sourceUrl": "https://www.legal500.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-19T08:57:27.000Z",
+   "summary": ""
+  },
+  {
    "id": "fd1bf2c5bea4",
    "title": "Global patent filings hit record high in 2025, China leads: WIPO",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxON2dsNDBfX3hNWjVRWThicEstUzJuWHhEdlVEdG9hTXp4dmI5bkVqbnFDZ0xhS3RlaVAzNjVjR2JCYTl2UXJiM2pKaUo3b3VVVVpidUoxUUZXNlM2cDB6STlyM28xdWlLbl9nSEVFbmEyODRhajNLNW9wNzBkN0VlV3NEb1htcGx6TTQ4eGRDNVVsWHVIMGdPdGpOZHFoOVpFNS1DREpCY3NFd29HYXVzMUxSVDk?oc=5",
@@ -183,9 +219,9 @@
    "summary": ""
   },
   {
-   "id": "436adf843f6c",
+   "id": "eb8c502eb171",
    "title": "UN intellectual property agency pledges deeper cooperation with Hong Kong",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZlN1M09YMjVleFZxVVhNSVpHcU41ZkpzMllldm5tOGhWeVliTi1IZ05xekdXQVN2dUZURWNlVnItczIyVHhJSlo2M1JmX0p1WkktQ1RmYnBRcEs3VC1LbVVyNzNEWV9zR1I2emdETEdRSDJBVnpRRFNlYWFWT05HTHVDejBLcXdUbnJ4SjBqc2FlZ3laOGI4VE8xVDhweU90R0lOMWRsVl83NXViMEhYby1sdHNIZlJ5N3pscmZGZDBRRFFydml3d1JieWdjaEN5VV9ZadIB1AFBVV95cUxQMVE2d2NTZnRadkJxVkFSenVyNndYT3ZZY0RyMDFGTk5lWXRWVnRjbzFKS2FXVHFzRElyeTRXQkY0bU83TDJOaW5SOC1zdDdWdHVhZTR3Q0lOTnZaTUI3QmlxQVZTSDJjbHU1a1lyRVdWSmRwTzFMRi1fa1VZdDU4ZTc5LW1RM2lKamhxaGxHVzVIZWgyOFU2ZGZkYUs4b2RuaU5oYm51M1pZcS1pdTN6ZmFwSlNrOURodmNWLUxPcFV6dlFxSTVkTmllV3RRV21tZC16Sg?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcl9ZZlI2WDZaMzVtUl9VRDQ3NWo0RkQ3TmV5SUQyMGNDcDhURzJMdk5UQnRaQmxDS2NOMS0tMjNQcF9JeXJ3Y1hGa2hnZ1BmR0NocDhOY2FNdGNWVFBCd2M3b0FwbHZZMzlvTmFNN0gxQzd4bE9ZdlBLU1g5MFh1a0tQWjhmSzg1UWtTRDE1a0lJWXo4eldVOTByTDlYYmxKVUF4M0JCckpRMXdNcG1Md1dxcV9DVUNSOXV1Yk9HUTJpSFE4d3U4MmdQb04xTW1lVGVRWm9LeXJoRS1NNTNINng4a1BCeHZONHZwU19qcDFNU2RKc01GNEhDbEI?oc=5",
    "source": "South China Morning Post",
    "sourceUrl": "https://www.scmp.com",
    "scope": "عالمي",
@@ -207,27 +243,15 @@
    "summary": ""
   },
   {
-   "id": "2c0b971cb62d",
-   "title": "الملكية الفكرية ونهضة الدول التقنية.. حين تصبح براءة الاختراع اقتصادًا",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAyWWdDclI1X05MSTM1alltRkZKQnlKVnRGdUZUczVfaUV1ZUExS1dOU3R6ZElYR2l5QmgyZEhBbUFFb0d0a2hCS0M1b0FpRzA3OUdVcXpTQXlDb1RC?oc=5",
-   "source": "جريدة الجزيرة",
-   "sourceUrl": "https://www.al-jazirah.com",
+   "id": "c5a2241598c0",
+   "title": "منظمة: رقم قياسي لطلبات تسجيل براءات الاختراع في 2025 والصين بالمقدمة",
+   "url": "https://news.google.com/rss/articles/CBMioARBVV95cUxPd0VlaFJaR010VGUzZjZZdm04Tk1LY213MlpYNjFNaGhXS2JOUjlxbXZxdnhORU9QZ3pqTlE1SjE2N3haSFhDOFJVOEVVQjBJdnU5SlQ4cm9fdm1PcnNvQ0xVdm5uZWRHZ0VMT2Nyc3NvbHprbUVYQTRqTmdDYWZkOENxcmlLTkl4Sjd5S3ktNDM3aW5FT05kRFRqc0Rvc2VsZURvenZhYVJ2UEV5TFlIczFsUTlhblBRWml3M0tYdjJKUGR1Zk9Ga3J5SmdVV2ctdkpScFplWlNrTG01QlUzUGJxckt2ZFNMU2JweGFzakpIUVp3RS00TDRlRVA5VV9GMzVaaUszTTl1RDJicXVTWDBHd2VsRDZTZWU3VkJJWHVOVXBDWmZ0a0NweTFvTWRKNjZKRVM5TnZiZ2FCa2NGQ015bHlPT0RtZ3FIb2J4NmQ1dXpuNUFxNXd2eF9JN0tjNmg3MUpxNFRiT0s1MHhVbmR3YzQyY1diLXNnaEZyX0VTWXlTdW1Wc3oxU0JwZWYtY1o1N1Z1N1pCRmdTXzR5WVZXYW81VlhxYVhOaGtGd0xkeW9BX0kxTWl5ZldSUU5kWFpTQm0tLVM5WmJHUnpVQmVnUGlDbXlZOXZHampDa2lLRUJuQmhHNG5ONDNGZUU0TDFDcEJVY1ZXUTJicHdMcGtGbmFnclpJdi0xQ1JEVUhEZWxHRFBJaXI5NGx1MGpK0gGgBEFVX3lxTE93RWVoUlpHTXRUZTNmNll2bThOTUtjbXcyWlg2MU1oaFdLYk5SOXFtdnF2eE5FT1BnempOUTVKMTY3eFpIWEM4UlU4RVVCMEl2dTlKVDhyb192bU9yc29DTFV2bm5lZEdnRUxPY3Jzc29semttRVhBNGpOZ0NhZmQ4Q3FyaUtOSXhKN3lLeS00MzdpbkVPTmREVGpzRG9zZWxlRG96dmFhUnZQRXlMWUhzMWxROWFuUFFaaXczS1h2MkpQZHVmT0ZrcnlKZ1VXZy12SlJwWmVaU2tMbTVCVTNQYnFyS3ZkU0xTYnB4YXNqSkhRWndFLTRMNGVFUDlVX0YzNVppSzNNOXVEMmJxdVNYMEd3ZWxENlNlZTdWQklYdU5VcENaZnRrQ3B5MW9NZEo2NkpFUzlOdmJnYUJrY0ZDTXlseU9PRG1ncUhvYng2ZDV1em41QXE1d3Z4X0k3S2M2aDcxSnE0VGJPSzUweFVuZHdjNDJjV2Itc2doRnJfRVNZeVN1bVZzejFTQnBlZi1jWjU3VnU3WkJGZ1NfNHlZVldhbzVWWHFhWE5oa0Z3TGR5b0FfSTFNaXlmV1JRTmRYWlNCbS0tUzlaYkdSelVCZWdQaUNteVk5dkdqakNraUtFQm5CaEc0bk40M0ZlRTRMMUNwQlVjVldRMmJwd0xwa0ZuYWdyWkl2LTFDUkRVSERlbEdEUElpcjk0bHUwako?oc=5",
+   "source": "العربية",
+   "sourceUrl": "https://www.alarabiya.net",
    "scope": "محلي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T03:29:02.000Z",
-   "summary": ""
-  },
-  {
-   "id": "65d9b5d0c642",
-   "title": "Illicit Trade Costs Kenya Billions as New Report Exposes Counterfeit Goods Crisis",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNml6VUtsYXBQM0ZfOVM3OVZmSjNxLXJ0N29NMXRENUhWOXd2ajU1TUUzSVdkRzhDQmhLejcwaEl6NlVKNHpmSVgtVlpzWk1uVGh2N1A3SDYxdEh1WXUxQ0lHNHk0QjQyanZfTWdpU2x0S2pMQ21SaXRhOVByWENPejBTTU9JZXZMMXI3MU5aNHQxVDRWeUE0M19VY0NqY0tBS0xIYVhzSkowdw?oc=5",
-   "source": "https://www.001fm.co.ke/",
-   "sourceUrl": "https://www.001fm.co.ke",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T20:37:39.000Z",
+   "date": "2026-11-18T22:47:00.000Z",
    "summary": ""
   },
   {
@@ -267,6 +291,42 @@
    "summary": ""
   },
   {
+   "id": "a227b30a235f",
+   "title": "US AI investment could be driving Asia’s patent growth, WIPO says",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWUxtXzNEWHZPRXdpOEprUW1SMFQtU00zYmtXeEFOTUNXOU9DV2ZHOVJpNWFBLUtTN1Uwb1pIWWp6ZmMyLVU4V29sNG9PeFJxb0d6RXhWX0tMYmVENEZ6dU9rN3FYVXhKeDZoOW85UWVIdmtvOEZQUkV1blZNN2hkSUx1bkNsWlRycEljSFdDX2JLRUlQQXJacVdlR1ktR1BObnlEek9WckRhZ3l1TXFUaEhNZ0V5Nm55WU11d1V6cjVCVTRiTUUxWtIBWkFVX3lxTE1jQllJWlRQT0FlUG5yWU0wRGtKQUQ1MVRCbzdueUtaZnZ4MzkyMFdJZWhHZjh1UkFrbExZNktwWTBINjFTWUs2bUNrY2NxZnRGZGo3QnVkTWNDZw?oc=5",
+   "source": "MLex",
+   "sourceUrl": "https://www.mlex.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T15:01:45.000Z",
+   "summary": ""
+  },
+  {
+   "id": "bcb771bb10e4",
+   "title": "World Intellectual Property Indicators 2026 - Trademark statistics",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcVVEeGhrTWZCRTM5d21NOF9OQTQ0Z2N2WTl0QV96Wm5TY3JjSW9xMi1iWTV4NTg4Z1BwTXoxTDRwRkpvOWZ1SE05TUJ6ZEYyRllGWjFENVFwLTBUZXRYaWhwMFRSd19PSS1SRExILVFYUVphZnZRYUVad0RxdTQ0OEk4ZzVlZjM3YTJOQTNEczlLTHROa3lLN2l1LVBYX2VxdFQ3eTlvS2t3ZVRvUXV3?oc=5",
+   "source": "WIPO",
+   "sourceUrl": "https://www.wipo.int",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T14:38:40.000Z",
+   "summary": ""
+  },
+  {
+   "id": "275a9435b3f6",
+   "title": "Protecting African Digital Creators: All Access and the Fight Against Content Piracy in Nigeria",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2ttbmhxTVNnbmkxMFpjT2pjLVItTllvRXJpRHFpNDVJQTIyNjlkWEI0Y3lhSWY5c1JxT0daalhSTUpZU0M0UkU4cmoxMGlwZVIwbHNuZG9yTGF1RW1DNFFheVpnVVlrSlVNRUdNeGxjTGxHZ2hRWFpsVFh2djZLZXdWYWZoSnlLNzB2T1BVTmZBajRTZnJNRFJVOG5KdWVobnNEMGZTTGVGaHRMZUxzSnVBZmw0cmUtUVFkelRJdE5nQQ?oc=5",
+   "source": "MoreBranches",
+   "sourceUrl": "https://www.morebranches.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T14:24:21.000Z",
+   "summary": ""
+  },
+  {
    "id": "b8ade5e26e37",
    "title": "Global Patent Filings Hit Record 3.9 Million in 2025; China Accounts for More Than Half of Increase",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jYzFiREhhdmdMQnMtc0lEWGdtdlU5NnMxWjFJVXd4dUV0YlcxMExZUWhBMzNvMm4wNC1HNlZXRUw4em9fS3M2eWZtSWZRTVFsM3lYM0JXSzcxVllHMU1ZQTZWUU1pazVyZWhIZC1qSDQydmhFdmc?oc=5",
@@ -303,27 +363,39 @@
    "summary": ""
   },
   {
-   "id": "2ffe93b72adb",
-   "title": "أسمنت الشمالية: رفع دعوى ضد أسمنت الصفوة لوقف انتهاك براءة اختراع إنتاج الأسمنت الأبيض",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50VnlRWDVuUVNSWjltdVFkbk9OMk83amlEb2J0M3B2bk5LbnQ1eUE3NUhjbVhGSlNmVVJOMmhldGNyY2FWdlZIdXdsN0RpaG1Ec0FMUm1XeDY5c3FaWFRuLWRqYmlmQk5XWlE?oc=5",
-   "source": "ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
-   "sourceUrl": "https://www.argaam.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T10:31:44.000Z",
-   "summary": ""
-  },
-  {
-   "id": "d24ced93e971",
+   "id": "c045cd610069",
    "title": "Agency destroys counterfeit goods worth Sh104 million in Mombasa",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVJ4MU9TenVzSzVJMmdpaGdMZzlWT1ZpMG1Jal81eFl2TXN3REZSM3FxMnQybnlWZUppSFBETmpfRXZEXzR5RS1ZdjBza2N0cm9qemNRYWNQb1JXWnQ3SjVaeXJkWXJGekVYVVI3cDFuVkstN1pCMW5tOUwxdUxETTRYNXktMnFFVjl6N3FNai03TkpPUldqcXdBNHZSaFlFVFIxZ0FmT08?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmcyMklVbU5OeFIxanE2MUNWWmhFOEZkdXFDQ1AxR2FkQU1RMV9ycUhZLUszc0xfM0w2Z1BDZXlINEhrOW9rUWxhaGFkSU1ZY3JZc1J0MnlST2lqRGNmbHhuSjZQSl9rV2I1SlViYl9NMHc0WkhQdVFteXZ5Zlhib1FtQjEtQkQxdmJWZ0ZOM216bEtZRExLTVYtV0VRSnlsVG9tTjhycHNGMW5HT2lv?oc=5",
    "source": "The Eastleigh Voice",
    "sourceUrl": "https://eastleighvoice.co.ke",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-18T10:03:10.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7fbaa8ef3ccd",
+   "title": "Jung Haejun Wins Copyright Technology Minister Award, Kim Sangpil Wins WIPO Award",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SY3lpM3ViV2h3X1JzOWxzeXpKV2pfbmtieTNwaFd3bVhqTXo4VExsT1JHRnFJQk5KSUJyVUVkbWxGYzU1WktKXzgwLVkzekN2SUIzMGc0WjM3d0taWWFVdkZGT2Y?oc=5",
+   "source": "아시아경제",
+   "sourceUrl": "https://www.asiae.co.kr",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T08:40:11.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7c2609b53bab",
+   "title": "Three arrests over thousands of counterfeit goods in street market",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTHpxYTBBMTdwOVRRd0VmQ0xfYzBPRFRFN0gwX1pMc0sxclRJczhpUEhxTEVLdWs0cjRzZDJfTEhLV21wY2NkRjNMb3VoVmg1dmkxZDdPM01Cc2RXcWhpQlZWMHFINzNJU09ZUDVPLVBzdkRJZGowbWVMRHBkYzkzN1BHamRheDkybERFaHdjSWdRMjNJakszZC1vR1A0WFJLZVNKc0dlWkRfV1ZJVXc?oc=5",
+   "source": "eKathimerini.com",
+   "sourceUrl": "https://www.ekathimerini.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T08:14:57.000Z",
    "summary": ""
   },
   {
@@ -339,18 +411,6 @@
    "summary": ""
   },
   {
-   "id": "e3b1454422a3",
-   "title": "Alcohol, vehicle spare parts top list of counterfeit goods troubling Kenya",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ1gxbENSaERGS2hRZlZ6NmRSUGpqLWJ0RVI3S1MtOEQyR2xkaG9XNWtqcWQ2Qko4VzhmOTdwNklRc3dkMXpYc3N3clFrcllpTExzaXZ4QzMzSk1XWEJMTTBxZjE5VVB0elNWMjIwVkRLMWs2a2hpeUl1TjlILWJwS3dvMFFDeExEaEF1dmhiS1ZaLUljbDdBNjktRTlvdw?oc=5",
-   "source": "The Star, Kenya",
-   "sourceUrl": "https://www.the-star.co.ke",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T06:54:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "43c3353d1f5f",
    "title": "توطين 15% من المهن في المراكز والصالات الرياضية | HRSD",
    "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxPdEZ2WG9yajRKYTk1Z05aQmZaZHRkZDFCZmhMNF9zQzFKTkpHTlhDdDBEWS1FT0hMR3Z6TUVrd2ktbXFSY3hNUDVUODFmUjFVM0I3dUs5aE9CbEFpOHd4R29oRDVLWGpMOS1za2YwY3RfTmhfNkVoZXZMM0lQUDNpV2g4NDNia1RkNzhFb25TV1M2UElxZXdaM25uOWFiVDY1TGR6M3NYVWUxWnk5LTJYRDhBN0lBVU9uVDRyUGxrTVY0eTJDSGpXQW4tbU9uOFZ6TzJrVVZ3NEM4Vk5NaXZGaXhWdmVncGNzeHpRSm5ta0tpYk9XZ2lJdGUzaTFlRDBhR2JDbGRIX01LSWNzbVNjelBoekdVaW5MUDBKQTRLRTFTMktPY0k3ZE5LX2xDUUZNWmVCTnptUzZQdG14MGdGTUxXZGtLbUVpT280elZQSEZ6RERjekNwWElJeG1UOXJzMV8zV1ZtMnlBdUx0aWtMSk1FaVNPZV9RemlWdFpnSG16dTU2VHdZSW9CRktodHg3Sm1EY3pfYWQxQWRqTG50NnctUDRzV1hWREdCM1VicVc2UkhIMm5GTzdvRUlDYnRoNlhVSmViQ0xVc0lnSWFuUEk3VHFWeURBSFZxYWhNWktYcTdWV19TakNFcV9BcEw2V0JmdzVYVXFVWkY5Z2Q4SVU2azlfajE2?oc=5",
@@ -360,18 +420,6 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-11-18T06:02:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "133e90267915",
-   "title": "Who Owns GRVL? The Story Behind the SBT Trademark Fight",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iR2k4QXlWTjlSa0g0bjl3RjlkaHVzVzkwZFhTT29ZQ0tjMUNteEVSTnVNVnNsVngxREhoLWJKdW95Tnd2enRUY2Z1UWw1R1Bmc1JUaWJuRHFzc2ZDaEJ2cFZib3lPcGRral9GdEZFemlfNUk?oc=5",
-   "source": "Outside Magazine",
-   "sourceUrl": "https://velo.outsideonline.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T03:24:24.000Z",
    "summary": ""
   },
   {
@@ -411,42 +459,6 @@
    "summary": ""
   },
   {
-   "id": "69574b410f32",
-   "title": "Customs & Border Protection officers in Chicago warn consumers about how to avoid counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORXVFc213UElGa3daSXpYQWpXWGZ6ZUJJTmxYSExNTFVJczhYa3MxYnNYZ1NoNkJRekxLM0hJWUo3UUlYZ1pzN0JzM1JrdnNCTWNFOGpjSUR3UWwzbWc4Y0h4M3cxX011OXd5M3JCaTFGYTdyTXpiOWlmY1ZXdEZZb3pBRzhlWjU0ckRyaThzZGNucWNuRENRbWxRWVRVUmcwUUxZZWhR0gGrAUFVX3lxTE5wdXlDZDZWNDRjWHJkQ00weG9IOFR3QUU4X0xjYkF0U01VR3IwSDZ0bUFNTzA5SFRQcU5lVm4xcmg1eXVvWDd4MFg4akpNeWpQRHk1UkdTTmR5ZmNsSHFSN3g5dVdtbkhEYXlacUFYMWQxNFJCdmFNc29uaHpMU0QwakIwUzU3eFNJNVBIcmljMDZMVGpPZEdyZmtmb0diWk1DZ0JrTWdUX3Q1NA?oc=5",
-   "source": "WGN-TV",
-   "sourceUrl": "https://wgntv.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-17T15:25:56.000Z",
-   "summary": ""
-  },
-  {
-   "id": "e1c2395ec26c",
-   "title": "ACA Destroys Counterfeit Goods Worth KSh104 Million in Mombasa, Warns Consumers Over Illicit Alcohol",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN1BIZENXU0xiX004Uk85djlXYU9panYzYTdNbzNpWmxMSGZyaXhxc0R5QmRIbnEtT2JscDNjQkhUU25hbFVORmd0VWZ1UEdFUjZUWVI0UUVtV2FfNHM3LWNRZ3pZT21nTFJrOFJOcUFTUGFmSlBtMjlrVzRDbmw1bFpHZnFya2ZtSmNQa0pOdXZzYlJDc0tveUtka2VUVlNiNGFKMU5JY1hxVFVfSjQycHNTTzI1VTFBMjVic09oX1dnUQ?oc=5",
-   "source": "https://www.001fm.co.ke/",
-   "sourceUrl": "https://www.001fm.co.ke",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-17T15:20:32.000Z",
-   "summary": ""
-  },
-  {
-   "id": "3ef63975ae35",
-   "title": "Police raids across four Canary Islands over suspected counterfeit goods",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOFQzOTJHM3Jod1BLX1liQmZxTVRSLTFyU1pUbkx1cVN0eVNXcTBTUTZEMlcyQzN5YzBNUXl6OFQ4UllGbFVPZFdmMWpkbW5HSUpfWFFIdTYwdTJpeWswNzBpZ2o4cXdEWk9PRjlwNmJ2eFZKMDVmQ1g4bDYxMzI1aUtUN2F5QWcy?oc=5",
-   "source": "Canarian Weekly",
-   "sourceUrl": "https://www.canarianweekly.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-17T13:33:18.000Z",
-   "summary": ""
-  },
-  {
    "id": "178665ffd1c5",
    "title": "الهيئة السعودية للملكية الفكرية تكشف تقرير الأصول غير الملموسة للعام 2025",
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52WW9CMk9GU29hN1NxcXhTV181a1hHUUtxRDZFejBJMEFnNU9OUGxuWGNhQ0dvOXhKamlzbjRQM1dGOHZoRzRXMy10LUVMVXIyQTBv?oc=5",
@@ -483,18 +495,6 @@
    "summary": ""
   },
   {
-   "id": "b843bcb55585",
-   "title": "Redefining copyright in fashion after Mio/Konektra: towards the AIPPI Young Members event in Milan",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZjZZOEU5dEViLUhjVjQwc1Q2cF9DY2xHbnZScDIxUXZRZnp4OVZ2clJhZURpWUYyU2FvY1k4dlNsMWplcUN6d1hjSzVqQnB0eTkxMGgybnFiVUU5QmFudDZMZGVtdDV3Q2o0Nmp2cUYzcjRWZFJkTXlOQmN4QmpXcE5EdzNINi1hOEtWeVRjZnVHblExcGtxU0IzcWpjbmNsRFdCZnZDVWdPeGdHMDlPS0Q4WktPN1hrSTU2SlBuNzlEV21GZFpsakNUZTJDVkRP?oc=5",
-   "source": "Leaders League",
-   "sourceUrl": "https://www.leadersleague.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-17T11:20:39.000Z",
-   "summary": ""
-  },
-  {
    "id": "014a2ce40a0f",
    "title": "خادم الحرمين الشريفين يصدر أمرين ملكيين بترقية (172) عضوًا من أعضاء النيابة العامة",
    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1TQ01oUUxGXzRaVEJ6RjFFVTJ0MzUyZmNZdFg5Tk5CMzRLbk1VYlpxMXZKX0JmV0paeFhr?oc=5",
@@ -528,6 +528,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-11-16T17:45:14.000Z",
+   "summary": ""
+  },
+  {
+   "id": "ded95b292e68",
+   "title": "النائب العام يتفقد نيابة الرياض ويشدّد على سلامة الإجراءات وحماية الحقوق",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtY1BrZVN0SDJ2V1NFUzZ2azNNX3BjUFhDQklEcjJlcnlXZ1dmMzVvcTAwU2lNbUVuOWdnY0tKMU83RnpnWWZuRjZnUVhwM19J?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-16T06:06:06.000Z",
    "summary": ""
   },
   {
@@ -579,18 +591,6 @@
    "summary": ""
   },
   {
-   "id": "337c78aedb89",
-   "title": "هيئة المراجعين تحيل شركتين إلى النيابة العامة لمزاولة المحاسبة والمراجعة دون ترخيص.",
-   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQSGFhMjhqWk9YTC1UaEY4ek1qOE1TMERQU1U4aHBzckNQUEh4dHA0YUU3NXd5cHdCN1hnbTVadUJhMWRIMy02bEZ3T2x4VzJtbEZNWXFiVll5NzNudzF5NHRnQW1yVWNwUHh4dEVGMkMzbVV1clI4UXQ5LXFiZS0tSElZalRKMTNKM280aFhyYWNXSWtnXzBOQW5vMV83MUNZUEU4MVVkQWZ0S3pjazFfSENkMTBNMkh5Sk9YQnlRTk5ZdlNzYWdjaWYtSnhZOEUwRkxOSzZLaU5rUmNlRDZEM0lEX1JHblpROTFiZzZyeEltMzR3RmJxT0hDLURQOXZwcm1lRmJJQjRoa08zOXYyUVpfQWR5UkVwdnQ1VXdMd2x4UkQxdWhCVmNqUUdDTWFOTF9kVXdQblY4Xzg1TUthZzI0QUQ2Zw?oc=5",
-   "source": "صحيفة الاقتصاد الإلكترونية",
-   "sourceUrl": "https://www.aleqtsad.org",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-13T15:30:25.000Z",
-   "summary": ""
-  },
-  {
    "id": "b30c97ec9c59",
    "title": "هيئة المراجعين والمحاسبين تحيل شركتين للنيابة العامة",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbDFVYnp6OHBrWWUwZ0JVc3IzT2h6dW8tanFwTnR0SlJRb0MtdjBzUGowT2JmY25nbjFncWlEN1d4RWM2MzBKQmZGc1FmMHNjRVliLXNtLXBwM1UyaEFySXZKVllrY2RaMHVzS1RMblVsTGk0N1UySmtfc2Z6VnhwbUtEaVVNOW9UV3ZidzZtZ01WRFM2RXF6QkJyWjZla0pkTk1pNmFNLU5QMkhoRGxv?oc=5",
@@ -615,18 +615,6 @@
    "summary": ""
   },
   {
-   "id": "2303ea01bf2e",
-   "title": "طريقة تسجيل علامة تجارية في السعودية عبر الهيئة السعودية للملكية الفكرية والشروط والرسوم",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEZFVLSUd6RlJZQ0lUYVdUVUZQWGw0RnZqUlc4M25tMDVQSFlYdG1GYVNZb0RhNHZqQWNINW9DRFpjX01GMHJmY0FnUHRYbnRSLXNpVk9Rdk04Tkk?oc=5",
-   "source": "صناع المال",
-   "sourceUrl": "https://almaal.org",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T08:39:27.000Z",
-   "summary": ""
-  },
-  {
    "id": "ac162430e0d8",
    "title": "الهيئة السعودية للملكية الفكرية تشارك في معرض الرياض الدولي للكتاب لأول مرة",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ob21QRDRPQlpnUkpCcHRIRzJxVmtQZXZ3MmxjYkFWNk9jSU5NR283OEgxRHRQelFRa0RVVGZfd2FpOFkxc0k0?oc=5",
@@ -648,6 +636,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-11T18:47:37.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f4f8ccdee731",
+   "title": "«ملكية فكرية» سعودية تتجاوز تحديات زراعة الأسنان.. اختراع آل تومان ومنار العمري",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GR1lkdXZtUklPYVhJUDhVZnVqci1uaWFVWE5wV3NNUHAxNWdRdWZVTElsc1JpYUJYdjNmVmZRWDFtOU4wSS1UT0RnNDVvdENicktCTdIBVEFVX3lxTE5CeHRaMDFVOFhNal90OThYa2tmME5NbTFPQlZjRlpGT1llOENTUWJicWpwS1VVN1cyMEdBMFlSRzJPc1ZJOVJJN3c0Y3lYOXN6NmtUVg?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-11T09:16:00.000Z",
    "summary": ""
   },
   {
@@ -732,18 +732,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-25T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1d7cd2cabfdb",
-   "title": "سير السعودية تسجل براءة اختراع سياراتها في البحرين",
-   "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxOd2hRLUpnajZjek43MW1uRFh5Nm9xQ0FoMnJJdVR6bXU0aTNTLWo0V0JKcEhnMlZkdnNPTHNvVnJ5TlZSa3U2ekFmLXMxOGt2SDFmUnhDYVhxMElqcUR6LW1fbG9yUVNuQlhZeHVmdmZnTlJFZG1RYmxfcGd6ZzFHRmFzVlNIRXVMbW1WdGlxUWgwcENhbzgtc0ZTWG9SMGYtczZqR0c2aE90dnF6LXg4TXRWRUlCZFFBeEdxd3ZDY2xqTm9ZdFVKSUozSWxzX2Q5RTdUNlkyTjlqRnRRdFpjYUx6cm5pU082eXZ6X3E4SnhNOTBfM0EySUlnVVgxOU1MUjV6Wjk0R095WkJTX3BfUHIzUUlicVFVTGE5VmFxU1FMN01lMlJIb0FfRFBIT0JTSFFlb3FDMm9IZXFhX21NRTJBaVZzV2V6N2kzakdtVkJ1d2YxRWdYOTVvcXI2Q1IzYTFsNjZRUVdjbkR6Y1BPNVdWWUFfYmlvU002VnhpTjJFb2R3ZEZ5d0R3clBrckNGd1h2RlJKRUc0RUVDekR0dGU2d3c5ZDFOa0lfRXROc2IyUG9RWVF2WmxSN1NyZ9IBVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRQ?oc=5",
-   "source": "صحيفة الوطن",
-   "sourceUrl": "https://alwatannews.net",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-24T20:00:52.000Z",
    "summary": ""
   },
   {
