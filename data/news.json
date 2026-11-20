@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:09:09.676Z",
+ "updated": "2026-11-20T20:10:08.306Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,47 +9,143 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 28,
-   "kept": 11
+   "fetched": 27,
+   "kept": 10
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 27,
+   "fetched": 29,
    "kept": 1
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 18,
-   "kept": 13
+   "fetched": 22,
+   "kept": 17
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 100,
-   "kept": 22
+   "fetched": 67,
+   "kept": 15
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 98,
-   "kept": 68
+   "fetched": 48,
+   "kept": 42
   },
   {
    "id": "labor-local",
    "ok": true,
    "fetched": 28,
-   "kept": 5
+   "kept": 7
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 63,
-   "kept": 16
+   "fetched": 28,
+   "kept": 10
   }
  ],
  "items": [
+  {
+   "id": "2a4e22a695e1",
+   "title": "Three Charged with Smuggling Counterfeit Goods Through LA, Long Beach Ports",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbmZydkxyQ245WUtfdGtmX3BuVEZlRzhGelhEMDB6NUdIbl9qSktha243akZIMG5KS0docUM5ZTFpV1NCbzd1R0ZRcEVubEtDQU5vR2xBcUI5UFpKWEZSX0pMajR6UlpwVFhXYzgxYmVkWkNDX1FYQjBsdms2MTZwbVJiZFAyZllsXzh0M0JCdXVWRDE1V0FScDl4UnpzcF9tN09HUWFUaUNhb0V0MW9Sdnotcw?oc=5",
+   "source": "MyNewsLA.com",
+   "sourceUrl": "https://mynewsla.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-20T19:43:07.000Z",
+   "summary": ""
+  },
+  {
+   "id": "446f46b1a469",
+   "title": "WIPO Youth Drive",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SOWZLZk5TOHIxYlBVUlN1Qmo2a0R6d0pidW9HaG9kdVMwMzlRYnRBcTlzWE91Q0p6M3p6MjJHbTlCOVBYenhWNmtKcVp1ZlVUd1c2Zl9RTEhBNGE2ZFE?oc=5",
+   "source": "CW39 Houston",
+   "sourceUrl": "https://cw39.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-20T18:31:48.000Z",
+   "summary": ""
+  },
+  {
+   "id": "07300068551c",
+   "title": "Other Barks & Bites for Friday, November 20: AG Medina Says Personal Data is Payment for Social Media Use; U.S. Copyright Office Reduces Certain Fee Increases; and WIPO IP Indicators Report Says AI May Be Influencing Filings",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUXRZUFJTUEdobVFVTVZRZFBOTkhVM1ZBUEpzT200QmRnVFFMVVA0WDlhVURqVEVpeUFlbG52VUZPaWRMRXo3VkhNR0xEcHkyVVNseTNiUEFCX0pQVnRlN1VBNU54YkNBQlZ0cTQ4WElJa3g1RDkzQ0szTnAzbnZ6dmFELUhjbURNSGlSbXh6a00wOUNCbUZUbGhZc0tINVZKZThfdjNzMTRmaXROUWx6ZDRWc0ZjYzZDTW1YVF9ZaDA4SHFZajI1OXdSUmZjWC1Hblc4?oc=5",
+   "source": "IPWatchdog",
+   "sourceUrl": "https://ipwatchdog.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-20T18:15:57.000Z",
+   "summary": ""
+  },
+  {
+   "id": "05284b84d120",
+   "title": "السعودية.. الموارد البشرية توضح شروط إصدار وتجديد رخص العمل للوافدين عبر قوى والرسوم المطلوبة",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jd3RISFB1ekNpOFZLeEhoZTVYMUZjd1NOTjV2UC1fUkhZSDFpWHc2NV9zZVF3Y1ZFM0J0c1JmQ0h4Nk13Y3JZcnVpdHB2YUhVRktXb1haVk5lUHNLN25feW16TnAyWndiNmg5dFM5eHppRFJrSDRQag?oc=5",
+   "source": "صحيفة اخبارنا",
+   "sourceUrl": "https://www.akhbrna.ae",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-20T17:02:02.000Z",
+   "summary": ""
+  },
+  {
+   "id": "5c19a9af4163",
+   "title": "Malawi Develops New Rules to Curb Illegal Streaming and Digital Content Piracy",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN2pJNmR4SDRHckhSTWp5M01TczdndGZ0bEpyY1JQQ2VxQ2V2V09OSk95Slh1Tl96a1dzWEhNcEhBdmY2V3FVU25Ib3djX1ZmZThYWkNjNFFoTE53cmFuQ3BUS3lQNXYzODhLWnFZMFFxcGNnLTVtV3lRcnBVcDR2LXZ0dDFWU01zRkFSUVU4VGpENUFtWW1QNUFPUEtNRzdqeE9WWXJVWnVaelRrcHZVdEtfMW5aamllYW4yX2dsN3FIek5xOXo0?oc=5",
+   "source": "We are Tech",
+   "sourceUrl": "https://www.wearetech.africa",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-20T11:41:50.000Z",
+   "summary": ""
+  },
+  {
+   "id": "de498f3cd913",
+   "title": "Morocco Receives 2,983 Patent Applications in 2025, WIPO Reports",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVlLa2VpS0NlOXhKMGNHOFp2SW5iV29BOGpIa0xRZXJVOTdiMmg0bG80YVQ2aldKVEYxVXllYWdLbDBqVEVvVG9aeGVnV0dzUlVLYWJHRGFqN1NvQjJpQmVlUFBraU1lZDFvakQ4WW5iOVBYa0dRRVZrQnNMZEJVY2VTeXhrT20wTzg3YmRycEEwTTFtUVZFdU1icThtc2ZxVDMzWV9mVFk0UDMwbkxBTg?oc=5",
+   "source": "Morocco World News",
+   "sourceUrl": "https://www.moroccoworldnews.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-20T10:15:42.000Z",
+   "summary": ""
+  },
+  {
+   "id": "cf2e87ee9501",
+   "title": "India–WIPO Action Plan Adds AI, IP Analytics and Dispute Resolution to Cooperation",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWW9CenFGVTVuMVp5MEZyV3c0aEhmTmxwY3FTWV9sYVpBYW1lc0lMNmZsNVNjWS11QjRWZ2xJREF4Nk1EQkpoS3hWYkxueU0zTlJPb3hsSE1weDQ5WmxDYXJaUG9oY3I3UzRoZ01hMEpIMERUczhVaW1VSG40OF92cEh2SDFPbmVkRjlEcF8tc1BuSzI0T1N4ZkdTeVVJaVo2Y2dEcER2amRkT1hJ?oc=5",
+   "source": "The Policy Edge",
+   "sourceUrl": "https://www.policyedge.in",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-20T09:37:17.000Z",
+   "summary": ""
+  },
+  {
+   "id": "277bcc554ec8",
+   "title": "وزارة العمل توفر 1361 وظيفة جديدة للشباب برواتب تصل إلى 15 ألف جنيه",
+   "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxPaXpIa1I3OTNSNUdmTDBtZk01VWVFMllpUE1MdHdrRDVsTWJabm1wNkc0RVd0Yjdqb0JYYW9ObmMxMGxxZ0dXWVh3OGFMQXpUNlg3VmxUM3k3aWdra2hBNmRzNlE3bWZleExrQ0VNQ052NjlPMVF3aTMxcWhXZHJpa1NTOWJhX2VZZGZ0WGJNSktXOUJtVXNGLVhtOGNNVTM3LUVhZllVOUpwekhNYjZBS2lYMDkzcmdhWlVaQVRhUUtlTFJxTjVhMGIxUUljNmNYQVJuV2ZtUE5tSnZremdqR0dYZ3kycEk3Nm40SFJMbEFiT3FPcU9hYmMzM2xiWDFmczVvcEZkNklMY1dmWGZkTnZLc1pyVXlpZmU5MnFtbTJONkVOUU1ZNWRIWjdsRGxsazhfWnNYZ0J4NWxyT0h1X3pXS0k0LVF1a05SWk1n?oc=5",
+   "source": "الاستاد الرياضي",
+   "sourceUrl": "https://www.alestad.com",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-20T08:51:17.000Z",
+   "summary": ""
+  },
   {
    "id": "20e0707c620d",
    "title": "Company name on counterfeit goods not copyright infringement: Bombay HC | SCC Times",
@@ -87,18 +183,6 @@
    "summary": ""
   },
   {
-   "id": "792c399f100e",
-   "title": "Combating counterfeit goods on e-commerce channels.",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FX01OMktSRVRSbU1MS0N3OVVBT2ZBM1RVRmNJRUxCTTVac0hmZjE0Tm50bVhpcFVVbGRFTXFBYl9qcXQwNm9JeTBnRkhCMVk2UGJ3N1RVR0xVSFhvX2ZRdDBya3JGTE0wczN0bURwQ2tlZkxzUVNzTDN3S0RHdw?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T14:57:33.000Z",
-   "summary": ""
-  },
-  {
    "id": "5f3d44a11427",
    "title": "\"Ordinary People Who Take Extraordinary Steps\": Cobhams Asuquo Performs at WIPO",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeUNwNHFzLW50ZkNhTFJqTlJaREVQak1zZmJmUTJtRmxCZXpNSVJkOGJpQVY3bE5ERGs4UGl4WktiMFRrMS1GQVg4eno2TFJvZ05yUG9NWFgwNVkxbDV0eUxoemctRzE2WU1PUF9qb0IzdU1yOU1IdnBMc1RGX1JhQWVUb3huR0gwb3BzeFBEUlM2R1dkMFFpUHB4UGNzUjBLNzVtRFFIUXRKWTBvSkVYVkpqaExBUUcxTHlTMQ?oc=5",
@@ -131,7 +215,7 @@
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T12:21:43.000Z",
+   "date": "2026-11-19T12:16:04.000Z",
    "summary": ""
   },
   {
@@ -171,18 +255,6 @@
    "summary": ""
   },
   {
-   "id": "3a1be1d35d21",
-   "title": "A delegation of Turkmenistan is participating in the 37th session of the WIPO Committee on Development and Intellectual Property",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQaHdkbThNNEtwZlJJa0VBOEpNdFVTSmI0aktaQTg4aGlfdlk5ZXU0Q3U4bVc0eTRvMlVlcllKZU54R2QtRGN2ZXhSTUxQX1YyV25VQVRydXZoWmZDdDgyU2QyY21VcFF4Q0h2Z0J0NVBMd0M0ZXBDZlhQS04xUXRMbC1mYmZuam4tOHFDemJ3b09lbFBCNnR4azc3UEt5VG40X1E2NkxuZmZyRHV5ckR3TUx0akl0OFZsUzBYaEFadXNuYkZ3bTctbE5UVWVhY0ZZT29QMGtBdWNnNU1raGlN?oc=5",
-   "source": "turkmenistan.gov.tm",
-   "sourceUrl": "https://turkmenistan.gov.tm",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T10:23:04.000Z",
-   "summary": ""
-  },
-  {
    "id": "d19285c8a56f",
    "title": "Metaverse And Virtual Assets Emerging IP Issues In The Metaverse, Including AR/VR, Virtual Goods, And Trademark Protection",
    "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOd0NyMk9WUHBMeC1sSlFVX1hLenJuMS1sVDZQRjVXR2VfSHJMZlEyd1dheG40b1ExZlU0RHRsbENnUk1tVXlBQmUwLVpiczdFakQ1UUhrbXB2Ym9Hek1fU1ZWYXBBeEN5SzVTdnBHZlk1b2l2WU1ZbC1GZ1RiMmZaOXJaNGluZGpXbjdvcll6UDlkellmM0stSzR1R3RSeG9qN2hHVTI3RjNpTS1QRUxLM1pyN29nUkpMWjVCRTR1Wml3bEM0WTVER3hkaFJ5Z0xBYmt5enkzdlNMRUY5cFVYblVPM2V3cDhGd09hcFkyVkVtQ01BWURQbWdJeGkxdzJ6SW1SUG5CV3VtcXU3Y2pxWXZWdw?oc=5",
@@ -207,21 +279,9 @@
    "summary": ""
   },
   {
-   "id": "c1258395fc16",
-   "title": "الأمانة العامة للجان الزكوية والضريبية والجمركية والنيابة العامة توقّعان مذكرة تعاون لتعزيز التكامل بين الطرفين",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE53Q3czMkt1N29wNVUyUFNfU0h0Q0VLbzJnbWJ0aXIyMWQ4NW5zcG90amRIQWlnUDA0U1FQWF84N0F1UmVZbHU0T01DUXhtLWg3Q3c4?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-19T07:44:01.000Z",
-   "summary": ""
-  },
-  {
-   "id": "eb8c502eb171",
+   "id": "436adf843f6c",
    "title": "UN intellectual property agency pledges deeper cooperation with Hong Kong",
-   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcl9ZZlI2WDZaMzVtUl9VRDQ3NWo0RkQ3TmV5SUQyMGNDcDhURzJMdk5UQnRaQmxDS2NOMS0tMjNQcF9JeXJ3Y1hGa2hnZ1BmR0NocDhOY2FNdGNWVFBCd2M3b0FwbHZZMzlvTmFNN0gxQzd4bE9ZdlBLU1g5MFh1a0tQWjhmSzg1UWtTRDE1a0lJWXo4eldVOTByTDlYYmxKVUF4M0JCckpRMXdNcG1Md1dxcV9DVUNSOXV1Yk9HUTJpSFE4d3U4MmdQb04xTW1lVGVRWm9LeXJoRS1NNTNINng4a1BCeHZONHZwU19qcDFNU2RKc01GNEhDbEI?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZlN1M09YMjVleFZxVVhNSVpHcU41ZkpzMllldm5tOGhWeVliTi1IZ05xekdXQVN2dUZURWNlVnItczIyVHhJSlo2M1JmX0p1WkktQ1RmYnBRcEs3VC1LbVVyNzNEWV9zR1I2emdETEdRSDJBVnpRRFNlYWFWT05HTHVDejBLcXdUbnJ4SjBqc2FlZ3laOGI4VE8xVDhweU90R0lOMWRsVl83NXViMEhYby1sdHNIZlJ5N3pscmZGZDBRRFFydml3d1JieWdjaEN5VV9ZadIB1AFBVV95cUxQMVE2d2NTZnRadkJxVkFSenVyNndYT3ZZY0RyMDFGTk5lWXRWVnRjbzFKS2FXVHFzRElyeTRXQkY0bU83TDJOaW5SOC1zdDdWdHVhZTR3Q0lOTnZaTUI3QmlxQVZTSDJjbHU1a1lyRVdWSmRwTzFMRi1fa1VZdDU4ZTc5LW1RM2lKamhxaGxHVzVIZWgyOFU2ZGZkYUs4b2RuaU5oYm51M1pZcS1pdTN6ZmFwSlNrOURodmNWLUxPcFV6dlFxSTVkTmllV3RRV21tZC16Sg?oc=5",
    "source": "South China Morning Post",
    "sourceUrl": "https://www.scmp.com",
    "scope": "عالمي",
@@ -252,6 +312,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-18T22:47:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "65d9b5d0c642",
+   "title": "Illicit Trade Costs Kenya Billions as New Report Exposes Counterfeit Goods Crisis",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNml6VUtsYXBQM0ZfOVM3OVZmSjNxLXJ0N29NMXRENUhWOXd2ajU1TUUzSVdkRzhDQmhLejcwaEl6NlVKNHpmSVgtVlpzWk1uVGh2N1A3SDYxdEh1WXUxQ0lHNHk0QjQyanZfTWdpU2x0S2pMQ21SaXRhOVByWENPejBTTU9JZXZMMXI3MU5aNHQxVDRWeUE0M19VY0NqY0tBS0xIYVhzSkowdw?oc=5",
+   "source": "https://www.001fm.co.ke/",
+   "sourceUrl": "https://www.001fm.co.ke",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T20:37:39.000Z",
    "summary": ""
   },
   {
@@ -291,42 +363,6 @@
    "summary": ""
   },
   {
-   "id": "a227b30a235f",
-   "title": "US AI investment could be driving Asia’s patent growth, WIPO says",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWUxtXzNEWHZPRXdpOEprUW1SMFQtU00zYmtXeEFOTUNXOU9DV2ZHOVJpNWFBLUtTN1Uwb1pIWWp6ZmMyLVU4V29sNG9PeFJxb0d6RXhWX0tMYmVENEZ6dU9rN3FYVXhKeDZoOW85UWVIdmtvOEZQUkV1blZNN2hkSUx1bkNsWlRycEljSFdDX2JLRUlQQXJacVdlR1ktR1BObnlEek9WckRhZ3l1TXFUaEhNZ0V5Nm55WU11d1V6cjVCVTRiTUUxWtIBWkFVX3lxTE1jQllJWlRQT0FlUG5yWU0wRGtKQUQ1MVRCbzdueUtaZnZ4MzkyMFdJZWhHZjh1UkFrbExZNktwWTBINjFTWUs2bUNrY2NxZnRGZGo3QnVkTWNDZw?oc=5",
-   "source": "MLex",
-   "sourceUrl": "https://www.mlex.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T15:01:45.000Z",
-   "summary": ""
-  },
-  {
-   "id": "bcb771bb10e4",
-   "title": "World Intellectual Property Indicators 2026 - Trademark statistics",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcVVEeGhrTWZCRTM5d21NOF9OQTQ0Z2N2WTl0QV96Wm5TY3JjSW9xMi1iWTV4NTg4Z1BwTXoxTDRwRkpvOWZ1SE05TUJ6ZEYyRllGWjFENVFwLTBUZXRYaWhwMFRSd19PSS1SRExILVFYUVphZnZRYUVad0RxdTQ0OEk4ZzVlZjM3YTJOQTNEczlLTHROa3lLN2l1LVBYX2VxdFQ3eTlvS2t3ZVRvUXV3?oc=5",
-   "source": "WIPO",
-   "sourceUrl": "https://www.wipo.int",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T14:38:40.000Z",
-   "summary": ""
-  },
-  {
-   "id": "275a9435b3f6",
-   "title": "Protecting African Digital Creators: All Access and the Fight Against Content Piracy in Nigeria",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2ttbmhxTVNnbmkxMFpjT2pjLVItTllvRXJpRHFpNDVJQTIyNjlkWEI0Y3lhSWY5c1JxT0daalhSTUpZU0M0UkU4cmoxMGlwZVIwbHNuZG9yTGF1RW1DNFFheVpnVVlrSlVNRUdNeGxjTGxHZ2hRWFpsVFh2djZLZXdWYWZoSnlLNzB2T1BVTmZBajRTZnJNRFJVOG5KdWVobnNEMGZTTGVGaHRMZUxzSnVBZmw0cmUtUVFkelRJdE5nQQ?oc=5",
-   "source": "MoreBranches",
-   "sourceUrl": "https://www.morebranches.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T14:24:21.000Z",
-   "summary": ""
-  },
-  {
    "id": "b8ade5e26e37",
    "title": "Global Patent Filings Hit Record 3.9 Million in 2025; China Accounts for More Than Half of Increase",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jYzFiREhhdmdMQnMtc0lEWGdtdlU5NnMxWjFJVXd4dUV0YlcxMExZUWhBMzNvMm4wNC1HNlZXRUw4em9fS3M2eWZtSWZRTVFsM3lYM0JXSzcxVllHMU1ZQTZWUU1pazVyZWhIZC1qSDQydmhFdmc?oc=5",
@@ -363,39 +399,15 @@
    "summary": ""
   },
   {
-   "id": "c045cd610069",
+   "id": "d24ced93e971",
    "title": "Agency destroys counterfeit goods worth Sh104 million in Mombasa",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYmcyMklVbU5OeFIxanE2MUNWWmhFOEZkdXFDQ1AxR2FkQU1RMV9ycUhZLUszc0xfM0w2Z1BDZXlINEhrOW9rUWxhaGFkSU1ZY3JZc1J0MnlST2lqRGNmbHhuSjZQSl9rV2I1SlViYl9NMHc0WkhQdVFteXZ5Zlhib1FtQjEtQkQxdmJWZ0ZOM216bEtZRExLTVYtV0VRSnlsVG9tTjhycHNGMW5HT2lv?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVJ4MU9TenVzSzVJMmdpaGdMZzlWT1ZpMG1Jal81eFl2TXN3REZSM3FxMnQybnlWZUppSFBETmpfRXZEXzR5RS1ZdjBza2N0cm9qemNRYWNQb1JXWnQ3SjVaeXJkWXJGekVYVVI3cDFuVkstN1pCMW5tOUwxdUxETTRYNXktMnFFVjl6N3FNai03TkpPUldqcXdBNHZSaFlFVFIxZ0FmT08?oc=5",
    "source": "The Eastleigh Voice",
    "sourceUrl": "https://eastleighvoice.co.ke",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-18T10:03:10.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7fbaa8ef3ccd",
-   "title": "Jung Haejun Wins Copyright Technology Minister Award, Kim Sangpil Wins WIPO Award",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SY3lpM3ViV2h3X1JzOWxzeXpKV2pfbmtieTNwaFd3bVhqTXo4VExsT1JHRnFJQk5KSUJyVUVkbWxGYzU1WktKXzgwLVkzekN2SUIzMGc0WjM3d0taWWFVdkZGT2Y?oc=5",
-   "source": "아시아경제",
-   "sourceUrl": "https://www.asiae.co.kr",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T08:40:11.000Z",
-   "summary": ""
-  },
-  {
-   "id": "7c2609b53bab",
-   "title": "Three arrests over thousands of counterfeit goods in street market",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTHpxYTBBMTdwOVRRd0VmQ0xfYzBPRFRFN0gwX1pMc0sxclRJczhpUEhxTEVLdWs0cjRzZDJfTEhLV21wY2NkRjNMb3VoVmg1dmkxZDdPM01Cc2RXcWhpQlZWMHFINzNJU09ZUDVPLVBzdkRJZGowbWVMRHBkYzkzN1BHamRheDkybERFaHdjSWdRMjNJakszZC1vR1A0WFJLZVNKc0dlWkRfV1ZJVXc?oc=5",
-   "source": "eKathimerini.com",
-   "sourceUrl": "https://www.ekathimerini.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T08:14:57.000Z",
    "summary": ""
   },
   {
@@ -432,18 +444,6 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-17T19:19:09.000Z",
-   "summary": ""
-  },
-  {
-   "id": "92ec88b7ecbe",
-   "title": "قرارات مجلس النيابة العامة: اعتماد مدونة التحقيق وخطة 2027",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOFNHaTJHeHh6WXNPZm12MWl0UXIxTGpSY3p5OUhNWFh4enc4ektjNXoxd3psMGVib0QzS0RTOHVJWHNHemJYM28wRmxFNF9JNWlwUTFXRGFwWWU0SWpvSWN3dWM2Z2dRVE0wTjloX1ZmdnZ3OWpHcEtHRnFRTDM1bWhvOGxBdDRiZnkxZWdnVnVQRkhDel81eDJxTkUxSHF5bll2TWZR?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-17T19:10:21.000Z",
    "summary": ""
   },
   {
@@ -495,18 +495,6 @@
    "summary": ""
   },
   {
-   "id": "014a2ce40a0f",
-   "title": "خادم الحرمين الشريفين يصدر أمرين ملكيين بترقية (172) عضوًا من أعضاء النيابة العامة",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1TQ01oUUxGXzRaVEJ6RjFFVTJ0MzUyZmNZdFg5Tk5CMzRLbk1VYlpxMXZKX0JmV0paeFhr?oc=5",
-   "source": "صحيفة درة الالكترونية",
-   "sourceUrl": "https://dora.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-17T07:46:25.000Z",
-   "summary": ""
-  },
-  {
    "id": "198734294741",
    "title": "السعودية.. الموارد البشرية توضح حالات انتقال العامل الوافد دون موافقة صاحب العمل الحالي",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxbzVEcmtEQ2V4cXI5ZElKckZQS3dXNTk4dmdBWW5YX1hSMnJocWNxczdfQnRYam1Qc0k2OENBZUZkRUh0Y1ItSkp0UHVTSDFlc0ZYWFg5eHFYWjBtZVJNQmlGWngxWTllOVpXX1d0bjc4SThwVkJnMQ?oc=5",
@@ -519,15 +507,15 @@
    "summary": ""
   },
   {
-   "id": "0431debbb104",
-   "title": "متحدث وزارة العمل يؤكد: الحد الأدنى للأجور حق لجميع العاملين في القطاع الخاص بلا استثناء",
-   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOdndhVzJCSUQ3YWNIWm1BMUdJdFNkTkhVOWZ3TXVQMjVoQWVyZTZ1ZnJzQ0FFdUZTRzdrcnBCdFRuNVIzd2V2Y2VBdjJZOUoxaWczeFNMcm1qZnQ2eHg0aUctcjk0b05EZkxXeUNfTmtDYTZKTExQYWp2OUExM2NHWE90T0JrRzJMU0lmYm5Tbl9KV0tibXl5djVyeVdiSUZkUVhQZXo2S2pqRG5FdzdRWkF0S0Q1X0VhWVdLZjV4VzZLd2lsRlAtVXdsV1hqbk4zTVp3TW1ucFVkVkNCQURtR0VmeGlpY2xycXMwSjlDbXR3dktLQ1lNMG84NERsMVFXNmdiSU1ENGI0ZzhQMHpUaTRmaHJFRTB0Uk5aYW15ZzUtTTdFQmcwSU9Rb01xRjRLX3RoS0syR1hwMFlJMjVqbzhhVHpoaE9QVWFzZnhDdw?oc=5",
-   "source": "الاستاد الرياضي",
-   "sourceUrl": "https://www.alestad.com",
+   "id": "2b1cac0b1e74",
+   "title": "\"الموارد البشرية\" السعودية تحدّث مخالفات وعقوبات قطاع العمالة المساندة",
+   "url": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxQUDluTlU3aXZHVi1CTkI3NEtPX09SMmpVb2pPZDF5dTBUZHVXSVdKQ1RTcG9EQlhVZ2xkM2tlRzNhenNDcGtGX2FHTFVmNXF5ZXNIZ29oOGhnRkNoMXlSV0pRX212REoxUmUtci1Hck15cHJ1YXpwdWRMREN0bFlBLVRKWmJMTjZNZEhfdkE4Y0pZWFFYdEVubTdqc3Rqck9uZmlhQjFwcEdEZUZ3eHdUVTVKRnpTUi1FNHFIeVdDelpDUnNELU04amJlTjlUQ1E2WkczQlBTZHNyUmdEak0ydFB2amdJMzZYa0lFYU5uNWUybzZYakduVThDQ2V5Ti1Vb2Z5N1YzWnRLUkdyNFh6MXNoTzd6MFROOHg5SklwcWNfRDhwSmtRQW5pY1Y3cDBQU0U2bkJ4V09lVkFsQUxwNWNUTG4zM2hxV0hKSWF5bWxXMk9CT1psVndoRHA3MlpkcFF6ZTZjMHlvaWQweXNjRmY4My1lbXZMbWZwTWVfZFJDb1F5U28wRTRUdk9oUnlMYTZXMHlqOHNaUVRPSDlZMzIzVTBwRGdSSjBWcUxtZGNWbUhOSUpmdHR0ZWUxNTdBNy11Q0xTLXc0cnltbDYzZXVnSTlWNmVzTUZ0ZFZmZUUyZGhnNmNON09HdTM1VHFxZk1sVENDZXdtUjItTjI2V0dJNGNiWEZPZkxzNXBaU1VuZGVBeDk4emN4WkxCOF9ENkl3Slg0QUUtdzJaOEFjR2kyRWhSTjBwRzZHN2c1cGdSUdIBxwRBVV95cUxPUFVfXzd6WldvcTQxTkFJUlJzeTZvUjlPYUN6cTlDdjNGd1RYMmp4OTlfenRneEpuMVJxY2J3cjlBWFN5MXU0azJVaFQ4WW5SY0dkQWRnb1ZLMG9jNmRaaUVBMGs0enFjT0Y2OC1MWFZibTQ4aDJ3N0gwWjQ1NmhyczlPQTNuZ0FfWkVhSzRqVkxWa2lJZzZIdEVEWmhUX0VjV2NfMUFXM1pkdUh1SDhBOE4tSzZhbjAzR0t3NW1tb24taXpsMFlRVmNtSDQyeWc2NEl0RWx5MHA2a3ppSU9UczUwQ1hXVGZGSXlQbm1hM28zbzZWd2JuMTBkTnNfRklGY2RpZG02SVFMLWdEemU0UkFKV0JzQmh5MDRpcUtVUml4bzZTVkU1STB1amttQ0piOTJkdm85TnpDV0tnYUJSY0FsNjdWZUtPVWJFNHEwckdRNlBQa3lzeGM1Zk1FMkQxWDZWTVN1Qm5NbEc1V3hkUnEzSloyaGtfdFpHU3N2cXV0QjZjbURsb2EwUmFBZHNTVldORUhCM0hpUXZ5Y2JFX2Z6S1JHZjdJNm5XbERvc3pDYWpaQUFsUEFmc19ISDVfTHZibjhVNGVlNVhkU212Zmg0UlU1T1J2b0NLWmZFb2pOUU8zNjhNNzlQRncwQkdyV0NXUzVfS2ZjcTlCY25RZFdCaXAxWmVqekVBcW9lLVZjRkVFMXZuNEZ5cm02QmFTQU5nbHJLRU9fWVBfWkZWU1RaUzFjZkZVQ1RYNlN2U3VOdS1EQWlN?oc=5",
+   "source": "العربية",
+   "sourceUrl": "https://www.alarabiya.net",
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-16T17:45:14.000Z",
+   "date": "2026-11-16T11:49:00.000Z",
    "summary": ""
   },
   {
@@ -555,18 +543,6 @@
    "summary": ""
   },
   {
-   "id": "d2727ab6985f",
-   "title": "النائب العام يزور نيابة منطقة الرياض ويؤكد على التقيد بالمسارات النيابية وضمانات أطراف الدعوى",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE13N1o2M1lXNktnTC0wZG5ITk1vUWhwSHhfbzlucm04SXg1UjVQODFqY2FNd3lDOUg0WHVMbjZvbEJJeGN3bUtz?oc=5",
-   "source": "صحيفة أحوال الإلكترونية",
-   "sourceUrl": "https://ahwal.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-15T18:43:34.000Z",
-   "summary": ""
-  },
-  {
    "id": "feb9bfa96b81",
    "title": "النائب العام يتفقد سير العمل في نيابة منطقة الرياض ويؤكد ضمانات العدالة الجنائية",
    "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNWGk4Q3daa2tIODlsV1lNZnBQc1pUOEVyVnp4YXdFRnlFQ2F3LTJKdlEtX1FBUW5kc2Qza3JXb2JSM2VrX045c0JIUzljMXAxUWUwNWVmLVl5SkV6SzhkM3I3aDNJdWdPMDFEUWNmbkFYT01EM3RxVzFZQnI0WWltdWJpVFpBb3RQS1lkMXByb2QxTW5hcWlQNl91Y1U2U19IX0pyY094aUh6UEhsWEpJYUdqWW1SbWZaLXBaTEZ5S3hqV2N2NHVGNG1BOGpDTkpUd0tLMUZWcjU2NGtoNDQ5eXo2eG5veW9PODJiMmxucWMzcVM0Vk9rcjdRamVqeFAwVWU0aEdZWmIxOXYwWldwN2dVc3J6eGNqY0phS1FEQlh6cWVvaDVHeVBlaE5wWl9nYnZYNHd0cDJmcWwyVFE?oc=5",
@@ -579,27 +555,15 @@
    "summary": ""
   },
   {
-   "id": "f8ad05a80f9e",
-   "title": "هيئة المراجعين تحيل شركتين للنيابة العامة بسبب مزاولة المهنة دون ترخيص",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zRGtmZTJWa3lmVjhRNDd3eG5OOUlaSU82dW5hVkF2NVFJYi1PcERvak9rWkhxWV92aEZlUVNvUGVHNnBGSXhpRElKcG9fdmJS?oc=5",
-   "source": "https://alsaudi.news/",
-   "sourceUrl": "https://alsaudi.news",
+   "id": "337c78aedb89",
+   "title": "هيئة المراجعين تحيل شركتين إلى النيابة العامة لمزاولة المحاسبة والمراجعة دون ترخيص.",
+   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQSGFhMjhqWk9YTC1UaEY4ek1qOE1TMERQU1U4aHBzckNQUEh4dHA0YUU3NXd5cHdCN1hnbTVadUJhMWRIMy02bEZ3T2x4VzJtbEZNWXFiVll5NzNudzF5NHRnQW1yVWNwUHh4dEVGMkMzbVV1clI4UXQ5LXFiZS0tSElZalRKMTNKM280aFhyYWNXSWtnXzBOQW5vMV83MUNZUEU4MVVkQWZ0S3pjazFfSENkMTBNMkh5Sk9YQnlRTk5ZdlNzYWdjaWYtSnhZOEUwRkxOSzZLaU5rUmNlRDZEM0lEX1JHblpROTFiZzZyeEltMzR3RmJxT0hDLURQOXZwcm1lRmJJQjRoa08zOXYyUVpfQWR5UkVwdnQ1VXdMd2x4UkQxdWhCVmNqUUdDTWFOTF9kVXdQblY4Xzg1TUthZzI0QUQ2Zw?oc=5",
+   "source": "صحيفة الاقتصاد الإلكترونية",
+   "sourceUrl": "https://www.aleqtsad.org",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-11-13T23:40:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "b30c97ec9c59",
-   "title": "هيئة المراجعين والمحاسبين تحيل شركتين للنيابة العامة",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbDFVYnp6OHBrWWUwZ0JVc3IzT2h6dW8tanFwTnR0SlJRb0MtdjBzUGowT2JmY25nbjFncWlEN1d4RWM2MzBKQmZGc1FmMHNjRVliLXNtLXBwM1UyaEFySXZKVllrY2RaMHVzS1RMblVsTGk0N1UySmtfc2Z6VnhwbUtEaVVNOW9UV3ZidzZtZ01WRFM2RXF6QkJyWjZla0pkTk1pNmFNLU5QMkhoRGxv?oc=5",
-   "source": "أخبار السعودية | saudi news",
-   "sourceUrl": "https://news50.sa",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-13T13:11:17.000Z",
+   "date": "2026-11-13T15:30:25.000Z",
    "summary": ""
   },
   {
@@ -651,18 +615,6 @@
    "summary": ""
   },
   {
-   "id": "cf507445d8e3",
-   "title": "النيابة العامة تدشن نظام «المراجِع العملية للقيود والأوصاف» للتكييف القانوني للوقائع",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fT3YwSUFibDhlY0J1TzFfTDgzUVBoZGxSaEpadXlFYVY1Zk01NXR6a1JBZlozWHRpUEpWZnNWX0dOZ0s1ZVU1WG5VNzM1aGlaWlg0?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-10T21:23:06.000Z",
-   "summary": ""
-  },
-  {
    "id": "bd0e3cced49b",
    "title": "عام / أمير الشرقية يستقبل مدير فرع وزارة الموارد البشرية والتنمية الاجتماعية بالمنطقة",
    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE94bWd4TWM1Q2JUclVRZXFJY3FzaXIzeGhNQTdoQks3UzhRNXRhU29sMWpBd0RfV1V3VGt0Y3ZQckZsX3JYMnc?oc=5",
@@ -684,6 +636,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-08T21:21:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "e1ff6537dc98",
+   "title": "الملكية الفكرية السعودية .. من حماية الابتكار إلى صناعة القيمة",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPM3c0TFE1STdsZFRZeXJaMDdCTVNOYXRtWVA5Yk92YW91SDN2MWpnVlRvdld0OXJXM1NFX29xUF9xN0JRSXl0UzZQak1naU1hbnFtV2V2d3kzNnB5dDJxYllPZF9RNkNsc092YnJTb3RiZFFLWkItaGhObFl3QXJNMXlfZTkxOThkajZRSS1fZjVDTTVicFdIekZKSGVLR2lXQU1hU2RsWF9DRkd4eUFsb3kxaVB5LVl1VlRXV2JSWWF6ZTBrblQyZXpzZmFYeTVVeTRZM0FUN0FUc1pnMFdLQ2hMZWhxdU02dVdPRi1aLW1ueHBu?oc=5",
+   "source": "صحيفة مال",
+   "sourceUrl": "https://maaal.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-08T04:37:12.000Z",
    "summary": ""
   },
   {
@@ -711,18 +675,6 @@
    "summary": ""
   },
   {
-   "id": "bfbf79aefcd3",
-   "title": "أصول بمليارات الدولارات.. نزاعات الملكية الفكرية تعيد رسم خريطة الاستثمار العالمي",
-   "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOX0h3UlpkVFM4X25UN2ZhY0QxenU3dHVIY0ZLRm5iRDVTNElhbEpzWGhuOGFDQ2haak9paVFSc2JhRnUwTkd6SC1PNUF4cTh6UGhtTE5ieGVFRE9qVHpBR0ZNQU44azE0SERZZzBIeGlOY2NoYTJsWWI2bS1DRmx3QlpiQ3NyajlYaUpPUmY3bWJKbGlFcElfYmhUU3RZVy1yclNCOWk4b2piczNMQW1TT3AyOVFoVXpFTXdRWjJFQnRZRl9BcEV6b2dzU0VMSUZfLXRXeF8waHBra3hYMHA2VkZlTFItY1BFaWg2S1VtMWJhTVZWQVpXdnJwUmtMWXNmOHpfY1B6VUY0NThGQmo2SDZrdWFQYjNiQ2hRREFaVVhjc0UyT1NkM2Q4Uml5d0tWV1BfNHhIbw?oc=5",
-   "source": "الجزيرة نت",
-   "sourceUrl": "https://www.aljazeera.net",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-26T07:00:00.000Z",
-   "summary": ""
-  },
-  {
    "id": "e724158c12b3",
    "title": "\"إتش بي إي\" توسّع التوطين التقني في السعودية ليشمل البرمجيات والملكية الفكرية",
    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE00WmVEWWc2aFI1RTBUYllEc1dXSkRmSXJVckZla0t1ZE1UZGM2RG10cjloYkR1U3ZWRVg0WnBrMDAzV3VoQS1r?oc=5",
@@ -732,18 +684,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-25T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "b471a020e874",
-   "title": "رئيس الملكية الفكرية: الموافقة على الأنظمة الجديدة يعزز بيئة الابتكار",
-   "url": "https://news.google.com/rss/articles/CBMi0gVBVV95cUxQTE5rOHl5RHJuV0s2dVJCUWhXYnVrWmJNT0hvV2E4Q3lRUDRWcWE0Q210enUyUzRqUnZOdlQtdUJkYWJJN1M4Y3ZJekRjY0tNTU1CNk5MVEUwSVlVckFaVjV4WkNWZ1FpbTI1UWxYZ09KS2JsQVUxWkF1Z3poeVhmNkdicGpfTUFtLWxZU05uUWJOTGxIZm1qNGtZcDZQZ0NHSllNSnl6dU1wZVlicUdKSnlXcnpkazZTS1RoOVpuSHBLZ2dGam44RnI3T3FqN203bFJCVlJta2Rfb0ltWkVJWmt4clZ6R18wYnExUWU3MjJfZ19rZ0o1SnU4eGd5SmhwQjdjRTFZemVRMjFkZENmbElQNWdreHFySmJLS0QwX29wTF91OFBtWHluT01BVlRCbUxrQmJvRFpScUtsckpWa1FJekFMUkFheXFtbGoweHRPQmVSVGRYT2s3Q1NXRXFFdlhWdE1OblVOVnJZQ0x0QURZVnFmSnlQVlNfNzBpb0hNVjZobHZ5Y1ZIOExDUjZmVmwwZ3pTbkt4Tm5HNWdjdjVZc0I3U1FjbHQ1SXQ4MXQtWDZ4cE5Qam5jWHpHS3BMc1RTM3Y5VHJRYjZFaUFXVlZhTHNxMU5salhUenUwaXgtYWpFOUZxbk52SHJ5UWIzcVIxODZwRy1GUVcwSy13R19VZmpIUEpIVkxfNzdMNHpoTFpQMG9ScGVoNlBPU0FVOEphSmlwZ1QyS3UwU18zVmtsMk1MYlVQQ0NxY3FReFNsLThUVmhrNEN2Y1IwaklsUEhPcm5LdjBGc3phS3BVYmEyLTdQQlV6TElheXhNX1ZWSVdZeTZ3c2tIV0lIaEplbHRvUW1fUGxYa2dyel80ODQ1QzE4ZHFqQ3JYUXczQ2hyU0ZRdzd6T1ZfUDc0TGJDb2JJZWJtejg1dlZCZUdhUVJoT0RNZkVaSzZ6NE9GTkowQdIBU0FVX3lxTE1idlhvZV85a3h3bnBhYmdMODBaZDBwMzNGNEs5ckZrY1hvQjViNkdscjZKaVZmUWV2WTdVVVJTSHd0dHplNHFRc2lIMndkWHUyYlVR?oc=5",
-   "source": "صحيفة اليوم السعودية",
-   "sourceUrl": "https://www.alyaum.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-21T07:00:00.000Z",
    "summary": ""
   }
  ]
