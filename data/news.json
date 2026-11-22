@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:41:43.804Z",
+ "updated": "2026-11-22T19:33:24.294Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,62 +9,86 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 69,
-   "kept": 11
+   "fetched": 27,
+   "kept": 6
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 26,
+   "fetched": 25,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 29,
-   "kept": 23
+   "fetched": 31,
+   "kept": 25
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
-   "fetched": 62,
-   "kept": 20
+   "fetched": 59,
+   "kept": 18
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 37,
-   "kept": 32
+   "fetched": 33,
+   "kept": 28
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 29,
+   "fetched": 21,
    "kept": 6
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 27,
+   "fetched": 28,
    "kept": 9
   }
  ],
  "items": [
   {
-   "id": "2ffe93b72adb",
-   "title": "أسمنت الشمالية: رفع دعوى ضد أسمنت الصفوة لوقف انتهاك براءة اختراع إنتاج الأسمنت الأبيض",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50VnlRWDVuUVNSWjltdVFkbk9OMk83amlEb2J0M3B2bk5LbnQ1eUE3NUhjbVhGSlNmVVJOMmhldGNyY2FWdlZIdXdsN0RpaG1Ec0FMUm1XeDY5c3FaWFRuLWRqYmlmQk5XWlE?oc=5",
-   "source": "ارقام : اخبار ومعلومات سوق الأسهم السعودي - تاسي",
-   "sourceUrl": "https://www.argaam.com",
-   "scope": "محلي",
+   "id": "446f46b1a469",
+   "title": "WIPO Youth Drive",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SOWZLZk5TOHIxYlBVUlN1Qmo2a0R6d0pidW9HaG9kdVMwMzlRYnRBcTlzWE91Q0p6M3p6MjJHbTlCOVBYenhWNmtKcVp1ZlVUd1c2Zl9RTEhBNGE2ZFE?oc=5",
+   "source": "CW39 Houston",
+   "sourceUrl": "https://cw39.com",
+   "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-22T03:26:31.000Z",
+   "date": "2026-11-22T17:26:32.000Z",
+   "summary": ""
+  },
+  {
+   "id": "89e9b1a2aa7f",
+   "title": "عام / \"الموارد البشرية\" بالشراكة مع \"هيئة المراجعين والمحاسبين\" تعلن توطين 17 مهنة مالية بنسبة 50%",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1aMS1OOHZmQzFVQkh4SDRKbTlpX0dDYmNmdk9rcldEUGUxMWFYSGFrVHBMYnJDVEZJNUc1bk1BdmFRR1NqZEE?oc=5",
+   "source": "وكالة الأنباء السعودية",
+   "sourceUrl": "https://www.spa.gov.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-22T09:16:02.000Z",
+   "summary": ""
+  },
+  {
+   "id": "729cc873ceaf",
+   "title": "Sri Lanka Welcomes WIPO Initiative to Promote and Protect the Cultural Heritage of the Kandy Esala Perahera through Intellectual Property",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPT0JIR1Z2OC1BaHc0MGtTUUJiMTZQZ3RXWmJnY2RoT1o0NnlGUllZZTJjajJkOTBpcHUtZ3NYYlNncm9BeU1LWGs0TWpvNVh4Zmk5MHBjQjF3dWdCUXA0RGx2bGFXUHN3eTlCckxFc1lNN0taREQ3eHJpUFctdGFnRGRVeVZaTzNwUE0wNFh3M2gtMU9tTHVGOGY1N2ZjUG5IalRobDM3WHhVYk5vTXhJMjJqMEVyVUhoZFRLZDd6OE82TDFuWXFPaHNFS3ZERVlwWGVta1Z3TlFpUGdIZ0QzaTkyeDRHdERrT0JPN3JKa01kT2oweWpmbEpUdkZtRzNNcFZ6bA?oc=5",
+   "source": "Colombo Gazette",
+   "sourceUrl": "http://colombogazette.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-22T06:54:30.000Z",
    "summary": ""
   },
   {
    "id": "a7407eef6162",
-   "title": "Well-known trademark turkey: 2026 recognition guide",
+   "title": "Well-Known Trademark Turkey: How to Gain Recognition and Enforce It in 2026",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQazdwRDB3Unc2azNWQVByTzBOZDFiaUd6eXkyUzAyQXVLLUsySlI5cGV5aF92SDZYV0llT0FwQW9MOHh0U2lkejA3SXREN1Z6OVUyMHM1RHdSTmZjTmFnaEhvRjItdEtQWk1zaE5YdVRPWG9jbURUNjZ3ZWFHaWYwZmVnaDlRRF9wMGRuQlhRRnFGOGFk?oc=5",
    "source": "Global Advisory Experts",
    "sourceUrl": "https://globaladvisoryexperts.com",
@@ -72,6 +96,30 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-22T03:07:33.000Z",
+   "summary": ""
+  },
+  {
+   "id": "c1f3de88545c",
+   "title": "When Trademark Infringement Is A Crime: The Blurred Boundary With White-Collar Fraud",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNk5jMVI4TkFTcjNJMmN2TjBFWlZwZGR0cDNmVXdkUGJWcHRlQTJ0cWVLaXNrcWVjZ1ZORFl5ZmpvZW45cHgydzhHdDBBR1dXVUJZWm9lejByNVhfM19hdjZKX0I5X21SLUt2SjhwdE1iVm5BdGJ2M0xHN1F0YWdSZE54dndhQUNGVVpMaU5iZEFfSklvSGpvbVQ1MjRNX2syZjUzV042bF8xMnBMc3JIOXplSE5KZXZ2Q2h3V1pCOFhDcEZqOVJoXzZYbmtEZ2tOLUktMExKbDF0djN4bFo0T2R4NA?oc=5",
+   "source": "Legal 500",
+   "sourceUrl": "https://www.legal500.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-22T02:35:09.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7d7f564a1a04",
+   "title": "Trademark Enforcement And Public Interest In Pharmaceutical Disputes: The Delhi High Court’s Approach In Novo Nordisk A/S v. Dr. Reddy’s Laboratories Ltd",
+   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOV2hYRGxVM1pBUmVrazAyZ19JWWxuYVZGcVZMbkdhWXp4bHdnNVNNc1V1ekdxanRxQW0tWEdoOW1VTU11OVdoME1hUmFrdVRUT29tWW4tR09yMmVzQXdPeTl5aFlzYVhJelVfdThST29xUzlLdzBxNzI4aWh3Y0VNUEhtQzRNbHB6WW5CT3N3UVYwVld4c1Q3WExyX2EwbVpwc2xJWDA2X0l4Qk5hblFsSHJGTERmcGJ0QWdOTXFTRy1sQjIyLUFzZUdxZDR0NjNZaWFSUF9JN21LbGdJQnpKdEZJQ0dXelVXUnpHWUJnRzdTZWJXWXhkNjdCMmpfd3V6ZzZfMVcwXzJFZ2VabHR4N3VYWUhPWS1aRzJLY3lYMTFZcWNKd0RsREVoQUJvNHJhcmR2RmRZSDlzak1rTER1bGlXLU1vV0h0YjZtUFVPLVpWZw?oc=5",
+   "source": "Legal 500",
+   "sourceUrl": "https://www.legal500.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-21T14:56:23.000Z",
    "summary": ""
   },
   {
@@ -96,6 +144,30 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-21T10:51:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "f57f975622cd",
+   "title": "مبتعثون سعوديون يقدمون 4 اختراعات لبراءات أمريكية",
+   "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxNWkVBQ0l4OTg2RzI5a25wSW5VQXhsamt2eFNHbnJCbEJQYXdlM3pfQzRWNzg2UmIxLXh0eV9KR1JCREp1TkJlUUJXX3Y4V1NyZ2VYaEtULWFaZWp0UnFmMEZrX0c4ZXVYMTdTb2hGQlJqRXhqb0ZicEFyTkJfRGE0RWViSWtzV2lpTU1CVVJqZjh4MFlNeVQ0UEhOMkhhQS1STVFQbzljeE1qdmY1Z0hBdHI4dXpMOHlTYWVtVHYwOFQ3WlhTM3lWQjRaMUhVemx4dDJFT0RwY0pIdC12OTdjUEYzVHNBQ1ZSNWpYSG45ZjR2dU5tS19wY1Q1M3VHN1A3WExiX2NYVi1kdkVRajBZVGxsWm1ib1ZhZzdKXzF6eVVDQ2xQUk9XTVdZMnpxcEJsV0xNbjJ6RmxtOGNqWWpxRGQydGs4MEVXNTVJem9YUjdjSzN4Y1c0WVVIQUxLc1RDemlLMHpYc2toelVBdnJETmxMVUpEbkc4OE1lb09ZelU?oc=5",
+   "source": "أريبيان بزنس",
+   "sourceUrl": "https://arabic.arabianbusiness.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-21T08:20:27.000Z",
+   "summary": ""
+  },
+  {
+   "id": "08bda6b931f3",
+   "title": "One Warning. One Strike. You're Out: Extra Inning Softball's New Copyright Enforcement Policy",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yS1ZBNG05aWZFRUdVcXEtc2h6Nk5hNWQtdkF1Mi1TMl80dGd4SUhqNlZTWUJWNVVGV0JRUU1hUXRRbEhnbGE5Z0hrc0JROTd4NWRLZVUtY0FZemczaTJyUnVJOF9BQWpGSjhVMGVzdmdXR1NJeTJpTVZGaUZyZw?oc=5",
+   "source": "Extra Inning Softball",
+   "sourceUrl": "https://extrainningsoftball.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-21T08:00:00.000Z",
    "summary": ""
   },
   {
@@ -183,18 +255,6 @@
    "summary": ""
   },
   {
-   "id": "446f46b1a469",
-   "title": "WIPO Youth Drive",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SOWZLZk5TOHIxYlBVUlN1Qmo2a0R6d0pidW9HaG9kdVMwMzlRYnRBcTlzWE91Q0p6M3p6MjJHbTlCOVBYenhWNmtKcVp1ZlVUd1c2Zl9RTEhBNGE2ZFE?oc=5",
-   "source": "CW39 Houston",
-   "sourceUrl": "https://cw39.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-20T18:31:48.000Z",
-   "summary": ""
-  },
-  {
    "id": "11f0125f6676",
    "title": "Enforcement Of Intellectual Property Rights Through Customs",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVS13NC1kVVRPVVhobm15QXpQZ1hxWm42VWF2eE5iZlFfLXBoTGh5UnZaMFRrTFRLRWJrQ1RHTm9KeWFyZTJ0MG1oNGFJQVRMNFY4cDFKY0wxWVhMN25JNkN6Q242Mks1YWN4V3ZfRGRFaXZ3QVNhREc4angwQWxSU0IyT0VwN3hCOUtBYmFrNFhNZUZXOXdzQ3RnMW5OSGlSdDVJckRqZWNGb1VseTFaa3Z4OG9Tbk9aNVFrMTVtSVM2STg?oc=5",
@@ -231,42 +291,6 @@
    "summary": ""
   },
   {
-   "id": "7d7f564a1a04",
-   "title": "Trademark Enforcement And Public Interest In Pharmaceutical Disputes: The Delhi High Court’s Approach In Novo Nordisk A/S v. Dr. Reddy’s Laboratories Ltd",
-   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOV2hYRGxVM1pBUmVrazAyZ19JWWxuYVZGcVZMbkdhWXp4bHdnNVNNc1V1ekdxanRxQW0tWEdoOW1VTU11OVdoME1hUmFrdVRUT29tWW4tR09yMmVzQXdPeTl5aFlzYVhJelVfdThST29xUzlLdzBxNzI4aWh3Y0VNUEhtQzRNbHB6WW5CT3N3UVYwVld4c1Q3WExyX2EwbVpwc2xJWDA2X0l4Qk5hblFsSHJGTERmcGJ0QWdOTXFTRy1sQjIyLUFzZUdxZDR0NjNZaWFSUF9JN21LbGdJQnpKdEZJQ0dXelVXUnpHWUJnRzdTZWJXWXhkNjdCMmpfd3V6ZzZfMVcwXzJFZ2VabHR4N3VYWUhPWS1aRzJLY3lYMTFZcWNKd0RsREVoQUJvNHJhcmR2RmRZSDlzak1rTER1bGlXLU1vV0h0YjZtUFVPLVpWZw?oc=5",
-   "source": "Legal 500",
-   "sourceUrl": "https://www.legal500.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-20T13:41:46.000Z",
-   "summary": ""
-  },
-  {
-   "id": "5bec1d55bd4a",
-   "title": "السعودية تُقرّ «سياسة الملكية الفكرية» لدعم الإبداع والابتكار",
-   "url": "https://news.google.com/rss/articles/CBMixARBVV95cUxQZ0YtZGktbzZrQ29ldGEta3hnX19yUzRCZ0h4LVJNSFVEUkw0bGUwSVdnVXI3eFVrYWtpYVRtd3FER0ZlaFNrQWtHeXJMV1hPNmUySy1NbmxZSkxaRjFrSnlwdjhwUnVRVHYyZEdDa0NaTExJbXBlNXFkYzc0em5hcHdNVW5aNmo0cGtZdGlQZ2IyRVBrMVJ6dGhvT0tEU2xPaG9tQjlLUW9GSUdYeEd0Nk92Uy1BNXZyQVlsb1A3SlFUTDFKMHlfd3UtVWtfUVlSODZaTDd1MUZIUVltWTBCQkRfM2p5cmZ1amVEZUpHNmxkUTZSY0VvY3RxLTVSaVE4eW9yQV9tY212WlJjSzRlb3VyTl9IU1FLUVViSHRQdTBhWERwVVAtMC1EN3otbm9HeFA0NVU3NW9hSnFnWWU0bHZFYU1zNjFmOHJ0VElSRXFOZGI0SS1YbW14ZzZSd0JEZ1ExdVZfSDJUcXppeTlaQndSOExWbVVvc2MtSDJwWDQxNzhFZXpuWEIzamdyX3ZxbThnbzRManZoQkYzSTdsRndtcW1CVnhMeGUyTkVNajdSOE1JUnB4cTYwTDRveVR6Zi16UEhONlAtV2FWUzJJVjVRbnQtcXI2ZEtEX002ZWJ4Nnl3RXh1NFozQVk5dGVDR0s2enZtWlBrYUphcG1lSVhITUZGRFdfY0Nybk1iYVlmdDZxS2VsbU1GMnpXRkl2UnFoa1MtNmx5OUxET2hXMWNfTTZSMTdVNEN4R0llUkdRTU0x?oc=5",
-   "source": "الشرق الأوسط",
-   "sourceUrl": "https://aawsat.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-20T13:33:22.000Z",
-   "summary": ""
-  },
-  {
-   "id": "de498f3cd913",
-   "title": "Morocco Receives 2,983 Patent Applications in 2025, WIPO Reports",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMVlLa2VpS0NlOXhKMGNHOFp2SW5iV29BOGpIa0xRZXJVOTdiMmg0bG80YVQ2aldKVEYxVXllYWdLbDBqVEVvVG9aeGVnV0dzUlVLYWJHRGFqN1NvQjJpQmVlUFBraU1lZDFvakQ4WW5iOVBYa0dRRVZrQnNMZEJVY2VTeXhrT20wTzg3YmRycEEwTTFtUVZFdU1icThtc2ZxVDMzWV9mVFk0UDMwbkxBTg?oc=5",
-   "source": "Morocco World News",
-   "sourceUrl": "https://www.moroccoworldnews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-20T10:15:42.000Z",
-   "summary": ""
-  },
-  {
    "id": "e3e6193dbfa8",
    "title": "Hong Kong Customs cracks down on online shops and distribution centre selling counterfeit goods and engaging in money laundering activities (with photo)",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Jc0picGZ6MEJXeUdQckNoMWFodmxRU3Y3UjdJSVE3cVl4WTAxSXFJWVVOZ0hUMUhZYkVPTG5WSjdZc19xM053ZS02T3pfV043R2FmLUJNSEJpdDdKbmFpeHIxZEtHalNtTkNZQzRMaDBzQQ?oc=5",
@@ -279,27 +303,27 @@
    "summary": ""
   },
   {
-   "id": "191a0e807296",
-   "title": "الزمالك يوضح مصير بلاغه ضد زيزو لاعب الأهلي بعد انتهاء تحقيقات النيابة",
-   "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPYUpyWDU4eTNNODY3OUtUNFZKRmZvSUZIcHAyVENZX3l4UHlfWEJHcG1TRWFMbUlhODFjNVUwb3R6WkVIUmpfOU54MzFjOUwxcmFDYUVpOTA1RE9Mc1EyNWZPbURjeDJfMTRhMmxMbTdmT0xiRGx4Uk51VVlWbzdRLThqNTl6Y0xRSnVzX1RNa1RSRGxTQjh3UDBYMWlhOFRKQm9JQnJXZTdMeXhvdW1nNUVUVllKQWhadXhEY1dyazhZTm5TeWNlQ2JYWDFfVzBrRmJmN3g2dTNibk93SndRQ3RGSGlHZ2J2Sy1wZnBzeHoxRE9VUVJjSklkaUVBckl2X09FazJPQ1daU2oyb3VBQXlHbXhfejRMTkxqRnRzZm9rcENJTFQyZ0FuZC13bE8wM29uLTgyY191cG9qbjROT2I2dU55R1VXRExxTXZsVm4?oc=5",
-   "source": "الاستاد الرياضي",
-   "sourceUrl": "https://www.alestad.com",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-19T19:06:12.000Z",
-   "summary": ""
-  },
-  {
-   "id": "792c399f100e",
-   "title": "Combating counterfeit goods on e-commerce channels.",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FX01OMktSRVRSbU1MS0N3OVVBT2ZBM1RVRmNJRUxCTTVac0hmZjE0Tm50bVhpcFVVbGRFTXFBYl9qcXQwNm9JeTBnRkhCMVk2UGJ3N1RVR0xVSFhvX2ZRdDBya3JGTE0wczN0bURwQ2tlZkxzUVNzTDN3S0RHdw?oc=5",
-   "source": "Vietnam.vn",
-   "sourceUrl": "https://www.vietnam.vn",
+   "id": "20e0707c620d",
+   "title": "Company name on counterfeit goods not copyright infringement: Bombay HC | SCC Times",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWDR2dDI0eG5qZVVyVzJkRWJ0aFNHY0tadldIaTBTTmNES3BsVlJJZlZ1b3VHZjN4bGVMMXJTaWViaWJfX3dJZFQtdTBvT3hqeE43NEpqdzhVQ2lNWS1LRnVlZ2laemRVVmJ4cjk5TmlEdDdRWVB2QW1zeTJyX1JQdThGUUVvVnFDUzdoRUlZeUZsdWk5NTltdTJBajJYS0RTc04xdWViU2R5bG5xQzNUX09YQUM?oc=5",
+   "source": "SCC Online",
+   "sourceUrl": "https://www.scconline.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T14:57:33.000Z",
+   "date": "2026-11-20T05:33:06.000Z",
+   "summary": ""
+  },
+  {
+   "id": "95b3940f3a01",
+   "title": "LeBron James Sues \"Bron\" App for Copyright Infringement",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5IRFJqU2VYenByODBQVy01Yk0tZndIRU9GQmU2RnVjT2tTdzczSm9KOUxNREhUWHBnb1prMmxpMy1VTlU5MEhnRVRNbEw0MmRMeU5EVGJnck01c09LdUVLYkV6bzI3ejJZcEFTbkJncEZDd1N0cVdzVUtoQlFmQQ?oc=5",
+   "source": "Legal Reader",
+   "sourceUrl": "https://www.legalreader.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-19T19:51:46.000Z",
    "summary": ""
   },
   {
@@ -324,30 +348,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-19T12:16:04.000Z",
-   "summary": ""
-  },
-  {
-   "id": "512ab320ea3f",
-   "title": "WIPO: More Indians Seek Patents, but India’s Patent Office Grants Fewer as Applications Pile Up",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV2o4OG82R1BtOVpjSl81X2Z3OFV0QmJPNmx6eWFuc0ItQXRZcG9NMWxzVXJhZDZjdUZ5ak45T3JWVzd1NHpKWHNWLXlxa0pqTVZpSWJKeXQ3R2xXendUX3VLdjl6UThscXZUS2NpR1l5QzJjWlMyTHNFaFdGS1FPQm53QnZpczJNeVdnR2tLcWZnNDE1emxlbXlJZ3NxdGR1bWdUenZOZ0ZkbUJ4QUZiTzFIck81T05leUJNRQ?oc=5",
-   "source": "The Policy Edge",
-   "sourceUrl": "https://www.policyedge.in",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T10:52:13.000Z",
-   "summary": ""
-  },
-  {
-   "id": "9e7b74ebd2df",
-   "title": "NRDC, WIPO Hold Visakhapatnam Dialogue to Connect Indian Startups with Global IP Ecosystem",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0F1STlMNFRTMzFZOXRmRTRaZVo5SE9HazZqQzNwZzQyOHlhOVNDMHZIdnM5Qm1iSnZwYkRCX0JNZDRwellKR1JuNmNMVzRFTTA3c2lZVnNOOC1pSloyS0wyLWZKbUZYVEk1dzZEQlMwZ3dNSXRWRUdRNEt1a3I4dkVoNkRrd0praFk2MzJtWGl0ZndwYkhBWVF3cy1ueE9kTTZUai1EWFV1NGJrRWk0Wg?oc=5",
-   "source": "Indian Masterminds",
-   "sourceUrl": "https://indianmasterminds.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-19T10:47:01.000Z",
    "summary": ""
   },
   {
@@ -411,39 +411,15 @@
    "summary": ""
   },
   {
-   "id": "35a83017d45e",
-   "title": "NRDC, WIPO engage with Andhra Pradesh startups to promote IP-led innovation and global market access",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZDVhLWlmZC03QzBGWG5jNjkzcl9wYnl5aUV3VlktQmhKdEo3bVVyT0xKcnRHZmc4dGdWVTJfS1AxN2tYUmFfQUpONF9wdTUyRlZvR0xhZ0MtS3NRZUF5RkRYX1hYNDdVLXBCTEpVQjNNWHU4eWcwcm1WTVdua281UW5keFVRQjZ2ekNZd0tCYWNaVjBqMDNHVzJYaWhQQlgxS3VhY2EtTEFNaU9mRmhtS1V5WkhvN1dmM2t3aHE4TkYzS29YMG9nTzdiUjXSAdoBQVVfeXFMUHEzVWplWEQ3TzQ5UUYtOTUza1pXMGxQcHMxVFAtSldOdEYyUXFGaDRXanR6RHQwQnlsNFlodkZnOUZqaU9rRndjeC1TZ09FUUdfNlE0N2tNcHlnaXVuN0xEVE1yQnZkTTV0Z280Vm9nNnpOMENuTGp6RFZONGs1b1UtUTRvTGt6cGI4cWVvNEZENHlkS0Z5U2JRNnd2WWxsT082YmhUZ1JMbjhGVW41UkxxbUR1ajgwSnZ4WDZ5NF90eDZTNWNUQUF4LWI3WXdBTDJnTDlXdGpqYnc?oc=5",
-   "source": "PSU Watch",
-   "sourceUrl": "https://psuwatch.com",
+   "id": "6e5507e76c83",
+   "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVFNBWlJ6UFVySjZwQmpxcnZuTEpFQ0tMYk0xUGxBVGcwSDQzSWxrQlNoeHpfaFVHZW1BTzF5cjBUc1hGX0tPQUJwM1hsbHBlS2lQSDdOMkkyMXFONDI0MGtmSUVmdElqeFZhazVlbEIwQnVzbV9IdW03N3hmd0pVZFlZVzlKV2Vja0lXeElPcVZlUDQ4eDZHYkR2R3VfWnJUZ0lPX21ZREg0MTF3ZjhoLXBBVV9BVWfSAbwBQVVfeXFMUE1mRFhSV1FCV1NNVjlpalgtVV9KNVNtMTZQbE40eU5Mbmlic3BpMjl2NFFvY1JKZEFCTldfV3R1UVBpMi0ycGNpWWstZE9SaHltMmdoSVgybGxmcTF1Y2dzdlZUVVo4aG5tOFNFdUZtZFA1b3E3Y0xGZW41blBabjlxZXRncDNGdllPR2o1blVNMEZMenB5WWlsMGJZcGR1RUFzTDRNUFBkelM0MmRCSlVVRWNFYy1udjc5RTM?oc=5",
+   "source": "BleepingComputer",
+   "sourceUrl": "https://www.bleepingcomputer.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T17:26:13.000Z",
-   "summary": ""
-  },
-  {
-   "id": "c1f3de88545c",
-   "title": "When Trademark Infringement Is A Crime: The Blurred Boundary With White-Collar Fraud",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNk5jMVI4TkFTcjNJMmN2TjBFWlZwZGR0cDNmVXdkUGJWcHRlQTJ0cWVLaXNrcWVjZ1ZORFl5ZmpvZW45cHgydzhHdDBBR1dXVUJZWm9lejByNVhfM19hdjZKX0I5X21SLUt2SjhwdE1iVm5BdGJ2M0xHN1F0YWdSZE54dndhQUNGVVpMaU5iZEFfSklvSGpvbVQ1MjRNX2syZjUzV042bF8xMnBMc3JIOXplSE5KZXZ2Q2h3V1pCOFhDcEZqOVJoXzZYbmtEZ2tOLUktMExKbDF0djN4bFo0T2R4NA?oc=5",
-   "source": "Legal 500",
-   "sourceUrl": "https://www.legal500.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T16:24:41.000Z",
-   "summary": ""
-  },
-  {
-   "id": "eb73db734326",
-   "title": "طلبات براءات الاختراع عالميًا تسجل أعلى مستوى في تاريخها",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84eXJpU29yR1IwamowSE9sYXFlc3FrTnJlUk1yQnY5UjNDMV9NRTJKSXU3Qm5oQUJtS0IxS21YV1dmTWFCNFkzUmhxSnpIWmcyaUlN?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "sourceUrl": "https://twaslnews1.twaslnews.com",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-18T15:13:02.000Z",
+   "date": "2026-11-18T11:50:25.000Z",
    "summary": ""
   },
   {
@@ -459,11 +435,11 @@
    "summary": ""
   },
   {
-   "id": "d00aae10e360",
+   "id": "7b0cf99984d3",
    "title": "عام / مجلس النيابة العامة يوافق على مدونة إجراءات التحقيق والادعاء العام والخطة التدريبية لعام 2027 في جلسته السابعة",
-   "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5VV1poMTBHS0hZS3EwdGVDQjhTTHZnSm5CcjY0MGVLV0RZb003aW1LUWNRU3EyeEtGamZQbXBtV1Y?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5HU2tpWDNOb2pucFRJUnc0dF83ZjhaNmtxekxBS0owbnp2UU96Z0FiUVk4d3pHX21VV3N3MF9vamotOUJCckE?oc=5",
    "source": "وكالة الأنباء السعودية",
-   "sourceUrl": "https://spa.gov.sa",
+   "sourceUrl": "https://www.spa.gov.sa",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
@@ -480,18 +456,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-17T11:23:24.000Z",
-   "summary": ""
-  },
-  {
-   "id": "198734294741",
-   "title": "السعودية.. الموارد البشرية توضح حالات انتقال العامل الوافد دون موافقة صاحب العمل الحالي",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxbzVEcmtEQ2V4cXI5ZElKckZQS3dXNTk4dmdBWW5YX1hSMnJocWNxczdfQnRYam1Qc0k2OENBZUZkRUh0Y1ItSkp0UHVTSDFlc0ZYWFg5eHFYWjBtZVJNQmlGWngxWTllOVpXX1d0bjc4SThwVkJnMQ?oc=5",
-   "source": "صحيفة اخبارنا",
-   "sourceUrl": "https://www.akhbrna.ae",
-   "scope": "محلي",
-   "topic": "labor",
-   "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-17T02:47:25.000Z",
    "summary": ""
   },
   {
@@ -528,6 +492,18 @@
    "topic": "prosecution",
    "topicName": "النيابة العامة",
    "date": "2026-11-15T19:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "d2727ab6985f",
+   "title": "النائب العام يزور نيابة منطقة الرياض ويؤكد على التقيد بالمسارات النيابية وضمانات أطراف الدعوى",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE13N1o2M1lXNktnTC0wZG5ITk1vUWhwSHhfbzlucm04SXg1UjVQODFqY2FNd3lDOUg0WHVMbjZvbEJJeGN3bUtz?oc=5",
+   "source": "صحيفة أحوال الإلكترونية",
+   "sourceUrl": "https://ahwal.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-15T18:43:34.000Z",
    "summary": ""
   },
   {
@@ -579,18 +555,6 @@
    "summary": ""
   },
   {
-   "id": "2303ea01bf2e",
-   "title": "طريقة تسجيل علامة تجارية في السعودية عبر الهيئة السعودية للملكية الفكرية والشروط والرسوم",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEZFVLSUd6RlJZQ0lUYVdUVUZQWGw0RnZqUlc4M25tMDVQSFlYdG1GYVNZb0RhNHZqQWNINW9DRFpjX01GMHJmY0FnUHRYbnRSLXNpVk9Rdk04Tkk?oc=5",
-   "source": "صناع المال",
-   "sourceUrl": "https://almaal.org",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-12T08:39:27.000Z",
-   "summary": ""
-  },
-  {
    "id": "f6c6def90ae7",
    "title": "مجلس إدارة الهيئة السعودية للملكية الفكرية يعقد اجتماعه (الثاني عشر)",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE02bjFKZ1B5akxmSjlLcEJhR3E2MEwxeXRGQlhiWnZLMy1iZk5UTEFVamlUTVJBT3A1bmN1bTY2NFZKVlcyTXA1YQ?oc=5",
@@ -600,18 +564,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-11T18:47:37.000Z",
-   "summary": ""
-  },
-  {
-   "id": "e75220f075e5",
-   "title": "أمير جازان يستقبل مهندسَين ابتكرا روبوتاً ذكياً للتسوق الذاتي والمرافقة وحصلا على براءة اختراع",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10VFdIYlZTLU5sWUVyLXJpTmRiSXBDSGF3MDlzS0twWEtkeV9DSWdIZW4yWk9HTjNyZVVRZnBxUUxhVGJnXzREUEtjWE5RSjZzUHfSAVRBVV95cUxOZE1rWHlYVHphUHF2YVhXQ3dpOGZoZVJDWG5vcHpjT3psQWNXejUxZlhCbjJJcHJoMU5Xa0NaX3pWVmRnZHY2MEdSX2RwaUNQd0V2azk?oc=5",
-   "source": "عكاظ",
-   "sourceUrl": "https://www.okaz.com.sa",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-09T08:00:00.000Z",
    "summary": ""
   },
   {
@@ -672,18 +624,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-10-25T07:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "1d7cd2cabfdb",
-   "title": "سير السعودية تسجل براءة اختراع سياراتها في البحرين",
-   "url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxOd2hRLUpnajZjek43MW1uRFh5Nm9xQ0FoMnJJdVR6bXU0aTNTLWo0V0JKcEhnMlZkdnNPTHNvVnJ5TlZSa3U2ekFmLXMxOGt2SDFmUnhDYVhxMElqcUR6LW1fbG9yUVNuQlhZeHVmdmZnTlJFZG1RYmxfcGd6ZzFHRmFzVlNIRXVMbW1WdGlxUWgwcENhbzgtc0ZTWG9SMGYtczZqR0c2aE90dnF6LXg4TXRWRUlCZFFBeEdxd3ZDY2xqTm9ZdFVKSUozSWxzX2Q5RTdUNlkyTjlqRnRRdFpjYUx6cm5pU082eXZ6X3E4SnhNOTBfM0EySUlnVVgxOU1MUjV6Wjk0R095WkJTX3BfUHIzUUlicVFVTGE5VmFxU1FMN01lMlJIb0FfRFBIT0JTSFFlb3FDMm9IZXFhX21NRTJBaVZzV2V6N2kzakdtVkJ1d2YxRWdYOTVvcXI2Q1IzYTFsNjZRUVdjbkR6Y1BPNVdWWUFfYmlvU002VnhpTjJFb2R3ZEZ5d0R3clBrckNGd1h2RlJKRUc0RUVDekR0dGU2d3c5ZDFOa0lfRXROc2IyUG9RWVF2WmxSN1NyZ9IBVEFVX3lxTE0xakFZSmhwekVQd1l3QTVWTjB2VS11ZlNyWUZ3NFByLXpDSnJlUldmU09FZmZhSk53bWdDeEhUQ0ZSbHNpeWJsV05WUnBhTmpVeDdoRQ?oc=5",
-   "source": "صحيفة الوطن",
-   "sourceUrl": "https://alwatannews.net",
-   "scope": "محلي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-10-24T20:00:52.000Z",
    "summary": ""
   }
  ]
