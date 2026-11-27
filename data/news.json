@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T21:27:50.208Z",
+ "updated": "2026-11-27T08:22:22.008Z",
  "topics": {
   "ip": "الملكية الفكرية",
   "labor": "وزارة الموارد البشرية (العمل)",
@@ -9,57 +9,117 @@
   {
    "id": "ip-local-saip",
    "ok": true,
-   "fetched": 70,
-   "kept": 7
+   "fetched": 71,
+   "kept": 8
   },
   {
    "id": "ip-local-piracy",
    "ok": true,
-   "fetched": 25,
+   "fetched": 26,
    "kept": 2
   },
   {
    "id": "ip-global-enf",
    "ok": true,
-   "fetched": 81,
-   "kept": 62
+   "fetched": 78,
+   "kept": 58
   },
   {
    "id": "ip-global-piracy",
    "ok": true,
    "fetched": 100,
-   "kept": 34
+   "kept": 25
   },
   {
    "id": "ip-global-wipo",
    "ok": true,
-   "fetched": 34,
-   "kept": 27
+   "fetched": 98,
+   "kept": 66
   },
   {
    "id": "labor-local",
    "ok": true,
-   "fetched": 66,
-   "kept": 15
+   "fetched": 68,
+   "kept": 17
   },
   {
    "id": "prosecution-local",
    "ok": true,
-   "fetched": 31,
-   "kept": 8
+   "fetched": 30,
+   "kept": 10
   }
  ],
  "items": [
   {
+   "id": "f32807b50fa4",
+   "title": "الأسماء.. النائب العام يكلف 12 مساعدًا لرؤساء النيابات في المناطق",
+   "url": "https://news.google.com/rss/articles/CBMilAVBVV95cUxPUjJWZl91SjBQLVEwOHpmTDdhOTlBdmxsWGYweldWWGprY2NscTlHVVhwaEwyNnMxVzZfMTdLdWQxT1ZUNlN2elFWREo0NU15dXVibzBWckxHS3JWODZHTnZXV0ZYeVpWejI5dDBHVnBmMlMta2czR3l2MHYxbmtPc0RqcjNKamo5SnZMQ2cxeW1OaXdZQmZERWRpOFlSMEtrYlE5c1FzajFqVXJsQWJPUTZzUUJ5NFROY3RDWFctaFZZRFJfbUFIUjhMUXZwYmJtNi1OdXloUDN2WG9LemNQNGd3QmlqRTRpbC13ejZCNDcyc0k1UTFnSHh1VjNXZnJFR0U2bVU2S3dNeHdtNU53RExBVEZpaVFORFNIWm96RW5Sek42T2tHWjFnekJnWGdVZkh6bm1qcnRwTWRqOGYxbFFaTkZKXzF1Si0xZVhEUmRjbkltS0dwV1ZSYmdnTWxMWWFuZkU1em9VM2NycGZUdjc4NGt6d0lpRlUzZXp0OFg2SHNZekVnQ2U0ZUNfcl9XSU5UeUlYbnJtVlpqNnlqX2hfajc0ZUpPMk5NVExVMENVUUpCTF9zUnpqX1Jwanp1LVROdWFZSGwzcV9od296emJfX3dLRWI2aWZsTndaX2xWTDdVcXZkSVQ5dnpXendsRzNCMmtvaW1rdXN3UnJxY0pZZ0t2N01jRi1mazJfZVp2THZOQ25GbmUydVUzY3doZTVTMk14RS01RnRpd2ZEREx0X1BxcmlORW1RTDJjVUpWeTI0dElxSGFVWXI5enl2bzJBallqeng5dEZGMjNucVIyM0RxWkp4MkI4emhBZnhlSmM5UFl5ZWpwUmg5cGNOc0tMOURoMjNVTXYtVFRweTZDcnDSAVNBVV95cUxOMk9qZy1wb0V6c2xxbHRIeTFkdmJkQkRLNmRCMWtiUjZwbFpBbEVUWUY4aEJtZ1VqTVlTOVJqZ21UUXRyblk0WVJaN1JSSmpzUkI5WQ?oc=5",
+   "source": "alyaum",
+   "sourceUrl": "https://www.alyaum.com",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-27T05:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "id": "0057676dd44b",
+   "title": "FG, WIPO push reforms to boost business competitiveness",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTXhtZEEwdGNxYmJacTBSVG5LTXplTUYyUTFRbVZ5bWh1X2ZTcjZaSjM4SkM1RFcxVjdvNk1ibEJyRldyUDFwaVI3a3l0N3BiWVdQZkhPR1hYaktFWFEwMDlEUkU3Tng5bURVNHRQSUZOaXBvV3c3MzRqUER6OXd3X2RCb2FpdnAzNkxXeGNHbXY3TlFGUG1ERw?oc=5",
+   "source": "The Guardian Nigeria News",
+   "sourceUrl": "https://guardian.ng",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-27T03:00:38.000Z",
+   "summary": ""
+  },
+  {
+   "id": "3cc6930aca36",
+   "title": "Region II Customs effectively prevents smuggled and counterfeit goods through border gates",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdnhNMm5wdFIyRFRaQVZ1LTRhOW5paDFreVJiNnVhSVFBQ3dCSkhpWGNGS3NPY3hUcDBkX2JDc0QzWDNWR0dtd3RmYTRJWDRrajBYc21SdmNaNGdOeS1La2YxdmdSQ1hhVG9yTk5qUVNEUnpvdkgwbWRMb1hnSXJ5cXNzTVU3ZThSU2dleF9HTzJoTHcyb1ZyRnRfM01TSXhYUFJrS3F4S2ZOaHRMVE5GNy13YjJqQkU?oc=5",
+   "source": "Laodong.vn",
+   "sourceUrl": "https://news.laodong.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-27T02:23:22.000Z",
+   "summary": ""
+  },
+  {
+   "id": "388ebbbdd907",
+   "title": "النائب العام يصدر قرارات تكليف لمساعدي رؤساء النيابات في 12 منطقة ضمن برنامج التحول المؤسسي",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBYQVdicEpXb0lrYVB5NDM1LTZTWDRlQjVBVjhVMHY5YmxjZnpkZXpDZWpzbWdRQjlMSkpFaFBpeTVyRVVpLTNORTlSVWpRNG4w?oc=5",
+   "source": "https://alsaudi.news/",
+   "sourceUrl": "https://alsaudi.news",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-26T22:11:09.000Z",
+   "summary": ""
+  },
+  {
    "id": "119e850e35dc",
    "title": "النائب العام يكلف مساعدين لرؤساء النيابات العامة في مناطق المملكة",
    "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNdkZhTTB6VnNxVkZjdlEwTzRmU1ZEXzJnVEtLNUl2OWF4SE9QUkpHV194b1hnVV9CeHNLNUVzYlJnMHVXZ3lyZHJaU1hMRzF2V2FlckdUUlZ0YU5oT0RybDNvRWt0THNFb1RtaWRNMkV3TWs0SGtYLUFWSFN2ZFVBQmlZNnBaei1BbUdFVC1hY25RQ25YYTM5aTRaWDlzQ0pSTlFCN0NkdTJrbEN6c2xXSDlhVUp2ZDRzdmJtLThpYTRZTDBEQ1ZnTENUNnR6YnZUaktTaWRmVTI5Qk9RUUhhYTRaNmhfWVVfbWgwbG1XMUhLdU1ja29sV3pIUU55SVlqdmZhSWpjNmJXVjhIbzFyVTB3Y1BOVjNEcU9KOGNWaTJnd0FBZDRVZWJadXEzYlVJYWJsQVE4YUROQlRQTzN6Um5iVjN6Zw?oc=5",
-   "source": "www.aleqtsad.org",
+   "source": "صحيفة الاقتصاد الإلكترونية",
    "sourceUrl": "https://www.aleqtsad.org",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-11-26T20:42:40.000Z",
+   "date": "2026-11-26T20:32:24.000Z",
+   "summary": ""
+  },
+  {
+   "id": "83e262538cd8",
+   "title": "النائب العام يكلف مساعدين لرؤساء النيابات العامة في 12 منطقة بالمملكة",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1zUmEzejZKMzNYQmVGelVRb2MySjd0VjM2MlhldFhiMWNndmY2T1lKeWVtSjRlVG52MlBETElzV0cxUlR6R1JtaTRCNWJZRnlkNmxGbjJRc3FBNEV6ODFj0gFUQVVfeXFMTmc0d3o4NU9TdnpWVXdjS1RLUTd4UHZ5b3I0VktZR0paNVZ1NmUwaGE2MmxkQnJOY0NWZzlGTEY2OTJXY004aFdWUDd1R2lVaHlwSDRr?oc=5",
+   "source": "عكاظ",
+   "sourceUrl": "https://www.okaz.com.sa",
+   "scope": "محلي",
+   "topic": "prosecution",
+   "topicName": "النيابة العامة",
+   "date": "2026-11-26T20:00:00.000Z",
    "summary": ""
   },
   {
@@ -99,6 +159,18 @@
    "summary": ""
   },
   {
+   "id": "eb503d73dfeb",
+   "title": "DStv steps up fight against piracy as illegal streaming threatens its future",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNVkwUDM5T3JjblBQUE04TmtfMWRFNkRLWWV0Mzg4UDFzclN4NzRadGlJdmduT09QbEFKZnFLM0U0emZJblRwd3dzbXN3MmpSMHVtSEFfb2JhcWdvUjNZT2oweExVU2NUazhvN2N5SjM1RUZ2VUhSM28ya2xack41ZktrdnJwZkdTRmJPSU1md1dMTnVKZG1sNEFiWXUxUUpsYWFzNXB6WWl0cFlnQ0cw?oc=5",
+   "source": "Cape Town ETC",
+   "sourceUrl": "https://www.capetownetc.com",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-26T15:00:23.000Z",
+   "summary": ""
+  },
+  {
    "id": "7d110ef45401",
    "title": "Warning to Christmas shoppers as counterfeit goods seized in Birmingham",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdjhaSE1MeUFKeTRXVG85bkJEclVTY1JPY1BIVjBMY0RXdlc2ZTNTMWpuSzctcy1ZbE1TUk5NeDlVTDczR3hWalFqeU8ySzlOY1NWdFZ5TGtnWjE5SURHSVdZTlZhWjhTMkpWNFY5ZDA1WEw1bVZLbmlXdWdJV0FVeFdpV0hiNXdmRGVaa3lLYmJxSnpUN1Rfb2NPaGM?oc=5",
@@ -108,18 +180,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-26T14:40:53.000Z",
-   "summary": ""
-  },
-  {
-   "id": "70365aaecae3",
-   "title": "A consumer rights activist who has been accusing counterfeit goods in China for about 30 years has c..",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95SHZMN1FxMzdDZ0pROHg5V0JCRmZzQzhDY3hDXzlWRnNLWDlQVlJaMWtjYVFyM0MxMGlEcmxfMmJUaVFkRzVBZ3B2UzlQSlE?oc=5",
-   "source": "매일경제",
-   "sourceUrl": "https://www.mk.co.kr",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-26T14:05:36.000Z",
    "summary": ""
   },
   {
@@ -168,6 +228,18 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-26T10:55:53.000Z",
+   "summary": ""
+  },
+  {
+   "id": "7cf752fcacc7",
+   "title": "Launching a series of activities to identify genuine and counterfeit goods and promote the consumption of Vietnamese products.",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNakktcERKSmVQUVd3djdfQmVlV1B4NmlKN3o0SW1jUUlYZFZVSGtDdkVoLUxKd0s0TmlzVFVkcWREVTNINVNDZk5zMU1QY3JKeHJ6RGs0SU9abHNmR0szVGxOY25fdEN4QnZiQ2NPOUpIQ0pPaEVvRmM4cmU4LUE3c2VTd1VoQWRndm5WeURuTjM2Z0NWRG5LU2tYU0cxRHc?oc=5",
+   "source": "Vietnam.vn",
+   "sourceUrl": "https://www.vietnam.vn",
+   "scope": "عالمي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-26T09:46:04.000Z",
    "summary": ""
   },
   {
@@ -255,15 +327,15 @@
    "summary": ""
   },
   {
-   "id": "791259e6b0c5",
+   "id": "14a4001fc8fd",
    "title": "EUIPO-Backed Unit Tracks €26M In Illegal Streaming Payments",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91WFZnZkhJOHhkd1JhS2xUY01SUW1pZHA1T24tdFBjcXlVREpOc0xKSHlxZEpfUjJUSVhtNVlHWWd6Unl4RzhTZmdma2UtZDdTQlZlTUd30gFWQVVfeXFMT3VYVmdmSEk4eGR3UmFLbFRjTVJRbWlkcDVPbi10UGNxeVVESk5zTEpIeXFkSl9SMlRJWG01WUdZZ3pSeXhHOFNmZ2ZrZS1kN1NCVmVNR3c?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX2piNURKaGZBSTZJdTcyeWV6Qlp1eHZCT1YzZ3dVOEg0WnplazhoUVo2aTh1MXBwbnFQemFpcHlfYmVKQUVnNUdoYUgySUpITzFqVlZIV3ZZb1plbGphWmczTm9DUGppZmpBMjhSa3IxSTRwenVlQXVET0pHV0pINGpQS2RnSFh1SFhCUE03SFdiZ2RLQUtYaDlMdW5LVE3SAVZBVV95cUxPdVhWZ2ZISTh4ZHdSYUtsVGNNUlFtaWRwNU9uLXRQY3F5VURKTnNMSkh5cWRKX1IyVElYbTVZR1lnelJ5eEc4U2ZnZmtlLWQ3U0JWZU1Hdw?oc=5",
    "source": "Law360",
    "sourceUrl": "https://www.law360.com",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-25T18:30:00.000Z",
+   "date": "2026-11-25T18:30:42.000Z",
    "summary": ""
   },
   {
@@ -339,15 +411,15 @@
    "summary": ""
   },
   {
-   "id": "1c2818bb8e08",
-   "title": "Sue or Arbitrate? A 2026 Business Guide to IP Enforcement in Sri Lanka",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNDhaWExTLUZtZ3ltMi16NXlDNkVhWFVjVXhjMDMxNV9JVm1tVG5EUGx2QWdXb2xhMmxERmxqRnN1U01hb1RpTjY0dDdKV0hmWGxMWi1zdG5LT1ZqWXZMNTRtOFlEelRxbDBCa1Z5b3NJWlJoel8zZjl5ZHoyNlZUZU1aRzdUTWJtWWxoQWVwYUZpdl9nb1V4M0NB?oc=5",
-   "source": "Global Advisory Experts",
-   "sourceUrl": "https://globaladvisoryexperts.com",
+   "id": "604b437c8ffa",
+   "title": "Culture Ministry Shares Korea's Webtoon Industry Growth and Copyright Protection Experience with 9 Asia-Pacific Countries",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51a0hSNEJwZGk2YlJ3SlNralI2ZEJIOWdpd1lmNUR5MENwT3FsMEdTaUo2NUhkcS02eFR4MUo2R01fMEFEbGlKTzhWRUFGUjh2MXF3MDBZZElncTNvTmJHTnZ5SVQ?oc=5",
+   "source": "아시아경제",
+   "sourceUrl": "https://www.asiae.co.kr",
    "scope": "عالمي",
    "topic": "ip",
    "topicName": "الملكية الفكرية",
-   "date": "2026-11-25T07:14:40.000Z",
+   "date": "2026-11-25T07:15:37.000Z",
    "summary": ""
   },
   {
@@ -384,42 +456,6 @@
    "topic": "ip",
    "topicName": "الملكية الفكرية",
    "date": "2026-11-25T04:29:32.000Z",
-   "summary": ""
-  },
-  {
-   "id": "23e6036ca36d",
-   "title": "Total Hypocrisy? Disney Sued Over Multiple Instances of Alleged Copyright Infringement on Social Media",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeHNTS282QnpDX19seGpfT3hJQU43Tko0RkxHemNRSzBaR2RCSi1QOVNicGRubGt4RnozbXpDM1dRbEpDUnozQ1RtNVlyX2Jna1RWLU9nUDZNbjVWRjlmLXFBMllhMTV5SU5kdmJqWHlWU1hISkhTVlZ6Y0tqaFhmNmhGLURsTlM2VHpVQnhZOTM2QkxvTmM0dThBMA?oc=5",
-   "source": "Digital Music News",
-   "sourceUrl": "https://www.digitalmusicnews.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-25T02:49:50.000Z",
-   "summary": ""
-  },
-  {
-   "id": "acae181076bd",
-   "title": "AI Copyright Sri Lanka 2026: Business Guide",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQT2FROUpRZGRzT2EyakZTVklscGN2cTVjVzg2Qm54YVpMV1ROdzNtNnhwOWxLcTgwT1B3M3V0TUhFNHJMQm5iZ2c5ZjVmSWtiR2hWZHJ6T2p4LUd6RlU1Xy1BN24ydUlYVkRLTmsxUE9FV3Vua2ZpZ25yd2hPODBIVlZ3a1RoeGJ6T1RVdGFadUVOOVZaSzM3V2NEQQ?oc=5",
-   "source": "Global Advisory Experts",
-   "sourceUrl": "https://globaladvisoryexperts.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-25T00:29:20.000Z",
-   "summary": ""
-  },
-  {
-   "id": "6c275be0feb9",
-   "title": "MillerKnoll sues online furniture retailer for copyright infringement",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPekVMOEZNT01zT2hwTXlneGlvNHhMTzl6YWJvTEtORjdyMzVwTjRGOHM0RXBJVE5uM2NOSWMwNV9QNlNRSEdGam5qQ1c1RWZITVc2Y3ozdDZ5RnFrY0RoYWJaVHRIdThEeEZNdi00c0lpNWRKOUFGZFY1ZW9aNXJHMUE4anFFZDNqSDBVNHdaV3VES1hvVTRDZTE3YTNKdGhCdVN2MWhsdG9ydDFzQTJPMmh0cVU0VkJKNE5JUlBQNnNnWDI3dEVTOTdYOW1yd2h5Nkk0ZGk5eVpFcHExZnZ2eXNvelRDQQ?oc=5",
-   "source": "WZZM13.com",
-   "sourceUrl": "https://www.wzzm13.com",
-   "scope": "عالمي",
-   "topic": "ip",
-   "topicName": "الملكية الفكرية",
-   "date": "2026-11-24T23:18:00.000Z",
    "summary": ""
   },
   {
@@ -519,6 +555,18 @@
    "summary": ""
   },
   {
+   "id": "eb73db734326",
+   "title": "طلبات براءات الاختراع عالميًا تسجل أعلى مستوى في تاريخها",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84eXJpU29yR1IwamowSE9sYXFlc3FrTnJlUk1yQnY5UjNDMV9NRTJKSXU3Qm5oQUJtS0IxS21YV1dmTWFCNFkzUmhxSnpIWmcyaUlN?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "sourceUrl": "https://twaslnews1.twaslnews.com",
+   "scope": "محلي",
+   "topic": "ip",
+   "topicName": "الملكية الفكرية",
+   "date": "2026-11-18T15:13:02.000Z",
+   "summary": ""
+  },
+  {
    "id": "43c3353d1f5f",
    "title": "توطين 15% من المهن في المراكز والصالات الرياضية | HRSD",
    "url": "https://news.google.com/rss/articles/CBMiiARBVV95cUxPdEZ2WG9yajRKYTk1Z05aQmZaZHRkZDFCZmhMNF9zQzFKTkpHTlhDdDBEWS1FT0hMR3Z6TUVrd2ktbXFSY3hNUDVUODFmUjFVM0I3dUs5aE9CbEFpOHd4R29oRDVLWGpMOS1za2YwY3RfTmhfNkVoZXZMM0lQUDNpV2g4NDNia1RkNzhFb25TV1M2UElxZXdaM25uOWFiVDY1TGR6M3NYVWUxWnk5LTJYRDhBN0lBVU9uVDRyUGxrTVY0eTJDSGpXQW4tbU9uOFZ6TzJrVVZ3NEM4Vk5NaXZGaXhWdmVncGNzeHpRSm5ta0tpYk9XZ2lJdGUzaTFlRDBhR2JDbGRIX01LSWNzbVNjelBoekdVaW5MUDBKQTRLRTFTMktPY0k3ZE5LX2xDUUZNWmVCTnptUzZQdG14MGdGTUxXZGtLbUVpT280elZQSEZ6RERjekNwWElJeG1UOXJzMV8zV1ZtMnlBdUx0aWtMSk1FaVNPZV9RemlWdFpnSG16dTU2VHdZSW9CRktodHg3Sm1EY3pfYWQxQWRqTG50NnctUDRzV1hWREdCM1VicVc2UkhIMm5GTzdvRUlDYnRoNlhVSmViQ0xVc0lnSWFuUEk3VHFWeURBSFZxYWhNWktYcTdWV19TakNFcV9BcEw2V0JmdzVYVXFVWkY5Z2Q4SVU2azlfajE2?oc=5",
@@ -527,7 +575,7 @@
    "scope": "محلي",
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
-   "date": "2026-11-18T06:02:00.000Z",
+   "date": "2026-11-18T08:00:00.000Z",
    "summary": ""
   },
   {
@@ -591,6 +639,18 @@
    "summary": ""
   },
   {
+   "id": "822491d0e1df",
+   "title": "عقوبة تمكين العمالة من العمل لدى الغير في السعودية",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaG12bDFoWTVuTDd4dkpVSmpjMGtXS3MwY1ROTl84c1lta3R2RWdLaUUxVmhucnJqRVFReVROZmNGUXBJV0x0bjlZNjM3Yk4yUFVteHUwNHFwVWR0WXVvOEFnSjgxMlNtaE81VFpLcU8zWVNmaF9TOVlReXItS3BSb3Z3LWRhMFhfS0phOV9rUnBFa0FQRURVMG1weTBrUllMWnpITmp6Z25RYXVWWEtv?oc=5",
+   "source": "أخبار السعودية | saudi news",
+   "sourceUrl": "https://news50.sa",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-17T08:00:00.000Z",
+   "summary": ""
+  },
+  {
    "id": "4df9f4b8238a",
    "title": "ضوابط قطاع العمالة المساندة: الموارد البشرية توضح العقوبات",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORDd5UVFtT3lrUVZYdnpxYUV0S190eTdzTDZNN1k0c1NseHVBNjBxaTA1WUd2R0Jabzg4UmlTX01QdmlKbWN2NXVqdHlfOGpnYUsxVHB4WEE3WWoydnV2T1dRTkRpSHlFYnBlaF9QTm40cS1JejVwXzl5T21hOEktUkppcXVYU2lqVnRtNjlqREIxRUMtUjNVRDdiU3RlTE9IZXc?oc=5",
@@ -600,6 +660,18 @@
    "topic": "labor",
    "topicName": "وزارة الموارد البشرية (العمل)",
    "date": "2026-11-17T01:11:16.000Z",
+   "summary": ""
+  },
+  {
+   "id": "2b1cac0b1e74",
+   "title": "\"الموارد البشرية\" السعودية تحدّث مخالفات وعقوبات قطاع العمالة المساندة",
+   "url": "https://news.google.com/rss/articles/CBMiwgRBVV95cUxQUDluTlU3aXZHVi1CTkI3NEtPX09SMmpVb2pPZDF5dTBUZHVXSVdKQ1RTcG9EQlhVZ2xkM2tlRzNhenNDcGtGX2FHTFVmNXF5ZXNIZ29oOGhnRkNoMXlSV0pRX212REoxUmUtci1Hck15cHJ1YXpwdWRMREN0bFlBLVRKWmJMTjZNZEhfdkE4Y0pZWFFYdEVubTdqc3Rqck9uZmlhQjFwcEdEZUZ3eHdUVTVKRnpTUi1FNHFIeVdDelpDUnNELU04amJlTjlUQ1E2WkczQlBTZHNyUmdEak0ydFB2amdJMzZYa0lFYU5uNWUybzZYakduVThDQ2V5Ti1Vb2Z5N1YzWnRLUkdyNFh6MXNoTzd6MFROOHg5SklwcWNfRDhwSmtRQW5pY1Y3cDBQU0U2bkJ4V09lVkFsQUxwNWNUTG4zM2hxV0hKSWF5bWxXMk9CT1psVndoRHA3MlpkcFF6ZTZjMHlvaWQweXNjRmY4My1lbXZMbWZwTWVfZFJDb1F5U28wRTRUdk9oUnlMYTZXMHlqOHNaUVRPSDlZMzIzVTBwRGdSSjBWcUxtZGNWbUhOSUpmdHR0ZWUxNTdBNy11Q0xTLXc0cnltbDYzZXVnSTlWNmVzTUZ0ZFZmZUUyZGhnNmNON09HdTM1VHFxZk1sVENDZXdtUjItTjI2V0dJNGNiWEZPZkxzNXBaU1VuZGVBeDk4emN4WkxCOF9ENkl3Slg0QUUtdzJaOEFjR2kyRWhSTjBwRzZHN2c1cGdSUdIBxwRBVV95cUxPUFVfXzd6WldvcTQxTkFJUlJzeTZvUjlPYUN6cTlDdjNGd1RYMmp4OTlfenRneEpuMVJxY2J3cjlBWFN5MXU0azJVaFQ4WW5SY0dkQWRnb1ZLMG9jNmRaaUVBMGs0enFjT0Y2OC1MWFZibTQ4aDJ3N0gwWjQ1NmhyczlPQTNuZ0FfWkVhSzRqVkxWa2lJZzZIdEVEWmhUX0VjV2NfMUFXM1pkdUh1SDhBOE4tSzZhbjAzR0t3NW1tb24taXpsMFlRVmNtSDQyeWc2NEl0RWx5MHA2a3ppSU9UczUwQ1hXVGZGSXlQbm1hM28zbzZWd2JuMTBkTnNfRklGY2RpZG02SVFMLWdEemU0UkFKV0JzQmh5MDRpcUtVUml4bzZTVkU1STB1amttQ0piOTJkdm85TnpDV0tnYUJSY0FsNjdWZUtPVWJFNHEwckdRNlBQa3lzeGM1Zk1FMkQxWDZWTVN1Qm5NbEc1V3hkUnEzSloyaGtfdFpHU3N2cXV0QjZjbURsb2EwUmFBZHNTVldORUhCM0hpUXZ5Y2JFX2Z6S1JHZjdJNm5XbERvc3pDYWpaQUFsUEFmc19ISDVfTHZibjhVNGVlNVhkU212Zmg0UlU1T1J2b0NLWmZFb2pOUU8zNjhNNzlQRncwQkdyV0NXUzVfS2ZjcTlCY25RZFdCaXAxWmVqekVBcW9lLVZjRkVFMXZuNEZ5cm02QmFTQU5nbHJLRU9fWVBfWkZWU1RaUzFjZkZVQ1RYNlN2U3VOdS1EQWlN?oc=5",
+   "source": "العربية",
+   "sourceUrl": "https://www.alarabiya.net",
+   "scope": "محلي",
+   "topic": "labor",
+   "topicName": "وزارة الموارد البشرية (العمل)",
+   "date": "2026-11-16T08:00:00.000Z",
    "summary": ""
   },
   {
@@ -651,27 +723,15 @@
    "summary": ""
   },
   {
-   "id": "f8ad05a80f9e",
-   "title": "هيئة المراجعين تحيل شركتين للنيابة العامة بسبب مزاولة المهنة دون ترخيص",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0zRGtmZTJWa3lmVjhRNDd3eG5OOUlaSU82dW5hVkF2NVFJYi1PcERvak9rWkhxWV92aEZlUVNvUGVHNnBGSXhpRElKcG9fdmJS?oc=5",
-   "source": "https://alsaudi.news/",
-   "sourceUrl": "https://alsaudi.news",
+   "id": "03dce3f3038d",
+   "title": "هيئة المراجعين والمحاسبين تحيل شركتين إلى النيابة العامة لإعلانهما تقديم خدمات مهنية دون ترخيص",
+   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1lUWk2Vl95Nms2WURiZzhMaU5BUUc2dmU1blZIekJCeWhKdE1JbDJtZ1VEYXlnVk5ILXI1M3JuelJEM2h3UmVN?oc=5",
+   "source": "جريدة الرياض",
+   "sourceUrl": "https://www.alriyadh.com",
    "scope": "محلي",
    "topic": "prosecution",
    "topicName": "النيابة العامة",
-   "date": "2026-11-14T08:00:00.000Z",
-   "summary": ""
-  },
-  {
-   "id": "4e3c05246acc",
-   "title": "إحالة شركتين إلى النيابة العامة لمزاولتهما خدمات المحاسبة والمراجعة دون ترخيص",
-   "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9FZFpaMGNYOEk5SjVONGJWeDBLZVVsWk0tblRNVVFaemxxRm5mS1VFb1JNMy0xQi1iNV91VmI3RUF5b2V3emVv?oc=5",
-   "source": "صحيفة سبق الإلكترونية",
-   "sourceUrl": "https://sabq.org",
-   "scope": "محلي",
-   "topic": "prosecution",
-   "topicName": "النيابة العامة",
-   "date": "2026-11-13T08:00:00.000Z",
+   "date": "2026-11-13T11:21:52.000Z",
    "summary": ""
   },
   {
